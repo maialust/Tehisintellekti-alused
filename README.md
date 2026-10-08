@@ -731,6 +731,29 @@ Algoritm ei tea „tõde“. See leiab andmetest mustreid ja teeb tõenäosuslik
 
 [[___ ___ ___]]
 
+### 🎬 Videod: mis see tehisaru on?
+
+Vaata kahte lühikest eestikeelset videot. Esimene tutvustab tehisintellektiga seotud põhimõisteid, teine näitab, et tehisaru on palju enamat kui ainult vestlusrobot.
+
+**Mis on tehisintellekt? Sissejuhatus ja mõisted** · *Videoõps · Kristo Siig*
+
+!?[Mis on tehisintellekt? Sissejuhatus ja mõisted – Videoõps · Kristo Siig](https://www.youtube.com/watch?v=hiiZOM3xV_I)
+
+**Mis see tehisaru on?** · *TI-Hüpe*
+
+!?[Mis see tehisaru on? – TI-Hüpe](https://www.youtube.com/watch?v=fYrqlFxF-n8)
+
+<!-- class="pae-motle" -->
+> **Mõtle vaatamise ajal**
+>
+> 1. Mis vahe on kitsal, üldisel ja supertehisintellektil?
+> 2. Miks kasutatakse eesti keeles sõna „kratt“?
+> 3. Milliseid tehisaru liike ja kasutusviise videos nimetati peale vestlusrobotite?
+
+**Kirjuta kolm kohta oma igapäevaelust, kus tehisaru videote põhjal tegelikult töötab, kuigi sa ei pruugi seda märgata.**
+
+[[___ ___ ___]]
+
 ### Kokkuvõte ja põhimõisted
 
 **Pea meeles**
