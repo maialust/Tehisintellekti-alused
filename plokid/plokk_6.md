@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.1.0
+version:  1.2.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -282,6 +282,9 @@ Ploki lõpus on kordamise osa praktiliste ülesannete, aruteluküsimuste ja plok
 ## 6.1 Eetilised põhimõtted
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Õpilased ja õpetajad arutavad koolis laua ümber tehisaru kasutamise kasu ja riske ning suurel ekraanil on kaalud, mille ühel pool on kasu ja teisel pool risk.](../pildid/illustratsioonid/6_1.svg)
 
 Selle tunni järel sa:
 
@@ -868,6 +871,9 @@ TI ei ole isik: tal ei ole oma tahet ega võimalust oma tegude eest vastust anda
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Noormees istub õhtul oma toas voodiäärel ja kõhkleb, kas lubada uuel rakendusel kasutada tema asukohta, kaamerat ja kontaktandmeid, mis liiguksid edasi pilveserverisse.](../pildid/illustratsioonid/6_2.svg)
+
 Selle tunni järel sa:
 
 - oskad selgitada, mida tähendab privaatsus TI kontekstis ja miks see on oluline;
@@ -1228,6 +1234,9 @@ TI töötab sageli seda paremini, mida rohkem andmeid see saab. Näiteks võiksi
 ## 6.3 Kallutatus ja õiglus
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Tööle kandideerijad ootavad ooteruumis, samal ajal kui suurel ekraanil sorteerib tehisaru nende CV-sid ja kaalud näitavad, et mõni rühm jääb ebaõiglaselt kõrvale.](../pildid/illustratsioonid/6_3.svg)
 
 Selle tunni järel sa:
 
@@ -1613,6 +1622,9 @@ Kallutatus võib jääda alles kaudsete tunnuste kaudu. Näiteks võib CV-s main
 ## 6.4 Mõju tööturule
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Logistikalaos õpetab kogenud töötaja noort praktikanti tahvelarvutist isesõitvate kärude marsruute jälgima, kolleeg kontrollib seinaekraanilt töö kulgu ja sadamavaatega akna all sõidavad kastidega robotkärud.](../pildid/illustratsioonid/6_4.svg)
 
 Selle tunni järel sa:
 
@@ -2040,6 +2052,9 @@ Amet koosneb paljudest ülesannetest ja TI automatiseerib neist ainult osa. Tood
 ## 6.5 Tulevikutrendid
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Kolm noort seisavad õhtul Tallinna vaateplatvormil ja arutavad tuleviku üle: linnas sõidab isejuhtiv buss, õhus lendab pakiga droon ning ajajoonel on märgitud täna, aasta 2030 ja küsimärk.](../pildid/illustratsioonid/6_5.svg)
 
 Selle tunni järel sa:
 

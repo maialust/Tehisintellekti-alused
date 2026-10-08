@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.1.0
+version:  1.2.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -281,6 +281,9 @@ Selles plokis uurid, kuidas arvuti pildist üldse midagi „näeb", kui tema jao
 ## 5.1 Kuidas tehisintellekt näeb pilte
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Õpilane pildistab koolihoovis telefoniga karikakart, pilt laguneb värvilisteks piksliruutudeks ja telefoniekraanil tunneb tehisintellekt lille ära kui karikakra 94-protsendilise kindlusega.](../pildid/illustratsioonid/5_1.svg)
 
 Selle tunni lõpuks sa:
 
@@ -795,6 +798,9 @@ Traditsioonilistes meetodites (nt Sobeli filter, HOG) pidi inimene ise välja m�
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Ristmikul jälgib kaamera tänavat ning tehisintellekt on märkinud värviliste kastidega auto, jalgratturi ja koera koos siltidega, samal ajal kui jalakäija ootab koeraga ülekäigurajal.](../pildid/illustratsioonid/5_2.svg)
+
 Selle tunni lõpuks sa:
 
 - oskad selgitada, mis on objektituvastus ja mille poolest see erineb klassifitseerimisest;
@@ -1264,6 +1270,9 @@ Pluss: puudumiste märkimine oleks kiire ja õpetaja aeg kuluks õppimisele. Pro
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Arst osutab suurel ekraanil kopsu röntgenpildile, kus tehisintellekt on märkinud kahtlase koha, kõrvalekraanil näitab TI abiline oma leidu ja teine arst vaatab tulemust tahvelarvutist.](../pildid/illustratsioonid/5_3.svg)
+
 Selle tunni lõpuks sa:
 
 - oskad selgitada, mis on meditsiiniline pildianalüüs ja miks tehisintellekt selles abiks on;
@@ -1731,6 +1740,9 @@ TI on arsti abiline ehk „teine silmapaar", mitte asendaja. Ka täpne mudel eks
 ## 5.4 Generatiivne tehisintellekt ja loovus
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Kunstiklassis kirjutab õpilane pildigeneraatorisse „kass skafandris“ ning suurel ekraanil tekib mürast samm-sammult kass skafandris, samal ajal kui üks klassikaaslane maalib molbertil ja teine võrdleb oma käsitsi joonistatud kassi masina loodud pildiga.](../pildid/illustratsioonid/5_4.svg)
 
 Selle tunni lõpuks sa:
 
@@ -2239,6 +2251,9 @@ Uus suurus: 800 × 400 pikslit, seega 800 × 400 = **320 000** pikslit. Algses p
 ## 5.5 Süvavõltsingud ja pildimanipulatsioon
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Klassiruumis uurivad õpilased suurelt ekraanilt videot, kus koolidirektor justkui teatab koolivabast päevast, luup ja numbrid märgivad kahtlasi kohti, õpetaja osutab ekraanile ja tahvlil on kontrollnimekiri.](../pildid/illustratsioonid/5_5.svg)
 
 Selle tunni lõpuks sa:
 

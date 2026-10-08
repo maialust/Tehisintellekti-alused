@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.1.0
+version:  1.2.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -281,6 +281,9 @@ Ploki lõpus ootavad sind praktilised rühmatööd, aruteluküsimused ja ploki e
 ## 4.1 Probleemilahendus ja otsustuspuud
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Õpilane seisab hommikul koolikotiga avatud ukse juures, vaatab telefonist vihmaprognoosi ja sirutab käe vihmavarju poole, samal ajal kui õhus on otsustuspuu, mille harud viivad vihmavarju või päikese juurde.](../pildid/illustratsioonid/4_1.svg)
 
 Selle tunni lõpuks sa:
 
@@ -877,6 +880,9 @@ Liiga sügav puu kipub ülesobituma ehk õpib treeningandmed pähe ja töötab u
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Arst istub vastuvõtul patsiendi vastas ja osutab arvutiekraanile, kus ekspertsüsteem küsib „Palavik?“ ning kõrval on reeglid „KUI palavik“, „JA köha“, „SIIS gripp?“.](../pildid/illustratsioonid/4_2.svg)
+
 Selle tunni lõpuks sa:
 
 - mõistad, mis on ekspertsüsteem ja millistest komponentidest see koosneb;
@@ -1420,6 +1426,9 @@ KUI õpilane on puudunud kolm päeva järjest JA puudumine pole põhjendatud, SI
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Õpilane istub õhtul diivanil telefoniga, teler ja telefon soovitavad talle aina sarnaseid videoid, mis tiirlevad tema ümber mullis, samal ajal kui raamat, muusika, maailm ja kunst jäävad mullist välja.](../pildid/illustratsioonid/4_3.svg)
+
 Selle tunni lõpuks sa:
 
 - oskad selgitada, mis on soovitussüsteem ja miks seda kasutatakse;
@@ -1947,6 +1956,9 @@ Esiteks võin teadlikult otsida ja jälgida ka teistsuguste vaadetega allikaid. 
 ## 4.4 Tehisintellekti probleemilahendus eri valdkondades
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Kolm tehisintellekti kasutajat eri valdkondadest: põllumees vaatab tahvelarvutist drooni tehtud põllupilti, logistik osutab kaardile, mis näitab kiireimat marsruuti, ja pankur näeb ekraanil pettusehoiatust kahtlase kaarditehingu kohta.](../pildid/illustratsioonid/4_4.svg)
 
 Selle tunni lõpuks sa:
 

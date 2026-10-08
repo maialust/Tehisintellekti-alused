@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.1.0
+version:  1.2.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -280,6 +280,9 @@ Ploki lõpust leiad ka **projektitöö juhendi**, **õpiportfoolio malli** ning 
 ## 7.1 Kursuse kokkuvõte
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Koridoris uurivad õpilased seinale pandud kuue kursuseploki plakatit, ühendavad neid oranži nööriga, teevad telefoniga pilti ja märgivad tahvelarvutis linnukestega, mida nad nüüd oskavad, samal ajal kui õpetaja kohvitassiga pealt vaatab.](../pildid/illustratsioonid/7_1.svg)
 
 Selle tunni järel sa:
 
@@ -691,6 +694,9 @@ Andmete kvaliteet (plokk 2) ja kallutatus (plokk 6) on tihedalt seotud. Masinõp
 ## 7.2 Projektitöö planeerimine
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Klassiruumis planeerib õpilaste rühm projekti: üks kirjutab tahvlile ajakava, teised istuvad laua taga sülearvuti, kalendri ja kleepmärkmetega ning õpetaja kuulab nende ideid.](../pildid/illustratsioonid/7_2.svg)
 
 Selle tunni järel sa:
 
@@ -1187,6 +1193,9 @@ Riski olulisus sõltub sellest, kui tõenäoline see on ja kui suurt kahju see t
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Arvutiklassis arendab rühm prügi sorteerivat TI-rakendust: üks õpilane pildistab pudelit andmestiku jaoks, kaks treenivad ja testivad mudelit arvutiekraanidel, kus kaamerapilt tunneb ära pudeli, ning neljas dokumenteerib täpsuse kasvu graafikut.](../pildid/illustratsioonid/7_3.svg)
+
 Selle tunni järel sa:
 
 - tead projektitöö teostamise etappe ettevalmistusest testimiseni;
@@ -1617,6 +1626,9 @@ Tuleb teada, kas testandmetes oli kasse ja koeri sama palju. Kui 90% testpiltide
 ## 7.4 Projektitöö esitlemine
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Pimendatud klassis esitleb kaheliikmeline rühm projekti: üks osutab tulemuste graafikule, teine näitab kaamera ees purki, mille TI-mudel ekraanil ära tunneb, kuulajad tõstavad küsimuseks kätt ja õpetaja hindab esitlust hindamislehel.](../pildid/illustratsioonid/7_4.svg)
 
 Selle tunni järel sa:
 
@@ -2078,6 +2090,9 @@ Kõigepealt planeerin demo stsenaariumi ehk täpsed sammud, mida näitan. Seejä
 ## 7.5 Projektitööde esitlemine ja kursuse lõpetamine
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Vanikutega kaunistatud klassis kinnitab õpilane tagasisidetahvlile kleepmärkme, õpetaja ulatab teisele õpilasele lõputunnistuse, kaaslased plaksutavad ning laual on tort ja sülearvuti valmis projektikaustaga.](../pildid/illustratsioonid/7_5.svg)
 
 Selle tunni järel sa:
 

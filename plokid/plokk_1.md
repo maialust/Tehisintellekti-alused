@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.1.0
+version:  1.2.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -275,6 +275,7 @@ Ploki lõpus on kordamise osa praktiliste ülesannete, arutelu ja ploki enesekon
 
 Kursus koosneb seitsmest plokist:
 
+<!-- data-type="none" -->
 | Plokk | Teema | Tunde |
 |---|---|---|
 | 1 | Sissejuhatus tehisintellekti | 3 |
@@ -284,17 +285,6 @@ Kursus koosneb seitsmest plokist:
 | 5 | Pilditöötlus ja arvutinägemine | 5 |
 | 6 | Tehisintellekt ja eetika | 5 |
 | 7 | Kokkuvõte ja projektitöö | 9 |
-
-<!-- data-type="piechart" data-title="Kursuse 35 tundi plokkide kaupa" -->
-| Plokk | Tunde |
-|---|---:|
-| 1. Sissejuhatus | 3 |
-| 2. Kuidas TI töötab | 5 |
-| 3. Keeletöötlus | 4 |
-| 4. Otsustamine | 4 |
-| 5. Pilditöötlus | 5 |
-| 6. Eetika | 5 |
-| 7. Kokkuvõte ja projekt | 9 |
 
 Esimene plokk annab üldpildi. Teises plokis vaatame „kapoti alla": kuidas algoritmid, andmed ja masinõpe tegelikult töötavad. Kolmandas ja viiendas plokis süveneme kahte suurde rakendusvaldkonda – keele ja piltide töötlemisse. Neljandas plokis uurime, kuidas tehisintellekt otsuseid langetab, ja kuuendas plokis arutleme, mis on õiglane, ohutu ja vastutustundlik. Kursus lõpeb projektitööga, kus saad õpitut ise rakendada.
 
@@ -316,6 +306,9 @@ Esimene plokk annab üldpildi. Teises plokis vaatame „kapoti alla": kuidas alg
 ## 1.1 Mis on tehisintellekt?
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Klassiruumis märkavad õpilased tehisintellekti igapäevastes asjades: üks avab telefoni näotuvastusega, teine saab sülearvutis videosoovitusi, kolmas kasutab nutikõlari tõlget „Hello!“ – „Tere!“ ning õpetaja osutab tahvlile küsimusega „Kus on TI?“.](../pildid/illustratsioonid/1_1.svg)
 
 Selle tunni järel sa:
 
@@ -874,6 +867,9 @@ Kalkulaator täidab alati samu jäigalt ette antud samme: ta ei õpi midagi juur
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Ajatelg viib läbi kolme ajastu: 1950. aastatel seisavad teadlased kapisuuruste lindirullidega arvutite kõrval, 1997. aastal mängib maletaja vana arvuti vastu malet ja tänapäeval vestleb õpilane tugitoolis telefonis vestlusrobotiga.](../pildid/illustratsioonid/1_2.svg)
+
 Selle tunni järel sa:
 
 - tunned tehisintellekti ajaloo olulisemaid verstaposte ja nendega seotud inimesi;
@@ -1378,6 +1374,9 @@ Mõlemad talved tekkisid, sest lubati rohkem, kui tehnoloogia suutis pakkuda. Es
 ## 1.3 Tehisintellekti rakendused
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Linnatänaval kasutavad inimesed tehisintellekti: noor naine tõlgib telefoniga sildi „Kohvik“ sõnaks „Café“, kõnniteel sõidab kullerrobot, ema ja laps vaatavad kaardirakenduse marsruuti, tänaval sõidab auto ning kliiniku aknas uurib arst koos TI-tööriistaga röntgenpilti.](../pildid/illustratsioonid/1_3.svg)
 
 Selle tunni järel sa:
 

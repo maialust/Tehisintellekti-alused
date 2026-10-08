@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.1.0
+version:  1.2.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -279,6 +279,9 @@ Ploki lõpus on kordamise osa praktiliste ülesannete, arutelu ja ploki enesekon
 ## 3.1 Kuidas tehisintellekt mõistab keelt
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Kaks õpilast istuvad koolikoridori pingil ja üks neist kirjutab telefonis sõbrale „Homme kohvikus?“, samal ajal kui suurendatud ekraanil jagatakse sõnum osadeks, muudetakse arvudeks ja tõlgendatakse kuupäevaks, küsimuseks ja kohvikuks.](../pildid/illustratsioonid/3_1.svg)
 
 Selle tunni järel:
 
@@ -804,6 +807,9 @@ Eesti keelt räägib vaid umbes miljon inimest, seega on eestikeelset teksti, mi
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Õpilane istub õhtul kodus kirjutuslaua taga ja vaatab arvutist kõrvaklappide arvustusi, mille tehisintellekt on jaganud positiivseteks, neutraalseteks ja negatiivseteks ning koondanud lühikeseks kokkuvõtteks.](../pildid/illustratsioonid/3_2.svg)
+
 Selle tunni järel:
 
 - mõistad teksti analüüsi põhiülesandeid: klassifitseerimist, meelestatuse analüüsi, nimeüksuste tuvastamist, teemade modelleerimist ja kokkuvõtete tegemist;
@@ -1320,6 +1326,9 @@ Sarkasm pöörab sõnade otsese tähenduse vastupidiseks: lauses võivad olla po
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Vanaema küsib köögilaua taga tahvelarvutis vestlusrobotilt, mida teha aeguva ID-kaardiga, ja lapselaps kontrollib roboti vastust oma telefonis ametlikust allikast.](../pildid/illustratsioonid/3_3.svg)
+
 Selle tunni järel:
 
 - mõistad, mis on vestlusagent ja vestlusrobot ning kuidas need on ajas arenenud;
@@ -1819,6 +1828,9 @@ Sobiks reeglipõhine või otsingupõhine vestlusrobot, sest küsimused on korduv
 ## 3.4 Masintõlge ja keeletehnoloogiad
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Noor turist suunab välismaa tänavakohviku ees telefoni kaamera võõras kirjas menüütahvlile ja näeb eestikeelset tõlget, samal ajal kui tema sõbranna kuuleb kõrvaklapist kokka tervituse tõlget „Tere tulemast!“.](../pildid/illustratsioonid/3_4.svg)
 
 Selle tunni järel:
 

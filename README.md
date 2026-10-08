@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.1.0
+version:  1.2.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -343,6 +343,7 @@ Ploki lõpus on kordamise osa praktiliste ülesannete, arutelu ja ploki enesekon
 
 Kursus koosneb seitsmest plokist:
 
+<!-- data-type="none" -->
 | Plokk | Teema | Tunde |
 |---|---|---|
 | 1 | Sissejuhatus tehisintellekti | 3 |
@@ -352,17 +353,6 @@ Kursus koosneb seitsmest plokist:
 | 5 | Pilditöötlus ja arvutinägemine | 5 |
 | 6 | Tehisintellekt ja eetika | 5 |
 | 7 | Kokkuvõte ja projektitöö | 9 |
-
-<!-- data-type="piechart" data-title="Kursuse 35 tundi plokkide kaupa" -->
-| Plokk | Tunde |
-|---|---:|
-| 1. Sissejuhatus | 3 |
-| 2. Kuidas TI töötab | 5 |
-| 3. Keeletöötlus | 4 |
-| 4. Otsustamine | 4 |
-| 5. Pilditöötlus | 5 |
-| 6. Eetika | 5 |
-| 7. Kokkuvõte ja projekt | 9 |
 
 Esimene plokk annab üldpildi. Teises plokis vaatame „kapoti alla": kuidas algoritmid, andmed ja masinõpe tegelikult töötavad. Kolmandas ja viiendas plokis süveneme kahte suurde rakendusvaldkonda – keele ja piltide töötlemisse. Neljandas plokis uurime, kuidas tehisintellekt otsuseid langetab, ja kuuendas plokis arutleme, mis on õiglane, ohutu ja vastutustundlik. Kursus lõpeb projektitööga, kus saad õpitut ise rakendada.
 
@@ -384,6 +374,9 @@ Esimene plokk annab üldpildi. Teises plokis vaatame „kapoti alla": kuidas alg
 ## 1.1 Mis on tehisintellekt?
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Klassiruumis märkavad õpilased tehisintellekti igapäevastes asjades: üks avab telefoni näotuvastusega, teine saab sülearvutis videosoovitusi, kolmas kasutab nutikõlari tõlget „Hello!“ – „Tere!“ ning õpetaja osutab tahvlile küsimusega „Kus on TI?“.](pildid/illustratsioonid/1_1.svg)
 
 Selle tunni järel sa:
 
@@ -942,6 +935,9 @@ Kalkulaator täidab alati samu jäigalt ette antud samme: ta ei õpi midagi juur
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Ajatelg viib läbi kolme ajastu: 1950. aastatel seisavad teadlased kapisuuruste lindirullidega arvutite kõrval, 1997. aastal mängib maletaja vana arvuti vastu malet ja tänapäeval vestleb õpilane tugitoolis telefonis vestlusrobotiga.](pildid/illustratsioonid/1_2.svg)
+
 Selle tunni järel sa:
 
 - tunned tehisintellekti ajaloo olulisemaid verstaposte ja nendega seotud inimesi;
@@ -1446,6 +1442,9 @@ Mõlemad talved tekkisid, sest lubati rohkem, kui tehnoloogia suutis pakkuda. Es
 ## 1.3 Tehisintellekti rakendused
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Linnatänaval kasutavad inimesed tehisintellekti: noor naine tõlgib telefoniga sildi „Kohvik“ sõnaks „Café“, kõnniteel sõidab kullerrobot, ema ja laps vaatavad kaardirakenduse marsruuti, tänaval sõidab auto ning kliiniku aknas uurib arst koos TI-tööriistaga röntgenpilti.](pildid/illustratsioonid/1_3.svg)
 
 Selle tunni järel sa:
 
@@ -2414,6 +2413,9 @@ See plokk on kogu kursuse kõige tehnilisem osa, aga ära karda: kõike selgitat
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Õpilane seisab linnatänaval ja vaatab telefonist navigatsioonirakendust, mis on leidnud sihtkohta kiireima tee (12 minutit), samal ajal kui kullerrobot ületab ülekäigurada ja sõbranna ootab tõukerattaga.](pildid/illustratsioonid/2_1.svg)
+
 Selle tunni järel sa:
 
 - oskad selgitada, mis on algoritm, ja nimetada algoritmi põhiomadusi;
@@ -2915,6 +2917,9 @@ Juhis ei ole määratud ehk täpne: „veidi" ja „kuni on valmis" ei ütle arv
 ## 2.2 Andmed ja nende tähtsus
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Õpilased koguvad klassis küsitluse andmeid paberankeetidest ja sülearvutist, õpetaja osutab suurel ekraanil tabelis puuduvale väärtusele, mille kõrval on graafik ja andmekaitse lukuikoon.](pildid/illustratsioonid/2_2.svg)
 
 Selle tunni järel sa:
 
@@ -3435,6 +3440,9 @@ Põhimõte tähendab, et mudel on ainult nii hea kui andmed, millest ta õpib. K
 ## 2.3 Masinõppe põhimõtted
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Noormees istub õhtul kodus kirjutuslaua taga ja lohistab kahtlase e-kirja rämpsposti kausta, õpetades nii postkasti masinõppemudelit rämpsposti ära tundma, samal ajal kui kass lebab laual.](pildid/illustratsioonid/2_3.svg)
 
 Selle tunni järel sa:
 
@@ -3988,6 +3996,9 @@ Mudel vastab õigesti 990 juhul 1000-st, sest tavalisi tehinguid on palju rohkem
 ## 2.4 Närvivõrgud ja süvaõpe
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Õpilane pildistab pargis telefoniga oksal istuvat lindu, telefoni närvivõrk märgib linnu kastiga ja tunneb ta ära kui rasvatihase, sõber kirjutab kõrval vaatluse vihikusse.](pildid/illustratsioonid/2_4.svg)
 
 Selle tunni järel sa:
 
@@ -4562,6 +4573,9 @@ Gradientlaskumine on nagu udus mäelt alla orgu minek: kaugele ei näe, aga jalg
 ## 2.5 Tehisintellekti rakendused valdkondades
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Kaks arsti vaatavad haiglas suurelt ekraanilt kopsuröntgeni pilti, millel tehisintellekti tööriist on märkinud oranži ringiga kahtlase koha, taustal on klaasi taga kompuutertomograaf.](pildid/illustratsioonid/2_5.svg)
 
 Selle tunni järel sa:
 
@@ -5642,6 +5656,9 @@ Ploki lõpus on kordamise osa praktiliste ülesannete, arutelu ja ploki enesekon
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Kaks õpilast istuvad koolikoridori pingil ja üks neist kirjutab telefonis sõbrale „Homme kohvikus?“, samal ajal kui suurendatud ekraanil jagatakse sõnum osadeks, muudetakse arvudeks ja tõlgendatakse kuupäevaks, küsimuseks ja kohvikuks.](pildid/illustratsioonid/3_1.svg)
+
 Selle tunni järel:
 
 - mõistad, mis on loomuliku keele töötlus ja miks on inimkeel arvutile keeruline;
@@ -6166,6 +6183,9 @@ Eesti keelt räägib vaid umbes miljon inimest, seega on eestikeelset teksti, mi
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Õpilane istub õhtul kodus kirjutuslaua taga ja vaatab arvutist kõrvaklappide arvustusi, mille tehisintellekt on jaganud positiivseteks, neutraalseteks ja negatiivseteks ning koondanud lühikeseks kokkuvõtteks.](pildid/illustratsioonid/3_2.svg)
+
 Selle tunni järel:
 
 - mõistad teksti analüüsi põhiülesandeid: klassifitseerimist, meelestatuse analüüsi, nimeüksuste tuvastamist, teemade modelleerimist ja kokkuvõtete tegemist;
@@ -6682,6 +6702,9 @@ Sarkasm pöörab sõnade otsese tähenduse vastupidiseks: lauses võivad olla po
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Vanaema küsib köögilaua taga tahvelarvutis vestlusrobotilt, mida teha aeguva ID-kaardiga, ja lapselaps kontrollib roboti vastust oma telefonis ametlikust allikast.](pildid/illustratsioonid/3_3.svg)
+
 Selle tunni järel:
 
 - mõistad, mis on vestlusagent ja vestlusrobot ning kuidas need on ajas arenenud;
@@ -7181,6 +7204,9 @@ Sobiks reeglipõhine või otsingupõhine vestlusrobot, sest küsimused on korduv
 ## 3.4 Masintõlge ja keeletehnoloogiad
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Noor turist suunab välismaa tänavakohviku ees telefoni kaamera võõras kirjas menüütahvlile ja näeb eestikeelset tõlget, samal ajal kui tema sõbranna kuuleb kõrvaklapist kokka tervituse tõlget „Tere tulemast!“.](pildid/illustratsioonid/3_4.svg)
 
 Selle tunni järel:
 
@@ -8284,6 +8310,9 @@ Ploki lõpus ootavad sind praktilised rühmatööd, aruteluküsimused ja ploki e
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Õpilane seisab hommikul koolikotiga avatud ukse juures, vaatab telefonist vihmaprognoosi ja sirutab käe vihmavarju poole, samal ajal kui õhus on otsustuspuu, mille harud viivad vihmavarju või päikese juurde.](pildid/illustratsioonid/4_1.svg)
+
 Selle tunni lõpuks sa:
 
 - mõistad, mida tähendab probleemilahendus tehisintellektis ja millistest osadest see koosneb;
@@ -8879,6 +8908,9 @@ Liiga sügav puu kipub ülesobituma ehk õpib treeningandmed pähe ja töötab u
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Arst istub vastuvõtul patsiendi vastas ja osutab arvutiekraanile, kus ekspertsüsteem küsib „Palavik?“ ning kõrval on reeglid „KUI palavik“, „JA köha“, „SIIS gripp?“.](pildid/illustratsioonid/4_2.svg)
+
 Selle tunni lõpuks sa:
 
 - mõistad, mis on ekspertsüsteem ja millistest komponentidest see koosneb;
@@ -9422,6 +9454,9 @@ KUI õpilane on puudunud kolm päeva järjest JA puudumine pole põhjendatud, SI
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Õpilane istub õhtul diivanil telefoniga, teler ja telefon soovitavad talle aina sarnaseid videoid, mis tiirlevad tema ümber mullis, samal ajal kui raamat, muusika, maailm ja kunst jäävad mullist välja.](pildid/illustratsioonid/4_3.svg)
+
 Selle tunni lõpuks sa:
 
 - oskad selgitada, mis on soovitussüsteem ja miks seda kasutatakse;
@@ -9949,6 +9984,9 @@ Esiteks võin teadlikult otsida ja jälgida ka teistsuguste vaadetega allikaid. 
 ## 4.4 Tehisintellekti probleemilahendus eri valdkondades
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Kolm tehisintellekti kasutajat eri valdkondadest: põllumees vaatab tahvelarvutist drooni tehtud põllupilti, logistik osutab kaardile, mis näitab kiireimat marsruuti, ja pankur näeb ekraanil pettusehoiatust kahtlase kaarditehingu kohta.](pildid/illustratsioonid/4_4.svg)
 
 Selle tunni lõpuks sa:
 
@@ -11058,6 +11096,9 @@ Selles plokis uurid, kuidas arvuti pildist üldse midagi „näeb", kui tema jao
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Õpilane pildistab koolihoovis telefoniga karikakart, pilt laguneb värvilisteks piksliruutudeks ja telefoniekraanil tunneb tehisintellekt lille ära kui karikakra 94-protsendilise kindlusega.](pildid/illustratsioonid/5_1.svg)
+
 Selle tunni lõpuks sa:
 
 - oskad selgitada, mis on arvutinägemine ja mille poolest see erineb inimese nägemisest;
@@ -11571,6 +11612,9 @@ Traditsioonilistes meetodites (nt Sobeli filter, HOG) pidi inimene ise välja m�
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Ristmikul jälgib kaamera tänavat ning tehisintellekt on märkinud värviliste kastidega auto, jalgratturi ja koera koos siltidega, samal ajal kui jalakäija ootab koeraga ülekäigurajal.](pildid/illustratsioonid/5_2.svg)
+
 Selle tunni lõpuks sa:
 
 - oskad selgitada, mis on objektituvastus ja mille poolest see erineb klassifitseerimisest;
@@ -12040,6 +12084,9 @@ Pluss: puudumiste märkimine oleks kiire ja õpetaja aeg kuluks õppimisele. Pro
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Arst osutab suurel ekraanil kopsu röntgenpildile, kus tehisintellekt on märkinud kahtlase koha, kõrvalekraanil näitab TI abiline oma leidu ja teine arst vaatab tulemust tahvelarvutist.](pildid/illustratsioonid/5_3.svg)
+
 Selle tunni lõpuks sa:
 
 - oskad selgitada, mis on meditsiiniline pildianalüüs ja miks tehisintellekt selles abiks on;
@@ -12507,6 +12554,9 @@ TI on arsti abiline ehk „teine silmapaar", mitte asendaja. Ka täpne mudel eks
 ## 5.4 Generatiivne tehisintellekt ja loovus
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Kunstiklassis kirjutab õpilane pildigeneraatorisse „kass skafandris“ ning suurel ekraanil tekib mürast samm-sammult kass skafandris, samal ajal kui üks klassikaaslane maalib molbertil ja teine võrdleb oma käsitsi joonistatud kassi masina loodud pildiga.](pildid/illustratsioonid/5_4.svg)
 
 Selle tunni lõpuks sa:
 
@@ -13015,6 +13065,9 @@ Uus suurus: 800 × 400 pikslit, seega 800 × 400 = **320 000** pikslit. Algses p
 ## 5.5 Süvavõltsingud ja pildimanipulatsioon
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Klassiruumis uurivad õpilased suurelt ekraanilt videot, kus koolidirektor justkui teatab koolivabast päevast, luup ja numbrid märgivad kahtlasi kohti, õpetaja osutab ekraanile ja tahvlil on kontrollnimekiri.](pildid/illustratsioonid/5_5.svg)
 
 Selle tunni lõpuks sa:
 
@@ -14101,6 +14154,9 @@ Ploki lõpus on kordamise osa praktiliste ülesannete, aruteluküsimuste ja plok
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Õpilased ja õpetajad arutavad koolis laua ümber tehisaru kasutamise kasu ja riske ning suurel ekraanil on kaalud, mille ühel pool on kasu ja teisel pool risk.](pildid/illustratsioonid/6_1.svg)
+
 Selle tunni järel sa:
 
 - oskad selgitada, mis on tehisintellekti eetika ja miks see on oluline;
@@ -14686,6 +14742,9 @@ TI ei ole isik: tal ei ole oma tahet ega võimalust oma tegude eest vastust anda
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Noormees istub õhtul oma toas voodiäärel ja kõhkleb, kas lubada uuel rakendusel kasutada tema asukohta, kaamerat ja kontaktandmeid, mis liiguksid edasi pilveserverisse.](pildid/illustratsioonid/6_2.svg)
+
 Selle tunni järel sa:
 
 - oskad selgitada, mida tähendab privaatsus TI kontekstis ja miks see on oluline;
@@ -15046,6 +15105,9 @@ TI töötab sageli seda paremini, mida rohkem andmeid see saab. Näiteks võiksi
 ## 6.3 Kallutatus ja õiglus
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Tööle kandideerijad ootavad ooteruumis, samal ajal kui suurel ekraanil sorteerib tehisaru nende CV-sid ja kaalud näitavad, et mõni rühm jääb ebaõiglaselt kõrvale.](pildid/illustratsioonid/6_3.svg)
 
 Selle tunni järel sa:
 
@@ -15431,6 +15493,9 @@ Kallutatus võib jääda alles kaudsete tunnuste kaudu. Näiteks võib CV-s main
 ## 6.4 Mõju tööturule
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Logistikalaos õpetab kogenud töötaja noort praktikanti tahvelarvutist isesõitvate kärude marsruute jälgima, kolleeg kontrollib seinaekraanilt töö kulgu ja sadamavaatega akna all sõidavad kastidega robotkärud.](pildid/illustratsioonid/6_4.svg)
 
 Selle tunni järel sa:
 
@@ -15858,6 +15923,9 @@ Amet koosneb paljudest ülesannetest ja TI automatiseerib neist ainult osa. Tood
 ## 6.5 Tulevikutrendid
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Kolm noort seisavad õhtul Tallinna vaateplatvormil ja arutavad tuleviku üle: linnas sõidab isejuhtiv buss, õhus lendab pakiga droon ning ajajoonel on märgitud täna, aasta 2030 ja küsimärk.](pildid/illustratsioonid/6_5.svg)
 
 Selle tunni järel sa:
 
@@ -16926,6 +16994,9 @@ Ploki lõpust leiad ka **projektitöö juhendi**, **õpiportfoolio malli** ning 
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Koridoris uurivad õpilased seinale pandud kuue kursuseploki plakatit, ühendavad neid oranži nööriga, teevad telefoniga pilti ja märgivad tahvelarvutis linnukestega, mida nad nüüd oskavad, samal ajal kui õpetaja kohvitassiga pealt vaatab.](pildid/illustratsioonid/7_1.svg)
+
 Selle tunni järel sa:
 
 - oskad lühidalt kirjeldada kursuse „Tehisintellekti alused" kuue temaatilise ploki peamisi teemasid ja mõisteid;
@@ -17336,6 +17407,9 @@ Andmete kvaliteet (plokk 2) ja kallutatus (plokk 6) on tihedalt seotud. Masinõp
 ## 7.2 Projektitöö planeerimine
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Klassiruumis planeerib õpilaste rühm projekti: üks kirjutab tahvlile ajakava, teised istuvad laua taga sülearvuti, kalendri ja kleepmärkmetega ning õpetaja kuulab nende ideid.](pildid/illustratsioonid/7_2.svg)
 
 Selle tunni järel sa:
 
@@ -17832,6 +17906,9 @@ Riski olulisus sõltub sellest, kui tõenäoline see on ja kui suurt kahju see t
 
 ### Õpieesmärgid
 
+<!-- class="pae-kaas" -->
+![Arvutiklassis arendab rühm prügi sorteerivat TI-rakendust: üks õpilane pildistab pudelit andmestiku jaoks, kaks treenivad ja testivad mudelit arvutiekraanidel, kus kaamerapilt tunneb ära pudeli, ning neljas dokumenteerib täpsuse kasvu graafikut.](pildid/illustratsioonid/7_3.svg)
+
 Selle tunni järel sa:
 
 - tead projektitöö teostamise etappe ettevalmistusest testimiseni;
@@ -18262,6 +18339,9 @@ Tuleb teada, kas testandmetes oli kasse ja koeri sama palju. Kui 90% testpiltide
 ## 7.4 Projektitöö esitlemine
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Pimendatud klassis esitleb kaheliikmeline rühm projekti: üks osutab tulemuste graafikule, teine näitab kaamera ees purki, mille TI-mudel ekraanil ära tunneb, kuulajad tõstavad küsimuseks kätt ja õpetaja hindab esitlust hindamislehel.](pildid/illustratsioonid/7_4.svg)
 
 Selle tunni järel sa:
 
@@ -18723,6 +18803,9 @@ Kõigepealt planeerin demo stsenaariumi ehk täpsed sammud, mida näitan. Seejä
 ## 7.5 Projektitööde esitlemine ja kursuse lõpetamine
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Vanikutega kaunistatud klassis kinnitab õpilane tagasisidetahvlile kleepmärkme, õpetaja ulatab teisele õpilasele lõputunnistuse, kaaslased plaksutavad ning laual on tort ja sülearvuti valmis projektikaustaga.](pildid/illustratsioonid/7_5.svg)
 
 Selle tunni järel sa:
 
@@ -20327,6 +20410,73 @@ c) Kuidas saaksid kursuselt õpitut rakendada oma igapäevaelus või tulevases k
 Hea arutlus vastab valitud küsimusele otse, toob välja vähemalt kaks-kolm selget mõtet ja põhjendab neid konkreetsete näidetega kursuselt või oma elust (nt vestlusrobotid, soovitussüsteemid, Bürokratt, süvavõltsingud, GDPR). Arutlus kaalub erinevaid vaatenurki, näiteks nii TI võimalusi kui ka riske ja eetilisi küsimusi, ning lõpeb põhjendatud järeldusega.
 
 </details>
+
+
+# Lõpumäng: TI Jeopardy
+
+Kursus on läbi – aeg oma teadmised proovile panna! **TI Jeopardy** on viktoriinimäng, kus võistkonnad valivad kategooria ja punktisumma. Mida suurem summa, seda raskem küsimus.
+
+<!-- class="pae-motle" -->
+> **Kuidas mängida?**
+>
+> 1. Jagunege **kolmeks võistkonnaks**.
+> 2. Võistkonnad valivad kordamööda kategooria ja punktisumma (100–500) ning klõpsavad ruudul.
+> 3. Küsimus ilmub tabeli alla. Võistkond arutab ja vastab suuliselt.
+> 4. Vajuta **Näita vastust** ja märgi, kes vastas õigesti – punktid lisanduvad tabelisse.
+> 5. Võidab võistkond, kellel on mängu lõpuks kõige rohkem punkte.
+
+<script style="display: block" modify="false" run-once>
+window.JEO = window.JEO || {};
+const J = window.JEO;
+J.data = [{"c": "TI alused ja ajalugu", "q": [{"q": "Kuidas nimetatakse katset, kus inimene peab kirjaliku vestluse põhjal aru saama, kas ta räägib masina või inimesega?", "a": "Turingi test"}, {"q": "Mis aastal toimus Dartmouthi konverents, kus võeti kasutusele termin „tehisintellekt“?", "a": "1956"}, {"q": "Kuidas nimetatakse perioodi, mil rahastus ja huvi TI vastu järsult vähenevad?", "a": "TI talv"}, {"q": "Mis on nõrk (kitsas) TI? Too näide.", "a": "TI, mis oskab hästi üht kindlat ülesannet, nt näotuvastus või malemäng"}, {"q": "Mis on Rich Suttoni „kibe õppetund“?", "a": "Pikas plaanis võidavad üldised meetodid, mis kasutavad arvutusvõimsust (õppimine, otsing), käsitsi kirjutatud inimteadmiste üle"}]}, {"c": "Kuidas TI töötab", "q": [{"q": "Mis on algoritm?", "a": "Selgelt määratletud sammude jada probleemi lahendamiseks"}, {"q": "Mis on juhendatud õppe puhul treeningandmetel olemas, mida juhendamata õppes pole?", "a": "Märgendid ehk õiged vastused"}, {"q": "Mudel õpib treeningandmed pähe, kuid uutel andmetel eksib. Kuidas seda nimetatakse?", "a": "Ülesobitamine (ületreenimine)"}, {"q": "Neuroni sisendid on 2 ja 3, kaalud 1 ja 2, nihe 0. Mis on kaalutud summa?", "a": "2·1 + 3·2 = 8"}, {"q": "Mis on tagasilevi (backpropagation)?", "a": "Närvivõrgu õppimisviis: viga arvutatakse väljundis ja levitatakse tagasi läbi võrgu, et kaalusid parandada"}]}, {"c": "Keeletöötlus", "q": [{"q": "Kuidas nimetatakse teksti jagamist väiksemateks osadeks (sõnad, sõnaosad)?", "a": "Tokeniseerimine"}, {"q": "Mis on vestlusroboti „hallutsinatsioon“?", "a": "Enesekindel, kuid vale või väljamõeldud vastus"}, {"q": "Mis on Tartu Ülikooli loodud masintõlkesüsteemi nimi?", "a": "Neurotõlge"}, {"q": "Kuidas nimetatakse arvude jada, mis kujutab sõna tähendust nii, et sarnased sõnad on lähestikku?", "a": "Sõnavektor"}, {"q": "Nimeta kaks põhjust, miks eesti keel on masinale keeruline.", "a": "Nt 14 käänet, rikas sõnamoodustus/liitsõnad, vähe kõnelejaid ja andmeid"}]}, {"c": "Otsustamine", "q": [{"q": "Milline puukujuline mudel jõuab küsimuste ja vastuste kaudu otsuseni?", "a": "Otsustuspuu"}, {"q": "Mis on ekspertsüsteemi kaks põhiosa?", "a": "Teadmusbaas (reeglid) ja järeldusmehhanism"}, {"q": "Kuidas nimetatakse olukorda, kus soovitussüsteem näitab sulle üha rohkem sama tüüpi sisu?", "a": "Mullifilter (filtrimull)"}, {"q": "Mis on soovitussüsteemide „külmkäivituse probleem“?", "a": "Uue kasutaja või toote kohta pole veel andmeid, mille põhjal soovitada"}, {"q": "Mis on koostööfiltreerimine?", "a": "Soovitamine sarnase maitsega kasutajate eelistuste põhjal"}]}, {"c": "Pilditöötlus", "q": [{"q": "Mis on pildi väikseim osa?", "a": "Piksel"}, {"q": "Mida tähendab RGB?", "a": "Punane, roheline, sinine – värvikanalid, millest iga piksli värv koosneb"}, {"q": "Mis vahe on näotuvastusel ja näotundmisel?", "a": "Näotuvastus leiab, KUS nägu on; näotundmine tuvastab, KELLE nägu see on"}, {"q": "Mis on süvavõltsing (deepfake)?", "a": "TI abil loodud võltsitud video, pilt või hääl, kus inimene näib tegevat või ütlevat midagi, mida ta ei teinud"}, {"q": "Mille poolest erineb generatiivne TI pildituvastusest?", "a": "Generatiivne TI loob uue pildi, pildituvastus tunneb olemasoleval pildil midagi ära"}]}, {"c": "Eetika", "q": [{"q": "Mis on GDPR?", "a": "Euroopa Liidu isikuandmete kaitse üldmäärus"}, {"q": "Mis on TI kallutatus (bias)?", "a": "Süstemaatiline viga, mis kohtleb mõnd rühma ebaõiglaselt, sageli kallutatud andmete tõttu"}, {"q": "Mitmel tasemel jagab ELi tehisintellekti määrus TI-süsteemid riski järgi?", "a": "Neljal: vastuvõetamatu, kõrge, piiratud ja minimaalne risk"}, {"q": "Mis on „musta kasti“ probleem?", "a": "Keerulise mudeli otsuste põhjuseid on raske mõista ja selgitada"}, {"q": "Kes vastutab, kui TI teeb vea – TI ise või inimesed? Põhjenda.", "a": "Inimesed: arendajad, kasutuselevõtjad ja kasutajad; TI ise ei saa vastutada"}]}];
+J.done = J.done || {};
+J.scores = J.scores || [0, 0, 0];
+J.cur = null;
+J.render = function () {
+  const el = document.getElementById("jeo-board"); if (!el) return;
+  let h = "<div style='display:grid;grid-template-columns:repeat(" + J.data.length + ",1fr);gap:6px;'>";
+  J.data.forEach(c => { h += "<div style='background:#002959;color:#fff;font-weight:700;text-align:center;padding:10px 4px;border-radius:10px;font-size:0.95em;display:flex;align-items:center;justify-content:center;min-height:56px;'>" + c.c + "</div>"; });
+  for (let r = 0; r < 5; r++) {
+    J.data.forEach((c, ci) => {
+      const k = ci + "-" + r, d = J.done[k];
+      h += "<button onclick='JEO.open(" + ci + "," + r + ")' " + (d ? "disabled " : "") +
+        "style='text-align:center;font-size:1.4em;font-weight:800;padding:14px 0;border-radius:10px;border:3px solid #FF8B48;cursor:" + (d ? "default" : "pointer") + ";background:" + (d ? "#EEF2F7" : "#FF8B48") + ";color:" + (d ? "#99A" : "#002959") + ";'>" + (d ? "✓" : (r + 1) * 100) + "</button>";
+    });
+  }
+  h += "</div>";
+  h += "<div style='display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;'>";
+  ["Võistkond 1", "Võistkond 2", "Võistkond 3"].forEach((t, i) => {
+    h += "<div style='flex:1 1 150px;background:#FFF4EC;border:2px solid #FF8B48;border-radius:12px;padding:8px;text-align:center;'><b style='color:#002959'>" + t + "</b><div style='font-size:1.6em;font-weight:800;color:#002959'>" + J.scores[i] + "</div></div>";
+  });
+  h += "</div><div style='margin-top:8px;text-align:right'><button onclick='JEO.reset()' style='background:none;border:1px solid #33547A;color:#33547A;border-radius:8px;padding:4px 10px;cursor:pointer'>↺ Alusta uut mängu</button></div>";
+  el.innerHTML = h;
+};
+J.open = function (ci, r) {
+  J.cur = [ci, r]; const q = J.data[ci].q[r], v = (r + 1) * 100;
+  const m = document.getElementById("jeo-q");
+  m.innerHTML = "<div style='background:#002959;color:#fff;border-radius:16px;padding:22px;margin-top:14px;border-left:10px solid #FF8B48'>" +
+    "<div style='color:#FF8B48;font-weight:700'>" + J.data[ci].c + " · " + v + " punkti</div>" +
+    "<div style='font-size:1.35em;margin:12px 0 16px'>" + q.q + "</div>" +
+    "<button onclick='JEO.show()' style='background:#FF8B48;color:#002959;font-weight:700;border:none;border-radius:999px;padding:8px 18px;cursor:pointer'>Näita vastust</button>" +
+    "<div id='jeo-a' style='display:none;margin-top:14px'><div style='background:#fff;color:#002959;border-radius:10px;padding:12px;font-size:1.1em'><b>Vastus:</b> " + q.a + "</div>" +
+    "<div style='margin-top:12px'>Kes vastas õigesti? " +
+    [0, 1, 2].map(i => "<button onclick='JEO.award(" + i + ")' style='margin:4px;background:#2E8B57;color:#fff;border:none;border-radius:8px;padding:6px 12px;cursor:pointer'>Võistkond " + (i + 1) + " +" + v + "</button>").join("") +
+    "<button onclick='JEO.award(-1)' style='margin:4px;background:#C0392B;color:#fff;border:none;border-radius:8px;padding:6px 12px;cursor:pointer'>Keegi ei vastanud</button></div></div></div>";
+  m.scrollIntoView({behavior: "smooth", block: "center"});
+};
+J.show = function () { document.getElementById("jeo-a").style.display = "block"; };
+J.award = function (i) {
+  const [ci, r] = J.cur; J.done[ci + "-" + r] = true;
+  if (i >= 0) J.scores[i] += (r + 1) * 100;
+  document.getElementById("jeo-q").innerHTML = ""; J.render();
+};
+J.reset = function () { J.done = {}; J.scores = [0, 0, 0]; document.getElementById("jeo-q").innerHTML = ""; J.render(); };
+setTimeout(J.render, 50);
+"HTML: <div id='jeo-board'></div><div id='jeo-q'></div>"
+</script>
+
+<!-- class="pae-lisaks" -->
+> **Õpetajale:** mängu saab näidata klassi ees suurel ekraanil. Tabel jätab meelde vastatud küsimused ja punktid, kuni leht on avatud. Nupp **↺ Alusta uut mängu** nullib kõik.
 
 
 # Lisad

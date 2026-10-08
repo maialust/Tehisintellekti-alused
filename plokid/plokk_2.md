@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.1.0
+version:  1.2.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -279,6 +279,9 @@ See plokk on kogu kursuse kõige tehnilisem osa, aga ära karda: kõike selgitat
 ## 2.1 Algoritmide põhimõtted
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Õpilane seisab linnatänaval ja vaatab telefonist navigatsioonirakendust, mis on leidnud sihtkohta kiireima tee (12 minutit), samal ajal kui kullerrobot ületab ülekäigurada ja sõbranna ootab tõukerattaga.](../pildid/illustratsioonid/2_1.svg)
 
 Selle tunni järel sa:
 
@@ -781,6 +784,9 @@ Juhis ei ole määratud ehk täpne: „veidi" ja „kuni on valmis" ei ütle arv
 ## 2.2 Andmed ja nende tähtsus
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Õpilased koguvad klassis küsitluse andmeid paberankeetidest ja sülearvutist, õpetaja osutab suurel ekraanil tabelis puuduvale väärtusele, mille kõrval on graafik ja andmekaitse lukuikoon.](../pildid/illustratsioonid/2_2.svg)
 
 Selle tunni järel sa:
 
@@ -1301,6 +1307,9 @@ Põhimõte tähendab, et mudel on ainult nii hea kui andmed, millest ta õpib. K
 ## 2.3 Masinõppe põhimõtted
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Noormees istub õhtul kodus kirjutuslaua taga ja lohistab kahtlase e-kirja rämpsposti kausta, õpetades nii postkasti masinõppemudelit rämpsposti ära tundma, samal ajal kui kass lebab laual.](../pildid/illustratsioonid/2_3.svg)
 
 Selle tunni järel sa:
 
@@ -1854,6 +1863,9 @@ Mudel vastab õigesti 990 juhul 1000-st, sest tavalisi tehinguid on palju rohkem
 ## 2.4 Närvivõrgud ja süvaõpe
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Õpilane pildistab pargis telefoniga oksal istuvat lindu, telefoni närvivõrk märgib linnu kastiga ja tunneb ta ära kui rasvatihase, sõber kirjutab kõrval vaatluse vihikusse.](../pildid/illustratsioonid/2_4.svg)
 
 Selle tunni järel sa:
 
@@ -2428,6 +2440,9 @@ Gradientlaskumine on nagu udus mäelt alla orgu minek: kaugele ei näe, aga jalg
 ## 2.5 Tehisintellekti rakendused valdkondades
 
 ### Õpieesmärgid
+
+<!-- class="pae-kaas" -->
+![Kaks arsti vaatavad haiglas suurelt ekraanilt kopsuröntgeni pilti, millel tehisintellekti tööriist on märkinud oranži ringiga kahtlase koha, taustal on klaasi taga kompuutertomograaf.](../pildid/illustratsioonid/2_5.svg)
 
 Selle tunni järel sa:
 
