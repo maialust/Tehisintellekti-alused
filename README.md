@@ -1,10 +1,10 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.0.0
+version:  1.1.0
 language: et
 narrator: Estonian Female
-date:     01.10.2026
+date:     08.10.2026
 logo:     pildid/pae_logo.png
 icon:     pildid/pae_logo.png
 comment:  Tehisintellekti alused – gümnaasiumi valikkursus (35 tundi), Tallinna Pae Gümnaasium. Õppetekstid, interaktiivsed töölehed ja enesekontrollitestid.
@@ -544,6 +544,137 @@ Tänapäeval on tehisintellekt igal pool. **Virtuaalsed assistendid** (Siri, Ale
 > - TED-i ettekanne **„The incredible inventions of intuitive AI"** (Maurice Conti) näitab, kuidas tehisintellekt aitab disaineritel ja inseneridel.
 > - Raamat **„Superintelligence: Paths, Dangers, Strategies"** (Nick Bostrom) arutleb, mis võib juhtuda, kui tehisintellekt kunagi inimest ületab.
 
+### Mäng: tehisaru sorteerimismäng
+
+Kas tunned ära, millal tehisaru (tehisintellekt) on mängus? Sorteeri 48 tegevust kahte rühma: **tehisaru abil toimuv tegevus** ja **tehisaru abita toimuv tegevus**. Igal kaardil on pilt, tegevuse kirjeldus ja nurgas täht või sümbol. Mäng toimub neljas voorus, igas voorus on 12 kaarti. Pärast iga vooru vajuta **Kontrolli**.
+
+| Kategooria 1 | Kategooria 2 |
+|:---:|:---:|
+| ![Tehisaru abil toimuv tegevus](pildid/mang/kaart_49.jpg)<!-- style="width: 260px; border-radius: 10px;" --> | ![Tehisaru abita toimuv tegevus](pildid/mang/kaart_50.jpg)<!-- style="width: 260px; border-radius: 10px;" --> |
+
+<!-- class="pae-fakt" -->
+> **Salajane sõnum!** Kui paned **tehisaru abil toimuvate** tegevuste tähed järjekorda, tekib lause. Kirjuta tähed üles, sest viimases ülesandes tuleb lause ära arvata.
+
+<!-- class="pae-motle" -->
+> **Kuidas otsustada?** Küsi endalt: kas masin **õpib andmetest, tunneb ära mustreid** (nägu, häält, pilti, keelt) või **teeb ise otsuseid ja ennustusi**? Kui tegevust teeb inimene, loom või lihtne mehhanism, mis ainult täidab ühte etteantud käsku, siis tehisaru seal ei ole.
+
+**1. voor: kaardid 1–12**
+
+- [ (Tehisaru abil) (Tehisaru abita) ]
+- [ (X) ( ) ] **1** ![Kaart 1 (K): Spotify soovitab sulle uut muusikapala.](pildid/mang/kaart_01.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **2** ![Kaart 2 (A): Robottolmuimeja puhastab põrandat iseseisvalt.](pildid/mang/kaart_02.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **3** ![Kaart 3 (P): Sa kirjutad käsitsi päevikusse.](pildid/mang/kaart_03.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **4** ![Kaart 4 (S): Telefoni kaamera tunneb näo ära ja teravustab automaatselt.](pildid/mang/kaart_04.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **5** ![Kaart 5 (J): Õpetaja kontrollib sinu kodutööd ja annab hinnangu.](pildid/mang/kaart_05.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **6** ![Kaart 6 (T): YouTube soovitab sulle järgmise video.](pildid/mang/kaart_06.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **7** ![Kaart 7 (L): Sa otsid raamatukogus raamatut kataloogi järgi.](pildid/mang/kaart_07.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **8** ![Kaart 8 (Õ): Tõlkerakendus tõlgib lauseid reaalajas.](pildid/mang/kaart_08.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **9** ![Kaart 9 (Ö): Jalutad pargis ja vaatad linde.](pildid/mang/kaart_09.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **10** ![Kaart 10 (D): Google Maps arvutab sulle kiireima teekonna liiklusolude põhjal.](pildid/mang/kaart_10.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **11** ![Kaart 11 (A): Kunstnik maalib portree õlivärvidega.](pildid/mang/kaart_11.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **12** ![Kaart 12 (E): Nutitelefon avab end sõrmejälje abil.](pildid/mang/kaart_12.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+****************************************
+Selle vooru tehisaru kaartide tähed: **K A S T Õ D E**
+
+Robottolmuimeja ja Spotify tegutsevad iseseisvalt ning õpivad andmetest. Näotuvastus kaameras on arvutinägemine. Käsitsi päeviku kirjutamine, õpetaja hinnang ja kataloogist raamatu otsimine on inimese tegevused.
+
+****************************************
+
+**2. voor: kaardid 13–24**
+
+- [ (Tehisaru abil) (Tehisaru abita) ]
+- [ ( ) (X) ] **13** ![Kaart 13 (N): Sõber soovitab sul uut raamatut lugeda.](pildid/mang/kaart_13.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **14** ![Kaart 14 (P): Arvutimängus NPC-tegelased reageerivad sinu käitumisele.](pildid/mang/kaart_14.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **15** ![Kaart 15 (Õ): Kass ronib puu otsa.](pildid/mang/kaart_15.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **16** ![Kaart 16 (E): E-pood soovitab sulle tooteid, mida võiksid osta.](pildid/mang/kaart_16.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **17** ![Kaart 17 (R): Õpilane lahendab peast matemaatikaülesande.](pildid/mang/kaart_17.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **18** ![Kaart 18 (I): Digitaalne assistent (nt Siri või Alexa) vastab sinu küsimusele.](pildid/mang/kaart_18.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **19** ![Kaart 19 (K): Vanem joonistab skeemi tahvlile.](pildid/mang/kaart_19.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **20** ![Kaart 20 (T): Nutikell jälgib sinu und ja soovitab paremat unerütmi.](pildid/mang/kaart_20.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **21** ![Kaart 21 (V): Õde mõõdab kraadiklaasiga patsiendi temperatuuri.](pildid/mang/kaart_21.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **22** ![Kaart 22 (U): Fotoäpi filter muudab pildi automaatselt ilusamaks.](pildid/mang/kaart_22.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **23** ![Kaart 23 (I): Õpetaja annab tunnis suulise juhise.](pildid/mang/kaart_23.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **24** ![Kaart 24 (B): Tekstigeneraator kirjutab sulle lühijutu alguse põhjal loo lõpuni.](pildid/mang/kaart_24.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+****************************************
+Selle vooru tehisaru kaartide tähed: **P E I T U B**
+
+Sõrmejäljelukk tunneb mustri ära, NPC-tegelased reageerivad sinu käitumisele ja e-pood soovitab tooteid ostuandmete põhjal. Sõbra soovitus, kassi ronimine ja peast arvutamine toimuvad ilma tehisaruta.
+
+****************************************
+
+**3. voor: kaardid 25–36**
+
+- [ (Tehisaru abil) (Tehisaru abita) ]
+- [ (X) ( ) ] **25** ![Kaart 25 (A): Nutikas külmkapp annab teada, et piim on otsas.](pildid/mang/kaart_25.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **26** ![Kaart 26 (T): Õpilane täidab töövihikus harjutuse pliiatsiga.](pildid/mang/kaart_26.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **27** ![Kaart 27 (L): Fototuvastusäpp tunneb ära taime liigi pildi järgi.](pildid/mang/kaart_27.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **28** ![Kaart 28 (S): Poes müüja annab sulle vahetusraha käsitsi.](pildid/mang/kaart_28.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **29** ![Kaart 29 (G): Auto pargib end ise ilma juhita.](pildid/mang/kaart_29.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **30** ![Kaart 30 (A): Inimene loeb ajalehest horoskoopi.](pildid/mang/kaart_30.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **31** ![Kaart 31 (O): Online-klaviatuur soovitab järgmisi sõnu kirjutades.](pildid/mang/kaart_31.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **32** ![Kaart 32 (D): Arst määrab patsiendile ravi oma kogemuste põhjal.](pildid/mang/kaart_32.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **33** ![Kaart 33 (R): Instagrami filter muudab näo nooremaks ja siledamaks.](pildid/mang/kaart_33.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **34** ![Kaart 34 (O): Sõber aitab sul valida kleiti peo jaoks.](pildid/mang/kaart_34.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **35** ![Kaart 35 (I): Turvakaamera tunneb ära inimese näo ja avab ukse.](pildid/mang/kaart_35.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **36** ![Kaart 36 (E): Sa võtad raamatukogust raamatu kätte ja sirvid seda.](pildid/mang/kaart_36.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+****************************************
+Selle vooru tehisaru kaartide tähed: **A L G O R I**
+
+Nutikell, fotofilter, tekstigeneraator, taimetuvastus ja isepargiv auto kasutavad tehisaru. Nutikas külmkapp on piiripealne näide: kui see ainult mõõdab, on tegu anduriga, aga kui see tunneb kaameraga tooteid ära, kasutab see tehisaru.
+
+****************************************
+
+**4. voor: kaardid 37–48**
+
+- [ (Tehisaru abil) (Tehisaru abita) ]
+- [ (X) ( ) ] **37** ![Kaart 37 (T): Tekstitöötlusprogramm parandab automaatselt kirjavead.](pildid/mang/kaart_37.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **38** ![Kaart 38 (Ü): Kass vajutab mänguasja nuppu ja kuuleb heli.](pildid/mang/kaart_38.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **39** ![Kaart 39 (M): Droon jälgib ja filmib spordivõistlust reaalajas.](pildid/mang/kaart_39.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **40** ![Kaart 40 (Ä): Sa kirjutad sõbrale sünnipäevakaardi käsitsi.](pildid/mang/kaart_40.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **41** ![Kaart 41 (I): Fotoäpis kasutatakse AI-d tausta eemaldamiseks.](pildid/mang/kaart_41.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **42** ![Kaart 42 (U): Õpetaja kuulab sinu ettekannet klassis.](pildid/mang/kaart_42.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **43** ![Kaart 43 (S): Äpis on võimalik luua muusikat vastavalt sinu tujule.](pildid/mang/kaart_43.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **44** ![Kaart 44 (H): Õpilane küpsetab kooki retsepti järgi.](pildid/mang/kaart_44.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **45** ![Kaart 45 (?): ChatGPT vastab sinu küsimusele ajaloo kohta.](pildid/mang/kaart_45.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **46** ![Kaart 46 (G): Laste mängukaru mängib salvestatud heli nupule vajutades.](pildid/mang/kaart_46.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ (X) ( ) ] **47** ![Kaart 47 (:)): Google Lens tõlgib tänavasildi teises keeles.](pildid/mang/kaart_47.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+- [ ( ) (X) ] **48** ![Kaart 48 (T): Käsitööline valmistab käsitsi puidust tooli.](pildid/mang/kaart_48.jpg)<!-- style="width: 320px; max-width: 100%; border-radius: 10px;" -->
+****************************************
+Selle vooru tehisaru kaartide tähed: **T M I S ? :)**
+
+Klaviatuuri sõnasoovitused, automaatne kirjavigade parandus, droon, tausta eemaldamine, muusika loomine tuju järgi, ChatGPT ja Google Lens kasutavad tehisaru. Salvestatud heli mängiv mängukaru ja nupule vajutav kass mitte: mänguasi ainult esitab salvestust.
+
+****************************************
+
+**Salalause.** Kirjuta tehisaru abil toimuvate kaartide tähtedest moodustuv lause.
+
+[[Kas tõde peitub algoritmis?]]
+<script>
+let v = `@input`.toLowerCase().replace(/[^a-zõäöüšž]/g, "");
+v === "kastõdepeitubalgoritmis"
+</script>
+****************************************
+Õige! Salalause on **„Kas tõde peitub algoritmis? :)“**
+****************************************
+
+<!-- class="pae-jaotis" -->
+**Arutle**
+
+**Kas tõde peitub algoritmis? Mida see küsimus sinu arvates tähendab? Kas tehisaru vastus on alati tõene?**
+
+[[___ ___ ___]]
+
+<details>
+<summary>Vaata, millele vastuses mõelda</summary>
+
+Algoritm ei tea „tõde“. See leiab andmetest mustreid ja teeb tõenäosuslikke ennustusi. Tehisaru võib eksida (näiteks ChatGPT võib hallutsineerida) ja andmetes olev kallutatus võib jõuda ka tema vastustesse. Seepärast tuleb tehisaru vastuseid kriitiliselt kontrollida ja otsustada ise.
+
+</details>
+
+**Millise kaardi sorteerimine oli kõige raskem? Miks? Too üks piiripealne näide (nt nutikas külmkapp, sõrmejäljelukk).**
+
+[[___ ___ ___]]
+
 ### Kokkuvõte ja põhimõisted
 
 **Pea meeles**
@@ -811,7 +942,7 @@ Selle tunni järel sa:
 
 - tunned tehisintellekti ajaloo olulisemaid verstaposte ja nendega seotud inimesi;
 - oskad kirjeldada tehisintellekti arengu kolme revolutsiooni: sümboolne TI, masinõpe ja generatiivne TI;
-- mõistad, mida tähendavad tehisintellekti „talved" ja „kevaded" ning miks need tekkisid;
+- mõistad, mida tähendavad tehisintellekti „talved“ ja „kevaded“ ning miks need tekkisid;
 - oskad selgitada, millised tegurid võimaldasid tehisintellekti kiire arengu 2010. aastatel;
 - oskad analüüsida tehisintellekti arengu mõju ühiskonnale, sh Eestis.
 
@@ -826,7 +957,7 @@ Tehisintellekt kasvas välja neljast valdkonnast:
 - **psühholoogia** uuris inimese mõtlemisprotsesse (geštaltpsühholoogia, kognitiivne psühholoogia);
 - **arvutiteadus** lõi arvutusliku võimekuse (Charles Babbage ja Ada Lovelace 19. sajandil).
 
-Antiik-Kreekas kirjeldas **Aristoteles** loogikat kui formaalse arutluse alust. 17.–18. sajandil unistas **Leibniz** universaalsest arvutuskeelest, millega saaks iga vaidluse lahendada arvutades. 19. sajandil lõi **George Boole** matemaatilise loogika, millel põhinevad tänapäeva arvutid (tõene/väär, 1/0). 1936. aastal kirjeldas **Alan Turing** „arvutatavuse" kontseptsiooni ja kujuteldava universaalse arvutusmasina, mida nimetatakse Turingi masinaks. 1943. aastal lõid **Warren McCulloch ja Walter Pitts** esimese tehisneuroni ehk tehisnärvivõrgu matemaatilise mudeli. 1948. aastal pani **Norbert Wiener** aluse küberneetikale – teadusele juhtimisest ja tagasisidest nii masinates kui ka elusolendites.
+Antiik-Kreekas kirjeldas **Aristoteles** loogikat kui formaalse arutluse alust. 17.–18. sajandil unistas **Leibniz** universaalsest arvutuskeelest, millega saaks iga vaidluse lahendada arvutades. 19. sajandil lõi **George Boole** matemaatilise loogika, millel põhinevad tänapäeva arvutid (tõene/väär, 1/0). 1936. aastal kirjeldas **Alan Turing** „arvutatavuse“ kontseptsiooni ja kujuteldava universaalse arvutusmasina, mida nimetatakse Turingi masinaks. 1943. aastal lõid **Warren McCulloch ja Walter Pitts** esimese tehisneuroni ehk tehisnärvivõrgu matemaatilise mudeli. 1948. aastal pani **Norbert Wiener** aluse küberneetikale – teadusele juhtimisest ja tagasisidest nii masinates kui ka elusolendites.
 
 Tehisintellekti tänapäevast ajalugu võib jagada kolmeks suureks revolutsiooniks, millest igaüks on muutnud tehisintellekti võimsamaks ja kättesaadavamaks:
 
@@ -834,7 +965,7 @@ Tehisintellekti tänapäevast ajalugu võib jagada kolmeks suureks revolutsiooni
 
 ### Esimene revolutsioon: sümboolne tehisintellekt (1950–1980)
 
-**1950. aastal** avaldas Alan Turing artikli „Computing Machinery and Intelligence" ja pakkus välja masina intelligentsuse hindamise meetodi.
+**1950. aastal** avaldas Alan Turing artikli „Computing Machinery and Intelligence“ ja pakkus välja masina intelligentsuse hindamise meetodi.
 
 <!-- class="pae-moiste" -->
 > **Mõiste: Turingi test**
@@ -843,10 +974,10 @@ Tehisintellekti tänapäevast ajalugu võib jagada kolmeks suureks revolutsiooni
 
 ![Küsitleja saadab läbi seina kirjalikke küsimusi kahele vestluspartnerile, A-le ja B-le, ning saab neilt vastused; kui ta ei suuda eristada, kumb on masin, on masin testi läbinud.](pildid/plokk_1/1_2_turingi_test.svg "Joonis 1.2.2. Turingi testi ülesehitus")
 
-1951. aastal ehitasid **Marvin Minsky** ja Dean Edmonds esimese närvivõrgul põhineva arvuti **SNARC**. **1956. aastal** toimus USA-s Dartmouthi kolledžis konverents, kus kohtusid John McCarthy, Marvin Minsky, Claude Shannon, Allen Newell jt. Seal võttis **John McCarthy** kasutusele termini „tehisintellekt". Seda aastat peetakse tehisintellekti kui teadusvaldkonna sünniaastaks.
+1951. aastal ehitasid **Marvin Minsky** ja Dean Edmonds esimese närvivõrgul põhineva arvuti **SNARC**. **1956. aastal** toimus USA-s Dartmouthi kolledžis konverents, kus kohtusid John McCarthy, Marvin Minsky, Claude Shannon, Allen Newell jt. Seal võttis **John McCarthy** kasutusele termini „tehisintellekt“. Seda aastat peetakse tehisintellekti kui teadusvaldkonna sünniaastaks.
 
 <!-- class="pae-fakt" -->
-> **Kas teadsid?** Sõna „tehisintellekt" sündis **1956. aastal** Dartmouthi konverentsil – see tähendab, et tehisintellekt on teadusvaldkonnana juba üle 70 aasta vana!
+> **Kas teadsid?** Sõna „tehisintellekt“ sündis **1956. aastal** Dartmouthi konverentsil – see tähendab, et tehisintellekt on teadusvaldkonnana juba üle 70 aasta vana!
 
 Järgnes **esimene kuldajastu (1956–1974)**, mida iseloomustasid optimism ja suured lubadused. Allen Newell ja Herbert Simon lõid programmid **Logic Theorist** (1956), mis tõestas matemaatilisi teoreeme, ja **General Problem Solver** (1957), üldise probleemilahendaja. 1958. aastal lõi McCarthy programmeerimiskeele **LISP**; hiljem lisandus loogikaprogrammeerimise keel PROLOG. 1961. aastal hakkas General Motorsi tehases tööle esimene tööstusrobot **Unimate**. Joseph Weizenbaum lõi aastatel 1964–1966 vestlusprogrammi **ELIZA**, mis matkis psühhoterapeudiga vestlust, ja 1970. aastal näitas programm **SHRDLU**, et arvuti suudab lihtsas klotsimaailmas mõista loomuliku keele käske. Arendati ka masintõlget, masinnägemist ja roboteid. Uuringuid rahastasid suurel määral valitsusasutused, näiteks USA kaitseuuringute agentuur DARPA.
 
@@ -855,18 +986,18 @@ Sümboolse tehisintellekti põhiidee oli, et intelligentsust saab kirjeldada **s
 <!-- class="pae-moiste" -->
 > **Mõiste: ekspertsüsteem**
 >
-> Ekspertsüsteem on teadmispõhine tehisintellekti süsteem, mis püüab jäljendada inimeksperdi otsustusvõimet. Selle südames on teadmusbaas – suur hulk ekspertidelt kogutud „kui ..., siis ..." tüüpi reegleid.
+> Ekspertsüsteem on teadmispõhine tehisintellekti süsteem, mis püüab jäljendada inimeksperdi otsustusvõimet. Selle südames on teadmusbaas – suur hulk ekspertidelt kogutud „kui ..., siis ...“ tüüpi reegleid.
 
 Esimene ekspertsüsteem **DENDRAL** (alates 1965) analüüsis keemilisi aineid, **MYCIN** (1970. aastad) aitas arstidel diagnoosida bakteriaalseid nakkusi ja soovitada ravi.
 
 Peagi selgus aga, et ootused olid liiga suured. Arvutid olid aeglased, algoritmid lihtsad ja andmeid vähe. Keerukate probleemide, näiteks masintõlke, raskust oli alahinnatud. 1973. aastal kritiseeris Suurbritannias avaldatud **Lighthilli raport** tehisintellekti uuringuid teravalt ning rahastamine vähenes järsult. Algas **esimene tehisintellekti talv (1974–1980)**: uurimistöö aeglustus, avalik huvi vähenes ja teadlased keskendusid kitsamatele probleemidele.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: tehisintellekti „talv" ja „kevad"**
+> **Mõiste: tehisintellekti „talv“ ja „kevad“**
 >
 > Tehisintellekti **talv** on periood, mil tehisintellekti arendamine aeglustub, sest rahastus ja huvi vähenevad – tavaliselt pärast seda, kui liiga suured lubadused ei täitu. **Kevadeks** nimetatakse perioodi, mil uued läbimurded toovad tagasi huvi ja raha.
 
-1980. aastatel tulid ekspertsüsteemid uuesti esile, seekord **äris**. Näiteks **XCON** aitas konfigureerida arvuteid, teised süsteemid aitasid finantsplaneerimisel ja tootmise optimeerimisel. 1981. aastal käivitas Jaapan suure **„viienda põlvkonna" arvutiprojekti**. Kuid ekspertsüsteemidel olid tõsised puudused: nende hooldus oli keeruline ja kallis, sest iga uus olukord nõudis uusi käsitsi kirjutatud reegleid; nad ei kohanenud muutustega ja neid oli raske laiendada. Spetsialiseeritud tehisintellekti riistvara ebaõnnestus ja personaalarvutite tõus muutis kallid suured süsteemid ebaoluliseks. Algas **teine tehisintellekti talv (1987–1993)**: ettevõtteid suleti, rahastus vähenes ja paljud teadlased vältisid isegi sõna „tehisintellekt".
+1980. aastatel tulid ekspertsüsteemid uuesti esile, seekord **äris**. Näiteks **XCON** aitas konfigureerida arvuteid, teised süsteemid aitasid finantsplaneerimisel ja tootmise optimeerimisel. 1981. aastal käivitas Jaapan suure **„viienda põlvkonna“ arvutiprojekti**. Kuid ekspertsüsteemidel olid tõsised puudused: nende hooldus oli keeruline ja kallis, sest iga uus olukord nõudis uusi käsitsi kirjutatud reegleid; nad ei kohanenud muutustega ja neid oli raske laiendada. Spetsialiseeritud tehisintellekti riistvara ebaõnnestus ja personaalarvutite tõus muutis kallid suured süsteemid ebaoluliseks. Algas **teine tehisintellekti talv (1987–1993)**: ettevõtteid suleti, rahastus vähenes ja paljud teadlased vältisid isegi sõna „tehisintellekt“.
 
 ### Teine revolutsioon: masinõpe (1980–2010)
 
@@ -875,7 +1006,7 @@ Teise revolutsiooni põhiidee oli lihtne, kuid murranguline: selle asemel et mas
 <!-- class="pae-naide" -->
 > **Näide: kaks viisi rämpsposti tuvastada**
 >
-> **Sümboolne lähenemine:** programmeerija kirjutab reeglid – „kui kirjas on sõna „VÕIDA" ja palju hüüumärke, siis on see rämpspost". Petturid muudavad sõnastust ja reeglid jäävad hätta.
+> **Sümboolne lähenemine:** programmeerija kirjutab reeglid – „kui kirjas on sõna „VÕIDA“ ja palju hüüumärke, siis on see rämpspost". Petturid muudavad sõnastust ja reeglid jäävad hätta.
 >
 > **Masinõppe lähenemine:** süsteemile näidatakse tuhandeid kirju, mis on märgitud kas rämpspostiks või tavaliseks kirjaks. Süsteem leiab ise mustrid ja tunneb ära ka uued rämpskirjad, mille sõnastust keegi ette ei kirjutanud.
 
@@ -885,7 +1016,7 @@ Teise revolutsiooni põhiidee oli lihtne, kuid murranguline: selle asemel et mas
 
 **1997. aastal** võitis IBM-i superarvuti **Deep Blue** malematšis maailmameistrit **Garry Kasparovit** (3,5 : 2,5). Deep Blue ei õppinud nagu tänapäeva süsteemid, vaid arvutas läbi tohutul hulgal käike – see oli arvutusvõimsuse ja nutikate algoritmide kombinatsioon.
 
-2000. aastatel tõi internet kaasa andmete plahvatusliku kasvu. Suured andmehulgad võimaldasid treenida võimsamaid mudeleid. 2004–2010 arenesid robotid (DARPA Grand Challenge'i isesõitvate autode võistlused, iRoboti robottolmuimejad). 2006. aastal populariseeris **Geoffrey Hinton** süvaõppe meetodeid. **2011. aastal** võitis IBM **Watson** telemängus „Jeopardy!" parimaid inimmängijaid, näidates loomuliku keele mõistmist ja teadmiste töötlemist.
+2000. aastatel tõi internet kaasa andmete plahvatusliku kasvu. Suured andmehulgad võimaldasid treenida võimsamaid mudeleid. 2004–2010 arenesid robotid (DARPA Grand Challenge'i isesõitvate autode võistlused, iRoboti robottolmuimejad). 2006. aastal populariseeris **Geoffrey Hinton** süvaõppe meetodeid. **2011. aastal** võitis IBM **Watson** telemängus „Jeopardy!“ parimaid inimmängijaid, näidates loomuliku keele mõistmist ja teadmiste töötlemist.
 
 ### Kolmas revolutsioon: süvaõpe ja generatiivne tehisintellekt (2010–…)
 
@@ -899,7 +1030,7 @@ Teise revolutsiooni põhiidee oli lihtne, kuid murranguline: selle asemel et mas
 > | Aasta | Süsteem | Saavutus |
 > |---|---|---|
 > | 1997 | Deep Blue | võitis male maailmameistrit Garry Kasparovit |
-> | 2011 | Watson | võitis „Jeopardy!" meistreid |
+> | 2011 | Watson | võitis „Jeopardy!“ meistreid |
 > | 2016 | AlphaGo | võitis Go maailmameistrit Lee Sedoli 4 : 1 |
 > | 2017 | AlphaZero | õppis malet, Go'd ja shōgi'd ilma inimeste näideteta |
 >
@@ -911,7 +1042,7 @@ Teise revolutsiooni põhiidee oli lihtne, kuid murranguline: selle asemel et mas
 | Deep Blue – Kasparov (1997) | 3.5 | 2.5 |
 | AlphaGo – Lee Sedol (2016) | 4 | 1 |
 
-**2017. aastal** avaldasid Google'i teadlased artikli „Attention Is All You Need", mis tutvustas **Transformer-arhitektuuri** – tänapäeva suurte keelemudelite alust. 2017–2018 tekkisid keelemudelid **BERT** ja **GPT**. **2020. aastal** avaldas OpenAI 175 miljardi parameetriga keelemudeli **GPT-3**, mis genereeris enneolematult hästi teksti. **2022. aastal** avaldati **ChatGPT**, mis jõudis hinnanguliselt 100 miljoni kasutajani kõigest umbes kahe kuuga. Samal ajal levisid pildigeneraatorid DALL-E, Midjourney ja Stable Diffusion.
+**2017. aastal** avaldasid Google'i teadlased artikli „Attention Is All You Need“, mis tutvustas **Transformer-arhitektuuri** – tänapäeva suurte keelemudelite alust. 2017–2018 tekkisid keelemudelid **BERT** ja **GPT**. **2020. aastal** avaldas OpenAI 175 miljardi parameetriga keelemudeli **GPT-3**, mis genereeris enneolematult hästi teksti. **2022. aastal** avaldati **ChatGPT**, mis jõudis hinnanguliselt 100 miljoni kasutajani kõigest umbes kahe kuuga. Samal ajal levisid pildigeneraatorid DALL-E, Midjourney ja Stable Diffusion.
 
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** 2022. aastal avaldatud ChatGPT jõudis hinnanguliselt **100 miljoni kasutajani kõigest umbes kahe kuuga**.
@@ -962,11 +1093,64 @@ Seetõttu on oluline vastutustundlik areng. Euroopa Liit võttis vastu **tehisin
 > 1. Ajaloos on olnud kaks tehisintellekti talve. Kas 2020. aastate generatiivse tehisintellekti buum võib sinu arvates viia kolmanda talveni? Mis räägib selle poolt ja mis vastu?
 > 2. Kas oskad tuua näite mõnest teisest tehnoloogiast, mille ümber oli suur vaimustus, millele järgnes pettumus?
 
+### Video: „Kibe õppetund“ (The Bitter Lesson)
+
+Tehisintellekti ajaloos kordub üks muster nii sageli, et sellel on oma nimi. Arvutiteadlane **Rich Sutton** kirjutas 2019. aastal lühikese essee „The Bitter Lesson“ („Kibe õppetund“). Vaata Ethan Mollicki videot, mis selgitab seda mõtet laulu kaudu. Video on inglise keeles. Lülita vajaduse korral sisse subtiitrid (**CC**) ja automaatne tõlge.
+
+!?[The Bitter Lesson – Ethan Mollick](https://www.youtube.com/watch?v=OAwat51S_Sk)
+
+<!-- class="pae-lisaks" -->
+> **Huvitav fakt videost**
+>
+> Video ise on näide sellest, millest see räägib. Ethan Mollicki sõnul andis ta tehisintellektile ainult ühe juhise. Laulusõnad, muusika ja video valmisid mitme TI-agendi koostöös, ilma et inimene oleks vahepeal midagi parandanud.
+
+<!-- class="pae-motle" -->
+> **Mõtle vaatamise ajal**
+>
+> 1. Mida püüdsid teadlased teha „targa“ TI loomiseks: kas kirjutada masinale ise reeglid või lasta sel õppida?
+> 2. Mis juhtus siis, kui arvutid muutusid kiiremaks ja andmeid tuli juurde?
+> 3. Miks nimetatakse seda õppetundi just *kibedaks*?
+
+<!-- class="pae-jaotis" -->
+**Refleksioon**
+
+**1. Mis on selle video peasõnum? Kirjuta see 2–3 lausega oma sõnadega.**
+
+[[___ ___ ___]]
+
+<details>
+<summary>Vaata näidisvastust</summary>
+
+Video peasõnum on Rich Suttoni „kibe õppetund“: tehisintellekti ajaloos on pikas plaanis peaaegu alati võitnud üldised meetodid, mis kasutavad ära kasvavat arvutusvõimsust (õppimine ja otsing). Inimeste käsitsi kirjutatud reeglid ja ekspertteadmised on jäänud alla. Õppetund on kibe, sest teadlased on korduvalt investeerinud oma teadmistesse ja nutikatesse reeglitesse, kuid lõpuks on suurem arvutusvõimsus ja rohkem andmeid need ikka üle trumbanud. Inimesed peavad seda õppetundi ikka ja jälle uuesti õppima.
+
+</details>
+
+**2. Seosta video selle tunniga. Millised tunni näited sobivad „kibeda õppetunniga“? (Vali kõik sobivad.)**
+
+- [[X]] Deep Blue võitis Kasparovi suure arvutusvõimsuse ja otsingu abil.
+- [[X]] AlphaGo õppis go-d suure hulga mängude põhjal, mitte käsitsi kirjutatud reeglite järgi.
+- [[ ]] Ekspertsüsteemid olid seda edukamad, mida rohkem reegleid eksperdid neile käsitsi kirjutasid.
+- [[X]] Süvaõpe hakkas toimima, kui tekkisid suured andmehulgad ja võimsad graafikaprotsessorid.
+****************************************
+Deep Blue, AlphaGo ja süvaõppe läbimurre näitavad, et arvutusvõimsus ning õppimine andmetest viisid edule. Ekspertsüsteemid näitavad vastupidist: käsitsi kirjutatud reeglitega süsteemid jäid jäigaks ja neid oli raske laiendada. Nende piirid viisid teise TI-talveni (1987–1993).
+****************************************
+
+**3. Kas sinu arvates kehtib „kibe õppetund“ alati? Too üks näide, kus inimese teadmised, väärtused või otsustusvõime jäävad ka edaspidi vajalikuks.**
+
+[[___ ___ ___ ___]]
+
+<details>
+<summary>Vaata, millele vastuses mõelda</summary>
+
+Hea vastus võtab seisukoha ja põhjendab seda. Näiteks: arvutusvõimsus aitab lahendada ülesandeid, kus on selge eesmärk ja palju andmeid. Inimest on aga vaja otsustamaks, milliseid eesmärke TI-le seada, mis on õiglane ja eetiline ning kes vastutab tagajärgede eest, näiteks meditsiinis, kohtus või koolis hindamisel. Arvesta ka sellega, et suur arvutusvõimsus kulutab palju energiat ja raha.
+
+</details>
+
 ### Kokkuvõte ja põhimõisted
 
 **Pea meeles**
 
-- Tehisintellekti juured on filosoofias, matemaatikas, psühholoogias ja arvutiteaduses; termin „tehisintellekt" võeti kasutusele 1956. aastal Dartmouthi konverentsil.
+- Tehisintellekti juured on filosoofias, matemaatikas, psühholoogias ja arvutiteaduses; termin „tehisintellekt“ võeti kasutusele 1956. aastal Dartmouthi konverentsil.
 - Areng on läbinud kolm revolutsiooni: sümboolne TI (reeglid ja loogika), masinõpe (õppimine andmetest) ja generatiivne TI (süvaõpe, suured keelemudelid).
 - Ajalugu on olnud tsükliline: kaks tehisintellekti talve (1974–1980 ja 1987–1993) tekkisid, kui suured lubadused ei täitunud.
 - Strateegiamängude võidud (Deep Blue, AlphaGo, AlphaZero) näitavad arengut jõumeetodist õppivate süsteemideni.
@@ -976,7 +1160,7 @@ Seetõttu on oluline vastutustundlik areng. Euroopa Liit võttis vastu **tehisin
 | Mõiste | Tähendus |
 |---|---|
 | Turingi test | katse, kas inimene suudab kirjaliku vestluse põhjal eristada masinat inimesest |
-| Dartmouthi konverents | 1956. aasta kohtumine, kus võeti kasutusele termin „tehisintellekt" |
+| Dartmouthi konverents | 1956. aasta kohtumine, kus võeti kasutusele termin „tehisintellekt“ |
 | sümboolne tehisintellekt | reeglitel ja loogikal põhinev lähenemine tehisintellektile |
 | ekspertsüsteem | teadmispõhine süsteem, mis kasutab inimekspertidelt kogutud reegleid |
 | tehisintellekti talv | periood, mil rahastus ja huvi tehisintellekti vastu vähenevad |
@@ -985,6 +1169,7 @@ Seetõttu on oluline vastutustundlik areng. Euroopa Liit võttis vastu **tehisin
 | Transformer | 2017. aastal tutvustatud närvivõrgu arhitektuur, suurte keelemudelite alus |
 | generatiivne tehisintellekt | tehisintellekt, mis loob uut sisu: teksti, pilte, heli, videot |
 | suur keelemudel | tohutul tekstihulgal treenitud mudel, mis genereerib inimlaadset teksti |
+| „kibe õppetund“ (The Bitter Lesson) | Rich Suttoni (2019) tähelepanek, et pikas plaanis võidavad üldised meetodid, mis kasutavad arvutusvõimsust (õppimine, otsing), käsitsi kirjutatud inimteadmiste üle |
 
 ### Tööleht 1.2
 
@@ -1036,7 +1221,7 @@ c) Läbimurre:
 
 | Täht | Kirjeldus |
 |:---:|---|
-| **A** | Lõi programmeerimiskeele LISP ja võttis kasutusele termini „tehisintellekt" |
+| **A** | Lõi programmeerimiskeele LISP ja võttis kasutusele termini „tehisintellekt“ |
 | **B** | Pakkus välja Turingi testi ja pani aluse arvutiteadusele |
 | **C** | Arendas pertseptroni, ühe esimestest närvivõrgu mudelitest |
 | **D** | Oli MIT-i tehisintellekti labori kaasasutaja ja ehitas närvivõrgul põhineva arvuti SNARC |
@@ -1049,7 +1234,7 @@ c) Läbimurre:
 - [ ( ) ( ) (X) ( ) ( ) ] Frank Rosenblatt
 - [ ( ) ( ) ( ) ( ) (X) ] Geoffrey Hinton
 ****************************************
-Turing – Turingi test (B); McCarthy – LISP ja termin „tehisintellekt" (A); Minsky – MIT-i TI-labor ja SNARC (D); Rosenblatt – pertseptron (C); Hinton – tagasilevi ja süvaõpe (E).
+Turing – Turingi test (B); McCarthy – LISP ja termin „tehisintellekt“ (A); Minsky – MIT-i TI-labor ja SNARC (D); Rosenblatt – pertseptron (C); Hinton – tagasilevi ja süvaõpe (E).
 ****************************************
 
 **Ülesanne 4.** Vali üks tehisintellekti pioneer ja kirjuta lühike kokkuvõte tema elust ja panusest.
@@ -1057,9 +1242,9 @@ Turing – Turingi test (B); McCarthy – LISP ja termin „tehisintellekt" (A);
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Tehisintellekti „talved" ja „kevaded"**
+**III. Tehisintellekti „talved“ ja „kevaded“**
 
-**Ülesanne 5.** Selgita, mida tähendavad tehisintellekti kontekstis mõisted „talv" ja „kevad".
+**Ülesanne 5.** Selgita, mida tähendavad tehisintellekti kontekstis mõisted „talv“ ja „kevad“.
 
 [[___ ___ ___]]
 
@@ -1078,7 +1263,7 @@ Turing – Turingi test (B); McCarthy – LISP ja termin „tehisintellekt" (A);
 
 [[___ ___]]
 
-**Ülesanne 7.** Millised tegurid tõid kaasa tehisintellekti „kevade" 2010. aastatel?
+**Ülesanne 7.** Millised tegurid tõid kaasa tehisintellekti „kevade“ 2010. aastatel?
 
 [[___ ___ ___ ___]]
 
@@ -1091,7 +1276,7 @@ a) Deep Blue vs Garry Kasparov (1997):
 
 [[___ ___]]
 
-b) Watson mängus „Jeopardy!" (2011):
+b) Watson mängus „Jeopardy!“ (2011):
 
 [[___ ___]]
 
@@ -20053,7 +20238,7 @@ Hea arutlus vastab valitud küsimusele otse, toob välja vähemalt kaks-kolm sel
 | **abstraktiivne kokkuvõte** | Kokkuvõte, mille jaoks genereeritakse uus tekst | 3.2 |
 | **ajakava** | Projekti tegevuste järjestus koos tähtaegadega | 7.2 |
 | **ajaline keerukus** | Näitab, kuidas algoritmi tööaeg kasvab andmete hulgaga | 2.1 |
-| **aktivatsioonifunktsioon** | Funktsioon, mis määrab, kas ja kui tugevalt neuron „süttib" | 2.4 |
+| **aktivatsioonifunktsioon** | Funktsioon, mis määrab, kas ja kui tugevalt neuron „süttib“ | 2.4 |
 | **alasobitamine** | Mudel on liiga lihtne ega taba andmete seaduspärasusi | 2.3 |
 | **algoritm** | Täpne juhiste jada probleemi lahendamiseks | 2.1 |
 | **algoritmi audit** | TI-süsteemi süstemaatiline kontroll kallutatuse ja vigade leidmiseks | 6.3 |
@@ -20079,7 +20264,7 @@ Hea arutlus vastab valitud küsimusele otse, toob välja vähemalt kaks-kolm sel
 | **C** | | |
 | **C2PA** | Standard, mis aitab tõendada meediasisu päritolu ja muutmise ajalugu | 5.5 |
 | **D** | | |
-| **Dartmouthi konverents** | 1956. aasta kohtumine, kus võeti kasutusele termin „tehisintellekt" | 1.2 |
+| **Dartmouthi konverents** | 1956. aasta kohtumine, kus võeti kasutusele termin „tehisintellekt“ | 1.2 |
 | **demo** | Lahenduse töö näitamine elavalt või salvestatult | 7.4 |
 | **demograafiline pariteet** | Eri rühmadel on võrdne tõenäosus positiivseks tulemuseks | 6.3 |
 | **dialoogihaldur** | Vestlusroboti osa, mis jälgib vestluse olekut ja otsustab järgmise sammu | 3.3 |
@@ -20121,7 +20306,7 @@ Hea arutlus vastab valitud küsimusele otse, toob välja vähemalt kaks-kolm sel
 | **hääle süntees** | Inimese häält jäljendava kõne loomine TI abil | 5.5 |
 | **hägusloogika** | Loogika, mis töötab ebatäpsete väärtustega (nt „kõrge temperatuur“) | 4.2 |
 | **häkaton** | Lühike intensiivne arendusvõistlus | 7.5 |
-| **heuristika** | „Nutikas rusikareegel", mis aitab lahenduse kiiremini leida | 2.1, 4.1 |
+| **heuristika** | „Nutikas rusikareegel“, mis aitab lahenduse kiiremini leida | 2.1, 4.1 |
 | **hübriidsüsteem** | Süsteem, mis kombineerib ekspertsüsteemi ja masinõpet | 4.2, 4.3 |
 | **hüperparameeter** | Seadistus, mille arendaja määrab enne treenimist | 2.3 |
 | **I** | | |
@@ -20145,6 +20330,7 @@ Hea arutlus vastab valitud küsimusele otse, toob välja vähemalt kaks-kolm sel
 | **juhuslik mets** | Ansamblimeetod, mis kombineerib paljude otsustuspuude ennustused | 4.1 |
 | **juuretipp, sisemine tipp, leht** | Puu algus; vahepealne otsustuskoht; lõppotsus | 4.1 |
 | **K** | | |
+| **„kibe õppetund“ (The Bitter Lesson)** | Rich Suttoni (2019) tähelepanek, et pikas plaanis võidavad üldised meetodid, mis kasutavad arvutusvõimsust (õppimine, otsing), käsitsi kirjutatud inimteadmiste üle | 1.2 |
 | **kaal** | Arv, mis näitab sisendi olulisust neuroni jaoks | 2.4 |
 | **kaalutud summa** | Sisendite ja kaalude korrutiste summa koos nihkega | 2.4 |
 | **kallutatus** | Süstemaatiline viga, mis soosib või kahjustab mõnda rühma | 2.2, 3.2, 7.1 |
@@ -20191,15 +20377,15 @@ Hea arutlus vastab valitud küsimusele otse, toob välja vähemalt kaks-kolm sel
 | **mudel** | Treenimise tulemusel saadud reeglite kogum, millega tehakse ennustusi | 2.3 |
 | **mullifilter** | Olukord, kus kasutaja näeb ainult oma varasemate eelistustega sarnast sisu | 4.3 |
 | **multimodaalne süsteem** | TI, mis töötleb korraga mitut liiki andmeid | 6.5, 7.5 |
-| **„musta kasti" probleem** | Olukord, kus tehisintellekti otsuse tegemise viis ei ole inimesele mõistetav | 1.1, 4.4 |
+| **„musta kasti“ probleem** | Olukord, kus tehisintellekti otsuse tegemise viis ei ole inimesele mõistetav | 1.1, 4.4 |
 | **must kast** | Mudel, mille sisemist otsustusloogikat ei ole võimalik lihtsalt mõista | 6.1 |
 | **N** | | |
-| **näotundmine** | Isiku tuvastamine näo põhjal („kelle?") | 5.2 |
-| **näotuvastus** | Nägude leidmine pildil („kus?") | 5.2 |
+| **näotundmine** | Isiku tuvastamine näo põhjal („kelle?“) | 5.2 |
+| **näotuvastus** | Nägude leidmine pildil („kus?“) | 5.2 |
 | **näo vahetamine** | Ühe inimese näo asendamine teise inimese näoga pildil või videos | 5.5 |
 | **närvivõrgupõhine masintõlge** | Tõlge süvaõppe mudelite (RNN, transformer) abil | 3.4 |
 | **närvivõrk** | Omavahel ühendatud tehisneuronitest koosnev arvutusmudel | 2.4 |
-| **nihe** | Lisaarv, mis mõjutab, kui kergesti neuron „süttib" | 2.4 |
+| **nihe** | Lisaarv, mis mõjutab, kui kergesti neuron „süttib“ | 2.4 |
 | **nimeüksuste tuvastamine** | Isikute, organisatsioonide, asukohtade, kuupäevade jm leidmine tekstist | 3.2 |
 | **normaliseerimine** | Andmete viimine samale skaalale | 2.2 |
 | **nõrk tehisintellekt** | TI, mis lahendab kindlat ülesannet või ülesannete rühma | 7.1 |

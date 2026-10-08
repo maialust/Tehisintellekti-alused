@@ -1,10 +1,10 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.0.0
+version:  1.1.0
 language: et
 narrator: Estonian Female
-date:     01.10.2026
+date:     08.10.2026
 logo:     ../pildid/pae_logo.png
 icon:     ../pildid/pae_logo.png
 comment:  Tehisintellekti alused – gümnaasiumi valikkursus (35 tundi), Tallinna Pae Gümnaasium. Õppetekstid, interaktiivsed töölehed ja enesekontrollitestid.
