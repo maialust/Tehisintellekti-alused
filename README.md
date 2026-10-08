@@ -1,0 +1,2 @@
+# Tehisintellekti-alused
+Gümnaasiumi valikkursus
