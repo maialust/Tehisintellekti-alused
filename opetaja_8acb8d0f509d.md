@@ -733,24 +733,25 @@ Algoritm ei tea „tõde“. See leiab andmetest mustreid ja teeb tõenäosuslik
 
 ### 🎬 Videod: mis see tehisaru on?
 
-Vaata kahte lühikest eestikeelset videot. Esimene tutvustab tehisintellektiga seotud põhimõisteid, teine näitab, et tehisaru on palju enamat kui ainult vestlusrobot.
+Vaata kahte lühikest eestikeelset videot. Videoõpsi video seletab põhimõisted: tehisintellekt, kratt, masinõpe, suurandmed, tehisnärvivõrgud ning kitsas, üldine ja supertehisintellekt. TI-Hüppe video näitab, et tehisaru on palju enamat kui vestlusrobot: suured keelemudelid, soovitusalgoritmid ja isejuhtivad autod.
 
-**Mis on tehisintellekt? Sissejuhatus ja mõisted** · *Videoõps · Kristo Siig*
+**Mis on tehisintellekt? Sissejuhatus ja mõisted** · *Videoõps* · ⏱ 3 min
 
-!?[Mis on tehisintellekt? Sissejuhatus ja mõisted – Videoõps · Kristo Siig](https://www.youtube.com/watch?v=hiiZOM3xV_I)
+!?[Mis on tehisintellekt? Sissejuhatus ja mõisted – Videoõps](https://www.youtube.com/watch?v=hiiZOM3xV_I)
 
-**Mis see tehisaru on?** · *TI-Hüpe*
+**Mis see tehisaru on?** · *TI-Hüpe* · ⏱ 2 min
 
 !?[Mis see tehisaru on? – TI-Hüpe](https://www.youtube.com/watch?v=fYrqlFxF-n8)
 
 <!-- class="pae-motle" -->
 > **Mõtle vaatamise ajal**
 >
-> 1. Mis vahe on kitsal, üldisel ja supertehisintellektil?
-> 2. Miks kasutatakse eesti keeles sõna „kratt“?
-> 3. Milliseid tehisaru liike ja kasutusviise videos nimetati peale vestlusrobotite?
+> 1. Mis vahe on kitsal, üldisel ja supertehisintellektil? Millist neist me täna kasutame?
+> 2. Kust tuleb sõna „kratt“ ja miks see sobib tehisaru kohta?
+> 3. Kuidas on omavahel seotud masinõpe, suurandmed ja tehisnärvivõrgud?
+> 4. Milliseid tehisaru liike peale vestlusrobotite TI-Hüppe video nimetab?
 
-**Kirjuta kolm kohta oma igapäevaelust, kus tehisaru videote põhjal tegelikult töötab, kuigi sa ei pruugi seda märgata.**
+**Kirjuta kolm olukorda oma päevast, kus tehisaru töötab, kuigi sa ei pruugi seda märgata. Märgi iga olukorra juurde, mis liiki tehisaruga on tegu.**
 
 [[___ ___ ___]]
 
@@ -1198,20 +1199,20 @@ Seetõttu on oluline vastutustundlik areng. Euroopa Liit võttis vastu **tehisin
 > 1. Ajaloos on olnud kaks tehisintellekti talve. Kas 2020. aastate generatiivse tehisintellekti buum võib sinu arvates viia kolmanda talveni? Mis räägib selle poolt ja mis vastu?
 > 2. Kas oskad tuua näite mõnest teisest tehnoloogiast, mille ümber oli suur vaimustus, millele järgnes pettumus?
 
-### 🎬 Video: kust tuli tehisaru?
+### 🎬 Video: kust tehisaru tuli?
 
-TI-Hüppe video räägib tehisintellekti ajaloost: kuidas suured lootused ja pettumused on vaheldunud. Ajalugu aitab paremini hinnata ka tänaseid lubadusi ja hirme.
+TI-Hüppe lühivideo näitab, et tehisaru areng on kulgenud lainetena: suurtele lootustele on järgnenud pettumused ja seejärel uued läbimurded. Ajaloo tundmine aitab tänaseid lubadusi ja hirme kainemalt hinnata.
 
-**Kust tuli tehisaru?** · *TI-Hüpe*
+**Kust tehisaru tuli?** · *TI-Hüpe* · ⏱ 3 min
 
-!?[Kust tuli tehisaru? – TI-Hüpe](https://www.youtube.com/watch?v=6XxlkoXmywA)
+!?[Kust tehisaru tuli? – TI-Hüpe](https://www.youtube.com/watch?v=6XxlkoXmywA)
 
 <!-- class="pae-motle" -->
 > **Mõtle vaatamise ajal**
 >
-> 1. Millised on video põhjal tehisintellekti arengu suuremad etapid?
-> 2. Miks on tehisaru arengus vaheldunud vaimustus ja pettumus?
-> 3. Kuidas aitab ajaloo tundmine hinnata tänaseid uudiseid tehisaru kohta?
+> 1. Millised etapid tehisaru arengus videos välja tuuakse?
+> 2. Miks on tehisaru ajaloos vaheldunud vaimustus ja pettumus?
+> 3. Miks ei tasu tehisaru võrdsustada ainult ChatGPT-ga?
 
 **Kirjuta 2–3 lausega: mida õpetab tehisaru ajalugu meile tänase TI-buumi kohta?**
 
@@ -1740,19 +1741,20 @@ Tulevikus võib tehisintellekt muuta haridust, tööd, vaba aega ja isegi inimes
 
 ### 🎬 Video: tehisintellekt ärimaailmas
 
-Vaata Videoõpsi lühivideot sellest, kuidas ettevõtted tehisintellekti kasutavad.
+Videoõpsi lühivideo näitab, kuidas tehisintellekt muudab ettevõtlust ja tööturgu. Videos tuleb juttu ka Eesti riigi kratist ja sellest, milliste oskustega töötajaid on tulevikus rohkem või vähem vaja.
 
-**Tehisintellekt ärimaailmas** · *Videoõps · Kristo Siig*
+**Tehisintellekt ärimaailmas** · *Videoõps* · ⏱ 2 min
 
-!?[Tehisintellekt ärimaailmas – Videoõps · Kristo Siig](https://www.youtube.com/watch?v=4qZPUGg3a88)
+!?[Tehisintellekt ärimaailmas – Videoõps](https://www.youtube.com/watch?v=4qZPUGg3a88)
 
 <!-- class="pae-motle" -->
 > **Mõtle vaatamise ajal**
 >
-> 1. Milliseid TI kasutusviise ettevõtetes videos tutvustati?
-> 2. Milline kasutusviis oli sulle uus või üllatav?
+> 1. Mis on Eesti riigi virtuaalassistendi (krati) nimi ja mida see teeb?
+> 2. Milliste oskustega inimesi on ettevõtluses tehisaru tõttu vähem vaja ja milliseid rohkem?
+> 3. Milline video näide oli sulle uus või üllatav?
 
-**Too üks näide Eesti ettevõttest või teenusest, mis võiks videos nähtud viisil tehisintellekti kasutada. Mis kasu sellest oleks?**
+**Too üks näide Eesti ettevõttest või teenusest, mis võiks tehisaru kasutada. Mis kasu sellest oleks ja mis võiks valesti minna?**
 
 [[___ ___ ___]]
 
@@ -3927,20 +3929,21 @@ Masinõppel on ka väljakutseid: andmete kvaliteet ja hulk, kallutatus ja õiglu
 
 ### 🎬 Video: kuidas tehisaru töötab?
 
-TI-Hüppe video vaatab tehisaru „kapoti alla“ ja selgitab lihtsate näidetega, kuidas tehisaru õpib treeningandmetest mustreid ja ennustab tõenäolisi vastuseid.
+TI-Hüppe video vaatab tehisaru „kapoti alla“. Lihtsate näidetega selgitatakse, kuidas tehisaru õpib treeningandmetest mustreid ja ennustab kõige tõenäolisemat vastust. Sellest tulenevad ka tehisaru piirid: vead, hallutsinatsioonid, keskpärased vastused, kallutatus ja liigne nõustumine kasutajaga.
 
-**Kuidas tehisaru töötab?** · *TI-Hüpe*
+**Kuidas tehisaru töötab?** · *TI-Hüpe* · ⏱ 7 min
 
 !?[Kuidas tehisaru töötab? – TI-Hüpe](https://www.youtube.com/watch?v=8uq3BPnzmgs)
 
 <!-- class="pae-motle" -->
 > **Mõtle vaatamise ajal**
 >
-> 1. Mida tähendab, et tehisaru õpib andmetest mustreid?
-> 2. Miks tehisaru vahel eksib või hallutsineerib?
-> 3. Miks võib tehisaru kasutajaga liiga kergesti nõustuda?
+> 1. Mida tähendab, et tehisaru õpib andmetest mustreid ja ennustab tõenäolist vastust?
+> 2. Miks tehisaru vahel hallutsineerib, st esitab välja mõeldud fakte veendunult?
+> 3. Miks võivad tehisaru vastused olla keskpärased või kallutatud?
+> 4. Miks kipub tehisaru kasutajaga liiga kergesti nõustuma?
 
-**Seleta videole ja tunnile tuginedes oma sõnadega, miks tehisaru vastus võib kõlada veenvalt, kuid olla vale.**
+**Seleta oma sõnadega, miks tehisaru vastus võib kõlada veenvalt, kuid olla vale. Kuidas sa seda kontrolliksid?**
 
 [[___ ___ ___]]
 
@@ -5100,23 +5103,25 @@ Euroopa Liit on nendele küsimustele vastuseks võtnud vastu **Euroopa Liidu teh
 
 ### 🎬 Videod: tehisaru teaduses
 
-Vaata, kuidas tehisaru aitab teadlasi. Esimene video annab lühiülevaate, teises räägib Tartu Ülikooli teadlane Evelyn Uuemaa oma tööst.
+Videoõpsi lühivideo räägib, milliseid uusi uurimisvaldkondi ja probleeme tehisaru teadusesse toob, alates Garri Kasparovi malematšist arvutiga kuni TI-turvalisuse uurijateni. Pikemas TI-Hüppe videos näitab geoinformaatika professor Evelyn Uuemaa, kuidas tehisaru aitab teadlasel leida teaduskirjandust ja tuvastada satelliidipiltidelt keskkonnamuutusi.
 
-**Tehisintellekt teaduses** · *Videoõps · Kristo Siig*
+**Tehisintellekt teaduses** · *Videoõps* · ⏱ 2 min
 
-!?[Tehisintellekt teaduses – Videoõps · Kristo Siig](https://www.youtube.com/watch?v=hJHraS1MIss)
+!?[Tehisintellekt teaduses – Videoõps](https://www.youtube.com/watch?v=hJHraS1MIss)
 
-**Evelyn Uuemaa: kuidas aitab tehisaru teadlast?** · *TI-Hüpe*
+**Evelyn Uuemaa: kuidas aitab tehisaru teadlast?** · *TI-Hüpe* · ⏱ 11 min
 
 !?[Evelyn Uuemaa: kuidas aitab tehisaru teadlast? – TI-Hüpe](https://www.youtube.com/watch?v=vSAtkP3c3X0)
 
 <!-- class="pae-motle" -->
 > **Mõtle vaatamise ajal**
 >
-> 1. Milliseid teadustöö samme saab tehisaru kiiremaks teha?
-> 2. Mida peab teadlane siiski ise tegema ja kontrollima?
+> 1. Mis juhtus maailmameister Garri Kasparovi ja arvuti malemänguga ning miks seda peetakse murdepunktiks?
+> 2. Milliseid uusi teadlasi (nt TI-turvalisuse uurijaid) on tehisaru arenguga vaja?
+> 3. Kuidas aitab tehisaru satelliidipiltidelt keskkonnamuutusi leida?
+> 4. Mida peab teadlane siiski ise tegema: kes püstitab uurimisküsimuse ning kes tõlgendab ja kontrollib tulemusi?
 
-**Vali üks teadusvaldkond, mis sind huvitab. Kirjuta, kuidas tehisaru võiks selles valdkonnas uurijat aidata.**
+**Vali teadusvaldkond, mis sind huvitab. Kirjuta, mida saaks tehisaru selles valdkonnas kiiremini teha ja mida peab inimene ise kontrollima.**
 
 [[___ ___ ___]]
 
@@ -6832,19 +6837,20 @@ Teksti genereerimine on võimas, kuid sellega kaasnevad tõsised ohud.
 
 ### 🎬 Video: miks ei saa tehisarust head kirjanikku?
 
-Kirjanik Kaur Riismaa arutleb, mida tehisaru tekstiloomes suudab ja mida mitte.
+Kirjanik Kaur Riismaa näitab oma katsetuste põhjal, et tehisaru loob kiiresti veenvat teksti, kuid ka hallutsineerib. Tehisaru koostab olemasoleva põhjal tõenäolisi tekste, mis ei ole tingimata uued ega tõesed. Riismaa sõnul on loomingus olulised inimese enda kogemus, autentsus, katsetamine ja isegi ebaõnnestumine.
 
-**Kaur Riismaa: miks ei saa tehisarust head kirjanikku?** · *TI-Hüpe*
+**Kaur Riismaa: miks ei saa tehisarust head kirjanikku?** · *TI-Hüpe* · ⏱ 12 min
 
 !?[Kaur Riismaa: miks ei saa tehisarust head kirjanikku? – TI-Hüpe](https://www.youtube.com/watch?v=qdg5xVoO3Lc)
 
 <!-- class="pae-motle" -->
 > **Mõtle vaatamise ajal**
 >
-> 1. Milles näeb kirjanik tehisaru teksti peamist nõrkust?
-> 2. Kuidas seostub see tunnis õpituga: keelemudel ennustab järgmist sõna?
+> 1. Milliste katsetuste kaudu näitab kirjanik, et tehisaru hallutsineerib?
+> 2. Miks ei ole „tõenäoline tekst“ sama mis uus ja hea tekst? Seosta see tunnis õpitud keelemudeli tööpõhimõttega.
+> 3. Kuidas saab tehisaru kasutada tööriistana nii, et sa ei loovuta talle kogu loomeprotsessi?
 
-**Kas oled kirjanikuga nõus? Põhjenda oma seisukohta 2–3 lausega.**
+**Kas oled kirjanikuga nõus, et tehisarust ei saa head kirjanikku? Põhjenda oma seisukohta 2–3 lausega.**
 
 [[___ ___ ___]]
 
@@ -7890,9 +7896,9 @@ Keeletehnoloogiaid rakendatakse paljudes valdkondades:
 
 ### 🎬 Video: tehisaru ja eesti keel
 
-TI-Hüppe video selgitab, miks tehisaru oskab mõnda keelt paremini kui teist ja milline roll on treeningandmetel. Eesti keel peab uute tehnoloogiatega kasutatav olema, et see püsiks elus.
+TI-Hüppe video selgitab, miks tehisaru oskab mõnda keelt paremini kui teist ja milline roll on treeningandmetel. Et eesti keel ja kultuur püsiksid, peab eesti keel olema uute tehnoloogiatega kasutatav. Selleks on vaja kvaliteetset eestikeelset sisu ja tehisaru kasutamist eesti keeles.
 
-**Tehisaru ja eesti keel** · *TI-Hüpe*
+**Tehisaru ja eesti keel** · *TI-Hüpe* · ⏱ 4 min
 
 !?[Tehisaru ja eesti keel – TI-Hüpe](https://www.youtube.com/watch?v=6wa8Sfdj5vU)
 
@@ -7900,7 +7906,8 @@ TI-Hüppe video selgitab, miks tehisaru oskab mõnda keelt paremini kui teist ja
 > **Mõtle vaatamise ajal**
 >
 > 1. Miks oskab tehisaru inglise keelt paremini kui eesti keelt?
-> 2. Mida saab igaüks teha, et eesti keel tehisaru ajastul püsiks?
+> 2. Mis juhtub keelega, mida tehnoloogia ei toeta?
+> 3. Mida saab igaüks teha, et eesti keel tehisaru ajastul püsiks?
 
 **Kirjuta kaks konkreetset tegevust, millega sina saaksid aidata eesti keelel tehisaru maailmas hästi hakkama saada.**
 
@@ -10292,21 +10299,22 @@ Kuhu soovitussüsteemid edasi arenevad? Üks suund on **multimodaalsed soovituse
 > - Millised soovitussüsteemid on sinu igapäevaelu kõige rohkem mõjutanud?
 > - Kas soovitussüsteemid laiendavad või kitsendavad meie maailmapilti?
 
-### 🎬 Video: kuidas kujundavad algoritmid meie maailmapilti?
+### 🎬 Video: kuidas kujundab tehisaru meie meediaruumi ja suhteid?
 
-Maia Klassen räägib, kuidas soovitusalgoritmid mõjutavad seda, mida me veebis näeme ja mida maailmast arvame.
+Meediateadlane Maia Klaassen selgitab, kuidas platvormid kasutavad meie andmeid ja tähelepanu sisu soovitamiseks. Nii tekivad inimestel väga erinevad infomaailmad ja ühiskonna polariseerumine võib süveneda. Video on pikem, nii et võid vaadata ka ainult osa sellest.
 
-**Maia Klassen: kuidas kujundavad algoritmid meie maailmapilti?** · *TI-Hüpe*
+**Maia Klaassen: kuidas kujundab tehisaru meie meediaruumi ja suhteid?** · *TI-Hüpe* · ⏱ 26 min
 
-!?[Maia Klassen: kuidas kujundavad algoritmid meie maailmapilti? – TI-Hüpe](https://www.youtube.com/watch?v=LzK5kYV5I7A)
+!?[Maia Klaassen: kuidas kujundab tehisaru meie meediaruumi ja suhteid? – TI-Hüpe](https://www.youtube.com/watch?v=LzK5kYV5I7A)
 
 <!-- class="pae-motle" -->
 > **Mõtle vaatamise ajal**
 >
-> 1. Kuidas valib algoritm, mida sulle näidata?
-> 2. Kuidas seostub video tunnis õpitud filtrimulliga?
+> 1. Milliseid andmeid sinu kohta platvormid soovituste tegemiseks kasutavad?
+> 2. Miks on platvormile kasulik hoida sinu tähelepanu võimalikult kaua?
+> 3. Kuidas võivad erinevad infomaailmad suurendada polariseerumist? Seosta see filtrimulliga.
 
-**Vaata oma lemmikrakenduse soovitusi. Kirjuta, mida algoritm sinu kohta „arvab“ ja mida sa saaksid teha, et oma filtrimullist välja pääseda.**
+**Vaata oma lemmikrakenduse soovitusi. Kirjuta, mida algoritm sinu kohta „arvab“ ja mida saaksid teha, et oma filtrimullist välja pääseda.**
 
 [[___ ___ ___]]
 
@@ -10840,25 +10848,27 @@ Kuhu liigub tehisintellekti probleemilahendus edasi? Esiteks **valdkonnad lõimu
 
 ### 🎬 Videod: tehisaru hariduses ja õigusvaldkonnas
 
-Vaata, kuidas tehisaru kasutatakse koolis ja juristide töös.
+Videoõpsi lühivideo räägib, kuidas tehisaru muudab haridust: miks on vaja endiselt asju teada, mis on hallutsineerimine, kuidas tehisaru vastuseid kriitiliselt hinnata ja kuidas tehisaruga keelt õppida. TI-Hüppe videos näitavad advokaadid Merlin Liis-Toomela ja Hegle Pärna, kuidas juristid kasutavad tehisaru seaduste ja kohtulahendite analüüsimiseks.
 
 Vali **vähemalt üks** video ja vaata see läbi.
 
-**Tehisintellekt hariduses** · *Videoõps · Kristo Siig*
+**Tehisintellekt hariduses** · *Videoõps* · ⏱ 2 min
 
-!?[Tehisintellekt hariduses – Videoõps · Kristo Siig](https://www.youtube.com/watch?v=JA_odxMJuiA)
+!?[Tehisintellekt hariduses – Videoõps](https://www.youtube.com/watch?v=JA_odxMJuiA)
 
-**Kuidas panevad tehisaru enda kasuks tööle juristid?** · *TI-Hüpe*
+**Merlin Liis-Toomela ja Hegle Pärna: kuidas juristid panevad tehisaru enda kasuks tööle?** · *TI-Hüpe* · ⏱ 27 min
 
-!?[Kuidas panevad tehisaru enda kasuks tööle juristid? – TI-Hüpe](https://www.youtube.com/watch?v=sIe-5Ub8rxQ)
+!?[Merlin Liis-Toomela ja Hegle Pärna: kuidas juristid panevad tehisaru enda kasuks tööle? – TI-Hüpe](https://www.youtube.com/watch?v=sIe-5Ub8rxQ)
 
 <!-- class="pae-motle" -->
 > **Mõtle vaatamise ajal**
 >
-> 1. Milliseid otsuseid aitab tehisaru nendes valdkondades teha?
-> 2. Kes vastutab, kui tehisaru soovitus on vale?
+> 1. Miks peab inimene ka tehisaru ajastul ise asju teadma?
+> 2. Mida oleks õige teha, kui sõber laseb essee tehisarul kirjutada ja saab selle eest hinde 5?
+> 3. Miks peavad juristid tehisaru vastuseid alati algallikatest kontrollima?
+> 4. Miks on õigusvaldkonnas eriti oluline konfidentsiaalsus ja andmekaitse?
 
-**Võrdle kahte valdkonda: kus on tehisaru otsuste mõju inimesele suurem ja miks?**
+**Võrdle kahte valdkonda: kus on tehisaru vea mõju inimesele suurem ja kes vastutab, kui tehisaru eksib?**
 
 [[___ ___ ___]]
 
@@ -13038,19 +13048,20 @@ Meditsiinilise TI **eelised**:
 
 ### 🎬 Video: kuidas aitab tehisaru päästa elusid?
 
-Martin Reim räägib, kuidas tehisaru aitab meditsiinis ja päästetöös.
+Radioloog Martin Reim näitab päris juhtumite põhjal, kuidas tehisaru aitab arstidel tuvastada insulti, luumurde ja kasvajaid varem ja täpsemalt. Tehisaru võib aga ka eksida, seepärast peab arst tundma selle tugevusi ja piire. Lõplik otsus ja vastutus jäävad inimesele.
 
-**Martin Reim: kuidas aitab tehisaru päästa elusid?** · *TI-Hüpe*
+**Martin Reim: kuidas aitab tehisaru päästa elusid?** · *TI-Hüpe* · ⏱ 15 min
 
 !?[Martin Reim: kuidas aitab tehisaru päästa elusid? – TI-Hüpe](https://www.youtube.com/watch?v=pgmpkxDKM48)
 
 <!-- class="pae-motle" -->
 > **Mõtle vaatamise ajal**
 >
-> 1. Millistes olukordades on tehisaru kiirus kõige väärtuslikum?
-> 2. Miks jääb lõppotsus ikkagi arstile?
+> 1. Milliste haiguste ja vigastuste tuvastamisel tehisaru radioloogi aitab?
+> 2. Miks on insuldi puhul eriti tähtis, et tehisaru töötab kiiresti?
+> 3. Millal võib tehisaru eksida ja miks peab arst selle piire tundma?
 
-**Kirjuta, kas sina usaldaksid tehisaru abil tehtud diagnoosi. Mis tingimustel?**
+**Kas sina usaldaksid tehisaru abil tehtud diagnoosi? Mis tingimustel? Põhjenda video põhjal.**
 
 [[___ ___ ___]]
 
@@ -13565,29 +13576,30 @@ Tulevikus muutuvad mudelid veelgi **multimodaalsemaks** (tekst, pilt, heli ja vi
 
 ### 🎬 Videod: tehisaru, kunst ja muusika
 
-Kolm Eesti loojat arutlevad, mida tehisaru loovusega teeb: kunstnik Marge Monko, muusik Sander Mölder ja meediakunstnik Timo Toots.
+Kolm Eesti loojat arutlevad, mida tehisaru loovusega teeb. **Marge Monko** uurib, millal pildigeneraatoriga loodud pilt on kunst, ning rõhutab kunstniku ideed, kavatsust ja kriitilisi valikuid. **Sander Mölder** näitab praktiliselt tehisaru tööriistu muusika tegemisel. **Timo Toots** vaatleb, kuidas tehnoloogia on kunsti läbi ajaloo muutnud, ning tõstatab küsimusi autorsuse ja tehnoloogiast sõltumise kohta.
 
 Vali **vähemalt üks** video ja vaata see läbi.
 
-**Marge Monko: kas tehisaru kunst on kunst?** · *TI-Hüpe*
+**Marge Monko: kas tehisaru kunst on kunst?** · *TI-Hüpe* · ⏱ 19 min
 
 !?[Marge Monko: kas tehisaru kunst on kunst? – TI-Hüpe](https://www.youtube.com/watch?v=LdUWcX6K3fM)
 
-**Sander Mölder: kas tehisaru on inimesest parem muusik?** · *TI-Hüpe*
+**Sander Mölder: kas tehisaru on inimesest parem muusik?** · *TI-Hüpe* · ⏱ 22 min
 
 !?[Sander Mölder: kas tehisaru on inimesest parem muusik? – TI-Hüpe](https://www.youtube.com/watch?v=qprIzm2J3Do)
 
-**Timo Toots: kuidas mõjutab tehnoloogia kunsti ja loovust?** · *TI-Hüpe*
+**Timo Toots: kuidas mõjutab tehnoloogia kunsti ja loovust?** · *TI-Hüpe* · ⏱ 23 min
 
 !?[Timo Toots: kuidas mõjutab tehnoloogia kunsti ja loovust? – TI-Hüpe](https://www.youtube.com/watch?v=ChiXVB_OxlY)
 
 <!-- class="pae-motle" -->
 > **Mõtle vaatamise ajal**
 >
-> 1. Mis on looja arvates tehisaru tugevus ja mis selle piir?
-> 2. Kas loovus on ainult inimesele omane? Mida looja selle kohta arvab?
+> 1. Mis on looja arvates tehisaru tugevus ja kus jookseb selle piir?
+> 2. Kes on teose autor, kui pilt või lugu on tehtud tehisaruga: inimene, tehisaru või mõlemad?
+> 3. Millised valikud jäävad loomeprotsessis ikkagi inimesele?
 
-**Kirjuta valitud video põhjal: kas tehisaru loodud teos on kunst? Põhjenda oma arvamust.**
+**Kirjuta valitud video põhjal: kas tehisaru abil loodud teos on kunst? Põhjenda oma arvamust.**
 
 [[___ ___ ___]]
 
@@ -14171,19 +14183,20 @@ Meediakirjaoskus tähendab oskust allikaid kontrollida, konteksti arvestada ja e
 > - Kas süvavõltsingute tehnoloogia arendamist peaks piirama või tuleks keskenduda hoopis kuritarvituste karistamisele ja meediakirjaoskusele?
 > - Mida teeksid, kui klassi vestlusgruppi ilmuks klassikaaslasest võltsitud naljavideo? Kuidas käituksid, et teda kaitsta?
 
-### 🎬 Video: kriitiline mõtlemine tehisaru ajastul
+### 🎬 Video: meedia ja kriitiline mõtlemine tehisaru ajastul
 
-TI-Hüppe video räägib, kuidas tehisaru ajastul meediasisu kriitiliselt hinnata.
+TI-Hüppe video käsitleb infoküllust, süvavõltsinguid ja nende mõju usaldusele, kinnituskalduvust ning seda, kuidas algoritmid mõjutavad, mida me näeme ja usume. Videos tutvustatakse ka argumendimudelit, millega nähtud ja kuuldud infot kriitiliselt hinnata.
 
-**Kriitiline mõtlemine tehisaru ajastul** · *TI-Hüpe*
+**Meedia ja kriitiline mõtlemine tehisaru ajastul** · *TI-Hüpe* · ⏱ 13 min
 
-!?[Kriitiline mõtlemine tehisaru ajastul – TI-Hüpe](https://www.youtube.com/watch?v=ry87WWYqSAQ)
+!?[Meedia ja kriitiline mõtlemine tehisaru ajastul – TI-Hüpe](https://www.youtube.com/watch?v=ry87WWYqSAQ)
 
 <!-- class="pae-motle" -->
 > **Mõtle vaatamise ajal**
 >
-> 1. Milliseid märke tasub otsida, et ära tunda võltsitud või manipuleeriv sisu?
-> 2. Miks on kriitiline mõtlemine tehisaru ajastul veel tähtsam kui varem?
+> 1. Mis on kinnituskalduvus ja kuidas see aitab süvavõltsingutel levida?
+> 2. Kuidas mõjutavad süvavõltsingud seda, kas me usaldame ka ehtsaid videoid?
+> 3. Millistest osadest koosneb videos tutvustatud argumendimudel?
 
 **Koosta video ja tunni põhjal endale 3-sammuline kontroll-loend, mida teha enne, kui jagad mõnda pilti või videot.**
 
@@ -15412,19 +15425,20 @@ Hea mõtisklus: 1) nimetab, mis on olukorras tehisaru roll ja milline probleem t
 
 ### 🎬 Video: tehisintellekt ja eetika
 
-Vaata Videoõpsi lühivideot tehisintellekti eetilistest küsimustest.
+Videoõpsi lühivideo tutvustab, milliseid eetilisi küsimusi tehisaru tõstatab: kuidas peaks isejuhtiv auto õnnetuse korral otsustama, kuidas kaitsta isikuandmeid ja autoriõigusi ning milliseid põhimõtteid tuleks tehisaru arendamisel järgida.
 
-**Tehisintellekt ja eetika** · *Videoõps · Kristo Siig*
+**Tehisintellekt ja eetika** · *Videoõps* · ⏱ 2 min
 
-!?[Tehisintellekt ja eetika – Videoõps · Kristo Siig](https://www.youtube.com/watch?v=_ayYHtm1l9M)
+!?[Tehisintellekt ja eetika – Videoõps](https://www.youtube.com/watch?v=_ayYHtm1l9M)
 
 <!-- class="pae-motle" -->
 > **Mõtle vaatamise ajal**
 >
-> 1. Milliseid eetilisi probleeme videos nimetati?
-> 2. Milline neist puudutab kõige rohkem sind ennast?
+> 1. Millise otsuse peaks isejuhtiv auto tegema, kui õnnetus on vältimatu? Kes peaks selle reegli kehtestama?
+> 2. Kuidas kaitsta tehisaru ajastul isikuandmeid ja autoriõigusi?
+> 3. Milliseid põhimõtteid on soovitav tehisaru arendamisel järgida?
 
-**Vali üks videos nimetatud eetiline probleem ja kirjuta, kuidas seda võiks lahendada.**
+**Vali üks videos nimetatud eetiline probleem ja kirjuta, kuidas seda võiks lahendada ning kes peaks selle eest vastutama.**
 
 [[___ ___ ___]]
 
@@ -16756,19 +16770,19 @@ Sellised stsenaariumid aitavad mõelda, millised valikud võivad tulevikku mõju
 
 ### 🎬 Videod: kas tehisaru võtab töö ära?
 
-Eesti tipptegijad räägivad, kuidas tehisaru muudab nende ameteid: programmeerija, ajakirjaniku ja õpetaja tööd.
+Eesti tipptegijad näitavad, kuidas tehisaru muudab nende ameteid. **Katrin Vernik ja Ulla Kattai-Aav** räägivad Telia näitel, kuidas tehisaru kirjutab koodi, analüüsib andmeid ja teenindab kliente ning loob ka uusi rolle. **Siiri Erala** (Pärnu Postimehe peatoimetaja) räägib ajakirjaniku tööst. **Siim Ruul** (ajaloo- ja ühiskonnaõpetuse õpetaja) näitab, kuidas tehisaru aitab tunde ette valmistada ja hindamisele kuluvat aega vähendada.
 
 Vali **vähemalt üks** video ja vaata see läbi.
 
-**Katrin Vernik ja Ulla Kattai-Aav: kas tulevikus pole programmeerijaid enam vaja?** · *TI-Hüpe*
+**Katrin Vernik ja Ulla Kattai-Aav: kas tulevikus pole programmeerijaid enam vaja?** · *TI-Hüpe* · ⏱ 14 min
 
 !?[Katrin Vernik ja Ulla Kattai-Aav: kas tulevikus pole programmeerijaid enam vaja? – TI-Hüpe](https://www.youtube.com/watch?v=7yAR25doSNE)
 
-**Siiri Erala: kas ajakirjanikud kaovad tehisaru ajastul?** · *TI-Hüpe*
+**Siiri Erala: kas ajakirjanikud kaovad tehisaru ajastul?** · *TI-Hüpe* · ⏱ 16 min
 
 !?[Siiri Erala: kas ajakirjanikud kaovad tehisaru ajastul? – TI-Hüpe](https://www.youtube.com/watch?v=8gerlKwpCXg)
 
-**Siim Ruul: kas tuleviku õpetaja on tehisaru?** · *TI-Hüpe*
+**Siim Ruul: kas tuleviku õpetaja on tehisaru?** · *TI-Hüpe* · ⏱ 12 min
 
 !?[Siim Ruul: kas tuleviku õpetaja on tehisaru? – TI-Hüpe](https://www.youtube.com/watch?v=htWxuH7CGG8)
 
@@ -16776,9 +16790,10 @@ Vali **vähemalt üks** video ja vaata see läbi.
 > **Mõtle vaatamise ajal**
 >
 > 1. Milliseid ülesandeid tehisaru selles ametis juba teeb?
-> 2. Milliseid oskusi vajab selle ala inimene tulevikus rohkem kui praegu?
+> 2. Kas töökohad kaovad või muutuvad? Mida video selle kohta väidab?
+> 3. Millised inimlikud oskused jäävad asendamatuks (nt uudishimu, suhtlemine, info kontrollimine, vastutus, õpilase toetamine)?
 
-**Vali amet, mis sind huvitab. Kirjuta, kuidas see videote põhjal tehisaru ajastul muutub ja mida peaksid juba praegu õppima.**
+**Vali amet, mis sind huvitab. Kirjuta, kuidas see tehisaru ajastul muutub ja mida peaksid juba praegu õppima.**
 
 [[___ ___ ___]]
 
@@ -17236,23 +17251,25 @@ Tuleviku suhtes on kaks vastandlikku vaadet. **Optimistlik vaade** loodab, et TI
 
 ### 🎬 Videod: inimene ja tehisaru tulevikus
 
-Esimene video arutleb inimese rolli üle maailmas, kus tehisaru teeb üha rohkem tööd. Teises räägib Madis Vasser tehisaru keskkonnamõjust.
+Esimene video selgitab, et tehisaru ei mõtle ega toimi nagu inimene: inimene seab eesmärgid, annab ülesanded ja hindab tulemusi. Mida võimekam on tehisaru, seda tähtsamad on inimese enda teadmised, kogemused ja iseseisev mõtlemine. Teises videos räägib Tartu Ülikooli teadur Madis Vasser tehisaru keskkonnajalajäljest: graafikakaartide tootmiseks vajalikest materjalidest ning andmekeskuste energia- ja veekasutusest.
 
-**Mis on inimese roll tehisaru maailmas?** · *TI-Hüpe*
+**Tehisaru tänapäeva maailmas: mis on inimese roll?** · *TI-Hüpe* · ⏱ 3 min
 
-!?[Mis on inimese roll tehisaru maailmas? – TI-Hüpe](https://www.youtube.com/watch?v=sAQkrQTu4DA)
+!?[Tehisaru tänapäeva maailmas: mis on inimese roll? – TI-Hüpe](https://www.youtube.com/watch?v=sAQkrQTu4DA)
 
-**Madis Vasser: kui suur on tehisaru jalajälg?** · *TI-Hüpe*
+**Madis Vasser: kui suur on tehisaru jalajälg?** · *TI-Hüpe* · ⏱ 12 min
 
 !?[Madis Vasser: kui suur on tehisaru jalajälg? – TI-Hüpe](https://www.youtube.com/watch?v=MNWIwoNMb6s)
 
 <!-- class="pae-motle" -->
 > **Mõtle vaatamise ajal**
 >
-> 1. Mida jääb tehisaru ajastul tegema inimene: kes seab eesmärgid ja hindab tulemusi?
-> 2. Kui palju energiat ja ressursse kulub tehisaru kasutamisele?
+> 1. Mida teeb tehisaruga töötades inimene ja mida tehisaru?
+> 2. Miks muutuvad inimese enda teadmised tehisaru ajastul veel tähtsamaks?
+> 3. Milliseid loodusvarasid kulub graafikakaartide tootmisele ja andmekeskuste tööle?
+> 4. Kuidas saab tehisaru kasutada säästlikumalt?
 
-**Kirjuta üks põhjus, miks inimese enda teadmised ja mõtlemine muutuvad tehisaru ajastul veel tähtsamaks.**
+**Kirjuta üks põhjus, miks inimese enda mõtlemine on tehisaru ajastul tähtis, ja üks viis, kuidas saad ise tehisaru säästlikumalt kasutada.**
 
 [[___ ___ ___]]
 
@@ -18336,19 +18353,20 @@ Kursuse peamised õppetunnid võib kokku võtta nii: tehisintellekt on väga **m
 
 ### 🎬 Video: miks ja kuidas õppida tehisaru ajastul?
 
-Kursuse lõpus tasub mõelda, kuidas tehisaruga koos õppida nii, et sa ise targemaks saaksid.
+Ajuteadlane Jaan Aru selgitab, miks on õppimine ja iseseisev mõtlemine olulised ka siis, kui tehisaru suudab meie eest üha rohkem ära teha. Õppimine toimub siis, kui ise mõtled, proovid ja pingutad. Tehisaru võiks õppimisel olla pigem **treener kui teener**.
 
-**Miks ja kuidas õppida tehisaru ajastul?** · *TI-Hüpe*
+**Jaan Aru: miks ja kuidas õppida tehisaru ajastul?** · *TI-Hüpe* · ⏱ 18 min
 
-!?[Miks ja kuidas õppida tehisaru ajastul? – TI-Hüpe](https://www.youtube.com/watch?v=dWdxbQKgi7Y)
+!?[Jaan Aru: miks ja kuidas õppida tehisaru ajastul? – TI-Hüpe](https://www.youtube.com/watch?v=dWdxbQKgi7Y)
 
 <!-- class="pae-motle" -->
 > **Mõtle vaatamise ajal**
 >
-> 1. Millal aitab tehisaru õppida ja millal teeb ta töö sinu eest ära?
-> 2. Mida tähendab tehisaru kasutamine õppimise toetamiseks?
+> 1. Miks on pingutus õppimiseks vajalik?
+> 2. Mis vahe on sellel, kui tehisaru on treener, ja sellel, kui ta on teener?
+> 3. Millal aitab tehisaru õppida ja millal teeb ta mõttetöö sinu eest ära?
 
-**Kirjuta endale kolm reeglit, kuidas kasutad edaspidi tehisaru õppimisel.**
+**Kirjuta endale kolm reeglit, kuidas kasutad edaspidi tehisaru nii, et see oleks sulle treener, mitte teener.**
 
 [[___ ___ ___]]
 

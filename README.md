@@ -733,24 +733,25 @@ Algoritm ei tea „tõde“. See leiab andmetest mustreid ja teeb tõenäosuslik
 
 ### 🎬 Videod: mis see tehisaru on?
 
-Vaata kahte lühikest eestikeelset videot. Esimene tutvustab tehisintellektiga seotud põhimõisteid, teine näitab, et tehisaru on palju enamat kui ainult vestlusrobot.
+Vaata kahte lühikest eestikeelset videot. Videoõpsi video seletab põhimõisted: tehisintellekt, kratt, masinõpe, suurandmed, tehisnärvivõrgud ning kitsas, üldine ja supertehisintellekt. TI-Hüppe video näitab, et tehisaru on palju enamat kui vestlusrobot: suured keelemudelid, soovitusalgoritmid ja isejuhtivad autod.
 
-**Mis on tehisintellekt? Sissejuhatus ja mõisted** · *Videoõps · Kristo Siig*
+**Mis on tehisintellekt? Sissejuhatus ja mõisted** · *Videoõps* · ⏱ 3 min
 
-!?[Mis on tehisintellekt? Sissejuhatus ja mõisted – Videoõps · Kristo Siig](https://www.youtube.com/watch?v=hiiZOM3xV_I)
+!?[Mis on tehisintellekt? Sissejuhatus ja mõisted – Videoõps](https://www.youtube.com/watch?v=hiiZOM3xV_I)
 
-**Mis see tehisaru on?** · *TI-Hüpe*
+**Mis see tehisaru on?** · *TI-Hüpe* · ⏱ 2 min
 
 !?[Mis see tehisaru on? – TI-Hüpe](https://www.youtube.com/watch?v=fYrqlFxF-n8)
 
 <!-- class="pae-motle" -->
 > **Mõtle vaatamise ajal**
 >
-> 1. Mis vahe on kitsal, üldisel ja supertehisintellektil?
-> 2. Miks kasutatakse eesti keeles sõna „kratt“?
-> 3. Milliseid tehisaru liike ja kasutusviise videos nimetati peale vestlusrobotite?
+> 1. Mis vahe on kitsal, üldisel ja supertehisintellektil? Millist neist me täna kasutame?
+> 2. Kust tuleb sõna „kratt“ ja miks see sobib tehisaru kohta?
+> 3. Kuidas on omavahel seotud masinõpe, suurandmed ja tehisnärvivõrgud?
+> 4. Milliseid tehisaru liike peale vestlusrobotite TI-Hüppe video nimetab?
 
-**Kirjuta kolm kohta oma igapäevaelust, kus tehisaru videote põhjal tegelikult töötab, kuigi sa ei pruugi seda märgata.**
+**Kirjuta kolm olukorda oma päevast, kus tehisaru töötab, kuigi sa ei pruugi seda märgata. Märgi iga olukorra juurde, mis liiki tehisaruga on tegu.**
 
 [[___ ___ ___]]
 
