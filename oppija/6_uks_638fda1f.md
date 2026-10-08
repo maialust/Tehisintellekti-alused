@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.3.0
+version:  1.4.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -647,12 +647,12 @@ Bürokratt valitakse parimaks TI-l põhinevaks riigiteenuseks: [[ 1 | 2 | (3) | 
 <!-- data-show-partial-solution -->
 - [ (Tõene) (Väär) ]
 - [ ( ) (X) ] Arvuti on alati erapooletu, seega ei saa TI-süsteem olla kallutatud.
-- [ (X) ( ) ] Födereeritud õppe korral jäävad andmed kasutaja seadmesse.
+- [ (X) ( ) ] Föderatiivse õppe korral jäävad andmed kasutaja seadmesse.
 - [ ( ) (X) ] Eksperdid on üksmeelel, kui palju töökohti TI järgmise kümne aasta jooksul kaotab.
 - [ (X) ( ) ] Mida kaugemale tulevikku ennustus ulatub, seda ebakindlam see on.
 - [ ( ) (X) ] Trolliprobleemil on üks kõigile sobiv õige vastus.
 ****************************************
-TI õpib inimeste loodud andmetest ja võib seetõttu olla kallutatud. Födereeritud õppes saadetakse serverisse ainult mudeli uuendused. TI mõju tööturule ja pikaajalised trendid on ebakindlad ning ekspertide hinnangud lähevad lahku. Trolliprobleemile vastavad inimesed ja kultuurid erinevalt.
+TI õpib inimeste loodud andmetest ja võib seetõttu olla kallutatud. Föderatiivses õppes saadetakse serverisse ainult mudeli uuendused. TI mõju tööturule ja pikaajalised trendid on ebakindlad ning ekspertide hinnangud lähevad lahku. Trolliprobleemile vastavad inimesed ja kultuurid erinevalt.
 ****************************************
 
 **7. Lohista mõisted õigetesse lünkadesse.**
@@ -888,7 +888,7 @@ Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentide ja 
 
 </details>
 
-### 🚪 6. toa uks
+### 🚪 Uks 6: Nõukogusaal
 
 <!-- class="pae-fakt" -->
 > **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 6.1, 6.2, 6.3, 6.4 ja 6.5 lukkudest järjekorras).
@@ -901,7 +901,7 @@ let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "õigus"
 </script>
 ****************************************
-🎉 **Uks avaneb!** Nõukogusaali ümarlaua ümber on Kratt lõpuks rahunenud. Ta mäletab jälle, et hea tehisaru peab olema inimkeskne, läbipaistev ja õiglane ning kaitsma privaatsust ja et tema otsuste eest vastutavad alati inimesed. Kratt teab nüüd ka, et inimestel on õigus oma andmetele, et kallutatust tuleb otsida ja vähendada ning et tulevikku ei saa kindlalt ennustada. „Aitäh, päästemeeskond! Ma ei tea veel kõike, aga ma tean, et pean küsima: kas see on õige ja kas see on kõigi suhtes aus?“
+![Kratt](../pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Nõukogusaali ümarlaua ümber on Kratt lõpuks rahunenud. Ta mäletab jälle, et hea tehisaru peab olema inimkeskne, läbipaistev ja õiglane ning kaitsma privaatsust ja et tema otsuste eest vastutavad alati inimesed. Kratt teab nüüd ka, et inimestel on õigus oma andmetele, et kallutatust tuleb otsida ja vähendada ning et tulevikku ei saa kindlalt ennustada. „Aitäh, päästemeeskond! Ma ei tea veel kõike, aga ma tean, et pean küsima: kas see on õige ja kas see on kõigi suhtes aus?“
 
 🌟 **Kuldne täht: A** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
 

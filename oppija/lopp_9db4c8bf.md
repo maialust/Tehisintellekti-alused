@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.3.0
+version:  1.4.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -255,21 +255,21 @@ output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !imp
 # 🌟 Viimane uks: Krati süda
 
 <!-- class="pae-fakt" -->
-> Oled läbinud kõik seitse tuba! Kratt on peaaegu kõik tagasi saanud: ta teab, mis on tehisaru, kuidas ta õpib, kuidas ta keelt mõistab, otsuseid teeb, pilte näeb ja miks on oluline olla õiglane. Ees on viimane uks – **Krati süda**.
+> ![Kratt](../pildid/kratt/kratt_motlik.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> Oled läbinud kõik seitse tuba! Kratt on peaaegu kõik tagasi saanud: ta teab, mis on tehisaru, kuidas ta õpib, kuidas ta keelt mõistab, otsuseid teeb, pilte näeb ja miks on oluline olla õiglane. Ees on viimane uks – **Krati süda**.
 >
-> *„Mul on seitse kuldset tähte… T, E, H, I, S, A, R… Aga midagi on puudu. Ma ei saa veel päris ARU, kes ma olen!“*
+> *„Mul on seitse kuldset tähte… R, I, E, A, H, T, S… Need on täiesti segamini! Ja üks täht on veel puudu. Kui saaksin need õigesse järjekorda, teaksin lõpuks, mis ma olen…“*
 
-**Ava viimane uks.** Pane oma 7 kuldset tähte järjekorda (1.–7. toa järjekorras) ja lisa üks puuduv täht. Krati enda sõnad annavad vihje.
+**Ava viimane uks.** Pane oma seitse kuldset tähte õigesse järjekorda ja lisa üks puuduv täht. Moodustub sõna, mis ütleb, mis Kratt tegelikult on.
 
 <!-- data-solution-button="off" -->
 [[TEHISARU]]
-[[?]] Kratt ütles, et ta ei saa veel päris ARU. Millise tähega lõpeb sõna „aru“?
+[[?]] Vihje: sõna on kahest osast. Esimene osa tähendab „inimese tehtud“ (nagu tehisjärv), teine osa tähendab mõistust. Kui sa ei mäleta tähtede järjekorda, vaata oma missioonikaarti: igast toast said ühe kuldse tähe.
 <script>
 let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "tehisaru"
 </script>
 ****************************************
-🎉 **Viimane uks avaneb! Kratt on päästetud!**
+![Kratt](../pildid/kratt/kratt_paastetud.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Viimane uks avaneb! Kratt on päästetud!**
 
 *„TEHISARU! See olen mina! Tehis- tähendab, et inimesed on mind loonud, ja aru, et ma oskan õppida, mustreid leida ja aidata. Aga otsuseid, eetikat ja vastutust jagan ma alati teiega, inimestega. Aitäh, päästemeeskond!“*
 
@@ -294,7 +294,7 @@ Kursus on läbi – aeg oma teadmised proovile panna! **TI Jeopardy** on viktori
 <script style="display: block" modify="false" run-once>
 window.JEO = window.JEO || {};
 const J = window.JEO;
-J.data = [{"c": "TI alused ja ajalugu", "q": [{"q": "Kuidas nimetatakse katset, kus inimene peab kirjaliku vestluse põhjal aru saama, kas ta räägib masina või inimesega?", "a": "Turingi test"}, {"q": "Mis aastal toimus Dartmouthi konverents, kus võeti kasutusele termin „tehisintellekt“?", "a": "1956"}, {"q": "Kuidas nimetatakse perioodi, mil rahastus ja huvi TI vastu järsult vähenevad?", "a": "TI talv"}, {"q": "Mis on nõrk (kitsas) TI? Too näide.", "a": "TI, mis lahendab hästi üht kindlat ülesannet, nt näotuvastus või malemäng"}, {"q": "Mis on Rich Suttoni „kibe õppetund“?", "a": "Pikas plaanis võidavad üldised meetodid, mis kasutavad arvutusvõimsust (õppimine, otsing), käsitsi kirjutatud inimteadmiste üle"}]}, {"c": "Kuidas TI töötab", "q": [{"q": "Mis on algoritm?", "a": "Selgelt määratletud sammude jada probleemi lahendamiseks"}, {"q": "Mis on juhendatud õppe puhul treeningandmetel olemas, mida juhendamata õppes pole?", "a": "Märgendid ehk õiged vastused"}, {"q": "Mudel õpib treeningandmed pähe, kuid uutel andmetel eksib. Kuidas seda nimetatakse?", "a": "Ülesobitamine (ületreenimine)"}, {"q": "Neuroni sisendid on 2 ja 3, kaalud 1 ja 2, nihe 0. Mis on kaalutud summa?", "a": "2·1 + 3·2 = 8"}, {"q": "Mis on tagasilevi (backpropagation)?", "a": "Närvivõrgu õppimisviis: viga arvutatakse väljundis ja levitatakse tagasi läbi võrgu, et kaalusid parandada"}]}, {"c": "Keeletöötlus", "q": [{"q": "Kuidas nimetatakse teksti jagamist väiksemateks osadeks (sõnadeks, sõnaosadeks)?", "a": "Tokeniseerimine"}, {"q": "Mis on vestlusroboti „hallutsinatsioon“?", "a": "Enesekindel, kuid vale või väljamõeldud vastus"}, {"q": "Mis on Tartu Ülikooli loodud masintõlkesüsteemi nimi?", "a": "Neurotõlge"}, {"q": "Kuidas nimetatakse arvude jada, mis kujutab sõna tähendust nii, et sarnased sõnad on lähestikku?", "a": "Sõnavektor"}, {"q": "Nimeta kaks põhjust, miks eesti keel on masinale keeruline.", "a": "Nt 14 käänet, rikas sõnamoodustus/liitsõnad, vähe kõnelejaid ja andmeid"}]}, {"c": "Otsustamine", "q": [{"q": "Milline puukujuline mudel jõuab küsimuste ja vastuste kaudu otsuseni?", "a": "Otsustuspuu"}, {"q": "Mis on ekspertsüsteemi kaks põhiosa?", "a": "Teadmusbaas (reeglid) ja järeldusmehhanism"}, {"q": "Kuidas nimetatakse olukorda, kus soovitussüsteem näitab sulle üha rohkem sama tüüpi sisu?", "a": "Mullifilter (filtrimull)"}, {"q": "Mis on soovitussüsteemide „külmkäivituse probleem“?", "a": "Uue kasutaja või toote kohta pole veel andmeid, mille põhjal soovitada"}, {"q": "Mis on koostööfiltreerimine?", "a": "Soovitamine sarnase maitsega kasutajate eelistuste põhjal"}]}, {"c": "Pilditöötlus", "q": [{"q": "Mis on pildi väikseim osa?", "a": "Piksel"}, {"q": "Mida tähendab RGB?", "a": "Punane, roheline, sinine – värvikanalid, millest iga piksli värv koosneb"}, {"q": "Mis vahe on näotuvastusel ja näotundmisel?", "a": "Näotuvastus leiab, KUS nägu on; näotundmine tuvastab, KELLE nägu see on"}, {"q": "Mis on süvavõltsing (deepfake)?", "a": "TI abil loodud võltsitud video, pilt või hääl, kus inimene näib tegevat või ütlevat midagi, mida ta ei teinud"}, {"q": "Mille poolest erineb generatiivne TI pildituvastusest?", "a": "Generatiivne TI loob uue pildi, pildituvastus tunneb olemasoleval pildil midagi ära"}]}, {"c": "Eetika", "q": [{"q": "Mis on GDPR?", "a": "Euroopa Liidu isikuandmete kaitse üldmäärus"}, {"q": "Mis on TI kallutatus (bias)?", "a": "Süstemaatiline viga, mille tõttu TI kohtleb mõnda rühma ebaõiglaselt; sageli tuleneb see kallutatud andmetest"}, {"q": "Mitmeks riskitasemeks jagab ELi tehisintellekti määrus TI-süsteemid?", "a": "Neljaks: vastuvõetamatu, kõrge, piiratud ja minimaalne risk"}, {"q": "Mis on „musta kasti“ probleem?", "a": "Keerulise mudeli otsuste põhjuseid on raske mõista ja selgitada"}, {"q": "Kes vastutab, kui TI teeb vea – TI ise või inimesed? Põhjenda.", "a": "Inimesed: arendajad, kasutuselevõtjad ja kasutajad; TI ise ei saa vastutada"}]}];
+J.data = [{"c": "TI alused ja ajalugu", "q": [{"q": "Kuidas nimetatakse katset, kus inimene peab kirjaliku vestluse põhjal aru saama, kas ta räägib masina või inimesega?", "a": "Turingi test"}, {"q": "Mis aastal toimus Dartmouthi konverents, kus võeti kasutusele termin „tehisintellekt“?", "a": "1956"}, {"q": "Kuidas nimetatakse perioodi, mil rahastus ja huvi TI vastu järsult vähenevad?", "a": "TI talv"}, {"q": "Mis on nõrk (kitsas) TI? Too näide.", "a": "TI, mis lahendab hästi üht kindlat ülesannet, nt näotuvastus või malemäng"}, {"q": "Mis on Rich Suttoni „kibe õppetund“?", "a": "Pikas plaanis võidavad üldised meetodid, mis kasutavad arvutusvõimsust (õppimine, otsing), käsitsi kirjutatud inimteadmiste üle"}]}, {"c": "Kuidas TI töötab", "q": [{"q": "Mis on algoritm?", "a": "Selgelt määratletud sammude jada probleemi lahendamiseks"}, {"q": "Mis on juhendatud õppe puhul treeningandmetel olemas, mida juhendamata õppes pole?", "a": "Märgendid ehk õiged vastused"}, {"q": "Mudel õpib treeningandmed pähe, kuid uutel andmetel eksib. Kuidas seda nimetatakse?", "a": "Ülesobitamine (ületreenimine)"}, {"q": "Neuroni sisendid on 2 ja 3, kaalud 1 ja 2, nihe 0. Mis on kaalutud summa?", "a": "2·1 + 3·2 = 8"}, {"q": "Mis on tagasilevi (backpropagation)?", "a": "Närvivõrgu õppimisviis: viga arvutatakse väljundis ja levitatakse tagasi läbi võrgu, et kaalusid parandada"}]}, {"c": "Keeletöötlus", "q": [{"q": "Kuidas nimetatakse teksti jagamist väiksemateks osadeks (sõnadeks, sõnaosadeks)?", "a": "Tokeniseerimine"}, {"q": "Mis on vestlusroboti „hallutsinatsioon“?", "a": "Enesekindel, kuid vale või väljamõeldud vastus"}, {"q": "Mis on Tartu Ülikooli loodud masintõlkesüsteemi nimi?", "a": "Neurotõlge"}, {"q": "Kuidas nimetatakse arvude jada, mis kujutab sõna tähendust nii, et sarnased sõnad on lähestikku?", "a": "Sõnavektor"}, {"q": "Nimeta kaks põhjust, miks eesti keel on masinale keeruline.", "a": "Nt 14 käänet, rikas sõnamoodustus/liitsõnad, vähe kõnelejaid ja andmeid"}]}, {"c": "Otsustamine", "q": [{"q": "Milline puukujuline mudel jõuab küsimuste ja vastuste kaudu otsuseni?", "a": "Otsustuspuu"}, {"q": "Mis on ekspertsüsteemi kaks põhiosa?", "a": "Teadmusbaas (reeglid) ja järeldusmehhanism"}, {"q": "Kuidas nimetatakse olukorda, kus soovitussüsteem näitab sulle üha rohkem sama tüüpi sisu?", "a": "Filtrimull (ka mullifilter)"}, {"q": "Mis on soovitussüsteemide „külmkäivituse probleem“?", "a": "Uue kasutaja või toote kohta pole veel andmeid, mille põhjal soovitada"}, {"q": "Mis on koostööfiltreerimine?", "a": "Soovitamine sarnase maitsega kasutajate eelistuste põhjal"}]}, {"c": "Pilditöötlus", "q": [{"q": "Mis on pildi väikseim osa?", "a": "Piksel"}, {"q": "Mida tähendab RGB?", "a": "Punane, roheline, sinine – värvikanalid, millest iga piksli värv koosneb"}, {"q": "Mis vahe on näotuvastusel ja näotundmisel?", "a": "Näotuvastus leiab, KUS nägu on; näotundmine tuvastab, KELLE nägu see on"}, {"q": "Mis on süvavõltsing (deepfake)?", "a": "TI abil loodud võltsitud video, pilt või hääl, kus inimene näib tegevat või ütlevat midagi, mida ta ei teinud"}, {"q": "Mille poolest erineb generatiivne TI pildituvastusest?", "a": "Generatiivne TI loob uue pildi, pildituvastus tunneb olemasoleval pildil midagi ära"}]}, {"c": "Eetika", "q": [{"q": "Mis on GDPR?", "a": "Euroopa Liidu isikuandmete kaitse üldmäärus"}, {"q": "Mis on TI kallutatus (bias)?", "a": "Süstemaatiline viga, mille tõttu TI kohtleb mõnda rühma ebaõiglaselt; sageli tuleneb see kallutatud andmetest"}, {"q": "Mitmeks riskitasemeks jagab ELi tehisintellekti määrus TI-süsteemid?", "a": "Neljaks: vastuvõetamatu, kõrge, piiratud ja minimaalne risk"}, {"q": "Mis on „musta kasti“ probleem?", "a": "Keerulise mudeli otsuste põhjuseid on raske mõista ja selgitada"}, {"q": "Kes vastutab, kui TI teeb vea – TI ise või inimesed? Põhjenda.", "a": "Inimesed: arendajad, kasutuselevõtjad ja kasutajad; TI ise ei saa vastutada"}]}];
 J.done = J.done || {};
 J.scores = J.scores || [0, 0, 0];
 J.cur = null;
@@ -405,24 +405,20 @@ setTimeout(J.render, 50);
 | **ekstraktiivne kokkuvõte** | Kokkuvõte, mis koosneb algtekstist valitud lausetest | 3.2 |
 | **elevaatorikõne** | 1–2-minutiline lühitutvustus projektist | 7.4 |
 | **ELIZA-efekt** | Inimeste kalduvus omistada vestlusprogrammile mõistmist ja tundeid | 3.3 |
-| **ELi tehisintellekti määrus (AI Act)** | ELi riskipõhine TI-õigusraamistik | 2.5 |
+| **ELi tehisintellekti määrus (*AI Act*)** | Euroopa Liidu esimene terviklik tehisintellekti õigusraamistik | 1.3, 2.5, 4.4, 6.5 |
 | **elukestev õpe** | Õppimine ja enesetäiendamine kogu elu jooksul | 6.4, 7.1 |
-| **ennetav hooldus** | Seadme rikke ennustamine andurite andmete põhjal enne, kui see juhtub | 2.5 |
-| **ennustav hooldus** | Seadmete rikete ennustamine andurite andmete põhjal enne rikke tekkimist | 4.4 |
+| **ennustav hooldus** | Seadmete rikete ennustamine andurite andmete põhjal enne rikke tekkimist | 2.5, 4.4 |
 | **epohh** | Kogu treeningandmestiku üks täielik läbimine | 2.4 |
 | **esitlemine** | Projekti tulemuste tutvustamine teistele | 7.4 |
 | **ettevaatusprintsiip** | Põhimõte tegutseda ettevaatlikult, kui võimalik kahju on suur ja mõju ebaselge | 6.5 |
-| **Euroopa Liidu tehisintellekti määrus (AI Act)** | ELi õigusraamistik, mis reguleerib TI-d riskipõhiselt | 4.4, 6.5 |
 | **F** | | |
 | **faktikontroll** | Väite tõesuse kontrollimine usaldusväärsetest ja sõltumatutest allikatest | 3.3 |
-| **filtrimull** | Olukord, kus algoritm näitab kasutajale ainult tema eelistustega sarnast sisu | 1.3 |
-| **föderatiivne õpe** | Mudeli treenimine nii, et andmed jäävad oma asukohta (nt haiglasse) | 5.3 |
-| **födereeritud õpe** | Mudeli treenimine nii, et andmed jäävad kasutaja seadmesse | 6.2 |
+| **filtrimull** | Olukord, kus algoritm näitab kasutajale ainult tema eelistustega sarnast sisu | 1.3, 4.3 |
+| **föderatiivne õpe** | Mudeli treenimine nii, et andmed jäävad oma asukohta (nt haiglasse) | 5.3, 6.2 |
 | **G** | | |
 | **GAN** | Kahest võistlevast võrgust (generaator ja diskriminaator) koosnev generatiivne mudel | 5.4 |
 | **GDPR** | Isikuandmete kaitse üldmäärus – ELi määrus, mis kaitseb isikuandmeid | 2.2 |
-| **generatiivne tehisintellekt** | Tehisintellekt, mis loob uut sisu: teksti, pilte, heli, videot | 1.2 |
-| **generatiivne TI** | TI, mis loob uut sisu – teksti, pilte, muusikat, videot | 2.5, 5.4, 6.5 |
+| **generatiivne tehisintellekt (generatiivne TI)** | Tehisintellekt, mis loob uut sisu: teksti, pilte, heli, videot | 1.2, 2.5, 5.4, 6.5 |
 | **generatiivne vestlusrobot** | Vestlusrobot, mis loob vastuse jooksvalt keelemudeli abil | 3.3 |
 | **gradientlaskumine** | Kaalude järkjärguline muutmine vea vähenemise suunas | 2.4 |
 | **grupiõiglus** | Eri rühmade keskmiselt võrdne kohtlemine | 6.3 |
@@ -436,8 +432,7 @@ setTimeout(J.render, 50);
 | **hüperparameeter** | Seadistus, mille arendaja määrab enne treenimist | 2.3 |
 | **I** | | |
 | **individuaalne õiglus** | Sarnased inimesed saavad sarnaseid tulemusi | 6.3 |
-| **inimene otsustusahelas** | Põhimõte, et lõpliku otsuse teeb ja selle eest vastutab inimene | 4.4 |
-| **inimene silmuses** | Lähenemine, kus TI pakub lahenduse, kuid lõpliku otsuse teeb inimene | 6.1 |
+| **inimene otsustusahelas** | Lähenemine, kus TI pakub lahenduse, kuid lõpliku otsuse teeb inimene | 4.4, 6.1 |
 | **inimese ja masina koostöö** | Töö, kus inimene ja TI kasutavad kumbki oma tugevusi | 6.4 |
 | **inimkesksus** | Põhimõte, et TI teenib inimeste huve, austab inimõigusi ja on inimeste kontrolli all | 6.1 |
 | **inpainting** | Pildi puuduva või valitud osa täitmine uue sisuga | 5.4 |
@@ -451,15 +446,13 @@ setTimeout(J.render, 50);
 | **joondamine (alignment)** | TI eesmärkide ja käitumise viimine kooskõlla inimeste väärtustega | 6.5 |
 | **juhendamata õpe** | Mustrite otsimine märgendamata andmetest | 2.3 |
 | **juhendatud õpe** | Õppimine märgendatud andmetest, kus õige vastus on teada | 2.3 |
-| **juhis ehk viip** | Kasutaja antud küsimus, ülesanne või korraldus keelemudelile | 3.2 |
 | **juhuslik mets** | Ansamblimeetod, mis kombineerib paljude otsustuspuude ennustused | 4.1 |
 | **juuretipp, sisemine tipp, leht** | Puu algus; vahepealne otsustuskoht; lõppotsus | 4.1 |
 | **K** | | |
 | **„kibe õppetund“ (The Bitter Lesson)** | Rich Suttoni (2019) tähelepanek, et pikas plaanis võidavad üldised meetodid, mis kasutavad arvutusvõimsust (õppimine, otsing), käsitsi kirjutatud inimteadmiste üle | 1.2 |
 | **kaal** | Arv, mis näitab sisendi olulisust neuroni jaoks | 2.4 |
 | **kaalutud summa** | Sisendite ja kaalude korrutiste summa koos nihkega | 2.4 |
-| **kallutatus** | Süstemaatiline viga, mis soosib või kahjustab mõnda rühma | 2.2, 3.2, 7.1 |
-| **kallutatus (bias)** | Tehisintellekti süstemaatiliselt ebaõiglased otsused, mis tulenevad andmetest või ülesehitusest | 1.3, 6.3 |
+| **kallutatus (*bias*)** | Tehisintellekti süstemaatiliselt ebaõiglased otsused, mis tulenevad andmetest või ülesehitusest | 1.3, 2.2, 3.2, 6.3, 7.1 |
 | **kaofunktsioon** | Funktsioon, mis mõõdab, kui suur on võrgu viga | 2.4 |
 | **kasutaja-objekt maatriks** | Tabel, mis näitab kasutajate hinnanguid objektidele | 4.3 |
 | **kavatsuse tuvastamine** | Kasutaja soovi ehk kavatsuse äratundmine | 3.3 |
@@ -500,10 +493,8 @@ setTimeout(J.render, 50);
 | **minimax** | Mänguotsingu algoritm, mis eeldab, et vastane mängib parimal viisil | 4.1 |
 | **MRT (magnetresonantstomograafia)** | Magnetvälja ja raadiolainetega tehtav pildistamine, eriti pehmete kudede jaoks | 5.3 |
 | **mudel** | Treenimise tulemusel saadud reeglite kogum, millega tehakse ennustusi | 2.3 |
-| **mullifilter** | Olukord, kus kasutaja näeb ainult oma varasemate eelistustega sarnast sisu | 4.3 |
 | **multimodaalne süsteem** | TI, mis töötleb korraga mitut liiki andmeid | 6.5, 7.5 |
-| **„musta kasti“ probleem** | Olukord, kus inimene ei mõista, kuidas tehisintellekt oma otsuseni jõudis | 1.1, 4.4 |
-| **must kast** | Mudel, mille sisemist otsustusloogikat on raske mõista | 6.1 |
+| **„musta kasti“ probleem** | Olukord, kus inimene ei mõista, kuidas tehisintellekt oma otsuseni jõudis | 1.1, 4.4, 6.1 |
 | **N** | | |
 | **näotundmine** | Isiku tuvastamine näo põhjal („kelle?“) | 5.2 |
 | **näotuvastus** | Nägude leidmine pildil („kus?“) | 5.2 |
@@ -513,8 +504,7 @@ setTimeout(J.render, 50);
 | **nihe** | Lisaarv, mis mõjutab, kui kergesti neuron „süttib“ | 2.4 |
 | **nimeüksuste tuvastamine** | Isikute, organisatsioonide, asukohtade, kuupäevade jm leidmine tekstist | 3.2 |
 | **normaliseerimine** | Andmete viimine samale skaalale | 2.2 |
-| **nõrk tehisintellekt** | TI, mis lahendab kindlat ülesannet või ülesannete rühma | 7.1 |
-| **nõrk (kitsas) TI, ANI** | Ühele kindlale ülesandele spetsialiseerunud tehisintellekt; sellised on kõik praegused süsteemid | 1.1 |
+| **nõrk (kitsas) TI, ANI** | Ühele kindlale ülesandele spetsialiseerunud tehisintellekt; sellised on kõik praegused süsteemid | 1.1, 7.1 |
 | **nõusolek** | Inimese vabatahtlik ja teadlik luba tema andmete (nt pildi) kasutamiseks | 5.5 |
 | **O** | | |
 | **objektituvastus** | Objektide leidmine pildil ning nende asukoha ja klassi määramine | 5.2 |
@@ -546,7 +536,6 @@ setTimeout(J.render, 50);
 | **projektitöö** | Piiratud ajaga ja selge eesmärgiga praktiline töö reaalse probleemi lahendamiseks | 7.1 |
 | **projekti hindamine** | Projekti tulemuste võrdlemine eesmärkidega | 7.5 |
 | **projekti ulatus** | See, mida projekt hõlmab ja mida mitte | 7.2 |
-| **prompt (kirjeldus)** | Tekst, millega kasutaja generatiivset mudelit juhib | 5.4 |
 | **prototüüp** | Lahenduse lihtne esialgne versioon idee katsetamiseks | 7.3 |
 | **pseudokood** | Inimkeelne, kuid struktureeritud algoritmi kirjeldus | 2.1 |
 | **pseudonümiseerimine** | Otseste tunnuste asendamine koodiga, mida saab eraldi võtme abil tagasi seostada | 6.2 |
@@ -588,8 +577,7 @@ setTimeout(J.render, 50);
 | **sümboolne tehisintellekt** | Reeglitel ja loogikal põhinev lähenemine tehisintellektile | 1.2 |
 | **sünteetiline meedia** | TI abil loodud meediasisu, mis ei põhine reaalsel salvestusel | 5.5 |
 | **süvaõpe** | Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke | 1.1, 1.2, 2.4 |
-| **süvavõltsing** | TI abil loodud võltsitud video, pilt või heli | 2.5 |
-| **süvavõltsing (deepfake)** | Süvaõppe abil loodud võltsitud video, pilt või heli | 5.5 |
+| **süvavõltsing (*deepfake*)** | Süvaõppe abil loodud võltsitud video, pilt või heli | 2.5, 5.5 |
 | **T** | | |
 | **tagasilevi** | Algoritm, mis arvutab, kuidas muuta kaalusid vea vähendamiseks | 2.4 |
 | **tagasiside** | Info tugevuste ja nõrkuste kohta edasise arengu toetamiseks | 7.5 |
@@ -601,13 +589,12 @@ setTimeout(J.render, 50);
 | **teadmusbaas** | Andmekogu, kust vestlusrobot leiab fakte ja vastuseid | 3.3, 4.2 |
 | **teemade modelleerimine** | Tekstikogumi peamiste teemade automaatne tuvastamine | 3.2 |
 | **tehisintellekti eetika** | Filosoofia valdkond, mis tegeleb moraalsete küsimustega TI arendamisel ja kasutamisel | 6.1 |
-| **tehisintellekti määrus (AI Act)** | Euroopa Liidu esimene terviklik tehisintellekti õigusraamistik | 1.3 |
 | **tehisintellekti talv** | Periood, mil rahastus ja huvi tehisintellekti vastu vähenevad | 1.2 |
 | **tehisintellekt (TI)** | Arvutiteaduse haru, mis loob inimmõistuse funktsioone jäljendavaid süsteeme | 1.1 |
 | **tehisneuron** | Närvivõrgu põhiüksus, mis võtab sisendid, töötleb neid ja annab väljundi | 2.4 |
 | **teksti genereerimine** | Uue teksti loomine algoritmiliselt | 3.2 |
 | **teksti klassifitseerimine** | Teksti liigitamine etteantud kategooriatesse | 3.2 |
-| **tekst-pilt mudel** | Mudel, mis loob pildi tekstilise kirjelduse põhjal | 5.4 |
+| **tekst-pilt-mudel** | Mudel, mis loob pildi tekstilise kirjelduse põhjal | 5.4 |
 | **temperatuur** | Parameeter, mis määrab, kui ennustatav või loov on genereeritud tekst | 3.2 |
 | **TF-IDF** | Meetod, mis hindab sõna olulisust dokumendis teiste dokumentidega võrreldes | 3.1 |
 | **TI kirjaoskus** | TI võimaluste ja piirangute mõistmine ning oskus TI-tööriistu kasutada ja neid kriitiliselt hinnata | 6.4 |
@@ -617,8 +604,7 @@ setTimeout(J.render, 50);
 | **transformer** | 2017. aastal tutvustatud närvivõrgu arhitektuur, suurte keelemudelite alus | 1.2, 3.1 |
 | **treeningandmed / testandmed** | Andmed, millest mudel õpib / millega mudelit lõpuks kontrollitakse | 2.2 |
 | **trolliprobleem** | Mõtteeksperiment, kus tuleb valida, keda õnnetuse korral kaitsta; seda arutatakse sageli isesõitvate autode puhul | 6.1 |
-| **tugev tehisintellekt** | Hüpoteetiline TI, millel oleks inimesega võrreldav üldine mõtlemisvõime | 7.1 |
-| **tugev (üldine) TI, AGI** | Teoreetiline tehisintellekt, mis suudaks lahendada mis tahes inimese intellektuaalset ülesannet | 1.1 |
+| **tugev (üldine) TI, AGI** | Teoreetiline tehisintellekt, mis suudaks lahendada mis tahes inimese intellektuaalset ülesannet | 1.1, 6.5, 7.1 |
 | **tundlikkus** | Kui suure osa haigetest mudel üles leiab | 5.3 |
 | **tunnuste eraldamine** | Pildi oluliste omaduste (servad, tekstuur, kuju) leidmine | 5.1 |
 | **tunnusvektor** | Arvude jada, mis kirjeldab näo (või objekti) omapära | 5.2 |
@@ -627,9 +613,7 @@ setTimeout(J.render, 50);
 | **usaldatavus** | TI-süsteemi võime teha järjepidevalt täpseid otsuseid | 4.4 |
 | **U-Net** | U-kujuline närvivõrk meditsiiniliste piltide segmenteerimiseks | 5.3 |
 | **Ü** | | |
-| **üldine tehisintellekt (AGI)** | Hüpoteetiline TI, mis suudaks inimese tasemel tegutseda paljudes valdkondades | 6.5 |
-| **üldotstarbeline TI** | Laiemate võimetega süsteem, mis lahendab väga erinevaid ülesandeid | 4.4 |
-| **üldotstarbeline TI-mudel** | Mudel, mida saab kasutada väga paljude eri ülesannete jaoks | 6.5 |
+| **üldotstarbeline TI ja TI-mudel** | Laiemate võimetega süsteem, mis lahendab väga erinevaid ülesandeid | 4.4, 6.5 |
 | **ülesobitamine** | Mudel õpib treeningandmed pähe ega üldista uutele andmetele | 2.3, 4.1 |
 | **ümberõpe** | Uue ameti või oskuste omandamine töö muutumise tõttu | 6.4 |
 | **V** | | |
@@ -637,8 +621,8 @@ setTimeout(J.render, 50);
 | **vastutus** | Selgus, kes vastutab TI-süsteemi otsuste ja tagajärgede eest | 6.1 |
 | **versioonihaldus** | Süsteem, mis salvestab koodi muudatused ja võimaldab vanade versioonide juurde naasta | 7.3 |
 | **verstapost** | Oluline vahe-eesmärk kindlal kuupäeval | 7.2 |
-| **vestlusagent, vestlusrobot** | Tarkvara, mis suhtleb inimesega loomulikus keeles | 3.3 |
-| **vestlusrobot (chatbot)** | Programm, mis suhtleb kasutajaga loomulikus keeles | 1.3 |
+| **vestlusrobot (vestlusagent, *chatbot*)** | Programm, mis suhtleb kasutajaga loomulikus keeles | 1.3, 3.3 |
+| **viip (juhis, *prompt*)** | Kasutaja antud küsimus, ülesanne või korraldus keelemudelile. Pildigeneraatoris on viip kirjeldus, millega kasutaja mudelit juhib. | 3.2, 5.4 |
 | **virtuaalassistent** | Häälega juhitav tarkvara, mis täidab kasutaja käsklusi (Siri, Alexa) | 1.3 |
 | **vooskeem** | Algoritmi visuaalne esitus kastide ja noolte abil | 2.1 |
 | **võrdlusalus (baseline)** | Lihtne lahendus, millega keerulisemat mudelit võrreldakse | 7.3 |

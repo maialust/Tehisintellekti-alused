@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.3.0
+version:  1.4.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -269,7 +269,7 @@ output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !imp
 ## 🗝️ Missioon: päästa Kratt!
 
 <!-- class="pae-fakt" -->
-> **Häire!** Tallinna Pae Gümnaasiumi digikooli juhib tehisaru nimega **Kratt**. Täna hommikul läks Krati mälu segi: ta on lukustanud kooli 7 digitaalset tuba ega mäleta enam, mis ta on ja kuidas ta töötab. *„Kes ma olen? Miks ma kõiki neid andmeid mäletan, aga mitte nende tähendust?“*
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Häire!** Tallinna Pae Gümnaasiumi digikooli juhib tehisaru nimega **Kratt**. Täna hommikul läks Krati mälu segi: ta on lukustanud kooli 7 digitaalset tuba ega mäleta enam, mis ta on ja kuidas ta töötab. *„Kes ma olen? Miks ma kõiki neid andmeid mäletan, aga mitte nende tähendust?“*
 >
 > **Sina oled päästemeeskonna liige.** Läbi kõik 7 tuba, õpeta Kratile uuesti, mis on tehisaru, ja ava viimane uks!
 
@@ -380,7 +380,7 @@ Tekstis on olulised kohad tõstetud esile värviliste kastidega.
 ![1. ploki kaanepilt: pealkiri „Sissejuhatus tehisintellekti“ ja kiibi sisse joonistatud närvivõrk](pildid/plokk_1/plokk_1_kaas.svg)
 
 <!-- class="pae-fakt" -->
-> **🗝️ 1. tuba: Unustatud arhiiv**
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **🗝️ Tuba 1: Unustatud arhiiv**
 >
 > Kooli digikoridori lõpus sumiseb tolmune server – see on Kratt, Tallinna Pae Gümnaasiumi tehisaru, kes on just üles ärganud. „Tere… kes te olete? Ja kes olen mina? Mu arhiivis on ainult sõnad „tehis…“ ja „intel…“ – mis see üldse tähendab?“ Teie, päästemeeskond, olete sattunud Krati **unustatud arhiivi**, kus on segamini kõik, mida ta enda kohta teadis: mis on tehisintellekt, kust ta pärit on ja milleks teda kasutatakse. Aidake Kratil oma mälu taastada! Selles toas on 3 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjutage tähed üles!
 
@@ -992,7 +992,7 @@ Kalkulaator täidab alati samu jäigalt ette antud samme: ta ei õpi midagi juur
 ### 🔐 Lukk 1.1
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Ma olen vist kõige targem olend maailmas! Ma oskan… ee… ühte asja. Väga hästi. Aga võileiba teha ma küll ei oska.“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma olen vist kõige targem olend maailmas! Ma oskan… ee… ühte asja. Väga hästi. Aga võileiba teha ma küll ei oska.“
 
 Lukk avaneb, kui lahendad mõistatuse. Loe Krati kirjeldust ja kirjuta lahtrisse, mis liiki tehisintellekt ta on (üks sõna).
 

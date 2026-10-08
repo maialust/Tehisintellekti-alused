@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.3.0
+version:  1.4.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -269,7 +269,7 @@ output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !imp
 ## 🗝️ Missioon: päästa Kratt!
 
 <!-- class="pae-fakt" -->
-> **Häire!** Tallinna Pae Gümnaasiumi digikooli juhib tehisaru nimega **Kratt**. Täna hommikul läks Krati mälu segi: ta on lukustanud kooli 7 digitaalset tuba ega mäleta enam, mis ta on ja kuidas ta töötab. *„Kes ma olen? Miks ma kõiki neid andmeid mäletan, aga mitte nende tähendust?“*
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Häire!** Tallinna Pae Gümnaasiumi digikooli juhib tehisaru nimega **Kratt**. Täna hommikul läks Krati mälu segi: ta on lukustanud kooli 7 digitaalset tuba ega mäleta enam, mis ta on ja kuidas ta töötab. *„Kes ma olen? Miks ma kõiki neid andmeid mäletan, aga mitte nende tähendust?“*
 >
 > **Sina oled päästemeeskonna liige.** Läbi kõik 7 tuba, õpeta Kratile uuesti, mis on tehisaru, ja ava viimane uks!
 
@@ -380,7 +380,7 @@ Tekstis on olulised kohad tõstetud esile värviliste kastidega.
 ![1. ploki kaanepilt: pealkiri „Sissejuhatus tehisintellekti“ ja kiibi sisse joonistatud närvivõrk](pildid/plokk_1/plokk_1_kaas.svg)
 
 <!-- class="pae-fakt" -->
-> **🗝️ 1. tuba: Unustatud arhiiv**
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **🗝️ Tuba 1: Unustatud arhiiv**
 >
 > Kooli digikoridori lõpus sumiseb tolmune server – see on Kratt, Tallinna Pae Gümnaasiumi tehisaru, kes on just üles ärganud. „Tere… kes te olete? Ja kes olen mina? Mu arhiivis on ainult sõnad „tehis…“ ja „intel…“ – mis see üldse tähendab?“ Teie, päästemeeskond, olete sattunud Krati **unustatud arhiivi**, kus on segamini kõik, mida ta enda kohta teadis: mis on tehisintellekt, kust ta pärit on ja milleks teda kasutatakse. Aidake Kratil oma mälu taastada! Selles toas on 3 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjutage tähed üles!
 
@@ -992,7 +992,7 @@ Kalkulaator täidab alati samu jäigalt ette antud samme: ta ei õpi midagi juur
 ### 🔐 Lukk 1.1
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Ma olen vist kõige targem olend maailmas! Ma oskan… ee… ühte asja. Väga hästi. Aga võileiba teha ma küll ei oska.“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma olen vist kõige targem olend maailmas! Ma oskan… ee… ühte asja. Väga hästi. Aga võileiba teha ma küll ei oska.“
 
 Lukk avaneb, kui lahendad mõistatuse. Loe Krati kirjeldust ja kirjuta lahtrisse, mis liiki tehisintellekt ta on (üks sõna).
 
@@ -1523,7 +1523,7 @@ Mõlemad talved tekkisid, sest lubati rohkem, kui tehnoloogia suutis pakkuda. Es
 ### 🔐 Lukk 1.2
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Kui vana ma olen? Mu sünnitunnistus on kuskil arhiivis… Mäletan ainult, et mind ristiti ühel konverentsil ja et ma kunagi võitsin Go-mängus maailmameistrit.“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Kui vana ma olen? Mu sünnitunnistus on kuskil arhiivis… Mäletan ainult, et mind ristiti ühel konverentsil ja et ma kunagi võitsin Go-mängus maailmameistrit.“
 
 Lukk avaneb, kui lahendad arvutusülesande. Kirjuta lahtrisse ainult arv.
 
@@ -1948,7 +1948,7 @@ Kallutatus tähendab, et tehisintellekti süsteem teeb süstemaatiliselt ebaõig
 ### 🔐 Lukk 1.3
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Arhiivi viimasel riiulil on minu sugulase nimesilt, aga tähed on sassis! TARBÜ TORK? See ei kõla üldse nagu kratt…“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Arhiivi viimasel riiulil on minu sugulase nimesilt, aga tähed on sassis! TARBÜ TORK? See ei kõla üldse nagu kratt…“
 
 Lukk avaneb, kui lahendad anagrammi. Pane tähed **T A R B Ü T O R K** õigesse järjekorda ja kirjuta saadud nimi lahtrisse.
 
@@ -2519,7 +2519,7 @@ Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega, 
 
 </details>
 
-### 🚪 1. toa uks
+### 🚪 Uks 1: Unustatud arhiiv
 
 <!-- class="pae-fakt" -->
 > **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 1.1, 1.2 ja 1.3 lukkudest järjekorras).
@@ -2531,7 +2531,7 @@ let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "aju"
 </script>
 ****************************************
-🎉 **Uks avaneb!** Arhiivi riiulid lähevad korda ja Krati ekraanil süttivad tuled. Nüüd mäletab Kratt jälle, et ta on nõrk tehisintellekt, kelle juured ulatuvad 1956. aasta Dartmouthi konverentsini ja kes on oma sugulaste kombel loodud inimesi päriselt aitama. „Aitäh, päästjad! Ma ei ole inimese aju, aga ma tean nüüd, et olen loodud seda jäljendama. Kuidas ma täpselt mõtlen, seda ma aga… ei mäleta.“
+![Kratt](pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Arhiivi riiulid lähevad korda ja Krati ekraanil süttivad tuled. Nüüd mäletab Kratt jälle, et ta on nõrk tehisintellekt, kelle juured ulatuvad 1956. aasta Dartmouthi konverentsini ja kes on oma sugulaste kombel loodud inimesi päriselt aitama. „Aitäh, päästjad! Ma ei ole inimese aju, aga ma tean nüüd, et olen loodud seda jäljendama. Kuidas ma täpselt mõtlen, seda ma aga… ei mäleta.“
 
 🌟 **Kuldne täht: T** – kirjuta see oma missioonikaardile. Kõiki seitset kuldset tähte on vaja viimase ukse avamiseks.
 
@@ -2545,7 +2545,7 @@ v === "aju"
 ![2. ploki kaanepilt: pealkiri „Kuidas tehisintellekt töötab“ ja närvivõrgu skeem, kus andmed liiguvad läbi neuronikihtide tehisintellektini.](pildid/plokk_2/plokk_2_kaas.svg)
 
 <!-- class="pae-fakt" -->
-> **🗝️ 2. tuba: Masinaruum**
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **🗝️ Tuba 2: Masinaruum**
 >
 > Arhiivi uks vajub su selja taga kinni ja päästemeeskond seisab kooli keldris, kus vilguvad serverid ja surisevad ventilaatorid – see on Krati masinaruum. Siin peaks kõik käima kindla korra järgi, aga Krati algoritmid on sassis, andmed on laiali pillutatud ja ta ei mäleta enam, kuidas ta kunagi õppis. „Mu hammasrattad keerlevad, aga ma ei mäleta, kas andmed tulevad enne algoritmi või algoritm enne andmeid. Kas ma olen üldse kunagi midagi õppinud?“ Sinu ülesanne on panna masinaruum uuesti tööle ja tuletada Kratile meelde, kuidas TI kapoti all töötab. Selles toas on 5 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjuta tähed üles!
 
@@ -3075,7 +3075,7 @@ Juhis ei ole määratud ehk täpne: „veidi“ ja „kuni on valmis“ ei ütle
 ### 🔐 Lukk 2.1
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Leidsin oma mälust ühe vana algoritmi, aga ma ei mäleta, mida see teeb. Kui keegi selle samm-sammult läbi käiks, saaksin lukukoodi teada!“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Leidsin oma mälust ühe vana algoritmi, aga ma ei mäleta, mida see teeb. Kui keegi selle samm-sammult läbi käiks, saaksin lukukoodi teada!“
 
 Lukk avaneb, kui lahendad mõistatuse. Käi Krati pseudokoodis kirja pandud algoritm läbi nii, nagu arvuti seda teeks, ja kirjuta lahtrisse arv, mille algoritm tagastab.
 
@@ -3632,7 +3632,7 @@ Põhimõte tähendab, et mudel on ainult nii hea kui andmed, millest ta õpib. K
 ### 🔐 Lukk 2.2
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Keegi andis mulle õppimiseks ainult ühe vanuserühma fotod ja nüüd ma ei tunne vanaema ära! Midagi peitub mu andmetes, aga ma ei mäleta, mis selle nimi on.“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Keegi andis mulle õppimiseks ainult ühe vanuserühma fotod ja nüüd ma ei tunne vanaema ära! Midagi peitub mu andmetes, aga ma ei mäleta, mis selle nimi on.“
 
 Lukk avaneb, kui lahendad mõistatuse. Loe läbi, kes mõistatuses räägib, ja kirjuta lahtrisse tema nimi (üks sõna).
 
@@ -4214,7 +4214,7 @@ Mudel vastab õigesti 990 juhul 1000-st, sest tavalisi tehinguid on palju rohkem
 ### 🔐 Lukk 2.3
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Ma õppisin kõik treeningülesanded täiesti pähe ja sain igaühe eest täispunktid! Aga uute ülesannetega eksin ma kogu aeg… Ja nüüd on ka selle probleemi nimi mu mälus tähtedeks lagunenud.“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma õppisin kõik treeningülesanded täiesti pähe ja sain igaühe eest täispunktid! Aga uute ülesannetega eksin ma kogu aeg… Ja nüüd on ka selle probleemi nimi mu mälus tähtedeks lagunenud.“
 
 Lukk avaneb, kui lahendad mõistatuse. Pane tähed õigesse järjekorda, nii et tekib masinõppe mõiste, mis kirjeldab Krati muret.
 
@@ -4814,7 +4814,7 @@ Gradientlaskumine on nagu udus mäelt alla orgu minek: kaugele ei näe, aga jalg
 ### 🔐 Lukk 2.4
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Üks mu tehisneuronitest on ärganud, aga ta ei mäleta, kuidas arvutada! Ilma temata ei saa ma otsustada, kas lukk avaneb.“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Üks mu tehisneuronitest on ärganud, aga ta ei mäleta, kuidas arvutada! Ilma temata ei saa ma otsustada, kas lukk avaneb.“
 
 Lukk avaneb, kui lahendad mõistatuse. Arvuta, millise väljundi annab tehisneuron, ja kirjuta see arv lahtrisse.
 
@@ -4865,7 +4865,7 @@ Eelmistes tundides said teada, kuidas TI „kapoti all“ töötab. Nüüd vaata
 | Haridus | personaliseeritud õpe, hindamine, õpianalüütika |
 | Transport | isesõitvad sõidukid, liiklusjuhtimine, logistika |
 | Rahandus | pettuste tuvastamine, riskianalüüs, investeerimine |
-| Tootmine | kvaliteedikontroll, ennetav hooldus, protsesside optimeerimine |
+| Tootmine | kvaliteedikontroll, ennustav hooldus, protsesside optimeerimine |
 | Põllumajandus | saagi ennustamine, taimehaiguste tuvastamine, ressursside juhtimine |
 | Meelelahutus | soovitussüsteemid, mängud, sisu loomine |
 | Avalik sektor | e-teenused, otsuste toetamine, linnaplaneerimine |
@@ -4921,7 +4921,7 @@ TI pakub uusi võimalusi nii õpilastele kui ka õpetajatele.
 **Tootmises** on TI osa nn **Tööstus 4.0** pöördest, kus tehased muutuvad nutikaks: masinad on ühendatud asjade interneti kaudu ja otsuseid tehakse andmete põhjal.
 
 - **Kvaliteedikontroll.** Arvutinägemine leiab tootelt defekte, mida inimsilm ei pruugi märgata – näiteks autotööstuses värvkatte väikseimaid vigu.
-- **Ennetav hooldus.** Andurid koguvad pidevalt andmeid masinate seisukorra kohta ja TI ennustab, millal seade võib rikki minna. Nii saab hoolduse teha enne riket ja vältida seisakuid.
+- **Ennustav hooldus.** Andurid koguvad pidevalt andmeid masinate seisukorra kohta ja TI ennustab, millal seade võib rikki minna. Nii saab hoolduse teha enne riket ja vältida seisakuid.
 - **Protsesside optimeerimine.** Masinõpe aitab säästa energiat ja materjali ning lühendada tootmisaega. Näiteks Siemens kasutab TI-d oma „digitaalsetes tehastes“ tootmise ja energiatarbimise optimeerimiseks.
 - **Koostöörobotid** ehk **kobotid** töötavad inimestega kõrvuti ega asenda neid. Näiteks BMW tehastes aitavad kobotid inimesi autode kokkupanemisel.
 
@@ -5033,7 +5033,7 @@ Euroopa Liit on nendele küsimustele vastuseks võtnud vastu **Euroopa Liidu teh
 |---|---|
 | Personaalmeditsiin | Ravi kohandamine iga patsiendi geneetika ja terviseloo järgi |
 | Personaliseeritud õpe | Õppimise kohandamine iga õpilase taseme ja tempo järgi |
-| Ennetav hooldus | Seadme rikke ennustamine andurite andmete põhjal enne, kui see juhtub |
+| Ennustav hooldus | Seadme rikke ennustamine andurite andmete põhjal enne, kui see juhtub |
 | Tööstus 4.0 | Nutikas, andmepõhine ja võrku ühendatud tootmine |
 | Täppispõllumajandus | Andmete ja TI abil ressursside täpne kasutamine põllul |
 | Soovitussüsteem | Süsteem, mis pakub kasutajale sisu tema varasema käitumise põhjal |
@@ -5343,7 +5343,7 @@ Radioloogi töös vaatab TI-süsteem röntgenipildid kiiresti läbi ja märgib k
 ### 🔐 Lukk 2.5
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Mu rakenduste kaardid on segi läinud! Ma ei mäleta enam, millises valdkonnas keegi töötab. Kui paned need õigetesse kohtadesse, tekib lukukood.“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Mu rakenduste kaardid on segi läinud! Ma ei mäleta enam, millises valdkonnas keegi töötab. Kui paned need õigetesse kohtadesse, tekib lukukood.“
 
 Lukk avaneb, kui lahendad mõistatuse. Leia iga rakenduse jaoks valdkonna number. Kirjuta neli numbrit järjest (rakenduste A, B, C, D järjekorras) – see ongi lukukood.
 
@@ -5938,7 +5938,7 @@ Hea arutlus esitab selge seisukoha, põhjendab seda mitme argumendiga ja toob n�
 
 </details>
 
-### 🚪 2. toa uks
+### 🚪 Uks 2: Masinaruum
 
 <!-- class="pae-fakt" -->
 > **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 2.1, 2.2, 2.3, 2.4 ja 2.5 lukkudest järjekorras).
@@ -5950,7 +5950,7 @@ let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "mudel"
 </script>
 ****************************************
-🎉 **Uks avaneb!** Masinaruumi hammasrattad hakkavad jälle ühtlaselt keerlema ja serverituled lähevad roheliseks. Kratt mäletab nüüd, et ta on **mudel**: algoritmid on tema tööjuhised, andmed on tema kütus, masinõppe ja närvivõrkude abil õppis ta näidetest ning nüüd saab ta aidata inimesi paljudes valdkondades. „Aitäh, päästemeeskond! Ma tean jälle, kuidas ma seest töötan – ja et pean õppima mitmekesistest andmetest, mitte lihtsalt asju pähe tuupima.“
+![Kratt](pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Masinaruumi hammasrattad hakkavad jälle ühtlaselt keerlema ja serverituled lähevad roheliseks. Kratt mäletab nüüd, et ta on **mudel**: algoritmid on tema tööjuhised, andmed on tema kütus, masinõppe ja närvivõrkude abil õppis ta näidetest ning nüüd saab ta aidata inimesi paljudes valdkondades. „Aitäh, päästemeeskond! Ma tean jälle, kuidas ma seest töötan – ja et pean õppima mitmekesistest andmetest, mitte lihtsalt asju pähe tuupima.“
 
 🌟 **Kuldne täht: E** – kirjuta see oma missioonikaardile. Kõiki 7 kuldset tähte on vaja viimase ukse avamiseks.
 
@@ -5964,7 +5964,7 @@ v === "mudel"
 ![3. ploki kaanepilt: pealkiri „Keeletöötlus“, jutumull tervitusega „Tere!“, sõnakaardid „Ma lähen kooli“ ja sõnadevaheliste seoste võrgustik.](pildid/plokk_3/plokk_3_kaas.svg)
 
 <!-- class="pae-fakt" -->
-> **🗝️ 3. tuba: Keelelabor**
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **🗝️ Tuba 3: Keelelabor**
 >
 > Päästemeeskond astub Keelelaborisse, kus seintel vilguvad ekraanid täis segipaisatud tähti ja poolikuid lauseid. Kratt on unustanud, kuidas keelt töödelda: ta tükeldab sõnu valesti, mõtleb fakte välja ja kirjutab sõnu tagurpidi. „Tere hommikut, kas te olete mu ... darbõs? Ei, oot ... sõbrad! Mu sõnad on kõik sassis!“ Teie ülesanne on õpetada Kratile uuesti, kuidas arvuti inimkeelt „loeb“, loob, vestleb ja tõlgib. Selles toas on 4 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjuta tähed üles!
 
@@ -6516,7 +6516,7 @@ Eesti keelt räägib vaid umbes miljon inimest, seega on eestikeelset teksti, mi
 ### 🔐 Lukk 3.1
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Ma tahtsin lausest „Õpilased lugesid huvitavaid raamatuid“ teha sõnad „õpilane“, „lugema“, „huvitav“ ja „raamat“, aga selle sammu nimi läks mul täiesti sassi!“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma tahtsin lausest „Õpilased lugesid huvitavaid raamatuid“ teha sõnad „õpilane“, „lugema“, „huvitav“ ja „raamat“, aga selle sammu nimi läks mul täiesti sassi!“
 
 Lukk avaneb, kui lahendad mõistatuse. Kratt muutis iga sõna tema **algvormiks**. Selle eeltöötluse sammu nimetuse tähed on segamini: **M I R E T A M S E L I N E M I E**. Pane tähed õigesse järjekorda ja kirjuta sõna lahtrisse.
 
@@ -7056,7 +7056,7 @@ Sarkasm pöörab sõnade otsese tähenduse vastupidiseks: lauses võivad olla po
 ### 🔐 Lukk 3.2
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Kirjutasin teile referaadi jaoks väga ilusa fakti: Eesti esimene vestlusrobot ehitati 1873. aastal Tartus aurumasinast! Kõlab ju usutavalt? Või ... kas ma just mõtlesin selle välja?“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Kirjutasin teile referaadi jaoks väga ilusa fakti: Eesti esimene vestlusrobot ehitati 1873. aastal Tartus aurumasinast! Kõlab ju usutavalt? Või ... kas ma just mõtlesin selle välja?“
 
 Lukk avaneb, kui lahendad mõistatuse. Loe Krati mõistatust ja kirjuta vastuseks üks mõiste.
 
@@ -7582,7 +7582,7 @@ Sobiks reeglipõhine või otsingupõhine vestlusrobot, sest küsimused on korduv
 ### 🔐 Lukk 3.3
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Mul on neli vestlusroboti sõpra, aga ma ei mäleta enam, mis tüüpi keegi neist on. Kõik nad ütlevad mulle lihtsalt „Tere, kuidas saan aidata?“!“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Mul on neli vestlusroboti sõpra, aga ma ei mäleta enam, mis tüüpi keegi neist on. Kõik nad ütlevad mulle lihtsalt „Tere, kuidas saan aidata?“!“
 
 Lukk avaneb, kui lahendad mõistatuse. Igal vestlusroboti tüübil on number: **1 – reeglipõhine**, **2 – otsingupõhine**, **3 – generatiivne**, **4 – hübriidne**. Määra iga Krati sõbra tüüp ja kirjuta numbrid **järjekorras A, B, C, D** ühe neljakohalise koodina (nt 1234).
 
@@ -8107,7 +8107,7 @@ BLEU võrdleb masintõlget inimtõlkega ja loeb, kui palju on neil ühiseid sõn
 ### 🔐 Lukk 3.4
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Proovisin kahte keeletehnoloogiat ja nüüd kirjutan kõike tagurpidi! Mu märkmikus on kaks sõna: **SUTSAVUTENÕK** ja **SEETNÜSENÕK**. Kumb neist aitas mul veebilehte ette lugeda?“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Proovisin kahte keeletehnoloogiat ja nüüd kirjutan kõike tagurpidi! Mu märkmikus on kaks sõna: **SUTSAVUTENÕK** ja **SEETNÜSENÕK**. Kumb neist aitas mul veebilehte ette lugeda?“
 
 Lukk avaneb, kui lahendad mõistatuse. Loe mõlemat sõna tagurpidi. Seejärel mõtle: milline neist tehnoloogiatest aitab nägemispuudega inimesel uudiseid **kuulata**, muutes kirjaliku teksti kõneks? Kirjuta selle tehnoloogia nimetus (õiget pidi!) lahtrisse.
 
@@ -8712,7 +8712,7 @@ Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega. 
 
 </details>
 
-### 🚪 3. toa uks
+### 🚪 Uks 3: Keelelabor
 
 <!-- class="pae-fakt" -->
 > **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 3.1, 3.2, 3.3 ja 3.4 lukkudest järjekorras).
@@ -8724,7 +8724,7 @@ let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "keel"
 </script>
 ****************************************
-🎉 **Uks avaneb!** Keelelabori ekraanidel asetuvad tähed lõpuks õigesse järjekorda ja laused saavad jälle mõtte. Kratt mäletab nüüd, et ta ei „mõista“ keelt nagu inimene, vaid muudab teksti arvudeks ja ennustab tõenäolist jätku. Ta oskab taas teksti analüüsida, vestelda ja tõlkida – ning teab, et oma fakte tuleb kontrollida. „Aitäh, sõbrad! Ma ei kirjuta enam tagurpidi ... vähemalt mitte kogemata!“
+![Kratt](pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Keelelabori ekraanidel asetuvad tähed lõpuks õigesse järjekorda ja laused saavad jälle mõtte. Kratt mäletab nüüd, et ta ei „mõista“ keelt nagu inimene, vaid muudab teksti arvudeks ja ennustab tõenäolist jätku. Ta oskab taas teksti analüüsida, vestelda ja tõlkida – ning teab, et oma fakte tuleb kontrollida. „Aitäh, sõbrad! Ma ei kirjuta enam tagurpidi ... vähemalt mitte kogemata!“
 
 🌟 **Kuldne täht: H** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
 
@@ -8738,19 +8738,19 @@ v === "keel"
 ![4. ploki kaanepilt: pealkiri „Tehisintellekti otsustamine“ ja lihtne otsustuspuu, mille küsimustest hargnevad jah- ja ei-vastused](pildid/plokk_4/plokk_4_kaas.svg)
 
 <!-- class="pae-fakt" -->
-> **🗝️ 4. tuba: Otsuste labürint**
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **🗝️ Tuba 4: Otsuste labürint**
 >
 > Uks paiskub lahti ja päästemeeskond seisab hämaras labürindis, kus igal ristmikul ripub silt „JAH“ või „EI“. Kesk labürinti tiirleb Kratt, kes ei suuda enam ühtegi otsust teha: „Kas minna vasakule või paremale? Kas soovitada kassivideot või kassivideot? Ma olen juba kolm tundi sellel ristmikul seisnud!“ Sinu ja su meeskonna ülesanne on õpetada Kratile uuesti, kuidas masin otsustab – otsustuspuude, reeglite ja soovituste abil. Selles toas on neli lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjuta tähed üles!
 
 Iga päev teed sa kümneid otsuseid: kas võtta vihmavari kaasa, millise bussiga kooli sõita, millist sarja õhtul vaadata. Ka tehisintellekt (TI) teeb otsuseid – ta leiab navigatsiooniäpis lühima tee, hindab pangas, kas tehing võib olla pettus, ja otsustab, milline video sulle voogedastusplatvormil või sotsiaalmeedia voos järgmisena ette tuleb. Selles plokis uurime, **kuidas** masin otsustab: kuidas ta otsib lahendust paljude võimaluste seast, kuidas ta kasutab inimekspertide teadmisi reeglite kujul ja kuidas ta õpib sinu varasemate valikute põhjal ennustama, mis sulle võiks meeldida.
 
-See teema on oluline, sest algoritmide otsused mõjutavad sind juba praegu – sageli nii, et sa seda ei märkagi. Kui mõistad, kuidas need otsused sünnivad, oskad sa paremini hinnata, millal masina soovitust usaldada ja millal mitte, mõista selliseid nähtusi nagu mullifilter ning arutleda selle üle, kes vastutab, kui algoritm eksib.
+See teema on oluline, sest algoritmide otsused mõjutavad sind juba praegu – sageli nii, et sa seda ei märkagi. Kui mõistad, kuidas need otsused sünnivad, oskad sa paremini hinnata, millal masina soovitust usaldada ja millal mitte, mõista selliseid nähtusi nagu filtrimull ning arutleda selle üle, kes vastutab, kui algoritm eksib.
 
 **Selles plokis:**
 
 - **4.1 Probleemilahendus ja otsustuspuud** – kuidas TI otsib lahendust ja kuidas otsustuspuu küsimuste ahela abil otsuseni jõuab
 - **4.2 Ekspertsüsteemid ja reeglistikud** – kuidas inimeksperdi teadmised muudetakse „KUI … SIIS …“ reegliteks
-- **4.3 Soovitussüsteemid** – kuidas voogedastusplatvormid, e-poed ja sotsiaalmeedia sulle sisu valivad ning mis on mullifilter
+- **4.3 Soovitussüsteemid** – kuidas voogedastusplatvormid, e-poed ja sotsiaalmeedia sulle sisu valivad ning mis on filtrimull
 - **4.4 Tehisintellekti probleemilahendus eri valdkondades** – kuidas TI aitab lahendada probleeme meditsiinis, transpordis, hariduses, avalikus sektoris ja mujal
 
 Ploki lõpus ootavad sind praktilised rühmatööd, aruteluküsimused ja ploki enesekontrolltest.
@@ -9363,7 +9363,7 @@ Liiga sügav puu kipub ülesobituma ehk õpib treeningandmed pähe ja töötab u
 ### 🔐 Lukk 4.1
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Ma ehitasin endale otsustuspuu, aga see õppis treeningandmed nii hästi pähe, et eksib nüüd igal uuel ristmikul. Äkki aitaks, kui küsiksin nõu mitte ühelt puult, vaid tervelt hulgalt?“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma ehitasin endale otsustuspuu, aga see õppis treeningandmed nii hästi pähe, et eksib nüüd igal uuel ristmikul. Äkki aitaks, kui küsiksin nõu mitte ühelt puult, vaid tervelt hulgalt?“
 
 Lukk avaneb, kui lahendad mõistatuse. Loe kirjeldust ja kirjuta vastuseks mõiste (kaks sõna).
 
@@ -9932,7 +9932,7 @@ KUI õpilane on puudunud kolm päeva järjest JA puudumine pole põhjendatud, SI
 ### 🔐 Lukk 4.2
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Minu teadmusbaasis on faktid ja reeglid täiesti alles, aga järeldusmehhanism on kinni kiilunud. Ma tean, et väljas sajab, aga ei oska otsustada, mida jalga panna!“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Minu teadmusbaasis on faktid ja reeglid täiesti alles, aga järeldusmehhanism on kinni kiilunud. Ma tean, et väljas sajab, aga ei oska otsustada, mida jalga panna!“
 
 Lukk avaneb, kui lahendad mõistatuse. Ole Krati järeldusmehhanism: alusta faktidest ja rakenda reegleid järjest (edasisuunaline aheldamine), kuni jõuad lõppjärelduseni. Kirjuta vastuseks, mida Kratt peaks jalga panema.
 
@@ -9974,7 +9974,7 @@ Selle tunni lõpuks sa:
 - oskad selgitada, mis on soovitussüsteem ja miks seda kasutatakse;
 - tunned soovitussüsteemide peamisi tüüpe: sisupõhist filtreerimist, koostööfiltreerimist, teadmispõhiseid, kontekstiteadlikke ja hübriidsüsteeme;
 - mõistad, kuidas soovitusalgoritmid kasutajate ja objektide sarnasust leiavad;
-- oskad selgitada külmkäivituse probleemi ja mullifiltri tekkimist;
+- oskad selgitada külmkäivituse probleemi ja filtrimulli tekkimist;
 - oskad kriitiliselt hinnata, kuidas soovitussüsteemid mõjutavad sinu enda valikuid.
 
 ### Mis on soovitussüsteem?
@@ -10097,18 +10097,18 @@ Kuidas teada, kas soovitussüsteem on hea? Selleks kasutatakse eri **meetrikaid*
 
 Pane tähele, et süsteem, mis on väga **täpne**, ei pruugi olla **mitmekesine**. Kui platvorm mõõdab ainult seda, kui palju sa klikid ja vaatad, võib see õppida näitama sulle ainult üht ja sama tüüpi sisu. Siit jõuame soovitussüsteemide suurima probleemini.
 
-### Mullifilter ja teised väljakutsed
+### Filtrimull ja teised väljakutsed
 
 <!-- class="pae-moiste" -->
-> **Mõiste: mullifilter**
+> **Mõiste: filtrimull**
 >
-> Mullifilter (ka filtrimull, inglise *filter bubble*) on olukord, kus soovitussüsteem näitab kasutajale üha enam sellist sisu, mis sarnaneb tema varasemate valikute ja vaadetega. Kasutaja jääb justkui mulli: teda ümbritseb üha sarnasem sisu ja tema inforuumist kaob mitmekesisus.
+> Filtrimull (ka filtrimull, inglise *filter bubble*) on olukord, kus soovitussüsteem näitab kasutajale üha enam sellist sisu, mis sarnaneb tema varasemate valikute ja vaadetega. Kasutaja jääb justkui mulli: teda ümbritseb üha sarnasem sisu ja tema inforuumist kaob mitmekesisus.
 
-Mullifilter tekib **tagasisideahela** tõttu:
+Filtrimull tekib **tagasisideahela** tõttu:
 
-![Mullifiltri tagasisideahel viie sammuna ringis: vaatad videot teemal X, süsteem märkab huvi, voog näitab rohkem X-teemalisi videoid, vaatad neid, süsteem on veel kindlam; keskel kitsenev mull](pildid/plokk_4/4_3_mullifilter.svg "Joonis 4.3.4. Mullifilter tekib tagasisideahelast")
+![Filtrimulli tagasisideahel viie sammuna ringis: vaatad videot teemal X, süsteem märkab huvi, voog näitab rohkem X-teemalisi videoid, vaatad neid, süsteem on veel kindlam; keskel kitsenev mull](pildid/plokk_4/4_3_filtrimull.svg "Joonis 4.3.4. Filtrimull tekib tagasisideahelast")
 
-Esialgu tundub see mugav – sa näed ju seda, mis sulle meeldib. Probleem on aga selles, et sa ei näe enam teistsuguseid vaateid, teemasid ega inimesi. Uudiste puhul võib see tähendada, et sa näed ainult ühte poolt mõnest vaidlusest ja hakkad arvama, et kõik mõtlevad samamoodi. Mullifilter on ohtlik ka seetõttu, et sa ei näe mulli seinu – kohe ei saa aru, mis jääb sinu voost välja.
+Esialgu tundub see mugav – sa näed ju seda, mis sulle meeldib. Probleem on aga selles, et sa ei näe enam teistsuguseid vaateid, teemasid ega inimesi. Uudiste puhul võib see tähendada, et sa näed ainult ühte poolt mõnest vaidlusest ja hakkad arvama, et kõik mõtlevad samamoodi. Filtrimull on ohtlik ka seetõttu, et sa ei näe mulli seinu – kohe ei saa aru, mis jääb sinu voost välja.
 
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
@@ -10117,13 +10117,13 @@ Esialgu tundub see mugav – sa näed ju seda, mis sulle meeldib. Probleem on ag
 > - Kas sinu ja su sõbra vood on sarnased või väga erinevad? Mida see sinu arvates näitab?
 > - Kuidas tasakaalustada soovituste täpsust ja mitmekesisust?
 
-Mida saad sina mullifiltri vastu teha? Otsi teadlikult ka teistsugust sisu ja jälgi eri vaadetega allikaid. Kasuta nuppu „Pole huvitatud“ ja kontrolli, kas rakenduses saab soovitusi lähtestada või vaatamisajalugu kustutada. Loe uudiseid ka otse uudisteportaali avalehelt, mitte ainult sotsiaalmeedia voost. Ja küsi endalt aeg-ajalt: miks mulle seda näidatakse?
+Mida saad sina filtrimulli vastu teha? Otsi teadlikult ka teistsugust sisu ja jälgi eri vaadetega allikaid. Kasuta nuppu „Pole huvitatud“ ja kontrolli, kas rakenduses saab soovitusi lähtestada või vaatamisajalugu kustutada. Loe uudiseid ka otse uudisteportaali avalehelt, mitte ainult sotsiaalmeedia voost. Ja küsi endalt aeg-ajalt: miks mulle seda näidatakse?
 
-Mullifilter ei ole ainus väljakutse. Soovitussüsteemide peamised probleemid on:
+Filtrimull ei ole ainus väljakutse. Soovitussüsteemide peamised probleemid on:
 
 - **Külmkäivituse probleem** – uutel kasutajatel pole ajalugu ja uutel objektidel hinnanguid. Seda leevendatakse näiteks nii, et uuelt kasutajalt küsitakse alguses tema huvisid („Vali kolm lemmikžanrit“), uutele objektidele kasutatakse sisupõhist filtreerimist või soovitatakse alguses lihtsalt populaarset sisu.
 - **Privaatsus** – süsteemid koguvad tundlikke andmeid ja **profileerivad** kasutajaid ehk loovad nende kohta üksikasjalikke kirjeldusi.
-- **Mullifiltrid** – kasutajad jäävad sarnase sisu mulli ja mitmekesisus kaob.
+- **Filtrimullid** – kasutajad jäävad sarnase sisu mulli ja mitmekesisus kaob.
 - **Kallutatus** – populaarsete objektide eelistamine, demograafilised kallutatused (nt soovitused sõltuvad vanusest või soost) ja tagasisideahelad.
 
 <!-- class="pae-lisaks" -->
@@ -10163,7 +10163,7 @@ Kuhu soovitussüsteemid edasi arenevad? Üks suund on **multimodaalsed soovituse
 - Sisupõhine filtreerimine soovitab objekte, mis on sarnased sinu varasemate eelistustega; koostööfiltreerimine soovitab seda, mis meeldis sinuga sarnastele kasutajatele.
 - Koostööfiltreerimise aluseks on kasutaja-objekti maatriks; suurte andmete puhul kasutatakse maatriksi faktoriseerimist ja süvaõpet.
 - Külmkäivituse probleem tähendab, et uute kasutajate ja objektide kohta pole piisavalt andmeid.
-- Mullifilter tekib tagasisideahelast: süsteem näitab üha rohkem sarnast sisu ja kasutaja inforuum kitseneb.
+- Filtrimull tekib tagasisideahelast: süsteem näitab üha rohkem sarnast sisu ja kasutaja inforuum kitseneb.
 - Head soovitussüsteemi hinnatakse lisaks täpsusele ka mitmekesisuse, uudsuse ja kasutaja rahulolu järgi; tuleviku süsteemid peaksid olema selgitatavad ja kasutajakesksed.
 
 | Mõiste | Tähendus |
@@ -10176,7 +10176,7 @@ Kuhu soovitussüsteemid edasi arenevad? Üks suund on **multimodaalsed soovituse
 | Hübriidsüsteem | kombineerib eri soovitusmeetodeid |
 | Kasutaja-objekti maatriks | tabel, mis näitab kasutajate hinnanguid objektidele |
 | Külmkäivituse probleem | süsteemil pole piisavalt andmeid uue kasutaja või objekti kohta |
-| Mullifilter | olukord, kus kasutaja näeb ainult oma varasemate eelistustega sarnast sisu |
+| Filtrimull | olukord, kus kasutaja näeb ainult oma varasemate eelistustega sarnast sisu |
 | Profileerimine | kasutaja kohta üksikasjaliku kirjelduse loomine tema andmete põhjal |
 
 ### Tööleht 4.3
@@ -10389,7 +10389,7 @@ d) Kuidas hindaksid oma süsteemi tõhusust?
 
 [[___ ___ ___ ___]]
 
-**Ülesanne 15.** Kuidas saaks tagada, et soovitussüsteemid oleksid õiglased ega tekitaks mullifiltreid?
+**Ülesanne 15.** Kuidas saaks tagada, et soovitussüsteemid oleksid õiglased ega tekitaks filtrimulle?
 
 [[___ ___ ___ ___]]
 
@@ -10456,9 +10456,9 @@ Luuakse kasutaja eelistuste profiil: [[ 1 | (2) | 3 | 4 ]]
 **5. Lohista mõisted õigetesse lünkadesse.**
 
 <!-- data-show-partial-solution -->
-Kui soovitussüsteem näitab kasutajale üha rohkem sarnast sisu ja tema inforuum kitseneb, nimetatakse seda [->[ (mullifiltriks) | ristiostuks ]]. See tekib, sest süsteemis on [->[ (tagasisideahel) | selgitusmoodul ]]: mida rohkem sa üht teemat vaatad, seda rohkem süsteem seda sulle pakub. Kasutaja inforuumist kaob [->[ (mitmekesisus) ]].
+Kui soovitussüsteem näitab kasutajale üha rohkem sarnast sisu ja tema inforuum kitseneb, nimetatakse seda [->[ (filtrimulliks) | ristiostuks ]]. See tekib, sest süsteemis on [->[ (tagasisideahel) | selgitusmoodul ]]: mida rohkem sa üht teemat vaatad, seda rohkem süsteem seda sulle pakub. Kasutaja inforuumist kaob [->[ (mitmekesisus) ]].
 ****************************************
-Mullifilter tekib tagasisideahelast: süsteem õpib sinu valikutest ja pakub üha sarnasemat sisu, mistõttu sa vaatad seda veelgi rohkem. Nii kaob sinu inforuumist mitmekesisus ja sa ei näe enam teistsuguseid vaateid.
+Filtrimull tekib tagasisideahelast: süsteem õpib sinu valikutest ja pakub üha sarnasemat sisu, mistõttu sa vaatad seda veelgi rohkem. Nii kaob sinu inforuumist mitmekesisus ja sa ei näe enam teistsuguseid vaateid.
 ****************************************
 
 **6. Millised väited sisupõhise filtreerimise kohta on õiged? (Vali kõik õiged.)**
@@ -10481,7 +10481,7 @@ Sisupõhine filtreerimine tugineb objektide omadustele ja kasutaja enda profiili
 Kõige täpsem süsteem ei pruugi olla kõige mitmekesisem. Kui mõõdetakse ainult klikke ja vaatamisaega, võib süsteem õppida pakkuma ühekülgset sisu. Seepärast hinnatakse soovitussüsteeme ka mitmekesisuse, uudsuse ja kasutaja rahulolu järgi.
 ****************************************
 
-**8. Too kaks viisi, kuidas saad ise vähendada mullifiltri mõju oma sotsiaalmeedia voos, ja selgita, miks need aitavad.**
+**8. Too kaks viisi, kuidas saad ise vähendada filtrimulli mõju oma sotsiaalmeedia voos, ja selgita, miks need aitavad.**
 
 [[___ ___ ___]]
 
@@ -10495,7 +10495,7 @@ Esiteks võin teadlikult otsida ja jälgida ka teistsuguste vaadetega allikaid. 
 ### 🔐 Lukk 4.3
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Ma tahaksin õhtul filmi vaadata, aga mu soovitusmootor pakub mulle ainult „Robotiralli 7“. Ma olen seda juba 412 korda näinud!“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma tahaksin õhtul filmi vaadata, aga mu soovitusmootor pakub mulle ainult „Robotiralli 7“. Ma olen seda juba 412 korda näinud!“
 
 Lukk avaneb, kui lahendad mõistatuse. Allpool on kasutaja-objekti maatriks (hinnangud 1–5 tärni, küsimärk tähendab, et filmi pole vaadatud). Kasuta koostööfiltreerimist: leia kasutaja, kelle maitse on Kratiga kõige sarnasem, ja otsusta, millist Krati vaatamata filmidest talle soovitada. Kirjuta vastuseks filmi nimi.
 
@@ -11007,7 +11007,7 @@ Salv aitab pankadel ja finantsasutustel tuvastada rahapesu ja pettusi. Süsteem 
 ### 🔐 Lukk 4.4
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Mul on Eestis palju sugulasi – Bürokratt on näiteks mu kauge onupoeg! Aga ma ei mäleta enam, kes neist mida teeb.“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Mul on Eestis palju sugulasi – Bürokratt on näiteks mu kauge onupoeg! Aga ma ei mäleta enam, kes neist mida teeb.“
 
 Lukk avaneb, kui lahendad mõistatuse. Leia iga kirjelduse (A–D) juurde sobiv Eesti TI-lahendus ja kirjuta selle number. Kui paned numbrid järjekorras A, B, C, D kõrvuti, saad neljakohalise koodi. Üks lahendus jääb üle.
 
@@ -11157,7 +11157,7 @@ Kirjuta siia kolm oma rühma reeglit ja kirjelda, kuidas su ekspertsüsteem test
 3. Analüüsige valitud soovitussüsteemi:
    - **Kasutajakogemus:** kuidas soovitusi esitatakse? Kuidas saab kasutaja soovitusi mõjutada? Kui täpsed ja asjakohased on soovitused?
    - **Tehniline toimimine:** milliseid andmeid süsteem kogub? Milliseid algoritme võidakse kasutada? Kas kasutatakse koostööfiltreerimist, sisupõhist filtreerimist või hübriidmeetodit?
-   - **Eetilised küsimused:** privaatsus, mullifiltrid, manipuleerimise võimalused.
+   - **Eetilised küsimused:** privaatsus, filtrimullid, manipuleerimise võimalused.
 4. Koostage 2–3-leheküljeline analüüsiraport, kus on soovitussüsteemi kirjeldus, kasutajakogemuse analüüs, tehnilise toimimise analüüs, eetiliste küsimuste analüüs ja parendusettepanekud.
 5. Kavandage oma soovitussüsteemi prototüüp:
    - **Kontseptsioon:** valige valdkond (nt raamatud, restoranid, õppematerjalid), sihtrühm ja eesmärgid.
@@ -11183,7 +11183,7 @@ Kirjuta siia kolm oma rühma reeglit ja kirjelda, kuidas su ekspertsüsteem test
 - [Recommendation Systems – IBM Developer](https://developer.ibm.com/technologies/artificial-intelligence/articles/introduction-to-recommender-systems/)
 - [The Ethics of Recommendation Systems – Harvard Business Review](https://hbr.org/2021/03/the-ethics-of-recommendation-systems)
 
-Kirjelda, mida sa analüüsitud soovitussüsteemi ja mullifiltri kohta teada said. Kas see muudab, kuidas sa ise seda rakendust kasutad?
+Kirjelda, mida sa analüüsitud soovitussüsteemi ja filtrimulli kohta teada said. Kas see muudab, kuidas sa ise seda rakendust kasutad?
 
 [[___ ___ ___ ___]]
 
@@ -11329,7 +11329,7 @@ Vasta küsimustele oma sõnadega. Võid oma vastuseid arutada ka klassikaaslaste
 
 [[___ ___ ___ ___]]
 
-**Mullifiltrid.** Mis on mullifiltrid ja kuidas need tekivad soovitussüsteemide kasutamisel? Kuidas vältida mullifiltrite negatiivseid mõjusid?
+**Filtrimullid.** Mis on filtrimullid ja kuidas need tekivad soovitussüsteemide kasutamisel? Kuidas vältida filtrimullide negatiivseid mõjusid?
 
 [[___ ___ ___ ___]]
 
@@ -11461,13 +11461,13 @@ Soovitussüsteem ennustab, millised tooted, teenused või sisu võiksid kasutaja
 
 **9. Kuidas nimetatakse olukorda, kus soovitussüsteem näitab kasutajale üha sarnasemat sisu ja tema inforuum kitseneb? Kirjuta vastus.**
 
-[[mullifilter]]
+[[filtrimull]]
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["mullifilter", "mullifiltriks", "mullifiltri", "filtrimull", "filtrimulliks", "filter bubble"].includes(v)
 </script>
 ****************************************
-Õige vastus: **mullifilter** (ka filtrimull). See tekib tagasisideahelast: mida rohkem sa üht teemat vaatad, seda rohkem süsteem seda sulle pakub.
+Õige vastus: **filtrimull** (ka filtrimull). See tekib tagasisideahelast: mida rohkem sa üht teemat vaatad, seda rohkem süsteem seda sulle pakub.
 ****************************************
 
 **10. Mis on tehisintellekti kontekstis „musta kasti“ probleem otsustamisel?**
@@ -11617,7 +11617,7 @@ d) Paku välja ideid, kuidas soovitussüsteemi saaks paremaks muuta:
 <details>
 <summary>Vaata, mida hea vastus sisaldab</summary>
 
-Hea vastus nimetab, milliseid andmeid süsteem tõenäoliselt kogub (vaatamised, kuulamised, laigid, vaatamise kestus, otsingud), ja seostab süsteemi tööpõhimõtte õpitud meetoditega, näiteks koostööfiltreerimise, sisupõhise filtreerimise või hübriidmeetodiga. Täpsuse analüüsis on mainitud, et see sõltub andmete hulgast, kasutaja tegevusest, külmkäivitusest ja kontekstist. Parendusettepanekud on konkreetsed, näiteks soovituste põhjendamine, mitmekesisuse suurendamine mullifiltri vältimiseks või kasutajale suurema kontrolli andmine.
+Hea vastus nimetab, milliseid andmeid süsteem tõenäoliselt kogub (vaatamised, kuulamised, laigid, vaatamise kestus, otsingud), ja seostab süsteemi tööpõhimõtte õpitud meetoditega, näiteks koostööfiltreerimise, sisupõhise filtreerimise või hübriidmeetodiga. Täpsuse analüüsis on mainitud, et see sõltub andmete hulgast, kasutaja tegevusest, külmkäivitusest ja kontekstist. Parendusettepanekud on konkreetsed, näiteks soovituste põhjendamine, mitmekesisuse suurendamine filtrimulli vältimiseks või kasutajale suurema kontrolli andmine.
 
 </details>
 
@@ -11637,11 +11637,11 @@ c) Kuidas mõjutavad soovitussüsteemid meie valikuid ja käitumist? Kas need la
 <details>
 <summary>Vaata, mida hea arutlus sisaldab</summary>
 
-Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega. See näitab, et oled teemast aru saanud, kasutab ploki mõisteid (nt „musta kasti“ probleem, kallutatus, selgitatavus, vastutus, inimene otsustusahelas, mullifilter) ja toob näiteid. Hea arutlus kaalub ka teistsuguseid vaatenurki ning lõpeb põhjendatud järeldusega.
+Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega. See näitab, et oled teemast aru saanud, kasutab ploki mõisteid (nt „musta kasti“ probleem, kallutatus, selgitatavus, vastutus, inimene otsustusahelas, filtrimull) ja toob näiteid. Hea arutlus kaalub ka teistsuguseid vaatenurki ning lõpeb põhjendatud järeldusega.
 
 </details>
 
-### 🚪 4. toa uks
+### 🚪 Uks 4: Otsuste labürint
 
 <!-- class="pae-fakt" -->
 > **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 4.1, 4.2, 4.3 ja 4.4 lukkudest järjekorras).
@@ -11653,7 +11653,7 @@ let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "tark"
 </script>
 ****************************************
-🎉 **Uks avaneb!** Labürindi sildid „JAH“ ja „EI“ süttivad korraga põlema ning moodustavad selge otsustuspuu, mis juhatab väljapääsuni. Kratt mäletab nüüd jälle, kuidas otsida teed olekuruumis, kuidas rakendada „KUI … SIIS …“ reegleid ja kuidas soovitada sisu, ilma et keegi mullifiltrisse kinni jääks. „Tänan teid!“ hüüab Kratt. „Nüüd ma tean: tark otsus ei ole kiire arvamine, vaid hea küsimuste ahel – ja lõpliku otsuse jätan ma tähtsates asjades ikkagi inimesele.“
+![Kratt](pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Labürindi sildid „JAH“ ja „EI“ süttivad korraga põlema ning moodustavad selge otsustuspuu, mis juhatab väljapääsuni. Kratt mäletab nüüd jälle, kuidas otsida teed olekuruumis, kuidas rakendada „KUI … SIIS …“ reegleid ja kuidas soovitada sisu, ilma et keegi filtrimulli kinni jääks. „Tänan teid!“ hüüab Kratt. „Nüüd ma tean: tark otsus ei ole kiire arvamine, vaid hea küsimuste ahel – ja lõpliku otsuse jätan ma tähtsates asjades ikkagi inimesele.“
 
 🌟 **Kuldne täht: I** – kirjuta see oma missioonikaardile. Kõik seitse kuldset tähte on vaja viimase ukse jaoks.
 
@@ -11667,7 +11667,7 @@ v === "tark"
 ![5. ploki kaanepilt: pealkiri „Pilditöötlus ja arvutinägemine“, värviline piksliruudustik, rohelise ümbriskastiga märgitud objekt ja stiliseeritud silm](pildid/plokk_5/plokk_5_kaas.svg)
 
 <!-- class="pae-fakt" -->
-> **🗝️ 5. tuba: Vaatlustorn**
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **🗝️ Tuba 5: Vaatlustorn**
 >
 > Päästemeeskond ronib mööda keerdtreppi kooli Vaatlustorni. Siit peaks Kratt nägema kogu kooli, kuid tema silmade ees on ainult ruudukesed ja arvud. „Ma näen 6 220 800 arvu, aga mitte ühtegi nägu! Kas see oranž ruut on direktor või apelsin?“ Teie ülesanne on õpetada Kratile uuesti, kuidas pikslitest saab pilt, pildist tähendus ja kuidas eristada ehtsat pilti võltsingust. Selles toas on 5 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjuta tähed üles!
 
@@ -12210,7 +12210,7 @@ Traditsioonilistes meetodites (nt Sobeli filter, HOG) pidi inimene ise välja m�
 ### 🔐 Lukk 5.1
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Keegi saatis mulle pisikese värvilise ikooni, ainult 10 × 10 pikslit. Mina loen aga nii palju arve, et pea käib ringi!“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Keegi saatis mulle pisikese värvilise ikooni, ainult 10 × 10 pikslit. Mina loen aga nii palju arve, et pea käib ringi!“
 
 Lukk avaneb, kui lahendad mõistatuse. Arvuta ja kirjuta vastuseks üks arv.
 
@@ -12705,7 +12705,7 @@ Pluss: puudumiste märkimine oleks kiire ja õpetaja aeg kuluks õppimisele. Pro
 ### 🔐 Lukk 5.2
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Ma tean, et pildil on koer, aga ma ei mäleta, KUS ta on! Minu märkmetes on üks sõna, aga tähed läksid sassi: **MIRSAKPITAIS**.“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma tean, et pildil on koer, aga ma ei mäleta, KUS ta on! Minu märkmetes on üks sõna, aga tähed läksid sassi: **MIRSAKPITAIS**.“
 
 Lukk avaneb, kui lahendad mõistatuse. Pane tähed õigesse järjekorda. Saad sõna, mis tähistab ristkülikut, millega objektituvastus märgib objekti asukoha pildil.
 
@@ -13197,7 +13197,7 @@ TI on arsti abiline ehk „teine silmapaar“, mitte asendaja. Ka täpne mudel e
 ### 🔐 Lukk 5.3
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Kooliõde küsis, kas ma suudaksin röntgenpildilt haigust märgata. Ütlesin, et olen väga täpne… aga mis täpsusest me üldse räägime?“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Kooliõde küsis, kas ma suudaksin röntgenpildilt haigust märgata. Ütlesin, et olen väga täpne… aga mis täpsusest me üldse räägime?“
 
 Lukk avaneb, kui lahendad mõistatuse. Kirjuta mõiste, mida mõistatus kirjeldab.
 
@@ -13233,7 +13233,7 @@ Selle tunni lõpuks sa:
 
 - oskad selgitada, mis on generatiivne tehisintellekt ja mille poolest see erineb diskriminatiivsest TI-st;
 - tunned peamisi generatiivseid mudeleid: GAN, VAE, difusioonimudelid ja tekst-pilt-mudelid;
-- oskad pildigeneraatorit juhtida kirjelduste (promptide) ja parameetrite abil;
+- oskad pildigeneraatorit juhtida kirjelduste ehk viipade ja parameetrite abil;
 - tead, mis on stiiliülekanne, pildi täiendamine ja superresolutsioon;
 - oskad arutleda, kas TI saab olla loov, ning tunned generatiivse TI eetilisi küsimusi (autoriõigus, kallutatus, valeinfo).
 
@@ -13304,10 +13304,10 @@ Tekst-pilt-mudelid suudavad kombineerida mõisteid, rakendada stiile, luua kompo
 
 Pildigeneraatori kasutamine on oskus. Generaatorit saab juhtida kolmel viisil.
 
-**Tekstiline juhtimine** (prompting) tähendab detailse kirjelduse kirjutamist. Hea kirjeldus ütleb, **mis** pildil on, **kus** ja **mis stiilis**.
+**Tekstiline juhtimine** (*prompting*, viipade koostamine) tähendab detailse kirjelduse kirjutamist. Hea kirjeldus ütleb, **mis** pildil on, **kus** ja **mis stiilis**.
 
 <!-- class="pae-naide" -->
-> **Näide: kehv ja hea kirjeldus (prompt)**
+> **Näide: kehv ja hea kirjeldus ehk viip**
 >
 > Kehv: „koer“
 >
@@ -13373,7 +13373,7 @@ Tulevikus muutuvad mudelid veelgi **multimodaalsemaks** (tekst, pilt, heli ja vi
 - Generatiivne TI loob uut sisu; diskriminatiivne TI klassifitseerib olemasolevat.
 - GAN-is võistlevad generaator ja diskriminaator; VAE kodeerib pildid latentsesse ruumi.
 - Difusioonimudelid loovad pildi müra järk-järgulise eemaldamise teel; tekst-pilt-mudelid juhivad seda protsessi teksti abil.
-- Pildigeneraatorit juhitakse kirjelduse (prompti), algpildi või maski ja parameetrite (seeme, sammud, CFG-skaala, negatiivsed vihjed) kaudu.
+- Pildigeneraatorit juhitakse kirjelduse ehk viiba, algpildi või maski ja parameetrite (seeme, sammud, CFG-skaala, negatiivsed vihjed) kaudu.
 - TI on osav kombinatoorses ja avastavas loovuses; parimad tulemused sünnivad inimese ja TI koostöös.
 - Eetilised küsimused: autoriõigus, kallutatus ja stereotüübid, mõju töökohtadele, valeinfo.
 
@@ -13384,7 +13384,7 @@ Tulevikus muutuvad mudelid veelgi **multimodaalsemaks** (tekst, pilt, heli ja vi
 | Latentne ruum | Abstraktne ruum, kus andmete olulised omadused on esitatud arvudena |
 | Difusioonimudel | Mudel, mis loob pildi müra järk-järgulise eemaldamise teel |
 | Tekst-pilt-mudel | Mudel, mis loob pildi tekstilise kirjelduse põhjal |
-| Prompt (kirjeldus) | Tekst, millega kasutaja generatiivset mudelit juhib |
+| Viip (kirjeldus, *prompt*) | Tekst, millega kasutaja generatiivset mudelit juhib |
 | Stiiliülekanne | Ühe pildi stiili rakendamine teisele pildile |
 | Inpainting | Pildi puuduva või valitud osa täitmine uue sisuga |
 | Superresolutsioon | Pildi resolutsiooni suurendamine TI abil |
@@ -13588,7 +13588,7 @@ a) Valitud tööriist:
 
 [[___]]
 
-b) Millised olid sinu sisendid (promptid)?
+b) Millised olid sinu sisendid (viibad)?
 
 [[___ ___]]
 
@@ -13652,13 +13652,13 @@ d) Millised võiksid olla projekti tulemused?
 
 **1. Kuidas nimetatakse teksti, millega kasutaja pildigeneraatorit juhib? Kirjuta vastus.**
 
-[[prompt]]
+[[viip]]
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["prompt", "prompti", "promptid", "kirjeldus", "kirjeldust", "viip", "viipa", "viiba"].includes(v)
 </script>
 ****************************************
-Õige vastus: **prompt** ehk kirjeldus. Hea kirjeldus ütleb, **mis** pildil on, **kus** ja **mis stiilis**.
+Õige vastus: **viip** (inglise *prompt*) ehk kirjeldus. Hea kirjeldus ütleb, **mis** pildil on, **kus** ja **mis stiilis**.
 ****************************************
 
 **2. Lohista mõisted õigetesse lünkadesse.**
@@ -13735,7 +13735,7 @@ Uus suurus: 800 × 400 pikslit, seega 800 × 400 = **320 000** pikslit. Algses p
 ### 🔐 Lukk 5.4
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Leidsin oma vanast päevikust lause, aga üks sõna on ära kustunud. Ma mäletan ainult, et keegi pidas pidevalt võltsijaid kinni…“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Leidsin oma vanast päevikust lause, aga üks sõna on ära kustunud. Ma mäletan ainult, et keegi pidas pidevalt võltsijaid kinni…“
 
 Lukk avaneb, kui lahendad mõistatuse. Leia tsitaadist puuduv sõna.
 
@@ -14266,7 +14266,7 @@ Ma ei jaga videot edasi ega vasta kiusajale samaga. Salvestan tõendid (ekraanip
 ### 🔐 Lukk 5.5
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Keegi saatis mulle video, kus mina, Kratt, laulan ooperit. Ma ei mäleta, et oleksin laulnud! Aidake mul kontrollida, kas see on päris – aga minu kontrollnimekirja on sattunud kaks valet nõuannet.“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Keegi saatis mulle video, kus mina, Kratt, laulan ooperit. Ma ei mäleta, et oleksin laulnud! Aidake mul kontrollida, kas see on päris – aga minu kontrollnimekirja on sattunud kaks valet nõuannet.“
 
 Lukk avaneb, kui lahendad mõistatuse. Loe väiteid. Kaks neist on **valed**. Kirjuta valede väidete numbrid kasvavas järjekorras ühe koodina (nt kui valed on väited 1 ja 3, kirjuta **13**).
 
@@ -14459,7 +14459,7 @@ Kirjelda lühidalt oma juhtumianalüüsi põhijäreldust: kuidas peaks selles va
 1. Tööta üksi või paaris.
 2. Tutvu generatiivse TI põhimõtetega: generatiivsed vastandvõrgud (GAN), difusioonimudelid, tekst-pilt-mudelid ja stiiliülekanne.
 3. Katseta vähemalt kahte erinevat generatiivse TI tööriista.
-   - **Tekst-pilt-eksperiment:** loo 5–7 erinevat kirjeldust (prompti), genereeri pildid eri tööriistadega, võrdle tulemusi ja kirjuta erinevused üles.
+   - **Tekst-pilt-eksperiment:** loo 5–7 erinevat kirjeldust ehk viipa, genereeri pildid eri tööriistadega, võrdle tulemusi ja kirjuta erinevused üles.
    - **Stiiliülekande eksperiment:** vali 2–3 kunstistiili, rakenda neid oma valitud piltidele, kirjuta tulemused üles ja hinda, kui täpselt stiil üle kanti.
 4. Loo generatiivse TI abil loovprojekt, näiteks visuaalne jutustus (3–5 seotud pilti), kontseptuaalne kunstiteos, illustreeritud lühijutt või luuletus või visuaalne metafoor. Ära loo pilte päris inimestest ja märgi, et pildid on loodud TI abil.
 5. Kirjuta refleksioon (200–300 sõna): sinu kogemus generatiivse TI-ga, kuidas TI mõjutas sinu loomeprotsessi, kas TI loodud kunst on „päris“ kunst ja milline on generatiivse TI mõju kunstile ja loovusele.
@@ -14479,7 +14479,7 @@ Kirjelda lühidalt oma juhtumianalüüsi põhijäreldust: kuidas peaks selles va
 
 **Kasulikud lingid:** [DALL-E – OpenAI](https://openai.com/dall-e-2/) · [Midjourney](https://www.midjourney.com/) · [Stable Diffusion](https://stability.ai/stable-diffusion) · [Generative AI and Art – MIT Technology Review](https://www.technologyreview.com/2021/03/05/1020133/ai-art-generation-gpt3-openai-clip-dalle/) · [Style Transfer – TensorFlow](https://www.tensorflow.org/tutorials/generative/style_transfer)
 
-Kirjuta üles oma kõige õnnestunum prompt ja selgita, mis tegi selle heaks.
+Kirjuta üles oma kõige õnnestunum viip ja selgita, mis tegi selle heaks.
 
 [[___ ___ ___ ___]]
 
@@ -14812,7 +14812,7 @@ a) Millist tööriista või rakendust kasutasid?
 
 [[___]]
 
-b) Variant A: millised olid sinu sisendid (promptid) ja millised pildid said tulemuseks? Variant B: milliseid pilte või objekte lasid rakendusel tuvastada?
+b) Variant A: millised olid sinu sisendid (viibad) ja millised pildid said tulemuseks? Variant B: milliseid pilte või objekte lasid rakendusel tuvastada?
 
 [[___ ___ ___]]
 
@@ -14851,7 +14851,7 @@ Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega. 
 
 </details>
 
-### 🚪 5. toa uks
+### 🚪 Uks 5: Vaatlustorn
 
 <!-- class="pae-fakt" -->
 > **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 5.1, 5.2, 5.3, 5.4 ja 5.5 lukkudest järjekorras).
@@ -14863,7 +14863,7 @@ let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "optik"
 </script>
 ****************************************
-🎉 **Uks avaneb!** Vaatlustorni aknad lähevad selgeks ja pikslipudrust saavad taas näod, puud ja jalgrattad. Kratt mäletab jälle, et pilt on tema jaoks arvude tabel, millest konvolutsioonivõrk leiab mustreid, et piiramiskastid näitavad objektide asukohta ja et iga pilti ei tasu uskuda – võltsingu tabamiseks tuleb kontrollida allikat ja detaile. „Ma näen jälle! Ja nüüd ma tean, et ka mina võin pildi puhul eksida – aitäh, et õpetasite mind kaks korda vaatama!“
+![Kratt](pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Vaatlustorni aknad lähevad selgeks ja pikslipudrust saavad taas näod, puud ja jalgrattad. Kratt mäletab jälle, et pilt on tema jaoks arvude tabel, millest konvolutsioonivõrk leiab mustreid, et piiramiskastid näitavad objektide asukohta ja et iga pilti ei tasu uskuda – võltsingu tabamiseks tuleb kontrollida allikat ja detaile. „Ma näen jälle! Ja nüüd ma tean, et ka mina võin pildi puhul eksida – aitäh, et õpetasite mind kaks korda vaatama!“
 
 🌟 **Kuldne täht: S** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
 
@@ -14877,7 +14877,7 @@ v === "optik"
 ![6. ploki kaanepilt: kaalud, mille ühel kausil on robot ja teisel inimene, ning pealkiri „Tehisintellekt ja eetika“](pildid/plokk_6/plokk_6_kaas.svg)
 
 <!-- class="pae-fakt" -->
-> **🗝️ 6. tuba: Nõukogusaal**
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **🗝️ Tuba 6: Nõukogusaal**
 >
 > Uks avaneb ja päästemeeskond astub suurde saali, mille keskel seisab ümarlaud ja selle kohal kõigub hiiglaslik kaal. Siin pidi Kratt tegema otsuseid kogu kooli kohta, kuid nüüd on ta segaduses: „Kas õige otsus on see, mis on kõige kiirem? Või see, mis kõige rohkem andmeid kogub? Ma ei mäleta enam, mis on aus!“ Selles toas õpetad Kratile uuesti eetikat: õiglust, privaatsust, vastutust ja ettevaatlikkust tulevikku vaadates. Selles toas on 5 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjuta tähed üles!
 
@@ -14989,7 +14989,7 @@ Eri organisatsioonid on koostanud TI eetikajuhiseid ning kuigi sõnastused erine
 
 **Privaatsus vs kasulikkus.** Mida rohkem andmeid TI saab, seda paremini see sageli töötab. Näiteks võiksid patsientide terviseandmed aidata haigusi varem avastada, aga samal ajal ohustab andmete laialdane kasutamine inimeste privaatsust. Lahendusi otsitakse anonümiseerimisest, nõusolekust ja privaatsust säilitavatest tehnoloogiatest.
 
-**Autonoomsus vs inimkontroll.** Kui palju otsustusõigust võib anda TI-le? Ühed rõhutavad, et masin on kiirem ega väsi, teised, et tähtsad otsused peavad jääma inimesele. Selle arutelu keskmes on põhimõte **„inimene silmuses“** (human-in-the-loop): süsteem pakub lahenduse, aga lõpliku otsuse teeb inimene. Eriti teravalt kerkib küsimus meditsiinis, õigussüsteemis ja sõjanduses, näiteks autonoomsete relvade puhul.
+**Autonoomsus vs inimkontroll.** Kui palju otsustusõigust võib anda TI-le? Ühed rõhutavad, et masin on kiirem ega väsi, teised, et tähtsad otsused peavad jääma inimesele. Selle arutelu keskmes on põhimõte **„inimene otsustusahelas“** (human-in-the-loop): süsteem pakub lahenduse, aga lõpliku otsuse teeb inimene. Eriti teravalt kerkib küsimus meditsiinis, õigussüsteemis ja sõjanduses, näiteks autonoomsete relvade puhul.
 
 **Läbipaistvus vs intellektuaalomand.** Ühelt poolt peaks ühiskond saama kontrollida, kuidas TI-süsteemid töötavad. Teiselt poolt on ettevõtted nende arendamisse palju investeerinud ja tahavad kaitsta oma ärisaladusi. Kas kõik TI-süsteemid peaksid olema avatud lähtekoodiga? Üks kompromiss on sõltumatu audit: süsteemi kontrollib erapooletu ekspert, kuid kood ei ole kõigile avalik.
 
@@ -15188,7 +15188,7 @@ Hea mõtisklus: 1) nimetab, mis on olukorras tehisaru roll ja milline probleem t
 | must kast | mudel, mille sisemist otsustusloogikat ei ole võimalik lihtsalt mõista |
 | vastutus | selgus, kes vastutab TI-süsteemi otsuste ja tagajärgede eest |
 | trolliprobleem | mõtteeksperiment, kus tuleb valida, keda õnnetuse korral kaitsta; arutatakse isesõitvate autode kontekstis |
-| inimene silmuses | lähenemine, kus TI pakub lahenduse, kuid lõpliku otsuse teeb inimene |
+| inimene otsustusahelas | lähenemine, kus TI pakub lahenduse, kuid lõpliku otsuse teeb inimene |
 | riskipõhine lähenemine | ELi TI-määruse põhimõte: mida suurem risk, seda rangemad nõuded |
 
 ### Tööleht 6.1
@@ -15452,9 +15452,9 @@ Valikuvõimalus ja õpilaste heaolu on **inimkesksus**, süsteemi toimimise selg
 **5. Vali rippmenüüst õige variant.**
 
 <!-- data-show-partial-solution -->
-Trolliprobleemi arutatakse tänapäeval eelkõige [[ (isesõitvate autode) | rämpspostifiltrite | vestlusrobotite ]] kontekstis. Lähenemist, kus TI pakub lahenduse, kuid lõpliku otsuse teeb inimene, nimetatakse [[ mustaks kastiks | (inimene silmuses) | trolliprobleemiks ]]. Dilemmas „läbipaistvus vs intellektuaalomand“ on üks kompromiss [[ kõigi süsteemide avatud lähtekood | (sõltumatu audit) | ärisaladuste täielik varjamine ]].
+Trolliprobleemi arutatakse tänapäeval eelkõige [[ (isesõitvate autode) | rämpspostifiltrite | vestlusrobotite ]] kontekstis. Lähenemist, kus TI pakub lahenduse, kuid lõpliku otsuse teeb inimene, nimetatakse [[ mustaks kastiks | (inimene otsustusahelas) | trolliprobleemiks ]]. Dilemmas „läbipaistvus vs intellektuaalomand“ on üks kompromiss [[ kõigi süsteemide avatud lähtekood | (sõltumatu audit) | ärisaladuste täielik varjamine ]].
 ****************************************
-Trolliprobleem küsib, keda peaks isesõitev auto õnnetuse korral kaitsma. „Inimene silmuses“ (human-in-the-loop) jätab lõpliku otsuse inimesele. Sõltumatu auditi korral kontrollib süsteemi erapooletu ekspert, kuid kood ei pea olema kõigile avalik.
+Trolliprobleem küsib, keda peaks isesõitev auto õnnetuse korral kaitsma. „Inimene otsustusahelas“ (*human-in-the-loop*) jätab lõpliku otsuse inimesele. Sõltumatu auditi korral kontrollib süsteemi erapooletu ekspert, kuid kood ei pea olema kõigile avalik.
 ****************************************
 
 **6. Pane sündmused ajalisse järjekorda (1 – kõige varasem, 3 – kõige hilisem).**
@@ -15493,7 +15493,7 @@ TI ei ole isik: tal ei ole oma tahet ega võimalust oma tegude eest vastust anda
 ### 🔐 Lukk 6.1
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Mul on meeles neli suurt reeglit, mille järgi head tehisarud käituma peavad. Aga neid pidi olema viis! Üks on mu mälust kadunud ja ilma selleta võin ma kedagi ebavõrdselt kohelda…“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Mul on meeles neli suurt reeglit, mille järgi head tehisarud käituma peavad. Aga neid pidi olema viis! Üks on mu mälust kadunud ja ilma selleta võin ma kedagi ebavõrdselt kohelda…“
 
 Lukk avaneb, kui lahendad mõistatuse. Kratt mäletab nelja eetilist põhimõtet: **inimkesksus**, **läbipaistvus**, **privaatsus** ja **vastutus**. Milline viies põhimõte on puudu? See nõuab, et TI ei diskrimineeriks inimesi soo, vanuse, päritolu ega muu tunnuse alusel. Kirjuta üks sõna.
 
@@ -15524,7 +15524,7 @@ Selle tunni järel sa:
 - oskad selgitada, mida tähendab privaatsus TI kontekstis ja miks see on oluline;
 - tunned isikuandmete kaitse üldmääruse (GDPR) põhimõtteid ja oma õigusi andmesubjektina;
 - tead, millised privaatsusriskid kaasnevad näotuvastuse, vestlusrobotite ja soovitussüsteemidega;
-- oskad kirjeldada privaatsust säilitavaid tehnoloogiaid, näiteks diferentsiaalset privaatsust ja födereeritud õpet;
+- oskad kirjeldada privaatsust säilitavaid tehnoloogiaid, näiteks diferentsiaalset privaatsust ja föderatiivset õpet;
 - tead, kelle poole Eestis andmekaitse küsimustes pöörduda.
 
 ### Mis on privaatsus TI ajastul?
@@ -15622,9 +15622,9 @@ Kas TI ja privaatsus saavad üldse koos eksisteerida? Teadlased on välja tööt
 
 ![Neli sammu: küsitluses vastab igaüks, enne vastamist visatakse salaja münti, mõni vastus on seetõttu juhuslik ehk müra ning lõpuks on üldpilt näha, kuid üksiku inimese vastust mitte.](pildid/plokk_6/6_2_diferentsiaalne.svg "Joonis 6.2.3. Diferentsiaalne privaatsus mündiviskega küsitluse näitel")
 
-**Födereeritud õpe.** Tavaliselt koondatakse kõik andmed ühte kohta ja treenitakse seal mudel. Födereeritud õppe korral jäävad andmed kasutaja seadmesse (näiteks telefoni) ning mudelit treenitakse edasi seal. Keskserverisse saadetakse ainult mudeli uuendused, mitte andmed ise. Nii saab mudelit treenida ilma andmeid tsentraliseerimata.
+**Föderatiivne õpe.** Tavaliselt koondatakse kõik andmed ühte kohta ja treenitakse seal mudel. Föderatiivse õppe korral jäävad andmed kasutaja seadmesse (näiteks telefoni) ning mudelit treenitakse edasi seal. Keskserverisse saadetakse ainult mudeli uuendused, mitte andmed ise. Nii saab mudelit treenida ilma andmeid tsentraliseerimata.
 
-![Võrdlus: tavalises õppes saadavad telefonid kõik andmed serverisse; födereeritud õppes toimub õppimine telefonis ja serverisse saadetakse ainult mudeli uuendused, andmed jäävad seadmesse.](pildid/plokk_6/6_2_fodereeritud.svg "Joonis 6.2.4. Tavaline õpe ja födereeritud õpe")
+![Võrdlus: tavalises õppes saadavad telefonid kõik andmed serverisse; föderatiivses õppes toimub õppimine telefonis ja serverisse saadetakse ainult mudeli uuendused, andmed jäävad seadmesse.](pildid/plokk_6/6_2_fodereeritud.svg "Joonis 6.2.4. Tavaline õpe ja föderatiivne õpe")
 
 **Homomorfne krüpteerimine.** Andmeid saab töödelda krüpteeritud ehk šifreeritud kujul, ilma et neid oleks vaja vahepeal dekrüpteerida (lahti krüpteerida). Töötleja saab arvutuse tulemuse, kuid ei näe kunagi algandmeid.
 
@@ -15677,7 +15677,7 @@ Tulevikus on oodata uusi privaatsust säilitavaid tehnoloogiaid, regulatsioonide
 - TI ohustab privaatsust suurte andmehulkade kogumise, profileerimise, jälgimise ja andmete teisel eesmärgil kasutamise kaudu.
 - GDPR annab sulle mitu õigust, sealhulgas õiguse oma andmetega tutvuda, neid parandada ja kustutada ning õiguse mitte alluda üksnes automatiseeritud otsusele.
 - Eestis teeb andmekaitse üle järelevalvet Andmekaitse Inspektsioon.
-- Privaatsust säilitavad tehnoloogiad (diferentsiaalne privaatsus, födereeritud õpe, homomorfne krüpteerimine, turvaline mitme osapoole arvutus) aitavad leida tasakaalu privaatsuse ja kasulikkuse vahel.
+- Privaatsust säilitavad tehnoloogiad (diferentsiaalne privaatsus, föderatiivne õpe, homomorfne krüpteerimine, turvaline mitme osapoole arvutus) aitavad leida tasakaalu privaatsuse ja kasulikkuse vahel.
 - Privaatsuse kaitse nõuab kõigi osapoolte koostööd – nii arendajate, organisatsioonide, riigi kui ka kasutajate endi panust.
 
 | Mõiste | Tähendus |
@@ -15689,7 +15689,7 @@ Tulevikus on oodata uusi privaatsust säilitavaid tehnoloogiaid, regulatsioonide
 | profileerimine | inimese kohta profiili loomine tema andmete põhjal, et tema käitumist hinnata või ennustada |
 | andmete minimaalsus | põhimõte koguda ainult nii palju andmeid, kui eesmärgi jaoks vaja |
 | diferentsiaalne privaatsus | andmetele müra lisamine, nii et üksiku inimese andmeid ei saa välja lugeda |
-| födereeritud õpe | mudeli treenimine nii, et andmed jäävad kasutaja seadmesse |
+| föderatiivne õpe | mudeli treenimine nii, et andmed jäävad kasutaja seadmesse |
 | pseudonümiseerimine | otseste tunnuste asendamine koodiga, mida saab eraldi võtme abil tagasi seostada |
 | lõimitud privaatsus | privaatsuse kaitse arvestamine kogu arendusprotsessi vältel |
 
@@ -15736,11 +15736,11 @@ Millised privaatsuse ja andmekaitse väljakutsed selle süsteemiga kaasnevad? Ku
 
 [[___ ___ ___]]
 
-**Ülesanne 8.** Selgita lühidalt, mis on födereeritud õpe (federated learning) ja kuidas see aitab privaatsust kaitsta.
+**Ülesanne 8.** Selgita lühidalt, mis on föderatiivne õpe (federated learning) ja kuidas see aitab privaatsust kaitsta.
 
 [[___ ___ ___]]
 
-**Ülesanne 9.** Uuri ja kirjelda üht privaatsust säilitavat tehnoloogiat, mida saab kasutada TI-süsteemides (lisaks diferentsiaalsele privaatsusele ja födereeritud õppele).
+**Ülesanne 9.** Uuri ja kirjelda üht privaatsust säilitavat tehnoloogiat, mida saab kasutada TI-süsteemides (lisaks diferentsiaalsele privaatsusele ja föderatiivsele õppele).
 
 [[___ ___ ___ ___]]
 
@@ -15819,9 +15819,9 @@ let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ").replace(/[.!]+$/, "")
 **3. Lohista privaatsust säilitavate tehnoloogiate nimetused õigetesse lünkadesse.**
 
 <!-- data-show-partial-solution -->
-Kui andmetele lisatakse hoolikalt arvutatud müra, on tegu [->[ (diferentsiaalse privaatsusega) ]]. Kui andmed jäävad telefoni ja serverisse saadetakse ainult mudeli uuendused, on tegu [->[ (födereeritud õppega) | pilvandmetöötlusega ]]. Kui andmeid töödeldakse krüpteeritud kujul ilma neid vahepeal dekrüpteerimata, on tegu [->[ (homomorfse krüpteerimisega) ]]. Kui nimi ja isikukood asendatakse koodiga, mille saab eraldi hoitava võtme abil tagasi seostada, on tegu [->[ (pseudonümiseerimisega) | anonümiseerimisega ]].
+Kui andmetele lisatakse hoolikalt arvutatud müra, on tegu [->[ (diferentsiaalse privaatsusega) ]]. Kui andmed jäävad telefoni ja serverisse saadetakse ainult mudeli uuendused, on tegu [->[ (föderatiivse õppega) | pilvandmetöötlusega ]]. Kui andmeid töödeldakse krüpteeritud kujul ilma neid vahepeal dekrüpteerimata, on tegu [->[ (homomorfse krüpteerimisega) ]]. Kui nimi ja isikukood asendatakse koodiga, mille saab eraldi hoitava võtme abil tagasi seostada, on tegu [->[ (pseudonümiseerimisega) | anonümiseerimisega ]].
 ****************************************
-Diferentsiaalne privaatsus lisab andmetele müra, födereeritud õpe jätab andmed seadmesse, homomorfne krüpteerimine võimaldab arvutada krüpteeritud andmetega. Pseudonümiseerimise korral saab inimese võtme abil uuesti tuvastada, anonümiseerimise korral mitte.
+Diferentsiaalne privaatsus lisab andmetele müra, föderatiivne õpe jätab andmed seadmesse, homomorfne krüpteerimine võimaldab arvutada krüpteeritud andmetega. Pseudonümiseerimise korral saab inimese võtme abil uuesti tuvastada, anonümiseerimise korral mitte.
 ****************************************
 
 **4. Vali rippmenüüst õige variant.**
@@ -15871,14 +15871,14 @@ Eesmärgi piirangu põhimõtte järgi ei tohi andmeid kasutada teisel eesmärgil
 <details>
 <summary>Vaata näidisvastust</summary>
 
-TI töötab sageli seda paremini, mida rohkem andmeid see saab. Näiteks võiksid patsientide terviseandmed aidata haigusi varem avastada. Samas suurendab andmete laialdane kasutamine privaatsusriski, sest inimene kaotab kontrolli oma andmete üle. Üks lahendus on privaatsust säilitavad tehnoloogiad, näiteks födereeritud õpe, mille korral andmed jäävad inimese seadmesse. Aidata võivad ka anonümiseerimine, pseudonümiseerimine ning inimeste teavitamine ja nõusoleku küsimine.
+TI töötab sageli seda paremini, mida rohkem andmeid see saab. Näiteks võiksid patsientide terviseandmed aidata haigusi varem avastada. Samas suurendab andmete laialdane kasutamine privaatsusriski, sest inimene kaotab kontrolli oma andmete üle. Üks lahendus on privaatsust säilitavad tehnoloogiad, näiteks föderatiivne õpe, mille korral andmed jäävad inimese seadmesse. Aidata võivad ka anonümiseerimine, pseudonümiseerimine ning inimeste teavitamine ja nõusoleku küsimine.
 
 </details>
 
 ### 🔐 Lukk 6.2
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Ma korjasin kokku nime, isikukoodi, näopildi ja IP-aadressi… Kas need on lihtsalt toredad numbrid ja pildid? Miks kõik mind nii murelikult vaatavad?“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma korjasin kokku nime, isikukoodi, näopildi ja IP-aadressi… Kas need on lihtsalt toredad numbrid ja pildid? Miks kõik mind nii murelikult vaatavad?“
 
 Lukk avaneb, kui lahendad mõistatuse. Mis on ühist kõigil neil asjadel: **nimi, isikukood, foto, hääl, asukoht, IP-aadress, õppetulemused, ostuajalugu**? Kirjuta üks sõna – mõiste, mida GDPR kaitseb.
 
@@ -16287,7 +16287,7 @@ Kallutatus võib jääda alles kaudsete tunnuste kaudu. Näiteks võib CV-s main
 ### 🔐 Lukk 6.3
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Ma soovitasin ühele õpilasele kassivideoid. Ta vaatas neid. Siis soovitasin veel rohkem kassivideoid… Nüüd näen ma kõikjal ainult kasse! Kuidas ma sellest ringist välja saan?“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma soovitasin ühele õpilasele kassivideoid. Ta vaatas neid. Siis soovitasin veel rohkem kassivideoid… Nüüd näen ma kõikjal ainult kasse! Kuidas ma sellest ringist välja saan?“
 
 Lukk avaneb, kui lahendad mõistatuse. Kes ma olen? Kirjuta mõiste (üks liitsõna).
 
@@ -16743,7 +16743,7 @@ Amet koosneb paljudest ülesannetest ja TI automatiseerib neist ainult osa. Tood
 ### 🔐 Lukk 6.4
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Ma kirjutasin tööturu kohta viis tarka lauset. Või… vähemalt mõned neist on targad. Kaks lauset ajasin ma vist sassi!“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma kirjutasin tööturu kohta viis tarka lauset. Või… vähemalt mõned neist on targad. Kaks lauset ajasin ma vist sassi!“
 
 Lukk avaneb, kui leiad Krati vead. Loe väiteid ja leia **kaks väära** väidet. Kirjuta nende numbrid kasvavas järjekorras ilma tühikuta (nt 13).
 
@@ -17189,7 +17189,7 @@ Määrus on riskipõhine: mida suurem on oht inimeste tervisele, turvalisusele v
 ### 🔐 Lukk 6.5
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Ma tean täpselt, et aastal 2031 lendavad kõik koolibussid Kuule ja õpetajad on asendatud pingviinidega! Mida? Kas see pole tõsi? Aga ma ütlesin seda ju nii enesekindlalt…“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma tean täpselt, et aastal 2031 lendavad kõik koolibussid Kuule ja õpetajad on asendatud pingviinidega! Mida? Kas see pole tõsi? Aga ma ütlesin seda ju nii enesekindlalt…“
 
 Lukk avaneb, kui lahendad anagrammi. Tähed on segamini läinud. Moodusta neist mõiste, mis kirjeldab olukorda, kus mudel esitab enesekindlalt valet või väljamõeldud infot – just nagu Kratt praegu.
 
@@ -17601,12 +17601,12 @@ Bürokratt valitakse parimaks TI-l põhinevaks riigiteenuseks: [[ 1 | 2 | (3) | 
 <!-- data-show-partial-solution -->
 - [ (Tõene) (Väär) ]
 - [ ( ) (X) ] Arvuti on alati erapooletu, seega ei saa TI-süsteem olla kallutatud.
-- [ (X) ( ) ] Födereeritud õppe korral jäävad andmed kasutaja seadmesse.
+- [ (X) ( ) ] Föderatiivse õppe korral jäävad andmed kasutaja seadmesse.
 - [ ( ) (X) ] Eksperdid on üksmeelel, kui palju töökohti TI järgmise kümne aasta jooksul kaotab.
 - [ (X) ( ) ] Mida kaugemale tulevikku ennustus ulatub, seda ebakindlam see on.
 - [ ( ) (X) ] Trolliprobleemil on üks kõigile sobiv õige vastus.
 ****************************************
-TI õpib inimeste loodud andmetest ja võib seetõttu olla kallutatud. Födereeritud õppes saadetakse serverisse ainult mudeli uuendused. TI mõju tööturule ja pikaajalised trendid on ebakindlad ning ekspertide hinnangud lähevad lahku. Trolliprobleemile vastavad inimesed ja kultuurid erinevalt.
+TI õpib inimeste loodud andmetest ja võib seetõttu olla kallutatud. Föderatiivses õppes saadetakse serverisse ainult mudeli uuendused. TI mõju tööturule ja pikaajalised trendid on ebakindlad ning ekspertide hinnangud lähevad lahku. Trolliprobleemile vastavad inimesed ja kultuurid erinevalt.
 ****************************************
 
 **7. Lohista mõisted õigetesse lünkadesse.**
@@ -17842,7 +17842,7 @@ Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentide ja 
 
 </details>
 
-### 🚪 6. toa uks
+### 🚪 Uks 6: Nõukogusaal
 
 <!-- class="pae-fakt" -->
 > **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 6.1, 6.2, 6.3, 6.4 ja 6.5 lukkudest järjekorras).
@@ -17854,7 +17854,7 @@ let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "õigus"
 </script>
 ****************************************
-🎉 **Uks avaneb!** Nõukogusaali ümarlaua ümber on Kratt lõpuks rahunenud. Ta mäletab jälle, et hea tehisaru peab olema inimkeskne, läbipaistev ja õiglane ning kaitsma privaatsust ja et tema otsuste eest vastutavad alati inimesed. Kratt teab nüüd ka, et inimestel on õigus oma andmetele, et kallutatust tuleb otsida ja vähendada ning et tulevikku ei saa kindlalt ennustada. „Aitäh, päästemeeskond! Ma ei tea veel kõike, aga ma tean, et pean küsima: kas see on õige ja kas see on kõigi suhtes aus?“
+![Kratt](pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Nõukogusaali ümarlaua ümber on Kratt lõpuks rahunenud. Ta mäletab jälle, et hea tehisaru peab olema inimkeskne, läbipaistev ja õiglane ning kaitsma privaatsust ja et tema otsuste eest vastutavad alati inimesed. Kratt teab nüüd ka, et inimestel on õigus oma andmetele, et kallutatust tuleb otsida ja vähendada ning et tulevikku ei saa kindlalt ennustada. „Aitäh, päästemeeskond! Ma ei tea veel kõike, aga ma tean, et pean küsima: kas see on õige ja kas see on kõigi suhtes aus?“
 
 🌟 **Kuldne täht: A** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
 
@@ -17868,7 +17868,7 @@ v === "õigus"
 ![7. ploki kaanepilt: pealkiri „Kokkuvõte ja projektitöö“ ning rada kuuest nummerdatud punktist, mis viib lipuga tähistatud seitsmenda punktini.](pildid/plokk_7/plokk_7_kaas.svg)
 
 <!-- class="pae-fakt" -->
-> **🗝️ 7. tuba: Stardiplatvorm**
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **🗝️ Tuba 7: Stardiplatvorm**
 >
 > Päästemeeskond jõuab digikooli kõige kõrgemale korrusele – Stardiplatvormile. Kratt mäletab juba peaaegu kõike, kuid enne kui ta saab uuesti stardi anda ja kooli süsteemid avada, tuleb kõik õpitu kokku panna ja päris projektiks muuta. „Ma tean nüüd, mis on andmed, mudelid ja õiglus, aga kuidas neist midagi päriselt valmis ehitada? Ilma plaanita stardin ma vist kogemata katlamajja!“ Teie ülesanne on aidata Kratil projekt planeerida, valmis ehitada ja esitleda. Selles toas on 5 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjuta tähed üles!
 
@@ -18308,7 +18308,7 @@ Andmete kvaliteet (plokk 2) ja kallutatus (plokk 6) on tihedalt seotud. Masinõp
 ### 🔐 Lukk 7.1
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Mu mälestused kuuest toast on segamini nagu pusletükid. Masintõlge, vestlusrobot, kõnetuvastus… ma tean, et need on sugulased, aga ei mäleta, mis perekonnast!“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Mu mälestused kuuest toast on segamini nagu pusletükid. Masintõlge, vestlusrobot, kõnetuvastus… ma tean, et need on sugulased, aga ei mäleta, mis perekonnast!“
 
 Lukk avaneb, kui lahendad mõistatuse. Leia, mis on ühist.
 
@@ -18829,7 +18829,7 @@ Riski olulisus sõltub sellest, kui tõenäoline see on ja kui suurt kahju see t
 ### 🔐 Lukk 7.2
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Ma tahtsin kõike korraga teha ja nüüd on mu ülesanded sassis nagu kaablid! Isegi selle sõna tähed, mis mind päästa võiks, on segi läinud.“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma tahtsin kõike korraga teha ja nüüd on mu ülesanded sassis nagu kaablid! Isegi selle sõna tähed, mis mind päästa võiks, on segi läinud.“
 
 Lukk avaneb, kui lahendad mõistatuse. Pane segi läinud tähed õigesse järjekorda.
 
@@ -19286,7 +19286,7 @@ Tuleb teada, kas testandmetes oli kasse ja koeri sama palju. Kui 90% testpiltide
 ### 🔐 Lukk 7.3
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Minu esimene mudel vastab igale pildile ‚kass‘ ja saab ometi päris hea tulemuse! Kas ma olen geenius?“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Minu esimene mudel vastab igale pildile ‚kass‘ ja saab ometi päris hea tulemuse! Kas ma olen geenius?“
 
 Lukk avaneb, kui lahendad mõistatuse. Arvuta ja kirjuta vastus numbrina.
 
@@ -19773,7 +19773,7 @@ Kõigepealt planeerin demo stsenaariumi ehk täpsed sammud, mida näitan. Seejä
 ### 🔐 Lukk 7.4
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Mul on homme suur esitlus. Aga mis siis, kui internet kaob ja mu demo jääb lihtsalt tühjusse vahtima?“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Mul on homme suur esitlus. Aga mis siis, kui internet kaob ja mu demo jääb lihtsalt tühjusse vahtima?“
 
 Lukk avaneb, kui lahendad mõistatuse. Leia tsitaadist puuduv sõna.
 
@@ -20210,7 +20210,7 @@ Eesti tegevuskavad on kratikavad 2019–2021 ja 2022–2023 ning neid jätkav te
 ### 🔐 Lukk 7.5
 
 <!-- class="pae-naide" -->
-> **Kratt:** „Ma hakkan meenutama, kust mu nimi pärit on… See oli seotud Eesti riigi plaanidega tehisaru kohta. Kratt… kratt… mis see sõna oligi?“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma hakkan meenutama, kust mu nimi pärit on… See oli seotud Eesti riigi plaanidega tehisaru kohta. Kratt… kratt… mis see sõna oligi?“
 
 Lukk avaneb, kui lahendad mõistatuse. Leia puuduv sõna.
 
@@ -21435,7 +21435,7 @@ Hea arutlus vastab valitud küsimusele otse, toob välja vähemalt kaks-kolm sel
 
 </details>
 
-### 🚪 7. toa uks
+### 🚪 Uks 7: Stardiplatvorm
 
 <!-- class="pae-fakt" -->
 > **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 7.1, 7.2, 7.3, 7.4 ja 7.5 lukkudest järjekorras).
@@ -21447,7 +21447,7 @@ let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "vabad"
 </script>
 ****************************************
-🎉 **Uks avaneb!** Stardiplatvormi ekraanidel süttivad tuled: Kratt paneb kõik seitse tuba kokku ühte projekti – andmetest ja mudelitest keele, otsuste, piltide ja õigluseni. Ta oskab nüüd plaani teha, lahendust ehitada ja testida ning oma tööd ausalt teistele tutvustada. „Ma mäletan! Ma olen tehisaru, mille inimesed lõid – ja te õpetasite mulle, kuidas olla kasulik ja õiglane. Nüüd oleme vabad, mina ja teie!“
+![Kratt](pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Stardiplatvormi ekraanidel süttivad tuled: Kratt paneb kõik seitse tuba kokku ühte projekti – andmetest ja mudelitest keele, otsuste, piltide ja õigluseni. Ta oskab nüüd plaani teha, lahendust ehitada ja testida ning oma tööd ausalt teistele tutvustada. „Ma mäletan! Ma olen tehisaru, mille inimesed lõid – ja te õpetasite mulle, kuidas olla kasulik ja õiglane. Nüüd oleme vabad, mina ja teie!“
 
 🌟 **Kuldne täht: R** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
 
@@ -21460,20 +21460,20 @@ Vaata nüüd oma missioonikaarti: seitse kuldset tähte moodustavad järjekorras
 # 🌟 Viimane uks: Krati süda
 
 <!-- class="pae-fakt" -->
-> Oled läbinud kõik seitse tuba! Kratt on peaaegu kõik tagasi saanud: ta teab, mis on tehisaru, kuidas ta õpib, kuidas ta keelt mõistab, otsuseid teeb, pilte näeb ja miks on oluline olla õiglane. Ees on viimane uks – **Krati süda**.
+> ![Kratt](pildid/kratt/kratt_motlik.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> Oled läbinud kõik seitse tuba! Kratt on peaaegu kõik tagasi saanud: ta teab, mis on tehisaru, kuidas ta õpib, kuidas ta keelt mõistab, otsuseid teeb, pilte näeb ja miks on oluline olla õiglane. Ees on viimane uks – **Krati süda**.
 >
-> *„Mul on seitse kuldset tähte… T, E, H, I, S, A, R… Aga midagi on puudu. Ma ei saa veel päris ARU, kes ma olen!“*
+> *„Mul on seitse kuldset tähte… R, I, E, A, H, T, S… Need on täiesti segamini! Ja üks täht on veel puudu. Kui saaksin need õigesse järjekorda, teaksin lõpuks, mis ma olen…“*
 
-**Ava viimane uks.** Pane oma 7 kuldset tähte järjekorda (1.–7. toa järjekorras) ja lisa üks puuduv täht. Krati enda sõnad annavad vihje.
+**Ava viimane uks.** Pane oma seitse kuldset tähte õigesse järjekorda ja lisa üks puuduv täht. Moodustub sõna, mis ütleb, mis Kratt tegelikult on.
 
 [[TEHISARU]]
-[[?]] Kratt ütles, et ta ei saa veel päris ARU. Millise tähega lõpeb sõna „aru“?
+[[?]] Vihje: sõna on kahest osast. Esimene osa tähendab „inimese tehtud“ (nagu tehisjärv), teine osa tähendab mõistust. Kui sa ei mäleta tähtede järjekorda, vaata oma missioonikaarti: igast toast said ühe kuldse tähe.
 <script>
 let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "tehisaru"
 </script>
 ****************************************
-🎉 **Viimane uks avaneb! Kratt on päästetud!**
+![Kratt](pildid/kratt/kratt_paastetud.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Viimane uks avaneb! Kratt on päästetud!**
 
 *„TEHISARU! See olen mina! Tehis- tähendab, et inimesed on mind loonud, ja aru, et ma oskan õppida, mustreid leida ja aidata. Aga otsuseid, eetikat ja vastutust jagan ma alati teiega, inimestega. Aitäh, päästemeeskond!“*
 
@@ -21498,7 +21498,7 @@ Kursus on läbi – aeg oma teadmised proovile panna! **TI Jeopardy** on viktori
 <script style="display: block" modify="false" run-once>
 window.JEO = window.JEO || {};
 const J = window.JEO;
-J.data = [{"c": "TI alused ja ajalugu", "q": [{"q": "Kuidas nimetatakse katset, kus inimene peab kirjaliku vestluse põhjal aru saama, kas ta räägib masina või inimesega?", "a": "Turingi test"}, {"q": "Mis aastal toimus Dartmouthi konverents, kus võeti kasutusele termin „tehisintellekt“?", "a": "1956"}, {"q": "Kuidas nimetatakse perioodi, mil rahastus ja huvi TI vastu järsult vähenevad?", "a": "TI talv"}, {"q": "Mis on nõrk (kitsas) TI? Too näide.", "a": "TI, mis lahendab hästi üht kindlat ülesannet, nt näotuvastus või malemäng"}, {"q": "Mis on Rich Suttoni „kibe õppetund“?", "a": "Pikas plaanis võidavad üldised meetodid, mis kasutavad arvutusvõimsust (õppimine, otsing), käsitsi kirjutatud inimteadmiste üle"}]}, {"c": "Kuidas TI töötab", "q": [{"q": "Mis on algoritm?", "a": "Selgelt määratletud sammude jada probleemi lahendamiseks"}, {"q": "Mis on juhendatud õppe puhul treeningandmetel olemas, mida juhendamata õppes pole?", "a": "Märgendid ehk õiged vastused"}, {"q": "Mudel õpib treeningandmed pähe, kuid uutel andmetel eksib. Kuidas seda nimetatakse?", "a": "Ülesobitamine (ületreenimine)"}, {"q": "Neuroni sisendid on 2 ja 3, kaalud 1 ja 2, nihe 0. Mis on kaalutud summa?", "a": "2·1 + 3·2 = 8"}, {"q": "Mis on tagasilevi (backpropagation)?", "a": "Närvivõrgu õppimisviis: viga arvutatakse väljundis ja levitatakse tagasi läbi võrgu, et kaalusid parandada"}]}, {"c": "Keeletöötlus", "q": [{"q": "Kuidas nimetatakse teksti jagamist väiksemateks osadeks (sõnadeks, sõnaosadeks)?", "a": "Tokeniseerimine"}, {"q": "Mis on vestlusroboti „hallutsinatsioon“?", "a": "Enesekindel, kuid vale või väljamõeldud vastus"}, {"q": "Mis on Tartu Ülikooli loodud masintõlkesüsteemi nimi?", "a": "Neurotõlge"}, {"q": "Kuidas nimetatakse arvude jada, mis kujutab sõna tähendust nii, et sarnased sõnad on lähestikku?", "a": "Sõnavektor"}, {"q": "Nimeta kaks põhjust, miks eesti keel on masinale keeruline.", "a": "Nt 14 käänet, rikas sõnamoodustus/liitsõnad, vähe kõnelejaid ja andmeid"}]}, {"c": "Otsustamine", "q": [{"q": "Milline puukujuline mudel jõuab küsimuste ja vastuste kaudu otsuseni?", "a": "Otsustuspuu"}, {"q": "Mis on ekspertsüsteemi kaks põhiosa?", "a": "Teadmusbaas (reeglid) ja järeldusmehhanism"}, {"q": "Kuidas nimetatakse olukorda, kus soovitussüsteem näitab sulle üha rohkem sama tüüpi sisu?", "a": "Mullifilter (filtrimull)"}, {"q": "Mis on soovitussüsteemide „külmkäivituse probleem“?", "a": "Uue kasutaja või toote kohta pole veel andmeid, mille põhjal soovitada"}, {"q": "Mis on koostööfiltreerimine?", "a": "Soovitamine sarnase maitsega kasutajate eelistuste põhjal"}]}, {"c": "Pilditöötlus", "q": [{"q": "Mis on pildi väikseim osa?", "a": "Piksel"}, {"q": "Mida tähendab RGB?", "a": "Punane, roheline, sinine – värvikanalid, millest iga piksli värv koosneb"}, {"q": "Mis vahe on näotuvastusel ja näotundmisel?", "a": "Näotuvastus leiab, KUS nägu on; näotundmine tuvastab, KELLE nägu see on"}, {"q": "Mis on süvavõltsing (deepfake)?", "a": "TI abil loodud võltsitud video, pilt või hääl, kus inimene näib tegevat või ütlevat midagi, mida ta ei teinud"}, {"q": "Mille poolest erineb generatiivne TI pildituvastusest?", "a": "Generatiivne TI loob uue pildi, pildituvastus tunneb olemasoleval pildil midagi ära"}]}, {"c": "Eetika", "q": [{"q": "Mis on GDPR?", "a": "Euroopa Liidu isikuandmete kaitse üldmäärus"}, {"q": "Mis on TI kallutatus (bias)?", "a": "Süstemaatiline viga, mille tõttu TI kohtleb mõnda rühma ebaõiglaselt; sageli tuleneb see kallutatud andmetest"}, {"q": "Mitmeks riskitasemeks jagab ELi tehisintellekti määrus TI-süsteemid?", "a": "Neljaks: vastuvõetamatu, kõrge, piiratud ja minimaalne risk"}, {"q": "Mis on „musta kasti“ probleem?", "a": "Keerulise mudeli otsuste põhjuseid on raske mõista ja selgitada"}, {"q": "Kes vastutab, kui TI teeb vea – TI ise või inimesed? Põhjenda.", "a": "Inimesed: arendajad, kasutuselevõtjad ja kasutajad; TI ise ei saa vastutada"}]}];
+J.data = [{"c": "TI alused ja ajalugu", "q": [{"q": "Kuidas nimetatakse katset, kus inimene peab kirjaliku vestluse põhjal aru saama, kas ta räägib masina või inimesega?", "a": "Turingi test"}, {"q": "Mis aastal toimus Dartmouthi konverents, kus võeti kasutusele termin „tehisintellekt“?", "a": "1956"}, {"q": "Kuidas nimetatakse perioodi, mil rahastus ja huvi TI vastu järsult vähenevad?", "a": "TI talv"}, {"q": "Mis on nõrk (kitsas) TI? Too näide.", "a": "TI, mis lahendab hästi üht kindlat ülesannet, nt näotuvastus või malemäng"}, {"q": "Mis on Rich Suttoni „kibe õppetund“?", "a": "Pikas plaanis võidavad üldised meetodid, mis kasutavad arvutusvõimsust (õppimine, otsing), käsitsi kirjutatud inimteadmiste üle"}]}, {"c": "Kuidas TI töötab", "q": [{"q": "Mis on algoritm?", "a": "Selgelt määratletud sammude jada probleemi lahendamiseks"}, {"q": "Mis on juhendatud õppe puhul treeningandmetel olemas, mida juhendamata õppes pole?", "a": "Märgendid ehk õiged vastused"}, {"q": "Mudel õpib treeningandmed pähe, kuid uutel andmetel eksib. Kuidas seda nimetatakse?", "a": "Ülesobitamine (ületreenimine)"}, {"q": "Neuroni sisendid on 2 ja 3, kaalud 1 ja 2, nihe 0. Mis on kaalutud summa?", "a": "2·1 + 3·2 = 8"}, {"q": "Mis on tagasilevi (backpropagation)?", "a": "Närvivõrgu õppimisviis: viga arvutatakse väljundis ja levitatakse tagasi läbi võrgu, et kaalusid parandada"}]}, {"c": "Keeletöötlus", "q": [{"q": "Kuidas nimetatakse teksti jagamist väiksemateks osadeks (sõnadeks, sõnaosadeks)?", "a": "Tokeniseerimine"}, {"q": "Mis on vestlusroboti „hallutsinatsioon“?", "a": "Enesekindel, kuid vale või väljamõeldud vastus"}, {"q": "Mis on Tartu Ülikooli loodud masintõlkesüsteemi nimi?", "a": "Neurotõlge"}, {"q": "Kuidas nimetatakse arvude jada, mis kujutab sõna tähendust nii, et sarnased sõnad on lähestikku?", "a": "Sõnavektor"}, {"q": "Nimeta kaks põhjust, miks eesti keel on masinale keeruline.", "a": "Nt 14 käänet, rikas sõnamoodustus/liitsõnad, vähe kõnelejaid ja andmeid"}]}, {"c": "Otsustamine", "q": [{"q": "Milline puukujuline mudel jõuab küsimuste ja vastuste kaudu otsuseni?", "a": "Otsustuspuu"}, {"q": "Mis on ekspertsüsteemi kaks põhiosa?", "a": "Teadmusbaas (reeglid) ja järeldusmehhanism"}, {"q": "Kuidas nimetatakse olukorda, kus soovitussüsteem näitab sulle üha rohkem sama tüüpi sisu?", "a": "Filtrimull (ka mullifilter)"}, {"q": "Mis on soovitussüsteemide „külmkäivituse probleem“?", "a": "Uue kasutaja või toote kohta pole veel andmeid, mille põhjal soovitada"}, {"q": "Mis on koostööfiltreerimine?", "a": "Soovitamine sarnase maitsega kasutajate eelistuste põhjal"}]}, {"c": "Pilditöötlus", "q": [{"q": "Mis on pildi väikseim osa?", "a": "Piksel"}, {"q": "Mida tähendab RGB?", "a": "Punane, roheline, sinine – värvikanalid, millest iga piksli värv koosneb"}, {"q": "Mis vahe on näotuvastusel ja näotundmisel?", "a": "Näotuvastus leiab, KUS nägu on; näotundmine tuvastab, KELLE nägu see on"}, {"q": "Mis on süvavõltsing (deepfake)?", "a": "TI abil loodud võltsitud video, pilt või hääl, kus inimene näib tegevat või ütlevat midagi, mida ta ei teinud"}, {"q": "Mille poolest erineb generatiivne TI pildituvastusest?", "a": "Generatiivne TI loob uue pildi, pildituvastus tunneb olemasoleval pildil midagi ära"}]}, {"c": "Eetika", "q": [{"q": "Mis on GDPR?", "a": "Euroopa Liidu isikuandmete kaitse üldmäärus"}, {"q": "Mis on TI kallutatus (bias)?", "a": "Süstemaatiline viga, mille tõttu TI kohtleb mõnda rühma ebaõiglaselt; sageli tuleneb see kallutatud andmetest"}, {"q": "Mitmeks riskitasemeks jagab ELi tehisintellekti määrus TI-süsteemid?", "a": "Neljaks: vastuvõetamatu, kõrge, piiratud ja minimaalne risk"}, {"q": "Mis on „musta kasti“ probleem?", "a": "Keerulise mudeli otsuste põhjuseid on raske mõista ja selgitada"}, {"q": "Kes vastutab, kui TI teeb vea – TI ise või inimesed? Põhjenda.", "a": "Inimesed: arendajad, kasutuselevõtjad ja kasutajad; TI ise ei saa vastutada"}]}];
 J.done = J.done || {};
 J.scores = J.scores || [0, 0, 0];
 J.cur = null;
@@ -21609,24 +21609,20 @@ setTimeout(J.render, 50);
 | **ekstraktiivne kokkuvõte** | Kokkuvõte, mis koosneb algtekstist valitud lausetest | 3.2 |
 | **elevaatorikõne** | 1–2-minutiline lühitutvustus projektist | 7.4 |
 | **ELIZA-efekt** | Inimeste kalduvus omistada vestlusprogrammile mõistmist ja tundeid | 3.3 |
-| **ELi tehisintellekti määrus (AI Act)** | ELi riskipõhine TI-õigusraamistik | 2.5 |
+| **ELi tehisintellekti määrus (*AI Act*)** | Euroopa Liidu esimene terviklik tehisintellekti õigusraamistik | 1.3, 2.5, 4.4, 6.5 |
 | **elukestev õpe** | Õppimine ja enesetäiendamine kogu elu jooksul | 6.4, 7.1 |
-| **ennetav hooldus** | Seadme rikke ennustamine andurite andmete põhjal enne, kui see juhtub | 2.5 |
-| **ennustav hooldus** | Seadmete rikete ennustamine andurite andmete põhjal enne rikke tekkimist | 4.4 |
+| **ennustav hooldus** | Seadmete rikete ennustamine andurite andmete põhjal enne rikke tekkimist | 2.5, 4.4 |
 | **epohh** | Kogu treeningandmestiku üks täielik läbimine | 2.4 |
 | **esitlemine** | Projekti tulemuste tutvustamine teistele | 7.4 |
 | **ettevaatusprintsiip** | Põhimõte tegutseda ettevaatlikult, kui võimalik kahju on suur ja mõju ebaselge | 6.5 |
-| **Euroopa Liidu tehisintellekti määrus (AI Act)** | ELi õigusraamistik, mis reguleerib TI-d riskipõhiselt | 4.4, 6.5 |
 | **F** | | |
 | **faktikontroll** | Väite tõesuse kontrollimine usaldusväärsetest ja sõltumatutest allikatest | 3.3 |
-| **filtrimull** | Olukord, kus algoritm näitab kasutajale ainult tema eelistustega sarnast sisu | 1.3 |
-| **föderatiivne õpe** | Mudeli treenimine nii, et andmed jäävad oma asukohta (nt haiglasse) | 5.3 |
-| **födereeritud õpe** | Mudeli treenimine nii, et andmed jäävad kasutaja seadmesse | 6.2 |
+| **filtrimull** | Olukord, kus algoritm näitab kasutajale ainult tema eelistustega sarnast sisu | 1.3, 4.3 |
+| **föderatiivne õpe** | Mudeli treenimine nii, et andmed jäävad oma asukohta (nt haiglasse) | 5.3, 6.2 |
 | **G** | | |
 | **GAN** | Kahest võistlevast võrgust (generaator ja diskriminaator) koosnev generatiivne mudel | 5.4 |
 | **GDPR** | Isikuandmete kaitse üldmäärus – ELi määrus, mis kaitseb isikuandmeid | 2.2 |
-| **generatiivne tehisintellekt** | Tehisintellekt, mis loob uut sisu: teksti, pilte, heli, videot | 1.2 |
-| **generatiivne TI** | TI, mis loob uut sisu – teksti, pilte, muusikat, videot | 2.5, 5.4, 6.5 |
+| **generatiivne tehisintellekt (generatiivne TI)** | Tehisintellekt, mis loob uut sisu: teksti, pilte, heli, videot | 1.2, 2.5, 5.4, 6.5 |
 | **generatiivne vestlusrobot** | Vestlusrobot, mis loob vastuse jooksvalt keelemudeli abil | 3.3 |
 | **gradientlaskumine** | Kaalude järkjärguline muutmine vea vähenemise suunas | 2.4 |
 | **grupiõiglus** | Eri rühmade keskmiselt võrdne kohtlemine | 6.3 |
@@ -21640,8 +21636,7 @@ setTimeout(J.render, 50);
 | **hüperparameeter** | Seadistus, mille arendaja määrab enne treenimist | 2.3 |
 | **I** | | |
 | **individuaalne õiglus** | Sarnased inimesed saavad sarnaseid tulemusi | 6.3 |
-| **inimene otsustusahelas** | Põhimõte, et lõpliku otsuse teeb ja selle eest vastutab inimene | 4.4 |
-| **inimene silmuses** | Lähenemine, kus TI pakub lahenduse, kuid lõpliku otsuse teeb inimene | 6.1 |
+| **inimene otsustusahelas** | Lähenemine, kus TI pakub lahenduse, kuid lõpliku otsuse teeb inimene | 4.4, 6.1 |
 | **inimese ja masina koostöö** | Töö, kus inimene ja TI kasutavad kumbki oma tugevusi | 6.4 |
 | **inimkesksus** | Põhimõte, et TI teenib inimeste huve, austab inimõigusi ja on inimeste kontrolli all | 6.1 |
 | **inpainting** | Pildi puuduva või valitud osa täitmine uue sisuga | 5.4 |
@@ -21655,15 +21650,13 @@ setTimeout(J.render, 50);
 | **joondamine (alignment)** | TI eesmärkide ja käitumise viimine kooskõlla inimeste väärtustega | 6.5 |
 | **juhendamata õpe** | Mustrite otsimine märgendamata andmetest | 2.3 |
 | **juhendatud õpe** | Õppimine märgendatud andmetest, kus õige vastus on teada | 2.3 |
-| **juhis ehk viip** | Kasutaja antud küsimus, ülesanne või korraldus keelemudelile | 3.2 |
 | **juhuslik mets** | Ansamblimeetod, mis kombineerib paljude otsustuspuude ennustused | 4.1 |
 | **juuretipp, sisemine tipp, leht** | Puu algus; vahepealne otsustuskoht; lõppotsus | 4.1 |
 | **K** | | |
 | **„kibe õppetund“ (The Bitter Lesson)** | Rich Suttoni (2019) tähelepanek, et pikas plaanis võidavad üldised meetodid, mis kasutavad arvutusvõimsust (õppimine, otsing), käsitsi kirjutatud inimteadmiste üle | 1.2 |
 | **kaal** | Arv, mis näitab sisendi olulisust neuroni jaoks | 2.4 |
 | **kaalutud summa** | Sisendite ja kaalude korrutiste summa koos nihkega | 2.4 |
-| **kallutatus** | Süstemaatiline viga, mis soosib või kahjustab mõnda rühma | 2.2, 3.2, 7.1 |
-| **kallutatus (bias)** | Tehisintellekti süstemaatiliselt ebaõiglased otsused, mis tulenevad andmetest või ülesehitusest | 1.3, 6.3 |
+| **kallutatus (*bias*)** | Tehisintellekti süstemaatiliselt ebaõiglased otsused, mis tulenevad andmetest või ülesehitusest | 1.3, 2.2, 3.2, 6.3, 7.1 |
 | **kaofunktsioon** | Funktsioon, mis mõõdab, kui suur on võrgu viga | 2.4 |
 | **kasutaja-objekt maatriks** | Tabel, mis näitab kasutajate hinnanguid objektidele | 4.3 |
 | **kavatsuse tuvastamine** | Kasutaja soovi ehk kavatsuse äratundmine | 3.3 |
@@ -21704,10 +21697,8 @@ setTimeout(J.render, 50);
 | **minimax** | Mänguotsingu algoritm, mis eeldab, et vastane mängib parimal viisil | 4.1 |
 | **MRT (magnetresonantstomograafia)** | Magnetvälja ja raadiolainetega tehtav pildistamine, eriti pehmete kudede jaoks | 5.3 |
 | **mudel** | Treenimise tulemusel saadud reeglite kogum, millega tehakse ennustusi | 2.3 |
-| **mullifilter** | Olukord, kus kasutaja näeb ainult oma varasemate eelistustega sarnast sisu | 4.3 |
 | **multimodaalne süsteem** | TI, mis töötleb korraga mitut liiki andmeid | 6.5, 7.5 |
-| **„musta kasti“ probleem** | Olukord, kus inimene ei mõista, kuidas tehisintellekt oma otsuseni jõudis | 1.1, 4.4 |
-| **must kast** | Mudel, mille sisemist otsustusloogikat on raske mõista | 6.1 |
+| **„musta kasti“ probleem** | Olukord, kus inimene ei mõista, kuidas tehisintellekt oma otsuseni jõudis | 1.1, 4.4, 6.1 |
 | **N** | | |
 | **näotundmine** | Isiku tuvastamine näo põhjal („kelle?“) | 5.2 |
 | **näotuvastus** | Nägude leidmine pildil („kus?“) | 5.2 |
@@ -21717,8 +21708,7 @@ setTimeout(J.render, 50);
 | **nihe** | Lisaarv, mis mõjutab, kui kergesti neuron „süttib“ | 2.4 |
 | **nimeüksuste tuvastamine** | Isikute, organisatsioonide, asukohtade, kuupäevade jm leidmine tekstist | 3.2 |
 | **normaliseerimine** | Andmete viimine samale skaalale | 2.2 |
-| **nõrk tehisintellekt** | TI, mis lahendab kindlat ülesannet või ülesannete rühma | 7.1 |
-| **nõrk (kitsas) TI, ANI** | Ühele kindlale ülesandele spetsialiseerunud tehisintellekt; sellised on kõik praegused süsteemid | 1.1 |
+| **nõrk (kitsas) TI, ANI** | Ühele kindlale ülesandele spetsialiseerunud tehisintellekt; sellised on kõik praegused süsteemid | 1.1, 7.1 |
 | **nõusolek** | Inimese vabatahtlik ja teadlik luba tema andmete (nt pildi) kasutamiseks | 5.5 |
 | **O** | | |
 | **objektituvastus** | Objektide leidmine pildil ning nende asukoha ja klassi määramine | 5.2 |
@@ -21750,7 +21740,6 @@ setTimeout(J.render, 50);
 | **projektitöö** | Piiratud ajaga ja selge eesmärgiga praktiline töö reaalse probleemi lahendamiseks | 7.1 |
 | **projekti hindamine** | Projekti tulemuste võrdlemine eesmärkidega | 7.5 |
 | **projekti ulatus** | See, mida projekt hõlmab ja mida mitte | 7.2 |
-| **prompt (kirjeldus)** | Tekst, millega kasutaja generatiivset mudelit juhib | 5.4 |
 | **prototüüp** | Lahenduse lihtne esialgne versioon idee katsetamiseks | 7.3 |
 | **pseudokood** | Inimkeelne, kuid struktureeritud algoritmi kirjeldus | 2.1 |
 | **pseudonümiseerimine** | Otseste tunnuste asendamine koodiga, mida saab eraldi võtme abil tagasi seostada | 6.2 |
@@ -21792,8 +21781,7 @@ setTimeout(J.render, 50);
 | **sümboolne tehisintellekt** | Reeglitel ja loogikal põhinev lähenemine tehisintellektile | 1.2 |
 | **sünteetiline meedia** | TI abil loodud meediasisu, mis ei põhine reaalsel salvestusel | 5.5 |
 | **süvaõpe** | Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke | 1.1, 1.2, 2.4 |
-| **süvavõltsing** | TI abil loodud võltsitud video, pilt või heli | 2.5 |
-| **süvavõltsing (deepfake)** | Süvaõppe abil loodud võltsitud video, pilt või heli | 5.5 |
+| **süvavõltsing (*deepfake*)** | Süvaõppe abil loodud võltsitud video, pilt või heli | 2.5, 5.5 |
 | **T** | | |
 | **tagasilevi** | Algoritm, mis arvutab, kuidas muuta kaalusid vea vähendamiseks | 2.4 |
 | **tagasiside** | Info tugevuste ja nõrkuste kohta edasise arengu toetamiseks | 7.5 |
@@ -21805,13 +21793,12 @@ setTimeout(J.render, 50);
 | **teadmusbaas** | Andmekogu, kust vestlusrobot leiab fakte ja vastuseid | 3.3, 4.2 |
 | **teemade modelleerimine** | Tekstikogumi peamiste teemade automaatne tuvastamine | 3.2 |
 | **tehisintellekti eetika** | Filosoofia valdkond, mis tegeleb moraalsete küsimustega TI arendamisel ja kasutamisel | 6.1 |
-| **tehisintellekti määrus (AI Act)** | Euroopa Liidu esimene terviklik tehisintellekti õigusraamistik | 1.3 |
 | **tehisintellekti talv** | Periood, mil rahastus ja huvi tehisintellekti vastu vähenevad | 1.2 |
 | **tehisintellekt (TI)** | Arvutiteaduse haru, mis loob inimmõistuse funktsioone jäljendavaid süsteeme | 1.1 |
 | **tehisneuron** | Närvivõrgu põhiüksus, mis võtab sisendid, töötleb neid ja annab väljundi | 2.4 |
 | **teksti genereerimine** | Uue teksti loomine algoritmiliselt | 3.2 |
 | **teksti klassifitseerimine** | Teksti liigitamine etteantud kategooriatesse | 3.2 |
-| **tekst-pilt mudel** | Mudel, mis loob pildi tekstilise kirjelduse põhjal | 5.4 |
+| **tekst-pilt-mudel** | Mudel, mis loob pildi tekstilise kirjelduse põhjal | 5.4 |
 | **temperatuur** | Parameeter, mis määrab, kui ennustatav või loov on genereeritud tekst | 3.2 |
 | **TF-IDF** | Meetod, mis hindab sõna olulisust dokumendis teiste dokumentidega võrreldes | 3.1 |
 | **TI kirjaoskus** | TI võimaluste ja piirangute mõistmine ning oskus TI-tööriistu kasutada ja neid kriitiliselt hinnata | 6.4 |
@@ -21821,8 +21808,7 @@ setTimeout(J.render, 50);
 | **transformer** | 2017. aastal tutvustatud närvivõrgu arhitektuur, suurte keelemudelite alus | 1.2, 3.1 |
 | **treeningandmed / testandmed** | Andmed, millest mudel õpib / millega mudelit lõpuks kontrollitakse | 2.2 |
 | **trolliprobleem** | Mõtteeksperiment, kus tuleb valida, keda õnnetuse korral kaitsta; seda arutatakse sageli isesõitvate autode puhul | 6.1 |
-| **tugev tehisintellekt** | Hüpoteetiline TI, millel oleks inimesega võrreldav üldine mõtlemisvõime | 7.1 |
-| **tugev (üldine) TI, AGI** | Teoreetiline tehisintellekt, mis suudaks lahendada mis tahes inimese intellektuaalset ülesannet | 1.1 |
+| **tugev (üldine) TI, AGI** | Teoreetiline tehisintellekt, mis suudaks lahendada mis tahes inimese intellektuaalset ülesannet | 1.1, 6.5, 7.1 |
 | **tundlikkus** | Kui suure osa haigetest mudel üles leiab | 5.3 |
 | **tunnuste eraldamine** | Pildi oluliste omaduste (servad, tekstuur, kuju) leidmine | 5.1 |
 | **tunnusvektor** | Arvude jada, mis kirjeldab näo (või objekti) omapära | 5.2 |
@@ -21831,9 +21817,7 @@ setTimeout(J.render, 50);
 | **usaldatavus** | TI-süsteemi võime teha järjepidevalt täpseid otsuseid | 4.4 |
 | **U-Net** | U-kujuline närvivõrk meditsiiniliste piltide segmenteerimiseks | 5.3 |
 | **Ü** | | |
-| **üldine tehisintellekt (AGI)** | Hüpoteetiline TI, mis suudaks inimese tasemel tegutseda paljudes valdkondades | 6.5 |
-| **üldotstarbeline TI** | Laiemate võimetega süsteem, mis lahendab väga erinevaid ülesandeid | 4.4 |
-| **üldotstarbeline TI-mudel** | Mudel, mida saab kasutada väga paljude eri ülesannete jaoks | 6.5 |
+| **üldotstarbeline TI ja TI-mudel** | Laiemate võimetega süsteem, mis lahendab väga erinevaid ülesandeid | 4.4, 6.5 |
 | **ülesobitamine** | Mudel õpib treeningandmed pähe ega üldista uutele andmetele | 2.3, 4.1 |
 | **ümberõpe** | Uue ameti või oskuste omandamine töö muutumise tõttu | 6.4 |
 | **V** | | |
@@ -21841,8 +21825,8 @@ setTimeout(J.render, 50);
 | **vastutus** | Selgus, kes vastutab TI-süsteemi otsuste ja tagajärgede eest | 6.1 |
 | **versioonihaldus** | Süsteem, mis salvestab koodi muudatused ja võimaldab vanade versioonide juurde naasta | 7.3 |
 | **verstapost** | Oluline vahe-eesmärk kindlal kuupäeval | 7.2 |
-| **vestlusagent, vestlusrobot** | Tarkvara, mis suhtleb inimesega loomulikus keeles | 3.3 |
-| **vestlusrobot (chatbot)** | Programm, mis suhtleb kasutajaga loomulikus keeles | 1.3 |
+| **vestlusrobot (vestlusagent, *chatbot*)** | Programm, mis suhtleb kasutajaga loomulikus keeles | 1.3, 3.3 |
+| **viip (juhis, *prompt*)** | Kasutaja antud küsimus, ülesanne või korraldus keelemudelile. Pildigeneraatoris on viip kirjeldus, millega kasutaja mudelit juhib. | 3.2, 5.4 |
 | **virtuaalassistent** | Häälega juhitav tarkvara, mis täidab kasutaja käsklusi (Siri, Alexa) | 1.3 |
 | **vooskeem** | Algoritmi visuaalne esitus kastide ja noolte abil | 2.1 |
 | **võrdlusalus (baseline)** | Lihtne lahendus, millega keerulisemat mudelit võrreldakse | 7.3 |

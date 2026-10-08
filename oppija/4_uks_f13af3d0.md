@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.3.0
+version:  1.4.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -380,7 +380,7 @@ Kirjuta siia kolm oma rühma reeglit ja kirjelda, kuidas su ekspertsüsteem test
 3. Analüüsige valitud soovitussüsteemi:
    - **Kasutajakogemus:** kuidas soovitusi esitatakse? Kuidas saab kasutaja soovitusi mõjutada? Kui täpsed ja asjakohased on soovitused?
    - **Tehniline toimimine:** milliseid andmeid süsteem kogub? Milliseid algoritme võidakse kasutada? Kas kasutatakse koostööfiltreerimist, sisupõhist filtreerimist või hübriidmeetodit?
-   - **Eetilised küsimused:** privaatsus, mullifiltrid, manipuleerimise võimalused.
+   - **Eetilised küsimused:** privaatsus, filtrimullid, manipuleerimise võimalused.
 4. Koostage 2–3-leheküljeline analüüsiraport, kus on soovitussüsteemi kirjeldus, kasutajakogemuse analüüs, tehnilise toimimise analüüs, eetiliste küsimuste analüüs ja parendusettepanekud.
 5. Kavandage oma soovitussüsteemi prototüüp:
    - **Kontseptsioon:** valige valdkond (nt raamatud, restoranid, õppematerjalid), sihtrühm ja eesmärgid.
@@ -406,7 +406,7 @@ Kirjuta siia kolm oma rühma reeglit ja kirjelda, kuidas su ekspertsüsteem test
 - [Recommendation Systems – IBM Developer](https://developer.ibm.com/technologies/artificial-intelligence/articles/introduction-to-recommender-systems/)
 - [The Ethics of Recommendation Systems – Harvard Business Review](https://hbr.org/2021/03/the-ethics-of-recommendation-systems)
 
-Kirjelda, mida sa analüüsitud soovitussüsteemi ja mullifiltri kohta teada said. Kas see muudab, kuidas sa ise seda rakendust kasutad?
+Kirjelda, mida sa analüüsitud soovitussüsteemi ja filtrimulli kohta teada said. Kas see muudab, kuidas sa ise seda rakendust kasutad?
 
 [[___ ___ ___ ___]]
 
@@ -552,7 +552,7 @@ Vasta küsimustele oma sõnadega. Võid oma vastuseid arutada ka klassikaaslaste
 
 [[___ ___ ___ ___]]
 
-**Mullifiltrid.** Mis on mullifiltrid ja kuidas need tekivad soovitussüsteemide kasutamisel? Kuidas vältida mullifiltrite negatiivseid mõjusid?
+**Filtrimullid.** Mis on filtrimullid ja kuidas need tekivad soovitussüsteemide kasutamisel? Kuidas vältida filtrimullide negatiivseid mõjusid?
 
 [[___ ___ ___ ___]]
 
@@ -684,13 +684,13 @@ Soovitussüsteem ennustab, millised tooted, teenused või sisu võiksid kasutaja
 
 **9. Kuidas nimetatakse olukorda, kus soovitussüsteem näitab kasutajale üha sarnasemat sisu ja tema inforuum kitseneb? Kirjuta vastus.**
 
-[[mullifilter]]
+[[filtrimull]]
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["mullifilter", "mullifiltriks", "mullifiltri", "filtrimull", "filtrimulliks", "filter bubble"].includes(v)
 </script>
 ****************************************
-Õige vastus: **mullifilter** (ka filtrimull). See tekib tagasisideahelast: mida rohkem sa üht teemat vaatad, seda rohkem süsteem seda sulle pakub.
+Õige vastus: **filtrimull** (ka filtrimull). See tekib tagasisideahelast: mida rohkem sa üht teemat vaatad, seda rohkem süsteem seda sulle pakub.
 ****************************************
 
 **10. Mis on tehisintellekti kontekstis „musta kasti“ probleem otsustamisel?**
@@ -840,7 +840,7 @@ d) Paku välja ideid, kuidas soovitussüsteemi saaks paremaks muuta:
 <details>
 <summary>Vaata, mida hea vastus sisaldab</summary>
 
-Hea vastus nimetab, milliseid andmeid süsteem tõenäoliselt kogub (vaatamised, kuulamised, laigid, vaatamise kestus, otsingud), ja seostab süsteemi tööpõhimõtte õpitud meetoditega, näiteks koostööfiltreerimise, sisupõhise filtreerimise või hübriidmeetodiga. Täpsuse analüüsis on mainitud, et see sõltub andmete hulgast, kasutaja tegevusest, külmkäivitusest ja kontekstist. Parendusettepanekud on konkreetsed, näiteks soovituste põhjendamine, mitmekesisuse suurendamine mullifiltri vältimiseks või kasutajale suurema kontrolli andmine.
+Hea vastus nimetab, milliseid andmeid süsteem tõenäoliselt kogub (vaatamised, kuulamised, laigid, vaatamise kestus, otsingud), ja seostab süsteemi tööpõhimõtte õpitud meetoditega, näiteks koostööfiltreerimise, sisupõhise filtreerimise või hübriidmeetodiga. Täpsuse analüüsis on mainitud, et see sõltub andmete hulgast, kasutaja tegevusest, külmkäivitusest ja kontekstist. Parendusettepanekud on konkreetsed, näiteks soovituste põhjendamine, mitmekesisuse suurendamine filtrimulli vältimiseks või kasutajale suurema kontrolli andmine.
 
 </details>
 
@@ -860,11 +860,11 @@ c) Kuidas mõjutavad soovitussüsteemid meie valikuid ja käitumist? Kas need la
 <details>
 <summary>Vaata, mida hea arutlus sisaldab</summary>
 
-Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega. See näitab, et oled teemast aru saanud, kasutab ploki mõisteid (nt „musta kasti“ probleem, kallutatus, selgitatavus, vastutus, inimene otsustusahelas, mullifilter) ja toob näiteid. Hea arutlus kaalub ka teistsuguseid vaatenurki ning lõpeb põhjendatud järeldusega.
+Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega. See näitab, et oled teemast aru saanud, kasutab ploki mõisteid (nt „musta kasti“ probleem, kallutatus, selgitatavus, vastutus, inimene otsustusahelas, filtrimull) ja toob näiteid. Hea arutlus kaalub ka teistsuguseid vaatenurki ning lõpeb põhjendatud järeldusega.
 
 </details>
 
-### 🚪 4. toa uks
+### 🚪 Uks 4: Otsuste labürint
 
 <!-- class="pae-fakt" -->
 > **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 4.1, 4.2, 4.3 ja 4.4 lukkudest järjekorras).
@@ -877,7 +877,7 @@ let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "tark"
 </script>
 ****************************************
-🎉 **Uks avaneb!** Labürindi sildid „JAH“ ja „EI“ süttivad korraga põlema ning moodustavad selge otsustuspuu, mis juhatab väljapääsuni. Kratt mäletab nüüd jälle, kuidas otsida teed olekuruumis, kuidas rakendada „KUI … SIIS …“ reegleid ja kuidas soovitada sisu, ilma et keegi mullifiltrisse kinni jääks. „Tänan teid!“ hüüab Kratt. „Nüüd ma tean: tark otsus ei ole kiire arvamine, vaid hea küsimuste ahel – ja lõpliku otsuse jätan ma tähtsates asjades ikkagi inimesele.“
+![Kratt](../pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Labürindi sildid „JAH“ ja „EI“ süttivad korraga põlema ning moodustavad selge otsustuspuu, mis juhatab väljapääsuni. Kratt mäletab nüüd jälle, kuidas otsida teed olekuruumis, kuidas rakendada „KUI … SIIS …“ reegleid ja kuidas soovitada sisu, ilma et keegi filtrimulli kinni jääks. „Tänan teid!“ hüüab Kratt. „Nüüd ma tean: tark otsus ei ole kiire arvamine, vaid hea küsimuste ahel – ja lõpliku otsuse jätan ma tähtsates asjades ikkagi inimesele.“
 
 🌟 **Kuldne täht: I** – kirjuta see oma missioonikaardile. Kõik seitse kuldset tähte on vaja viimase ukse jaoks.
 
