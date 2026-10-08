@@ -269,7 +269,7 @@ output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !imp
 ## 🗝️ Missioon: päästa Kratt!
 
 <!-- class="pae-fakt" -->
-> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Häire!** Tallinna Pae Gümnaasiumi digikooli juhib tehisaru nimega **Kratt**. Täna hommikul läks Krati mälu segi: ta on lukustanud kooli 7 digitaalset tuba ega mäleta enam, mis ta on ja kuidas ta töötab. *„Kes ma olen? Miks ma kõiki neid andmeid mäletan, aga mitte nende tähendust?“*
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Häire!** Ühes Arulinna koolis juhib digikooli tehisaru nimega **Kratt**. Täna hommikul läks Krati mälu segi: ta on lukustanud kooli 7 digitaalset tuba ega mäleta enam, mis ta on ja kuidas ta töötab. *„Kes ma olen? Miks ma kõiki neid andmeid mäletan, aga mitte nende tähendust?“*
 >
 > **Sina oled päästemeeskonna liige.** Läbi kõik 7 tuba, õpeta Kratile uuesti, mis on tehisaru, ja ava viimane uks!
 
@@ -382,7 +382,7 @@ Tekstis on olulised kohad tõstetud esile värviliste kastidega.
 <!-- class="pae-fakt" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **🗝️ Tuba 1: Unustatud arhiiv**
 >
-> Kooli digikoridori lõpus sumiseb tolmune server – see on Kratt, Tallinna Pae Gümnaasiumi tehisaru, kes on just üles ärganud. „Tere… kes te olete? Ja kes olen mina? Mu arhiivis on ainult sõnad „tehis…“ ja „intel…“ – mis see üldse tähendab?“ Teie, päästemeeskond, olete sattunud Krati **unustatud arhiivi**, kus on segamini kõik, mida ta enda kohta teadis: mis on tehisintellekt, kust ta pärit on ja milleks teda kasutatakse. Aidake Kratil oma mälu taastada! Selles toas on 3 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjutage tähed üles!
+> Kooli digikoridori lõpus sumiseb tolmune server – see on Kratt, ühe Arulinna kooli tehisaru, kes on just üles ärganud. „Tere… kes te olete? Ja kes olen mina? Mu arhiivis on ainult sõnad „tehis…“ ja „intel…“ – mis see üldse tähendab?“ Teie, päästemeeskond, olete sattunud Krati **unustatud arhiivi**, kus on segamini kõik, mida ta enda kohta teadis: mis on tehisintellekt, kust ta pärit on ja milleks teda kasutatakse. Aidake Kratil oma mälu taastada! Selles toas on 3 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjutage tähed üles!
 
 Tehisintellekt (TI) ei ole enam ainult ulmefilmide teema. Kui telefon avaneb sinu näo järgi, kui Spotify pakub sulle uut lugu või kui vestlusrobot aitab sul keerulist teemat lahti mõtestada, oled juba tehisintellektiga kokku puutunud. Selles plokis saad teada, mida tehisintellekt tegelikult tähendab, kust see on alguse saanud ja kus seda tänapäeval kasutatakse.
 
