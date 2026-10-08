@@ -241,6 +241,10 @@ details summary { cursor: pointer; font-weight: bold; color: var(--pae-oranz-tum
 :root.lia-variant-dark .pae-motle *, :root.lia-variant-dark .pae-lisaks * { color: #1d2433 !important; }
 :root.lia-variant-dark img { background: #fff; }
 /* ==== liascript-theming:end ==== */
+/* Loosimisnupp (rollimäng) */
+output.lia-script[input="submit"] { display:inline-block !important; background:#002959; color:#fff !important; font-weight:700; padding:.6em 1.2em; border-radius:999px; border:3px solid #FF8B48 !important; cursor:pointer; box-shadow:0 3px 10px rgba(0,41,89,.2); }
+output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !important; }
+
 @end
 
 @custom
@@ -14248,6 +14252,111 @@ Need põhimõtted said seadusjõu **Euroopa Liidu tehisintellekti määrusega** 
 > - UNESCO TI eetika soovitus: https://www.unesco.org/en/artificial-intelligence/recommendation-ethics
 > - IEEE Ethically Aligned Design: https://ethicsinaction.ieee.org/
 > - Future of Life Institute: https://futureoflife.org/
+
+### Rollimäng: tehisaru koolis
+
+Kujuta ette, et oled kooli koosolekul, kus arutatakse tehisaru kasutamist. Iga osaleja vaatab olukorda **oma rolli** pilgu läbi: üks mõtleb praktilisele elluviimisele, teine nende inimeste tunnetele, keda otsus mõjutab, kolmas otsib vigu. Selles ülesandes saad juhuslikult ühe **olukorra** ja ühe **rolli**. Sinu ülesanne on mõelda olukorra üle just selle rolli seisukohast.
+
+<!-- class="pae-motle" -->
+> **Kuidas mängida?**
+>
+> 1. Vajuta nuppu **🎲 Vali juhuslik olukord ja roll**.
+> 2. Loe olukorra kaart läbi: mis juhtub ja kes koosolekul osalevad?
+> 3. Loe rolli kaart: milline on sinu suhtumine ja millised on sinu põhiküsimused?
+> 4. Kirjuta oma mõtisklus **rolli nimel** (mina-vormis), kasutades rolli põhiküsimusi.
+
+<script input="submit" default="🎲 Vali juhuslik olukord ja roll" output="loos" modify="false">
+const O = ["Digiklass: andmete privaatsus ja tehisintellekti eetika", "Ebaõiglus klassiruumis: eelarvamuste probleem tehisintellekti algoritmides", "Hariduse tulevik: õpetajad vs tehisintellekt", "Õppimise uus ajastu: generatiivne tehisintellekt ja akadeemiline ausus", "Tehisintellekt hariduses: kohandamine ja kvaliteet", "Eetilised väljakutsed: tehisintellekt hariduse hindamises", "Tehnoloogiline lõhe: tehisintellekti juurdepääs hariduses", "Tehisintellekti mõju õpilaste arengule: sotsiaalsed ja emotsionaalsed aspektid"];
+const R = ["Rakendaja", "Mõjutatud sihtrühma esindaja", "Uute tehnoloogiate andunud fänn", "Julgustaja", "Ükskõikne", "Ümbermõtestaja", "Kriitik", "Mõistuse hääl"];
+window.paeLoos = window.paeLoos || {n: 0};
+window.paeLoos.n += 1;
+window.paeLoos.o = Math.floor(Math.random() * O.length);
+window.paeLoos.r = Math.floor(Math.random() * R.length);
+"🎲 Loosi uuesti (loos nr " + window.paeLoos.n + ")"
+</script>
+
+<script style="display: block" modify="false">
+const loos = `@input(`loos`)`;
+const O = ["Digiklass: andmete privaatsus ja tehisintellekti eetika", "Ebaõiglus klassiruumis: eelarvamuste probleem tehisintellekti algoritmides", "Hariduse tulevik: õpetajad vs tehisintellekt", "Õppimise uus ajastu: generatiivne tehisintellekt ja akadeemiline ausus", "Tehisintellekt hariduses: kohandamine ja kvaliteet", "Eetilised väljakutsed: tehisintellekt hariduse hindamises", "Tehnoloogiline lõhe: tehisintellekti juurdepääs hariduses", "Tehisintellekti mõju õpilaste arengule: sotsiaalsed ja emotsionaalsed aspektid"];
+const R = ["Rakendaja", "Mõjutatud sihtrühma esindaja", "Uute tehnoloogiate andunud fänn", "Julgustaja", "Ükskõikne", "Ümbermõtestaja", "Kriitik", "Mõistuse hääl"];
+const B = "https://raw.githubusercontent.com/maialust/Tehisintellekti-alused/main/pildid/rollimang/";
+const box = "flex:1 1 320px; background:#EEF2F7; border-radius:14px; padding:12px; border-left:8px solid ";
+if (!window.paeLoos || !window.paeLoos.n) { "Vajuta ülal olevat nuppu, et saada olukord ja roll." } else {
+const o = window.paeLoos.o;
+const r = window.paeLoos.r;
+"HTML: <div style='display:flex; flex-wrap:wrap; gap:16px; margin:8px 0;'>" +
+"<div style='" + box + "#002959;'><b style='color:#002959;'>Sinu olukord: " + (o+1) + ". " + O[o] + "</b><br><img src='" + B + "olukord_" + (o+1) + ".jpg' alt='Olukord " + (o+1) + ": " + O[o] + "' style='width:100%; border-radius:10px; margin-top:8px;'></div>" +
+"<div style='" + box + "#FF8B48;'><b style='color:#E67E42;'>Sinu roll: " + (r+1) + ". " + R[r] + "</b><br><img src='" + B + "roll_" + (r+1) + ".jpg' alt='Roll " + (r+1) + ": " + R[r] + "' style='width:100%; border-radius:10px; margin-top:8px;'></div>" +
+"</div><p>Kas soovid uut paari? Vajuta nuppu uuesti.</p>"
+}
+</script>
+
+<!-- class="pae-jaotis" -->
+**Minu mõtisklus**
+
+**1. Milline olukord ja roll sulle loosiga tulid?** Kirjuta olukorra pealkiri ja rolli nimi.
+
+[[___]]
+
+**2. Mõtisklus rolli nimel.** Kirjuta 6–10 lausega, mida sinu roll sellest olukorrast arvab. Kasuta vähemalt kahte rolli kaardil olevat põhiküsimust.
+
+[[___ ___ ___ ___ ___ ___]]
+
+<details>
+<summary>Vaata, millele mõtiskluses mõelda</summary>
+
+Hea mõtisklus: 1) nimetab, mis on olukorras tehisaru roll ja milline probleem tekib; 2) vaatab olukorda järjekindlalt oma rolli pilgu läbi; 3) toob välja vähemalt ühe eetilise küsimuse (nt privaatsus, õiglus, kallutatus, vastutus, võrdne juurdepääs, inimese roll); 4) pakub rolli vaatenurgast ühe konkreetse ettepaneku, mida kool võiks teha.
+
+</details>
+
+**3. Astu rollist välja.** Mis on **sinu enda** arvamus? Kas see erineb rolli arvamusest? Miks?
+
+[[___ ___ ___]]
+
+**4. Millist eetilist põhimõtet (läbipaistvus, õiglus, privaatsus, vastutus, inimese heaolu ja autonoomia) see olukord kõige rohkem puudutab? Põhjenda.**
+
+[[___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Rühmatöö variant.** Õpetaja võib jagada klassi 8-liikmelisteks rühmadeks. Kõik rühma liikmed saavad **sama olukorra**, kuid **erinevad rollid**. Iga õpilane esitab koosolekul oma rolli vaatenurga ja lõpuks peab rühm jõudma ühise otsuseni: kas ja kuidas kool tehisaru kasutusele võtab?
+
+<!-- class="pae-jaotis" -->
+**Kõik olukorrad**
+
+![Olukord 1: Digiklass: andmete privaatsus ja tehisintellekti eetika](pildid/rollimang/olukord_1.jpg "Olukord 1. Digiklass: andmete privaatsus ja tehisintellekti eetika")
+
+![Olukord 2: Ebaõiglus klassiruumis: eelarvamuste probleem tehisintellekti algoritmides](pildid/rollimang/olukord_2.jpg "Olukord 2. Ebaõiglus klassiruumis: eelarvamuste probleem tehisintellekti algoritmides")
+
+![Olukord 3: Hariduse tulevik: õpetajad vs tehisintellekt](pildid/rollimang/olukord_3.jpg "Olukord 3. Hariduse tulevik: õpetajad vs tehisintellekt")
+
+![Olukord 4: Õppimise uus ajastu: generatiivne tehisintellekt ja akadeemiline ausus](pildid/rollimang/olukord_4.jpg "Olukord 4. Õppimise uus ajastu: generatiivne tehisintellekt ja akadeemiline ausus")
+
+![Olukord 5: Tehisintellekt hariduses: kohandamine ja kvaliteet](pildid/rollimang/olukord_5.jpg "Olukord 5. Tehisintellekt hariduses: kohandamine ja kvaliteet")
+
+![Olukord 6: Eetilised väljakutsed: tehisintellekt hariduse hindamises](pildid/rollimang/olukord_6.jpg "Olukord 6. Eetilised väljakutsed: tehisintellekt hariduse hindamises")
+
+![Olukord 7: Tehnoloogiline lõhe: tehisintellekti juurdepääs hariduses](pildid/rollimang/olukord_7.jpg "Olukord 7. Tehnoloogiline lõhe: tehisintellekti juurdepääs hariduses")
+
+![Olukord 8: Tehisintellekti mõju õpilaste arengule: sotsiaalsed ja emotsionaalsed aspektid](pildid/rollimang/olukord_8.jpg "Olukord 8. Tehisintellekti mõju õpilaste arengule: sotsiaalsed ja emotsionaalsed aspektid")
+
+<!-- class="pae-jaotis" -->
+**Kõik rollid**
+
+![Roll 1: Rakendaja](pildid/rollimang/roll_1.jpg "Roll 1. Rakendaja")
+
+![Roll 2: Mõjutatud sihtrühma esindaja](pildid/rollimang/roll_2.jpg "Roll 2. Mõjutatud sihtrühma esindaja")
+
+![Roll 3: Uute tehnoloogiate andunud fänn](pildid/rollimang/roll_3.jpg "Roll 3. Uute tehnoloogiate andunud fänn")
+
+![Roll 4: Julgustaja](pildid/rollimang/roll_4.jpg "Roll 4. Julgustaja")
+
+![Roll 5: Ükskõikne](pildid/rollimang/roll_5.jpg "Roll 5. Ükskõikne")
+
+![Roll 6: Ümbermõtestaja](pildid/rollimang/roll_6.jpg "Roll 6. Ümbermõtestaja")
+
+![Roll 7: Kriitik](pildid/rollimang/roll_7.jpg "Roll 7. Kriitik")
+
+![Roll 8: Mõistuse hääl](pildid/rollimang/roll_8.jpg "Roll 8. Mõistuse hääl")
 
 ### Kokkuvõte ja põhimõisted
 

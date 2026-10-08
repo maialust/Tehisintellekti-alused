@@ -241,6 +241,10 @@ details summary { cursor: pointer; font-weight: bold; color: var(--pae-oranz-tum
 :root.lia-variant-dark .pae-motle *, :root.lia-variant-dark .pae-lisaks * { color: #1d2433 !important; }
 :root.lia-variant-dark img { background: #fff; }
 /* ==== liascript-theming:end ==== */
+/* Loosimisnupp (rollimäng) */
+output.lia-script[input="submit"] { display:inline-block !important; background:#002959; color:#fff !important; font-weight:700; padding:.6em 1.2em; border-radius:999px; border:3px solid #FF8B48 !important; cursor:pointer; box-shadow:0 3px 10px rgba(0,41,89,.2); }
+output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !important; }
+
 @end
 
 @custom
