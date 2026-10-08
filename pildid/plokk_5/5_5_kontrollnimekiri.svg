@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="640" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Kas see on ehtne? Kontrollnimekiri</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="30" y="100" width="300" height="240" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="68" cy="140" r="22" fill="#FF8B48"/>
+<text x="68" y="147" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="68" dy="0">1</tspan></text>
+<text x="102" y="148" font-size="23" font-weight="800" fill="#002959" text-anchor="start"><tspan x="102" dy="0">Peatu</tspan></text>
+<text x="54" y="210" font-size="21" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="54" dy="0">Kas sisu tekitab tugevat</tspan><tspan x="54" dy="26">emotsiooni ja soovi</tspan><tspan x="54" dy="26">kohe jagada?</tspan></text>
+<rect x="348" y="100" width="300" height="240" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="386" cy="140" r="22" fill="#FF8B48"/>
+<text x="386" y="147" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="386" dy="0">2</tspan></text>
+<text x="420" y="148" font-size="23" font-weight="800" fill="#002959" text-anchor="start"><tspan x="420" dy="0">Allikas ja kontekst</tspan></text>
+<text x="372" y="210" font-size="21" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="372" dy="0">Kes avaldas? Kas</tspan><tspan x="372" dy="26">kuupäev, koht ja ilm</tspan><tspan x="372" dy="26">sobivad kokku?</tspan></text>
+<rect x="666" y="100" width="300" height="240" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="704" cy="140" r="22" fill="#FF8B48"/>
+<text x="704" y="147" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="704" dy="0">3</tspan></text>
+<text x="738" y="148" font-size="23" font-weight="800" fill="#002959" text-anchor="start"><tspan x="738" dy="0">Detailid</tspan></text>
+<text x="690" y="210" font-size="21" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="690" dy="0">näo servad, sõrmed,</tspan><tspan x="690" dy="26">valgus ja varjud,</tspan><tspan x="690" dy="26">tekst ja taust</tspan></text>
+<rect x="30" y="365" width="300" height="240" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="68" cy="405" r="22" fill="#FF8B48"/>
+<text x="68" y="412" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="68" dy="0">4</tspan></text>
+<text x="102" y="413" font-size="23" font-weight="800" fill="#002959" text-anchor="start"><tspan x="102" dy="0">Liikumine ja heli</tspan></text>
+<text x="54" y="475" font-size="21" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="54" dy="0">pilgutamine, huulte</tspan><tspan x="54" dy="26">sünkroon, hääl</tspan><tspan x="54" dy="26">ja hingamine</tspan></text>
+<rect x="348" y="365" width="300" height="240" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="386" cy="405" r="22" fill="#FF8B48"/>
+<text x="386" y="412" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="386" dy="0">5</tspan></text>
+<text x="420" y="413" font-size="23" font-weight="800" fill="#002959" text-anchor="start"><tspan x="420" dy="0">Tööriistad</tspan></text>
+<text x="372" y="475" font-size="21" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="372" dy="0">pöördotsing,</tspan><tspan x="372" dy="26">metaandmed, C2PA –</tspan><tspan x="372" dy="26">lisainfona</tspan></text>
+<rect x="666" y="365" width="300" height="240" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<circle cx="704" cy="405" r="22" fill="#C0392B"/>
+<text x="704" y="412" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="704" dy="0">6</tspan></text>
+<text x="738" y="413" font-size="23" font-weight="800" fill="#002959" text-anchor="start"><tspan x="738" dy="0">Otsus</tspan></text>
+<text x="690" y="475" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="690" dy="0">Üks märk ei tõesta</tspan><tspan x="690" dy="26">midagi. Kahtled?</tspan><tspan x="690" dy="26">ÄRA JAGA!</tspan></text>
+</svg>

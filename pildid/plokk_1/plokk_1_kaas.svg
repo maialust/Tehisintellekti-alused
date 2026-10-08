@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1200" height="420" rx="20" fill="url(#gnavy)"/>
+<circle cx="1120" cy="40" r="160" fill="#33547A" opacity="0.35"/>
+<circle cx="620" cy="440" r="120" fill="#33547A" opacity="0.3"/>
+<rect x="0" y="392" width="1200" height="28" fill="#FF8B48"/><rect x="0" y="392" width="1200" height="8" fill="#E67E42"/>
+<text x="70" y="110" font-size="34" font-weight="700" fill="#FF8B48" text-anchor="start"><tspan x="70" dy="0">PLOKK 1</tspan></text>
+<text x="66" y="200" font-size="84" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="66" dy="0">Sissejuhatus</tspan></text>
+<text x="66" y="280" font-size="84" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="66" dy="0">tehisintellekti</tspan></text>
+<text x="70" y="340" font-size="26" font-weight="400" fill="#CCD4DE" text-anchor="start"><tspan x="70" dy="0">Mis see on, kust see tuli ja kus seda kasutatakse</tspan></text>
+<rect x="830" y="70" width="260" height="260" rx="40" fill="#FFFFFF" opacity="0.08"/>
+<rect x="850" y="90" width="220" height="220" rx="30" fill="none" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="900" y1="90" x2="900" y2="60" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="900" y1="310" x2="900" y2="340" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="850" y1="140" x2="820" y2="140" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="1070" y1="140" x2="1100" y2="140" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="940" y1="90" x2="940" y2="60" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="940" y1="310" x2="940" y2="340" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="850" y1="180" x2="820" y2="180" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="1070" y1="180" x2="1100" y2="180" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="980" y1="90" x2="980" y2="60" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="980" y1="310" x2="980" y2="340" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="850" y1="220" x2="820" y2="220" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="1070" y1="220" x2="1100" y2="220" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="1020" y1="90" x2="1020" y2="60" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="1020" y1="310" x2="1020" y2="340" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="850" y1="260" x2="820" y2="260" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="1070" y1="260" x2="1100" y2="260" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="900" y1="145" x2="960" y2="130" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="960" y1="130" x2="1020" y2="150" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="900" y1="145" x2="890" y2="210" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="900" y1="145" x2="960" y2="200" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="960" y1="130" x2="960" y2="200" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="1020" y1="150" x2="960" y2="200" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="1020" y1="150" x2="1025" y2="215" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="890" y1="210" x2="960" y2="200" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="960" y1="200" x2="1025" y2="215" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="890" y1="210" x2="925" y2="265" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="960" y1="200" x2="925" y2="265" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="960" y1="200" x2="995" y2="265" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="1025" y1="215" x2="995" y2="265" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="925" y1="265" x2="995" y2="265" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<circle cx="900" cy="145" r="14" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="960" cy="130" r="14" fill="#FF8B48" stroke="#002959" stroke-width="3"/>
+<circle cx="1020" cy="150" r="14" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="890" cy="210" r="14" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="960" cy="200" r="22" fill="#FF8B48" stroke="#002959" stroke-width="3"/>
+<circle cx="1025" cy="215" r="14" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="925" cy="265" r="14" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="995" cy="265" r="14" fill="#FF8B48" stroke="#002959" stroke-width="3"/>
+<line x1="590" y1="110" x2="760" y2="110" stroke="#CCD4DE" stroke-width="3"/>
+<circle cx="600" cy="110" r="9" fill="#FFFFFF"/>
+<circle cx="670" cy="110" r="9" fill="#FFFFFF"/>
+<circle cx="740" cy="110" r="9" fill="#FF8B48"/>
+</svg>

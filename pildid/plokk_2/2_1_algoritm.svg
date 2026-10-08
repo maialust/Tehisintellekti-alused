@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="470" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Algoritm on nagu retsept</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="110" width="280" height="210" rx="14" fill="#EEF2F7" stroke="#002959" stroke-width="2" filter="url(#sh)"/>
+<rect x="40" y="110" width="280" height="50" rx="14" fill="#002959"/>
+<rect x="40" y="140" width="280" height="20" fill="#002959"/>
+<text x="180" y="145" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="180" dy="0">SISEND</tspan></text>
+<text x="64" y="200" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="64" dy="0">Koostisained</tspan></text>
+<text x="64" y="240" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="64" dy="0">jahu, munad,</tspan><tspan x="64" dy="25">suhkur, piim</tspan></text>
+<line x1="324" y1="215" x2="354" y2="215" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="360" y="110" width="280" height="210" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<rect x="360" y="110" width="280" height="50" rx="14" fill="#FF8B48"/>
+<rect x="360" y="140" width="280" height="20" fill="#FF8B48"/>
+<text x="500" y="145" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="500" dy="0">SAMMUD</tspan></text>
+<text x="384" y="200" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="384" dy="0">Täpsed juhised</tspan></text>
+<text x="384" y="240" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="384" dy="0">1) sega kokku</tspan><tspan x="384" dy="25">2) küpseta 180 °C</tspan><tspan x="384" dy="25">    juures 25 min</tspan></text>
+<line x1="644" y1="215" x2="674" y2="215" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="680" y="110" width="280" height="210" rx="14" fill="#EEF2F7" stroke="#002959" stroke-width="2" filter="url(#sh)"/>
+<rect x="680" y="110" width="280" height="50" rx="14" fill="#002959"/>
+<rect x="680" y="140" width="280" height="20" fill="#002959"/>
+<text x="820" y="145" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="820" dy="0">VÄLJUND</tspan></text>
+<text x="704" y="200" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="704" dy="0">Tulemus</tspan></text>
+<text x="704" y="240" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="704" dy="0">valmis kook</tspan></text>
+<rect x="40" y="350" width="920" height="90" rx="14" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2" filter="url(#sh)"/>
+<text x="70" y="388" font-size="20" font-weight="700" fill="#C0392B" text-anchor="start"><tspan x="70" dy="0">Arvutile ei sobi:</tspan></text>
+<text x="250" y="388" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="250" dy="0">„lisa veidi soola, küpseta, kuni on valmis“</tspan></text>
+<text x="70" y="422" font-size="20" font-weight="700" fill="#2E8B57" text-anchor="start"><tspan x="70" dy="0">Arvutile sobib:</tspan></text>
+<text x="250" y="422" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="250" dy="0">„lisa 5 g soola, küpseta 180 °C juures 25 minutit“</tspan></text>
+</svg>

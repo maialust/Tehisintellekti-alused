@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="600" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Meditsiinilise pildinduse liigid</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="25" y="100" width="182" height="470" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="116" cy="175" r="48" fill="#FFFFFF"/>
+<path d="M110 149 v52 M122 149 v52" stroke="#002959" stroke-width="9" stroke-linecap="round"/>
+<circle cx="108" cy="147" r="8" fill="#002959"/>
+<circle cx="124" cy="147" r="8" fill="#002959"/>
+<circle cx="108" cy="203" r="8" fill="#002959"/>
+<circle cx="124" cy="203" r="8" fill="#002959"/>
+<text x="116" y="262" font-size="26" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="116" dy="0">Röntgen</tspan></text>
+<text x="41" y="302" font-size="20" font-weight="700" fill="#33547A" text-anchor="start"><tspan x="41" dy="0">Näeb hästi:</tspan></text>
+<text x="41" y="330" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="41" dy="0">luud, kopsud</tspan></text>
+<circle cx="53" cy="403" r="13" fill="#2E8B57"/>
+<text x="53" y="410" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="53" dy="0">+</tspan></text>
+<text x="73" y="410" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="73" dy="0">kiire, odav</tspan></text>
+<circle cx="53" cy="483" r="13" fill="#C0392B"/>
+<text x="53" y="490" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="53" dy="0">–</tspan></text>
+<text x="73" y="490" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="73" dy="0">kiirgus</tspan></text>
+<rect x="217" y="100" width="182" height="470" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="308" cy="175" r="48" fill="#FFFFFF"/>
+<ellipse cx="308" cy="151" rx="32" ry="9" fill="#CCD4DE"/>
+<ellipse cx="308" cy="167" rx="32" ry="9" fill="#33547A"/>
+<ellipse cx="308" cy="183" rx="32" ry="9" fill="#FF8B48"/>
+<ellipse cx="308" cy="199" rx="32" ry="9" fill="#002959"/>
+<text x="308" y="262" font-size="26" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="308" dy="0">KT</tspan></text>
+<text x="233" y="302" font-size="20" font-weight="700" fill="#33547A" text-anchor="start"><tspan x="233" dy="0">Näeb hästi:</tspan></text>
+<text x="233" y="330" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="233" dy="0">luud, organid,</tspan><tspan x="233" dy="25">pehmed koed</tspan></text>
+<circle cx="245" cy="403" r="13" fill="#2E8B57"/>
+<text x="245" y="410" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="245" dy="0">+</tspan></text>
+<text x="265" y="410" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="265" dy="0">detailne 3D</tspan></text>
+<circle cx="245" cy="483" r="13" fill="#C0392B"/>
+<text x="245" y="490" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="245" dy="0">–</tspan></text>
+<text x="265" y="490" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="265" dy="0">suurem kiirgus</tspan></text>
+<rect x="409" y="100" width="182" height="470" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="500" cy="175" r="48" fill="#FFFFFF"/>
+<circle cx="500" cy="175" r="30" fill="none" stroke="#002959" stroke-width="14"/>
+<rect x="488" y="171" width="24" height="8" rx="4" fill="#FF8B48"/>
+<text x="500" y="262" font-size="26" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="500" dy="0">MRT</tspan></text>
+<text x="425" y="302" font-size="20" font-weight="700" fill="#33547A" text-anchor="start"><tspan x="425" dy="0">Näeb hästi:</tspan></text>
+<text x="425" y="330" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="425" dy="0">aju, liigesed,</tspan><tspan x="425" dy="25">pehmed koed</tspan></text>
+<circle cx="437" cy="403" r="13" fill="#2E8B57"/>
+<text x="437" y="410" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="437" dy="0">+</tspan></text>
+<text x="457" y="410" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="457" dy="0">kiirguseta</tspan></text>
+<circle cx="437" cy="483" r="13" fill="#C0392B"/>
+<text x="437" y="490" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="437" dy="0">–</tspan></text>
+<text x="457" y="490" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="457" dy="0">aeglane, kallis</tspan></text>
+<rect x="601" y="100" width="182" height="470" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="692" cy="175" r="48" fill="#FFFFFF"/>
+<path d="M682.2 165.2 A14 14 0 0 1 701.8 165.2" transform="translate(0 20)" stroke="#FF8B48" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M673.8 156.8 A26 26 0 0 1 710.2 156.8" transform="translate(0 20)" stroke="#33547A" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M665.4 148.4 A38 38 0 0 1 718.6 148.4" transform="translate(0 20)" stroke="#002959" stroke-width="6" fill="none" stroke-linecap="round"/>
+<circle cx="692" cy="195" r="6" fill="#FF8B48"/>
+<text x="692" y="262" font-size="26" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="692" dy="0">Ultraheli</tspan></text>
+<text x="617" y="302" font-size="20" font-weight="700" fill="#33547A" text-anchor="start"><tspan x="617" dy="0">Näeb hästi:</tspan></text>
+<text x="617" y="330" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="617" dy="0">süda, loode,</tspan><tspan x="617" dy="25">kõhuõõs</tspan></text>
+<circle cx="629" cy="403" r="13" fill="#2E8B57"/>
+<text x="629" y="410" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="629" dy="0">+</tspan></text>
+<text x="649" y="410" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="649" dy="0">ohutu,</tspan><tspan x="649" dy="25">reaalajas</tspan></text>
+<circle cx="629" cy="483" r="13" fill="#C0392B"/>
+<text x="629" y="490" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="629" dy="0">–</tspan></text>
+<text x="649" y="490" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="649" dy="0">sõltub uurijast</tspan></text>
+<rect x="793" y="100" width="182" height="470" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="884" cy="175" r="48" fill="#FFFFFF"/>
+<circle cx="884" cy="175" r="30" fill="#CCD4DE"/>
+<circle cx="876" cy="169" r="9" fill="#FF8B48"/>
+<circle cx="896" cy="185" r="6" fill="#E67E42"/>
+<circle cx="892" cy="161" r="4" fill="#FF8B48"/>
+<text x="884" y="262" font-size="26" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="884" dy="0">PET</tspan></text>
+<text x="809" y="302" font-size="20" font-weight="700" fill="#33547A" text-anchor="start"><tspan x="809" dy="0">Näeb hästi:</tspan></text>
+<text x="809" y="330" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="809" dy="0">ainevahetus,</tspan><tspan x="809" dy="25">vähikolded</tspan></text>
+<circle cx="821" cy="403" r="13" fill="#2E8B57"/>
+<text x="821" y="410" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="821" dy="0">+</tspan></text>
+<text x="841" y="410" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="841" dy="0">näitab kudede</tspan><tspan x="841" dy="25">tööd</tspan></text>
+<circle cx="821" cy="483" r="13" fill="#C0392B"/>
+<text x="821" y="490" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="821" dy="0">–</tspan></text>
+<text x="841" y="490" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="841" dy="0">radioaktiivne</tspan><tspan x="841" dy="25">aine</tspan></text>
+</svg>

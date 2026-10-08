@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="520" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Kuidas isesõitev auto „näeb” ja otsustab?</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="380" y="230" width="240" height="150" rx="14" fill="#002959" filter="url(#sh)"/>
+<path d="M470,298 L470,288 L482,286 L490,272 L512,272 L522,286 L530,288 L530,298 z" fill="#33547A" stroke="#FFFFFF" stroke-width="3"/>
+<circle cx="484" cy="300" r="7" fill="#FFFFFF"/>
+<circle cx="516" cy="300" r="7" fill="#FFFFFF"/>
+<text x="500" y="355" font-size="19" font-weight="700" fill="#FF8B48" text-anchor="middle"><tspan x="500" dy="0">otsustussüsteem</tspan></text>
+<rect x="40" y="120" width="300" height="150" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<path d="M60,170 Q90,144 120,170 Q90,196 60,170 z" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="90" cy="170" r="10" fill="#FF8B48"/>
+<circle cx="90" cy="170" r="4" fill="#002959"/>
+<text x="130" y="178" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="130" dy="0">Arvutinägemine</tspan></text>
+<text x="60" y="225" font-size="17" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="60" dy="0">kaamerad: autod, inimesed,</tspan><tspan x="60" dy="21">liiklusmärgid</tspan></text>
+<line x1="344" y1="195" x2="374" y2="290" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="40" y="310" width="300" height="150" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="72" y="342" width="36" height="36" rx="5" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<rect x="82" y="352" width="16" height="16" rx="2" fill="#FF8B48"/>
+<line x1="80" y1="342" x2="80" y2="333" stroke="#002959" stroke-width="3"/><line x1="80" y1="378" x2="80" y2="387" stroke="#002959" stroke-width="3"/>
+<line x1="72" y1="350" x2="63" y2="350" stroke="#002959" stroke-width="3"/><line x1="108" y1="350" x2="117" y2="350" stroke="#002959" stroke-width="3"/>
+<line x1="90" y1="342" x2="90" y2="333" stroke="#002959" stroke-width="3"/><line x1="90" y1="378" x2="90" y2="387" stroke="#002959" stroke-width="3"/>
+<line x1="72" y1="360" x2="63" y2="360" stroke="#002959" stroke-width="3"/><line x1="108" y1="360" x2="117" y2="360" stroke="#002959" stroke-width="3"/>
+<line x1="100" y1="342" x2="100" y2="333" stroke="#002959" stroke-width="3"/><line x1="100" y1="378" x2="100" y2="387" stroke="#002959" stroke-width="3"/>
+<line x1="72" y1="370" x2="63" y2="370" stroke="#002959" stroke-width="3"/><line x1="108" y1="370" x2="117" y2="370" stroke="#002959" stroke-width="3"/>
+<text x="130" y="368" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="130" dy="0">Andurid</tspan></text>
+<text x="60" y="415" font-size="17" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="60" dy="0">lidar, radar,</tspan><tspan x="60" dy="21">ultraheli</tspan></text>
+<line x1="344" y1="385" x2="374" y2="330" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="660" y="120" width="300" height="150" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="680" y="175" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="680" dy="0">Kaart ja asukoht</tspan></text>
+<text x="680" y="210" font-size="17" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="680" dy="0">kaardistamine ja</tspan><tspan x="680" dy="21">lokaliseerimine</tspan></text>
+<line x1="656" y1="195" x2="626" y2="280" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="660" y="310" width="300" height="150" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="680" y="355" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="680" dy="0">Tegevus</tspan></text>
+<rect x="680" y="378" width="84" height="34" rx="17" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="722" y="401" font-size="16" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="722" dy="0">pidurda</tspan></text>
+<rect x="772" y="378" width="84" height="34" rx="17" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="814" y="401" font-size="16" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="814" dy="0">keera</tspan></text>
+<rect x="864" y="378" width="84" height="34" rx="17" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="906" y="401" font-size="16" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="906" dy="0">kiirenda</tspan></text>
+<line x1="624" y1="340" x2="654" y2="370" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<text x="500" y="495" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="500" dy="0">Autonoomsuse tasemed 0–5: 0 = juhib inimene, 5 = auto igas olukorras ise</tspan></text>
+
+</svg>

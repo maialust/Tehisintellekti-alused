@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="430" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Andmete jagamine kolmeks</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="130" width="638.0" height="120" rx="14" fill="#002959" filter="url(#sh)"/>
+<text x="359.0" y="180" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="359.0" dy="0">TREENINGANDMED</tspan></text>
+<text x="359.0" y="216" font-size="22" font-weight="400" fill="#FFFFFF" text-anchor="middle"><tspan x="359.0" dy="0">60–80%</tspan></text>
+<text x="359.0" y="290" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="359.0" dy="0">mudel õpib nendest</tspan></text>
+<rect x="684.0" y="130" width="132.0" height="120" rx="14" fill="#FF8B48" filter="url(#sh)"/>
+<text x="750.0" y="180" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="750.0" dy="0">VALIDEERI-</tspan></text>
+<text x="750.0" y="206" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="750.0" dy="0">MINE</tspan></text>
+<text x="750.0" y="234" font-size="20" font-weight="400" fill="#FFFFFF" text-anchor="middle"><tspan x="750.0" dy="0">10–20%</tspan></text>
+<text x="750.0" y="290" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="750.0" dy="0">häälestamine</tspan></text>
+<rect x="822.0" y="130" width="132.0" height="120" rx="14" fill="#2E8B57" filter="url(#sh)"/>
+<text x="888.0" y="180" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="888.0" dy="0">TEST</tspan></text>
+<text x="888.0" y="216" font-size="22" font-weight="400" fill="#FFFFFF" text-anchor="middle"><tspan x="888.0" dy="0">10–20%</tspan></text>
+<text x="888.0" y="290" font-size="20" font-weight="700" fill="#2E8B57" text-anchor="middle"><tspan x="888.0" dy="0">lõpphinnang</tspan></text>
+<rect x="40" y="320" width="920" height="80" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="70" y="352" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="70" dy="0">Miks eraldi testandmed? Kui kontrolltöö ülesanded oleksid samad mis tunnis,</tspan></text>
+<text x="70" y="380" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="70" dy="0">ei näeks õpetaja, kas said asjast aru või õppisid vastused pähe.</tspan></text>
+</svg>

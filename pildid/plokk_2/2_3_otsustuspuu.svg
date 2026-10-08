@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="600" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Otsustuspuu: kas sooritad kontrolltöö?</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="240.0" y="100" width="520" height="76" rx="14" fill="url(#gnavy)" filter="url(#sh)"/>
+<text x="500" y="132" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="500" dy="0">Kas õppisid kontrolltööks</tspan><tspan x="500" dy="25">üle 3 tunni?</tspan></text>
+<path d="M400,178 L260,250" stroke="#2E8B57" stroke-width="4" fill="none" marker-end="url(#ag)" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M600,178 L740,250" stroke="#C0392B" stroke-width="4" fill="none" marker-end="url(#ar)" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="300" y="210" font-size="20" font-weight="700" fill="#2E8B57" text-anchor="end"><tspan x="300" dy="0">JAH</tspan></text>
+<text x="700" y="210" font-size="20" font-weight="700" fill="#C0392B" text-anchor="start"><tspan x="700" dy="0">EI</tspan></text>
+<rect x="60.0" y="256" width="400" height="76" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<text x="260" y="288" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="260" dy="0">Kas magasid öösel</tspan><tspan x="260" dy="25">üle 7 tunni?</tspan></text>
+<rect x="540.0" y="256" width="400" height="76" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<text x="740" y="288" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="740" dy="0">Kas eelmine hinne</tspan><tspan x="740" dy="25">oli 4 või 5?</tspan></text>
+<path d="M200,334 L145,410" stroke="#2E8B57" stroke-width="3" fill="none" marker-end="url(#ag)" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M320,334 L375,410" stroke="#C0392B" stroke-width="3" fill="none" marker-end="url(#ar)" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="143" y="380" font-size="20" font-weight="700" fill="#2E8B57" text-anchor="end"><tspan x="143" dy="0">JAH</tspan></text>
+<text x="377" y="380" font-size="20" font-weight="700" fill="#C0392B" text-anchor="start"><tspan x="377" dy="0">EI</tspan></text>
+<path d="M680,334 L625,410" stroke="#2E8B57" stroke-width="3" fill="none" marker-end="url(#ag)" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M800,334 L855,410" stroke="#C0392B" stroke-width="3" fill="none" marker-end="url(#ar)" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="623" y="380" font-size="20" font-weight="700" fill="#2E8B57" text-anchor="end"><tspan x="623" dy="0">JAH</tspan></text>
+<text x="857" y="380" font-size="20" font-weight="700" fill="#C0392B" text-anchor="start"><tspan x="857" dy="0">EI</tspan></text>
+<rect x="45" y="416" width="200" height="76" rx="14" fill="#E6F3EC" stroke="#2E8B57" stroke-width="3" filter="url(#sh)"/>
+<text x="145" y="461" font-size="20" font-weight="700" fill="#2E8B57" text-anchor="middle"><tspan x="145" dy="0">SOORITAB</tspan></text>
+<rect x="275" y="416" width="200" height="76" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="3" filter="url(#sh)"/>
+<text x="375" y="448" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="375" dy="0">TÕENÄOLISELT</tspan><tspan x="375" dy="25">SOORITAB</tspan></text>
+<rect x="525" y="416" width="200" height="76" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="3" filter="url(#sh)"/>
+<text x="625" y="448" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="625" dy="0">TÕENÄOLISELT</tspan><tspan x="625" dy="25">SOORITAB</tspan></text>
+<rect x="755" y="416" width="200" height="76" rx="14" fill="#F8E5E3" stroke="#C0392B" stroke-width="3" filter="url(#sh)"/>
+<text x="855" y="461" font-size="20" font-weight="700" fill="#C0392B" text-anchor="middle"><tspan x="855" dy="0">EI SOORITA</tspan></text>
+<text x="40" y="545" font-size="20" font-weight="700" fill="#FF8B48" text-anchor="start"><tspan x="40" dy="0">juur</tspan></text>
+<text x="40" y="572" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="40" dy="0">= esimene küsimus</tspan></text>
+<text x="560" y="545" font-size="20" font-weight="700" fill="#FF8B48" text-anchor="start"><tspan x="560" dy="0">lehed</tspan></text>
+<text x="560" y="572" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="560" dy="0">= lõppotsused (puu alumised kastid)</tspan></text>
+</svg>

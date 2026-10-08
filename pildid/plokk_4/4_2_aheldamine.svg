@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="agr" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#CCD4DE"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="640" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Kaks suunda, kuidas reeglitest järeldada</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="30" y="95" width="450" height="520" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="255" y="135" font-size="26" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="255" dy="0">Edasisuunaline</tspan></text>
+<text x="255" y="165" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="255" dy="0">faktidest järelduseni · andmepõhine</tspan></text>
+<rect x="520" y="95" width="450" height="520" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="745" y="135" font-size="26" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="745" dy="0">Tagasisuunaline</tspan></text>
+<text x="745" y="165" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="745" dy="0">hüpoteesist tõenditeni · eesmärgipõhine</tspan></text>
+<rect x="70" y="190" width="370" height="76" rx="14" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="255" y="222" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="255" dy="0">Faktid</tspan></text>
+<text x="255" y="250" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="255" dy="0">suled · ei lenda · ujub</tspan></text>
+<line x1="255" y1="268" x2="255" y2="318" stroke="#FF8B48" stroke-width="4" stroke-linecap="round" marker-end="url(#ao)"/>
+<text x="271" y="300" font-size="20" font-weight="700" fill="#E67E42" text-anchor="start"><tspan x="271" dy="0">R1: suled → lind</tspan></text>
+<rect x="70" y="320" width="370" height="60" rx="14" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="255" y="357.7" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="255" dy="0">Uus fakt: lind</tspan></text>
+<line x1="255" y1="382" x2="255" y2="446" stroke="#FF8B48" stroke-width="4" stroke-linecap="round" marker-end="url(#ao)"/>
+<text x="271" y="408" font-size="20" font-weight="700" fill="#E67E42" text-anchor="start"><tspan x="271" dy="0">R2: lind + ei lenda</tspan><tspan x="271" dy="24">+ ujub → pingviin</tspan></text>
+<rect x="70" y="448" width="370" height="64" rx="14" fill="url(#gor)" filter="url(#sh)"/>
+<text x="255" y="488.4" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="255" dy="0">JÄRELDUS: pingviin</tspan></text>
+<text x="255" y="568" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="255" dy="0">sobib nt diagnostikasse</tspan></text>
+<rect x="560" y="190" width="370" height="76" rx="14" fill="#FFFFFF" stroke="#33547A" stroke-width="2"/>
+<text x="745" y="222" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="745" dy="0">Hüpotees</tspan></text>
+<text x="745" y="250" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="745" dy="0">Kas see on tiiger?</tspan></text>
+<line x1="745" y1="268" x2="745" y2="296" stroke="#33547A" stroke-width="4" stroke-linecap="round" marker-end="url(#ab)"/>
+<rect x="560" y="298" width="370" height="128" rx="14" fill="#FFFFFF" stroke="#33547A" stroke-width="2"/>
+<text x="580" y="328" font-size="20" font-weight="700" fill="#33547A" text-anchor="start"><tspan x="580" dy="0">R4 nõuab – küsi kasutajalt:</tspan></text>
+<rect x="582" y="341" width="20" height="20" rx="4" fill="#FFFFFF" stroke="#33547A" stroke-width="2"/>
+<text x="614" y="358" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="614" dy="0">imetaja? (R3: kas on karv?)</tspan></text>
+<rect x="582" y="371" width="20" height="20" rx="4" fill="#FFFFFF" stroke="#33547A" stroke-width="2"/>
+<text x="614" y="388" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="614" dy="0">kas sööb liha?</tspan></text>
+<rect x="582" y="401" width="20" height="20" rx="4" fill="#FFFFFF" stroke="#33547A" stroke-width="2"/>
+<text x="614" y="418" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="614" dy="0">kas on triibud?</tspan></text>
+<line x1="745" y1="428" x2="745" y2="444" stroke="#33547A" stroke-width="4" stroke-linecap="round" marker-end="url(#ab)"/>
+<rect x="560" y="448" width="370" height="64" rx="14" fill="#2E8B57" filter="url(#sh)"/>
+<text x="745" y="488.4" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="745" dy="0">Kõik tõesed → tiiger</tspan></text>
+<text x="745" y="568" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="745" dy="0">sobib nt planeerimisse</tspan></text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Sõnavektorite „kaart“</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="100" width="560" height="420" rx="18" fill="#EEF2F7" filter="url(#sh)"/>
+<line x1="100" y1="110" x2="100" y2="510" stroke="#FFFFFF" stroke-width="2"/>
+<line x1="170" y1="110" x2="170" y2="510" stroke="#FFFFFF" stroke-width="2"/>
+<line x1="240" y1="110" x2="240" y2="510" stroke="#FFFFFF" stroke-width="2"/>
+<line x1="310" y1="110" x2="310" y2="510" stroke="#FFFFFF" stroke-width="2"/>
+<line x1="380" y1="110" x2="380" y2="510" stroke="#FFFFFF" stroke-width="2"/>
+<line x1="450" y1="110" x2="450" y2="510" stroke="#FFFFFF" stroke-width="2"/>
+<line x1="520" y1="110" x2="520" y2="510" stroke="#FFFFFF" stroke-width="2"/>
+<line x1="590" y1="110" x2="590" y2="510" stroke="#FFFFFF" stroke-width="2"/>
+<line x1="50" y1="140" x2="590" y2="140" stroke="#FFFFFF" stroke-width="2"/>
+<line x1="50" y1="210" x2="590" y2="210" stroke="#FFFFFF" stroke-width="2"/>
+<line x1="50" y1="280" x2="590" y2="280" stroke="#FFFFFF" stroke-width="2"/>
+<line x1="50" y1="350" x2="590" y2="350" stroke="#FFFFFF" stroke-width="2"/>
+<line x1="50" y1="420" x2="590" y2="420" stroke="#FFFFFF" stroke-width="2"/>
+<line x1="50" y1="490" x2="590" y2="490" stroke="#FFFFFF" stroke-width="2"/>
+<ellipse cx="170" cy="430" rx="105" ry="55" fill="#FFE2D1" opacity="0.9"/>
+<circle cx="120" cy="420" r="10" fill="#002959"/><text x="134" y="428" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="134" dy="0">kass</tspan></text>
+<circle cx="200" cy="450" r="10" fill="#002959"/><text x="200" y="484" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="200" dy="0">koer</tspan></text>
+<circle cx="510" cy="440" r="10" fill="#33547A"/><text x="510" y="420" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="510" dy="0">traktor</tspan></text>
+<line x1="214" y1="449" x2="494" y2="441" stroke="#33547A" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="355" y="472" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle" font-style="italic"><tspan x="355" dy="0">kaugel</tspan></text>
+<text x="170" y="390" font-size="19" font-weight="700" fill="#E67E42" text-anchor="middle" font-style="italic"><tspan x="170" dy="0">lähedal</tspan></text>
+<circle cx="130" cy="300" r="10" fill="#002959"/><text x="130" y="280" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="130" dy="0">mees</tspan></text>
+<circle cx="400" cy="300" r="10" fill="#002959"/><text x="400" y="280" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="400" dy="0">naine</tspan></text>
+<circle cx="130" cy="190" r="10" fill="#002959"/><text x="130" y="170" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="130" dy="0">kuningas</tspan></text>
+<circle cx="400" cy="190" r="10" fill="#FF8B48"/><text x="400" y="170" font-size="22" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="400" dy="0">kuninganna</tspan></text>
+<line x1="144" y1="300" x2="384" y2="300" stroke="#FF8B48" stroke-width="3" marker-end="url(#ao)" stroke-dasharray="8 6"/>
+<line x1="144" y1="190" x2="384" y2="190" stroke="#FF8B48" stroke-width="3" marker-end="url(#ao)" stroke-dasharray="8 6"/>
+<rect x="630" y="100" width="330" height="190" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="655" y="140" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="655" dy="0">Põhimõte</tspan></text>
+<text x="655" y="175" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="655" dy="0">Iga sõna on arvude</tspan><tspan x="655" dy="26">jada ehk vektor.</tspan><tspan x="655" dy="26">Sarnase tähendusega</tspan><tspan x="655" dy="26">sõnad on lähestikku.</tspan></text>
+<rect x="630" y="310" width="330" height="210" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="655" y="350" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="655" dy="0">Sõnadega arvutamine</tspan></text>
+<text x="655" y="390" font-size="21" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="655" dy="0">kuningas</tspan><tspan x="655" dy="28">− mees</tspan><tspan x="655" dy="28">+ naine</tspan></text>
+<text x="655" y="485" font-size="24" font-weight="700" fill="#FF8B48" text-anchor="start"><tspan x="655" dy="0">≈ kuninganna</tspan></text>
+</svg>

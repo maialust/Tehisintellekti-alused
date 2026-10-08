@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter><marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker><marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker><marker id="an" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#002959"/></marker><linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient><linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient></defs>
+<rect x="0" y="0" width="1000" height="470" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Mille põhjal esitlust hinnatakse?</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="110" width="280" height="320" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="40" y="110" width="280" height="70" rx="14" fill="#002959"/><rect x="40" y="160" width="280" height="20" fill="#002959"/>
+<text x="180" y="156" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="180" dy="0">Sisu</tspan></text>
+<circle cx="74" cy="225" r="13" fill="#002959"/>
+<path d="M67,225 L72,230 L81,220" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="98" y="232" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="98" dy="0">eesmärgid täidetud</tspan></text>
+<circle cx="74" cy="291" r="13" fill="#002959"/>
+<path d="M67,291 L72,296 L81,286" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="98" y="298" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="98" dy="0">tehniline kvaliteet</tspan></text>
+<circle cx="74" cy="357" r="13" fill="#002959"/>
+<path d="M67,357 L72,362 L81,352" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="98" y="364" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="98" dy="0">uuenduslikkus</tspan></text>
+<rect x="360" y="110" width="280" height="320" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="360" y="110" width="280" height="70" rx="14" fill="#33547A"/><rect x="360" y="160" width="280" height="20" fill="#33547A"/>
+<text x="500" y="156" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="500" dy="0">Esitlus</tspan></text>
+<circle cx="394" cy="225" r="13" fill="#33547A"/>
+<path d="M387,225 L392,230 L401,220" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="418" y="232" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="418" dy="0">selgus</tspan></text>
+<circle cx="394" cy="291" r="13" fill="#33547A"/>
+<path d="M387,291 L392,296 L401,286" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="418" y="298" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="418" dy="0">visuaalne kvaliteet</tspan></text>
+<circle cx="394" cy="357" r="13" fill="#33547A"/>
+<path d="M387,357 L392,362 L401,352" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="418" y="364" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="418" dy="0">ajaplaneerimine</tspan></text>
+<rect x="680" y="110" width="280" height="320" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<rect x="680" y="110" width="280" height="70" rx="14" fill="#FF8B48"/><rect x="680" y="160" width="280" height="20" fill="#FF8B48"/>
+<text x="820" y="156" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="820" dy="0">Vastamine</tspan></text>
+<circle cx="714" cy="225" r="13" fill="#FF8B48"/>
+<path d="M707,225 L712,230 L721,220" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="738" y="232" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="738" dy="0">vastused küsimustele</tspan></text>
+<circle cx="714" cy="291" r="13" fill="#FF8B48"/>
+<path d="M707,291 L712,296 L721,286" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="738" y="298" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="738" dy="0">teadmiste näitamine</tspan></text>
+<circle cx="714" cy="357" r="13" fill="#FF8B48"/>
+<path d="M707,357 L712,362 L721,352" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="738" y="364" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="738" dy="0">refleksioonivõime</tspan></text>
+</svg>

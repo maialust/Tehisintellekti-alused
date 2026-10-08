@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter><marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker><marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker><marker id="an" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#002959"/></marker><linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient><linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient></defs>
+<rect x="0" y="0" width="1000" height="500" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Hea demo kolm sammu</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="110" width="280" height="200" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="180" cy="158" r="26" fill="#002959"/>
+<text x="180" y="166.4" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="180" dy="0">1</tspan></text>
+<text x="180" y="222" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="180" dy="0">Stsenaarium</tspan></text>
+<text x="180" y="258" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="180" dy="0">täpsed sammud,</tspan><tspan x="180" dy="24">mida näitad</tspan></text>
+<line x1="326" y1="210" x2="354" y2="210" stroke="#FF8B48" stroke-width="5" stroke-linecap="round" marker-end="url(#ao)"/>
+<rect x="360" y="110" width="280" height="200" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="500" cy="158" r="26" fill="#002959"/>
+<text x="500" y="166.4" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="500" dy="0">2</tspan></text>
+<text x="500" y="222" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500" dy="0">Testi</tspan></text>
+<text x="500" y="258" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="500" dy="0">samas keskkonnas</tspan><tspan x="500" dy="24">enne esitlust</tspan></text>
+<line x1="646" y1="210" x2="674" y2="210" stroke="#FF8B48" stroke-width="5" stroke-linecap="round" marker-end="url(#ao)"/>
+<rect x="680" y="110" width="280" height="200" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<circle cx="820" cy="158" r="26" fill="#FF8B48"/>
+<text x="820" y="166.4" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="820" dy="0">3</tspan></text>
+<text x="820" y="222" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="820" dy="0">Varuplaan</tspan></text>
+<text x="820" y="258" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="820" dy="0">kui midagi</tspan><tspan x="820" dy="24">ei tööta</tspan></text>
+<path d="M820,312 L820,360" stroke="#FF8B48" stroke-width="4" fill="none" stroke-linecap="round" marker-end="url(#ao)"/>
+<rect x="520" y="372" width="140" height="56" rx="14" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="590" y="407" font-size="18" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="590" dy="0">video</tspan></text>
+<rect x="675" y="372" width="140" height="56" rx="14" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="745" y="407" font-size="18" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="745" dy="0">animatsioon</tspan></text>
+<rect x="830" y="372" width="140" height="56" rx="14" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="900" y="407" font-size="18" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="900" dy="0">ekraanipildid</tspan></text>
+<text x="40" y="395" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Demo näitab, et</tspan><tspan x="40" dy="27">lahendus päriselt</tspan><tspan x="40" dy="27">töötab.</tspan></text>
+</svg>

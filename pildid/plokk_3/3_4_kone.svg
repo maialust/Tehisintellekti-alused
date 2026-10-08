@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="490" viewBox="0 0 1000 490" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="490" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Kõnetuvastus ja kõnesüntees</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="190" width="200" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="70" y="245.0" width="8" height="20" rx="4" fill="#33547A"/>
+<rect x="85" y="230.0" width="8" height="50" rx="4" fill="#33547A"/>
+<rect x="100" y="215.0" width="8" height="80" rx="4" fill="#33547A"/>
+<rect x="115" y="235.0" width="8" height="40" rx="4" fill="#33547A"/>
+<rect x="130" y="210.0" width="8" height="90" rx="4" fill="#33547A"/>
+<rect x="145" y="225.0" width="8" height="60" rx="4" fill="#33547A"/>
+<rect x="160" y="240.0" width="8" height="30" rx="4" fill="#33547A"/>
+<rect x="175" y="220.0" width="8" height="70" rx="4" fill="#33547A"/>
+<rect x="190" y="232.5" width="8" height="45" rx="4" fill="#33547A"/>
+<rect x="205" y="245.0" width="8" height="20" rx="4" fill="#33547A"/>
+<text x="140" y="340" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="140" dy="0">Kõne (heli)</tspan></text>
+<rect x="760" y="190" width="200" height="170" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<line x1="795" y1="225" x2="915" y2="225" stroke="#FF8B48" stroke-width="6" stroke-linecap="round"/>
+<line x1="795" y1="247" x2="895" y2="247" stroke="#FF8B48" stroke-width="6" stroke-linecap="round"/>
+<line x1="795" y1="269" x2="925" y2="269" stroke="#FF8B48" stroke-width="6" stroke-linecap="round"/>
+<line x1="795" y1="291" x2="875" y2="291" stroke="#FF8B48" stroke-width="6" stroke-linecap="round"/>
+<text x="860" y="340" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="860" dy="0">Tekst</tspan></text>
+<path d="M245,215 C380,165 620,165 755,215" fill="none" stroke="#33547A" stroke-width="5" marker-end="url(#ab)"/>
+<text x="500" y="110" font-size="23" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500" dy="0">Kõnetuvastus: kõne → tekst</tspan></text>
+<text x="500" y="145" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="500" dy="0">helisignaal → häälikud → sõnad ja laused</tspan></text>
+<path d="M755,335 C620,385 380,385 245,335" fill="none" stroke="#FF8B48" stroke-width="5" marker-end="url(#ao)"/>
+<text x="500" y="425" font-size="23" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500" dy="0">Kõnesüntees: tekst → kõne</tspan></text>
+<text x="500" y="460" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="500" dy="0">teksti analüüs → hääldus → prosoodia → helisignaal</tspan></text>
+<text x="500" y="270" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="500" dy="0">vastand-</tspan><tspan x="500" dy="26">protsessid</tspan></text>
+</svg>

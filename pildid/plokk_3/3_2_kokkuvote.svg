@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="600" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Kaks viisi teha kokkuvõtet</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="100" width="440" height="470" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="260" y="145" font-size="28" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="260" dy="0">Ekstraktiivne</tspan></text>
+<text x="260" y="177" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="260" dy="0">valib olulised laused</tspan></text>
+<rect x="80" y="205" width="150" height="180" rx="10" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<line x1="98" y1="230" x2="202" y2="230" stroke="#33547A" stroke-width="4" stroke-linecap="round"/>
+<rect x="95" y="243" width="95" height="18" rx="4" fill="#FF8B48" fill-opacity="0.45"/>
+<line x1="98" y1="252" x2="187" y2="252" stroke="#33547A" stroke-width="4" stroke-linecap="round"/>
+<line x1="98" y1="274" x2="207" y2="274" stroke="#33547A" stroke-width="4" stroke-linecap="round"/>
+<line x1="98" y1="296" x2="172" y2="296" stroke="#33547A" stroke-width="4" stroke-linecap="round"/>
+<rect x="95" y="309" width="110" height="18" rx="4" fill="#FF8B48" fill-opacity="0.45"/>
+<line x1="98" y1="318" x2="202" y2="318" stroke="#33547A" stroke-width="4" stroke-linecap="round"/>
+<line x1="98" y1="340" x2="192" y2="340" stroke="#33547A" stroke-width="4" stroke-linecap="round"/>
+<line x1="98" y1="362" x2="162" y2="362" stroke="#33547A" stroke-width="4" stroke-linecap="round"/>
+<line x1="240" y1="295" x2="290" y2="295" stroke="#33547A" stroke-width="4" marker-end="url(#ab)"/>
+<rect x="300" y="235" width="140" height="120" rx="10" fill="#FFFFFF" stroke="#33547A" stroke-width="3"/>
+<rect x="312" y="266" width="95" height="18" rx="4" fill="#FF8B48" fill-opacity="0.45"/>
+<line x1="315" y1="275" x2="404" y2="275" stroke="#33547A" stroke-width="4" stroke-linecap="round"/>
+<rect x="312" y="306" width="110" height="18" rx="4" fill="#FF8B48" fill-opacity="0.45"/>
+<line x1="315" y1="315" x2="419" y2="315" stroke="#33547A" stroke-width="4" stroke-linecap="round"/>
+<text x="70" y="420" font-size="19" font-weight="700" fill="#002959" text-anchor="start"><tspan x="70" dy="0">Nagu tekstimarkeriga</tspan><tspan x="70" dy="22">olulise allajoonimine</tspan></text>
+<text x="70" y="472" font-size="19" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="70" dy="0">Meetodid: TF-IDF,</tspan><tspan x="70" dy="22">TextRank</tspan></text>
+<text x="70" y="524" font-size="19" font-weight="400" fill="#C0392B" text-anchor="start"><tspan x="70" dy="0">Oht: laused võivad olla</tspan><tspan x="70" dy="22">halvasti seotud</tspan></text>
+<rect x="520" y="100" width="440" height="470" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="740" y="145" font-size="28" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="740" dy="0">Abstraktiivne</tspan></text>
+<text x="740" y="177" font-size="20" font-weight="700" fill="#FF8B48" text-anchor="middle"><tspan x="740" dy="0">kirjutab uue teksti</tspan></text>
+<rect x="560" y="205" width="150" height="180" rx="10" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<line x1="578" y1="230" x2="682" y2="230" stroke="#33547A" stroke-width="4" stroke-linecap="round"/>
+<line x1="578" y1="252" x2="667" y2="252" stroke="#33547A" stroke-width="4" stroke-linecap="round"/>
+<line x1="578" y1="274" x2="687" y2="274" stroke="#33547A" stroke-width="4" stroke-linecap="round"/>
+<line x1="578" y1="296" x2="652" y2="296" stroke="#33547A" stroke-width="4" stroke-linecap="round"/>
+<line x1="578" y1="318" x2="682" y2="318" stroke="#33547A" stroke-width="4" stroke-linecap="round"/>
+<line x1="578" y1="340" x2="672" y2="340" stroke="#33547A" stroke-width="4" stroke-linecap="round"/>
+<line x1="578" y1="362" x2="642" y2="362" stroke="#33547A" stroke-width="4" stroke-linecap="round"/>
+<line x1="720" y1="295" x2="770" y2="295" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="780" y="235" width="140" height="120" rx="10" fill="#FFFFFF" stroke="#FF8B48" stroke-width="3"/>
+<line x1="798" y1="267" x2="898" y2="267" stroke="#FF8B48" stroke-width="4" stroke-linecap="round"/>
+<line x1="798" y1="291" x2="883" y2="291" stroke="#FF8B48" stroke-width="4" stroke-linecap="round"/>
+<line x1="798" y1="315" x2="903" y2="315" stroke="#FF8B48" stroke-width="4" stroke-linecap="round"/>
+<line x1="798" y1="339" x2="858" y2="339" stroke="#FF8B48" stroke-width="4" stroke-linecap="round"/>
+<g transform="translate(900,225) rotate(35)"><rect x="0" y="0" width="14" height="60" rx="3" fill="#002959"/><path d="M0,60 L7,76 L14,60 z" fill="#FF8B48"/></g>
+<text x="550" y="420" font-size="19" font-weight="700" fill="#002959" text-anchor="start"><tspan x="550" dy="0">Nagu kokkuvõte</tspan><tspan x="550" dy="22">oma sõnadega</tspan></text>
+<text x="550" y="472" font-size="19" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="550" dy="0">Meetodid: transformerid,</tspan><tspan x="550" dy="22">jada-jada mudelid</tspan></text>
+<text x="550" y="524" font-size="19" font-weight="400" fill="#C0392B" text-anchor="start"><tspan x="550" dy="0">Oht: võib lisada midagi,</tspan><tspan x="550" dy="22">mida algtekstis polnud</tspan></text>
+</svg>

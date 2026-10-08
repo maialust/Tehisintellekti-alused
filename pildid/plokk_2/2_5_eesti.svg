@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="600" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Tehisintellekt Eestis</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="30" y="100" width="290" height="470" rx="14" fill="#EEF2F7" stroke="#002959" stroke-width="2" filter="url(#sh)"/>
+<rect x="30" y="100" width="290" height="54" rx="14" fill="#002959"/>
+<rect x="30" y="134" width="290" height="20" fill="#002959"/>
+<text x="175.0" y="136" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="175.0" dy="0">Avalik sektor</tspan></text>
+<rect x="44" y="175" width="262" height="118" rx="10" fill="#FFFFFF"/>
+<text x="60" y="231" font-size="20" font-weight="700" fill="#002959" text-anchor="start"><tspan x="60" dy="0">Bürokratt</tspan></text>
+<text x="60" y="255" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="60" dy="0">virtuaalassistendid</tspan></text>
+<rect x="44" y="303" width="262" height="118" rx="10" fill="#FFFFFF"/>
+<text x="60" y="359" font-size="20" font-weight="700" fill="#002959" text-anchor="start"><tspan x="60" dy="0">Maksu- ja Tolliamet</tspan></text>
+<text x="60" y="383" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="60" dy="0">maksupettused</tspan></text>
+<rect x="44" y="431" width="262" height="118" rx="10" fill="#FFFFFF"/>
+<text x="60" y="487" font-size="20" font-weight="700" fill="#002959" text-anchor="start"><tspan x="60" dy="0">kratikava</tspan></text>
+<text x="60" y="511" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="60" dy="0">riiklik TI kava</tspan></text>
+<rect x="340" y="100" width="330" height="470" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<rect x="340" y="100" width="330" height="54" rx="14" fill="#FF8B48"/>
+<rect x="340" y="134" width="330" height="20" fill="#FF8B48"/>
+<text x="505.0" y="136" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="505.0" dy="0">Ettevõtted</tspan></text>
+<rect x="354" y="175" width="302" height="54" rx="10" fill="#FFFFFF"/>
+<text x="370" y="201" font-size="20" font-weight="700" fill="#002959" text-anchor="start"><tspan x="370" dy="0">Starship</tspan></text>
+<text x="370" y="225" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="370" dy="0">kullerrobotid</tspan></text>
+<rect x="354" y="239" width="302" height="54" rx="10" fill="#FFFFFF"/>
+<text x="370" y="265" font-size="20" font-weight="700" fill="#002959" text-anchor="start"><tspan x="370" dy="0">Veriff</tspan></text>
+<text x="370" y="289" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="370" dy="0">isikusamasus</tspan></text>
+<rect x="354" y="303" width="302" height="54" rx="10" fill="#FFFFFF"/>
+<text x="370" y="329" font-size="20" font-weight="700" fill="#002959" text-anchor="start"><tspan x="370" dy="0">Bolt</tspan></text>
+<text x="370" y="353" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="370" dy="0">sõitude sobitamine</tspan></text>
+<rect x="354" y="367" width="302" height="54" rx="10" fill="#FFFFFF"/>
+<text x="370" y="393" font-size="20" font-weight="700" fill="#002959" text-anchor="start"><tspan x="370" dy="0">Lingvist</tspan></text>
+<text x="370" y="417" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="370" dy="0">keeleõpe</tspan></text>
+<rect x="354" y="431" width="302" height="54" rx="10" fill="#FFFFFF"/>
+<text x="370" y="457" font-size="20" font-weight="700" fill="#002959" text-anchor="start"><tspan x="370" dy="0">Salv</tspan></text>
+<text x="370" y="481" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="370" dy="0">rahapesu avastamine</tspan></text>
+<rect x="354" y="495" width="302" height="54" rx="10" fill="#FFFFFF"/>
+<text x="370" y="521" font-size="20" font-weight="700" fill="#002959" text-anchor="start"><tspan x="370" dy="0">Milrem Robotics</tspan></text>
+<text x="370" y="545" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="370" dy="0">autonoomsed sõidukid</tspan></text>
+<rect x="690" y="100" width="280" height="470" rx="14" fill="#E6F3EC" stroke="#2E8B57" stroke-width="2" filter="url(#sh)"/>
+<rect x="690" y="100" width="280" height="54" rx="14" fill="#2E8B57"/>
+<rect x="690" y="134" width="280" height="20" fill="#2E8B57"/>
+<text x="830.0" y="136" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="830.0" dy="0">Teadus ja tugi</tspan></text>
+<rect x="704" y="175" width="252" height="118" rx="10" fill="#FFFFFF"/>
+<text x="720" y="231" font-size="20" font-weight="700" fill="#002959" text-anchor="start"><tspan x="720" dy="0">Tartu Ülikool</tspan></text>
+<text x="720" y="255" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="720" dy="0">kõnetuvastus, tõlge</tspan></text>
+<rect x="704" y="303" width="252" height="118" rx="10" fill="#FFFFFF"/>
+<text x="720" y="359" font-size="20" font-weight="700" fill="#002959" text-anchor="start"><tspan x="720" dy="0">Tallinna Tehnikaülikool</tspan></text>
+<text x="720" y="383" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="720" dy="0">tööstus, tark linn</tspan></text>
+<rect x="704" y="431" width="252" height="118" rx="10" fill="#FFFFFF"/>
+<text x="720" y="487" font-size="20" font-weight="700" fill="#002959" text-anchor="start"><tspan x="720" dy="0">AIRE</tspan></text>
+<text x="720" y="511" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="720" dy="0">nõustab tööstust</tspan></text>
+</svg>

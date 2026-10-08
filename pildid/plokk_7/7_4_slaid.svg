@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter><marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker><marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker><marker id="an" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#002959"/></marker><linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient><linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient></defs>
+<rect x="0" y="0" width="1000" height="540" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Slaid: 6 × 6 reegel</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="110" width="440" height="290" rx="14" fill="#FFFFFF" stroke="#C0392B" stroke-width="4" filter="url(#sh)"/>
+<rect x="40" y="110" width="440" height="50" rx="14" fill="#002959"/><rect x="40" y="140" width="440" height="20" fill="#002959"/>
+<text x="64" y="144" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="64" dy="0">Meie tulemused</tspan></text>
+<rect x="68" y="180" width="380" height="10" rx="5" fill="#CCD4DE"/>
+<rect x="68" y="203" width="343" height="10" rx="5" fill="#CCD4DE"/>
+<rect x="68" y="226" width="306" height="10" rx="5" fill="#CCD4DE"/>
+<rect x="68" y="249" width="269" height="10" rx="5" fill="#CCD4DE"/>
+<rect x="68" y="272" width="352" height="10" rx="5" fill="#CCD4DE"/>
+<rect x="68" y="295" width="315" height="10" rx="5" fill="#CCD4DE"/>
+<rect x="68" y="318" width="278" height="10" rx="5" fill="#CCD4DE"/>
+<rect x="68" y="341" width="361" height="10" rx="5" fill="#CCD4DE"/>
+<rect x="68" y="364" width="324" height="10" rx="5" fill="#CCD4DE"/>
+<circle cx="450" cy="110" r="24" fill="#C0392B"/>
+<path d="M440,100 L460,120 M460,100 L440,120" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<rect x="520" y="110" width="440" height="290" rx="14" fill="#FFFFFF" stroke="#2E8B57" stroke-width="4" filter="url(#sh)"/>
+<rect x="520" y="110" width="440" height="50" rx="14" fill="#002959"/><rect x="520" y="140" width="440" height="20" fill="#002959"/>
+<text x="544" y="144" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="544" dy="0">Meie tulemused</tspan></text>
+<circle cx="556" cy="200" r="7" fill="#FF8B48"/>
+<text x="574" y="207" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="574" dy="0">Ennustus täpsem kui keskmine</tspan></text>
+<circle cx="556" cy="244" r="7" fill="#FF8B48"/>
+<text x="574" y="251" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="574" dy="0">Toidujäätmeid vähem</tspan></text>
+<circle cx="556" cy="288" r="7" fill="#FF8B48"/>
+<text x="574" y="295" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="574" dy="0">Järgmiseks: teised koolid</tspan></text>
+<rect x="820" y="310" width="36" height="60" rx="4" fill="#33547A"/>
+<rect x="870" y="330" width="36" height="40" rx="4" fill="#FF8B48"/>
+<line x1="810" y1="370" x2="920" y2="370" stroke="#33547A" stroke-width="2"/>
+<circle cx="930" cy="110" r="24" fill="#2E8B57"/>
+<path d="M918,110 L927,120 L943,100" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="260" y="440" font-size="20" font-weight="600" fill="#C0392B" text-anchor="middle"><tspan x="260" dy="0">Tekstisein – kuulaja loeb, ei kuula</tspan></text>
+<text x="740" y="440" font-size="20" font-weight="600" fill="#2E8B57" text-anchor="middle"><tspan x="740" dy="0">Lühikesed punktid + graafik</tspan></text>
+<rect x="150" y="470" width="700" height="50" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2"/>
+<text x="500" y="503" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500" dy="0">Kuni 6 punkti slaidil, kuni 6 sõna punktis</tspan></text>
+</svg>

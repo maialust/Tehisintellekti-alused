@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="600" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Mida tehisintellekt oskab?</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<line x1="500" y1="350" x2="160" y2="190" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="350" x2="500" y2="160" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="350" x2="840" y2="190" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="350" x2="840" y2="500" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="350" x2="500" y2="530" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="350" x2="160" y2="500" stroke="#CCD4DE" stroke-width="4"/>
+<circle cx="500" cy="350" r="92" fill="url(#gnavy)" filter="url(#sh)"/>
+<text x="500" y="342" font-size="44" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="500" dy="0">TI</tspan></text>
+<text x="500" y="376" font-size="20" font-weight="400" fill="#CCD4DE" text-anchor="middle"><tspan x="500" dy="0">jäljendab</tspan></text>
+<text x="500" y="400" font-size="20" font-weight="400" fill="#CCD4DE" text-anchor="middle"><tspan x="500" dy="0">inimmõistust</tspan></text>
+<rect x="25.0" y="142.0" width="270" height="96" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<rect x="43.0" y="192" width="10" height="18" rx="2" fill="#002959"/>
+<rect x="57.0" y="180" width="10" height="30" rx="2" fill="#002959"/>
+<rect x="71.0" y="188" width="10" height="22" rx="2" fill="#002959"/>
+<rect x="85.0" y="170" width="10" height="40" rx="2" fill="#FF8B48"/>
+<text x="109.0" y="184" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="109.0" dy="0">Õppimine</tspan></text>
+<text x="109.0" y="212" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="109.0" dy="0">õpib andmetest</tspan></text>
+<rect x="365.0" y="112.0" width="270" height="96" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="387.0" y="132" width="44" height="56" rx="6" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<line x1="397.0" y1="146" x2="423.0" y2="146" stroke="#FF8B48" stroke-width="3"/>
+<line x1="397.0" y1="160" x2="423.0" y2="160" stroke="#002959" stroke-width="3"/>
+<line x1="397.0" y1="174" x2="423.0" y2="174" stroke="#002959" stroke-width="3"/>
+<text x="449.0" y="154" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="449.0" dy="0">Arutlemine</tspan></text>
+<text x="449.0" y="182" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="449.0" dy="0">teeb järeldusi</tspan></text>
+<rect x="705.0" y="142.0" width="270" height="96" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="731.0" cy="206" r="7" fill="#002959"/>
+<circle cx="767.0" cy="174" r="9" fill="#FF8B48"/>
+<path d="M731.0,206 Q769.0,204 745.0,190 Q725.0,176 767.0,174" fill="none" stroke="#002959" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="789.0" y="184" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="789.0" dy="0">Planeerimine</tspan></text>
+<text x="789.0" y="212" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="789.0" dy="0">järjestab tegevusi</tspan></text>
+<rect x="705.0" y="452.0" width="270" height="96" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="721.0" y="478" width="56" height="36" rx="10" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<path d="M735.0,514 L729.0,526 L747.0,514 z" fill="#002959"/>
+<circle cx="737.0" cy="496" r="4" fill="#FF8B48"/>
+<circle cx="749.0" cy="496" r="4" fill="#FF8B48"/>
+<circle cx="761.0" cy="496" r="4" fill="#FF8B48"/>
+<text x="789.0" y="494" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="789.0" dy="0">Keele mõistmine</tspan></text>
+<text x="789.0" y="522" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="789.0" dy="0">töötleb inimkeelt</tspan></text>
+<rect x="365.0" y="482.0" width="270" height="96" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<path d="M379.0,530 Q409.0,504 439.0,530 Q409.0,556 379.0,530 z" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="409.0" cy="530" r="10" fill="#FF8B48"/>
+<circle cx="409.0" cy="530" r="4" fill="#002959"/>
+<text x="449.0" y="524" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="449.0" dy="0">Tajumine</tspan></text>
+<text x="449.0" y="552" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="449.0" dy="0">pildid, helid, andurid</tspan></text>
+<rect x="25.0" y="452.0" width="270" height="96" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="64.0" y="472" width="10" height="12" rx="2" fill="#002959" transform="rotate(0 69.0 500)"/>
+<rect x="64.0" y="472" width="10" height="12" rx="2" fill="#002959" transform="rotate(45 69.0 500)"/>
+<rect x="64.0" y="472" width="10" height="12" rx="2" fill="#002959" transform="rotate(90 69.0 500)"/>
+<rect x="64.0" y="472" width="10" height="12" rx="2" fill="#002959" transform="rotate(135 69.0 500)"/>
+<rect x="64.0" y="472" width="10" height="12" rx="2" fill="#002959" transform="rotate(180 69.0 500)"/>
+<rect x="64.0" y="472" width="10" height="12" rx="2" fill="#002959" transform="rotate(225 69.0 500)"/>
+<rect x="64.0" y="472" width="10" height="12" rx="2" fill="#002959" transform="rotate(270 69.0 500)"/>
+<rect x="64.0" y="472" width="10" height="12" rx="2" fill="#002959" transform="rotate(315 69.0 500)"/>
+<circle cx="69.0" cy="500" r="18" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="69.0" cy="500" r="7" fill="#FF8B48"/>
+<text x="109.0" y="494" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="109.0" dy="0">Kohanemine</tspan></text>
+<text x="109.0" y="522" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="109.0" dy="0">uued olukorrad</tspan></text>
+
+</svg>

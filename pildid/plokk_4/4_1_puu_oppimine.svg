@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="agr" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#CCD4DE"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="600" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Kuidas otsustuspuu andmetest õpib?</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="100" width="440" height="70" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="82" cy="135" r="22" fill="#FF8B48"/>
+<text x="82" y="142.92" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="82" dy="0">1</tspan></text>
+<text x="118" y="142" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="118" dy="0">Alusta kõigi andmetega</tspan></text>
+<line x1="260" y1="172" x2="260" y2="190" stroke="#33547A" stroke-width="3" stroke-linecap="round" marker-end="url(#ab)"/>
+<rect x="40" y="192" width="440" height="70" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<circle cx="82" cy="227" r="22" fill="#FF8B48"/>
+<text x="82" y="234.92" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="82" dy="0">2</tspan></text>
+<text x="118" y="234" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="118" dy="0">Vali parim tunnus jagamiseks</tspan></text>
+<line x1="260" y1="264" x2="260" y2="282" stroke="#33547A" stroke-width="3" stroke-linecap="round" marker-end="url(#ab)"/>
+<rect x="40" y="284" width="440" height="70" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="82" cy="319" r="22" fill="#FF8B48"/>
+<text x="82" y="326.92" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="82" dy="0">3</tspan></text>
+<text x="118" y="326" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="118" dy="0">Jaga andmed rühmadesse</tspan></text>
+<line x1="260" y1="356" x2="260" y2="374" stroke="#33547A" stroke-width="3" stroke-linecap="round" marker-end="url(#ab)"/>
+<rect x="40" y="376" width="440" height="70" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<circle cx="82" cy="411" r="22" fill="#FF8B48"/>
+<text x="82" y="418.92" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="82" dy="0">4</tspan></text>
+<text x="118" y="418" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="118" dy="0">Korda iga alamrühmaga</tspan></text>
+<line x1="260" y1="448" x2="260" y2="466" stroke="#33547A" stroke-width="3" stroke-linecap="round" marker-end="url(#ab)"/>
+<rect x="40" y="468" width="440" height="70" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="82" cy="503" r="22" fill="#FF8B48"/>
+<text x="82" y="510.92" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="82" dy="0">5</tspan></text>
+<text x="118" y="510" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="118" dy="0">Peatu: rühmast saab leht</tspan></text>
+<path d="M480,411 C540,411 540,227 486,227" fill="none" stroke="#FF8B48" stroke-width="4" stroke-linecap="round" marker-end="url(#ao)"/>
+<text x="560" y="319" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle" transform="rotate(-90 560 319)">korduvalt</text>
+<rect x="610" y="100" width="360" height="470" rx="14" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="790" y="135" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="790" dy="0">Hea jagamine</tspan></text>
+<rect x="680" y="152" width="220" height="70" rx="14" fill="#EEF2F7"/>
+<circle cx="705" cy="187" r="9" fill="#FF8B48"/>
+<circle cx="729" cy="187" r="9" fill="#33547A"/>
+<circle cx="753" cy="187" r="9" fill="#FF8B48"/>
+<circle cx="777" cy="187" r="9" fill="#33547A"/>
+<circle cx="801" cy="187" r="9" fill="#33547A"/>
+<circle cx="825" cy="187" r="9" fill="#FF8B48"/>
+<circle cx="849" cy="187" r="9" fill="#FF8B48"/>
+<circle cx="873" cy="187" r="9" fill="#33547A"/>
+<line x1="790" y1="224" x2="790" y2="262" stroke="#33547A" stroke-width="3" stroke-linecap="round" marker-end="url(#ab)"/>
+<polygon points="790,262 885,302 790,342 695,302" fill="#002959" filter="url(#sh)"/>
+<text x="790" y="309.4" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="790" dy="0">Pilves?</tspan></text>
+<line x1="730" y1="330" x2="700" y2="392" stroke="#33547A" stroke-width="3" stroke-linecap="round" marker-end="url(#ab)"/>
+<text x="702" y="357" font-size="20" font-weight="700" fill="#E67E42" text-anchor="end"><tspan x="702" dy="0">jah</tspan></text>
+<line x1="850" y1="330" x2="880" y2="392" stroke="#33547A" stroke-width="3" stroke-linecap="round" marker-end="url(#ab)"/>
+<text x="876" y="357" font-size="20" font-weight="700" fill="#E67E42" text-anchor="start"><tspan x="876" dy="0">ei</tspan></text>
+<rect x="630" y="395" width="150" height="60" rx="14" fill="#FFF4EC"/>
+<circle cx="660" cy="425" r="10" fill="#FF8B48"/>
+<circle cx="690" cy="425" r="10" fill="#FF8B48"/>
+<circle cx="720" cy="425" r="10" fill="#FF8B48"/>
+<circle cx="750" cy="425" r="10" fill="#FF8B48"/>
+<rect x="800" y="395" width="150" height="60" rx="14" fill="#EEF2F7"/>
+<circle cx="830" cy="425" r="10" fill="#33547A"/>
+<circle cx="860" cy="425" r="10" fill="#33547A"/>
+<circle cx="890" cy="425" r="10" fill="#33547A"/>
+<circle cx="920" cy="425" r="10" fill="#33547A"/>
+<text x="790" y="488" font-size="21" font-weight="700" fill="#2E8B57" text-anchor="middle"><tspan x="790" dy="0">homogeensed rühmad</tspan></text>
+<circle cx="645" cy="530" r="9" fill="#FF8B48"/>
+<text x="662" y="537" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="662" dy="0">võttis</tspan></text>
+<circle cx="800" cy="530" r="9" fill="#33547A"/>
+<text x="817" y="537" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="817" dy="0">ei võtnud</tspan></text>
+</svg>

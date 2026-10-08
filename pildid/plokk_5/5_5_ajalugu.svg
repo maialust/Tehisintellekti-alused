@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="500" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Pildimanipulatsioon: käsitööst automaatikani</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="60" y="243" width="880" height="12" rx="6" fill="url(#gor)"/>
+<circle cx="108" cy="249" r="20" fill="#33547A" stroke="#FFFFFF" stroke-width="4"/>
+<rect x="15" y="100" width="186" height="135" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="108" y="134" font-size="22" font-weight="800" fill="#33547A" text-anchor="middle"><tspan x="108" dy="0">pimiku aeg</tspan></text>
+<text x="108" y="162" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="108" dy="0">Fotoretušš</tspan></text>
+<text x="108" y="188" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="108" dy="0">kärpimine,</tspan><tspan x="108" dy="23">kollaažid, värv</tspan></text>
+<circle cx="304" cy="249" r="20" fill="#33547A" stroke="#FFFFFF" stroke-width="4"/>
+<rect x="211" y="290" width="186" height="135" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="304" y="324" font-size="22" font-weight="800" fill="#33547A" text-anchor="middle"><tspan x="304" dy="0">1990. a</tspan></text>
+<text x="304" y="352" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="304" dy="0">Photoshop</tspan></text>
+<text x="304" y="378" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="304" dy="0">digitaalne</tspan><tspan x="304" dy="23">kloonimine, retušš</tspan></text>
+<circle cx="500" cy="249" r="20" fill="#FF8B48" stroke="#FFFFFF" stroke-width="4"/>
+<rect x="407" y="100" width="186" height="135" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="500" y="134" font-size="22" font-weight="800" fill="#E67E42" text-anchor="middle"><tspan x="500" dy="0">2017</tspan></text>
+<text x="500" y="162" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500" dy="0">Esimesed</tspan></text>
+<text x="500" y="188" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="500" dy="0">süvavõltsingud</tspan><tspan x="500" dy="23">internetis</tspan></text>
+<circle cx="696" cy="249" r="20" fill="#FF8B48" stroke="#FFFFFF" stroke-width="4"/>
+<rect x="603" y="290" width="186" height="135" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="696" y="324" font-size="22" font-weight="800" fill="#E67E42" text-anchor="middle"><tspan x="696" dy="0">2018–2019</tspan></text>
+<text x="696" y="352" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="696" dy="0">Kiire areng</tspan></text>
+<text x="696" y="378" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="696" dy="0">tehnoloogia</tspan><tspan x="696" dy="23">areneb kiiresti</tspan></text>
+<circle cx="892" cy="249" r="20" fill="#FF8B48" stroke="#FFFFFF" stroke-width="4"/>
+<rect x="799" y="100" width="186" height="135" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="892" y="134" font-size="22" font-weight="800" fill="#E67E42" text-anchor="middle"><tspan x="892" dy="0">2020. a</tspan></text>
+<text x="892" y="162" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="892" dy="0">Kõigile</tspan></text>
+<text x="892" y="188" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="892" dy="0">kättesaadav, ka</tspan><tspan x="892" dy="23">telefonirakendusena</tspan></text>
+<text x="500" y="475" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500" dy="0">Areng: käsitöö → automatiseeritud ja kõigile kättesaadav tehnoloogia</tspan></text>
+</svg>

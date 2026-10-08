@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="640" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">GAN: kaks võistlevat närvivõrku</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="110" width="200" height="70" rx="14" fill="#CCD4DE" filter="url(#sh)"/>
+<text x="140" y="154" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="140" dy="0">juhuslik müra</tspan></text>
+<line x1="240" y1="145" x2="300" y2="145" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="305" y="100" width="300" height="92" rx="14" fill="#FF8B48" filter="url(#sh)"/>
+<text x="455" y="140" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="455" dy="0">GENERAATOR</tspan></text>
+<text x="455" y="172" font-size="20" font-weight="400" fill="#FFFFFF" text-anchor="middle"><tspan x="455" dy="0">„Teen võltsi!“</tspan></text>
+<line x1="455" y1="196" x2="455" y2="262" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="370" y="266" width="170" height="60" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="3" filter="url(#sh)"/>
+<text x="455" y="304" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="455" dy="0">võltsitud pilt</tspan></text>
+<rect x="700" y="266" width="230" height="60" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="3" filter="url(#sh)"/>
+<text x="815" y="304" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="815" dy="0">päris pildid</tspan></text>
+<path d="M455 330 L455 372 L560 372 L560 398" stroke="#FF8B48" stroke-width="4" fill="none" marker-end="url(#ao)"/>
+<path d="M815 330 L815 372 L700 372 L700 398" stroke="#33547A" stroke-width="4" fill="none" marker-end="url(#ab)"/>
+<rect x="470" y="402" width="320" height="92" rx="14" fill="#002959" filter="url(#sh)"/>
+<text x="630" y="442" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="630" dy="0">DISKRIMINAATOR</tspan></text>
+<text x="630" y="474" font-size="20" font-weight="400" fill="#FFFFFF" text-anchor="middle"><tspan x="630" dy="0">„Päris või võlts?“</tspan></text>
+<line x1="630" y1="498" x2="630" y2="538" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="530" y="542" width="200" height="52" rx="14" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<text x="630" y="576" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="630" dy="0">päris / võlts</tspan></text>
+<path d="M528 568 L120 568 L120 228 L298 168" stroke="#2E8B57" stroke-width="4" fill="none" stroke-dasharray="8 6" marker-end="url(#ag)"/>
+<text x="140" y="400" font-size="20" font-weight="400" fill="#2E8B57" text-anchor="start"><tspan x="140" dy="0">tagasiside:</tspan><tspan x="140" dy="25">generaator teeb</tspan><tspan x="140" dy="25">paremaid võltse,</tspan><tspan x="140" dy="25">diskriminaator</tspan><tspan x="140" dy="25">muutub teravamaks</tspan></text>
+<text x="830" y="150" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="830" dy="0">võltsija</tspan><tspan x="830" dy="25">vs</tspan><tspan x="830" dy="25">politseinik</tspan></text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="agr" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#CCD4DE"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="620" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Otsustuspuu: kas võtta vihmavari?</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<line x1="440" y1="150" x2="300" y2="228" stroke="#33547A" stroke-width="4" stroke-linecap="round" marker-end="url(#ab)"/>
+<text x="356.0" y="189.0" font-size="20" font-weight="700" fill="#E67E42" text-anchor="end"><tspan x="356.0" dy="0">jah</tspan></text>
+<line x1="560" y1="150" x2="740" y2="228" stroke="#33547A" stroke-width="4" stroke-linecap="round" marker-end="url(#ab)"/>
+<text x="664.0" y="189.0" font-size="20" font-weight="700" fill="#E67E42" text-anchor="start"><tspan x="664.0" dy="0">ei</tspan></text>
+<line x1="220" y1="290" x2="150" y2="378" stroke="#33547A" stroke-width="4" stroke-linecap="round" marker-end="url(#ab)"/>
+<text x="171.0" y="334.0" font-size="20" font-weight="700" fill="#E67E42" text-anchor="end"><tspan x="171.0" dy="0">jah</tspan></text>
+<line x1="340" y1="290" x2="470" y2="378" stroke="#33547A" stroke-width="4" stroke-linecap="round" marker-end="url(#ab)"/>
+<text x="419.0" y="334.0" font-size="20" font-weight="700" fill="#E67E42" text-anchor="start"><tspan x="419.0" dy="0">ei</tspan></text>
+<line x1="470" y1="440" x2="410" y2="528" stroke="#33547A" stroke-width="4" stroke-linecap="round" marker-end="url(#ab)"/>
+<text x="426.0" y="484.0" font-size="20" font-weight="700" fill="#E67E42" text-anchor="end"><tspan x="426.0" dy="0">jah</tspan></text>
+<line x1="560" y1="440" x2="670" y2="528" stroke="#33547A" stroke-width="4" stroke-linecap="round" marker-end="url(#ab)"/>
+<text x="629.0" y="484.0" font-size="20" font-weight="700" fill="#E67E42" text-anchor="start"><tspan x="629.0" dy="0">ei</tspan></text>
+<rect x="310" y="90" width="380" height="60" rx="14" fill="#002959" filter="url(#sh)"/>
+<text x="500.0" y="127.7" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="500.0" dy="0">Kas taevas on pilves?</tspan></text>
+<rect x="90" y="230" width="380" height="60" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="3" filter="url(#sh)"/>
+<text x="280.0" y="267.7" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="280.0" dy="0">Kas ilmateade lubab vihma?</tspan></text>
+<rect x="640" y="230" width="220" height="60" rx="14" fill="#CCD4DE" filter="url(#sh)"/>
+<text x="750.0" y="267.7" font-size="22" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="750.0" dy="0">ÄRA VÕTA</tspan></text>
+<rect x="20" y="380" width="260" height="60" rx="14" fill="#FF8B48" filter="url(#sh)"/>
+<text x="150.0" y="417.7" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="150.0" dy="0">VÕTA VIHMAVARI</tspan></text>
+<rect x="320" y="380" width="400" height="60" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="3" filter="url(#sh)"/>
+<text x="520.0" y="417.7" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="520.0" dy="0">Kas oled õues kauem kui tund?</tspan></text>
+<rect x="290" y="530" width="250" height="60" rx="14" fill="#FF8B48" filter="url(#sh)"/>
+<text x="415.0" y="567.7" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="415.0" dy="0">VÕTA VIHMAVARI</tspan></text>
+<rect x="580" y="530" width="200" height="60" rx="14" fill="#CCD4DE" filter="url(#sh)"/>
+<text x="680.0" y="567.7" font-size="22" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="680.0" dy="0">ÄRA VÕTA</tspan></text>
+<rect x="800" y="330" width="185" height="200" rx="14" fill="#FFF4EC"/>
+<text x="892" y="362" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="892" dy="0">Puu osad</tspan></text>
+<rect x="818" y="380" width="32" height="24" rx="6" fill="#002959"/>
+<text x="862" y="399" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="862" dy="0">juuretipp</tspan></text>
+<rect x="818" y="420" width="32" height="24" rx="6" fill="#EEF2F7" stroke="#33547A" stroke-width="2"/>
+<text x="862" y="439" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="862" dy="0">sisemine</tspan></text>
+<text x="862" y="461" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="862" dy="0">tipp</tspan></text>
+<rect x="818" y="478" width="15" height="24" rx="4" fill="#FF8B48"/>
+<rect x="835" y="478" width="15" height="24" rx="4" fill="#CCD4DE"/>
+<text x="862" y="497" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="862" dy="0">leht</tspan></text>
+</svg>

@@ -7,7 +7,7 @@ narrator: Estonian Female
 date:     01.10.2026
 logo:     pildid/pae_logo.png
 icon:     pildid/pae_logo.png
-comment:  Tehisintellekti alused – gümnaasiumi valikkursus (35 tundi), Tallinna Pae Gümnaasium. Õppetekstid, interaktiivsed töölehed ja enesekontrollitestid.
+comment:  Tehisintellekti alused – e-õpik 10. klassile. Õppetekstid, interaktiivsed töölehed ja enesekontrollitestid.
 link:     https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@600;700&family=JetBrains+Mono:wght@400;600&display=swap
 
 @style
@@ -251,14 +251,12 @@ details summary { cursor: pointer; font-weight: bold; color: var(--pae-oranz-tum
 # Tehisintellekti alused
 
 <!-- class="pae-kaas" -->
-![Õpiku kaas: Tehisintellekti alused, gümnaasiumi valikkursus, 35 tundi, Tallinna Pae Gümnaasium, autor Maia Lust](pildid/yld/kaas.svg)
-
-*Gümnaasiumi valikkursus (35 tundi) · Autor: Maia Lust · Tallinna Pae Gümnaasium*
+![Õpiku kaas: Tehisintellekti alused, e-õpik 10. klassile, Tallinna Pae Gümnaasium](pildid/yld/kaas.svg)
 
 **Tere tulemast!** Tehisintellekt (TI) on sinu ümber iga päev: telefoni näotuvastus, voogedastuse soovitused, masintõlge ja vestlusrobotid. Selles õpikus saad teada, kuidas TI tegelikult töötab, kus seda kasutatakse ja milliseid küsimusi see ühiskonnale tekitab. Õpid TI-d kasutama targalt ja kriitiliselt ning teed kursuse lõpus oma projektitöö.
 
 <!-- class="pae-fakt" -->
-> **Kursus ühe pilguga:** gümnaasiumi valikkursus · 35 tundi · 7 plokki · 31 teemat · igas tunnis õppetekst, infograafikud, interaktiivne tööleht ja enesekontroll.
+> **Kursus ühe pilguga:** 7 plokki · 31 tundi · igas tunnis õppetekst, infograafikud, interaktiivne tööleht ja enesekontroll.
 
 ## Kuidas õpikut kasutada?
 

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Algoritmide tüübid tehisintellektis</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="380" y="100" width="240" height="70" rx="14" fill="url(#gnavy)" filter="url(#sh)"/>
+<text x="500" y="144" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="500" dy="0">TI algoritmid</tspan></text>
+<path d="M500,172 L500,200 L128.0,200 L128.0,236" stroke="#FF8B48" stroke-width="3" fill="none" marker-end="url(#ao)" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="40" y="240" width="176" height="280" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<circle cx="122.0" cy="296" r="22" fill="none" stroke="#002959" stroke-width="5"/>
+<line x1="138.0" y1="312" x2="156.0" y2="330" stroke="#002959" stroke-width="7" stroke-linecap="round"/>
+<text x="128.0" y="368" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="128.0" dy="0">Otsing</tspan></text>
+<text x="128.0" y="410" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="128.0" dy="0">leiab tee</tspan><tspan x="128.0" dy="26">võimaluste</tspan><tspan x="128.0" dy="26">ruumis</tspan><tspan x="128.0" dy="26">nt A*</tspan></text>
+<path d="M500,172 L500,200 L314.0,200 L314.0,236" stroke="#FF8B48" stroke-width="3" fill="none" marker-end="url(#ao)" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="226" y="240" width="176" height="280" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<rect x="280.0" y="314" width="14" height="16" rx="3" fill="#33547A"/>
+<rect x="298.0" y="300" width="14" height="30" rx="3" fill="#33547A"/>
+<rect x="316.0" y="286" width="14" height="44" rx="3" fill="#33547A"/>
+<rect x="334.0" y="272" width="14" height="58" rx="3" fill="#FF8B48"/>
+<text x="314.0" y="368" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="314.0" dy="0">Sorteerimine</tspan></text>
+<text x="314.0" y="410" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="314.0" dy="0">korrastab</tspan><tspan x="314.0" dy="26">andmed</tspan><tspan x="314.0" dy="26">nt kiir-</tspan><tspan x="314.0" dy="26">sorteerimine</tspan></text>
+<path d="M500,172 L500,200 L500.0,200 L500.0,236" stroke="#FF8B48" stroke-width="3" fill="none" marker-end="url(#ao)" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="412" y="240" width="176" height="280" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<path d="M460.0,274 Q500.0,360 540.0,274" stroke="#002959" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="500.0" cy="317" r="8" fill="#FF8B48"/>
+<text x="500.0" y="368" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500.0" dy="0">Optimeerimine</tspan></text>
+<text x="500.0" y="410" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="500.0" dy="0">otsib parimat</tspan><tspan x="500.0" dy="26">lahendust</tspan><tspan x="500.0" dy="26">nt gradient-</tspan><tspan x="500.0" dy="26">laskumine</tspan></text>
+<path d="M500,172 L500,200 L686.0,200 L686.0,236" stroke="#FF8B48" stroke-width="3" fill="none" marker-end="url(#ao)" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="598" y="240" width="176" height="280" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<rect x="646.0" y="275" width="32" height="50" rx="6" fill="#2E8B57"/>
+<rect x="694.0" y="275" width="32" height="50" rx="6" fill="#C0392B"/>
+<text x="686.0" y="356" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="686.0" dy="0">Klassifit-</tspan><tspan x="686.0" dy="24">seerimine</tspan></text>
+<text x="686.0" y="410" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="686.0" dy="0">määrab</tspan><tspan x="686.0" dy="26">kategooria</tspan><tspan x="686.0" dy="26">nt rämpspost</tspan><tspan x="686.0" dy="26">või mitte</tspan></text>
+<path d="M500,172 L500,200 L872.0,200 L872.0,236" stroke="#FF8B48" stroke-width="3" fill="none" marker-end="url(#ao)" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="784" y="240" width="176" height="280" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<line x1="842.0" y1="282" x2="857.0" y2="314" stroke="#CCD4DE" stroke-width="2" stroke-linecap="round"/>
+<line x1="872.0" y1="274" x2="857.0" y2="314" stroke="#CCD4DE" stroke-width="2" stroke-linecap="round"/>
+<line x1="872.0" y1="274" x2="887.0" y2="314" stroke="#CCD4DE" stroke-width="2" stroke-linecap="round"/>
+<line x1="902.0" y1="282" x2="887.0" y2="314" stroke="#CCD4DE" stroke-width="2" stroke-linecap="round"/>
+<line x1="842.0" y1="282" x2="887.0" y2="314" stroke="#CCD4DE" stroke-width="2" stroke-linecap="round"/>
+<line x1="902.0" y1="282" x2="857.0" y2="314" stroke="#CCD4DE" stroke-width="2" stroke-linecap="round"/>
+<circle cx="842.0" cy="282" r="9" fill="#002959"/>
+<circle cx="872.0" cy="274" r="9" fill="#002959"/>
+<circle cx="902.0" cy="282" r="9" fill="#002959"/>
+<circle cx="857.0" cy="314" r="9" fill="#FF8B48"/>
+<circle cx="887.0" cy="314" r="9" fill="#FF8B48"/>
+<text x="872.0" y="368" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="872.0" dy="0">Masinõpe</tspan></text>
+<text x="872.0" y="410" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="872.0" dy="0">õpib</tspan><tspan x="872.0" dy="26">andmetest</tspan><tspan x="872.0" dy="26">3 põhitüüpi</tspan><tspan x="872.0" dy="26">(tund 2.3)</tspan></text>
+</svg>

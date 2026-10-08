@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="580" viewBox="0 0 1000 580" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="580" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Masintõlke ajajoon</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<line x1="50" y1="290" x2="950" y2="290" stroke="#CCD4DE" stroke-width="8" stroke-linecap="round"/>
+<line x1="900" y1="290" x2="960" y2="290" stroke="#33547A" stroke-width="8" marker-end="url(#ab)"/>
+<line x1="90.0" y1="290" x2="90.0" y2="246" stroke="#FF8B48" stroke-width="3"/>
+<rect x="20" y="154" width="236" height="92" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="138.0" y="186" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="138.0" dy="0">1950. aastad</tspan></text>
+<text x="138.0" y="214" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="138.0" dy="0">Georgetowni</tspan><tspan x="138.0" dy="26">eksperiment</tspan></text>
+<circle cx="90.0" cy="290" r="14" fill="#FF8B48" stroke="#FFFFFF" stroke-width="4"/>
+<line x1="254.0" y1="290" x2="254.0" y2="334" stroke="#FF8B48" stroke-width="3"/>
+<rect x="136.0" y="334" width="236" height="92" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="254.0" y="366" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="254.0" dy="0">1960.–70. a</tspan></text>
+<text x="254.0" y="394" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="254.0" dy="0">Reeglipõhised</tspan><tspan x="254.0" dy="26">süsteemid</tspan></text>
+<circle cx="254.0" cy="290" r="14" fill="#FF8B48" stroke="#FFFFFF" stroke-width="4"/>
+<line x1="418.0" y1="290" x2="418.0" y2="246" stroke="#FF8B48" stroke-width="3"/>
+<rect x="300.0" y="154" width="236" height="92" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="418.0" y="186" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="418.0" dy="0">1980.–90. a</tspan></text>
+<text x="418.0" y="214" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="418.0" dy="0">Statistilised</tspan><tspan x="418.0" dy="26">meetodid</tspan></text>
+<circle cx="418.0" cy="290" r="14" fill="#FF8B48" stroke="#FFFFFF" stroke-width="4"/>
+<line x1="582.0" y1="290" x2="582.0" y2="334" stroke="#FF8B48" stroke-width="3"/>
+<rect x="464.0" y="334" width="236" height="92" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="582.0" y="366" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="582.0" dy="0">2000–2010</tspan></text>
+<text x="582.0" y="394" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="582.0" dy="0">Fraasipõhine</tspan><tspan x="582.0" dy="26">statistiline tõlge</tspan></text>
+<circle cx="582.0" cy="290" r="14" fill="#FF8B48" stroke="#FFFFFF" stroke-width="4"/>
+<line x1="746.0" y1="290" x2="746.0" y2="246" stroke="#FF8B48" stroke-width="3"/>
+<rect x="628.0" y="154" width="236" height="92" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="746.0" y="186" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="746.0" dy="0">2014</tspan></text>
+<text x="746.0" y="214" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="746.0" dy="0">Jada-jada</tspan><tspan x="746.0" dy="26">mudelid</tspan></text>
+<circle cx="746.0" cy="290" r="14" fill="#FF8B48" stroke="#FFFFFF" stroke-width="4"/>
+<line x1="910.0" y1="290" x2="910.0" y2="334" stroke="#FF8B48" stroke-width="3"/>
+<rect x="744" y="334" width="236" height="92" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="862.0" y="366" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="862.0" dy="0">2016 – …</tspan></text>
+<text x="862.0" y="394" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="862.0" dy="0">Närvivõrgud:</tspan><tspan x="862.0" dy="26">tähelepanu, transformerid</tspan></text>
+<circle cx="910.0" cy="290" r="14" fill="#FF8B48" stroke="#FFFFFF" stroke-width="4"/>
+<rect x="30" y="510" width="278.0" height="46" rx="12" fill="#CCD4DE"/>
+<text x="169.0" y="540" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="169.0" dy="0">Reeglipõhine</tspan></text>
+<rect x="358.0" y="510" width="278.0" height="46" rx="12" fill="#33547A"/>
+<text x="497.0" y="540" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="497.0" dy="0">Statistiline</tspan></text>
+<rect x="686.0" y="510" width="278.0" height="46" rx="12" fill="#FF8B48"/>
+<text x="825.0" y="540" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="825.0" dy="0">Närvivõrgupõhine</tspan></text>
+</svg>

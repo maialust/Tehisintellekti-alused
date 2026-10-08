@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="660" viewBox="0 0 1000 660" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="660" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">TI-põhine pildianalüüsi töövoog</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="30" y="100" width="290" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="66" cy="138" r="20" fill="#FF8B48"/>
+<text x="66" y="145" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="66" dy="0">1</tspan></text>
+<text x="98" y="146" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="98" dy="0">Pildi kogumine</tspan></text>
+<text x="54" y="215" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="54" dy="0">röntgen, MRT, KT …</tspan></text>
+<rect x="355" y="100" width="290" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="391" cy="138" r="20" fill="#FF8B48"/>
+<text x="391" y="145" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="391" dy="0">2</tspan></text>
+<text x="423" y="146" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="423" dy="0">Eeltöötlus</tspan></text>
+<text x="379" y="215" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="379" dy="0">müra eemaldamine,</tspan><tspan x="379" dy="25">kontrasti parandamine</tspan></text>
+<rect x="680" y="100" width="290" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="716" cy="138" r="20" fill="#FF8B48"/>
+<text x="716" y="145" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="716" dy="0">3</tspan></text>
+<text x="748" y="146" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="748" dy="0">Segmenteerimine</tspan></text>
+<text x="704" y="215" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="704" dy="0">eri kudede ja</tspan><tspan x="704" dy="25">struktuuride eristamine</tspan></text>
+<rect x="680" y="320" width="290" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="716" cy="358" r="20" fill="#FF8B48"/>
+<text x="716" y="365" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="716" dy="0">4</tspan></text>
+<text x="748" y="366" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="748" dy="0">Tunnuste</tspan><tspan x="748" dy="28">tuvastamine</tspan></text>
+<text x="704" y="435" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="704" dy="0">võimalike haiguskollete</tspan><tspan x="704" dy="25">märkimine</tspan></text>
+<rect x="355" y="320" width="290" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="391" cy="358" r="20" fill="#FF8B48"/>
+<text x="391" y="365" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="391" dy="0">5</tspan></text>
+<text x="423" y="366" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="423" dy="0">Klassifitseerimine</tspan></text>
+<text x="379" y="435" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="379" dy="0">normaalne vs</tspan><tspan x="379" dy="25">patoloogiline</tspan></text>
+<rect x="30" y="320" width="290" height="170" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<circle cx="66" cy="358" r="20" fill="#FF8B48"/>
+<text x="66" y="365" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="66" dy="0">6</tspan></text>
+<text x="98" y="366" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="98" dy="0">Tulemused arstile</tspan></text>
+<text x="54" y="435" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="54" dy="0">visualiseerimine ja</tspan><tspan x="54" dy="25">esitamine</tspan></text>
+<line x1="322" y1="185" x2="351" y2="185" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="647" y1="185" x2="676" y2="185" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="825" y1="272" x2="825" y2="316" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="678" y1="405" x2="649" y2="405" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="353" y1="405" x2="324" y2="405" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="175" y1="492" x2="175" y2="536" stroke="#2E8B57" stroke-width="4" marker-end="url(#ag)"/>
+<rect x="30" y="540" width="940" height="90" rx="14" fill="#2E8B57" filter="url(#sh)"/>
+<circle cx="95" cy="573" r="17" fill="#FFFFFF"/>
+<rect x="70" y="593" width="50" height="30" rx="12" fill="#FFFFFF"/>
+<path d="M95 600 v16 M87 608 h16" stroke="#2E8B57" stroke-width="4"/>
+<text x="145" y="578" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="start"><tspan x="145" dy="0">ARST TEEB OTSUSE</tspan></text>
+<text x="145" y="610" font-size="20" font-weight="400" fill="#FFFFFF" text-anchor="start"><tspan x="145" dy="0">TI on abiline – lõpliku otsuse teeb ja vastutuse kannab inimene.</tspan></text>
+</svg>

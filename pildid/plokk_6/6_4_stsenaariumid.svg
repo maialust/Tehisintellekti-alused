@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gfade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#002959" stop-opacity="0.12"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="500" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Kolm tulevikustsenaariumi</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<text x="40" y="108" font-size="21" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="40" dy="0">Võimalikud arenguteed, mitte ennustused</tspan></text>
+<rect x="25" y="135" width="300" height="280" rx="14" fill="#FFFFFF" stroke="#2E8B57" stroke-width="3" filter="url(#sh)"/>
+<rect x="25" y="135" width="300" height="60" rx="14" fill="#2E8B57"/>
+<rect x="25" y="175" width="300" height="20" fill="#2E8B57"/>
+<text x="175.0" y="175" font-size="25" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="175.0" dy="0">Optimistlik</tspan></text>
+<circle cx="61" cy="238" r="8" fill="#2E8B57"/>
+<text x="81" y="245" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="81" dy="0">uusi töökohti tekib</tspan><tspan x="81" dy="27">rohkem, kui kaob</tspan></text>
+<circle cx="61" cy="323" r="8" fill="#2E8B57"/>
+<text x="81" y="330" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="81" dy="0">koostöö tõstab</tspan><tspan x="81" dy="27">tootlikkust</tspan></text>
+<rect x="350" y="135" width="300" height="280" rx="14" fill="#FFFFFF" stroke="#FF8B48" stroke-width="3" filter="url(#sh)"/>
+<rect x="350" y="135" width="300" height="60" rx="14" fill="#FF8B48"/>
+<rect x="350" y="175" width="300" height="20" fill="#FF8B48"/>
+<text x="500.0" y="175" font-size="25" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="500.0" dy="0">Vahepealne</tspan></text>
+<circle cx="386" cy="238" r="8" fill="#FF8B48"/>
+<text x="406" y="245" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="406" dy="0">mõju on sektoriti</tspan><tspan x="406" dy="27">erinev</tspan></text>
+<circle cx="386" cy="323" r="8" fill="#FF8B48"/>
+<text x="406" y="330" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="406" dy="0">üleminekuperiood</tspan><tspan x="406" dy="27">ja kohanemine</tspan></text>
+<rect x="675" y="135" width="300" height="280" rx="14" fill="#FFFFFF" stroke="#C0392B" stroke-width="3" filter="url(#sh)"/>
+<rect x="675" y="135" width="300" height="60" rx="14" fill="#C0392B"/>
+<rect x="675" y="175" width="300" height="20" fill="#C0392B"/>
+<text x="825.0" y="175" font-size="25" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="825.0" dy="0">Pessimistlik</tspan></text>
+<circle cx="711" cy="238" r="8" fill="#C0392B"/>
+<text x="731" y="245" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="731" dy="0">töökohti kaob</tspan><tspan x="731" dy="27">massiliselt</tspan></text>
+<circle cx="711" cy="323" r="8" fill="#C0392B"/>
+<text x="731" y="330" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="731" dy="0">ebavõrdsus</tspan><tspan x="731" dy="27">süveneb</tspan></text>
+<text x="500" y="470" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="500" dy="0">Tulevik ei juhtu iseenesest – see sõltub riikide, ettevõtete ja inimeste otsustest.</tspan></text>
+</svg>

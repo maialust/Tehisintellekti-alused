@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="450" viewBox="0 0 1000 450" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gfade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#002959" stop-opacity="0.12"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="450" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Mida kaugemale, seda ebakindlam</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="60" y="150" width="880" height="16" rx="8" fill="url(#gfade)"/>
+<path d="M940,140 L968,158 L940,176 z" fill="#CCD4DE"/>
+<circle cx="135" cy="158" r="22" fill="#FF8B48" opacity="1" stroke="#FFFFFF" stroke-width="4"/>
+<text x="135" y="125" font-size="23" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="135" dy="0">täna</tspan></text>
+<rect x="23" y="200" width="224" height="140" rx="14" fill="#EEF2F7" opacity="1.0" filter="url(#sh)"/>
+<rect x="23" y="200" width="224" height="140" rx="14" fill="none" stroke="#33547A" stroke-width="2" stroke-dasharray="0"/>
+<text x="135" y="245" font-size="20" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="135" dy="0">keelemudelid,</tspan><tspan x="135" dy="27">generatiivne TI,</tspan><tspan x="135" dy="27">multimodaalsus</tspan></text>
+<circle cx="380" cy="158" r="22" fill="#FF8B48" opacity="0.8" stroke="#FFFFFF" stroke-width="4"/>
+<text x="380" y="125" font-size="23" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="380" dy="0">1–3 aastat</tspan></text>
+<rect x="268" y="200" width="224" height="140" rx="14" fill="#EEF2F7" opacity="0.9" filter="url(#sh)"/>
+<rect x="268" y="200" width="224" height="140" rx="14" fill="none" stroke="#33547A" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="380" y="245" font-size="20" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="380" dy="0">täpsemad mudelid,</tspan><tspan x="380" dy="27">vähem hallutsi-</tspan><tspan x="380" dy="27">natsioone</tspan></text>
+<circle cx="625" cy="158" r="22" fill="#FF8B48" opacity="0.55" stroke="#FFFFFF" stroke-width="4"/>
+<text x="625" y="125" font-size="23" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="625" dy="0">3–7 aastat</tspan></text>
+<rect x="513" y="200" width="224" height="140" rx="14" fill="#EEF2F7" opacity="0.775" filter="url(#sh)"/>
+<rect x="513" y="200" width="224" height="140" rx="14" fill="none" stroke="#33547A" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="625" y="245" font-size="20" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="625" dy="0">TI + robootika,</tspan><tspan x="625" dy="27">isikupärased</tspan><tspan x="625" dy="27">assistendid</tspan></text>
+<circle cx="870" cy="158" r="22" fill="#FF8B48" opacity="0.35" stroke="#FFFFFF" stroke-width="4"/>
+<text x="870" y="125" font-size="23" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="870" dy="0">7+ aastat</tspan></text>
+<rect x="758" y="200" width="224" height="140" rx="14" fill="#EEF2F7" opacity="0.675" filter="url(#sh)"/>
+<rect x="758" y="200" width="224" height="140" rx="14" fill="none" stroke="#33547A" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="870" y="245" font-size="20" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="870" dy="0">AGI?</tspan><tspan x="870" dy="27">ajuliidesed,</tspan><tspan x="870" dy="27">kvantarvutid</tspan></text>
+<rect x="60" y="370" width="880" height="56" rx="14" fill="url(#gtemp)"/>
+<text x="500" y="406" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="500" dy="0">hinnangute kindlus väheneb →</tspan></text>
+</svg>

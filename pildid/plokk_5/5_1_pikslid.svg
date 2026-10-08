@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="540" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Pilt arvuti silmis: 5 × 5 pikslit</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<text x="240" y="135" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="240" dy="0">Mida näed sina</tspan></text>
+<rect x="74" y="144" width="332" height="332" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="90" y="160" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="150" y="160" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="210" y="160" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="270" y="160" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="330" y="160" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="90" y="220" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="150" y="220" width="56" height="56" rx="6" fill="#002959" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="210" y="220" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="270" y="220" width="56" height="56" rx="6" fill="#002959" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="330" y="220" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="90" y="280" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="150" y="280" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="210" y="280" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="270" y="280" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="330" y="280" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="90" y="340" width="56" height="56" rx="6" fill="#002959" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="150" y="340" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="210" y="340" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="270" y="340" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="330" y="340" width="56" height="56" rx="6" fill="#002959" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="90" y="400" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="150" y="400" width="56" height="56" rx="6" fill="#002959" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="210" y="400" width="56" height="56" rx="6" fill="#002959" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="270" y="400" width="56" height="56" rx="6" fill="#002959" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="330" y="400" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="740" y="135" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="740" dy="0">Mida „näeb“ arvuti</tspan></text>
+<rect x="574" y="144" width="332" height="332" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<rect x="590" y="160" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="618.0" y="196" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="618.0" dy="0">255</tspan></text>
+<rect x="650" y="160" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="678.0" y="196" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="678.0" dy="0">255</tspan></text>
+<rect x="710" y="160" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="738.0" y="196" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="738.0" dy="0">255</tspan></text>
+<rect x="770" y="160" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="798.0" y="196" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="798.0" dy="0">255</tspan></text>
+<rect x="830" y="160" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="858.0" y="196" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="858.0" dy="0">255</tspan></text>
+<rect x="590" y="220" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="618.0" y="256" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="618.0" dy="0">255</tspan></text>
+<rect x="650" y="220" width="56" height="56" rx="6" fill="#FFE2D1" stroke="#CCD4DE" stroke-width="2"/>
+<text x="678.0" y="256" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="678.0" dy="0">0</tspan></text>
+<rect x="710" y="220" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="738.0" y="256" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="738.0" dy="0">255</tspan></text>
+<rect x="770" y="220" width="56" height="56" rx="6" fill="#FFE2D1" stroke="#CCD4DE" stroke-width="2"/>
+<text x="798.0" y="256" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="798.0" dy="0">0</tspan></text>
+<rect x="830" y="220" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="858.0" y="256" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="858.0" dy="0">255</tspan></text>
+<rect x="590" y="280" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="618.0" y="316" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="618.0" dy="0">255</tspan></text>
+<rect x="650" y="280" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="678.0" y="316" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="678.0" dy="0">255</tspan></text>
+<rect x="710" y="280" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="738.0" y="316" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="738.0" dy="0">255</tspan></text>
+<rect x="770" y="280" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="798.0" y="316" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="798.0" dy="0">255</tspan></text>
+<rect x="830" y="280" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="858.0" y="316" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="858.0" dy="0">255</tspan></text>
+<rect x="590" y="340" width="56" height="56" rx="6" fill="#FFE2D1" stroke="#CCD4DE" stroke-width="2"/>
+<text x="618.0" y="376" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="618.0" dy="0">0</tspan></text>
+<rect x="650" y="340" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="678.0" y="376" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="678.0" dy="0">255</tspan></text>
+<rect x="710" y="340" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="738.0" y="376" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="738.0" dy="0">255</tspan></text>
+<rect x="770" y="340" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="798.0" y="376" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="798.0" dy="0">255</tspan></text>
+<rect x="830" y="340" width="56" height="56" rx="6" fill="#FFE2D1" stroke="#CCD4DE" stroke-width="2"/>
+<text x="858.0" y="376" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="858.0" dy="0">0</tspan></text>
+<rect x="590" y="400" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="618.0" y="436" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="618.0" dy="0">255</tspan></text>
+<rect x="650" y="400" width="56" height="56" rx="6" fill="#FFE2D1" stroke="#CCD4DE" stroke-width="2"/>
+<text x="678.0" y="436" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="678.0" dy="0">0</tspan></text>
+<rect x="710" y="400" width="56" height="56" rx="6" fill="#FFE2D1" stroke="#CCD4DE" stroke-width="2"/>
+<text x="738.0" y="436" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="738.0" dy="0">0</tspan></text>
+<rect x="770" y="400" width="56" height="56" rx="6" fill="#FFE2D1" stroke="#CCD4DE" stroke-width="2"/>
+<text x="798.0" y="436" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="798.0" dy="0">0</tspan></text>
+<rect x="830" y="400" width="56" height="56" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="858.0" y="436" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="858.0" dy="0">255</tspan></text>
+<line x1="430" y1="310" x2="560" y2="310" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<text x="495" y="290" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="495" dy="0">= 25 arvu</tspan></text>
+<text x="240" y="510" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="240" dy="0">0 = must</tspan></text>
+<text x="500" y="510" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500" dy="0">255 = valge</tspan></text>
+<text x="760" y="510" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="760" dy="0">vahepealsed arvud = hallid</tspan></text>
+</svg>

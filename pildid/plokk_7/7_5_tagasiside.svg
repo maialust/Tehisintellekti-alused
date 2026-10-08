@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter><marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker><marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker><marker id="an" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#002959"/></marker><linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient><linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient></defs>
+<rect x="0" y="0" width="1000" height="560" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Konstruktiivne tagasiside</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="105" width="280" height="150" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="40" y="105" width="12" height="150" rx="6" fill="#2E8B57"/>
+<text x="190" y="150" font-size="24" font-weight="700" fill="#2E8B57" text-anchor="middle"><tspan x="190" dy="0">Tugevused</tspan></text>
+<text x="190" y="192" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="190" dy="0">Mis oli hea?</tspan></text>
+<line x1="326" y1="180" x2="354" y2="180" stroke="#FF8B48" stroke-width="5" stroke-linecap="round" marker-end="url(#ao)"/>
+<rect x="360" y="105" width="280" height="150" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="360" y="105" width="12" height="150" rx="6" fill="#FF8B48"/>
+<text x="510" y="150" font-size="24" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="510" dy="0">Parenduskohad</tspan></text>
+<text x="510" y="192" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="510" dy="0">Mida saaks</tspan><tspan x="510" dy="25">paremaks teha?</tspan></text>
+<line x1="646" y1="180" x2="674" y2="180" stroke="#FF8B48" stroke-width="5" stroke-linecap="round" marker-end="url(#ao)"/>
+<rect x="680" y="105" width="280" height="150" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="680" y="105" width="12" height="150" rx="6" fill="#002959"/>
+<text x="830" y="150" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="830" dy="0">Soovitused</tspan></text>
+<text x="830" y="192" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="830" dy="0">Kuidas täpselt</tspan><tspan x="830" dy="25">edasi minna?</tspan></text>
+<rect x="40" y="290" width="280" height="240" rx="14" fill="#FFFFFF" stroke="#C0392B" stroke-width="3" filter="url(#sh)"/>
+<text x="180" y="330" font-size="21" font-weight="700" fill="#C0392B" text-anchor="middle"><tspan x="180" dy="0">Ei aita:</tspan></text>
+<text x="180" y="400" font-size="22" font-weight="400" fill="#002959" text-anchor="middle" font-style="italic"><tspan x="180" dy="0">„Esitlus oli hea.“</tspan></text>
+<text x="180" y="460" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="180" dy="0">pole konkreetne,</tspan><tspan x="180" dy="22">ei anna soovitust</tspan></text>
+<rect x="360" y="290" width="600" height="240" rx="14" fill="#FFFFFF" stroke="#2E8B57" stroke-width="3" filter="url(#sh)"/>
+<text x="660" y="330" font-size="21" font-weight="700" fill="#2E8B57" text-anchor="middle"><tspan x="660" dy="0">Aitab:</tspan></text>
+<rect x="380" y="352" width="8" height="44" rx="4" fill="#2E8B57"/>
+<text x="400" y="370" font-size="19" font-weight="400" fill="#002959" text-anchor="start" font-style="italic"><tspan x="400" dy="0">Segadusmaatriks näitas hästi, milliseid</tspan><tspan x="400" dy="24">loomi mudel segi ajab.</tspan></text>
+<rect x="380" y="410" width="8" height="44" rx="4" fill="#FF8B48"/>
+<text x="400" y="428" font-size="19" font-weight="400" fill="#002959" text-anchor="start" font-style="italic"><tspan x="400" dy="0">Slaididel oli kohati liiga palju teksti –</tspan><tspan x="400" dy="24">osa sellest võiks öelda suuliselt.</tspan></text>
+<rect x="380" y="468" width="8" height="22" rx="4" fill="#002959"/>
+<text x="400" y="486" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="400" dy="0">konkreetne, tasakaalustatud, soovitusega</tspan></text>
+</svg>

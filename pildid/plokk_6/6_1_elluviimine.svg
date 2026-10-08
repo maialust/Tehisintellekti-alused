@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gfade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#002959" stop-opacity="0.12"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="470" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Kuidas eetikat ellu viia?</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<text x="40" y="108" font-size="21" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="40" dy="0">Kasutatakse mitut moodust korraga</tspan></text>
+<rect x="30" y="140" width="300" height="140" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="58" cy="168" r="20" fill="#FF8B48"/>
+<text x="58" y="175.56" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="58" dy="0">1</tspan></text>
+<circle cx="115" cy="215" r="40" fill="#FFFFFF"/>
+<path d="M115,205.8 Q103.8,199.4 94.2,204.2 L94.2,231.4 Q103.8,226.6 115,233.0 z" fill="#002959"/>
+<path d="M115,205.8 Q126.2,199.4 135.8,204.2 L135.8,231.4 Q126.2,226.6 115,233.0 z" fill="#002959" opacity="0.75"/>
+<text x="170" y="208" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="170" dy="0">Juhised ja</tspan><tspan x="170" dy="28">põhimõtted</tspan></text>
+<rect x="350" y="140" width="300" height="140" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<circle cx="378" cy="168" r="20" fill="#FF8B48"/>
+<text x="378" y="175.56" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="378" dy="0">2</tspan></text>
+<circle cx="435" cy="215" r="40" fill="#FFFFFF"/>
+<line x1="435" y1="199.4" x2="435" y2="233.0" stroke="#002959" stroke-width="3.2"/>
+<line x1="415.8" y1="204.2" x2="454.2" y2="204.2" stroke="#002959" stroke-width="3.2"/>
+<rect x="425.4" y="231.4" width="19.200000000000003" height="4.0" rx="1.6" fill="#002959"/>
+<path d="M407.0,218.6 L415.8,204.2 L424.6,218.6" fill="none" stroke="#002959" stroke-width="1.6"/>
+<path d="M406.2,218.6 Q415.8,228.2 425.40000000000003,218.6 z" fill="#002959"/>
+<path d="M445.4,218.6 L454.2,204.2 L463.0,218.6" fill="none" stroke="#002959" stroke-width="1.6"/>
+<path d="M444.59999999999997,218.6 Q454.2,228.2 463.8,218.6 z" fill="#002959"/>
+<circle cx="435" cy="199.4" r="3.2" fill="#002959"/>
+<text x="490" y="208" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="490" dy="0">Seadused ja</tspan><tspan x="490" dy="28">regulatsioonid</tspan></text>
+<rect x="670" y="140" width="300" height="140" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="698" cy="168" r="20" fill="#FF8B48"/>
+<text x="698" y="175.56" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="698" dy="0">3</tspan></text>
+<circle cx="755" cy="215" r="40" fill="#FFFFFF"/>
+<circle cx="742.2" cy="211.88" r="6.159999999999999" fill="#002959"/>
+<path d="M731.0,232.04 Q731.0,219.72 742.2,219.72 Q753.4000000000001,219.72 753.4000000000001,232.04 z" fill="#002959"/>
+<circle cx="767.8" cy="211.88" r="6.159999999999999" fill="#002959"/>
+<path d="M756.5999999999999,232.04 Q756.5999999999999,219.72 767.8,219.72 Q779.0,219.72 779.0,232.04 z" fill="#002959"/>
+<circle cx="755" cy="207.24" r="7.48" fill="#002959"/>
+<path d="M741.4,231.72 Q741.4,216.76000000000002 755,216.76000000000002 Q768.6,216.76000000000002 768.6,231.72 z" fill="#002959"/>
+<text x="810" y="208" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="810" dy="0">Eetika-</tspan><tspan x="810" dy="28">komiteed</tspan></text>
+<rect x="30" y="300" width="300" height="140" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<circle cx="58" cy="328" r="20" fill="#FF8B48"/>
+<text x="58" y="335.56" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="58" dy="0">4</tspan></text>
+<circle cx="115" cy="375" r="40" fill="#FFFFFF"/>
+<circle cx="115" cy="372.2" r="13.600000000000001" fill="#002959"/>
+<rect x="108.6" y="384.2" width="12.8" height="9.600000000000001" rx="2.4000000000000004" fill="#002959"/>
+<line x1="108.6" y1="389.0" x2="121.4" y2="389.0" stroke="#FFFFFF" stroke-width="1.6"/>
+<text x="170" y="368" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="170" dy="0">Eetiline disain</tspan><tspan x="170" dy="28">algusest peale</tspan></text>
+<rect x="350" y="300" width="300" height="140" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="378" cy="328" r="20" fill="#FF8B48"/>
+<text x="378" y="335.56" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="378" dy="0">5</tspan></text>
+<circle cx="435" cy="375" r="40" fill="#FFFFFF"/>
+<circle cx="431.0" cy="373.0" r="12.0" fill="none" stroke="#002959" stroke-width="4.0"/>
+<line x1="439.8" y1="381.8" x2="451.0" y2="393.0" stroke="#002959" stroke-width="5.6000000000000005" stroke-linecap="round"/>
+<text x="490" y="368" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="490" dy="0">Eetilised</tspan><tspan x="490" dy="28">auditid</tspan></text>
+<rect x="670" y="300" width="300" height="140" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<circle cx="698" cy="328" r="20" fill="#FF8B48"/>
+<text x="698" y="335.56" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="698" dy="0">6</tspan></text>
+<circle cx="755" cy="375" r="40" fill="#FFFFFF"/>
+<circle cx="755" cy="377" r="19.200000000000003" fill="none" stroke="#002959" stroke-width="3.2"/>
+<circle cx="755" cy="368.2" r="2.8000000000000003" fill="#002959"/>
+<rect x="752.6" y="374.6" width="4.800000000000001" height="14.4" rx="1.6" fill="#002959"/>
+<text x="810" y="368" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="810" dy="0">Haridus ja</tspan><tspan x="810" dy="28">teadlikkus</tspan></text>
+</svg>

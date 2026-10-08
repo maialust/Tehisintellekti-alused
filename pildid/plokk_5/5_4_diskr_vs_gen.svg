@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="520" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Analüüsib või loob?</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="30" y="100" width="940" height="185" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="55" y="142" font-size="24" font-weight="800" fill="#002959" text-anchor="start"><tspan x="55" dy="0">Diskriminatiivne TI</tspan></text>
+<text x="55" y="172" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="55" dy="0">klassifitseerib olemasolevat</tspan></text>
+<rect x="330" y="138" width="120" height="110" rx="10" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<path d="M359.315 188.695 L365.775 156.395 L383.54 172.54500000000002 Z M420.685 188.695 L414.225 156.395 L396.46 172.54500000000002 Z" fill="#FF8B48"/>
+<circle cx="390" cy="200" r="32.3" fill="#FF8B48"/>
+<circle cx="377.726" cy="196.124" r="3.8759999999999994" fill="#002959"/>
+<circle cx="402.274" cy="196.124" r="3.8759999999999994" fill="#002959"/>
+<path d="M386.124 206.46 L393.876 206.46 L390 210.982 Z" fill="#002959"/>
+<path d="M380.31 210.336 L352.855 206.46 M380.31 213.566 L352.855 216.15" stroke="#002959" stroke-width="2"/>
+<path d="M399.69 210.336 L427.145 206.46 M399.69 213.566 L427.145 216.15" stroke="#002959" stroke-width="2"/>
+<line x1="462" y1="193" x2="518" y2="193" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="525" y="153" width="150" height="80" rx="14" fill="#002959" filter="url(#sh)"/>
+<text x="600.0" y="201.0" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="600.0" dy="0">mudel</tspan></text>
+<line x1="683" y1="193" x2="740" y2="193" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<text x="800" y="202" font-size="30" font-weight="800" fill="#2E8B57" text-anchor="middle"><tspan x="800" dy="0">„kass“</tspan></text>
+<rect x="30" y="305" width="940" height="185" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="55" y="347" font-size="24" font-weight="800" fill="#002959" text-anchor="start"><tspan x="55" dy="0">Generatiivne TI</tspan></text>
+<text x="55" y="377" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="55" dy="0">loob uut sisu</tspan></text>
+<rect x="250" y="365" width="205" height="66" rx="12" fill="#FFFFFF" stroke="#FF8B48" stroke-width="3"/>
+<text x="352" y="407" font-size="21" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="352" dy="0">„kass skafandris“</tspan></text>
+<line x1="462" y1="398" x2="518" y2="398" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="525" y="358" width="150" height="80" rx="14" fill="#002959" filter="url(#sh)"/>
+<text x="600.0" y="406.0" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="600.0" dy="0">mudel</tspan></text>
+<line x1="683" y1="398" x2="740" y2="398" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="750" y="343" width="130" height="115" rx="10" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<circle cx="815" cy="405" r="44" fill="none" stroke="#33547A" stroke-width="6"/>
+<path d="M790.775 400.075 L795.875 374.575 L809.9 387.325 Z M839.225 400.075 L834.125 374.575 L820.1 387.325 Z" fill="#FF8B48"/>
+<circle cx="815" cy="409" r="25.5" fill="#FF8B48"/>
+<circle cx="805.31" cy="405.94" r="3.06" fill="#002959"/>
+<circle cx="824.69" cy="405.94" r="3.06" fill="#002959"/>
+<path d="M811.94 414.1 L818.06 414.1 L815 417.67 Z" fill="#002959"/>
+<path d="M807.35 417.16 L785.675 414.1 M807.35 419.71 L785.675 421.75" stroke="#002959" stroke-width="2"/>
+<path d="M822.65 417.16 L844.325 414.1 M822.65 419.71 L844.325 421.75" stroke="#002959" stroke-width="2"/>
+<rect x="785" y="443" width="60" height="12" rx="4" fill="#33547A"/>
+<text x="900" y="365" font-size="20" font-weight="700" fill="#E67E42" text-anchor="start"><tspan x="900" dy="0">uus</tspan></text>
+<text x="900" y="389" font-size="20" font-weight="700" fill="#E67E42" text-anchor="start"><tspan x="900" dy="0">pilt</tspan></text>
+</svg>

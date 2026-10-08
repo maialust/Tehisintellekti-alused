@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="480" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Turingi test</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="150" width="240" height="220" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<circle cx="160" cy="206" r="11" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<path d="M140,242 Q140,220 160,220 Q180,220 180,242 z" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<text x="160" y="290" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="160" dy="0">KÜSITLEJA</tspan></text>
+<text x="160" y="320" font-size="17" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="160" dy="0">esitab kirjalikke</tspan><tspan x="160" dy="21">küsimusi</tspan></text>
+<rect x="440" y="110" width="16" height="330" rx="6" fill="#CCD4DE"/>
+<text x="448" y="104" font-size="16" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="448" dy="0">sein</tspan></text>
+<rect x="620" y="110" width="340" height="140" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="690" cy="180" r="34" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<circle cx="690" cy="170" r="11" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<path d="M670,206 Q670,184 690,184 Q710,184 710,206 z" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<text x="745" y="172" font-size="26" font-weight="700" fill="#FF8B48" text-anchor="start"><tspan x="745" dy="0">A</tspan></text>
+<text x="745" y="205" font-size="19" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="745" dy="0">inimene või</tspan></text>
+<text x="745" y="230" font-size="19" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="745" dy="0">masin?</tspan></text>
+<rect x="620" y="300" width="340" height="140" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="690" cy="370" r="34" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<rect x="672" y="352" width="36" height="36" rx="5" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<rect x="682" y="362" width="16" height="16" rx="2" fill="#FF8B48"/>
+<line x1="680" y1="352" x2="680" y2="343" stroke="#002959" stroke-width="3"/><line x1="680" y1="388" x2="680" y2="397" stroke="#002959" stroke-width="3"/>
+<line x1="672" y1="360" x2="663" y2="360" stroke="#002959" stroke-width="3"/><line x1="708" y1="360" x2="717" y2="360" stroke="#002959" stroke-width="3"/>
+<line x1="690" y1="352" x2="690" y2="343" stroke="#002959" stroke-width="3"/><line x1="690" y1="388" x2="690" y2="397" stroke="#002959" stroke-width="3"/>
+<line x1="672" y1="370" x2="663" y2="370" stroke="#002959" stroke-width="3"/><line x1="708" y1="370" x2="717" y2="370" stroke="#002959" stroke-width="3"/>
+<line x1="700" y1="352" x2="700" y2="343" stroke="#002959" stroke-width="3"/><line x1="700" y1="388" x2="700" y2="397" stroke="#002959" stroke-width="3"/>
+<line x1="672" y1="380" x2="663" y2="380" stroke="#002959" stroke-width="3"/><line x1="708" y1="380" x2="717" y2="380" stroke="#002959" stroke-width="3"/>
+<text x="745" y="362" font-size="26" font-weight="700" fill="#FF8B48" text-anchor="start"><tspan x="745" dy="0">B</tspan></text>
+<text x="745" y="395" font-size="19" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="745" dy="0">inimene või</tspan></text>
+<text x="745" y="420" font-size="19" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="745" dy="0">masin?</tspan></text>
+<line x1="285" y1="230" x2="610" y2="180" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="285" y1="290" x2="610" y2="370" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="610" y1="205" x2="290" y2="250" stroke="#33547A" stroke-width="3" marker-end="url(#ab)"/>
+<line x1="610" y1="395" x2="290" y2="310" stroke="#33547A" stroke-width="3" marker-end="url(#ab)"/>
+<text x="380" y="175" font-size="17" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="380" dy="0">küsimused</tspan></text>
+<text x="520" y="300" font-size="17" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="520" dy="0">vastused</tspan></text>
+<rect x="40" y="395" width="380" height="60" rx="14" fill="#002959"/>
+<text x="230" y="420" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="230" dy="0">Ei suuda eristada?</tspan></text>
+<text x="230" y="444" font-size="19" font-weight="700" fill="#FF8B48" text-anchor="middle"><tspan x="230" dy="0">→ masin läbis testi</tspan></text>
+
+</svg>

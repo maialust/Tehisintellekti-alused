@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="agr" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#CCD4DE"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="470" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Tehisintellekt Eesti riigis ja ettevõtluses</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="70.0" y="110" width="316.5" height="70" rx="14" fill="#002959" filter="url(#sh)"/>
+<text x="231.25" y="140.3" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="231.25" dy="0">Kratikava</tspan><tspan x="231.25" dy="24">2019–2021</tspan></text>
+<rect x="392.5" y="110" width="209.0" height="70" rx="14" fill="#33547A" filter="url(#sh)"/>
+<text x="500.0" y="140.3" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="500.0" dy="0">Kratikava</tspan><tspan x="500.0" dy="24">2022–2023</tspan></text>
+<rect x="607.5" y="110" width="322.5" height="70" rx="14" fill="url(#gor)" filter="url(#sh)"/>
+<text x="768.75" y="140.3" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="768.75" dy="0">Tegevuskava</tspan><tspan x="768.75" dy="24">2024–2026</tspan></text>
+<line x1="55" y1="250" x2="950" y2="250" stroke="#33547A" stroke-width="5" stroke-linecap="round" marker-end="url(#ab)"/>
+<line x1="70.0" y1="242" x2="70.0" y2="258" stroke="#33547A" stroke-width="3" stroke-linecap="round"/>
+<text x="123.0" y="282" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="123.0" dy="0">2019</tspan></text>
+<line x1="177.5" y1="242" x2="177.5" y2="258" stroke="#33547A" stroke-width="3" stroke-linecap="round"/>
+<text x="230.5" y="282" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="230.5" dy="0">2020</tspan></text>
+<line x1="285.0" y1="242" x2="285.0" y2="258" stroke="#33547A" stroke-width="3" stroke-linecap="round"/>
+<text x="338.0" y="282" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="338.0" dy="0">2021</tspan></text>
+<line x1="392.5" y1="242" x2="392.5" y2="258" stroke="#33547A" stroke-width="3" stroke-linecap="round"/>
+<text x="445.5" y="282" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="445.5" dy="0">2022</tspan></text>
+<line x1="500.0" y1="242" x2="500.0" y2="258" stroke="#33547A" stroke-width="3" stroke-linecap="round"/>
+<text x="553.0" y="282" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="553.0" dy="0">2023</tspan></text>
+<line x1="607.5" y1="242" x2="607.5" y2="258" stroke="#33547A" stroke-width="3" stroke-linecap="round"/>
+<text x="660.5" y="282" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="660.5" dy="0">2024</tspan></text>
+<line x1="715.0" y1="242" x2="715.0" y2="258" stroke="#33547A" stroke-width="3" stroke-linecap="round"/>
+<text x="768.0" y="282" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="768.0" dy="0">2025</tspan></text>
+<line x1="822.5" y1="242" x2="822.5" y2="258" stroke="#33547A" stroke-width="3" stroke-linecap="round"/>
+<text x="875.5" y="282" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="875.5" dy="0">2026</tspan></text>
+<circle cx="365.625" cy="250" r="10" fill="#FF8B48"/>
+<rect x="50" y="300" width="280" height="130" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="190" y="336" font-size="22" font-weight="800" fill="#E67E42" text-anchor="middle"><tspan x="190" dy="0">1.10.2021</tspan></text>
+<text x="190" y="372" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="190" dy="0">AIRE alustab</tspan><tspan x="190" dy="25">tegevust</tspan></text>
+<circle cx="446.25" cy="250" r="10" fill="#FF8B48"/>
+<rect x="345" y="300" width="280" height="130" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="485" y="336" font-size="22" font-weight="800" fill="#E67E42" text-anchor="middle"><tspan x="485" dy="0">2022</tspan></text>
+<text x="485" y="372" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="485" dy="0">Bürokratt – parim</tspan><tspan x="485" dy="25">TI-põhine riigiteenus</tspan></text>
+<circle cx="446.25" cy="250" r="10" fill="#FF8B48"/>
+<rect x="655" y="300" width="280" height="130" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="795" y="336" font-size="22" font-weight="800" fill="#E67E42" text-anchor="middle"><tspan x="795" dy="0">2022</tspan></text>
+<text x="795" y="372" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="795" dy="0">Tehnopoli AI</tspan><tspan x="795" dy="25">arenguprogramm</tspan></text>
+</svg>

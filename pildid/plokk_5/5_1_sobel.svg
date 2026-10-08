@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="520" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Sobeli filter leiab püstise serva</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<text x="170" y="130" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="170" dy="0">Filter 3 × 3</tspan></text>
+<rect x="50" y="150" width="74" height="74" rx="10" fill="#CCD4DE"/>
+<text x="87" y="196" font-size="26" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="87" dy="0">-1</tspan></text>
+<rect x="130" y="150" width="74" height="74" rx="10" fill="#EEF2F7"/>
+<text x="167" y="196" font-size="26" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="167" dy="0">0</tspan></text>
+<rect x="210" y="150" width="74" height="74" rx="10" fill="#FFE2D1"/>
+<text x="247" y="196" font-size="26" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="247" dy="0">+1</tspan></text>
+<rect x="50" y="230" width="74" height="74" rx="10" fill="#CCD4DE"/>
+<text x="87" y="276" font-size="26" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="87" dy="0">-2</tspan></text>
+<rect x="130" y="230" width="74" height="74" rx="10" fill="#EEF2F7"/>
+<text x="167" y="276" font-size="26" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="167" dy="0">0</tspan></text>
+<rect x="210" y="230" width="74" height="74" rx="10" fill="#FFE2D1"/>
+<text x="247" y="276" font-size="26" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="247" dy="0">+2</tspan></text>
+<rect x="50" y="310" width="74" height="74" rx="10" fill="#CCD4DE"/>
+<text x="87" y="356" font-size="26" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="87" dy="0">-1</tspan></text>
+<rect x="130" y="310" width="74" height="74" rx="10" fill="#EEF2F7"/>
+<text x="167" y="356" font-size="26" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="167" dy="0">0</tspan></text>
+<rect x="210" y="310" width="74" height="74" rx="10" fill="#FFE2D1"/>
+<text x="247" y="356" font-size="26" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="247" dy="0">+1</tspan></text>
+<text x="170" y="425" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="170" dy="0">Libistatakse üle pildi:</tspan><tspan x="170" dy="25">korruta ja liida kokku</tspan></text>
+<rect x="360" y="110" width="600" height="170" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<rect x="385" y="128" width="40" height="40" rx="6" fill="#002959" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="429" y="128" width="40" height="40" rx="6" fill="#002959" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="473" y="128" width="40" height="40" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="385" y="172" width="40" height="40" rx="6" fill="#002959" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="429" y="172" width="40" height="40" rx="6" fill="#002959" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="473" y="172" width="40" height="40" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="385" y="216" width="40" height="40" rx="6" fill="#002959" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="429" y="216" width="40" height="40" rx="6" fill="#002959" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="473" y="216" width="40" height="40" rx="6" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="545" y="160" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="545" dy="0">Vasakul tume, paremal hele</tspan></text>
+<line x1="545" y1="205" x2="600" y2="205" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<text x="612" y="213" font-size="22" font-weight="700" fill="#2E8B57" text-anchor="start"><tspan x="612" dy="0">suur arv  →  SIIN ON SERV!</tspan></text>
+<rect x="360" y="310" width="600" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="385" y="328" width="40" height="40" rx="6" fill="#CCD4DE" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="429" y="328" width="40" height="40" rx="6" fill="#CCD4DE" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="473" y="328" width="40" height="40" rx="6" fill="#CCD4DE" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="385" y="372" width="40" height="40" rx="6" fill="#CCD4DE" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="429" y="372" width="40" height="40" rx="6" fill="#CCD4DE" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="473" y="372" width="40" height="40" rx="6" fill="#CCD4DE" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="385" y="416" width="40" height="40" rx="6" fill="#CCD4DE" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="429" y="416" width="40" height="40" rx="6" fill="#CCD4DE" stroke="#CCD4DE" stroke-width="2"/>
+<rect x="473" y="416" width="40" height="40" rx="6" fill="#CCD4DE" stroke="#CCD4DE" stroke-width="2"/>
+<text x="545" y="360" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="545" dy="0">Kõik pikslid ühesugused</tspan></text>
+<line x1="545" y1="405" x2="600" y2="405" stroke="#33547A" stroke-width="4" marker-end="url(#ab)"/>
+<text x="612" y="413" font-size="22" font-weight="700" fill="#33547A" text-anchor="start"><tspan x="612" dy="0">tulemus 0  →  serva pole</tspan></text>
+</svg>

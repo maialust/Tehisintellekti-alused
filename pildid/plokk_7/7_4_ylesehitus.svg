@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter><marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker><marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker><marker id="an" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#002959"/></marker><linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient><linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient></defs>
+<rect x="0" y="0" width="1000" height="560" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">TI-projekti esitluse ülesehitus</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<path d="M30,134 Q30,120 44,120 L186,120 L206,180 L186,240 L44,240 Q30,240 30,226 z" fill="#FF8B48" filter="url(#sh)"/>
+<text x="122.0" y="175" font-size="34" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="122.0" dy="0">1</tspan></text>
+<text x="118.0" y="210" font-size="2" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="118.0" dy="0"></tspan></text>
+<rect x="34" y="270" width="168" height="150" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="118.0" y="310" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="118.0" dy="0">Sissejuhatus</tspan></text>
+<text x="118.0" y="352" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="118.0" dy="0">äratab tähelepanu:</tspan><tspan x="118.0" dy="22">küsimus, lugu</tspan></text>
+<path d="M221,120 L377,120 L397,180 L377,240 L221,240 L241,180 z" fill="#002959" filter="url(#sh)"/>
+<text x="313.0" y="175" font-size="34" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="313.0" dy="0">2</tspan></text>
+<text x="309.0" y="210" font-size="2" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="309.0" dy="0"></tspan></text>
+<rect x="225" y="270" width="168" height="150" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="309.0" y="305" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="309.0" dy="0">Taust ja</tspan><tspan x="309.0" dy="24">eesmärgid</tspan></text>
+<text x="309.0" y="370" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="309.0" dy="0">probleem,</tspan><tspan x="309.0" dy="22">olulisus</tspan></text>
+<path d="M412,120 L568,120 L588,180 L568,240 L412,240 L432,180 z" fill="#33547A" filter="url(#sh)"/>
+<text x="504.0" y="175" font-size="34" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="504.0" dy="0">3</tspan></text>
+<text x="500.0" y="210" font-size="2" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="500.0" dy="0"></tspan></text>
+<rect x="416" y="270" width="168" height="150" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="500.0" y="310" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500.0" dy="0">Metoodika</tspan></text>
+<text x="500.0" y="352" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="500.0" dy="0">mida ja kuidas</tspan><tspan x="500.0" dy="22">tegite</tspan></text>
+<path d="M603,120 L759,120 L779,180 L759,240 L603,240 L623,180 z" fill="#002959" filter="url(#sh)"/>
+<text x="695.0" y="175" font-size="34" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="695.0" dy="0">4</tspan></text>
+<text x="691.0" y="210" font-size="2" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="691.0" dy="0"></tspan></text>
+<rect x="607" y="270" width="168" height="150" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="691.0" y="310" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="691.0" dy="0">Tulemused</tspan></text>
+<text x="691.0" y="352" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="691.0" dy="0">mis valmis,</tspan><tspan x="691.0" dy="22">demo</tspan></text>
+<path d="M794,120 L950,120 L970,180 L950,240 L794,240 L814,180 z" fill="#FF8B48" filter="url(#sh)"/>
+<text x="886.0" y="175" font-size="34" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="886.0" dy="0">5</tspan></text>
+<text x="882.0" y="210" font-size="2" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="882.0" dy="0"></tspan></text>
+<rect x="798" y="270" width="168" height="150" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="882.0" y="310" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="882.0" dy="0">Järeldused</tspan></text>
+<text x="882.0" y="352" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="882.0" dy="0">õppetunnid,</tspan><tspan x="882.0" dy="22">tugev lõpp</tspan></text>
+<rect x="30" y="455" width="940" height="80" rx="14" fill="#002959"/>
+<text x="500" y="490" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="500" dy="0">Algus – keskosa – lõpp, sujuvad üleminekud</tspan></text>
+<text x="500" y="520" font-size="19" font-weight="400" fill="#CCD4DE" text-anchor="middle"><tspan x="500" dy="0">ja aeg küsimuste jaoks</tspan></text>
+</svg>

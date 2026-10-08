@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="700" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Näo vahetamine autokodeerijaga</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="30" y="95" width="940" height="290" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="55" y="130" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="55" dy="0">Treenimine: üks ühine kodeerija, kaks dekodeerijat</tspan></text>
+<rect x="180" y="175" width="170" height="170" rx="14" fill="#002959" filter="url(#sh)"/>
+<text x="265" y="268" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="265" dy="0">kodeerija</tspan></text>
+<circle cx="95" cy="205" r="32" fill="#FFE2D1"/>
+<circle cx="83.8" cy="200.2" r="3.84" fill="#002959"/>
+<circle cx="106.2" cy="200.2" r="3.84" fill="#002959"/>
+<path d="M82.2 214.6 Q95 225.8 107.8 214.6" stroke="#002959" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="95" y="265" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="95" dy="0">A näod</tspan></text>
+<line x1="135" y1="205" x2="175" y2="205" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="355" y1="205" x2="395" y2="205" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="400" y="169" width="190" height="72" rx="14" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="495" y="199" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="495" dy="0">ilme, asend,</tspan></text>
+<text x="495" y="225" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="495" dy="0">valgus</tspan></text>
+<line x1="595" y1="205" x2="635" y2="205" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="640" y="169" width="170" height="72" rx="14" fill="#FF8B48" filter="url(#sh)"/>
+<text x="725" y="213" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="725" dy="0">dekodeerija A</tspan></text>
+<line x1="815" y1="205" x2="855" y2="205" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<circle cx="900" cy="205" r="32" fill="#FFE2D1"/>
+<circle cx="888.8" cy="200.2" r="3.84" fill="#002959"/>
+<circle cx="911.2" cy="200.2" r="3.84" fill="#002959"/>
+<path d="M887.2 214.6 Q900 225.8 912.8 214.6" stroke="#002959" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="900" y="265" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="900" dy="0">A nägu</tspan></text>
+<circle cx="95" cy="315" r="32" fill="#CCD4DE"/>
+<circle cx="83.8" cy="310.2" r="3.84" fill="#002959"/>
+<circle cx="106.2" cy="310.2" r="3.84" fill="#002959"/>
+<path d="M82.2 324.6 Q95 335.8 107.8 324.6" stroke="#002959" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="95" y="375" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="95" dy="0">B näod</tspan></text>
+<line x1="135" y1="315" x2="175" y2="315" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="355" y1="315" x2="395" y2="315" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="400" y="279" width="190" height="72" rx="14" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="495" y="309" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="495" dy="0">ilme, asend,</tspan></text>
+<text x="495" y="335" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="495" dy="0">valgus</tspan></text>
+<line x1="595" y1="315" x2="635" y2="315" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="640" y="279" width="170" height="72" rx="14" fill="#33547A" filter="url(#sh)"/>
+<text x="725" y="323" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="725" dy="0">dekodeerija B</tspan></text>
+<line x1="815" y1="315" x2="855" y2="315" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<circle cx="900" cy="315" r="32" fill="#CCD4DE"/>
+<circle cx="888.8" cy="310.2" r="3.84" fill="#002959"/>
+<circle cx="911.2" cy="310.2" r="3.84" fill="#002959"/>
+<path d="M887.2 324.6 Q900 335.8 912.8 324.6" stroke="#002959" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="900" y="375" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="900" dy="0">B nägu</tspan></text>
+<rect x="30" y="405" width="940" height="270" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="55" y="440" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="55" dy="0">Võltsimine: vahetame dekodeerija</tspan></text>
+<rect x="180" y="495" width="170" height="72" rx="14" fill="#002959" filter="url(#sh)"/>
+<text x="265" y="539" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="265" dy="0">kodeerija</tspan></text>
+<circle cx="95" cy="531" r="32" fill="#FFE2D1"/>
+<circle cx="83.8" cy="526.2" r="3.84" fill="#002959"/>
+<circle cx="106.2" cy="526.2" r="3.84" fill="#002959"/>
+<ellipse cx="95" cy="544.44" rx="6.4" ry="5.44" fill="#002959"/>
+<text x="95" y="591" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="95" dy="0">video A-st</tspan></text>
+<line x1="135" y1="531" x2="175" y2="531" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="355" y1="531" x2="395" y2="531" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="400" y="495" width="190" height="72" rx="14" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="2"/>
+<text x="495" y="525" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="495" dy="0">ilme, asend,</tspan></text>
+<text x="495" y="551" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="495" dy="0">valgus</tspan></text>
+<line x1="595" y1="531" x2="635" y2="531" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="640" y="495" width="170" height="72" rx="14" fill="#33547A" filter="url(#sh)"/>
+<text x="725" y="539" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="725" dy="0">dekodeerija B</tspan></text>
+<line x1="815" y1="531" x2="855" y2="531" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<circle cx="900" cy="531" r="32" fill="#CCD4DE"/>
+<circle cx="888.8" cy="526.2" r="3.84" fill="#002959"/>
+<circle cx="911.2" cy="526.2" r="3.84" fill="#002959"/>
+<ellipse cx="900" cy="544.44" rx="6.4" ry="5.44" fill="#002959"/>
+<text x="900" y="591" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="900" dy="0"></tspan></text>
+<text x="900" y="595" font-size="20" font-weight="800" fill="#C0392B" text-anchor="middle"><tspan x="900" dy="0">B nägu</tspan><tspan x="900" dy="25">A ilmega!</tspan></text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="500" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Aktivatsioonifunktsioonid kui valguslülitid</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="100" width="290" height="370" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<text x="185" y="140" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="185" dy="0">Lävend</tspan></text>
+<text x="185" y="168" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle" font-style="italic"><tspan x="185" dy="0">tavaline lüliti</tspan></text>
+<rect x="70" y="190" width="230" height="170" rx="8" fill="#FFFFFF"/>
+<line x1="80" y1="340" x2="290" y2="340" stroke="#CCD4DE" stroke-width="2" stroke-linecap="round"/>
+<line x1="185.0" y1="200" x2="185.0" y2="350" stroke="#CCD4DE" stroke-width="2" stroke-linecap="round"/>
+<path d="M85,340 L185.0,340 L185.0,210 L285,210" stroke="#FF8B48" stroke-width="5" fill="none" stroke-linejoin="round"/>
+<text x="288" y="358" font-size="20" font-weight="400" fill="#33547A" text-anchor="end"><tspan x="288" dy="0">summa</tspan></text>
+<text x="179.0" y="334" font-size="20" font-weight="400" fill="#33547A" text-anchor="end"><tspan x="179.0" dy="0">0</tspan></text>
+<text x="185" y="400" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="185" dy="0">kas sees või väljas</tspan></text>
+<rect x="355" y="100" width="290" height="370" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<text x="500" y="140" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500" dy="0">Sigmoid</tspan></text>
+<text x="500" y="168" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle" font-style="italic"><tspan x="500" dy="0">hämarduslüliti</tspan></text>
+<rect x="385" y="190" width="230" height="170" rx="8" fill="#FFFFFF"/>
+<line x1="395" y1="340" x2="605" y2="340" stroke="#CCD4DE" stroke-width="2" stroke-linecap="round"/>
+<line x1="500.0" y1="200" x2="500.0" y2="350" stroke="#CCD4DE" stroke-width="2" stroke-linecap="round"/>
+<path d="M400.0,339.7 L401.7,339.6 L403.3,339.6 L405.0,339.6 L406.7,339.5 L408.3,339.5 L410.0,339.4 L411.7,339.4 L413.3,339.3 L415.0,339.2 L416.7,339.1 L418.3,339.0 L420.0,338.9 L421.7,338.8 L423.3,338.7 L425.0,338.6 L426.7,338.4 L428.3,338.3 L430.0,338.1 L431.7,337.9 L433.3,337.7 L435.0,337.4 L436.7,337.2 L438.3,336.9 L440.0,336.5 L441.7,336.2 L443.3,335.8 L445.0,335.4 L446.7,334.9 L448.3,334.4 L450.0,333.8 L451.7,333.2 L453.3,332.5 L455.0,331.8 L456.7,331.0 L458.3,330.1 L460.0,329.2 L461.7,328.2 L463.3,327.0 L465.0,325.8 L466.7,324.5 L468.3,323.1 L470.0,321.6 L471.7,319.9 L473.3,318.2 L475.0,316.3 L476.7,314.3 L478.3,312.2 L480.0,309.9 L481.7,307.5 L483.3,305.0 L485.0,302.4 L486.7,299.7 L488.3,296.9 L490.0,293.9 L491.7,290.9 L493.3,287.8 L495.0,284.7 L496.7,281.5 L498.3,278.2 L500.0,275.0 L501.7,271.8 L503.3,268.5 L505.0,265.3 L506.7,262.2 L508.3,259.1 L510.0,256.1 L511.7,253.1 L513.3,250.3 L515.0,247.6 L516.7,245.0 L518.3,242.5 L520.0,240.1 L521.7,237.8 L523.3,235.7 L525.0,233.7 L526.7,231.8 L528.3,230.1 L530.0,228.4 L531.7,226.9 L533.3,225.5 L535.0,224.2 L536.7,223.0 L538.3,221.8 L540.0,220.8 L541.7,219.9 L543.3,219.0 L545.0,218.2 L546.7,217.5 L548.3,216.8 L550.0,216.2 L551.7,215.6 L553.3,215.1 L555.0,214.6 L556.7,214.2 L558.3,213.8 L560.0,213.5 L561.7,213.1 L563.3,212.8 L565.0,212.6 L566.7,212.3 L568.3,212.1 L570.0,211.9 L571.7,211.7 L573.3,211.6 L575.0,211.4 L576.7,211.3 L578.3,211.2 L580.0,211.1 L581.7,211.0 L583.3,210.9 L585.0,210.8 L586.7,210.7 L588.3,210.6 L590.0,210.6 L591.7,210.5 L593.3,210.5 L595.0,210.4 L596.7,210.4 L598.3,210.4 L600.0,210.3" stroke="#FF8B48" stroke-width="5" fill="none" stroke-linejoin="round"/>
+<text x="603" y="358" font-size="20" font-weight="400" fill="#33547A" text-anchor="end"><tspan x="603" dy="0">summa</tspan></text>
+<text x="494.0" y="334" font-size="20" font-weight="400" fill="#33547A" text-anchor="end"><tspan x="494.0" dy="0">0</tspan></text>
+<text x="500" y="400" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500" dy="0">sujuvalt 0 ja 1 vahel</tspan></text>
+<rect x="670" y="100" width="290" height="370" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="815" y="140" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="815" dy="0">ReLU</tspan></text>
+<text x="815" y="168" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle" font-style="italic"><tspan x="815" dy="0">„negatiivne = 0“</tspan></text>
+<rect x="700" y="190" width="230" height="170" rx="8" fill="#FFFFFF"/>
+<line x1="710" y1="340" x2="920" y2="340" stroke="#CCD4DE" stroke-width="2" stroke-linecap="round"/>
+<line x1="815.0" y1="200" x2="815.0" y2="350" stroke="#CCD4DE" stroke-width="2" stroke-linecap="round"/>
+<path d="M715.0,340.0 L716.7,340.0 L718.3,340.0 L720.0,340.0 L721.7,340.0 L723.3,340.0 L725.0,340.0 L726.7,340.0 L728.3,340.0 L730.0,340.0 L731.7,340.0 L733.3,340.0 L735.0,340.0 L736.7,340.0 L738.3,340.0 L740.0,340.0 L741.7,340.0 L743.3,340.0 L745.0,340.0 L746.7,340.0 L748.3,340.0 L750.0,340.0 L751.7,340.0 L753.3,340.0 L755.0,340.0 L756.7,340.0 L758.3,340.0 L760.0,340.0 L761.7,340.0 L763.3,340.0 L765.0,340.0 L766.7,340.0 L768.3,340.0 L770.0,340.0 L771.7,340.0 L773.3,340.0 L775.0,340.0 L776.7,340.0 L778.3,340.0 L780.0,340.0 L781.7,340.0 L783.3,340.0 L785.0,340.0 L786.7,340.0 L788.3,340.0 L790.0,340.0 L791.7,340.0 L793.3,340.0 L795.0,340.0 L796.7,340.0 L798.3,340.0 L800.0,340.0 L801.7,340.0 L803.3,340.0 L805.0,340.0 L806.7,340.0 L808.3,340.0 L810.0,340.0 L811.7,340.0 L813.3,340.0 L815.0,340.0 L816.7,337.8 L818.3,335.7 L820.0,333.5 L821.7,331.3 L823.3,329.2 L825.0,327.0 L826.7,324.8 L828.3,322.7 L830.0,320.5 L831.7,318.3 L833.3,316.2 L835.0,314.0 L836.7,311.8 L838.3,309.7 L840.0,307.5 L841.7,305.3 L843.3,303.2 L845.0,301.0 L846.7,298.8 L848.3,296.7 L850.0,294.5 L851.7,292.3 L853.3,290.2 L855.0,288.0 L856.7,285.8 L858.3,283.7 L860.0,281.5 L861.7,279.3 L863.3,277.2 L865.0,275.0 L866.7,272.8 L868.3,270.7 L870.0,268.5 L871.7,266.3 L873.3,264.2 L875.0,262.0 L876.7,259.8 L878.3,257.7 L880.0,255.5 L881.7,253.3 L883.3,251.2 L885.0,249.0 L886.7,246.8 L888.3,244.7 L890.0,242.5 L891.7,240.3 L893.3,238.2 L895.0,236.0 L896.7,233.8 L898.3,231.7 L900.0,229.5 L901.7,227.3 L903.3,225.2 L905.0,223.0 L906.7,220.8 L908.3,218.7 L910.0,216.5 L911.7,214.3 L913.3,212.2 L915.0,210.0" stroke="#FF8B48" stroke-width="5" fill="none" stroke-linejoin="round"/>
+<text x="918" y="358" font-size="20" font-weight="400" fill="#33547A" text-anchor="end"><tspan x="918" dy="0">summa</tspan></text>
+<text x="809.0" y="334" font-size="20" font-weight="400" fill="#33547A" text-anchor="end"><tspan x="809.0" dy="0">0</tspan></text>
+<text x="815" y="400" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="815" dy="0">negatiivne → 0,</tspan><tspan x="815" dy="26">positiivne jääb samaks</tspan></text>
+</svg>

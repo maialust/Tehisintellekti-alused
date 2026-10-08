@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gfade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#002959" stop-opacity="0.12"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">ELi TI-määruse riskipüramiid</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<text x="40" y="108" font-size="21" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="40" dy="0">Mida suurem risk, seda rangemad nõuded</tspan></text>
+<path d="M258,130 L292,130 L350,229 L200,229 z" fill="#C0392B"/>
+<text x="275" y="200" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="275" dy="0">keelatud</tspan></text>
+<line x1="360" y1="180" x2="545" y2="180" stroke="#CCD4DE" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="550" y="134" width="425" height="92" rx="12" fill="#FFF4EC" stroke="#C0392B" stroke-width="2"/>
+<text x="570" y="164" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="570" dy="0">Vastuvõetamatu risk</tspan></text>
+<text x="570" y="192" font-size="19" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="570" dy="0">manipuleerimine, sotsiaalne</tspan><tspan x="570" dy="23">punktisüsteem</tspan></text>
+<path d="M197,235 L353,235 L410,334 L140,334 z" fill="#FF8B48"/>
+<text x="275" y="305" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="275" dy="0">ranged nõuded</tspan></text>
+<line x1="420" y1="285" x2="545" y2="285" stroke="#CCD4DE" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="550" y="239" width="425" height="92" rx="12" fill="#EEF2F7" stroke="#FF8B48" stroke-width="2"/>
+<text x="570" y="269" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="570" dy="0">Kõrge risk</tspan></text>
+<text x="570" y="297" font-size="19" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="570" dy="0">töölevärbamine, haridus,</tspan><tspan x="570" dy="23">kriitiline taristu</tspan></text>
+<path d="M136,340 L414,340 L471,439 L79,439 z" fill="#F7C59F"/>
+<text x="275" y="410" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="275" dy="0">läbipaistvus</tspan></text>
+<line x1="481" y1="390" x2="545" y2="390" stroke="#CCD4DE" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="550" y="344" width="425" height="92" rx="12" fill="#FFF4EC"/>
+<text x="570" y="374" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="570" dy="0">Piiratud risk</tspan></text>
+<text x="570" y="402" font-size="19" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="570" dy="0">vestlusrobotid, süvavõltsingud</tspan></text>
+<path d="M76,445 L474,445 L532,544 L18,544 z" fill="#CCD4DE"/>
+<text x="275" y="515" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="275" dy="0">lisanõudeid pole</tspan></text>
+<line x1="542" y1="495" x2="545" y2="495" stroke="#CCD4DE" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="550" y="449" width="425" height="92" rx="12" fill="#EEF2F7"/>
+<text x="570" y="479" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="570" dy="0">Minimaalne risk</tspan></text>
+<text x="570" y="507" font-size="19" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="570" dy="0">rämpspostifiltrid, TI</tspan><tspan x="570" dy="23">videomängudes</tspan></text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter><marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker><marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker><marker id="an" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#002959"/></marker><linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient><linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="420" rx="18" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1200" height="420" rx="18" fill="url(#gnavy)"/>
+<circle cx="1120" cy="-30" r="190" fill="#33547A" opacity="0.45"/>
+<circle cx="60" cy="440" r="120" fill="#33547A" opacity="0.35"/>
+<text x="70" y="120" font-size="34" font-weight="700" fill="#FF8B48" text-anchor="start"><tspan x="70" dy="0">PLOKK 7</tspan></text>
+<text x="70" y="200" font-size="60" font-weight="800" fill="#FFFFFF" text-anchor="start"><tspan x="70" dy="0">Kokkuvõte ja</tspan><tspan x="70" dy="70">projektitöö</tspan></text>
+<text x="70" y="360" font-size="24" font-weight="400" fill="#CCD4DE" text-anchor="start"><tspan x="70" dy="0">Teadmised kokku – ja päriselt kasutusse</tspan></text>
+<path d="M640,330 L720,270 L800,315 L880,240 L960,285 L1040,205 L1110,140" stroke="#CCD4DE" stroke-width="4" fill="none" stroke-linecap="round" stroke-dasharray="2 10"/>
+<circle cx="640" cy="330" r="26" fill="#FFFFFF"/>
+<text x="640" y="339" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="640" dy="0">1</tspan></text>
+<circle cx="720" cy="270" r="26" fill="#FFFFFF"/>
+<text x="720" y="279" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="720" dy="0">2</tspan></text>
+<circle cx="800" cy="315" r="26" fill="#FFFFFF"/>
+<text x="800" y="324" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="800" dy="0">3</tspan></text>
+<circle cx="880" cy="240" r="26" fill="#FFFFFF"/>
+<text x="880" y="249" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="880" dy="0">4</tspan></text>
+<circle cx="960" cy="285" r="26" fill="#FFFFFF"/>
+<text x="960" y="294" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="960" dy="0">5</tspan></text>
+<circle cx="1040" cy="205" r="26" fill="#FFFFFF"/>
+<text x="1040" y="214" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="1040" dy="0">6</tspan></text>
+<line x1="1110" y1="160" x2="1110" y2="60" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+<path d="M1113,62 L1175,82 L1113,104 z" fill="#FF8B48"/>
+<circle cx="1110" cy="168" r="34" fill="#FF8B48"/>
+<text x="1110" y="179" font-size="30" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="1110" dy="0">7</tspan></text>
+</svg>

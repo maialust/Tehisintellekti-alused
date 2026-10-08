@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter><marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker><marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker><marker id="an" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#002959"/></marker><linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient><linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient></defs>
+<rect x="0" y="0" width="1000" height="470" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">TI-projekti arendamise etapid</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="30" y="130" width="172" height="190" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="116.0" cy="170" r="22" fill="#002959"/>
+<text x="116.0" y="177.35" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="116.0" dy="0">1</tspan></text>
+<text x="116.0" y="230" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="116.0" dy="0">Ettevalmistus</tspan></text>
+<text x="116.0" y="262" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="116.0" dy="0">plaan, ressursid,</tspan><tspan x="116.0" dy="22">meeskond</tspan></text>
+<line x1="204" y1="225" x2="220" y2="225" stroke="#FF8B48" stroke-width="4" stroke-linecap="round" marker-end="url(#ao)"/>
+<rect x="223" y="130" width="172" height="190" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="309.0" cy="170" r="22" fill="#002959"/>
+<text x="309.0" y="177.35" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="309.0" dy="0">2</tspan></text>
+<text x="309.0" y="230" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="309.0" dy="0">Andmed</tspan></text>
+<text x="309.0" y="262" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="309.0" dy="0">allikad,</tspan><tspan x="309.0" dy="22">puhastamine</tspan></text>
+<line x1="397" y1="225" x2="413" y2="225" stroke="#FF8B48" stroke-width="4" stroke-linecap="round" marker-end="url(#ao)"/>
+<rect x="416" y="130" width="172" height="190" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="502.0" cy="170" r="22" fill="#002959"/>
+<text x="502.0" y="177.35" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="502.0" dy="0">3</tspan></text>
+<text x="502.0" y="230" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="502.0" dy="0">Disain</tspan></text>
+<text x="502.0" y="262" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="502.0" dy="0">arhitektuur,</tspan><tspan x="502.0" dy="22">prototüüp</tspan></text>
+<line x1="590" y1="225" x2="606" y2="225" stroke="#FF8B48" stroke-width="4" stroke-linecap="round" marker-end="url(#ao)"/>
+<rect x="609" y="130" width="172" height="190" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<circle cx="695.0" cy="170" r="22" fill="#FF8B48"/>
+<text x="695.0" y="177.35" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="695.0" dy="0">4</tspan></text>
+<text x="695.0" y="230" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="695.0" dy="0">Teostus</tspan></text>
+<text x="695.0" y="262" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="695.0" dy="0">arendus,</tspan><tspan x="695.0" dy="22">ühendamine</tspan></text>
+<line x1="783" y1="225" x2="799" y2="225" stroke="#FF8B48" stroke-width="4" stroke-linecap="round" marker-end="url(#ao)"/>
+<rect x="802" y="130" width="172" height="190" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<circle cx="888.0" cy="170" r="22" fill="#FF8B48"/>
+<text x="888.0" y="177.35" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="888.0" dy="0">5</tspan></text>
+<text x="888.0" y="230" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="888.0" dy="0">Testimine</tspan></text>
+<text x="888.0" y="262" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="888.0" dy="0">ja hindamine</tspan></text>
+<path d="M888.0,326 C888.0,400 695.0,400 695.0,330" stroke="#FF8B48" stroke-width="4" fill="none" stroke-linecap="round" marker-end="url(#ao)"/>
+<text x="791.5" y="425" font-size="19" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="791.5" dy="0">parandused tagasiside põhjal</tspan></text>
+<text x="40" y="425" font-size="20" font-weight="600" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Arendus ei ole sirgjooneline.</tspan></text>
+</svg>

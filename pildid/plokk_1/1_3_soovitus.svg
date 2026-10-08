@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="570" viewBox="0 0 1000 570" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="570" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Kaks viisi soovitada</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="105" width="440" height="420" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="260" y="148" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="260" dy="0">Koostööfiltreerimine</tspan></text>
+<text x="260" y="176" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="260" dy="0">sarnased kasutajad</tspan></text>
+<rect x="520" y="105" width="440" height="420" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="740" y="148" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="740" dy="0">Sisupõhine filtreerimine</tspan></text>
+<text x="740" y="176" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="740" dy="0">sarnane sisu</tspan></text>
+<circle cx="120" cy="250" r="34" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<circle cx="120" cy="240" r="11" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<path d="M100,276 Q100,254 120,254 Q140,254 140,276 z" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<text x="120" y="310" font-size="19" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="120" dy="0">Sina</tspan></text>
+<circle cx="400" cy="250" r="34" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<circle cx="400" cy="240" r="11" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<path d="M380,276 Q380,254 400,254 Q420,254 420,276 z" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<text x="400" y="310" font-size="19" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="400" dy="0">Mari</tspan></text>
+<rect x="206" y="206" width="48" height="48" rx="10" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="226" cy="238" r="7" fill="#002959"/>
+<line x1="233" y1="238" x2="233" y2="216" stroke="#002959" stroke-width="3"/><line x1="233" y1="216" x2="243" y2="220" stroke="#002959" stroke-width="3"/>
+<rect x="266" y="206" width="48" height="48" rx="10" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="286" cy="238" r="7" fill="#002959"/>
+<line x1="293" y1="238" x2="293" y2="216" stroke="#002959" stroke-width="3"/><line x1="293" y1="216" x2="303" y2="220" stroke="#002959" stroke-width="3"/>
+<text x="260" y="285" font-size="16" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="260" dy="0">mõlemale meeldivad</tspan></text>
+<rect x="376" y="356" width="48" height="48" rx="10" fill="#FFE2D1" stroke="#FF8B48" stroke-width="3"/>
+<circle cx="396" cy="388" r="7" fill="#FF8B48"/>
+<line x1="403" y1="388" x2="403" y2="366" stroke="#FF8B48" stroke-width="3"/><line x1="403" y1="366" x2="413" y2="370" stroke="#FF8B48" stroke-width="3"/>
+<line x1="370" y1="395" x2="160" y2="395" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<text x="250" y="440" font-size="19" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="250" dy="0">Marile meeldis ka see</tspan><tspan x="250" dy="24">lugu → soovitus sulle</tspan></text>
+<rect x="586" y="216" width="48" height="48" rx="10" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="606" cy="248" r="7" fill="#002959"/>
+<line x1="613" y1="248" x2="613" y2="226" stroke="#002959" stroke-width="3"/><line x1="613" y1="226" x2="623" y2="230" stroke="#002959" stroke-width="3"/>
+<text x="610" y="290" font-size="17" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="610" dy="0">sulle meeldis</tspan></text>
+<rect x="545" y="310" width="130" height="32" rx="16" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="610" y="332" font-size="17" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="610" dy="0">rahulik</tspan></text>
+<rect x="545" y="350" width="130" height="32" rx="16" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="610" y="372" font-size="17" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="610" dy="0">akustiline</tspan></text>
+<rect x="826" y="216" width="48" height="48" rx="10" fill="#FFE2D1" stroke="#FF8B48" stroke-width="3"/>
+<circle cx="846" cy="248" r="7" fill="#FF8B48"/>
+<line x1="853" y1="248" x2="853" y2="226" stroke="#FF8B48" stroke-width="3"/><line x1="853" y1="226" x2="863" y2="230" stroke="#FF8B48" stroke-width="3"/>
+<text x="850" y="290" font-size="17" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="850" dy="0">uus lugu</tspan></text>
+<rect x="785" y="310" width="130" height="32" rx="16" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="850" y="332" font-size="17" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="850" dy="0">rahulik</tspan></text>
+<rect x="785" y="350" width="130" height="32" rx="16" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="850" y="372" font-size="17" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="850" dy="0">akustiline</tspan></text>
+<line x1="650" y1="240" x2="816" y2="240" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<text x="733" y="225" font-size="16" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="733" dy="0">sarnane</tspan></text>
+<text x="740" y="440" font-size="19" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="740" dy="0">Sama tunnustega lugu</tspan><tspan x="740" dy="24">→ soovitus sulle</tspan></text>
+<rect x="300" y="490" width="400" height="0"/>
+<text x="500" y="548" font-size="18" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="500" dy="0">Suured platvormid ühendavad mõlemad = hübriidsüsteem</tspan></text>
+
+</svg>

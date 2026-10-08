@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="640" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">VAE, GAN ja difusioon võrdluses</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="30" y="100" width="300" height="510" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="30" y="100" width="300" height="70" rx="14" fill="#33547A"/>
+<text x="180" y="147" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="180" dy="0">VAE</tspan></text>
+<text x="180" y="210" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="180" dy="0">kodeerija + dekodeerija</tspan></text>
+<circle cx="60" cy="262" r="14" fill="#2E8B57"/>
+<text x="60" y="269" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="60" dy="0">+</tspan></text>
+<text x="86" y="270" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="86" dy="0">stabiilne treening</tspan><tspan x="86" dy="25">latentset ruumi</tspan><tspan x="86" dy="25">mugav uurida</tspan></text>
+<circle cx="60" cy="432" r="14" fill="#C0392B"/>
+<text x="60" y="439" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="60" dy="0">–</tspan></text>
+<text x="86" y="440" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="86" dy="0">pildid sageli</tspan><tspan x="86" dy="25">veidi udused</tspan></text>
+<rect x="348" y="100" width="300" height="510" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="348" y="100" width="300" height="70" rx="14" fill="#002959"/>
+<text x="498" y="147" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="498" dy="0">GAN</tspan></text>
+<text x="498" y="210" font-size="19" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="498" dy="0">generaator vs diskriminaator</tspan></text>
+<circle cx="378" cy="262" r="14" fill="#2E8B57"/>
+<text x="378" y="269" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="378" dy="0">+</tspan></text>
+<text x="404" y="270" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="404" dy="0">teravad pildid</tspan><tspan x="404" dy="25">fotorealistlikud</tspan><tspan x="404" dy="25">näod</tspan></text>
+<circle cx="378" cy="432" r="14" fill="#C0392B"/>
+<text x="378" y="439" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="378" dy="0">–</tspan></text>
+<text x="404" y="440" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="404" dy="0">ebastabiilne</tspan><tspan x="404" dy="25">treening, tulemus</tspan><tspan x="404" dy="25">võib olla ühekülgne</tspan></text>
+<rect x="666" y="100" width="300" height="510" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<rect x="666" y="100" width="300" height="70" rx="14" fill="#FF8B48"/>
+<text x="816" y="147" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="816" dy="0">Difusioon</tspan></text>
+<text x="816" y="210" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="816" dy="0">müra järk-järgult eemale</tspan></text>
+<circle cx="696" cy="262" r="14" fill="#2E8B57"/>
+<text x="696" y="269" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="696" dy="0">+</tspan></text>
+<text x="722" y="270" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="722" dy="0">stabiilsem treening</tspan><tspan x="722" dy="25">mitmekesisem</tspan><tspan x="722" dy="25">paremini juhitav</tspan></text>
+<text x="690" y="440" font-size="20" font-weight="700" fill="#E67E42" text-anchor="start"><tspan x="690" dy="0">Näited:</tspan></text>
+<text x="690" y="470" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="690" dy="0">DALL-E, Stable Diffusion,</tspan><tspan x="690" dy="25">Midjourney, Imagen</tspan></text>
+</svg>

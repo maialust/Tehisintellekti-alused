@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gfade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#002959" stop-opacity="0.12"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="430" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Viis eetilist põhimõtet</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="22" y="105" width="180" height="300" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<circle cx="112.0" cy="170" r="44" fill="#FFFFFF" stroke="#FF8B48" stroke-width="3"/>
+<circle cx="112.0" cy="160.6" r="10.45" fill="#002959"/>
+<path d="M93.0,194.8 Q93.0,173.9 112.0,173.9 Q131.0,173.9 131.0,194.8 z" fill="#002959"/>
+<text x="112.0" y="248" font-size="23" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="112.0" dy="0">Inimkesksus</tspan></text>
+<text x="112.0" y="288" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="112.0" dy="0">TI teenib</tspan><tspan x="112.0" dy="25">inimest ja on</tspan><tspan x="112.0" dy="25">inimese</tspan><tspan x="112.0" dy="25">kontrolli all</tspan></text>
+<rect x="215" y="105" width="180" height="300" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="305.0" cy="170" r="44" fill="#FFFFFF" stroke="#FF8B48" stroke-width="3"/>
+<path d="M280.3,172 Q305.0,149.2 329.7,172 Q305.0,194.8 280.3,172 z" fill="none" stroke="#002959" stroke-width="3.8"/>
+<circle cx="305.0" cy="172" r="7.6" fill="#002959"/>
+<text x="305.0" y="248" font-size="23" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="305.0" dy="0">Läbipaistvus</tspan></text>
+<text x="305.0" y="288" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="305.0" dy="0">otsust saab</tspan><tspan x="305.0" dy="25">selgitada ja</tspan><tspan x="305.0" dy="25">kontrollida</tspan></text>
+<rect x="408" y="105" width="180" height="300" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<circle cx="498.0" cy="170" r="44" fill="#FFFFFF" stroke="#FF8B48" stroke-width="3"/>
+<line x1="498.0" y1="151.1" x2="498.0" y2="191.0" stroke="#002959" stroke-width="3.8"/>
+<line x1="475.2" y1="156.8" x2="520.8" y2="156.8" stroke="#002959" stroke-width="3.8"/>
+<rect x="486.6" y="189.1" width="22.799999999999997" height="4.75" rx="1.9" fill="#002959"/>
+<path d="M464.75,173.9 L475.2,156.8 L485.65,173.9" fill="none" stroke="#002959" stroke-width="1.9"/>
+<path d="M463.8,173.9 Q475.2,185.3 486.59999999999997,173.9 z" fill="#002959"/>
+<path d="M510.34999999999997,173.9 L520.8,156.8 L531.25,173.9" fill="none" stroke="#002959" stroke-width="1.9"/>
+<path d="M509.4,173.9 Q520.8,185.3 532.1999999999999,173.9 z" fill="#002959"/>
+<circle cx="498.0" cy="151.1" r="3.8" fill="#002959"/>
+<text x="498.0" y="248" font-size="23" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="498.0" dy="0">Õiglus</tspan></text>
+<text x="498.0" y="288" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="498.0" dy="0">kõiki</tspan><tspan x="498.0" dy="25">koheldakse</tspan><tspan x="498.0" dy="25">võrdselt</tspan></text>
+<rect x="601" y="105" width="180" height="300" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="691.0" cy="170" r="44" fill="#FFFFFF" stroke="#FF8B48" stroke-width="3"/>
+<path d="M679.6,168.2 L679.6,160.6 A11.399999999999999,11.399999999999999 0 0 1 702.4,160.6 L702.4,168.2" fill="none" stroke="#002959" stroke-width="4.75"/>
+<rect x="672.0" y="166.3" width="38.0" height="28.5" rx="4.75" fill="#002959"/>
+<circle cx="691.0" cy="178.65" r="3.8" fill="#FFFFFF"/>
+<text x="691.0" y="248" font-size="23" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="691.0" dy="0">Privaatsus</tspan></text>
+<text x="691.0" y="288" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="691.0" dy="0">isikuandmed</tspan><tspan x="691.0" dy="25">on kaitstud</tspan></text>
+<rect x="794" y="105" width="180" height="300" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<circle cx="884.0" cy="170" r="44" fill="#FFFFFF" stroke="#FF8B48" stroke-width="3"/>
+<rect x="866.9" y="149.2" width="34.199999999999996" height="45.599999999999994" rx="3.8" fill="#FFFFFF" stroke="#002959" stroke-width="2.8499999999999996"/>
+<line x1="874.5" y1="160.6" x2="893.5" y2="160.6" stroke="#002959" stroke-width="2.375"/>
+<line x1="874.5" y1="169.15" x2="893.5" y2="169.15" stroke="#002959" stroke-width="2.375"/>
+<line x1="874.5" y1="177.7" x2="893.5" y2="177.7" stroke="#002959" stroke-width="2.375"/>
+<path d="M885.9,187.2 L893.5,194.8 L908.7,175.8" fill="none" stroke="#FF8B48" stroke-width="4.75" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="884.0" y="248" font-size="23" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="884.0" dy="0">Vastutus</tspan></text>
+<text x="884.0" y="288" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="884.0" dy="0">vastutavad</tspan><tspan x="884.0" dy="25">alati inimesed,</tspan><tspan x="884.0" dy="25">mitte TI</tspan></text>
+</svg>

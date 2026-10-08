@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="650" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Kaks lähenemist: reeglid või andmed</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="105" width="440" height="520" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="40" y="105" width="440" height="56" rx="14" fill="#002959"/><rect x="40" y="141" width="440" height="20" fill="#002959"/>
+<text x="260" y="142" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="260" dy="0">Sümboolne TI</tspan></text>
+<rect x="520" y="105" width="440" height="520" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<rect x="520" y="105" width="440" height="56" rx="14" fill="#FF8B48"/><rect x="520" y="141" width="440" height="20" fill="#FF8B48"/>
+<text x="740" y="142" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="740" dy="0">Masinõpe</tspan></text>
+<circle cx="110" cy="220" r="32" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<circle cx="110" cy="206" r="11" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<path d="M90,242 Q90,220 110,220 Q130,220 130,242 z" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<text x="160" y="227" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="160" dy="0">Inimene mõtleb välja</tspan></text>
+<line x1="110" y1="256" x2="110" y2="274" stroke="#33547A" stroke-width="3" marker-end="url(#ab)"/>
+<circle cx="110" cy="320" r="32" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<rect x="88" y="292" width="44" height="56" rx="6" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<line x1="98" y1="306" x2="124" y2="306" stroke="#FF8B48" stroke-width="3"/>
+<line x1="98" y1="320" x2="124" y2="320" stroke="#002959" stroke-width="3"/>
+<line x1="98" y1="334" x2="124" y2="334" stroke="#002959" stroke-width="3"/>
+<text x="160" y="327" font-size="20" font-weight="700" fill="#002959" text-anchor="start"><tspan x="160" dy="0">reeglid: „kui …, siis …”</tspan></text>
+<line x1="110" y1="356" x2="110" y2="374" stroke="#33547A" stroke-width="3" marker-end="url(#ab)"/>
+<circle cx="110" cy="420" r="32" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<rect x="92" y="402" width="36" height="36" rx="5" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<rect x="102" y="412" width="16" height="16" rx="2" fill="#FF8B48"/>
+<line x1="100" y1="402" x2="100" y2="393" stroke="#002959" stroke-width="3"/><line x1="100" y1="438" x2="100" y2="447" stroke="#002959" stroke-width="3"/>
+<line x1="92" y1="410" x2="83" y2="410" stroke="#002959" stroke-width="3"/><line x1="128" y1="410" x2="137" y2="410" stroke="#002959" stroke-width="3"/>
+<line x1="110" y1="402" x2="110" y2="393" stroke="#002959" stroke-width="3"/><line x1="110" y1="438" x2="110" y2="447" stroke="#002959" stroke-width="3"/>
+<line x1="92" y1="420" x2="83" y2="420" stroke="#002959" stroke-width="3"/><line x1="128" y1="420" x2="137" y2="420" stroke="#002959" stroke-width="3"/>
+<line x1="120" y1="402" x2="120" y2="393" stroke="#002959" stroke-width="3"/><line x1="120" y1="438" x2="120" y2="447" stroke="#002959" stroke-width="3"/>
+<line x1="92" y1="430" x2="83" y2="430" stroke="#002959" stroke-width="3"/><line x1="128" y1="430" x2="137" y2="430" stroke="#002959" stroke-width="3"/>
+<text x="160" y="427" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="160" dy="0">Programm rakendab</tspan></text>
+<line x1="110" y1="456" x2="110" y2="474" stroke="#33547A" stroke-width="3" marker-end="url(#ab)"/>
+<circle cx="110" cy="520" r="32" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<rect x="82" y="498" width="56" height="36" rx="10" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<path d="M96,534 L90,546 L108,534 z" fill="#002959"/>
+<circle cx="98" cy="516" r="4" fill="#FF8B48"/>
+<circle cx="110" cy="516" r="4" fill="#FF8B48"/>
+<circle cx="122" cy="516" r="4" fill="#FF8B48"/>
+<text x="160" y="527" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="160" dy="0">Vastus</tspan></text>
+<circle cx="590" cy="220" r="32" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<rect x="564" y="222" width="10" height="18" rx="2" fill="#002959"/>
+<rect x="578" y="210" width="10" height="30" rx="2" fill="#002959"/>
+<rect x="592" y="218" width="10" height="22" rx="2" fill="#002959"/>
+<rect x="606" y="200" width="10" height="40" rx="2" fill="#FF8B48"/>
+<text x="640" y="227" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="640" dy="0">Palju märgitud näiteid</tspan></text>
+<line x1="590" y1="256" x2="590" y2="274" stroke="#33547A" stroke-width="3" marker-end="url(#ab)"/>
+<circle cx="590" cy="320" r="32" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<line x1="566" y1="306" x2="590" y2="300" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="566" y1="306" x2="590" y2="320" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="566" y1="306" x2="590" y2="340" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="566" y1="334" x2="590" y2="300" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="566" y1="334" x2="590" y2="320" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="566" y1="334" x2="590" y2="340" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="590" y1="300" x2="614" y2="306" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="590" y1="300" x2="614" y2="334" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="590" y1="320" x2="614" y2="306" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="590" y1="320" x2="614" y2="334" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="590" y1="340" x2="614" y2="306" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="590" y1="340" x2="614" y2="334" stroke="#CCD4DE" stroke-width="2"/>
+<circle cx="566" cy="306" r="6" fill="#FFFFFF" stroke="#002959" stroke-width="2.5"/>
+<circle cx="566" cy="334" r="6" fill="#FFFFFF" stroke="#002959" stroke-width="2.5"/>
+<circle cx="590" cy="300" r="6" fill="#FF8B48" stroke="#002959" stroke-width="2.5"/>
+<circle cx="590" cy="320" r="6" fill="#FF8B48" stroke="#002959" stroke-width="2.5"/>
+<circle cx="590" cy="340" r="6" fill="#FF8B48" stroke="#002959" stroke-width="2.5"/>
+<circle cx="614" cy="306" r="6" fill="#FFFFFF" stroke="#002959" stroke-width="2.5"/>
+<circle cx="614" cy="334" r="6" fill="#FFFFFF" stroke="#002959" stroke-width="2.5"/>
+<text x="640" y="327" font-size="20" font-weight="700" fill="#002959" text-anchor="start"><tspan x="640" dy="0">Süsteem leiab ise</tspan></text>
+<line x1="590" y1="356" x2="590" y2="374" stroke="#33547A" stroke-width="3" marker-end="url(#ab)"/>
+<circle cx="590" cy="420" r="32" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<line x1="568" y1="406" x2="590" y2="436" stroke="#002959" stroke-width="3"/>
+<line x1="612" y1="406" x2="590" y2="436" stroke="#002959" stroke-width="3"/>
+<line x1="590" y1="436" x2="568" y2="438" stroke="#002959" stroke-width="3"/>
+<line x1="590" y1="436" x2="612" y2="438" stroke="#002959" stroke-width="3"/>
+<line x1="568" y1="406" x2="612" y2="406" stroke="#002959" stroke-width="3"/>
+<circle cx="568" cy="406" r="7" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="612" cy="406" r="7" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="590" cy="436" r="7" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="568" cy="438" r="7" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="612" cy="438" r="7" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<text x="640" y="427" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="640" dy="0">mustrid (mudel)</tspan></text>
+<line x1="590" y1="456" x2="590" y2="474" stroke="#33547A" stroke-width="3" marker-end="url(#ab)"/>
+<circle cx="590" cy="520" r="32" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<rect x="562" y="498" width="56" height="36" rx="10" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<path d="M576,534 L570,546 L588,534 z" fill="#002959"/>
+<circle cx="578" cy="516" r="4" fill="#FF8B48"/>
+<circle cx="590" cy="516" r="4" fill="#FF8B48"/>
+<circle cx="602" cy="516" r="4" fill="#FF8B48"/>
+<text x="640" y="527" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="640" dy="0">Vastus ka uutele</tspan></text>
+<text x="260" y="600" font-size="19" font-weight="700" fill="#C0392B" text-anchor="middle"><tspan x="260" dy="0">Uus pettus? → reeglid hätta</tspan></text>
+<text x="740" y="600" font-size="19" font-weight="700" fill="#2E8B57" text-anchor="middle"><tspan x="740" dy="0">Tunneb ära ka uued juhud</tspan></text>
+
+</svg>

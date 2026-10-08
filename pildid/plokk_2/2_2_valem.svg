@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="420" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Millest tehisintellekt koosneb?</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="120" width="170" height="240" rx="14" fill="#EEF2F7" stroke="#002959" stroke-width="2" filter="url(#sh)"/>
+<rect x="97" y="152" width="56" height="72" rx="6" fill="#FFFFFF" stroke="#002959" stroke-width="2"/>
+<line x1="109" y1="168" x2="141" y2="168" stroke="#33547A" stroke-width="3" stroke-linecap="round"/>
+<line x1="109" y1="183" x2="141" y2="183" stroke="#33547A" stroke-width="3" stroke-linecap="round"/>
+<line x1="109" y1="198" x2="141" y2="198" stroke="#33547A" stroke-width="3" stroke-linecap="round"/>
+<line x1="109" y1="213" x2="141" y2="213" stroke="#33547A" stroke-width="3" stroke-linecap="round"/>
+<text x="125" y="268" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="125" dy="0">ALGORITMID</tspan></text>
+<text x="125" y="330" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle" font-style="italic"><tspan x="125" dy="0">(retsept)</tspan></text>
+<text x="250" y="252" font-size="48" font-weight="700" fill="#FF8B48" text-anchor="middle"><tspan x="250" dy="0">+</tspan></text>
+<rect x="290" y="120" width="170" height="240" rx="14" fill="#EEF2F7" stroke="#002959" stroke-width="2" filter="url(#sh)"/>
+<ellipse cx="375" cy="212" rx="32" ry="11" fill="#33547A"/>
+<rect x="343" y="168" width="64" height="44" fill="#33547A"/>
+<ellipse cx="375" cy="168" rx="32" ry="11" fill="#CCD4DE" stroke="#33547A" stroke-width="2"/>
+<path d="M343,190 Q375,206 407,190" stroke="#CCD4DE" stroke-width="2" fill="none"/>
+<text x="375" y="268" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="375" dy="0">ANDMED</tspan></text>
+<text x="375" y="330" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle" font-style="italic"><tspan x="375" dy="0">(toorained)</tspan></text>
+<text x="500" y="252" font-size="48" font-weight="700" fill="#FF8B48" text-anchor="middle"><tspan x="500" dy="0">+</tspan></text>
+<rect x="540" y="120" width="170" height="240" rx="14" fill="#EEF2F7" stroke="#002959" stroke-width="2" filter="url(#sh)"/>
+<rect x="599" y="164" width="52" height="52" rx="6" fill="#002959"/>
+<rect x="613" y="178" width="24" height="24" rx="3" fill="#FF8B48"/>
+<line x1="611" y1="164" x2="611" y2="152" stroke="#002959" stroke-width="4" stroke-linecap="round"/>
+<line x1="611" y1="216" x2="611" y2="228" stroke="#002959" stroke-width="4" stroke-linecap="round"/>
+<line x1="599" y1="176" x2="587" y2="176" stroke="#002959" stroke-width="4" stroke-linecap="round"/>
+<line x1="651" y1="176" x2="663" y2="176" stroke="#002959" stroke-width="4" stroke-linecap="round"/>
+<line x1="625" y1="164" x2="625" y2="152" stroke="#002959" stroke-width="4" stroke-linecap="round"/>
+<line x1="625" y1="216" x2="625" y2="228" stroke="#002959" stroke-width="4" stroke-linecap="round"/>
+<line x1="599" y1="190" x2="587" y2="190" stroke="#002959" stroke-width="4" stroke-linecap="round"/>
+<line x1="651" y1="190" x2="663" y2="190" stroke="#002959" stroke-width="4" stroke-linecap="round"/>
+<line x1="639" y1="164" x2="639" y2="152" stroke="#002959" stroke-width="4" stroke-linecap="round"/>
+<line x1="639" y1="216" x2="639" y2="228" stroke="#002959" stroke-width="4" stroke-linecap="round"/>
+<line x1="599" y1="204" x2="587" y2="204" stroke="#002959" stroke-width="4" stroke-linecap="round"/>
+<line x1="651" y1="204" x2="663" y2="204" stroke="#002959" stroke-width="4" stroke-linecap="round"/>
+<text x="625" y="256" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="625" dy="0">ARVUTUS-</tspan><tspan x="625" dy="24">VÕIMSUS</tspan></text>
+<text x="625" y="330" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle" font-style="italic"><tspan x="625" dy="0">(pliit ja köök)</tspan></text>
+<text x="750" y="252" font-size="48" font-weight="700" fill="#FF8B48" text-anchor="middle"><tspan x="750" dy="0">=</tspan></text>
+<rect x="790" y="120" width="170" height="240" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<circle cx="875" cy="190" r="36" fill="#FF8B48"/>
+<text x="875" y="200" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="875" dy="0">TI</tspan></text>
+<text x="875" y="256" font-size="21" font-weight="700" fill="#FF8B48" text-anchor="middle"><tspan x="875" dy="0">TEHIS-</tspan><tspan x="875" dy="24">INTELLEKT</tspan></text>
+<text x="875" y="330" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle" font-style="italic"><tspan x="875" dy="0">(valmis roog)</tspan></text>
+</svg>

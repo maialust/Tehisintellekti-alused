@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gfade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#002959" stop-opacity="0.12"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Tavaline õpe vs födereeritud õpe</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="25" y="100" width="460" height="360" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="255.0" y="140" font-size="25" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="255.0" dy="0">Tavaline õpe</tspan></text>
+<rect x="71.5" y="182.5" width="27.0" height="45.0" rx="4.5" fill="#FFFFFF" stroke="#002959" stroke-width="2.7"/>
+<circle cx="85" cy="221.2" r="2.25" fill="#002959"/>
+<line x1="110" y1="205" x2="315" y2="260" stroke="#C0392B" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="71.5" y="267.5" width="27.0" height="45.0" rx="4.5" fill="#FFFFFF" stroke="#002959" stroke-width="2.7"/>
+<circle cx="85" cy="306.2" r="2.25" fill="#002959"/>
+<line x1="110" y1="290" x2="315" y2="290" stroke="#C0392B" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="71.5" y="352.5" width="27.0" height="45.0" rx="4.5" fill="#FFFFFF" stroke="#002959" stroke-width="2.7"/>
+<circle cx="85" cy="391.2" r="2.25" fill="#002959"/>
+<line x1="110" y1="375" x2="315" y2="320" stroke="#C0392B" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="374.0" y="253.8" width="72.0" height="18.0" rx="3.5999999999999996" fill="#002959"/>
+<circle cx="434.0" cy="262.8" r="3.5999999999999996" fill="#FF8B48"/>
+<rect x="374.0" y="275.40000000000003" width="72.0" height="18.0" rx="3.5999999999999996" fill="#002959"/>
+<circle cx="434.0" cy="284.40000000000003" r="3.5999999999999996" fill="#FF8B48"/>
+<rect x="374.0" y="297.0" width="72.0" height="18.0" rx="3.5999999999999996" fill="#002959"/>
+<circle cx="434.0" cy="306.0" r="3.5999999999999996" fill="#FF8B48"/>
+<text x="410" y="345" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="410" dy="0">server</tspan></text>
+<text x="230" y="195" font-size="20" font-weight="700" fill="#C0392B" text-anchor="middle"><tspan x="230" dy="0">kõik andmed</tspan></text>
+<text x="410" y="375" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="410" dy="0">saab kõik</tspan><tspan x="410" dy="24">andmed</tspan></text>
+<rect x="515" y="100" width="460" height="360" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="745.0" y="140" font-size="25" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="745.0" dy="0">Födereeritud õpe</tspan></text>
+<rect x="535" y="171" width="175" height="68" rx="10" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<rect x="549.75" y="186.25" width="22.5" height="37.5" rx="3.75" fill="#FFFFFF" stroke="#002959" stroke-width="2.25"/>
+<circle cx="561" cy="218.5" r="1.875" fill="#002959"/>
+<text x="640" y="201" font-size="19" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="640" dy="0">andmed +</tspan><tspan x="640" dy="23">õppimine</tspan></text>
+<line x1="713" y1="205" x2="830" y2="260" stroke="#2E8B57" stroke-width="3" marker-end="url(#ag)"/>
+<rect x="535" y="256" width="175" height="68" rx="10" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<rect x="549.75" y="271.25" width="22.5" height="37.5" rx="3.75" fill="#FFFFFF" stroke="#002959" stroke-width="2.25"/>
+<circle cx="561" cy="303.5" r="1.875" fill="#002959"/>
+<text x="640" y="286" font-size="19" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="640" dy="0">andmed +</tspan><tspan x="640" dy="23">õppimine</tspan></text>
+<line x1="713" y1="290" x2="830" y2="290" stroke="#2E8B57" stroke-width="3" marker-end="url(#ag)"/>
+<rect x="535" y="341" width="175" height="68" rx="10" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<rect x="549.75" y="356.25" width="22.5" height="37.5" rx="3.75" fill="#FFFFFF" stroke="#002959" stroke-width="2.25"/>
+<circle cx="561" cy="388.5" r="1.875" fill="#002959"/>
+<text x="640" y="371" font-size="19" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="640" dy="0">andmed +</tspan><tspan x="640" dy="23">õppimine</tspan></text>
+<line x1="713" y1="375" x2="830" y2="320" stroke="#2E8B57" stroke-width="3" marker-end="url(#ag)"/>
+<rect x="854.0" y="253.8" width="72.0" height="18.0" rx="3.5999999999999996" fill="#002959"/>
+<circle cx="914.0" cy="262.8" r="3.5999999999999996" fill="#FF8B48"/>
+<rect x="854.0" y="275.40000000000003" width="72.0" height="18.0" rx="3.5999999999999996" fill="#002959"/>
+<circle cx="914.0" cy="284.40000000000003" r="3.5999999999999996" fill="#FF8B48"/>
+<rect x="854.0" y="297.0" width="72.0" height="18.0" rx="3.5999999999999996" fill="#002959"/>
+<circle cx="914.0" cy="306.0" r="3.5999999999999996" fill="#FF8B48"/>
+<text x="890" y="345" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="890" dy="0">server</tspan></text>
+<text x="845" y="195" font-size="20" font-weight="700" fill="#2E8B57" text-anchor="middle"><tspan x="845" dy="0"></tspan></text>
+<text x="890" y="375" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="890" dy="0">saab ainult</tspan><tspan x="890" dy="24">mudeli uuendused</tspan></text>
+<text x="815" y="418" font-size="20" font-weight="700" fill="#2E8B57" text-anchor="middle"><tspan x="815" dy="0">ainult uuendused</tspan></text>
+<rect x="25" y="480" width="950" height="56" rx="14" fill="#FFFFFF" stroke="#2E8B57" stroke-width="2"/>
+<path d="M70,489.8 L85.4,496.1 L85.4,508 Q85.4,520.6 70,527.6 Q54.6,520.6 54.6,508 L54.6,496.1 z" fill="#2E8B57"/>
+<path d="M63.7,508.7 L68.6,513.6 L77.0,503.1" fill="none" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="105" y="516" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="105" dy="0">Födereeritud õppes jäävad andmed kasutaja seadmesse.</tspan></text>
+</svg>

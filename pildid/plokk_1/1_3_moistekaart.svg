@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="650" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Kus tehisintellekti kasutatakse?</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<line x1="500" y1="375" x2="330" y2="164.0" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="375" x2="330" y2="268.0" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="375" x2="330" y2="372.0" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="375" x2="330" y2="476.0" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="375" x2="330" y2="580.0" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="375" x2="670" y2="164.0" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="375" x2="670" y2="268.0" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="375" x2="670" y2="372.0" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="375" x2="670" y2="476.0" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="375" x2="670" y2="580.0" stroke="#CCD4DE" stroke-width="4"/>
+<circle cx="500" cy="375" r="90" fill="url(#gnavy)"/>
+<text x="500" y="379" font-size="42" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="500" dy="0">TI</tspan></text>
+<text x="500" y="409" font-size="18" font-weight="400" fill="#CCD4DE" text-anchor="middle"><tspan x="500" dy="0">rakendused</tspan></text>
+<rect x="30" y="120" width="300" height="88" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<rect x="58" y="138.0" width="32" height="52" rx="6" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<rect x="64" y="146.0" width="20" height="30" rx="2" fill="#FFE2D1"/>
+<circle cx="74" cy="183.0" r="3" fill="#002959"/>
+<text x="120" y="158" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="120" dy="0">Igapäevaelu</tspan></text>
+<text x="120" y="186" font-size="17" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="120" dy="0">assistendid, soovitused</tspan></text>
+<rect x="30" y="224" width="300" height="88" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<path d="M74,290.0 C40,268.0 48,242.0 74,258.0 C100,242.0 108,268.0 74,290.0 z" fill="#FFE2D1" stroke="#002959" stroke-width="3"/>
+<polyline points="56,268.0 68,268.0 73,259.0 79,276.0 83,268.0 92,268.0" fill="none" stroke="#C0392B" stroke-width="3"/>
+<text x="120" y="262" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="120" dy="0">Tervishoid</tspan></text>
+<text x="120" y="290" font-size="17" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="120" dy="0">pildianalüüs, ravimid</tspan></text>
+<rect x="30" y="328" width="300" height="88" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<path d="M44,380.0 L44,370.0 L56,368.0 L64,354.0 L86,354.0 L96,368.0 L104,370.0 L104,380.0 z" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="58" cy="382.0" r="7" fill="#002959"/>
+<circle cx="90" cy="382.0" r="7" fill="#002959"/>
+<text x="120" y="366" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="120" dy="0">Transport</tspan></text>
+<text x="120" y="394" font-size="17" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="120" dy="0">isesõitvad autod</tspan></text>
+<rect x="30" y="432" width="300" height="88" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<path d="M74,462.0 Q58,454.0 44,460.0 L44,494.0 Q58,488.0 74,496.0 Q90,488.0 104,494.0 L104,460.0 Q90,454.0 74,462.0 z" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<line x1="74" y1="462.0" x2="74" y2="496.0" stroke="#FF8B48" stroke-width="3"/>
+<text x="120" y="470" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="120" dy="0">Haridus</tspan></text>
+<text x="120" y="498" font-size="17" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="120" dy="0">personaliseeritud õpe</tspan></text>
+<rect x="30" y="536" width="300" height="88" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="74" cy="580.0" r="24" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="74" cy="580.0" r="15" fill="#FFE2D1" stroke="#FF8B48" stroke-width="3"/>
+<text x="74" y="587.0" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="74" dy="0">€</tspan></text>
+<text x="120" y="574" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="120" dy="0">Äri ja finants</tspan></text>
+<text x="120" y="602" font-size="17" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="120" dy="0">pettuste tuvastus</tspan></text>
+<rect x="670" y="120" width="300" height="88" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="709" y="136.0" width="10" height="12" rx="2" fill="#002959" transform="rotate(0 714 164.0)"/>
+<rect x="709" y="136.0" width="10" height="12" rx="2" fill="#002959" transform="rotate(45 714 164.0)"/>
+<rect x="709" y="136.0" width="10" height="12" rx="2" fill="#002959" transform="rotate(90 714 164.0)"/>
+<rect x="709" y="136.0" width="10" height="12" rx="2" fill="#002959" transform="rotate(135 714 164.0)"/>
+<rect x="709" y="136.0" width="10" height="12" rx="2" fill="#002959" transform="rotate(180 714 164.0)"/>
+<rect x="709" y="136.0" width="10" height="12" rx="2" fill="#002959" transform="rotate(225 714 164.0)"/>
+<rect x="709" y="136.0" width="10" height="12" rx="2" fill="#002959" transform="rotate(270 714 164.0)"/>
+<rect x="709" y="136.0" width="10" height="12" rx="2" fill="#002959" transform="rotate(315 714 164.0)"/>
+<circle cx="714" cy="164.0" r="18" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="714" cy="164.0" r="7" fill="#FF8B48"/>
+<text x="760" y="158" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="760" dy="0">Tööstus</tspan></text>
+<text x="760" y="186" font-size="17" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="760" dy="0">ennetav hooldus</tspan></text>
+<rect x="670" y="224" width="300" height="88" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<path d="M690,288.0 Q688,244.0 738,246.0 Q736,290.0 690,288.0 z" fill="#DFF0E6" stroke="#2E8B57" stroke-width="3"/>
+<line x1="690" y1="288.0" x2="726" y2="258.0" stroke="#2E8B57" stroke-width="3"/>
+<text x="760" y="262" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="760" dy="0">Põllumajandus</tspan></text>
+<text x="760" y="290" font-size="17" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="760" dy="0">täppispõllundus</tspan></text>
+<rect x="670" y="328" width="300" height="88" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<path d="M706,348.0 L706,366.0 L690,392.0 L738,392.0 L722,366.0 L722,348.0 z" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<path d="M698,380.0 L730,380.0 L736,390.0 L692,390.0 z" fill="#FF8B48"/>
+<text x="760" y="366" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="760" dy="0">Teadus</tspan></text>
+<text x="760" y="394" font-size="17" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="760" dy="0">AlphaFold</tspan></text>
+<rect x="670" y="432" width="300" height="88" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<path d="M714,452.0 C744,452.0 744,496.0 720,496.0 C708,496.0 714,484.0 704,484.0 C688,484.0 686,452.0 714,452.0 z" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="706" cy="466.0" r="5" fill="#FF8B48"/>
+<circle cx="720" cy="462.0" r="5" fill="#2E8B57"/>
+<circle cx="728" cy="476.0" r="5" fill="#C0392B"/>
+<text x="760" y="470" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="760" dy="0">Loometöö</tspan></text>
+<text x="760" y="498" font-size="17" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="760" dy="0">teksti- ja pildiloome</tspan></text>
+<rect x="670" y="536" width="300" height="88" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<path d="M686,574.0 L714,556.0 L742,574.0 z" fill="#FF8B48"/>
+<rect x="693" y="576.0" width="6" height="20" fill="#002959"/>
+<rect x="705" y="576.0" width="6" height="20" fill="#002959"/>
+<rect x="717" y="576.0" width="6" height="20" fill="#002959"/>
+<rect x="729" y="576.0" width="6" height="20" fill="#002959"/>
+<rect x="684" y="596.0" width="60" height="6" rx="2" fill="#002959"/>
+<text x="760" y="574" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="760" dy="0">Avalik sektor</tspan></text>
+<text x="760" y="602" font-size="17" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="760" dy="0">Bürokratt, kratid</tspan></text>
+
+</svg>

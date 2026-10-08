@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="600" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Keeletöötluse ajajoon</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<line x1="50" y1="300" x2="950" y2="300" stroke="#CCD4DE" stroke-width="8" stroke-linecap="round"/>
+<line x1="900" y1="300" x2="960" y2="300" stroke="#33547A" stroke-width="8" marker-end="url(#ab)"/>
+<line x1="90.0" y1="300" x2="90.0" y2="256" stroke="#FF8B48" stroke-width="3"/>
+<rect x="10" y="164" width="220" height="92" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="120" y="196" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="120" dy="0">1950. aastad</tspan></text>
+<text x="120" y="224" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="120" dy="0">Masintõlke katsed,</tspan><tspan x="120" dy="26">Turingi test</tspan></text>
+<circle cx="90.0" cy="300" r="14" fill="#FF8B48" stroke="#FFFFFF" stroke-width="4"/>
+<line x1="226.66666666666666" y1="300" x2="226.66666666666666" y2="344" stroke="#FF8B48" stroke-width="3"/>
+<rect x="117" y="344" width="220" height="92" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="227" y="376" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="227" dy="0">1960. aastad</tspan></text>
+<text x="227" y="404" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="227" dy="0">ELIZA – üks esimesi</tspan><tspan x="227" dy="26">vestlusprogramme</tspan></text>
+<circle cx="226.66666666666666" cy="300" r="14" fill="#FF8B48" stroke="#FFFFFF" stroke-width="4"/>
+<line x1="363.3333333333333" y1="300" x2="363.3333333333333" y2="256" stroke="#FF8B48" stroke-width="3"/>
+<rect x="253" y="164" width="220" height="92" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="363" y="196" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="363" dy="0">1970.–80. a</tspan></text>
+<text x="363" y="224" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="363" dy="0">Reeglipõhised</tspan><tspan x="363" dy="26">süsteemid</tspan></text>
+<circle cx="363.3333333333333" cy="300" r="14" fill="#FF8B48" stroke="#FFFFFF" stroke-width="4"/>
+<line x1="500.0" y1="300" x2="500.0" y2="344" stroke="#FF8B48" stroke-width="3"/>
+<rect x="390" y="344" width="220" height="92" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="500" y="376" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500" dy="0">1990. aastad</tspan></text>
+<text x="500" y="404" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="500" dy="0">Statistilised</tspan><tspan x="500" dy="26">meetodid</tspan></text>
+<circle cx="500.0" cy="300" r="14" fill="#FF8B48" stroke="#FFFFFF" stroke-width="4"/>
+<line x1="636.6666666666666" y1="300" x2="636.6666666666666" y2="256" stroke="#FF8B48" stroke-width="3"/>
+<rect x="527" y="164" width="220" height="92" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="637" y="196" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="637" dy="0">2000. aastad</tspan></text>
+<text x="637" y="224" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="637" dy="0">Masinõppe</tspan><tspan x="637" dy="26">rakendamine</tspan></text>
+<circle cx="636.6666666666666" cy="300" r="14" fill="#FF8B48" stroke="#FFFFFF" stroke-width="4"/>
+<line x1="773.3333333333334" y1="300" x2="773.3333333333334" y2="344" stroke="#FF8B48" stroke-width="3"/>
+<rect x="663" y="344" width="220" height="92" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="773" y="376" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="773" dy="0">2013 ja 2014</tspan></text>
+<text x="773" y="404" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="773" dy="0">Word2Vec,</tspan><tspan x="773" dy="26">jada-jada mudelid</tspan></text>
+<circle cx="773.3333333333334" cy="300" r="14" fill="#FF8B48" stroke="#FFFFFF" stroke-width="4"/>
+<line x1="910.0" y1="300" x2="910.0" y2="256" stroke="#FF8B48" stroke-width="3"/>
+<rect x="770" y="164" width="220" height="92" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="880" y="196" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="880" dy="0">2017</tspan></text>
+<text x="880" y="224" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="880" dy="0">Transformerid →</tspan><tspan x="880" dy="26">BERT, GPT, T5</tspan></text>
+<circle cx="910.0" cy="300" r="14" fill="#FF8B48" stroke="#FFFFFF" stroke-width="4"/>
+<rect x="30" y="530" width="387.3333333333333" height="46" rx="12" fill="#CCD4DE"/>
+<text x="223.66666666666666" y="560" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="223.66666666666666" dy="0">Reeglid</tspan></text>
+<rect x="440.0" y="530" width="114.0" height="46" rx="12" fill="#33547A"/>
+<text x="497.0" y="560" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="497.0" dy="0">Statistika</tspan></text>
+<rect x="576.6666666666666" y="530" width="114.0" height="46" rx="12" fill="#002959"/>
+<text x="633.6666666666666" y="560" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="633.6666666666666" dy="0">Masinõpe</tspan></text>
+<rect x="713.3333333333334" y="530" width="250.66666666666663" height="46" rx="12" fill="#FF8B48"/>
+<text x="838.6666666666667" y="560" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="838.6666666666667" dy="0">Süvaõpe</tspan></text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="600" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Tehisintellekt eri valdkondades</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="30" y="100" width="222" height="225" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<rect x="131" y="130" width="20" height="56" rx="4" fill="#C0392B"/>
+<rect x="113" y="148" width="56" height="20" rx="4" fill="#C0392B"/>
+<text x="141" y="228" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="141" dy="0">Tervishoid</tspan></text>
+<text x="141" y="265" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="141" dy="0">diagnostika,</tspan><tspan x="141" dy="25">ravimite arendus</tspan></text>
+<rect x="268" y="100" width="222" height="225" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<polygon points="379,132 415,148 379,164 343,148" fill="#002959"/>
+<rect x="359" y="156" width="40" height="22" rx="6" fill="#002959"/>
+<line x1="409" y1="150" x2="409" y2="176" stroke="#FF8B48" stroke-width="4" stroke-linecap="round"/>
+<text x="379" y="228" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="379" dy="0">Haridus</tspan></text>
+<text x="379" y="265" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="379" dy="0">personaliseeritud</tspan><tspan x="379" dy="25">õpe, hindamine</tspan></text>
+<rect x="506" y="100" width="222" height="225" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<rect x="583" y="150" width="68" height="24" rx="8" fill="#002959"/>
+<rect x="597" y="132" width="40" height="22" rx="8" fill="#002959"/>
+<circle cx="599" cy="176" r="9" fill="#FF8B48"/>
+<circle cx="635" cy="176" r="9" fill="#FF8B48"/>
+<text x="617" y="228" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="617" dy="0">Transport</tspan></text>
+<text x="617" y="265" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="617" dy="0">isesõitvad autod,</tspan><tspan x="617" dy="25">liiklusjuhtimine</tspan></text>
+<rect x="744" y="100" width="222" height="225" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<circle cx="855" cy="158" r="28" fill="#FF8B48"/>
+<text x="855" y="168" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="855" dy="0">€</tspan></text>
+<text x="855" y="228" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="855" dy="0">Rahandus</tspan></text>
+<text x="855" y="265" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="855" dy="0">pettuste</tspan><tspan x="855" dy="25">tuvastamine</tspan></text>
+<rect x="30" y="345" width="222" height="225" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<polygon points="107,425 107,397 125,409 125,397 143,409 143,377 159,377 159,409 175,409 175,425" fill="#002959"/>
+<circle cx="151" cy="369" r="6" fill="#CCD4DE"/>
+<text x="141" y="473" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="141" dy="0">Tootmine</tspan></text>
+<text x="141" y="510" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="141" dy="0">kvaliteedikontroll,</tspan><tspan x="141" dy="25">ennetav hooldus</tspan></text>
+<rect x="268" y="345" width="222" height="225" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<line x1="379" y1="429" x2="379" y2="383" stroke="#2E8B57" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="365" cy="401" rx="14" ry="7" fill="#2E8B57" transform="rotate(-30 365 401)"/>
+<ellipse cx="393" cy="389" rx="14" ry="7" fill="#2E8B57" transform="rotate(30 393 389)"/>
+<line x1="349" y1="429" x2="409" y2="429" stroke="#002959" stroke-width="4" stroke-linecap="round"/>
+<text x="379" y="473" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="379" dy="0">Põllumajandus</tspan></text>
+<text x="379" y="510" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="379" dy="0">saagi ennustamine,</tspan><tspan x="379" dy="25">taimehaigused</tspan></text>
+<rect x="506" y="345" width="222" height="225" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<rect x="585" y="381" width="64" height="44" rx="8" fill="#002959"/>
+<polygon points="609,391 631,403 609,415" fill="#FF8B48"/>
+<text x="617" y="473" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="617" dy="0">Meelelahutus</tspan></text>
+<text x="617" y="510" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="617" dy="0">soovitussüsteemid,</tspan><tspan x="617" dy="25">mängud</tspan></text>
+<rect x="744" y="345" width="222" height="225" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<polygon points="821,391 855,371 889,391" fill="#002959"/>
+<rect x="827" y="395" width="8" height="30" rx="2" fill="#002959"/>
+<rect x="843" y="395" width="8" height="30" rx="2" fill="#002959"/>
+<rect x="859" y="395" width="8" height="30" rx="2" fill="#002959"/>
+<rect x="875" y="395" width="8" height="30" rx="2" fill="#002959"/>
+<rect x="819" y="425" width="72" height="6" rx="2" fill="#002959"/>
+<text x="855" y="473" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="855" dy="0">Avalik sektor</tspan></text>
+<text x="855" y="510" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="855" dy="0">e-teenused,</tspan><tspan x="855" dy="25">linnaplaneerimine</tspan></text>
+</svg>

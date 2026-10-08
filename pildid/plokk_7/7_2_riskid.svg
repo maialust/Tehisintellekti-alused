@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter><marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker><marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker><marker id="an" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#002959"/></marker><linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient><linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient></defs>
+<rect x="0" y="0" width="1000" height="520" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Riskianalüüs: tõenäosus × mõju</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="134" y="114" width="152" height="152" rx="14" fill="#FFE2D1"/>
+<text x="210.0" y="194.0" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="210.0" dy="0">keskmine</tspan></text>
+<text x="210.0" y="218.0" font-size="16" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="210.0" dy="0">prioriteet</tspan></text>
+<rect x="294" y="114" width="152" height="152" rx="14" fill="#FF8B48"/>
+<text x="370.0" y="194.0" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="370.0" dy="0">KÕRGE</tspan></text>
+<text x="370.0" y="218.0" font-size="16" font-weight="400" fill="#FFFFFF" text-anchor="middle"><tspan x="370.0" dy="0">prioriteet</tspan></text>
+<rect x="134" y="274" width="152" height="152" rx="14" fill="#EEF2F7"/>
+<text x="210.0" y="354.0" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="210.0" dy="0">madal</tspan></text>
+<text x="210.0" y="378.0" font-size="16" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="210.0" dy="0">prioriteet</tspan></text>
+<rect x="294" y="274" width="152" height="152" rx="14" fill="#FFE2D1"/>
+<text x="370.0" y="354.0" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="370.0" dy="0">keskmine</tspan></text>
+<text x="370.0" y="378.0" font-size="16" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="370.0" dy="0">prioriteet</tspan></text>
+<line x1="130" y1="448" x2="470" y2="448" stroke="#33547A" stroke-width="3" stroke-linecap="round" marker-end="url(#ab)"/>
+<text x="290" y="480" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="290" dy="0">mõju →</tspan></text>
+<line x1="112" y1="430" x2="112" y2="90" stroke="#33547A" stroke-width="3" stroke-linecap="round" marker-end="url(#ab)"/>
+<text x="96" y="270" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle" transform="rotate(-90 96 270)">tõenäosus →</text>
+<text x="530" y="128" font-size="24" font-weight="700" fill="#002959" text-anchor="start"><tspan x="530" dy="0">Kuidas riski maandada?</tspan></text>
+<rect x="530" y="155" width="430" height="78" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="568" cy="194" r="22" fill="#FF8B48"/>
+<text x="568" y="201.35" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="568" dy="0">1</tspan></text>
+<text x="606" y="188" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="606" dy="0">Ennetamine</tspan></text>
+<text x="606" y="215" font-size="19" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="606" dy="0">risk ei juhtu</tspan></text>
+<rect x="530" y="250" width="430" height="78" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="568" cy="289" r="22" fill="#FF8B48"/>
+<text x="568" y="296.35" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="568" dy="0">2</tspan></text>
+<text x="606" y="283" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="606" dy="0">Leevendamine</tspan></text>
+<text x="606" y="310" font-size="19" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="606" dy="0">kui juhtub, on mõju väiksem</tspan></text>
+<rect x="530" y="345" width="430" height="78" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="568" cy="384" r="22" fill="#FF8B48"/>
+<text x="568" y="391.35" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="568" dy="0">3</tspan></text>
+<text x="606" y="378" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="606" dy="0">Alternatiivplaan</tspan></text>
+<text x="606" y="405" font-size="19" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="606" dy="0">varuvariant valmis</tspan></text>
+<text x="530" y="470" font-size="20" font-weight="700" fill="#E67E42" text-anchor="start"><tspan x="530" dy="0">Vaata riskid regulaarselt üle!</tspan></text>
+</svg>

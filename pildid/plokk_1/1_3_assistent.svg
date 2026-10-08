@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="470" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Kuidas virtuaalassistent töötab?</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="100" width="420" height="60" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="60" y="138" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="60" dy="0">„Pane äratus kella seitsmeks!”</tspan></text>
+<rect x="560" y="400" width="400" height="54" rx="14" fill="#002959" filter="url(#sh)"/>
+<text x="580" y="434" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="580" dy="0">„Äratus on pandud kella 7.00.”</tspan></text>
+<rect x="40" y="200" width="200" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="70" cy="230" r="20" fill="#FF8B48"/>
+<text x="70" y="237" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="70" dy="0">1</tspan></text>
+<text x="100" y="232" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="100" dy="0">Kõne-</tspan></text>
+<text x="100" y="258" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="100" dy="0">tuvastus</tspan></text>
+<text x="60" y="310" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="60" dy="0">kõne muutub</tspan><tspan x="60" dy="23">tekstiks</tspan></text>
+<line x1="244" y1="285.0" x2="276" y2="285.0" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="280" y="200" width="200" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="310" cy="230" r="20" fill="#FF8B48"/>
+<text x="310" y="237" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="310" dy="0">2</tspan></text>
+<text x="340" y="232" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="340" dy="0">Keele</tspan></text>
+<text x="340" y="258" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="340" dy="0">mõistmine</tspan></text>
+<text x="300" y="310" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="300" dy="0">mida kasutaja</tspan><tspan x="300" dy="23">tahab?</tspan></text>
+<line x1="484" y1="285.0" x2="516" y2="285.0" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="520" y="200" width="200" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="550" cy="230" r="20" fill="#FF8B48"/>
+<text x="550" y="237" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="550" dy="0">3</tspan></text>
+<text x="580" y="232" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="580" dy="0">Vestluse</tspan></text>
+<text x="580" y="258" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="580" dy="0">kontekst</tspan></text>
+<text x="540" y="310" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="540" dy="0">mis enne</tspan><tspan x="540" dy="23">räägiti</tspan></text>
+<line x1="724" y1="285.0" x2="756" y2="285.0" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="760" y="200" width="200" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="790" cy="230" r="20" fill="#FF8B48"/>
+<text x="790" y="237" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="790" dy="0">4</tspan></text>
+<text x="820" y="232" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="820" dy="0">Kõne-</tspan></text>
+<text x="820" y="258" font-size="21" font-weight="700" fill="#002959" text-anchor="start"><tspan x="820" dy="0">süntees</tspan></text>
+<text x="780" y="310" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="780" dy="0">vastus</tspan><tspan x="780" dy="23">muutub kõneks</tspan></text>
+<line x1="150" y1="162" x2="150" y2="194" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="860" y1="374" x2="860" y2="396" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+
+</svg>

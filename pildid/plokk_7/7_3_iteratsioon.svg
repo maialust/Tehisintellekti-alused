@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter><marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker><marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker><marker id="an" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#002959"/></marker><linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient><linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient></defs>
+<rect x="0" y="0" width="1000" height="600" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Iteratiivne arendus</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<circle cx="500" cy="340" r="200" fill="none" stroke="#CCD4DE" stroke-width="10"/>
+<path d="M600.0,166.8 A200,200 0 0 1 676.6,246.1" stroke="#FF8B48" stroke-width="6" fill="none" stroke-linecap="round" marker-end="url(#ao)"/>
+<path d="M673.2,440.0 A200,200 0 0 1 593.9,516.6" stroke="#FF8B48" stroke-width="6" fill="none" stroke-linecap="round" marker-end="url(#ao)"/>
+<path d="M400.0,513.2 A200,200 0 0 1 323.4,433.9" stroke="#FF8B48" stroke-width="6" fill="none" stroke-linecap="round" marker-end="url(#ao)"/>
+<path d="M326.8,240.0 A200,200 0 0 1 406.1,163.4" stroke="#FF8B48" stroke-width="6" fill="none" stroke-linecap="round" marker-end="url(#ao)"/>
+<rect x="410.0" y="98.0" width="180" height="84" rx="14" fill="#002959" filter="url(#sh)"/>
+<text x="500.0" y="135.0" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="500.0" dy="0">Planeeri</tspan></text>
+<text x="500.0" y="164.0" font-size="18" font-weight="400" fill="#CCD4DE" text-anchor="middle"><tspan x="500.0" dy="0">väike samm</tspan></text>
+<rect x="610.0" y="298.0" width="180" height="84" rx="14" fill="#33547A" filter="url(#sh)"/>
+<text x="700.0" y="335.0" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="700.0" dy="0">Arenda</tspan></text>
+<text x="700.0" y="364.0" font-size="18" font-weight="400" fill="#CCD4DE" text-anchor="middle"><tspan x="700.0" dy="0">prototüüp</tspan></text>
+<rect x="410.0" y="498.0" width="180" height="84" rx="14" fill="#002959" filter="url(#sh)"/>
+<text x="500.0" y="535.0" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="500.0" dy="0">Testi</tspan></text>
+<text x="500.0" y="564.0" font-size="18" font-weight="400" fill="#CCD4DE" text-anchor="middle"><tspan x="500.0" dy="0">leia vead</tspan></text>
+<rect x="210.0" y="298.0" width="180" height="84" rx="14" fill="#33547A" filter="url(#sh)"/>
+<text x="300.0" y="335.0" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="300.0" dy="0">Kohanda</tspan></text>
+<text x="300.0" y="364.0" font-size="18" font-weight="400" fill="#CCD4DE" text-anchor="middle"><tspan x="300.0" dy="0">tagasiside</tspan></text>
+<circle cx="500" cy="340" r="95" fill="#FFF4EC" stroke="#FF8B48" stroke-width="3"/>
+<text x="500" y="320" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500" dy="0">iga nädal</tspan><tspan x="500" dy="26">väike töötav</tspan><tspan x="500" dy="26">samm</tspan></text>
+</svg>

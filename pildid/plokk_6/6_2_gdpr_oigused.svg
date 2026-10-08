@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gfade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#002959" stop-opacity="0.12"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="590" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Sinu õigused GDPR-i järgi</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<text x="40" y="108" font-size="21" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="40" dy="0">Sina oled andmesubjekt – need õigused kehtivad sinu andmete kohta</tspan></text>
+<rect x="22" y="135" width="228" height="190" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<circle cx="46" cy="159" r="17" fill="#FF8B48"/>
+<text x="46" y="165.48" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="46" dy="0">1</tspan></text>
+<circle cx="136.0" cy="197" r="38" fill="#FFFFFF"/>
+<circle cx="136.0" cy="199" r="20.4" fill="none" stroke="#002959" stroke-width="3.4"/>
+<circle cx="136.0" cy="189.65" r="2.975" fill="#002959"/>
+<rect x="133.45" y="196.45" width="5.1" height="15.299999999999999" rx="1.7" fill="#002959"/>
+<text x="136.0" y="267" font-size="20" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="136.0" dy="0">saada teavet,</tspan><tspan x="136.0" dy="25">kes ja miks töötleb</tspan></text>
+<rect x="264" y="135" width="228" height="190" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="288" cy="159" r="17" fill="#FF8B48"/>
+<text x="288" y="165.48" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="288" dy="0">2</tspan></text>
+<circle cx="378.0" cy="197" r="38" fill="#FFFFFF"/>
+<circle cx="373.75" cy="194.75" r="12.75" fill="none" stroke="#002959" stroke-width="4.25"/>
+<line x1="383.1" y1="204.1" x2="395.0" y2="216.0" stroke="#002959" stroke-width="5.95" stroke-linecap="round"/>
+<text x="378.0" y="267" font-size="20" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="378.0" dy="0">tutvuda oma</tspan><tspan x="378.0" dy="25">andmetega</tspan></text>
+<rect x="506" y="135" width="228" height="190" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<circle cx="530" cy="159" r="17" fill="#FF8B48"/>
+<text x="530" y="165.48" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="530" dy="0">3</tspan></text>
+<circle cx="620.0" cy="197" r="38" fill="#FFFFFF"/>
+<g transform="rotate(45 620.0 199)"><rect x="614.05" y="178.6" width="11.9" height="30.599999999999998" fill="#002959"/><path d="M614.05,209.2 L620.0,219.4 L625.95,209.2 z" fill="#FF8B48"/></g>
+<text x="620.0" y="267" font-size="20" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="620.0" dy="0">nõuda valede</tspan><tspan x="620.0" dy="25">andmete parandamist</tspan></text>
+<rect x="748" y="135" width="228" height="190" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="772" cy="159" r="17" fill="#FF8B48"/>
+<text x="772" y="165.48" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="772" dy="0">4</tspan></text>
+<circle cx="862.0" cy="197" r="38" fill="#FFFFFF"/>
+<rect x="845.0" y="185.4" width="34.0" height="4.25" rx="1.7" fill="#002959"/>
+<rect x="856.9" y="180.3" width="10.2" height="5.1" rx="1.7" fill="#002959"/>
+<path d="M848.4,192.2 L851.8,217.7 L872.2,217.7 L875.6,192.2 z" fill="#002959"/>
+<line x1="856.9" y1="197.3" x2="856.9" y2="212.6" stroke="#FFFFFF" stroke-width="1.7"/>
+<line x1="862.0" y1="197.3" x2="862.0" y2="212.6" stroke="#FFFFFF" stroke-width="1.7"/>
+<line x1="867.1" y1="197.3" x2="867.1" y2="212.6" stroke="#FFFFFF" stroke-width="1.7"/>
+<text x="862.0" y="267" font-size="20" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="862.0" dy="0">andmete kustutamisele</tspan><tspan x="862.0" dy="25">(olla unustatud)</tspan></text>
+<rect x="22" y="345" width="228" height="190" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="46" cy="369" r="17" fill="#FF8B48"/>
+<text x="46" y="375.48" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="46" dy="0">5</tspan></text>
+<circle cx="136.0" cy="407" r="38" fill="#FFFFFF"/>
+<circle cx="136.0" cy="409" r="20.4" fill="#002959"/>
+<rect x="127.5" y="399.65" width="5.95" height="18.7" fill="#FFFFFF"/><rect x="138.55" y="399.65" width="5.95" height="18.7" fill="#FFFFFF"/>
+<text x="136.0" y="477" font-size="20" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="136.0" dy="0">piirata andmete</tspan><tspan x="136.0" dy="25">töötlemist</tspan></text>
+<rect x="264" y="345" width="228" height="190" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<circle cx="288" cy="369" r="17" fill="#FF8B48"/>
+<text x="288" y="375.48" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="288" dy="0">6</tspan></text>
+<circle cx="378.0" cy="407" r="38" fill="#FFFFFF"/>
+<line x1="359.3" y1="401.35" x2="389.9" y2="401.35" stroke="#002959" stroke-width="4.25"/>
+<path d="M396.7,401.35 L386.5,394.55 L386.5,408.15 z" fill="#002959"/>
+<line x1="396.7" y1="416.65" x2="366.1" y2="416.65" stroke="#002959" stroke-width="4.25"/>
+<path d="M359.3,416.65 L369.5,409.85 L369.5,423.45 z" fill="#002959"/>
+<text x="378.0" y="477" font-size="20" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="378.0" dy="0">kanda andmed üle</tspan><tspan x="378.0" dy="25">teisele pakkujale</tspan></text>
+<rect x="506" y="345" width="228" height="190" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="530" cy="369" r="17" fill="#FF8B48"/>
+<text x="530" y="375.48" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="530" dy="0">7</tspan></text>
+<circle cx="620.0" cy="407" r="38" fill="#FFFFFF"/>
+<circle cx="620.0" cy="409" r="18.7" fill="none" stroke="#002959" stroke-width="4.25"/>
+<line x1="607.25" y1="421.75" x2="632.75" y2="396.25" stroke="#002959" stroke-width="4.25"/>
+<text x="620.0" y="477" font-size="20" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="620.0" dy="0">esitada</tspan><tspan x="620.0" dy="25">vastuväiteid</tspan></text>
+<rect x="748" y="345" width="228" height="190" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<circle cx="772" cy="369" r="17" fill="#FF8B48"/>
+<text x="772" y="375.48" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="772" dy="0">8</tspan></text>
+<circle cx="862.0" cy="407" r="38" fill="#FFFFFF"/>
+<circle cx="862.0" cy="398.8" r="9.35" fill="#002959"/>
+<path d="M845.0,429.4 Q845.0,410.7 862.0,410.7 Q879.0,410.7 879.0,429.4 z" fill="#002959"/>
+<text x="862.0" y="477" font-size="20" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="862.0" dy="0">nõuda, et otsust</tspan><tspan x="862.0" dy="25">vaataks üle inimene</tspan></text>
+<text x="500" y="575" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="500" dy="0">Kehtib alates 25.05.2018 · Eestis aitab Andmekaitse Inspektsioon</tspan></text>
+</svg>

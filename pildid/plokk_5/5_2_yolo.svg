@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="540" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">YOLO: „vaatad ainult korra“</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="100" width="400" height="400" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<ellipse cx="182.5" cy="277.25" rx="60" ry="28" fill="#E67E42"/>
+<circle cx="244.5" cy="247.25" r="24" fill="#E67E42"/>
+<ellipse cx="264.5" cy="255.25" rx="14" ry="9" fill="#E67E42"/>
+<ellipse cx="234.5" cy="229.25" rx="9" ry="16" fill="#002959"/>
+<circle cx="252.5" cy="241.25" r="4" fill="#002959"/>
+<rect x="136.5" y="291.25" width="12" height="40" rx="5" fill="#E67E42"/>
+<rect x="158.5" y="291.25" width="12" height="40" rx="5" fill="#E67E42"/>
+<rect x="198.5" y="291.25" width="12" height="40" rx="5" fill="#E67E42"/>
+<rect x="218.5" y="291.25" width="12" height="40" rx="5" fill="#E67E42"/>
+<path d="M124.5 269.25 Q92.5 237.25 102.5 227.25" stroke="#E67E42" stroke-width="9" fill="none" stroke-linecap="round"/>
+<rect x="283" y="347.5" width="124" height="44" rx="12" fill="#33547A"/>
+<rect x="307" y="319.5" width="76" height="34" rx="10" fill="#33547A"/>
+<circle cx="311" cy="393.5" r="14" fill="#002959"/>
+<circle cx="379" cy="393.5" r="14" fill="#002959"/>
+<line x1="50" y1="110" x2="50" y2="490" stroke="#002959" stroke-width="2" opacity="0.55"/>
+<line x1="50" y1="110" x2="430" y2="110" stroke="#002959" stroke-width="2" opacity="0.55"/>
+<line x1="145" y1="110" x2="145" y2="490" stroke="#002959" stroke-width="2" opacity="0.55"/>
+<line x1="50" y1="205" x2="430" y2="205" stroke="#002959" stroke-width="2" opacity="0.55"/>
+<line x1="240" y1="110" x2="240" y2="490" stroke="#002959" stroke-width="2" opacity="0.55"/>
+<line x1="50" y1="300" x2="430" y2="300" stroke="#002959" stroke-width="2" opacity="0.55"/>
+<line x1="335" y1="110" x2="335" y2="490" stroke="#002959" stroke-width="2" opacity="0.55"/>
+<line x1="50" y1="395" x2="430" y2="395" stroke="#002959" stroke-width="2" opacity="0.55"/>
+<line x1="430" y1="110" x2="430" y2="490" stroke="#002959" stroke-width="2" opacity="0.55"/>
+<line x1="50" y1="490" x2="430" y2="490" stroke="#002959" stroke-width="2" opacity="0.55"/>
+<rect x="145" y="205" width="95" height="95" fill="#FF8B48" opacity="0.25"/>
+<rect x="335" y="300" width="95" height="95" fill="#FF8B48" opacity="0.25"/>
+<rect x="102.25" y="209.75" width="180.5" height="123.5" rx="6" fill="none" stroke="#2E8B57" stroke-width="5"/>
+<rect x="100.25" y="175.75" width="66.0" height="34" rx="6" fill="#2E8B57"/>
+<text x="110.25" y="199.75" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="110.25" dy="0">koer</tspan></text>
+<rect x="297.0" y="314.25" width="128.25" height="90.25" rx="6" fill="none" stroke="#2E8B57" stroke-width="5"/>
+<rect x="295.0" y="280.25" width="66.0" height="34" rx="6" fill="#2E8B57"/>
+<text x="305.0" y="304.25" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="305.0" dy="0">auto</tspan></text>
+<text x="500" y="140" font-size="26" font-weight="700" fill="#002959" text-anchor="start"><tspan x="500" dy="0">Iga ruut ennustab korraga:</tspan></text>
+<rect x="500" y="170" width="450" height="76" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="536" cy="208" r="20" fill="#FF8B48"/>
+<text x="536" y="215" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="536" dy="0">1</tspan></text>
+<text x="570" y="202" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="570" dy="0">Kas siin on objekti</tspan><tspan x="570" dy="26">keskpunkt? (tõenäosus)</tspan></text>
+<rect x="500" y="262" width="450" height="76" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="536" cy="300" r="20" fill="#FF8B48"/>
+<text x="536" y="307" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="536" dy="0">2</tspan></text>
+<text x="570" y="294" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="570" dy="0">Piiramiskasti</tspan><tspan x="570" dy="26">koordinaadid</tspan></text>
+<rect x="500" y="354" width="450" height="76" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="536" cy="392" r="20" fill="#FF8B48"/>
+<text x="536" y="399" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="536" dy="0">3</tspan></text>
+<text x="570" y="386" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="570" dy="0">Klasside tõenäosused</tspan><tspan x="570" dy="26">(koer? kass? auto?)</tspan></text>
+<rect x="500" y="455" width="450" height="60" rx="14" fill="#FFE2D1" filter="url(#sh)"/>
+<text x="725" y="494" font-size="22" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="725" dy="0">Kõik ruudud ÜHE läbimisega → kiire!</tspan></text>
+</svg>

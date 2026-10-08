@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter><marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker><marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker><marker id="an" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#002959"/></marker><linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient><linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient></defs>
+<rect x="0" y="0" width="1000" height="560" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Refleksiooni ring</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<path d="M414.8,214.3 A160,160 0 0 1 489.9,344.4" stroke="#FF8B48" stroke-width="6" fill="none" stroke-linecap="round" marker-end="url(#ao)"/>
+<path d="M405.1,491.3 A160,160 0 0 1 254.9,491.3" stroke="#FF8B48" stroke-width="6" fill="none" stroke-linecap="round" marker-end="url(#ao)"/>
+<path d="M170.1,344.4 A160,160 0 0 1 245.2,214.3" stroke="#FF8B48" stroke-width="6" fill="none" stroke-linecap="round" marker-end="url(#ao)"/>
+<circle cx="330.0" cy="190.0" r="82" fill="#002959" filter="url(#sh)"/>
+<text x="330.0" y="182.0" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="330.0" dy="0">Isiklik areng</tspan></text>
+<text x="330.0" y="210.0" font-size="16" font-weight="400" fill="#FFFFFF" text-anchor="middle"><tspan x="330.0" dy="0">teadmised,</tspan><tspan x="330.0" dy="19">oskused</tspan></text>
+<circle cx="468.5640646055102" cy="430.0" r="82" fill="#33547A" filter="url(#sh)"/>
+<text x="468.5640646055102" y="422.0" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="468.5640646055102" dy="0">Meeskonnatöö</tspan></text>
+<text x="468.5640646055102" y="450.0" font-size="16" font-weight="400" fill="#FFFFFF" text-anchor="middle"><tspan x="468.5640646055102" dy="0">koostöö,</tspan><tspan x="468.5640646055102" dy="19">väljakutsed</tspan></text>
+<circle cx="191.4359353944898" cy="430.0" r="82" fill="#FF8B48" filter="url(#sh)"/>
+<text x="191.4359353944898" y="422.0" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="191.4359353944898" dy="0">Projekt</tspan></text>
+<text x="191.4359353944898" y="450.0" font-size="16" font-weight="400" fill="#FFFFFF" text-anchor="middle"><tspan x="191.4359353944898" dy="0">eesmärgid,</tspan><tspan x="191.4359353944898" dy="19">tulemused</tspan></text>
+<circle cx="330" cy="350" r="55" fill="#FFF4EC" stroke="#FF8B48" stroke-width="3"/>
+<text x="330" y="358" font-size="22" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="330" dy="0">MINA</tspan></text>
+<text x="620" y="140" font-size="24" font-weight="700" fill="#002959" text-anchor="start"><tspan x="620" dy="0">Kolm küsimust</tspan></text>
+<rect x="620" y="165" width="350" height="96" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="660" cy="213" r="22" fill="#2E8B57"/>
+<text x="660" y="220.35" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="660" dy="0">1</tspan></text>
+<text x="700" y="219" font-size="20" font-weight="600" fill="#002959" text-anchor="start"><tspan x="700" dy="0">Mis läks hästi?</tspan></text>
+<rect x="620" y="280" width="350" height="96" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="660" cy="328" r="22" fill="#FF8B48"/>
+<text x="660" y="335.35" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="660" dy="0">2</tspan></text>
+<text x="700" y="322" font-size="20" font-weight="600" fill="#002959" text-anchor="start"><tspan x="700" dy="0">Mis oleks võinud</tspan><tspan x="700" dy="26">paremini minna?</tspan></text>
+<rect x="620" y="395" width="350" height="96" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="660" cy="443" r="22" fill="#002959"/>
+<text x="660" y="450.35" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="660" dy="0">3</tspan></text>
+<text x="700" y="437" font-size="20" font-weight="600" fill="#002959" text-anchor="start"><tspan x="700" dy="0">Mida teeksin järgmine</tspan><tspan x="700" dy="26">kord teisiti?</tspan></text>
+</svg>

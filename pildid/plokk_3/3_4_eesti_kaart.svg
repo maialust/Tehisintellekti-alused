@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="640" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Eesti keeletehnoloogia kaart</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<line x1="500" y1="370" x2="170.0" y2="170.0" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="370" x2="500.0" y2="170.0" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="370" x2="830.0" y2="170.0" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="370" x2="170.0" y2="360.0" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="370" x2="830.0" y2="360.0" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="370" x2="170.0" y2="550.0" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="370" x2="500.0" y2="550.0" stroke="#CCD4DE" stroke-width="4"/>
+<line x1="500" y1="370" x2="830.0" y2="550.0" stroke="#CCD4DE" stroke-width="4"/>
+<circle cx="500" cy="370" r="92" fill="url(#gnavy)" filter="url(#sh)"/>
+<text x="500" y="358" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="500" dy="0">Eesti</tspan><tspan x="500" dy="26">keele-</tspan><tspan x="500" dy="26">tehnoloogia</tspan></text>
+<rect x="40" y="110" width="260" height="120" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<rect x="40" y="110" width="12" height="120" rx="6" fill="#FF8B48"/>
+<text x="70" y="150" font-size="23" font-weight="700" fill="#002959" text-anchor="start"><tspan x="70" dy="0">Neurotõlge</tspan></text>
+<text x="70" y="182" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="70" dy="0">masintõlge, Tartu</tspan><tspan x="70" dy="23">Ülikool (TartuNLP)</tspan></text>
+<rect x="370" y="110" width="260" height="120" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="370" y="110" width="12" height="120" rx="6" fill="#FF8B48"/>
+<text x="400" y="150" font-size="23" font-weight="700" fill="#002959" text-anchor="start"><tspan x="400" dy="0">Kõnetuvastus</tspan></text>
+<text x="400" y="182" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="400" dy="0">Tallinna</tspan><tspan x="400" dy="23">Tehnikaülikool</tspan></text>
+<rect x="700" y="110" width="260" height="120" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="700" y="110" width="12" height="120" rx="6" fill="#FF8B48"/>
+<text x="730" y="150" font-size="23" font-weight="700" fill="#002959" text-anchor="start"><tspan x="730" dy="0">Kõnesüntees</tspan></text>
+<text x="730" y="182" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="730" dy="0">Eesti Keele Instituut</tspan><tspan x="730" dy="23">(EKI)</tspan></text>
+<rect x="40" y="300" width="260" height="120" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="40" y="300" width="12" height="120" rx="6" fill="#FF8B48"/>
+<text x="70" y="340" font-size="23" font-weight="700" fill="#002959" text-anchor="start"><tspan x="70" dy="0">Õigekirjakontroll</tspan></text>
+<text x="70" y="372" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="70" dy="0">Filosoft</tspan></text>
+<rect x="700" y="300" width="260" height="120" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="700" y="300" width="12" height="120" rx="6" fill="#FF8B48"/>
+<text x="730" y="340" font-size="23" font-weight="700" fill="#002959" text-anchor="start"><tspan x="730" dy="0">EKI keeleabi</tspan></text>
+<text x="730" y="372" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="730" dy="0">vastused keele-</tspan><tspan x="730" dy="23">küsimustele</tspan></text>
+<rect x="40" y="490" width="260" height="120" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="40" y="490" width="12" height="120" rx="6" fill="#FF8B48"/>
+<text x="70" y="530" font-size="23" font-weight="700" fill="#002959" text-anchor="start"><tspan x="70" dy="0">EstNLTK</tspan></text>
+<text x="70" y="562" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="70" dy="0">tööriistad eesti</tspan><tspan x="70" dy="23">teksti analüüsiks</tspan></text>
+<rect x="370" y="490" width="260" height="120" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="370" y="490" width="12" height="120" rx="6" fill="#FF8B48"/>
+<text x="400" y="530" font-size="23" font-weight="700" fill="#002959" text-anchor="start"><tspan x="400" dy="0">EstBERT</tspan></text>
+<text x="400" y="562" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="400" dy="0">eesti keele</tspan><tspan x="400" dy="23">BERT-mudel</tspan></text>
+<rect x="700" y="490" width="260" height="120" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<rect x="700" y="490" width="12" height="120" rx="6" fill="#FF8B48"/>
+<text x="730" y="530" font-size="23" font-weight="700" fill="#002959" text-anchor="start"><tspan x="730" dy="0">Bürokratt</tspan></text>
+<text x="730" y="562" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="730" dy="0">riigi virtuaal-</tspan><tspan x="730" dy="23">assistentide võrgustik</tspan></text>
+</svg>

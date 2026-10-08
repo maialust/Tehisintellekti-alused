@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter><marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker><marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker><marker id="an" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#002959"/></marker><linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient><linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient></defs>
+<rect x="0" y="0" width="1000" height="560" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Rollid projektimeeskonnas</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="30" y="105" width="220" height="170" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<circle cx="140" cy="131" r="13" fill="#FF8B48"/>
+<path d="M118,167 Q118,147 140,147 Q162,147 162,167 z" fill="#FF8B48"/>
+<text x="140" y="203" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="140" dy="0">Projektijuht</tspan></text>
+<text x="140" y="231" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="140" dy="0">koordineerib,</tspan><tspan x="140" dy="22">hoiab ajakava</tspan></text>
+<rect x="270" y="105" width="220" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="380" cy="131" r="13" fill="#33547A"/>
+<path d="M358,167 Q358,147 380,147 Q402,147 402,167 z" fill="#33547A"/>
+<text x="380" y="203" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="380" dy="0">Tehniline ekspert</tspan></text>
+<text x="380" y="231" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="380" dy="0">tehnilised</tspan><tspan x="380" dy="22">lahendused</tspan></text>
+<rect x="510" y="105" width="220" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="620" cy="131" r="13" fill="#33547A"/>
+<path d="M598,167 Q598,147 620,147 Q642,147 642,167 z" fill="#33547A"/>
+<text x="620" y="203" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="620" dy="0">Andmeteadlane</tspan></text>
+<text x="620" y="231" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="620" dy="0">kogub ja puhastab</tspan><tspan x="620" dy="22">andmeid</tspan></text>
+<rect x="750" y="105" width="220" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="860" cy="131" r="13" fill="#33547A"/>
+<path d="M838,167 Q838,147 860,147 Q882,147 882,167 z" fill="#33547A"/>
+<text x="860" y="203" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="860" dy="0">Arendaja</tspan></text>
+<text x="860" y="231" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="860" dy="0">kirjutab</tspan><tspan x="860" dy="22">koodi</tspan></text>
+<rect x="150" y="300" width="220" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="260" cy="326" r="13" fill="#33547A"/>
+<path d="M238,362 Q238,342 260,342 Q282,342 282,362 z" fill="#33547A"/>
+<text x="260" y="398" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="260" dy="0">Testija</tspan></text>
+<text x="260" y="426" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="260" dy="0">kontrollib kvaliteeti,</tspan><tspan x="260" dy="22">leiab vigu</tspan></text>
+<rect x="390" y="300" width="220" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="500" cy="326" r="13" fill="#33547A"/>
+<path d="M478,362 Q478,342 500,342 Q522,342 522,362 z" fill="#33547A"/>
+<text x="500" y="398" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500" dy="0">Disainer</tspan></text>
+<text x="500" y="426" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="500" dy="0">kasutajaliides,</tspan><tspan x="500" dy="22">kasutajakogemus</tspan></text>
+<rect x="630" y="300" width="220" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="740" cy="326" r="13" fill="#33547A"/>
+<path d="M718,362 Q718,342 740,342 Q762,342 762,362 z" fill="#33547A"/>
+<text x="740" y="398" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="740" dy="0">Dokumenteerija</tspan></text>
+<text x="740" y="426" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="740" dy="0">kirjeldab</tspan><tspan x="740" dy="22">projekti</tspan></text>
+<rect x="150" y="495" width="700" height="46" rx="14" fill="#002959"/>
+<text x="500" y="525" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle"><tspan x="500" dy="0">Väikeses rühmas täidab üks inimene sageli mitut rolli.</tspan></text>
+</svg>

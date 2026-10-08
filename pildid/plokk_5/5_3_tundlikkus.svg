@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="600" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Näide: 100 inimest, neist 10 haiged</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<circle cx="68" cy="138" r="15" fill="#FF8B48"/>
+<circle cx="110" cy="138" r="15" fill="#FF8B48"/>
+<circle cx="152" cy="138" r="15" fill="#FF8B48"/>
+<circle cx="194" cy="138" r="15" fill="#FF8B48"/>
+<circle cx="236" cy="138" r="15" fill="#FF8B48"/>
+<circle cx="278" cy="138" r="15" fill="#FF8B48"/>
+<circle cx="320" cy="138" r="15" fill="#FF8B48"/>
+<circle cx="362" cy="138" r="15" fill="#FF8B48"/>
+<circle cx="404" cy="138" r="15" fill="#FF8B48"/>
+<circle cx="446" cy="138" r="13" fill="#FFFFFF" stroke="#FF8B48" stroke-width="4"/>
+<circle cx="68" cy="180" r="15" fill="#C0392B"/>
+<circle cx="110" cy="180" r="15" fill="#C0392B"/>
+<circle cx="152" cy="180" r="15" fill="#C0392B"/>
+<circle cx="194" cy="180" r="15" fill="#C0392B"/>
+<circle cx="236" cy="180" r="15" fill="#C0392B"/>
+<circle cx="278" cy="180" r="15" fill="#C0392B"/>
+<circle cx="320" cy="180" r="15" fill="#C0392B"/>
+<circle cx="362" cy="180" r="15" fill="#C0392B"/>
+<circle cx="404" cy="180" r="15" fill="#C0392B"/>
+<circle cx="446" cy="180" r="15" fill="#CCD4DE"/>
+<circle cx="68" cy="222" r="15" fill="#CCD4DE"/>
+<circle cx="110" cy="222" r="15" fill="#CCD4DE"/>
+<circle cx="152" cy="222" r="15" fill="#CCD4DE"/>
+<circle cx="194" cy="222" r="15" fill="#CCD4DE"/>
+<circle cx="236" cy="222" r="15" fill="#CCD4DE"/>
+<circle cx="278" cy="222" r="15" fill="#CCD4DE"/>
+<circle cx="320" cy="222" r="15" fill="#CCD4DE"/>
+<circle cx="362" cy="222" r="15" fill="#CCD4DE"/>
+<circle cx="404" cy="222" r="15" fill="#CCD4DE"/>
+<circle cx="446" cy="222" r="15" fill="#CCD4DE"/>
+<circle cx="68" cy="264" r="15" fill="#CCD4DE"/>
+<circle cx="110" cy="264" r="15" fill="#CCD4DE"/>
+<circle cx="152" cy="264" r="15" fill="#CCD4DE"/>
+<circle cx="194" cy="264" r="15" fill="#CCD4DE"/>
+<circle cx="236" cy="264" r="15" fill="#CCD4DE"/>
+<circle cx="278" cy="264" r="15" fill="#CCD4DE"/>
+<circle cx="320" cy="264" r="15" fill="#CCD4DE"/>
+<circle cx="362" cy="264" r="15" fill="#CCD4DE"/>
+<circle cx="404" cy="264" r="15" fill="#CCD4DE"/>
+<circle cx="446" cy="264" r="15" fill="#CCD4DE"/>
+<circle cx="68" cy="306" r="15" fill="#CCD4DE"/>
+<circle cx="110" cy="306" r="15" fill="#CCD4DE"/>
+<circle cx="152" cy="306" r="15" fill="#CCD4DE"/>
+<circle cx="194" cy="306" r="15" fill="#CCD4DE"/>
+<circle cx="236" cy="306" r="15" fill="#CCD4DE"/>
+<circle cx="278" cy="306" r="15" fill="#CCD4DE"/>
+<circle cx="320" cy="306" r="15" fill="#CCD4DE"/>
+<circle cx="362" cy="306" r="15" fill="#CCD4DE"/>
+<circle cx="404" cy="306" r="15" fill="#CCD4DE"/>
+<circle cx="446" cy="306" r="15" fill="#CCD4DE"/>
+<circle cx="68" cy="348" r="15" fill="#CCD4DE"/>
+<circle cx="110" cy="348" r="15" fill="#CCD4DE"/>
+<circle cx="152" cy="348" r="15" fill="#CCD4DE"/>
+<circle cx="194" cy="348" r="15" fill="#CCD4DE"/>
+<circle cx="236" cy="348" r="15" fill="#CCD4DE"/>
+<circle cx="278" cy="348" r="15" fill="#CCD4DE"/>
+<circle cx="320" cy="348" r="15" fill="#CCD4DE"/>
+<circle cx="362" cy="348" r="15" fill="#CCD4DE"/>
+<circle cx="404" cy="348" r="15" fill="#CCD4DE"/>
+<circle cx="446" cy="348" r="15" fill="#CCD4DE"/>
+<circle cx="68" cy="390" r="15" fill="#CCD4DE"/>
+<circle cx="110" cy="390" r="15" fill="#CCD4DE"/>
+<circle cx="152" cy="390" r="15" fill="#CCD4DE"/>
+<circle cx="194" cy="390" r="15" fill="#CCD4DE"/>
+<circle cx="236" cy="390" r="15" fill="#CCD4DE"/>
+<circle cx="278" cy="390" r="15" fill="#CCD4DE"/>
+<circle cx="320" cy="390" r="15" fill="#CCD4DE"/>
+<circle cx="362" cy="390" r="15" fill="#CCD4DE"/>
+<circle cx="404" cy="390" r="15" fill="#CCD4DE"/>
+<circle cx="446" cy="390" r="15" fill="#CCD4DE"/>
+<circle cx="68" cy="432" r="15" fill="#CCD4DE"/>
+<circle cx="110" cy="432" r="15" fill="#CCD4DE"/>
+<circle cx="152" cy="432" r="15" fill="#CCD4DE"/>
+<circle cx="194" cy="432" r="15" fill="#CCD4DE"/>
+<circle cx="236" cy="432" r="15" fill="#CCD4DE"/>
+<circle cx="278" cy="432" r="15" fill="#CCD4DE"/>
+<circle cx="320" cy="432" r="15" fill="#CCD4DE"/>
+<circle cx="362" cy="432" r="15" fill="#CCD4DE"/>
+<circle cx="404" cy="432" r="15" fill="#CCD4DE"/>
+<circle cx="446" cy="432" r="15" fill="#CCD4DE"/>
+<circle cx="68" cy="474" r="15" fill="#CCD4DE"/>
+<circle cx="110" cy="474" r="15" fill="#CCD4DE"/>
+<circle cx="152" cy="474" r="15" fill="#CCD4DE"/>
+<circle cx="194" cy="474" r="15" fill="#CCD4DE"/>
+<circle cx="236" cy="474" r="15" fill="#CCD4DE"/>
+<circle cx="278" cy="474" r="15" fill="#CCD4DE"/>
+<circle cx="320" cy="474" r="15" fill="#CCD4DE"/>
+<circle cx="362" cy="474" r="15" fill="#CCD4DE"/>
+<circle cx="404" cy="474" r="15" fill="#CCD4DE"/>
+<circle cx="446" cy="474" r="15" fill="#CCD4DE"/>
+<circle cx="68" cy="516" r="15" fill="#CCD4DE"/>
+<circle cx="110" cy="516" r="15" fill="#CCD4DE"/>
+<circle cx="152" cy="516" r="15" fill="#CCD4DE"/>
+<circle cx="194" cy="516" r="15" fill="#CCD4DE"/>
+<circle cx="236" cy="516" r="15" fill="#CCD4DE"/>
+<circle cx="278" cy="516" r="15" fill="#CCD4DE"/>
+<circle cx="320" cy="516" r="15" fill="#CCD4DE"/>
+<circle cx="362" cy="516" r="15" fill="#CCD4DE"/>
+<circle cx="404" cy="516" r="15" fill="#CCD4DE"/>
+<circle cx="446" cy="516" r="15" fill="#CCD4DE"/>
+<circle cx="520" cy="140" r="14" fill="#FF8B48"/>
+<text x="548" y="147" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="548" dy="0">haige, mudel leidis (9)</tspan></text>
+<circle cx="520" cy="184" r="12" fill="#FFFFFF" stroke="#FF8B48" stroke-width="4"/>
+<text x="548" y="191" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="548" dy="0">haige, jäi märkamata (1)</tspan></text>
+<circle cx="520" cy="228" r="14" fill="#C0392B"/>
+<text x="548" y="235" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="548" dy="0">terve, valehäire (9)</tspan></text>
+<circle cx="520" cy="272" r="14" fill="#CCD4DE"/>
+<text x="548" y="279" font-size="21" font-weight="400" fill="#002959" text-anchor="start"><tspan x="548" dy="0">terve, õigesti terve (81)</tspan></text>
+<rect x="500" y="340" width="460" height="100" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="525" y="380" font-size="26" font-weight="800" fill="#E67E42" text-anchor="start"><tspan x="525" dy="0">Tundlikkus = 9 / 10</tspan></text>
+<text x="525" y="414" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="525" dy="0">Kui suure osa haigetest mudel leiab?</tspan></text>
+<rect x="500" y="460" width="460" height="100" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="525" y="500" font-size="26" font-weight="800" fill="#33547A" text-anchor="start"><tspan x="525" dy="0">Spetsiifilisus = 81 / 90</tspan></text>
+<text x="525" y="534" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="525" dy="0">Kui suure osa tervetest tunnistab terveks?</tspan></text>
+</svg>

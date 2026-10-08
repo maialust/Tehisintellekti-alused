@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter><marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker><marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker><marker id="an" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#002959"/></marker><linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient><linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient></defs>
+<rect x="0" y="0" width="1000" height="470" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Esineja neli oskust</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="30" y="110" width="220" height="300" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="140" cy="175" r="44" fill="#002959"/>
+<path d="M110,175 Q140,149 170,175 Q140,201 110,175 z" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+<circle cx="140" cy="175" r="9" fill="#FFFFFF"/>
+<text x="140" y="262" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="140" dy="0">Kehakeel ja</tspan></text>
+<text x="140" y="288" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="140" dy="0">hääl</tspan></text>
+<text x="140" y="330" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="140" dy="0">silmside, selge hääl,</tspan><tspan x="140" dy="23">tempo ja pausid</tspan></text>
+<rect x="270" y="110" width="220" height="300" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="380" cy="175" r="44" fill="#FF8B48"/>
+<polygon points="380.0,149.0 386.5,166.1 404.7,167.0 390.5,178.4 395.3,196.0 380.0,186.0 364.7,196.0 369.5,178.4 355.3,167.0 373.5,166.1" fill="#FFFFFF"/>
+<text x="380" y="262" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="380" dy="0">Enesekindlus</tspan></text>
+<text x="380" y="330" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="380" dy="0">tuleb ettevalmistusest;</tspan><tspan x="380" dy="23">vea korral jätka</tspan></text>
+<rect x="510" y="110" width="220" height="300" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="620" cy="175" r="44" fill="#002959"/>
+<rect x="592" y="155" width="40" height="28" rx="8" fill="#FFFFFF"/><path d="M602,181 L598,191 L612,181 z" fill="#FFFFFF"/>
+<rect x="618" y="169" width="32" height="24" rx="8" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+<text x="620" y="262" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="620" dy="0">Kaasamine</tspan></text>
+<text x="620" y="330" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="620" dy="0">esita kuulajatele</tspan><tspan x="620" dy="23">küsimusi</tspan></text>
+<rect x="750" y="110" width="220" height="300" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="860" cy="175" r="44" fill="#FF8B48"/>
+<circle cx="860" cy="175" r="24" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+<path d="M860,161 L860,175 L871,182" stroke="#FFFFFF" stroke-width="4" fill="none" stroke-linecap="round"/>
+<text x="860" y="262" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="860" dy="0">Ajaplaneerimine</tspan></text>
+<text x="860" y="330" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="860" dy="0">pea ajakavast kinni,</tspan><tspan x="860" dy="23">tea, mida lühendada</tspan></text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="600" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Kuidas masinõppel põhinev klassifitseerimine käib</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="30" y="105" width="205" height="200" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="132.5" cy="140" r="20" fill="#FF8B48"/><text x="132.5" y="147" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="132.5" dy="0">1</tspan></text>
+<text x="132.5" y="192" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="132.5" dy="0">Teksti</tspan><tspan x="132.5" dy="27">eeltöötlus</tspan></text>
+<text x="132.5" y="262" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="132.5" dy="0">tokeniseerimine,</tspan><tspan x="132.5" dy="24">lemmatiseerimine</tspan></text>
+<line x1="239" y1="205" x2="269" y2="205" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="275" y="105" width="205" height="200" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="377.5" cy="140" r="20" fill="#FF8B48"/><text x="377.5" y="147" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="377.5" dy="0">2</tspan></text>
+<text x="377.5" y="192" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="377.5" dy="0">Tunnuste</tspan><tspan x="377.5" dy="27">eraldamine</tspan></text>
+<text x="377.5" y="262" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="377.5" dy="0">nt TF-IDF või</tspan><tspan x="377.5" dy="24">sõnavektorid</tspan></text>
+<line x1="484" y1="205" x2="514" y2="205" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="520" y="105" width="205" height="200" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="622.5" cy="140" r="20" fill="#FF8B48"/><text x="622.5" y="147" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="622.5" dy="0">3</tspan></text>
+<text x="622.5" y="192" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="622.5" dy="0">Mudeli</tspan><tspan x="622.5" dy="27">treenimine</tspan></text>
+<text x="622.5" y="262" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="622.5" dy="0">märgendatud</tspan><tspan x="622.5" dy="24">näidetel</tspan></text>
+<line x1="729" y1="205" x2="759" y2="205" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="765" y="105" width="205" height="200" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<circle cx="867.5" cy="140" r="20" fill="#FF8B48"/><text x="867.5" y="147" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="867.5" dy="0">4</tspan></text>
+<text x="867.5" y="192" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="867.5" dy="0">Hindamine ja</tspan><tspan x="867.5" dy="27">rakendamine</tspan></text>
+<text x="867.5" y="262" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="867.5" dy="0">kas töötab ka</tspan><tspan x="867.5" dy="24">uutel tekstidel?</tspan></text>
+<text x="40" y="365" font-size="24" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Näide: rämpspostifilter</tspan></text>
+<rect x="60" y="400" width="170" height="120" rx="10" fill="#FFFFFF" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<path d="M62,404 L145,465 L228,404" fill="none" stroke="#33547A" stroke-width="3"/>
+<text x="145" y="552" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="145" dy="0">uus e-kiri</tspan></text>
+<line x1="240" y1="460" x2="330" y2="460" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="335" y="405" width="250" height="110" rx="14" fill="url(#gnavy)" filter="url(#sh)"/>
+<text x="460" y="452" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="460" dy="0">Klassifikaator</tspan></text>
+<text x="460" y="484" font-size="19" font-weight="400" fill="#CCD4DE" text-anchor="middle"><tspan x="460" dy="0">arvutab tõenäosuse</tspan></text>
+<line x1="590" y1="440" x2="680" y2="415" stroke="#33547A" stroke-width="4" marker-end="url(#ab)"/>
+<line x1="590" y1="485" x2="680" y2="515" stroke="#33547A" stroke-width="4" marker-end="url(#ab)"/>
+<rect x="690" y="380" width="270" height="64" rx="14" fill="#FBE3E0" stroke="#C0392B" stroke-width="2" filter="url(#sh)"/>
+<text x="825" y="420" font-size="22" font-weight="700" fill="#C0392B" text-anchor="middle"><tspan x="825" dy="0">Rämpspost</tspan></text>
+<rect x="690" y="486" width="270" height="64" rx="14" fill="#E1F2E8" stroke="#2E8B57" stroke-width="2" filter="url(#sh)"/>
+<text x="825" y="526" font-size="22" font-weight="700" fill="#2E8B57" text-anchor="middle"><tspan x="825" dy="0">Tavaline kiri</tspan></text>
+</svg>

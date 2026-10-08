@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="490" viewBox="0 0 1000 490" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="agr" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#CCD4DE"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="490" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Ekspertsüsteemide ajalugu</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<line x1="60" y1="240" x2="950" y2="240" stroke="#33547A" stroke-width="6" stroke-linecap="round" marker-end="url(#ab)"/>
+<circle cx="120" cy="240" r="11" fill="#FFFFFF" stroke="#33547A" stroke-width="4"/>
+<text x="120" y="218" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="120" dy="0">1960.</tspan></text>
+<circle cx="300" cy="240" r="11" fill="#FFFFFF" stroke="#33547A" stroke-width="4"/>
+<text x="300" y="218" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="300" dy="0">1970.</tspan></text>
+<circle cx="480" cy="240" r="11" fill="#FFFFFF" stroke="#33547A" stroke-width="4"/>
+<text x="480" y="218" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="480" dy="0">1980.</tspan></text>
+<circle cx="660" cy="240" r="11" fill="#FFFFFF" stroke="#33547A" stroke-width="4"/>
+<text x="660" y="218" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="660" dy="0">1990.</tspan></text>
+<circle cx="860" cy="240" r="11" fill="#FFFFFF" stroke="#33547A" stroke-width="4"/>
+<text x="860" y="218" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="860" dy="0">täna</tspan></text>
+<text x="210" y="124.5" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="210" dy="0">Esimesed edukad</tspan><tspan x="210" dy="25">süsteemid</tspan></text>
+<rect x="395" y="100" width="170" height="54" rx="14" fill="#FF8B48" filter="url(#sh)"/>
+<text x="480" y="135.4" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="480" dy="0">Kuldajastu</tspan></text>
+<text x="660" y="124.5" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="660" dy="0">Huvi langeb,</tspan><tspan x="660" dy="25">kitsad valdkonnad</tspan></text>
+<text x="860" y="124.5" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="860" dy="0">Põimunud teiste</tspan><tspan x="860" dy="25">TI meetoditega</tspan></text>
+<rect x="30" y="290" width="215" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="137" y="330" font-size="24" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="137" dy="0">DENDRAL</tspan></text>
+<text x="137" y="362" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="137" dy="0">1960.–1970.</tspan></text>
+<text x="137" y="400" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="137" dy="0">keemiliste ühendite</tspan><tspan x="137" dy="25">struktuur</tspan></text>
+<rect x="270" y="290" width="215" height="170" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="377" y="330" font-size="24" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="377" dy="0">MYCIN</tspan></text>
+<text x="377" y="362" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="377" dy="0">1970. aastad</tspan></text>
+<text x="377" y="400" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="377" dy="0">infektsioonide</tspan><tspan x="377" dy="25">diagnoosimine</tspan></text>
+<rect x="510" y="290" width="215" height="170" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="617" y="330" font-size="24" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="617" dy="0">PROSPECTOR</tspan></text>
+<text x="617" y="362" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="617" dy="0">1970.–1980.</tspan></text>
+<text x="617" y="400" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="617" dy="0">maavarade</tspan><tspan x="617" dy="25">leiukohad</tspan></text>
+<rect x="750" y="290" width="215" height="170" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="857" y="330" font-size="24" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="857" dy="0">XCON (R1)</tspan></text>
+<text x="857" y="362" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="857" dy="0">1980. aastad</tspan></text>
+<text x="857" y="400" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="857" dy="0">arvutite</tspan><tspan x="857" dy="25">konfiguratsioonid</tspan></text>
+</svg>

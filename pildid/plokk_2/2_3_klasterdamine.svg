@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="470" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Klasterdamine: sarnased kokku</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="30" y="100" width="450" height="340" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<text x="255" y="136" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="255" dy="0">Enne: märgendamata andmed</tspan></text>
+<circle cx="152.25023576488428" cy="249.4043385567459" r="8" fill="#33547A"/>
+<circle cx="128.00800869820873" cy="243.48772333181174" r="8" fill="#33547A"/>
+<circle cx="144.39360395125283" cy="214.36513322483287" r="8" fill="#33547A"/>
+<circle cx="192.5402382082595" cy="223.5259053659462" r="8" fill="#33547A"/>
+<circle cx="149.0997259139115" cy="235.51880190716068" r="8" fill="#33547A"/>
+<circle cx="176.14966171699362" cy="219.201252449635" r="8" fill="#33547A"/>
+<circle cx="163.60499607560124" cy="197.3337123891045" r="8" fill="#33547A"/>
+<circle cx="142.4212139143383" cy="210.98461651790257" r="8" fill="#33547A"/>
+<circle cx="330.76559908876715" cy="197.03315197862966" r="8" fill="#33547A"/>
+<circle cx="322.04057757717834" cy="224.49631295231853" r="8" fill="#33547A"/>
+<circle cx="356.249665499022" cy="223.06806743232497" r="8" fill="#33547A"/>
+<circle cx="361.5571276961617" cy="198.4389073784884" r="8" fill="#33547A"/>
+<circle cx="357.98111188839306" cy="236.06851543879336" r="8" fill="#33547A"/>
+<circle cx="377.38606579753275" cy="210.30145944055164" r="8" fill="#33547A"/>
+<circle cx="351.22966468770153" cy="186.32530878348535" r="8" fill="#33547A"/>
+<circle cx="349.51661902990986" cy="184.74904195949114" r="8" fill="#33547A"/>
+<circle cx="227.6087972458351" cy="375.2024804622501" r="8" fill="#33547A"/>
+<circle cx="215.74410049183626" cy="366.12319676725804" r="8" fill="#33547A"/>
+<circle cx="266.7776219187092" cy="343.5076661331769" r="8" fill="#33547A"/>
+<circle cx="269.70110284548747" cy="361.1299809426726" r="8" fill="#33547A"/>
+<circle cx="284.03386467155383" cy="344.62631727033255" r="8" fill="#33547A"/>
+<circle cx="246.99596816842865" cy="336.7766906942535" r="8" fill="#33547A"/>
+<circle cx="237.6575583456184" cy="349.0186865569264" r="8" fill="#33547A"/>
+<circle cx="241.46919824362368" cy="375.26012568633746" r="8" fill="#33547A"/>
+<rect x="520" y="100" width="450" height="340" rx="14" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="745" y="136" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="745" dy="0">Pärast: kolm klastrit</tspan></text>
+<circle cx="640" cy="220" r="62" fill="#002959" fill-opacity="0.12" stroke="#002959" stroke-width="2" stroke-dasharray="6 5"/>
+<circle cx="850" cy="230" r="62" fill="#FF8B48" fill-opacity="0.12" stroke="#FF8B48" stroke-width="2" stroke-dasharray="6 5"/>
+<circle cx="750" cy="350" r="62" fill="#2E8B57" fill-opacity="0.12" stroke="#2E8B57" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="640" y="300" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="640" dy="0">A</tspan></text>
+<text x="930" y="230" font-size="22" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="930" dy="0">B</tspan></text>
+<text x="840" y="420" font-size="22" font-weight="700" fill="#2E8B57" text-anchor="middle"><tspan x="840" dy="0">C</tspan></text>
+<circle cx="642.2502357648843" cy="249.4043385567459" r="8" fill="#002959"/>
+<circle cx="618.0080086982088" cy="243.48772333181174" r="8" fill="#002959"/>
+<circle cx="634.3936039512529" cy="214.36513322483287" r="8" fill="#002959"/>
+<circle cx="682.5402382082596" cy="223.5259053659462" r="8" fill="#002959"/>
+<circle cx="639.0997259139115" cy="235.51880190716068" r="8" fill="#002959"/>
+<circle cx="666.1496617169936" cy="219.201252449635" r="8" fill="#002959"/>
+<circle cx="653.6049960756012" cy="197.3337123891045" r="8" fill="#002959"/>
+<circle cx="632.4212139143383" cy="210.98461651790257" r="8" fill="#002959"/>
+<circle cx="820.7655990887672" cy="197.03315197862966" r="8" fill="#FF8B48"/>
+<circle cx="812.0405775771783" cy="224.49631295231853" r="8" fill="#FF8B48"/>
+<circle cx="846.2496654990221" cy="223.06806743232497" r="8" fill="#FF8B48"/>
+<circle cx="851.5571276961616" cy="198.4389073784884" r="8" fill="#FF8B48"/>
+<circle cx="847.9811118883931" cy="236.06851543879336" r="8" fill="#FF8B48"/>
+<circle cx="867.3860657975328" cy="210.30145944055164" r="8" fill="#FF8B48"/>
+<circle cx="841.2296646877015" cy="186.32530878348535" r="8" fill="#FF8B48"/>
+<circle cx="839.5166190299099" cy="184.74904195949114" r="8" fill="#FF8B48"/>
+<circle cx="717.6087972458351" cy="375.2024804622501" r="8" fill="#2E8B57"/>
+<circle cx="705.7441004918362" cy="366.12319676725804" r="8" fill="#2E8B57"/>
+<circle cx="756.7776219187092" cy="343.5076661331769" r="8" fill="#2E8B57"/>
+<circle cx="759.7011028454874" cy="361.1299809426726" r="8" fill="#2E8B57"/>
+<circle cx="774.0338646715538" cy="344.62631727033255" r="8" fill="#2E8B57"/>
+<circle cx="736.9959681684286" cy="336.7766906942535" r="8" fill="#2E8B57"/>
+<circle cx="727.6575583456184" cy="349.0186865569264" r="8" fill="#2E8B57"/>
+<circle cx="731.4691982436236" cy="375.26012568633746" r="8" fill="#2E8B57"/>
+<line x1="486" y1="270" x2="514" y2="270" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+</svg>

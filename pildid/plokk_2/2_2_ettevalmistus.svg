@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="620" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Toorandmetest valmis andmestikuni</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="110" width="280" height="200" rx="14" fill="#FFFFFF" stroke="#C0392B" stroke-width="2" filter="url(#sh)"/>
+<circle cx="76" cy="148" r="20" fill="#C0392B"/>
+<text x="76" y="155" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="76" dy="0">1</tspan></text>
+<text x="108" y="156" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="108" dy="0">Toorandmed</tspan></text>
+<text x="64" y="230" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="64" dy="0">vigased,</tspan><tspan x="64" dy="26">lünklikud</tspan></text>
+<rect x="360" y="110" width="280" height="200" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<circle cx="396" cy="148" r="20" fill="#FF8B48"/>
+<text x="396" y="155" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="396" dy="0">2</tspan></text>
+<text x="428" y="156" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="428" dy="0">Puhastamine</tspan></text>
+<text x="384" y="230" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="384" dy="0">vead, lüngad,</tspan><tspan x="384" dy="26">duplikaadid</tspan></text>
+<rect x="680" y="110" width="280" height="200" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<circle cx="716" cy="148" r="20" fill="#FF8B48"/>
+<text x="716" y="155" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="716" dy="0">3</tspan></text>
+<text x="748" y="156" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="748" dy="0">Transformeeri-</tspan><tspan x="748" dy="26">mine</tspan></text>
+<text x="704" y="230" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="704" dy="0">normaliseerimine,</tspan><tspan x="704" dy="26">kodeerimine</tspan></text>
+<rect x="680" y="350" width="280" height="200" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<circle cx="716" cy="388" r="20" fill="#FF8B48"/>
+<text x="716" y="395" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="716" dy="0">4</tspan></text>
+<text x="748" y="396" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="748" dy="0">Rikastamine</tspan></text>
+<text x="704" y="470" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="704" dy="0">uued</tspan><tspan x="704" dy="26">tunnused</tspan></text>
+<rect x="360" y="350" width="280" height="200" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<circle cx="396" cy="388" r="20" fill="#FF8B48"/>
+<text x="396" y="395" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="396" dy="0">5</tspan></text>
+<text x="428" y="396" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="428" dy="0">Tasakaalusta-</tspan><tspan x="428" dy="26">mine</tspan></text>
+<text x="384" y="470" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="384" dy="0">alaesindatud</tspan><tspan x="384" dy="26">rühmad</tspan></text>
+<rect x="40" y="350" width="280" height="200" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<circle cx="76" cy="388" r="20" fill="#2E8B57"/>
+<text x="76" y="395" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="76" dy="0">6</tspan></text>
+<text x="108" y="396" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="108" dy="0">Valmis</tspan><tspan x="108" dy="26">andmestik</tspan></text>
+<text x="64" y="470" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="64" dy="0">mudel võib</tspan><tspan x="64" dy="26">õppida</tspan></text>
+<line x1="324" y1="210" x2="354" y2="210" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="644" y1="210" x2="674" y2="210" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="820" y1="314" x2="820" y2="344" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="676" y1="450" x2="646" y2="450" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="356" y1="450" x2="326" y2="450" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<text x="500" y="600" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="500" dy="0">„Prügi sisse, prügi välja“: halbadest andmetest tuleb halb mudel.</tspan></text>
+</svg>

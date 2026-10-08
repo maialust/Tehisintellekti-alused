@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gfade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#002959" stop-opacity="0.12"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Kes vastutab TI otsuste eest?</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<circle cx="500" cy="290" r="78" fill="#002959" filter="url(#sh)"/>
+<line x1="500" y1="252.0" x2="500" y2="262.0" stroke="#FFFFFF" stroke-width="3.0"/>
+<circle cx="500" cy="251.0" r="4.0" fill="#FF8B48"/>
+<rect x="478.0" y="262.0" width="44.0" height="34.0" rx="8.0" fill="#FFFFFF"/>
+<circle cx="491.0" cy="276.0" r="5.0" fill="#FF8B48"/><circle cx="509.0" cy="276.0" r="5.0" fill="#FF8B48"/>
+<rect x="491.0" y="286.0" width="18.0" height="4.0" rx="2.0" fill="#FFFFFF"/>
+<text x="500" y="336" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="500" dy="0">TI-süsteem</tspan></text>
+<rect x="40" y="100" width="300" height="140" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="95" cy="170" r="38" fill="#FFFFFF"/>
+<rect x="72.6" y="154.4" width="44.800000000000004" height="35.2" rx="4.800000000000001" fill="#002959"/>
+<path d="M88.6,165.6 L82.2,172 L88.6,178.4 M101.4,165.6 L107.8,172 L101.4,178.4" fill="none" stroke="#FF8B48" stroke-width="2.8000000000000003" stroke-linecap="round"/>
+<text x="145" y="162" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="145" dy="0">Arendajad</tspan></text>
+<text x="145" y="192" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="145" dy="0">loovad süsteemi</tspan></text>
+<rect x="660" y="100" width="300" height="140" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="715" cy="170" r="38" fill="#FFFFFF"/>
+<circle cx="715" cy="162.4" r="8.8" fill="#002959"/>
+<path d="M699.0,191.2 Q699.0,173.6 715,173.6 Q731.0,173.6 731.0,191.2 z" fill="#002959"/>
+<text x="765" y="150" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="765" dy="0">Kasutajad</tspan></text>
+<text x="765" y="180" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="765" dy="0">rakendavad</tspan><tspan x="765" dy="24">süsteemi</tspan></text>
+<rect x="40" y="320" width="300" height="140" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="95" cy="390" r="38" fill="#FFFFFF"/>
+<path d="M74.2,384.0 L95,371.2 L115.8,384.0 z" fill="#002959"/>
+<rect x="78.19999999999999" y="387.2" width="4.800000000000001" height="19.200000000000003" fill="#002959"/>
+<rect x="87.8" y="387.2" width="4.800000000000001" height="19.200000000000003" fill="#002959"/>
+<rect x="97.39999999999999" y="387.2" width="4.800000000000001" height="19.200000000000003" fill="#002959"/>
+<rect x="107.0" y="387.2" width="4.800000000000001" height="19.200000000000003" fill="#002959"/>
+<rect x="72.6" y="407.2" width="44.800000000000004" height="4.800000000000001" fill="#002959"/>
+<text x="145" y="370" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="145" dy="0">Organisatsioonid</tspan></text>
+<text x="145" y="400" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="145" dy="0">otsustavad</tspan><tspan x="145" dy="24">kasutusele võtta</tspan></text>
+<rect x="660" y="320" width="300" height="140" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="715" cy="390" r="38" fill="#FFFFFF"/>
+<line x1="715" y1="374.4" x2="715" y2="408.0" stroke="#002959" stroke-width="3.2"/>
+<line x1="695.8" y1="379.2" x2="734.2" y2="379.2" stroke="#002959" stroke-width="3.2"/>
+<rect x="705.4" y="406.4" width="19.200000000000003" height="4.0" rx="1.6" fill="#002959"/>
+<path d="M687.0,393.6 L695.8,379.2 L704.5999999999999,393.6" fill="none" stroke="#002959" stroke-width="1.6"/>
+<path d="M686.1999999999999,393.6 Q695.8,403.2 705.4,393.6 z" fill="#002959"/>
+<path d="M725.4000000000001,393.6 L734.2,379.2 L743.0,393.6" fill="none" stroke="#002959" stroke-width="1.6"/>
+<path d="M724.6,393.6 Q734.2,403.2 743.8000000000001,393.6 z" fill="#002959"/>
+<circle cx="715" cy="374.4" r="3.2" fill="#002959"/>
+<text x="765" y="357" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="765" dy="0">Reguleerivad</tspan><tspan x="765" dy="26">asutused</tspan></text>
+<text x="765" y="413" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="765" dy="0">kehtestavad</tspan><tspan x="765" dy="24">reeglid</tspan></text>
+<line x1="340" y1="185" x2="425" y2="250" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="660" y1="185" x2="575" y2="250" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="340" y1="375" x2="425" y2="325" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<line x1="660" y1="375" x2="575" y2="325" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+<rect x="150" y="480" width="700" height="56" rx="14" fill="#FFE2D1" stroke="#FF8B48" stroke-width="2"/>
+<text x="500" y="516" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500" dy="0">TI ise ei vastuta – vastutavad alati inimesed</tspan></text>
+</svg>

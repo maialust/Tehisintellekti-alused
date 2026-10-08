@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="510" viewBox="0 0 1000 510" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter><marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker><marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker><marker id="an" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#002959"/></marker><linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient><linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient></defs>
+<rect x="0" y="0" width="1000" height="510" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">SMART-eesmärk</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="30" y="100" width="170" height="250" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="30" y="100" width="170" height="96" rx="14" fill="#002959"/>
+<rect x="30" y="176" width="170" height="20" fill="#002959"/>
+<text x="115" y="168" font-size="60" font-weight="800" fill="#FF8B48" text-anchor="middle"><tspan x="115" dy="0">S</tspan></text>
+<text x="115" y="235" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="115" dy="0">Spetsiifiline</tspan></text>
+<text x="115" y="285" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="115" dy="0">Mida täpselt</tspan><tspan x="115" dy="24">tehakse?</tspan></text>
+<rect x="30" y="380" width="170" height="105" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="115" y="414.0" font-size="19" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="115" dy="0">vestlusagent</tspan><tspan x="115" dy="25">Eesti ajaloo</tspan><tspan x="115" dy="25">kohta</tspan></text>
+<line x1="115" y1="352" x2="115" y2="374" stroke="#FF8B48" stroke-width="3" stroke-linecap="round" marker-end="url(#ao)"/>
+<rect x="220" y="100" width="170" height="250" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="220" y="100" width="170" height="96" rx="14" fill="#33547A"/>
+<rect x="220" y="176" width="170" height="20" fill="#33547A"/>
+<text x="305" y="168" font-size="60" font-weight="800" fill="#FF8B48" text-anchor="middle"><tspan x="305" dy="0">M</tspan></text>
+<text x="305" y="235" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="305" dy="0">Mõõdetav</tspan></text>
+<text x="305" y="285" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="305" dy="0">Kuidas</tspan><tspan x="305" dy="24">kontrollime?</tspan></text>
+<rect x="220" y="380" width="170" height="105" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="305" y="426.5" font-size="19" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="305" dy="0">80% täpsus</tspan><tspan x="305" dy="25">faktiküsimustel</tspan></text>
+<line x1="305" y1="352" x2="305" y2="374" stroke="#FF8B48" stroke-width="3" stroke-linecap="round" marker-end="url(#ao)"/>
+<rect x="410" y="100" width="170" height="250" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="410" y="100" width="170" height="96" rx="14" fill="#002959"/>
+<rect x="410" y="176" width="170" height="20" fill="#002959"/>
+<text x="495" y="168" font-size="60" font-weight="800" fill="#FF8B48" text-anchor="middle"><tspan x="495" dy="0">A</tspan></text>
+<text x="495" y="235" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="495" dy="0">Asjakohane</tspan></text>
+<text x="495" y="285" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="495" dy="0">Kas see on</tspan><tspan x="495" dy="24">oluline?</tspan></text>
+<rect x="410" y="380" width="170" height="105" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="495" y="414.0" font-size="19" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="495" dy="0">masinõpe,</tspan><tspan x="495" dy="25">eestikeelsed</tspan><tspan x="495" dy="25">andmed</tspan></text>
+<line x1="495" y1="352" x2="495" y2="374" stroke="#FF8B48" stroke-width="3" stroke-linecap="round" marker-end="url(#ao)"/>
+<rect x="600" y="100" width="170" height="250" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="600" y="100" width="170" height="96" rx="14" fill="#33547A"/>
+<rect x="600" y="176" width="170" height="20" fill="#33547A"/>
+<text x="685" y="168" font-size="60" font-weight="800" fill="#FF8B48" text-anchor="middle"><tspan x="685" dy="0">R</tspan></text>
+<text x="685" y="235" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="685" dy="0">Realistlik</tspan></text>
+<text x="685" y="285" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="685" dy="0">Kas jõuame</tspan><tspan x="685" dy="24">ära teha?</tspan></text>
+<rect x="600" y="380" width="170" height="105" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="685" y="414.0" font-size="19" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="685" dy="0">sõltub</tspan><tspan x="685" dy="25">meeskonna</tspan><tspan x="685" dy="25">oskustest</tspan></text>
+<line x1="685" y1="352" x2="685" y2="374" stroke="#FF8B48" stroke-width="3" stroke-linecap="round" marker-end="url(#ao)"/>
+<rect x="790" y="100" width="170" height="250" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<rect x="790" y="100" width="170" height="96" rx="14" fill="#002959"/>
+<rect x="790" y="176" width="170" height="20" fill="#002959"/>
+<text x="875" y="168" font-size="60" font-weight="800" fill="#FF8B48" text-anchor="middle"><tspan x="875" dy="0">T</tspan></text>
+<text x="875" y="235" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="875" dy="0">Tähtajaline</tspan></text>
+<text x="875" y="285" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="875" dy="0">Mis on</tspan><tspan x="875" dy="24">tähtaeg?</tspan></text>
+<rect x="790" y="380" width="170" height="105" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="875" y="439.0" font-size="19" font-weight="600" fill="#002959" text-anchor="middle"><tspan x="875" dy="0">8 nädalat</tspan></text>
+<line x1="875" y1="352" x2="875" y2="374" stroke="#FF8B48" stroke-width="3" stroke-linecap="round" marker-end="url(#ao)"/>
+<text x="500" y="372" font-size="2" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="500" dy="0"></tspan></text>
+</svg>

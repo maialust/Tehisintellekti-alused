@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="600" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Närvivõrgu kihid</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<line x1="170" y1="220" x2="500" y2="190" stroke="#CCD4DE" stroke-width="3" stroke-linecap="round"/>
+<line x1="170" y1="220" x2="500" y2="275" stroke="#CCD4DE" stroke-width="3" stroke-linecap="round"/>
+<line x1="170" y1="220" x2="500" y2="360" stroke="#CCD4DE" stroke-width="3" stroke-linecap="round"/>
+<line x1="170" y1="220" x2="500" y2="445" stroke="#CCD4DE" stroke-width="3" stroke-linecap="round"/>
+<line x1="170" y1="320" x2="500" y2="190" stroke="#CCD4DE" stroke-width="3" stroke-linecap="round"/>
+<line x1="170" y1="320" x2="500" y2="275" stroke="#CCD4DE" stroke-width="3" stroke-linecap="round"/>
+<line x1="170" y1="320" x2="500" y2="360" stroke="#CCD4DE" stroke-width="3" stroke-linecap="round"/>
+<line x1="170" y1="320" x2="500" y2="445" stroke="#CCD4DE" stroke-width="3" stroke-linecap="round"/>
+<line x1="170" y1="420" x2="500" y2="190" stroke="#CCD4DE" stroke-width="3" stroke-linecap="round"/>
+<line x1="170" y1="420" x2="500" y2="275" stroke="#CCD4DE" stroke-width="3" stroke-linecap="round"/>
+<line x1="170" y1="420" x2="500" y2="360" stroke="#CCD4DE" stroke-width="3" stroke-linecap="round"/>
+<line x1="170" y1="420" x2="500" y2="445" stroke="#CCD4DE" stroke-width="3" stroke-linecap="round"/>
+<line x1="500" y1="190" x2="830" y2="320" stroke="#CCD4DE" stroke-width="3" stroke-linecap="round"/>
+<line x1="500" y1="275" x2="830" y2="320" stroke="#CCD4DE" stroke-width="3" stroke-linecap="round"/>
+<line x1="500" y1="360" x2="830" y2="320" stroke="#CCD4DE" stroke-width="3" stroke-linecap="round"/>
+<line x1="500" y1="445" x2="830" y2="320" stroke="#CCD4DE" stroke-width="3" stroke-linecap="round"/>
+<circle cx="170" cy="220" r="28" fill="#FFFFFF" stroke="#002959" stroke-width="4"/>
+<text x="170" y="228" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="170" dy="0">x1</tspan></text>
+<circle cx="170" cy="320" r="28" fill="#FFFFFF" stroke="#002959" stroke-width="4"/>
+<text x="170" y="328" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="170" dy="0">x2</tspan></text>
+<circle cx="170" cy="420" r="28" fill="#FFFFFF" stroke="#002959" stroke-width="4"/>
+<text x="170" y="428" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="170" dy="0">x3</tspan></text>
+<circle cx="500" cy="190" r="28" fill="#FF8B48" stroke="#FF8B48" stroke-width="4"/>
+<circle cx="500" cy="275" r="28" fill="#FF8B48" stroke="#FF8B48" stroke-width="4"/>
+<circle cx="500" cy="360" r="28" fill="#FF8B48" stroke="#FF8B48" stroke-width="4"/>
+<circle cx="500" cy="445" r="28" fill="#FF8B48" stroke="#FF8B48" stroke-width="4"/>
+<circle cx="830" cy="320" r="28" fill="#2E8B57" stroke="#2E8B57" stroke-width="4"/>
+<text x="830" y="328" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="830" dy="0">y</tspan></text>
+<text x="170" y="112" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="170" dy="0">SISENDKIHT</tspan></text>
+<text x="170" y="138" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="170" dy="0">võtab andmed</tspan></text>
+<text x="500" y="112" font-size="22" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="500" dy="0">PEIDETUD KIHT</tspan></text>
+<text x="500" y="138" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="500" dy="0">töötleb andmeid</tspan></text>
+<text x="830" y="112" font-size="22" font-weight="700" fill="#2E8B57" text-anchor="middle"><tspan x="830" dy="0">VÄLJUNDKIHT</tspan></text>
+<text x="830" y="138" font-size="20" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="830" dy="0">annab vastuse</tspan></text>
+<rect x="40" y="505" width="920" height="66" rx="14" fill="#EEF2F7"/>
+<circle cx="80" cy="538" r="14" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<text x="104" y="545" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="104" dy="0">= üks neuron</tspan></text>
+<line x1="280" y1="538" x2="340" y2="538" stroke="#33547A" stroke-width="3" stroke-linecap="round"/>
+<text x="352" y="545" font-size="20" font-weight="400" fill="#002959" text-anchor="start"><tspan x="352" dy="0">= ühendus oma kaaluga</tspan></text>
+<text x="940" y="545" font-size="20" font-weight="400" fill="#33547A" text-anchor="end" font-style="italic"><tspan x="940" dy="0">iga neuron → iga järgmise kihi neuron</tspan></text>
+</svg>

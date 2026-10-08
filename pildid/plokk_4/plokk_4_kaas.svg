@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="agr" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#CCD4DE"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1200" height="420" rx="20" fill="url(#gnavy)"/>
+<circle cx="1120" cy="40" r="160" fill="#33547A" opacity="0.35"/>
+<circle cx="600" cy="440" r="120" fill="#33547A" opacity="0.3"/>
+<rect x="0" y="392" width="1200" height="28" fill="#FF8B48"/>
+<rect x="0" y="392" width="1200" height="8" fill="#E67E42"/>
+<rect x="70" y="80" width="150" height="46" rx="23" fill="#FF8B48"/>
+<text x="145" y="112" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="145" dy="0">PLOKK 4</tspan></text>
+<text x="70" y="200" font-size="60" font-weight="800" fill="#FFFFFF" text-anchor="start"><tspan x="70" dy="0">Tehisintellekti</tspan><tspan x="70" dy="70">otsustamine</tspan></text>
+<text x="70" y="330" font-size="24" font-weight="400" fill="#CCD4DE" text-anchor="start"><tspan x="70" dy="0">Otsingud · otsustuspuud · ekspertsüsteemid · soovitused</tspan></text>
+<line x1="930" y1="95" x2="810" y2="205" stroke="#CCD4DE" stroke-width="5" stroke-linecap="round"/>
+<line x1="930" y1="95" x2="1050" y2="205" stroke="#CCD4DE" stroke-width="5" stroke-linecap="round"/>
+<line x1="810" y1="205" x2="740" y2="315" stroke="#CCD4DE" stroke-width="5" stroke-linecap="round"/>
+<line x1="810" y1="205" x2="880" y2="315" stroke="#CCD4DE" stroke-width="5" stroke-linecap="round"/>
+<line x1="1050" y1="205" x2="1000" y2="315" stroke="#CCD4DE" stroke-width="5" stroke-linecap="round"/>
+<line x1="1050" y1="205" x2="1110" y2="315" stroke="#CCD4DE" stroke-width="5" stroke-linecap="round"/>
+<circle cx="930" cy="95" r="38" fill="#FFFFFF" filter="url(#sh)"/>
+<text x="930" y="109" font-size="40" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="930" dy="0">?</tspan></text>
+<circle cx="810" cy="205" r="32" fill="#CCD4DE" filter="url(#sh)"/>
+<text x="810" y="217" font-size="34" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="810" dy="0">?</tspan></text>
+<circle cx="1050" cy="205" r="32" fill="#CCD4DE" filter="url(#sh)"/>
+<text x="1050" y="217" font-size="34" font-weight="800" fill="#002959" text-anchor="middle"><tspan x="1050" dy="0">?</tspan></text>
+<rect x="706" y="289" width="68" height="52" rx="12" fill="#FF8B48" filter="url(#sh)"/>
+<rect x="846" y="289" width="68" height="52" rx="12" fill="#2E8B57" filter="url(#sh)"/>
+<rect x="966" y="289" width="68" height="52" rx="12" fill="#FF8B48" filter="url(#sh)"/>
+<rect x="1076" y="289" width="68" height="52" rx="12" fill="#2E8B57" filter="url(#sh)"/>
+<text x="740" y="323" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="740" dy="0">JAH</tspan></text>
+<text x="880" y="323" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="880" dy="0">EI</tspan></text>
+<text x="1000" y="323" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="1000" dy="0">JAH</tspan></text>
+<text x="1110" y="323" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="1110" dy="0">EI</tspan></text>
+</svg>

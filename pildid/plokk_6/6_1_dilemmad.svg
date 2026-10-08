@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gfade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#002959" stop-opacity="0.12"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="590" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Neli eetilist dilemmat</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<text x="40" y="108" font-size="21" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="40" dy="0">Kummalgi poolel on oma head ja halvad küljed</tspan></text>
+<rect x="30" y="135" width="460" height="185" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="260.0" y="175" font-size="23" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="260.0" dy="0">Trolliprobleem</tspan></text>
+<path d="M244.0,305 L260.0,267 L276.0,305 z" fill="#002959"/>
+<rect x="60.0" y="257" width="400" height="10" rx="5" fill="#002959"/>
+<rect x="45.0" y="201" width="200" height="50" rx="10" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<rect x="275.0" y="201" width="200" height="50" rx="10" fill="#FFFFFF" stroke="#33547A" stroke-width="2"/>
+<text x="145.0" y="233" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="145.0" dy="0">jalakäijad</tspan></text>
+<text x="375.0" y="233" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="375.0" dy="0">reisijad</tspan></text>
+<rect x="510" y="135" width="460" height="185" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="740.0" y="175" font-size="23" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="740.0" dy="0">Privaatsus vs kasulikkus</tspan></text>
+<path d="M724.0,305 L740.0,267 L756.0,305 z" fill="#002959"/>
+<rect x="540.0" y="257" width="400" height="10" rx="5" fill="#002959"/>
+<rect x="525.0" y="201" width="200" height="50" rx="10" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<rect x="755.0" y="201" width="200" height="50" rx="10" fill="#FFFFFF" stroke="#33547A" stroke-width="2"/>
+<text x="625.0" y="233" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="625.0" dy="0">privaatsus</tspan></text>
+<text x="855.0" y="233" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="855.0" dy="0">kasulikkus</tspan></text>
+<rect x="30" y="340" width="460" height="185" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="260.0" y="380" font-size="23" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="260.0" dy="0">Autonoomsus vs inimkontroll</tspan></text>
+<path d="M244.0,510 L260.0,472 L276.0,510 z" fill="#002959"/>
+<rect x="60.0" y="462" width="400" height="10" rx="5" fill="#002959"/>
+<rect x="45.0" y="406" width="200" height="50" rx="10" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<rect x="275.0" y="406" width="200" height="50" rx="10" fill="#FFFFFF" stroke="#33547A" stroke-width="2"/>
+<text x="145.0" y="438" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="145.0" dy="0">masin otsustab</tspan></text>
+<text x="375.0" y="438" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="375.0" dy="0">inimene otsustab</tspan></text>
+<rect x="510" y="340" width="460" height="185" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="740.0" y="380" font-size="23" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="740.0" dy="0">Läbipaistvus vs intellektuaalomand</tspan></text>
+<path d="M724.0,510 L740.0,472 L756.0,510 z" fill="#002959"/>
+<rect x="540.0" y="462" width="400" height="10" rx="5" fill="#002959"/>
+<rect x="525.0" y="406" width="200" height="50" rx="10" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<rect x="755.0" y="406" width="200" height="50" rx="10" fill="#FFFFFF" stroke="#33547A" stroke-width="2"/>
+<text x="625.0" y="438" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="625.0" dy="0">läbipaistvus</tspan></text>
+<text x="855.0" y="438" font-size="20" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="855.0" dy="0">ärisaladused</tspan></text>
+<text x="500" y="572" font-size="21" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="500" dy="0">Ühte õiget vastust sageli ei ole – oluline on kaaluda eri vaatenurki.</tspan></text>
+</svg>

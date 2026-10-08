@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter><marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker><marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker><marker id="an" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#002959"/></marker><linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient><linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient></defs>
+<rect x="0" y="0" width="1000" height="600" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Näide: rämpspostifilter, 100 kirja</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<text x="350" y="128" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="350" dy="0">Filtri ennustus</tspan></text>
+<text x="280.0" y="160" font-size="18" font-weight="600" fill="#33547A" text-anchor="middle"><tspan x="280.0" dy="0">rämps</tspan></text>
+<text x="420.0" y="160" font-size="18" font-weight="600" fill="#33547A" text-anchor="middle"><tspan x="420.0" dy="0">korras</tspan></text>
+<text x="70" y="315" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle" transform="rotate(-90 70 315)">Tegelikkus</text>
+<text x="196" y="251.0" font-size="18" font-weight="600" fill="#33547A" text-anchor="end"><tspan x="196" dy="0">rämps</tspan></text>
+<text x="196" y="391.0" font-size="18" font-weight="600" fill="#33547A" text-anchor="end"><tspan x="196" dy="0">korras</tspan></text>
+<rect x="214" y="179" width="132" height="132" rx="14" fill="#2E8B57" opacity="0.9"/>
+<text x="280.0" y="251.0" font-size="40" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="280.0" dy="0">15</tspan></text>
+<text x="280.0" y="281.0" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle"><tspan x="280.0" dy="0">õigesti leitud</tspan></text>
+<rect x="354" y="179" width="132" height="132" rx="14" fill="#C0392B" opacity="0.85"/>
+<text x="420.0" y="251.0" font-size="40" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="420.0" dy="0">5</tspan></text>
+<text x="420.0" y="281.0" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle"><tspan x="420.0" dy="0">märkamata</tspan></text>
+<rect x="214" y="319" width="132" height="132" rx="14" fill="#C0392B" opacity="0.85"/>
+<text x="280.0" y="391.0" font-size="40" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="280.0" dy="0">3</tspan></text>
+<text x="280.0" y="421.0" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle"><tspan x="280.0" dy="0">valehäire</tspan></text>
+<rect x="354" y="319" width="132" height="132" rx="14" fill="#2E8B57" opacity="0.9"/>
+<text x="420.0" y="391.0" font-size="40" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="420.0" dy="0">77</tspan></text>
+<text x="420.0" y="421.0" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle"><tspan x="420.0" dy="0">õigesti korras</tspan></text>
+<text x="350" y="495" font-size="19" font-weight="600" fill="#33547A" text-anchor="middle" font-style="italic"><tspan x="350" dy="0">segadusmaatriks</tspan></text>
+<rect x="560" y="115" width="410" height="110" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="584" y="153" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="584" dy="0">Üldine täpsus</tspan></text>
+<text x="584" y="183" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="584" dy="0">kõigist kirjadest õigesti</tspan></text>
+<text x="584" y="209" font-size="17" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="584" dy="0">(15 + 77) / 100</tspan></text>
+<text x="946" y="187" font-size="40" font-weight="800" fill="#002959" text-anchor="end"><tspan x="946" dy="0">92%</tspan></text>
+<rect x="560" y="243" width="410" height="110" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="584" y="281" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="584" dy="0">Täpsus</tspan></text>
+<text x="584" y="311" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="584" dy="0">rämpsuks märgitust õige</tspan></text>
+<text x="584" y="337" font-size="17" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="584" dy="0">15 / (15 + 3)</tspan></text>
+<text x="946" y="315" font-size="40" font-weight="800" fill="#FF8B48" text-anchor="end"><tspan x="946" dy="0">83%</tspan></text>
+<rect x="560" y="371" width="410" height="110" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="584" y="409" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="584" dy="0">Saagis</tspan></text>
+<text x="584" y="439" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="584" dy="0">kõigest rämpsust leitud</tspan></text>
+<text x="584" y="465" font-size="17" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="584" dy="0">15 / (15 + 5)</tspan></text>
+<text x="946" y="443" font-size="40" font-weight="800" fill="#FF8B48" text-anchor="end"><tspan x="946" dy="0">75%</tspan></text>
+<rect x="30" y="520" width="940" height="60" rx="14" fill="#002959"/>
+<text x="500" y="558" font-size="20" font-weight="400" fill="#FFFFFF" text-anchor="middle"><tspan x="500" dy="0">F1-skoor ühendab täpsuse ja saagise üheks arvuks (siin ≈ 79%).</tspan></text>
+</svg>

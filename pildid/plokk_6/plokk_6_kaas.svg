@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gfade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#002959" stop-opacity="0.12"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1200" height="420" rx="20" fill="url(#gnavy)"/>
+<circle cx="1120" cy="40" r="160" fill="#33547A" opacity="0.35"/>
+<circle cx="620" cy="440" r="120" fill="#33547A" opacity="0.3"/>
+<rect x="0" y="392" width="1200" height="28" fill="#FF8B48"/><rect x="0" y="392" width="1200" height="8" fill="#E67E42"/>
+<text x="70" y="105" font-size="34" font-weight="700" fill="#FF8B48" text-anchor="start"><tspan x="70" dy="0">PLOKK 6</tspan></text>
+<text x="66" y="195" font-size="80" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="66" dy="0">Tehisintellekt</tspan><tspan x="66" dy="88">ja eetika</tspan></text>
+<text x="70" y="340" font-size="30" font-weight="400" fill="#CCD4DE" text-anchor="start"><tspan x="70" dy="0">Kas see on õige? Kes vastutab?</tspan></text>
+<rect x="880" y="350" width="140" height="18" rx="9" fill="#FFFFFF"/>
+<rect x="942" y="120" width="16" height="235" rx="6" fill="#FFFFFF"/>
+<rect x="780" y="112" width="340" height="14" rx="7" fill="#FFFFFF"/>
+<circle cx="950" cy="110" r="20" fill="#FF8B48"/>
+<path d="M738,250 L800,126 L862,250" fill="none" stroke="#CCD4DE" stroke-width="3"/>
+<path d="M728,250 Q800,300 872,250 z" fill="#FF8B48"/>
+<path d="M1038,250 L1100,126 L1162,250" fill="none" stroke="#CCD4DE" stroke-width="3"/>
+<path d="M1028,250 Q1100,300 1172,250 z" fill="#FF8B48"/>
+<line x1="800" y1="196.0" x2="800" y2="206.0" stroke="#FFFFFF" stroke-width="3.0"/>
+<circle cx="800" cy="195.0" r="4.0" fill="#FF8B48"/>
+<rect x="778.0" y="206.0" width="44.0" height="34.0" rx="8.0" fill="#FFFFFF"/>
+<circle cx="791.0" cy="220.0" r="5.0" fill="#FF8B48"/><circle cx="809.0" cy="220.0" r="5.0" fill="#FF8B48"/>
+<rect x="791.0" y="230.0" width="18.0" height="4.0" rx="2.0" fill="#FFFFFF"/>
+<circle cx="1100" cy="210.0" r="11.0" fill="#FFFFFF"/>
+<path d="M1080.0,246.0 Q1080.0,224.0 1100,224.0 Q1120.0,224.0 1120.0,246.0 z" fill="#FFFFFF"/>
+</svg>

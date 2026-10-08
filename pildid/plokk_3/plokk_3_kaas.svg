@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1200" height="420" rx="20" fill="url(#gnavy)"/>
+<circle cx="1120" cy="40" r="160" fill="#33547A" opacity="0.35"/>
+<circle cx="640" cy="430" r="120" fill="#33547A" opacity="0.3"/>
+<rect x="0" y="392" width="1200" height="28" fill="#FF8B48"/>
+<rect x="0" y="392" width="1200" height="8" fill="#E67E42"/>
+<text x="70" y="120" font-size="34" font-weight="700" fill="#FF8B48" text-anchor="start"><tspan x="70" dy="0">PLOKK 3</tspan></text>
+<text x="66" y="225" font-size="96" font-weight="700" fill="#FFFFFF" text-anchor="start"><tspan x="66" dy="0">Keeletöötlus</tspan></text>
+<text x="70" y="290" font-size="30" font-weight="400" fill="#CCD4DE" text-anchor="start"><tspan x="70" dy="0">Kuidas tehisintellekt loeb, kirjutab ja tõlgib</tspan></text>
+<rect x="70" y="318" width="120" height="8" rx="4" fill="#FF8B48"/>
+<rect x="700" y="70" width="230" height="110" rx="22" fill="#FFFFFF" filter="url(#sh)"/>
+<path d="M740,178 L730,215 L775,178 z" fill="#FFFFFF"/>
+<text x="815" y="138" font-size="40" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="815" dy="0">Tere!</tspan></text>
+<rect x="700" y="250" width="70" height="46" rx="12" fill="#FFE2D1" stroke="#FF8B48" stroke-width="2"/>
+<text x="735.0" y="281" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="735.0" dy="0">Ma</tspan></text>
+<rect x="784" y="250" width="110" height="46" rx="12" fill="#FFE2D1" stroke="#FF8B48" stroke-width="2"/>
+<text x="839.0" y="281" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="839.0" dy="0">lähen</tspan></text>
+<rect x="908" y="250" width="100" height="46" rx="12" fill="#FFE2D1" stroke="#FF8B48" stroke-width="2"/>
+<text x="958.0" y="281" font-size="22" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="958.0" dy="0">kooli</tspan></text>
+<line x1="1030" y1="120" x2="1110" y2="200" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="1110" y1="200" x2="1030" y2="280" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="1030" y1="280" x2="1130" y2="320" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="1030" y1="120" x2="960" y2="200" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="960" y1="200" x2="1030" y2="280" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="1110" y1="200" x2="1130" y2="320" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<line x1="1030" y1="120" x2="1030" y2="280" stroke="#CCD4DE" stroke-width="3" opacity="0.8"/>
+<circle cx="1030" cy="120" r="24" fill="#FF8B48" stroke="#002959" stroke-width="3"/>
+<circle cx="1110" cy="200" r="18" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="1030" cy="280" r="18" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="1130" cy="320" r="18" fill="#FF8B48" stroke="#002959" stroke-width="3"/>
+<circle cx="960" cy="200" r="18" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<rect x="980" y="330" width="0" height="0"/>
+<line x1="905" y1="273" x2="945" y2="220" stroke="#FF8B48" stroke-width="4" marker-end="url(#ao)"/>
+</svg>

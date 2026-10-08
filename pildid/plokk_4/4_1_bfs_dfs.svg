@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="agr" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#CCD4DE"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="540" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Laiuti ja sügavuti otsing</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="30" y="100" width="450" height="410" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<text x="255" y="140" font-size="26" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="255" dy="0">Laiuti otsing (BFS)</tspan></text>
+<text x="255" y="170" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="255" dy="0">kiht-kihilt</tspan></text>
+<line x1="255" y1="220" x2="145" y2="300" stroke="#CCD4DE" stroke-width="4" stroke-linecap="round"/>
+<line x1="255" y1="220" x2="365" y2="300" stroke="#CCD4DE" stroke-width="4" stroke-linecap="round"/>
+<line x1="145" y1="300" x2="90" y2="385" stroke="#CCD4DE" stroke-width="4" stroke-linecap="round"/>
+<line x1="145" y1="300" x2="200" y2="385" stroke="#CCD4DE" stroke-width="4" stroke-linecap="round"/>
+<line x1="365" y1="300" x2="310" y2="385" stroke="#CCD4DE" stroke-width="4" stroke-linecap="round"/>
+<line x1="365" y1="300" x2="420" y2="385" stroke="#CCD4DE" stroke-width="4" stroke-linecap="round"/>
+<circle cx="255" cy="220" r="26" fill="#33547A" filter="url(#sh)"/>
+<text x="255" y="228" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="255" dy="0">1</tspan></text>
+<circle cx="145" cy="300" r="26" fill="#33547A" filter="url(#sh)"/>
+<text x="145" y="308" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="145" dy="0">2</tspan></text>
+<circle cx="365" cy="300" r="26" fill="#33547A" filter="url(#sh)"/>
+<text x="365" y="308" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="365" dy="0">3</tspan></text>
+<circle cx="90" cy="385" r="26" fill="#33547A" filter="url(#sh)"/>
+<text x="90" y="393" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="90" dy="0">4</tspan></text>
+<circle cx="200" cy="385" r="26" fill="#33547A" filter="url(#sh)"/>
+<text x="200" y="393" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="200" dy="0">5</tspan></text>
+<circle cx="310" cy="385" r="26" fill="#33547A" filter="url(#sh)"/>
+<text x="310" y="393" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="310" dy="0">6</tspan></text>
+<circle cx="420" cy="385" r="26" fill="#33547A" filter="url(#sh)"/>
+<text x="420" y="393" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="420" dy="0">7</tspan></text>
+<text x="255" y="448" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="255" dy="0">Vaatab enne läbi kõik lähemad</tspan><tspan x="255" dy="26">olekud ja alles siis kaugemad</tspan></text>
+<rect x="520" y="100" width="450" height="410" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="745" y="140" font-size="26" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="745" dy="0">Sügavuti otsing (DFS)</tspan></text>
+<text x="745" y="170" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="745" dy="0">üks haru lõpuni</tspan></text>
+<line x1="745" y1="220" x2="635" y2="300" stroke="#CCD4DE" stroke-width="4" stroke-linecap="round"/>
+<line x1="745" y1="220" x2="855" y2="300" stroke="#CCD4DE" stroke-width="4" stroke-linecap="round"/>
+<line x1="635" y1="300" x2="580" y2="385" stroke="#CCD4DE" stroke-width="4" stroke-linecap="round"/>
+<line x1="635" y1="300" x2="690" y2="385" stroke="#CCD4DE" stroke-width="4" stroke-linecap="round"/>
+<line x1="855" y1="300" x2="800" y2="385" stroke="#CCD4DE" stroke-width="4" stroke-linecap="round"/>
+<line x1="855" y1="300" x2="910" y2="385" stroke="#CCD4DE" stroke-width="4" stroke-linecap="round"/>
+<circle cx="745" cy="220" r="26" fill="#FF8B48" filter="url(#sh)"/>
+<text x="745" y="228" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="745" dy="0">1</tspan></text>
+<circle cx="635" cy="300" r="26" fill="#FF8B48" filter="url(#sh)"/>
+<text x="635" y="308" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="635" dy="0">2</tspan></text>
+<circle cx="855" cy="300" r="26" fill="#FF8B48" filter="url(#sh)"/>
+<text x="855" y="308" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="855" dy="0">5</tspan></text>
+<circle cx="580" cy="385" r="26" fill="#FF8B48" filter="url(#sh)"/>
+<text x="580" y="393" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="580" dy="0">3</tspan></text>
+<circle cx="690" cy="385" r="26" fill="#FF8B48" filter="url(#sh)"/>
+<text x="690" y="393" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="690" dy="0">4</tspan></text>
+<circle cx="800" cy="385" r="26" fill="#FF8B48" filter="url(#sh)"/>
+<text x="800" y="393" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="800" dy="0">6</tspan></text>
+<circle cx="910" cy="385" r="26" fill="#FF8B48" filter="url(#sh)"/>
+<text x="910" y="393" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="910" dy="0">7</tspan></text>
+<text x="745" y="448" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="745" dy="0">Läheb ühte haru mööda sügavale,</tspan><tspan x="745" dy="26">ummikus pöördub tagasi</tspan></text>
+</svg>

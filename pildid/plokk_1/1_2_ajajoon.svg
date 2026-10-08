@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="600" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Tehisintellekti kolm revolutsiooni</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="63.0" y="105" width="346.0" height="130" rx="14" fill="#002959" filter="url(#sh)"/>
+<text x="236.0" y="145" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="236.0" dy="0">1. Sümboolne TI</tspan></text>
+<text x="236.0" y="180" font-size="18" font-weight="400" fill="#FFFFFF" text-anchor="middle"><tspan x="236.0" dy="0">loogika, reeglid,</tspan><tspan x="236.0" dy="23">ekspertsüsteemid</tspan></text>
+<rect x="415.0" y="105" width="346.0" height="130" rx="14" fill="#33547A" filter="url(#sh)"/>
+<text x="588.0" y="145" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="588.0" dy="0">2. Masinõpe</tspan></text>
+<text x="588.0" y="180" font-size="18" font-weight="400" fill="#FFFFFF" text-anchor="middle"><tspan x="588.0" dy="0">statistika, närvi-</tspan><tspan x="588.0" dy="23">võrgud, andmed</tspan></text>
+<rect x="767.0" y="105" width="170.0" height="130" rx="14" fill="#FF8B48" filter="url(#sh)"/>
+<text x="852.0" y="145" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="852.0" dy="0">3. Generatiivne TI</tspan></text>
+<text x="852.0" y="180" font-size="16" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="852.0" dy="0">süvaõpe, suured</tspan><tspan x="852.0" dy="23">keelemudelid</tspan></text>
+<rect x="341.6" y="308" width="70.39999999999998" height="44" rx="8" fill="#CCD4DE"/>
+<text x="376.8" y="400" font-size="18" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="376.8" dy="0">❄ talv</tspan><tspan x="376.8" dy="22">1974–1980</tspan></text>
+<rect x="494.1333333333333" y="308" width="70.39999999999998" height="44" rx="8" fill="#CCD4DE"/>
+<text x="529.3333333333333" y="400" font-size="18" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="529.3333333333333" dy="0">❄ talv</tspan><tspan x="529.3333333333333" dy="22">1987–1993</tspan></text>
+<line x1="60" y1="330" x2="960" y2="330" stroke="#002959" stroke-width="5" marker-end="url(#ab)"/>
+<line x1="60.0" y1="322" x2="60.0" y2="338" stroke="#002959" stroke-width="3"/>
+<text x="60.0" y="298" font-size="17" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="60.0" dy="0">1950</tspan></text>
+<line x1="177.33333333333331" y1="322" x2="177.33333333333331" y2="338" stroke="#002959" stroke-width="3"/>
+<text x="177.33333333333331" y="298" font-size="17" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="177.33333333333331" dy="0">1960</tspan></text>
+<line x1="294.66666666666663" y1="322" x2="294.66666666666663" y2="338" stroke="#002959" stroke-width="3"/>
+<text x="294.66666666666663" y="298" font-size="17" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="294.66666666666663" dy="0">1970</tspan></text>
+<line x1="412.0" y1="322" x2="412.0" y2="338" stroke="#002959" stroke-width="3"/>
+<text x="412.0" y="298" font-size="17" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="412.0" dy="0">1980</tspan></text>
+<line x1="529.3333333333333" y1="322" x2="529.3333333333333" y2="338" stroke="#002959" stroke-width="3"/>
+<text x="529.3333333333333" y="298" font-size="17" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="529.3333333333333" dy="0">1990</tspan></text>
+<line x1="646.6666666666666" y1="322" x2="646.6666666666666" y2="338" stroke="#002959" stroke-width="3"/>
+<text x="646.6666666666666" y="298" font-size="17" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="646.6666666666666" dy="0">2000</tspan></text>
+<line x1="764.0" y1="322" x2="764.0" y2="338" stroke="#002959" stroke-width="3"/>
+<text x="764.0" y="298" font-size="17" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="764.0" dy="0">2010</tspan></text>
+<line x1="881.3333333333334" y1="322" x2="881.3333333333334" y2="338" stroke="#002959" stroke-width="3"/>
+<text x="881.3333333333334" y="298" font-size="17" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="881.3333333333334" dy="0">2020</tspan></text>
+<line x1="130.4" y1="338" x2="130.4" y2="428" stroke="#FF8B48" stroke-width="2" stroke-dasharray="4 4"/>
+<circle cx="130.4" cy="330" r="9" fill="#FF8B48" stroke="#FFFFFF" stroke-width="2"/>
+<rect x="44.900000000000006" y="428" width="171.0" height="50" rx="10" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="130.4" y="450" font-size="18" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="130.4" dy="0">1956 Dartmouth</tspan></text>
+<text x="130.4" y="470" font-size="15" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="130.4" dy="0">termin „TI”</tspan></text>
+<line x1="611.4666666666667" y1="338" x2="611.4666666666667" y2="428" stroke="#FF8B48" stroke-width="2" stroke-dasharray="4 4"/>
+<circle cx="611.4666666666667" cy="330" r="9" fill="#FF8B48" stroke="#FFFFFF" stroke-width="2"/>
+<rect x="525.9666666666667" y="428" width="171.0" height="50" rx="10" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="611.4666666666667" y="450" font-size="18" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="611.4666666666667" dy="0">1997 Deep Blue</tspan></text>
+<text x="611.4666666666667" y="470" font-size="15" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="611.4666666666667" dy="0">male</tspan></text>
+<line x1="834.4" y1="338" x2="834.4" y2="428" stroke="#FF8B48" stroke-width="2" stroke-dasharray="4 4"/>
+<circle cx="834.4" cy="330" r="9" fill="#FF8B48" stroke="#FFFFFF" stroke-width="2"/>
+<rect x="729.4" y="428" width="150.0" height="50" rx="10" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="804.4" y="450" font-size="18" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="804.4" dy="0">2016 AlphaGo</tspan></text>
+<text x="804.4" y="470" font-size="15" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="804.4" dy="0">Go</tspan></text>
+<line x1="904.8" y1="338" x2="904.8" y2="503" stroke="#FF8B48" stroke-width="2" stroke-dasharray="4 4"/>
+<circle cx="904.8" cy="330" r="9" fill="#FF8B48" stroke="#FFFFFF" stroke-width="2"/>
+<rect x="819.8" y="503" width="150.0" height="34" rx="10" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="894.8" y="525" font-size="18" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="894.8" dy="0">2022 ChatGPT</tspan></text>
+
+</svg>

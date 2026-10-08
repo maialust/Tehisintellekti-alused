@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="500" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Temperatuur: ennustatav või loov?</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="80" y="120" width="840" height="26" rx="13" fill="url(#gtemp)"/>
+<circle cx="80" cy="133" r="22" fill="#33547A" stroke="#FFFFFF" stroke-width="5" filter="url(#sh)"/>
+<circle cx="920" cy="133" r="22" fill="#FF8B48" stroke="#FFFFFF" stroke-width="5" filter="url(#sh)"/>
+<text x="80" y="190" font-size="22" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="80" dy="0">madal</tspan></text>
+<text x="920" y="190" font-size="22" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="920" dy="0">kõrge</tspan></text>
+<rect x="40" y="220" width="440" height="240" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<text x="70" y="265" font-size="26" font-weight="700" fill="#002959" text-anchor="start"><tspan x="70" dy="0">Madal temperatuur</tspan></text>
+<text x="70" y="310" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="70" dy="0">Mudel valib peaaegu alati</tspan><tspan x="70" dy="27">kõige tõenäolisema sõna.</tspan></text>
+<rect x="70" y="380" width="380" height="58" rx="12" fill="#FFFFFF"/>
+<text x="90" y="404" font-size="19" font-weight="700" fill="#002959" text-anchor="start"><tspan x="90" dy="0">Tekst on ennustatav</tspan><tspan x="90" dy="24">ja ühtlane.</tspan></text>
+<rect x="520" y="220" width="440" height="240" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<text x="550" y="265" font-size="26" font-weight="700" fill="#002959" text-anchor="start"><tspan x="550" dy="0">Kõrge temperatuur</tspan></text>
+<text x="550" y="310" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="550" dy="0">Mudel valib ka vähem</tspan><tspan x="550" dy="27">tõenäolisi sõnu.</tspan></text>
+<rect x="550" y="380" width="380" height="58" rx="12" fill="#FFFFFF"/>
+<text x="570" y="404" font-size="19" font-weight="700" fill="#FF8B48" text-anchor="start"><tspan x="570" dy="0">Tekst on loovam,</tspan><tspan x="570" dy="24">aga ka juhuslikum.</tspan></text>
+</svg>

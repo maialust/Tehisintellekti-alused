@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="670" viewBox="0 0 1000 670" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="670" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959" text-anchor="start"><tspan x="40" dy="0">Tehisintellekti põhisuunad</tspan></text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<rect x="40" y="110" width="290" height="250" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<circle cx="185.0" cy="168" r="40" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<rect x="159.0" y="170" width="10" height="18" rx="2" fill="#002959"/>
+<rect x="173.0" y="158" width="10" height="30" rx="2" fill="#002959"/>
+<rect x="187.0" y="166" width="10" height="22" rx="2" fill="#002959"/>
+<rect x="201.0" y="148" width="10" height="40" rx="2" fill="#FF8B48"/>
+<text x="185.0" y="242" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="185.0" dy="0">Masinõpe</tspan></text>
+<text x="185.0" y="274" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="185.0" dy="0">õpib andmetest</tspan></text>
+<rect x="70" y="316" width="230" height="32" rx="16" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="185.0" y="338" font-size="17" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="185.0" dy="0">nt rämpsposti filter</tspan></text>
+<rect x="350" y="110" width="290" height="250" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<circle cx="495.0" cy="168" r="40" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<line x1="471.0" y1="154" x2="495.0" y2="148" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="471.0" y1="154" x2="495.0" y2="168" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="471.0" y1="154" x2="495.0" y2="188" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="471.0" y1="182" x2="495.0" y2="148" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="471.0" y1="182" x2="495.0" y2="168" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="471.0" y1="182" x2="495.0" y2="188" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="495.0" y1="148" x2="519.0" y2="154" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="495.0" y1="148" x2="519.0" y2="182" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="495.0" y1="168" x2="519.0" y2="154" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="495.0" y1="168" x2="519.0" y2="182" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="495.0" y1="188" x2="519.0" y2="154" stroke="#CCD4DE" stroke-width="2"/>
+<line x1="495.0" y1="188" x2="519.0" y2="182" stroke="#CCD4DE" stroke-width="2"/>
+<circle cx="471.0" cy="154" r="6" fill="#FFFFFF" stroke="#002959" stroke-width="2.5"/>
+<circle cx="471.0" cy="182" r="6" fill="#FFFFFF" stroke="#002959" stroke-width="2.5"/>
+<circle cx="495.0" cy="148" r="6" fill="#FF8B48" stroke="#002959" stroke-width="2.5"/>
+<circle cx="495.0" cy="168" r="6" fill="#FF8B48" stroke="#002959" stroke-width="2.5"/>
+<circle cx="495.0" cy="188" r="6" fill="#FF8B48" stroke="#002959" stroke-width="2.5"/>
+<circle cx="519.0" cy="154" r="6" fill="#FFFFFF" stroke="#002959" stroke-width="2.5"/>
+<circle cx="519.0" cy="182" r="6" fill="#FFFFFF" stroke="#002959" stroke-width="2.5"/>
+<text x="495.0" y="242" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="495.0" dy="0">Süvaõpe</tspan></text>
+<text x="495.0" y="274" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="495.0" dy="0">mitmekihilised</tspan><tspan x="495.0" dy="23">närvivõrgud</tspan></text>
+<rect x="380" y="316" width="230" height="32" rx="16" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="495.0" y="338" font-size="17" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="495.0" dy="0">nt näotuvastus</tspan></text>
+<rect x="660" y="110" width="290" height="250" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="805.0" cy="168" r="40" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<rect x="777.0" y="146" width="56" height="36" rx="10" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<path d="M791.0,182 L785.0,194 L803.0,182 z" fill="#002959"/>
+<circle cx="793.0" cy="164" r="4" fill="#FF8B48"/>
+<circle cx="805.0" cy="164" r="4" fill="#FF8B48"/>
+<circle cx="817.0" cy="164" r="4" fill="#FF8B48"/>
+<text x="805.0" y="242" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="805.0" dy="0">Keeletöötlus</tspan></text>
+<text x="805.0" y="274" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="805.0" dy="0">inimkeele mõistmine</tspan></text>
+<rect x="690" y="316" width="230" height="32" rx="16" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="805.0" y="338" font-size="17" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="805.0" dy="0">nt masintõlge</tspan></text>
+<rect x="40" y="380" width="290" height="250" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="185.0" cy="438" r="40" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<path d="M155.0,438 Q185.0,412 215.0,438 Q185.0,464 155.0,438 z" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="185.0" cy="438" r="10" fill="#FF8B48"/>
+<circle cx="185.0" cy="438" r="4" fill="#002959"/>
+<text x="185.0" y="512" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="185.0" dy="0">Arvutinägemine</tspan></text>
+<text x="185.0" y="544" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="185.0" dy="0">piltide ja videote</tspan><tspan x="185.0" dy="23">analüüs</tspan></text>
+<rect x="70" y="586" width="230" height="32" rx="16" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="185.0" y="608" font-size="17" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="185.0" dy="0">nt näoga avamine</tspan></text>
+<rect x="350" y="380" width="290" height="250" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="495.0" cy="438" r="40" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<rect x="473.0" y="422" width="44" height="34" rx="8" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<circle cx="486.0" cy="438" r="5" fill="#FF8B48"/>
+<circle cx="504.0" cy="438" r="5" fill="#FF8B48"/>
+<line x1="495.0" y1="422" x2="495.0" y2="410" stroke="#002959" stroke-width="3"/>
+<circle cx="495.0" cy="408" r="4" fill="#002959"/>
+<rect x="465.0" y="432" width="8" height="14" rx="3" fill="#002959"/><rect x="517.0" y="432" width="8" height="14" rx="3" fill="#002959"/>
+<text x="495.0" y="512" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="495.0" dy="0">Robootika</tspan></text>
+<text x="495.0" y="544" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="495.0" dy="0">füüsiliste süsteemide</tspan><tspan x="495.0" dy="23">juhtimine</tspan></text>
+<rect x="380" y="586" width="230" height="32" rx="16" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="495.0" y="608" font-size="17" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="495.0" dy="0">nt kullerrobot</tspan></text>
+<rect x="660" y="380" width="290" height="250" rx="14" fill="#EEF2F7" filter="url(#sh)"/>
+<circle cx="805.0" cy="438" r="40" fill="#FFFFFF" stroke="#CCD4DE" stroke-width="3"/>
+<rect x="783.0" y="410" width="44" height="56" rx="6" fill="#FFFFFF" stroke="#002959" stroke-width="3"/>
+<line x1="793.0" y1="424" x2="819.0" y2="424" stroke="#FF8B48" stroke-width="3"/>
+<line x1="793.0" y1="438" x2="819.0" y2="438" stroke="#002959" stroke-width="3"/>
+<line x1="793.0" y1="452" x2="819.0" y2="452" stroke="#002959" stroke-width="3"/>
+<text x="805.0" y="512" font-size="24" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="805.0" dy="0">Ekspertsüsteemid</tspan></text>
+<text x="805.0" y="544" font-size="19" font-weight="400" fill="#33547A" text-anchor="middle"><tspan x="805.0" dy="0">ekspertide „kui …,</tspan><tspan x="805.0" dy="23">siis …”</tspan></text>
+<rect x="690" y="586" width="230" height="32" rx="16" fill="#FFFFFF" stroke="#FF8B48" stroke-width="2"/>
+<text x="805.0" y="608" font-size="17" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="805.0" dy="0">nt varane diagnostika</tspan></text>
+
+</svg>

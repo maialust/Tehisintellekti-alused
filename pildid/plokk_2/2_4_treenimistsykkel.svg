@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#C0392B"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="640" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Närvivõrgu treenimistsükkel</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<circle cx="500" cy="360" r="190" fill="none" stroke="#CCD4DE" stroke-width="6" stroke-dasharray="2 0"/>
+<line x1="641.4734532565631" y1="233.17231365485273" x2="655.6388884149085" y2="251.02047709330125" stroke="#FF8B48" stroke-width="6" marker-end="url(#ao)"/>
+<line x1="626.8276863451473" y1="501.4734532565631" x2="608.9795229066988" y2="515.6388884149085" stroke="#FF8B48" stroke-width="6" marker-end="url(#ao)"/>
+<line x1="358.5265467434369" y1="486.8276863451473" x2="344.3611115850915" y2="468.9795229066987" stroke="#FF8B48" stroke-width="6" marker-end="url(#ao)"/>
+<line x1="373.1723136548527" y1="218.52654674343697" x2="391.02047709330117" y2="204.3611115850916" stroke="#FF8B48" stroke-width="6" marker-end="url(#ao)"/>
+<circle cx="500" cy="360" r="82" fill="url(#gnavy)"/>
+<text x="500" y="352" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="500" dy="0">kordub</tspan></text>
+<text x="500" y="382" font-size="20" font-weight="400" fill="#CCD4DE" text-anchor="middle"><tspan x="500" dy="0">tuhandeid kordi</tspan></text>
+<rect x="340" y="92" width="320" height="110" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<circle cx="372" cy="126" r="20" fill="#FF8B48"/>
+<text x="372" y="133" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="372" dy="0">1</tspan></text>
+<text x="402" y="134" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="402" dy="0">Edasilevi</tspan></text>
+<text x="364" y="168" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="364" dy="0">andmed läbivad võrgu,</tspan><tspan x="364" dy="24">võrk annab vastuse</tspan></text>
+<rect x="640" y="290" width="320" height="110" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<circle cx="672" cy="324" r="20" fill="#FF8B48"/>
+<text x="672" y="331" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="672" dy="0">2</tspan></text>
+<text x="702" y="332" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="702" dy="0">Vea arvutamine</tspan></text>
+<text x="664" y="366" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="664" dy="0">vastust võrreldakse</tspan><tspan x="664" dy="24">õigega (kaofunktsioon)</tspan></text>
+<rect x="340" y="510" width="320" height="110" rx="14" fill="#EEF2F7" stroke="#33547A" stroke-width="2" filter="url(#sh)"/>
+<circle cx="372" cy="544" r="20" fill="#FF8B48"/>
+<text x="372" y="551" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="372" dy="0">3</tspan></text>
+<text x="402" y="552" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="402" dy="0">Tagasilevi</tspan></text>
+<text x="364" y="586" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="364" dy="0">viga liigub tagasi:</tspan><tspan x="364" dy="24">kes kui palju süüdi?</tspan></text>
+<rect x="40" y="290" width="320" height="110" rx="14" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2" filter="url(#sh)"/>
+<circle cx="72" cy="324" r="20" fill="#FF8B48"/>
+<text x="72" y="331" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="72" dy="0">4</tspan></text>
+<text x="102" y="332" font-size="22" font-weight="700" fill="#002959" text-anchor="start"><tspan x="102" dy="0">Kaalude uuendamine</tspan></text>
+<text x="64" y="366" font-size="20" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="64" dy="0">iga kaalu muudetakse</tspan><tspan x="64" dy="24">veidi õiges suunas</tspan></text>
+</svg>

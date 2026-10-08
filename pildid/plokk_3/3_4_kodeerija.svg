@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter>
+<marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker>
+<marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker>
+<marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker>
+<linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient>
+<linearGradient id="gtemp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#33547A"/><stop offset="1" stop-color="#FF8B48"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" rx="18" fill="#FFFFFF"/>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Närvivõrgupõhine masintõlge</text>
+<rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
+<text x="120" y="130" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="120" dy="0">Lähtelause</tspan></text>
+<text x="880" y="130" font-size="20" font-weight="700" fill="#E67E42" text-anchor="middle"><tspan x="880" dy="0">Sihtlause</tspan></text>
+<rect x="40" y="160" width="160" height="50" rx="12" fill="#EEF2F7" stroke="#33547A" stroke-width="2"/>
+<text x="120" y="193" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="120" dy="0">Ma</tspan></text>
+<line x1="204" y1="185" x2="266" y2="260" stroke="#33547A" stroke-width="3" marker-end="url(#ab)"/>
+<rect x="40" y="230" width="160" height="50" rx="12" fill="#EEF2F7" stroke="#33547A" stroke-width="2"/>
+<text x="120" y="263" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="120" dy="0">armastan</tspan></text>
+<line x1="204" y1="255" x2="266" y2="260" stroke="#33547A" stroke-width="3" marker-end="url(#ab)"/>
+<rect x="40" y="300" width="160" height="50" rx="12" fill="#EEF2F7" stroke="#33547A" stroke-width="2"/>
+<text x="120" y="333" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="120" dy="0">raamatuid</tspan></text>
+<line x1="204" y1="325" x2="266" y2="260" stroke="#33547A" stroke-width="3" marker-end="url(#ab)"/>
+<rect x="800" y="160" width="160" height="50" rx="12" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2"/>
+<text x="880" y="193" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="880" dy="0">I</tspan></text>
+<line x1="734" y1="260" x2="794" y2="185" stroke="#FF8B48" stroke-width="3" marker-end="url(#ao)"/>
+<rect x="800" y="230" width="160" height="50" rx="12" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2"/>
+<text x="880" y="263" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="880" dy="0">love</tspan></text>
+<line x1="734" y1="260" x2="794" y2="255" stroke="#FF8B48" stroke-width="3" marker-end="url(#ao)"/>
+<rect x="800" y="300" width="160" height="50" rx="12" fill="#FFF4EC" stroke="#FF8B48" stroke-width="2"/>
+<text x="880" y="333" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="880" dy="0">books</tspan></text>
+<line x1="734" y1="260" x2="794" y2="325" stroke="#FF8B48" stroke-width="3" marker-end="url(#ao)"/>
+<rect x="270" y="170" width="190" height="180" rx="14" fill="url(#gnavy)" filter="url(#sh)"/>
+<text x="365" y="250" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="365" dy="0">KODEERIJA</tspan></text>
+<text x="365" y="280" font-size="17" font-weight="400" fill="#CCD4DE" text-anchor="middle"><tspan x="365" dy="0">loeb lähtelause</tspan></text>
+<line x1="462" y1="260" x2="478" y2="260" stroke="#33547A" stroke-width="3" marker-end="url(#ab)"/>
+<rect x="483" y="205" width="34" height="18" rx="4" fill="#FF8B48"/>
+<rect x="483" y="227" width="34" height="18" rx="4" fill="#CCD4DE"/>
+<rect x="483" y="249" width="34" height="18" rx="4" fill="#33547A"/>
+<rect x="483" y="271" width="34" height="18" rx="4" fill="#FFE2D1"/>
+<rect x="483" y="293" width="34" height="18" rx="4" fill="#FF8B48"/>
+<line x1="520" y1="260" x2="536" y2="260" stroke="#33547A" stroke-width="3" marker-end="url(#ab)"/>
+<rect x="540" y="170" width="190" height="180" rx="14" fill="#FF8B48" filter="url(#sh)"/>
+<text x="635" y="250" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="635" dy="0">DEKODEERIJA</tspan></text>
+<text x="635" y="280" font-size="17" font-weight="400" fill="#FFFFFF" text-anchor="middle"><tspan x="635" dy="0">loob sihtlause</tspan></text>
+<text x="500" y="380" font-size="18" font-weight="400" fill="#33547A" text-anchor="middle" font-style="italic"><tspan x="500" dy="0">tähendus arvudena</tspan></text>
+<rect x="40" y="410" width="920" height="120" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
+<text x="70" y="450" font-size="23" font-weight="700" fill="#002959" text-anchor="start"><tspan x="70" dy="0">Tähelepanumehhanism</tspan></text>
+<text x="70" y="484" font-size="19" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="70" dy="0">aitab dekodeerijal igal sammul vaadata neid lähtesõnu,</tspan><tspan x="70" dy="25">mis on parasjagu olulised – nt „books“ ↔ „raamatuid“.</tspan></text>
+</svg>
