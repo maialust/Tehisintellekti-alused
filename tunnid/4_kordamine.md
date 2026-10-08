@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.2.0
+version:  1.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -583,6 +583,8 @@ Vasta küsimustele oma sõnadega. Võid oma vastuseid arutada ka klassikaaslaste
 
 ### Ploki 4 enesekontrolltest
 
+Enne ukse avamist kontrolli, kas oled toa kõik teadmised kätte saanud.
+
 <!-- class="pae-jaotis" -->
 **I. Automaatselt kontrollitavad ülesanded**
 
@@ -599,6 +601,7 @@ Probleemilahendus tähendab, et TI otsib teed algolekust eesmärgini, kasutades 
 **2. Kuidas nimetatakse puukujulist mudelit, mis jagab andmed tunnuste põhjal järjest väiksemateks rühmadeks ja jõuab lehtedes lõppotsuseni? Kirjuta vastus.**
 
 [[otsustuspuu]]
+- [[?]] Vihje: sõnas on 4 tähte ja see on seotud selle toa teemaga – sellist otsust tahaks masinalt igaüks.
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["otsustuspuu", "otsustuspuud", "otsustuspuuks", "otsuste puu"].includes(v)
@@ -852,3 +855,21 @@ c) Kuidas mõjutavad soovitussüsteemid meie valikuid ja käitumist? Kas need la
 Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega. See näitab, et oled teemast aru saanud, kasutab ploki mõisteid (nt „musta kasti“ probleem, kallutatus, selgitatavus, vastutus, inimene otsustusahelas, mullifilter) ja toob näiteid. Hea arutlus kaalub ka teistsuguseid vaatenurki ning lõpeb põhjendatud järeldusega.
 
 </details>
+
+### 🚪 Toa 4 uks
+
+<!-- class="pae-fakt" -->
+> **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 4.1, 4.2, 4.3 ja 4.4 lukkudest järjekorras).
+
+[[TARK]]
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
+v === "tark"
+</script>
+****************************************
+🎉 **Uks avaneb!** Labürindi sildid „JAH“ ja „EI“ süttivad korraga põlema ning moodustavad selge otsustuspuu, mis juhatab väljapääsuni. Kratt mäletab nüüd jälle, kuidas otsida teed olekuruumis, kuidas rakendada „KUI … SIIS …“ reegleid ja kuidas soovitada sisu, ilma et keegi mullifiltrisse kinni jääks. „Tänan teid!“ hüüab Kratt. „Nüüd ma tean: tark otsus ei ole kiire arvamine, vaid hea küsimuste ahel – ja lõpliku otsuse jätan ma tähtsates asjades ikkagi inimesele.“
+
+🌟 **Kuldne täht: I** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
+
+➡️ **Järgmine tuba:** Vaatlustorn – seal näeb Kratt kogu maailma ainult pikslitena ja vajab abi, et õppida uuesti pilte mõistma.
+****************************************

@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.2.0
+version:  1.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -256,6 +256,11 @@ output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !imp
 
 <!-- class="pae-kaas" -->
 ![Ploki 5 kaanepilt: pealkiri „Pilditöötlus ja arvutinägemine“, värviline piksliruudustik, rohelise ümbriskastiga märgitud objekt ja stiliseeritud silm](../pildid/plokk_5/plokk_5_kaas.svg)
+
+<!-- class="pae-fakt" -->
+> **🗝️ Tuba 5: Vaatlustorn**
+>
+> Päästemeeskond ronib mööda keerdtreppi kooli Vaatlustorni. Siit peaks Kratt nägema kogu kooli, kuid tema silmade ees on ainult ruudukesed ja arvud. „Ma näen 6 220 800 arvu, aga mitte ühtegi nägu! Kas see oranž ruut on direktor või apelsin?" Teie ülesanne on õpetada Kratile uuesti, kuidas pikslitest saab pilt, pildist tähendus ja kuidas eristada ehtsat pilti võltsingust. Selles toas on 5 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjuta tähed üles!
 
 Iga päev puutud kokku tehisintellektiga (TI), mis „vaatab" pilte. Nutitelefon avaneb, kui vaatad ekraani. Fotogalerii rühmitab pildid inimeste järgi. Sotsiaalmeedia filter paneb sulle koerakõrvad pähe ja need liiguvad koos sinu peaga. Tallinna ja Tartu tänavatel sõitvad Starshipi kullerrobotid leiavad tee jalakäijate ja autode vahel. Kõigi nende taga on **arvutinägemine** – tehisintellekti valdkond, mis õpetab arvuteid pilte ja videoid analüüsima ning mõistma.
 
@@ -793,6 +798,29 @@ Traditsioonilistes meetodites (nt Sobeli filter, HOG) pidi inimene ise välja m�
 
 </details>
 
+### 🔐 Lukk 5.1
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Keegi saatis mulle pisikese värvilise ikooni, ainult 10 × 10 pikslit. Mina loen aga nii palju arve, et pea käib ringi!"
+
+Lukk avaneb, kui lahendad mõistatuse. Arvuta ja kirjuta vastuseks üks arv.
+
+**Mitu arvu peab arvuti läbi töötlema, kui ta „vaatab" 10 × 10 piksli suurust värvilist RGB-pilti?**
+
+[[300]]
+[[?]] Vihje: loe kõigepealt kokku pikslid. Mitu arvu kirjeldab ühte värvilist pikslit?
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[\s.,]+/g, "");
+["300", "300arvu"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** 10 × 10 = 100 pikslit ja igal pikslil on kolm värvikanalit (R, G, B), seega 100 × 3 = 300 arvu.
+
+🔑 **Sinu võtmetäht: O**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
+
 
 ## 5.2 Objekti- ja näotuvastus
 
@@ -1265,6 +1293,27 @@ Pluss: puudumiste märkimine oleks kiire ja õpetaja aeg kuluks õppimisele. Pro
 
 </details>
 
+### 🔐 Lukk 5.2
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Ma tean, et pildil on koer, aga ma ei mäleta, KUS ta on! Minu märkmetes on üks sõna, aga tähed läksid sassi: **MIRSAKPITAIS**."
+
+Lukk avaneb, kui lahendad mõistatuse. Pane tähed õigesse järjekorda. Saad sõna, mis tähistab ristkülikut, millega objektituvastus märgib objekti asukoha pildil.
+
+[[piiramiskast]]
+[[?]] Vihje: sõna algab tähega P ja koosneb kahest osast; teine osa on K-ga algav karp.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
+["piiramiskast", "piiramiskasti", "piiramiskastid", "piiramiskastiga"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** **Piiramiskast** (bounding box) ütleb, kus objekt pildil asub – koos klassi nime ja enesekindluse skooriga.
+
+🔑 **Sinu võtmetäht: P**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
+
 
 ## 5.3 Meditsiiniline pildianalüüs
 
@@ -1735,6 +1784,33 @@ TI ei väsi – see on hoopis üks tema eelistest. Väljakutsed on selgitatavus,
 TI on arsti abiline ehk „teine silmapaar", mitte asendaja. Ka täpne mudel eksib vahel: see võib haiguse märkamata jätta või anda valehäire. Paljud mudelid on „must kast" ega selgita oma otsust, arst peab aga oskama diagnoosi patsiendile põhjendada. Arst arvestab ka patsiendi muid andmeid ja olukorda. Lisaks peab keegi kandma vastutust – seda saab teha inimene, mitte tarkvara.
 
 </details>
+
+### 🔐 Lukk 5.3
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Kooliõde küsis, kas ma suudaksin röntgenpildilt haigust märgata. Ütlesin, et olen väga täpne... aga mis täpsusest me üldse räägime?"
+
+Lukk avaneb, kui lahendad mõistatuse. Kirjuta mõiste, mida mõistatus kirjeldab.
+
+> Ma olen mõõdik, mida arstid TI-lt kõige enam nõuavad sõeluuringus.
+> Ma ei hooli sellest, kui mitu tervet sai asjatu hirmu.
+> Mind huvitab ainult üks asi: kui suure osa **tegelikult haigetest** mudel üles leidis.
+> Kui sajast inimesest kümme on haiged ja mudel leiab neist üheksa, olen ma 9/10.
+> **Kes ma olen?**
+
+[[tundlikkus]]
+[[?]] Vihje: minu paariline on spetsiifilisus, kes hoolitseb tervete eest.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
+["tundlikkus", "tundlikkust", "tundlikus", "sensitivity", "sensitiivsus"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** **Tundlikkus** näitab, kui suure osa haigetest mudel üles leiab – sõeluuringus ei tohi ükski haige jääda kahe silma vahele.
+
+🔑 **Sinu võtmetäht: T**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## 5.4 Generatiivne tehisintellekt ja loovus
@@ -2247,6 +2323,29 @@ Uus suurus: 800 × 400 pikslit, seega 800 × 400 = **320 000** pikslit. Algses p
 
 </details>
 
+### 🔐 Lukk 5.4
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Leidsin oma vanast päevikust lause, aga üks sõna on ära kustunud. Ma mäletan ainult, et keegi pidas pidevalt võltsijaid kinni..."
+
+Lukk avaneb, kui lahendad mõistatuse. Leia tsitaadist puuduv sõna.
+
+> *„Minu GAN-is töötasid kaks närvivõrku. Generaator joonistas võltsitud nägusid ja püüdis neid päris piltide sekka sokutada. Aga **____________** oli nagu valvas politseinik: ta võrdles iga pilti päris piltidega ja otsustas, kas see on ehtne või võlts. Mida osavamaks muutus tema, seda paremini pidi generaator pingutama."*
+
+[[diskriminaator]]
+[[?]] Vihje: sõna tuleb tegusõnast „diskrimineerima" ehk eristama.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
+["diskriminaator", "diskriminaatori", "diskrimineerija", "discriminator"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** **Diskriminaator** püüab eristada võltsitud pilte päris piltidest ja just see võistlus teeb GAN-i loodud pildid järjest realistlikumaks.
+
+🔑 **Sinu võtmetäht: I**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
+
 
 ## 5.5 Süvavõltsingud ja pildimanipulatsioon
 
@@ -2755,6 +2854,34 @@ Ma ei jaga videot edasi ega vasta kiusajale samaga. Salvestan tõendid (ekraanip
 
 </details>
 
+### 🔐 Lukk 5.5
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Keegi saatis mulle video, kus mina, Kratt, laulan ooperit. Ma ei mäleta, et oleksin laulnud! Aidake mul kontrollida, kas see on päris – aga minu kontrollnimekirja on sattunud kaks valet nõuannet."
+
+Lukk avaneb, kui lahendad mõistatuse. Loe väiteid. Kaks neist on **valed**. Kirjuta valede väidete numbrid kasvavas järjekorras ühe koodina (nt kui valed on väited 1 ja 3, kirjuta **13**).
+
+1. Kui sisu tekitab sinus tugevat emotsiooni ja soovi seda kohe jagada, tasub peatuda.
+2. Kui pildil ei leia ühtegi võltsingu märki, on see kindlasti ehtne.
+3. Pöördotsinguga saab kontrollida, kas pilt on varem ilmunud teises kontekstis.
+4. Pildi metaandmetele võib alati kindlalt usaldada, sest neid ei saa muuta.
+5. Kui sa pole kindel, kas sisu on ehtne, on parem seda mitte jagada.
+6. C2PA päritolutunnistus võib näidata, kuidas pilt tehti ja kas seda on muudetud.
+
+[[24]]
+[[?]] Vihje: otsi väiteid, mis lubavad midagi „kindlasti" või „alati".
+<script>
+let v = `@input`.replace(/[^0-9]/g, "");
+["24", "42"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Ükski üksik märk ei tõesta võltsingut ja märkide puudumine ei tõesta ehtsust (väide 2); metaandmeid saab kustutada ja muuta (väide 4).
+
+🔑 **Sinu võtmetäht: K**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
+
 
 ## Plokk 5. Kordamine ja harjutamine
 
@@ -3036,6 +3163,8 @@ Kirjuta üles oma kõige õnnestunum prompt ja selgita, mis tegi selle heaks.
 
 ### Ploki 5 enesekontrolltest
 
+Enne ukse avamist kontrolli, kas oled toa kõik teadmised kätte saanud.
+
 <!-- class="pae-jaotis" -->
 **I. Automaatselt kontrollitavad küsimused**
 
@@ -3307,3 +3436,22 @@ c) Kuidas mõjutab arvutinägemine privaatsust ja jälgimist? Millised on võima
 Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega. Kaalu eri vaatenurki (nt kunstnik, kasutaja, tehnoloogiaettevõte, seadusandja) ja too konkreetseid näiteid ploki tundidest. Näiteks teema b puhul võid käsitleda valeinfot, pettusi ja küberkiusamist, aga ka positiivseid kasutusviise ning lahendusi nagu meediakirjaoskus, märgistamise nõue ja päritolu tõendamine. Lõpeta põhjendatud järeldusega.
 
 </details>
+
+### 🚪 Toa 5 uks
+
+<!-- class="pae-fakt" -->
+> **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 5.1, 5.2, 5.3, 5.4 ja 5.5 lukkudest järjekorras).
+
+[[OPTIK]]
+[[?]] Vihje: sõnas on 5 tähte ja see on seotud nägemise ning prillide ja läätsedega.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
+v === "optik"
+</script>
+****************************************
+🎉 **Uks avaneb!** Vaatlustorni aknad lähevad selgeks ja pikslipudrust saavad taas näod, puud ja jalgrattad. Kratt mäletab jälle, et pilt on tema jaoks arvude tabel, millest konvolutsioonivõrk leiab mustreid, piiramiskastid näitavad objektide asukohta ja et iga pilti ei tasu uskuda – võltsingu tabamiseks tuleb kontrollida allikat ja detaile. „Ma näen jälle! Ja nüüd ma tean, et ka mina võin pildi peale eksida – aitäh, et õpetasite mind kaks korda vaatama!"
+
+🌟 **Kuldne täht: S** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
+
+➡️ **Järgmine tuba:** Nõukogusaal – seal peab Kratt õppima, mis on õiglane ja kes vastutab, kui tehisaru otsustab inimeste üle.
+****************************************

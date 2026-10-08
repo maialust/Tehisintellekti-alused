@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.2.0
+version:  1.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -256,6 +256,11 @@ output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !imp
 
 <!-- class="pae-kaas" -->
 ![Ploki 6 kaanepilt: kaalud, mille ühel kausil on robot ja teisel inimene, ning pealkiri „Tehisintellekt ja eetika“](../pildid/plokk_6/plokk_6_kaas.svg)
+
+<!-- class="pae-fakt" -->
+> **🗝️ Tuba 6: Nõukogusaal**
+>
+> Uks avaneb ja päästemeeskond astub suurde saali, mille keskel seisab ümarlaud ja selle kohal kõigub hiiglaslik kaal. Siin pidi Kratt tegema otsuseid kogu kooli kohta, kuid nüüd on ta segaduses: „Kas õige otsus on see, mis on kõige kiirem? Või see, mis kõige rohkem andmeid kogub? Ma ei mäleta enam, mis on aus!" Selles toas õpetad Kratile uuesti eetikat: õiglust, privaatsust, vastutust ja ettevaatlikkust tulevikku vaadates. Selles toas on 5 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjuta tähed üles!
 
 Eelmistes plokkides said teada, kuidas tehisintellekt (TI) töötab: kuidas masinõppe mudel õpib andmetest, kuidas vestlusrobot keelt töötleb ja kuidas arvutinägemine pilte ära tunneb. Selles plokis küsime teistsuguseid küsimusi. Mitte „kuidas see töötab?", vaid „kas see on õige?", „kellele see kasu toob?" ja „kes vastutab, kui midagi läheb valesti?". Just nende küsimustega tegeleb **tehisintellekti eetika**.
 
@@ -866,6 +871,27 @@ TI ei ole isik: tal ei ole oma tahet ega võimalust oma tegude eest vastust anda
 
 </details>
 
+### 🔐 Lukk 6.1
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Mul on meeles neli suurt reeglit, mille järgi head tehisarud käituma peavad. Aga neid pidi olema viis! Üks on mu mälust kadunud ja ilma selleta ma võib-olla kohtlen kedagi ebavõrdselt…"
+
+Lukk avaneb, kui lahendad mõistatuse. Kratt mäletab nelja eetilist põhimõtet: **inimkesksus**, **läbipaistvus**, **privaatsus** ja **vastutus**. Milline viies põhimõte on puudu? See nõuab, et TI ei diskrimineeriks inimesi soo, vanuse, päritolu ega muu tunnuse alusel. Kirjuta üks sõna.
+
+[[õiglus]]
+[[?]] Vihje: sellest põhimõttest tuleb lähemalt juttu tunnis 6.3 „Kallutatus ja õiglus".
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ").replace(/[.!]+$/, "");
+["õiglus", "õigluse", "õiglust", "õiglane", "oiglus", "fairness", "mittediskrimineerimine"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Viis põhimõtet on koos: inimkesksus, läbipaistvus, **õiglus**, privaatsus ja vastutus.
+
+🔑 **Sinu võtmetäht: Õ**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
+
 
 ## 6.2 Privaatsus ja andmekaitse
 
@@ -1229,6 +1255,27 @@ Eesmärgi piirangu põhimõtte järgi ei tohi andmeid kasutada teisel eesmärgil
 TI töötab sageli seda paremini, mida rohkem andmeid see saab. Näiteks võiksid patsientide terviseandmed aidata haigusi varem avastada. Samas suurendab andmete laialdane kasutamine privaatsusriski, sest inimene kaotab kontrolli oma andmete üle. Üks lahendus on privaatsust säilitavad tehnoloogiad, näiteks födereeritud õpe, mille korral andmed jäävad inimese seadmesse. Aidata võivad ka anonümiseerimine, pseudonümiseerimine ning inimeste teavitamine ja nõusoleku küsimine.
 
 </details>
+
+### 🔐 Lukk 6.2
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Ma korjasin kokku nime, isikukoodi, näopildi ja IP-aadressi… Kas need on lihtsalt toredad numbrid ja pildid? Miks kõik mind nii murelikult vaatavad?"
+
+Lukk avaneb, kui lahendad mõistatuse. Mis on ühist kõigil neil asjadel: **nimi, isikukood, foto, hääl, asukoht, IP-aadress, õppetulemused, ostuajalugu**? Kirjuta üks sõna – mõiste, mida GDPR kaitseb.
+
+[[isikuandmed]]
+[[?]] Vihje: nende põhjal saab inimese otseselt või kaudselt tuvastada.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ").replace(/[.!]+$/, "");
+["isikuandmed", "isikuandmeid", "isikuandmete", "isiku andmed", "personaalandmed", "personal data"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Kõik need on **isikuandmed** – teave, mille põhjal saab inimese tuvastada, ja seepärast tuleb neid GDPR-i järgi kaitsta.
+
+🔑 **Sinu võtmetäht: I**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## 6.3 Kallutatus ja õiglus
@@ -1617,6 +1664,32 @@ Kui süsteem õpib ajaloolistest andmetest, õpib see ka minevikus esinenud ebav
 Kallutatus võib jääda alles kaudsete tunnuste kaudu. Näiteks võib CV-s mainitud naiste spordiklubi või tütarlastekool anda mudelile vihje kandideerija soo kohta, ka kui sugu ennast andmetes ei ole. Lisaks ei saa ilma nende tunnusteta kontrollida, kas süsteem kohtleb eri rühmi võrdselt. Seepärast on vaja ka tulemusi rühmade lõikes jälgida, süsteemi auditeerida ja inimese järelevalvet.
 
 </details>
+
+### 🔐 Lukk 6.3
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Ma soovitasin ühele õpilasele kassivideoid. Ta vaatas neid. Siis soovitasin veel rohkem kassivideoid… Nüüd näen ma kõikjal ainult kasse! Kuidas ma sellest ringist välja saan?"
+
+Lukk avaneb, kui lahendad mõistatuse. Kes ma olen? Kirjuta mõiste (üks liitsõna).
+
+> Ma olen ring, mis keerleb ja kasvab.
+> Süsteemi otsused mõjutavad uusi andmeid,
+> uued andmed jõuavad tagasi treeningandmetesse
+> ja nii võimendan ma kallutatust iga ringiga.
+
+[[tagasisidesilmus]]
+[[?]] Vihje: sõna algab sõnaga „tagasiside" ja lõpeb sõnaga, mis tähendab aasa.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ").replace(/[.!]+$/, "");
+["tagasisidesilmus", "tagasiside silmus", "tagasisidesilmuse", "tagasisidesilmused", "tagasisideahel", "feedback loop"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** **Tagasisidesilmus** on üks põhjus, miks kallutatus võib aja jooksul hoopis suureneda – seepärast tuleb süsteemi tulemusi pidevalt jälgida.
+
+🔑 **Sinu võtmetäht: G**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## 6.4 Mõju tööturule
@@ -2048,6 +2121,33 @@ Amet koosneb paljudest ülesannetest ja TI automatiseerib neist ainult osa. Tood
 
 </details>
 
+### 🔐 Lukk 6.4
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Ma kirjutasin tööturu kohta viis tarka lauset. Või… vähemalt mõned neist on targad. Kaks lauset ajasin ma vist sassi!"
+
+Lukk avaneb, kui leiad Krati vead. Loe väiteid ja leia **kaks väära** väidet. Kirjuta nende numbrid kasvavas järjekorras ilma tühikuta (nt 13).
+
+1. TI automatiseerib erinevalt varasematest tehnoloogiatest ka kognitiivseid ehk mõtlemist nõudvaid ülesandeid.
+2. Kõige kergemini automatiseeritavad on loovad ja ettearvamatud ülesanded.
+3. TI mõjul amet sageli muutub, mitte ei kao täielikult.
+4. Töökohtade polariseerumine tähendab, et keskmiselt tasustatud tööde osakaal kasvab.
+5. Elukestev õpe aitab inimestel muutuva tööturuga kohaneda.
+
+[[24]]
+[[?]] Vihje: mõtle, millised ülesanded on rutiinsed ja korduvad ning milliste tööde osakaal polariseerumisel kahaneb.
+<script>
+let v = `@input`.trim().replace(/[^0-9]/g, "");
+v === "24"
+</script>
+****************************************
+✅ **Lukk avatud!** Kõige kergemini automatiseeritavad on hoopis **rutiinsed ja korduvad** ülesanded (väide 2) ning polariseerumisel kasvab kõrgelt ja madalalt tasustatud tööde osakaal **keskmiste arvelt** (väide 4).
+
+🔑 **Sinu võtmetäht: U**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
+
 
 ## 6.5 Tulevikutrendid
 
@@ -2467,6 +2567,29 @@ Määrus on riskipõhine: mida suurem on oht inimeste tervisele, turvalisusele v
 
 </details>
 
+### 🔐 Lukk 6.5
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Ma tean täpselt, et aastal 2031 lendavad kõik koolibussid Kuule ja õpetajad on asendatud pingviinidega! Mida? Kas see pole tõsi? Aga ma ütlesin seda ju nii enesekindlalt…"
+
+Lukk avaneb, kui lahendad anagrammi. Tähed on segamini läinud. Moodusta neist mõiste, mis kirjeldab olukorda, kus mudel esitab enesekindlalt valet või väljamõeldud infot – just nagu Kratt praegu.
+
+**S A L T I O N H U N T S I A L O**
+
+[[hallutsinatsioon]]
+[[?]] Vihje: sõnas on 16 tähte ja see algab tähega H.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ").replace(/[.!]+$/, "");
+["hallutsinatsioon", "hallutsinatsioonid", "hallutsinatsiooni", "hallutsineerimine", "hallucination"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** **Hallutsinatsioonide** vähendamine on üks generatiivse TI lähiaja arengusuundi – seni tasub TI vastuseid alati kontrollida.
+
+🔑 **Sinu võtmetäht: S**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
+
 
 ## Plokk 6. Kordamine ja harjutamine
 
@@ -2790,6 +2913,8 @@ Vali õpetaja juhendamisel küsimused, millele vastad, ja põhjenda oma seisukoh
 
 ### Ploki 6 enesekontrolltest
 
+Enne ukse avamist kontrolli, kas oled toa kõik teadmised kätte saanud.
+
 <!-- class="pae-jaotis" -->
 **I. Automaatselt kontrollitavad küsimused**
 
@@ -3092,3 +3217,22 @@ c) Kes peaks vastutama TI eetiliste standardite kehtestamise ja jõustamise eest
 Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentide ja näidetega. See kaalub ka vastupidist vaatenurka ja selgitab, miks mõned inimesed võiksid arvata teisiti. Arutluses on kasutatud ploki mõisteid (nt inimkesksus, läbipaistvus, vastutus, kallutatus, riskipõhine lähenemine) ja see lõpeb järeldusega, mis tuleneb esitatud argumentidest.
 
 </details>
+
+### 🚪 Toa 6 uks
+
+<!-- class="pae-fakt" -->
+> **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 6.1, 6.2, 6.3, 6.4 ja 6.5 lukkudest järjekorras).
+
+[[ÕIGUS]]
+[[?]] Vihje: sõnas on 5 tähte ja see on seotud selle toa teemaga – nii on igal inimesel näiteks õigus oma andmetega tutvuda.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
+v === "õigus"
+</script>
+****************************************
+🎉 **Uks avaneb!** Nõukogusaali ümarlaua ümber on Kratt lõpuks rahunenud. Ta mäletab jälle, et hea tehisaru peab olema inimkeskne, läbipaistev, õiglane, kaitsma privaatsust ja et tema otsuste eest vastutavad alati inimesed. Kratt teab nüüd ka, et inimestel on õigus oma andmetele, et kallutatust tuleb otsida ja vähendada ning et tulevikku ei saa kindlalt ennustada. „Aitäh, päästemeeskond! Ma ei tea veel kõike, aga ma tean, et pean küsima: kas see on õige ja kas see on kõigi vastu aus?"
+
+🌟 **Kuldne täht: A** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
+
+➡️ **Järgmine tuba:** Stardiplatvorm – seal paned kõik õpitu proovile ja aitad Kratil oma projektiga uuele teekonnale startida.
+****************************************

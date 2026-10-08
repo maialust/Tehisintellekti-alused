@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.2.0
+version:  1.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -524,12 +524,15 @@ Kirjelda lühidalt oma rühma rakendust: millist probleemi see lahendab, millise
 
 ### Ploki 2 enesekontrolltest
 
+Enne ukse avamist kontrolli, kas oled toa kõik teadmised kätte saanud.
+
 <!-- class="pae-jaotis" -->
 **I. Kontrollküsimused**
 
 **1. Kuidas nimetatakse selgelt määratletud sammude jada probleemi lahendamiseks? Kirjuta vastus.**
 
 [[algoritm]]
+[[?]] Vihje: sõnas on 5 tähte ja see on seotud selle toa teemaga – just see tekib masinõppe treenimise tulemusena.
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["algoritm", "algoritmi", "algoritmid", "algoritmiks"].includes(v)
@@ -808,3 +811,21 @@ c) Kuidas tagada, et TI-süsteemid teeksid õiglaseid ja mittediskrimineerivaid 
 Hea arutlus esitab selge seisukoha, põhjendab seda mitme argumendiga ja toob näiteid ploki tundidest. Teema a puhul võiks käsitleda põhimõtet „prügi sisse, prügi välja", andmete kvaliteedi tunnuseid (täpsus, täielikkus, ajakohasus, esinduslikkus), seda, et suurem kogus ei tähenda alati paremat tulemust, ning andmete kogumise väljakutseid (märgendamise kulu, privaatsus, eesti keele andmete vähesus). Teema b puhul võiks võrrelda närviraku ja tehisneuroni ehitust, õppimist ühenduste tugevuse muutmise kaudu ja kaalude muutmise kaudu ning tuua välja, et tehisneuron on palju lihtsam ja närvivõrk on ajust vaid inspireeritud, mitte selle koopia. Teema c puhul võiks käsitleda kallutatuse liike, mitmekesiseid ja esinduslikke andmeid, algoritmide auditeerimist, selgitatavust, inimese järelevalvet ning ELi tehisintellekti määrust. Arutluse lõpus tehakse järeldus ja arvestatakse ka teistsuguste vaatenurkadega.
 
 </details>
+
+### 🚪 Toa 2 uks
+
+<!-- class="pae-fakt" -->
+> **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 2.1, 2.2, 2.3, 2.4 ja 2.5 lukkudest järjekorras).
+
+[[MUDEL]]
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
+v === "mudel"
+</script>
+****************************************
+🎉 **Uks avaneb!** Masinaruumi hammasrattad hakkavad jälle ühtlaselt keerlema ja serverituled lähevad roheliseks. Kratt mäletab nüüd, et ta on **mudel**: algoritmid on tema tööjuhised, andmed on tema kütus, masinõppe ja närvivõrkude abil õppis ta näidetest ning nüüd saab ta aidata inimesi paljudes valdkondades. „Aitäh, päästemeeskond! Ma tean jälle, kuidas ma seest töötan – ja et pean õppima mitmekesistest andmetest, mitte lihtsalt asju pähe tuupima."
+
+🌟 **Kuldne täht: E** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
+
+➡️ **Järgmine tuba:** Keelelabor – seal ajab Kratt sõnad sassi ja sina pead talle õpetama, kuidas masin keelt mõistab.
+****************************************

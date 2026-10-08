@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.2.0
+version:  1.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -256,6 +256,11 @@ output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !imp
 
 <!-- class="pae-kaas" -->
 ![Ploki 3 kaanepilt: pealkiri „Keeletöötlus“, jutumull tervitusega „Tere!“, sõnakaardid „Ma lähen kooli“ ja sõnadevaheliste seoste võrgustik.](../pildid/plokk_3/plokk_3_kaas.svg)
+
+<!-- class="pae-fakt" -->
+> **🗝️ Tuba 3: Keelelabor**
+>
+> Päästemeeskond astub Keelelaborisse, kus seintel vilguvad ekraanid täis segipaisatud tähti ja poolikuid lauseid. Kratt on unustanud, kuidas keelt töödelda: ta tükeldab sõnu valesti, mõtleb fakte välja ja kirjutab sõnu tagurpidi. „Tere hommikut, kas te olete mu ... darbõs? Ei, oot ... sõbrad! Mu sõnad on kõik sassis!" Teie ülesanne on õpetada Kratile uuesti, kuidas arvuti inimkeelt „loeb", loob, vestleb ja tõlgib. Selles toas on 4 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjuta tähed üles!
 
 Keel on inimese kõige tähtsam suhtlusvahend. Me räägime, kirjutame sõnumeid, loeme uudiseid ja otsime veebist infot – kõik see toimub keeles. Viimastel aastatel on ka arvutid hakanud keelega üllatavalt hästi hakkama saama. Telefon pakub sõnumit kirjutades järgmist sõna, vestlusrobot vastab sinu küsimusele terve lõiguga, masintõlge muudab võõrkeelse veebilehe mõne sekundiga eestikeelseks ning häälassistent täidab sinu suulise korralduse. Selle kõige taga on tehisintellekti (TI) haru, mida nimetatakse **loomuliku keele töötluseks**.
 
@@ -802,6 +807,27 @@ Eesti keelt räägib vaid umbes miljon inimest, seega on eestikeelset teksti, mi
 
 </details>
 
+### 🔐 Lukk 3.1
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Ma tahtsin lausest „Õpilased lugesid huvitavaid raamatuid" teha sõnad „õpilane", „lugema", „huvitav" ja „raamat", aga selle sammu nimi läks mul täiesti sassi!"
+
+Lukk avaneb, kui lahendad mõistatuse. Kratt muutis iga sõna tema **algvormiks**. Selle eeltöötluse sammu nimetuse tähed on segamini: **M I R E T A M S E L I N E M I E**. Pane tähed õigesse järjekorda ja kirjuta sõna lahtrisse.
+
+[[lemmatiseerimine]]
+[[?]] Vihje: sõna algvormi nimetatakse ka lemmaks.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
+["lemmatiseerimine", "lemmatiseerimise", "lemmatiseerimist", "lemmatiseerimisega"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Lemmatiseerimine taandab sõnad algvormile ehk lemmale – see on eesti keeles eriti tähtis, sest ühest sõnast võib olla kümneid vorme.
+
+🔑 **Sinu võtmetäht: K**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
+
 
 ## 3.2 Teksti analüüs ja genereerimine
 
@@ -1321,6 +1347,29 @@ Sarkasm pöörab sõnade otsese tähenduse vastupidiseks: lauses võivad olla po
 
 </details>
 
+### 🔐 Lukk 3.2
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Kirjutasin teile referaadi jaoks väga ilusa fakti: Eesti esimene vestlusrobot ehitati 1873. aastal Tartus aurumasinast! Kõlab ju usutavalt? Või ... kas ma just mõtlesin selle välja?"
+
+Lukk avaneb, kui lahendad mõistatuse. Loe Krati mõistatust ja kirjuta vastuseks üks mõiste.
+
+*„Mind ei looda pahatahtlikult. Keelemudel ennustab lihtsalt tõenäolist jätku ja nii ma sünningi. Kõlan ladusalt ja enesekindlalt, võin sisaldada täpseid arve ja allikaviiteid, aga minu fakte pole tegelikult olemas. Kes ma olen?"*
+
+[[hallutsinatsioon]]
+[[?]] Vihje: sama sõna kasutatakse ka siis, kui inimene näeb või kuuleb asju, mida tegelikult pole.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
+["hallutsinatsioon", "hallutsinatsiooni", "hallutsinatsioonid", "halutsinatsioon", "hallutsineerimine", "tehisaru hallutsinatsioon"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Hallutsinatsioon on usutav, kuid väljamõeldud väljund – seepärast tuleb genereeritud teksti fakte alati kontrollida.
+
+🔑 **Sinu võtmetäht: E**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
+
 
 ## 3.3 Vestlusagendid ja vestlusrobotid
 
@@ -1824,6 +1873,32 @@ Sobiks reeglipõhine või otsingupõhine vestlusrobot, sest küsimused on korduv
 
 </details>
 
+### 🔐 Lukk 3.3
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Mul on neli vestlusroboti sõpra, aga ma ei mäleta enam, mis tüüpi keegi neist on. Kõik nad ütlevad mulle lihtsalt „Tere, kuidas saan aidata?"!"
+
+Lukk avaneb, kui lahendad mõistatuse. Iga vestlusroboti tüübil on number: **1 – reeglipõhine**, **2 – otsingupõhine**, **3 – generatiivne**, **4 – hübriidne**. Määra iga Krati sõbra tüüp ja kirjuta numbrid **järjekorras A, B, C, D** ühe neljakohalise koodina (nt 1234).
+
+- **A. Luule-Lauri** kirjutab sulle iga kord uue luuletuse just sinu teemal, mida keegi pole varem kirja pannud.
+- **B. Infokas** vastab ainult siis, kui küsimuses on kindel võtmesõna. Kui kirjutad „lahtiolekuaeg", vastab ta alati sama lausega „Oleme avatud E–R 9–17".
+- **C. Pangapõnn** vestleb sinuga üldistel teemadel keelemudeli abil, aga kui tahad raha üle kanda, järgib ta rangeid eelnevalt kirja pandud samme.
+- **D. Abiline Aino** mõistab ka teistmoodi sõnastatud küsimusi, kuid valib vastuse alati eelnevalt koostatud ja kontrollitud vastuste hulgast.
+
+[[3142]]
+[[?]] Vihje: robot, mis kombineerib eri lähenemisi (nt reegleid ja keelemudelit), on hübriidne.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[^0-9]/g, "");
+v === "3142"
+</script>
+****************************************
+✅ **Lukk avatud!** Mida paindlikum on vestlusrobot, seda raskem on teda kontrollida: reeglipõhine Infokas on täiesti ennustatav, generatiivne Luule-Lauri aga võib öelda ka midagi ootamatut.
+
+🔑 **Sinu võtmetäht: E**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
+
 
 ## 3.4 Masintõlge ja keeletehnoloogiad
 
@@ -2323,6 +2398,27 @@ BLEU võrdleb masintõlget inimtõlkega ja loeb, kui palju on neil ühiseid sõn
 
 </details>
 
+### 🔐 Lukk 3.4
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Proovisin kahte keeletehnoloogiat ja nüüd kirjutan kõike tagurpidi! Mu märkmikus on kaks sõna: **SUTSAVUTENÕK** ja **SEETNÜSENÕK**. Kumb neist aitas mul veebilehte ette lugeda?"
+
+Lukk avaneb, kui lahendad mõistatuse. Loe mõlemat sõna tagurpidi. Seejärel mõtle: milline neist tehnoloogiatest aitab nägemispuudega inimesel uudiseid **kuulata**, muutes kirjaliku teksti kõneks? Kirjuta selle tehnoloogia nimetus (õiget pidi!) lahtrisse.
+
+[[kõnesüntees]]
+[[?]] Vihje: üks tehnoloogia muudab kõne tekstiks, teine teksti kõneks. Sul on vaja just seda, mis loob kõnet.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
+["kõnesüntees", "kõnesünteesi", "kõnesüntesaator", "kõnesünteesija", "kõne süntees"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Kõnesüntees muudab teksti kõneks, kõnetuvastus aga kõne tekstiks – mõlemad aitavad muuta info kõigile ligipääsetavaks.
+
+🔑 **Sinu võtmetäht: L**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
+
 
 ## Plokk 3. Kordamine ja harjutamine
 
@@ -2634,6 +2730,8 @@ Vasta küsimustele oma sõnadega ja too võimaluse korral näiteid oma elust. Ar
 
 ### Ploki 3 enesekontrolltest
 
+Enne ukse avamist kontrolli, kas oled toa kõik teadmised kätte saanud.
+
 <!-- class="pae-jaotis" -->
 **I. Automaatselt kontrollitavad küsimused**
 
@@ -2902,3 +3000,22 @@ c) Millised eetilised küsimused kaasnevad keelemudelite kasutamisega ja kuidas 
 Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega. Kasuta ploki mõisteid (nt hallutsinatsioon, kallutatus, masintõlke kvaliteet, väikeste keelte tehnoloogiline tugi) ja too konkreetseid näiteid, sealhulgas Eesti elust. Kaalu ka vastupidiseid vaatenurki ning tee lõpus põhjendatud järeldus.
 
 </details>
+
+### 🚪 Toa 3 uks
+
+<!-- class="pae-fakt" -->
+> **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 3.1, 3.2, 3.3 ja 3.4 lukkudest järjekorras).
+
+[[KEEL]]
+[[?]] Vihje: sõnas on 4 tähte ja see on seotud selle toa teemaga.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
+v === "keel"
+</script>
+****************************************
+🎉 **Uks avaneb!** Keelelabori ekraanidel asetuvad tähed lõpuks õigesse järjekorda ja laused saavad jälle mõtte. Kratt mäletab nüüd, et ta ei „mõista" keelt nagu inimene, vaid muudab teksti arvudeks ja ennustab tõenäolist jätku. Ta oskab taas teksti analüüsida, vestelda ja tõlkida – ning teab, et oma fakte tuleb kontrollida. „Aitäh, sõbrad! Ma ei kirjuta enam tagurpidi ... vähemalt mitte kogemata!"
+
+🌟 **Kuldne täht: H** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
+
+➡️ **Järgmine tuba:** Otsuste labürint – seal peab Kratt õppima, kuidas masin otsuseid langetab ja õiget teed leiab.
+****************************************

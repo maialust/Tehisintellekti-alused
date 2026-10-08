@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.2.0
+version:  1.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -521,6 +521,8 @@ Vasta küsimustele oma sõnadega. Kui teie klassis on kasutusel foorum, jaga oma
 
 ### Ploki 1 enesekontrolltest
 
+Enne ukse avamist kontrolli, kas oled toa kõik teadmised kätte saanud.
+
 <!-- class="pae-jaotis" -->
 **I. Automaatselt kontrollitavad küsimused**
 
@@ -537,6 +539,7 @@ Tehisintellekt jäljendab inimese intelligentset käitumist, kuid see ei tähend
 **2. Kuidas nimetatakse teadmispõhist tehisintellekti süsteemi, mis kasutab inimekspertidelt kogutud „kui ..., siis ...” reegleid? Kirjuta üks sõna.**
 
 [[ekspertsüsteem]]
+[[?]] Vihje: sõnas on 3 tähte ja see on seotud selle toa teemaga – just seda püüab tehisintellekt jäljendada.
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["ekspertsüsteem", "ekspertsüsteemid", "ekspertsüsteemiks", "eksperdisüsteem", "ekspert süsteem", "ekspertsusteem"].includes(v)
@@ -794,3 +797,21 @@ c) Milline on tehisintellekti roll tuleviku hariduses? Kuidas võib see muuta õ
 Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega, kasutab ploki teadmisi (nt nõrga ja tugeva tehisintellekti erinevus, tehisintellekti piirangud, rakenduste näited, Eesti näited), kaalub ka vastupidiseid vaatenurki ning jõuab põhjendatud järelduseni. Teema a puhul võid mõelda teadvuse olemusele ning arvutusliku võimekuse ja tegeliku mõistmise erinevusele; teema b puhul haridussüsteemi muutustele, töökohtade ümberkujunemisele, regulatsioonidele (nt Euroopa Liidu tehisintellekti määrus) ja eetilistele standarditele; teema c puhul personaliseeritud õppele, õpetaja rollile, kriitilise mõtlemise tähtsusele ja digitaalsele kirjaoskusele.
 
 </details>
+
+### 🚪 Toa 1 uks
+
+<!-- class="pae-fakt" -->
+> **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 1.1, 1.2 ja 1.3 lukkudest järjekorras).
+
+[[AJU]]
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
+v === "aju"
+</script>
+****************************************
+🎉 **Uks avaneb!** Arhiivi riiulid lähevad korda ja Krati ekraanil süttivad tuled. Nüüd mäletab Kratt jälle, et ta on nõrk tehisintellekt, kelle juured ulatuvad 1956. aasta Dartmouthi konverentsini ja kes on oma sugulaste kombel loodud inimesi päriselt aitama. „Aitäh, päästjad! Ma ei ole inimese aju, aga ma tean nüüd, et olen loodud seda jäljendama. Kuidas ma täpselt mõtlen, seda ma aga… ei mäleta."
+
+🌟 **Kuldne täht: T** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
+
+➡️ **Järgmine tuba:** Masinaruum – seal on Krati algoritmid ja andmed sassi läinud ning teil tuleb uurida, kuidas tehisintellekt tegelikult töötab.
+****************************************

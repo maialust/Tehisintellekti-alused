@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.2.0
+version:  1.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -574,6 +574,8 @@ Vali õpetaja juhendamisel küsimused, millele vastad, ja põhjenda oma seisukoh
 
 ### Ploki 6 enesekontrolltest
 
+Enne ukse avamist kontrolli, kas oled toa kõik teadmised kätte saanud.
+
 <!-- class="pae-jaotis" -->
 **I. Automaatselt kontrollitavad küsimused**
 
@@ -876,3 +878,22 @@ c) Kes peaks vastutama TI eetiliste standardite kehtestamise ja jõustamise eest
 Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentide ja näidetega. See kaalub ka vastupidist vaatenurka ja selgitab, miks mõned inimesed võiksid arvata teisiti. Arutluses on kasutatud ploki mõisteid (nt inimkesksus, läbipaistvus, vastutus, kallutatus, riskipõhine lähenemine) ja see lõpeb järeldusega, mis tuleneb esitatud argumentidest.
 
 </details>
+
+### 🚪 Toa 6 uks
+
+<!-- class="pae-fakt" -->
+> **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 6.1, 6.2, 6.3, 6.4 ja 6.5 lukkudest järjekorras).
+
+[[ÕIGUS]]
+[[?]] Vihje: sõnas on 5 tähte ja see on seotud selle toa teemaga – nii on igal inimesel näiteks õigus oma andmetega tutvuda.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
+v === "õigus"
+</script>
+****************************************
+🎉 **Uks avaneb!** Nõukogusaali ümarlaua ümber on Kratt lõpuks rahunenud. Ta mäletab jälle, et hea tehisaru peab olema inimkeskne, läbipaistev, õiglane, kaitsma privaatsust ja et tema otsuste eest vastutavad alati inimesed. Kratt teab nüüd ka, et inimestel on õigus oma andmetele, et kallutatust tuleb otsida ja vähendada ning et tulevikku ei saa kindlalt ennustada. „Aitäh, päästemeeskond! Ma ei tea veel kõike, aga ma tean, et pean küsima: kas see on õige ja kas see on kõigi vastu aus?"
+
+🌟 **Kuldne täht: A** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
+
+➡️ **Järgmine tuba:** Stardiplatvorm – seal paned kõik õpitu proovile ja aitad Kratil oma projektiga uuele teekonnale startida.
+****************************************

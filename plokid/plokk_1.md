@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.2.0
+version:  1.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -256,6 +256,11 @@ output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !imp
 
 <!-- class="pae-kaas" -->
 ![Ploki 1 kaanepilt: pealkiri „Sissejuhatus tehisintellekti” ja kiibi sisse joonistatud närvivõrk](../pildid/plokk_1/plokk_1_kaas.svg)
+
+<!-- class="pae-fakt" -->
+> **🗝️ Tuba 1: Unustatud arhiiv**
+>
+> Kooli digikoridori lõpus sumiseb tolmune server – see on Kratt, Tallinna Pae Gümnaasiumi tehisaru, kes on just üles ärganud. „Tere… kes te olete? Ja kes olen mina? Mu arhiivis on ainult sõnad „tehis…" ja „intel…" – mis see üldse tähendab?" Teie, päästemeeskond, olete sattunud Krati **unustatud arhiivi**, kus on segamini kõik, mida ta enda kohta teadis: mis on tehisintellekt, kust ta pärit on ja milleks teda kasutatakse. Aidake Kratil oma mälu taastada! Selles toas on 3 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjuta tähed üles!
 
 Tehisintellekt (TI) ei ole enam ainult ulmefilmide teema. Kui telefon avaneb sinu näo järgi, kui Spotify pakub sulle uut lugu või kui vestlusrobot aitab sul keerulist teemat lahti mõtestada, oled juba tehisintellektiga kokku puutunud. Selles plokis saad teada, mida tehisintellekt tegelikult tähendab, kust see on alguse saanud ja kus seda tänapäeval kasutatakse.
 
@@ -578,6 +583,7 @@ Klaviatuuri sõnasoovitused, automaatne kirjavigade parandus, droon, tausta eema
 **Salalause.** Kirjuta tehisaru abil toimuvate kaartide tähtedest moodustuv lause.
 
 [[Kas tõde peitub algoritmis?]]
+[[?]] Vihje: vaata peatükki „Nõrk, tugev ja superintelligentsus". Tugev ja superintelligentsus on alles teoorias.
 <script>
 let v = `@input`.toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "kastõdepeitubalgoritmis"
@@ -861,6 +867,28 @@ Andmesõltuvus, läbipaistvuse puudumine ja nõrk üldistamisvõime on tehisinte
 Kalkulaator täidab alati samu jäigalt ette antud samme: ta ei õpi midagi juurde ega kohane uue olukorraga. Kõnetuvastus on õppinud suurest hulgast salvestistest ära tundma eri inimeste hääli, hääldust ja sõnu ning tuleb toime ka uute kõnelejatega. Tehisintellektiks teebki süsteemi just võime õppida andmetest ja jäljendada inimese tunnetuslikke võimeid.
 
 </details>
+
+### 🔐 Lukk 1.1
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Ma olen vist kõige targem olend maailmas! Ma oskan… ee… ühte asja. Väga hästi. Aga võileiba teha ma küll ei oska."
+
+Lukk avaneb, kui lahendad mõistatuse. Loe Krati kirjeldust ja kirjuta lahtrisse, mis liiki tehisintellekt ta on (üks sõna).
+
+> Olen maletšempionist osavam, tõlgin teksti ja tunnen näo ära – aga igaüks meist oskab ainult oma kitsast ülesannet. Mul pole teadvust ega eneseteadlikkust. Kõik tänapäeva tehisintellekti süsteemid, ka vestlusrobotid, kuuluvad minu liiki. **Milline tehisintellekt ma olen?**
+
+[[nõrk]]
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ").replace(/[.!]$/, "");
+["nõrk", "kitsas", "nõrk ti", "kitsas ti", "nõrk tehisintellekt", "kitsas tehisintellekt", "ani", "nork"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Kratt on **nõrk (kitsas) tehisintellekt** – nagu kõik praegused TI-süsteemid: ta võib ühes asjas olla inimesest parem, kuid ei mõista maailma tervikuna.
+
+🔑 **Sinu võtmetäht: A**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## 1.2 Tehisintellekti ajalugu
@@ -1284,6 +1312,7 @@ Valitud teema:
 **1. Kes võttis 1956. aastal Dartmouthi konverentsil kasutusele termini „tehisintellekt”? Kirjuta nimi.**
 
 [[John McCarthy]]
+[[?]] Vihje: vaata joonist 1.2.1 (ajajoon) või peatükki „Esimene revolutsioon". Lahuta hilisemast aastast varasem.
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["john mccarthy", "mccarthy", "j. mccarthy", "j mccarthy", "mccarthy john", "john mc carthy", "mc carthy"].includes(v)
@@ -1369,6 +1398,28 @@ Läbimurde taga on arvutusvõimsuse, andmete, algoritmide, rahastuse ja talentid
 Mõlemad talved tekkisid, sest lubati rohkem, kui tehnoloogia suutis pakkuda. Esimese talve ajal olid arvutid aeglased, andmeid vähe ja keerukate ülesannete (nt masintõlke) raskust oli alahinnatud; Lighthilli raport kritiseeris uuringuid ja rahastus vähenes. Teise talve põhjustasid ekspertsüsteemide puudused: nende hooldus oli kallis ja nad ei kohanenud muutustega. Õppetund on, et järkjärguline areng ja praktilised rakendused on jätkusuutlikumad kui liiga suured lubadused.
 
 </details>
+
+### 🔐 Lukk 1.2
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Kui vana ma olen? Mu sünnitunnistus on kuskil arhiivis… Mäletan ainult, et mind ristiti ühel konverentsil ja et ma kunagi võitsin Go-mängus maailmameistrit."
+
+Lukk avaneb, kui lahendad arvutusülesande. Kirjuta lahtrisse ainult arv.
+
+Leia arhiivist kaks aastaarvu: millal võeti **Dartmouthi konverentsil** kasutusele termin „tehisintellekt" ja millal võitis **AlphaGo** Go maailmameistrit Lee Sedoli. **Mitu aastat möödus ühest sündmusest teiseni?**
+
+[[60]]
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, "").replace("aastat", "").replace("a", "");
+Number(v) === 60
+</script>
+****************************************
+✅ **Lukk avatud!** 2016 − 1956 = **60 aastat**. Nende kuue aastakümne sisse mahuvad kaks TI-talve ning üleminek sümboolsest tehisintellektist masinõppe ja süvaõppeni.
+
+🔑 **Sinu võtmetäht: J**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## 1.3 Tehisintellekti rakendused
@@ -1692,6 +1743,7 @@ d) Kuidas see aitaks probleemi lahendada?
 **1. Kuidas nimetatakse olukorda, kus algoritm näitab kasutajale ainult tema eelistustega sarnast sisu ja ta ei näegi teistsuguseid vaateid? Kirjuta üks sõna.**
 
 [[filtrimull]]
+[[?]] Vihje: vaata kasti „Eesti näide: Bürokratt ja kratid". Sõna lõpus peitub Krati enda nimi.
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["filtrimull", "filtrimulli", "filtrimullis", "filtrimulliks", "filtri mull", "filter mull", "filtermull"].includes(v)
@@ -1771,6 +1823,28 @@ Kõik peale viimase on keelemudelite tõelised piirangud (väljamõeldud faktide
 Kallutatus tähendab, et tehisintellekti süsteem teeb süstemaatiliselt ebaõiglasi või ühekülgseid otsuseid, sest tema treeningandmetes või ülesehituses on eelarvamusi. Näiteks töölevärbamise algoritm, mida on treenitud varasemate värbamisotsuste põhjal, võib hakata teatud inimrühmi eelistama ja teisi kõrvale jätma, kui ka varasemad otsused olid ebaõiglased.
 
 </details>
+
+### 🔐 Lukk 1.3
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Arhiivi viimasel riiulil on minu sugulase nimesilt, aga tähed on sassis! TARBÜ TORK? See ei kõla üldse nagu kratt…"
+
+Lukk avaneb, kui lahendad anagrammi. Pane tähed **T A R B Ü T O R K** õigesse järjekorda ja kirjuta saadud nimi lahtrisse.
+
+> Vihje mõistatusena: olen Eesti riigi virtuaalassistentide võrgustik – minu kaudu saab avalikke teenuseid kasutada tavalise vestluse abil. 2022. aastal valiti mind parimaks tehisintellektil põhinevaks riigiteenuseks.
+
+[[bürokratt]]
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, "");
+["bürokratt", "burokratt", "byrokratt"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** **Bürokratt** on Eesti riigi tehisintellekti lahendus – üks paljudest TI rakendustest, mis teeb igapäevaelu lihtsamaks. Eesti riigi TI-lahendusi kutsutaksegi krattideks.
+
+🔑 **Sinu võtmetäht: U**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## Plokk 1. Kordamine ja harjutamine
@@ -2042,6 +2116,8 @@ Vasta küsimustele oma sõnadega. Kui teie klassis on kasutusel foorum, jaga oma
 
 ### Ploki 1 enesekontrolltest
 
+Enne ukse avamist kontrolli, kas oled toa kõik teadmised kätte saanud.
+
 <!-- class="pae-jaotis" -->
 **I. Automaatselt kontrollitavad küsimused**
 
@@ -2058,6 +2134,7 @@ Tehisintellekt jäljendab inimese intelligentset käitumist, kuid see ei tähend
 **2. Kuidas nimetatakse teadmispõhist tehisintellekti süsteemi, mis kasutab inimekspertidelt kogutud „kui ..., siis ...” reegleid? Kirjuta üks sõna.**
 
 [[ekspertsüsteem]]
+[[?]] Vihje: sõnas on 3 tähte ja see on seotud selle toa teemaga – just seda püüab tehisintellekt jäljendada.
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["ekspertsüsteem", "ekspertsüsteemid", "ekspertsüsteemiks", "eksperdisüsteem", "ekspert süsteem", "ekspertsusteem"].includes(v)
@@ -2315,3 +2392,21 @@ c) Milline on tehisintellekti roll tuleviku hariduses? Kuidas võib see muuta õ
 Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega, kasutab ploki teadmisi (nt nõrga ja tugeva tehisintellekti erinevus, tehisintellekti piirangud, rakenduste näited, Eesti näited), kaalub ka vastupidiseid vaatenurki ning jõuab põhjendatud järelduseni. Teema a puhul võid mõelda teadvuse olemusele ning arvutusliku võimekuse ja tegeliku mõistmise erinevusele; teema b puhul haridussüsteemi muutustele, töökohtade ümberkujunemisele, regulatsioonidele (nt Euroopa Liidu tehisintellekti määrus) ja eetilistele standarditele; teema c puhul personaliseeritud õppele, õpetaja rollile, kriitilise mõtlemise tähtsusele ja digitaalsele kirjaoskusele.
 
 </details>
+
+### 🚪 Toa 1 uks
+
+<!-- class="pae-fakt" -->
+> **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 1.1, 1.2 ja 1.3 lukkudest järjekorras).
+
+[[AJU]]
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
+v === "aju"
+</script>
+****************************************
+🎉 **Uks avaneb!** Arhiivi riiulid lähevad korda ja Krati ekraanil süttivad tuled. Nüüd mäletab Kratt jälle, et ta on nõrk tehisintellekt, kelle juured ulatuvad 1956. aasta Dartmouthi konverentsini ja kes on oma sugulaste kombel loodud inimesi päriselt aitama. „Aitäh, päästjad! Ma ei ole inimese aju, aga ma tean nüüd, et olen loodud seda jäljendama. Kuidas ma täpselt mõtlen, seda ma aga… ei mäleta."
+
+🌟 **Kuldne täht: T** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
+
+➡️ **Järgmine tuba:** Masinaruum – seal on Krati algoritmid ja andmed sassi läinud ning teil tuleb uurida, kuidas tehisintellekt tegelikult töötab.
+****************************************

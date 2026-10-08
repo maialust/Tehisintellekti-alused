@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.2.0
+version:  1.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -562,6 +562,8 @@ Vasta küsimustele oma sõnadega ja too võimaluse korral näiteid oma elust. Ar
 
 ### Ploki 3 enesekontrolltest
 
+Enne ukse avamist kontrolli, kas oled toa kõik teadmised kätte saanud.
+
 <!-- class="pae-jaotis" -->
 **I. Automaatselt kontrollitavad küsimused**
 
@@ -830,3 +832,22 @@ c) Millised eetilised küsimused kaasnevad keelemudelite kasutamisega ja kuidas 
 Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega. Kasuta ploki mõisteid (nt hallutsinatsioon, kallutatus, masintõlke kvaliteet, väikeste keelte tehnoloogiline tugi) ja too konkreetseid näiteid, sealhulgas Eesti elust. Kaalu ka vastupidiseid vaatenurki ning tee lõpus põhjendatud järeldus.
 
 </details>
+
+### 🚪 Toa 3 uks
+
+<!-- class="pae-fakt" -->
+> **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 3.1, 3.2, 3.3 ja 3.4 lukkudest järjekorras).
+
+[[KEEL]]
+[[?]] Vihje: sõnas on 4 tähte ja see on seotud selle toa teemaga.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
+v === "keel"
+</script>
+****************************************
+🎉 **Uks avaneb!** Keelelabori ekraanidel asetuvad tähed lõpuks õigesse järjekorda ja laused saavad jälle mõtte. Kratt mäletab nüüd, et ta ei „mõista" keelt nagu inimene, vaid muudab teksti arvudeks ja ennustab tõenäolist jätku. Ta oskab taas teksti analüüsida, vestelda ja tõlkida – ning teab, et oma fakte tuleb kontrollida. „Aitäh, sõbrad! Ma ei kirjuta enam tagurpidi ... vähemalt mitte kogemata!"
+
+🌟 **Kuldne täht: H** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
+
+➡️ **Järgmine tuba:** Otsuste labürint – seal peab Kratt õppima, kuidas masin otsuseid langetab ja õiget teed leiab.
+****************************************

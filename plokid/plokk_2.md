@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.2.0
+version:  1.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -256,6 +256,11 @@ output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !imp
 
 <!-- class="pae-kaas" -->
 ![Ploki 2 kaanepilt: pealkiri „Kuidas tehisintellekt töötab“ ja närvivõrgu skeem, kus andmed liiguvad läbi neuronikihtide tehisintellektini.](../pildid/plokk_2/plokk_2_kaas.svg)
+
+<!-- class="pae-fakt" -->
+> **🗝️ Tuba 2: Masinaruum**
+>
+> Arhiivi uks vajub su selja taga kinni ja päästemeeskond seisab kooli keldris, kus vilguvad serverid ja surisevad ventilaatorid – see on Krati masinaruum. Siin peaks kõik käima kindla korra järgi, aga Krati algoritmid on sassis, andmed on laiali pillutatud ja ta ei mäleta enam, kuidas ta kunagi õppis. „Mu hammasrattad keerlevad, aga ma ei mäleta, kas andmed tulevad enne algoritmi või algoritm enne andmeid. Kas ma olen üldse kunagi midagi õppinud?" Sinu ülesanne on panna masinaruum uuesti tööle ja tuletada Kratile meelde, kuidas TI kapoti all töötab. Selles toas on 5 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjuta tähed üles!
 
 Esimeses plokis said teada, mis on tehisintellekt (TI) ja kust see on tulnud. Nüüd vaatame kapoti alla. Selles plokis uurid, millest TI-süsteemid tegelikult koosnevad: kuidas arvuti järgib samm-sammulisi juhiseid ehk algoritme, miks öeldakse, et andmed on TI kütus, kuidas masin õpib näidetest ja kuidas töötavad närvivõrgud, mis on tänapäevaste vestlusrobotite, näotuvastuse ja pildiloomerakenduste aluseks. Ploki lõpus vaatame, kuidas neid tehnoloogiaid kasutatakse meditsiinis, koolis, liikluses, pangas, tehases ja riigiasutustes – nii Eestis kui ka mujal Euroopas.
 
@@ -700,6 +705,7 @@ END ALGORITM
 **1. Kuidas nimetatakse täpset ja selgelt määratletud sammude jada, mis kirjeldab, kuidas ülesanne samm-sammult lahendada? Kirjuta vastus.**
 
 [[algoritm]]
+[[?]] Vihje: vaata iga arvu järjest ja küsi: kas see on suurem kui 5? Ainult siis lisa see summale.
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["algoritm", "algoritmi", "algoritmid", "algoritmiks"].includes(v)
@@ -779,6 +785,39 @@ Iga päeva lõpus kontrolli, kas said hakkama: [[ 1 | 2 | 3 | (4) | 5 ]]
 Juhis ei ole määratud ehk täpne: „veidi" ja „kuni on valmis" ei ütle arvutile, kui palju soola panna ja millal küpsetamine lõpetada. Arvuti ei oska ise oletada. Algoritmina võiks juhis olla näiteks: „Lisa 5 grammi soola. Küpseta 180 kraadi juures 25 minutit."
 
 </details>
+
+### 🔐 Lukk 2.1
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Leidsin oma mälust ühe vana algoritmi, aga ma ei mäleta, mida see teeb. Kui keegi selle samm-sammult läbi käiks, saaksin lukukoodi teada!"
+
+Lukk avaneb, kui lahendad mõistatuse. Käi Krati pseudokoodis kirja pandud algoritm läbi nii, nagu arvuti seda teeks, ja kirjuta lahtrisse arv, mille algoritm tagastab.
+
+```
+ALGORITM KratiKood(loetelu)
+    summa = 0
+    IGA arvu x JAOKS loetelus TEE
+        KUI x > 5 SIIS
+            summa = summa + x
+    LÕPP
+    TAGASTA summa
+LÕPP
+```
+
+Sisend: loetelu = 3, 8, 6, 1, 9
+
+[[23]]
+<script>
+let v = `@input`.trim().replace(",", ".");
+Number(v) === 23
+</script>
+****************************************
+✅ **Lukk avatud!** Tsükkel vaatas läbi kõik viis arvu ja tingimus lasi summasse ainult arvud 8, 6 ja 9 – nii töötab iga algoritm: sisend, kordus, otsus ja väljund.
+
+🔑 **Sinu võtmetäht: M**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## 2.2 Andmed ja nende tähtsus
@@ -1221,6 +1260,7 @@ Selgita iga omaduse kohta lühidalt, mida see tähendab.
 **1. Kuidas nimetatakse andmeid, millele on lisatud õige vastus (märgend) ja mida kasutatakse juhendatud õppes? Kirjuta vastus.**
 
 [[märgendatud andmed]]
+[[?]] Vihje: mõiste algab K-tähega ja seda arutasid tunni osas „Andmete kvaliteet ja kallutatus".
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["märgendatud andmed", "märgendatud andmeid", "märgendatud", "märgendatud andmestik"].includes(v)
@@ -1302,6 +1342,31 @@ Suurandmete viis V-d on maht, kiirus, mitmekesisus, tõepärasus ja väärtus. V
 Põhimõte tähendab, et mudel on ainult nii hea kui andmed, millest ta õpib. Kui andmed on vigased, puudulikud või kallutatud, annab ka mudel halbu tulemusi – isegi parim algoritm ei suuda halbu andmeid korvata. Näiteks kui pildituvastust treenitakse ainult valgustatud fotodel, eksib see pimedas tehtud piltide puhul.
 
 </details>
+
+### 🔐 Lukk 2.2
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Keegi andis mulle õppimiseks ainult ühe vanuserühma fotod ja nüüd ma ei tunne vanaema ära! Midagi peitub mu andmetes, aga ma ei mäleta, mis selle nimi on."
+
+Lukk avaneb, kui lahendad mõistatuse. Loe läbi, kes mõistatuses räägib, ja kirjuta lahtrisse tema nimi (üks sõna).
+
+> *Olen süstemaatiline viga, mis peitub andmetes.*
+> *Kui mõni rühm on andmestikus alaesindatud, olen mina kohal.*
+> *TI õpib mind andmetest kaasa nagu eelarvamuse ja seepärast võivad tema otsused olla ebaõiglased.*
+> *Kes ma olen?*
+
+[[kallutatus]]
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
+["kallutatus", "kallutatust", "kallutatuse", "andmete kallutatus", "valimi kallutatus", "kallutatud andmed", "bias"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Kallutatus tekib siis, kui andmed ei esinda kõiki rühmi õiglaselt – seepärast peavad andmed olema mitmekesised ja esinduslikud.
+
+🔑 **Sinu võtmetäht: U**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## 2.3 Masinõppe põhimõtted
@@ -1776,6 +1841,7 @@ Täpsus näitab kõigi õigete vastuste osakaalu. Täpsusaste näitab, kui palju
 **1. Kuidas nimetatakse masinõppes treenimise tulemusel saadud õpitud reeglite kogumit, mida kasutatakse uute andmete kohta ennustuste tegemiseks? Kirjuta vastus.**
 
 [[mudel]]
+[[?]] Vihje: sõna algab Ü-tähega. Selle vastand on alasobitamine.
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["mudel", "mudeli", "mudeliks", "masinõppe mudel", "masinõppemudel"].includes(v)
@@ -1858,6 +1924,28 @@ Hüperparameetrid (õppimiskiirus, kihtide arv, puu sügavus jne) seab arendaja.
 Mudel vastab õigesti 990 juhul 1000-st, sest tavalisi tehinguid on palju rohkem kui pettusi. Ometi ei leidnud ta ühtegi pettust, kuigi just see oli tema ülesanne. Seepärast tuleb vaadata ka saagist (kui suure osa tegelikest pettustest mudel leidis – siin 0%) ja täpsusastet või F1-skoori.
 
 </details>
+
+### 🔐 Lukk 2.3
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Ma õppisin kõik treeningülesanded täiesti pähe ja sain igaühe eest täispunktid! Aga uute ülesannete peal eksin ma kogu aeg… Ja nüüd on ka selle probleemi nimi mu mälus tähtedeks lagunenud."
+
+Lukk avaneb, kui lahendad mõistatuse. Pane tähed õigesse järjekorda, nii et tekib masinõppe mõiste, mis kirjeldab Krati muret.
+
+**B I O T Ü L M A N E S E I**
+
+[[ülesobitamine]]
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
+["ülesobitamine", "ülesobitumine", "ülesobitus", "ülesobitamist", "ülesobitamise", "overfitting"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Ülesobitunud mudel on treeningandmed pähe õppinud, kuid ei üldista – hea mudel peab töötama hästi ka uute, varem nägemata andmetega.
+
+🔑 **Sinu võtmetäht: D**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## 2.4 Närvivõrgud ja süvaõpe
@@ -2357,6 +2445,7 @@ Joonista paberile oma lihtne närvivõrgu skeem ja märgista sellel sisendkiht, 
 **1. Kuidas nimetatakse tehisneuronis lisaarvu, mis näitab neuroni üldist kalduvust „süttida" ka siis, kui sisendid on nõrgad? Kirjuta vastus.**
 
 [[nihe]]
+[[?]] Vihje: korruta iga sisend oma kaaluga, liida tulemused kokku ja lisa nihe. Seejärel mõtle, mida ReLU positiivse arvuga teeb.
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["nihe", "nihet", "nihkeks", "bias"].includes(v)
@@ -2435,6 +2524,34 @@ Sigmoid on nagu hämarduslüliti (väljund 0 ja 1 vahel). ReLU on kõige lihtsam
 Gradientlaskumine on nagu udus mäelt alla orgu minek: kaugele ei näe, aga jalgadega tunned, kuhu maapind langeb, ja teed sammu allamäge. Org on koht, kus viga on kõige väiksem. Õppimiskiirus on sammu pikkus. Kui sammud on liiga suured, võib võrk orust üle hüpata ja edasi-tagasi kõikuda. Kui sammud on liiga väikesed, jõuab võrk väikseima veani väga aeglaselt.
 
 </details>
+
+### 🔐 Lukk 2.4
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Üks mu tehisneuronitest on ärganud, aga ta ei mäleta, kuidas arvutada! Ilma temata ei saa ma otsustada, kas lukk avaneb."
+
+Lukk avaneb, kui lahendad mõistatuse. Arvuta, millise väljundi annab tehisneuron, ja kirjuta see arv lahtrisse.
+
+| | Sisend | Kaal |
+|---|---|---|
+| 1. sisend | 2 | 4 |
+| 2. sisend | 1 | −2 |
+| 3. sisend | 3 | 1 |
+
+Nihe on **−3** ja aktivatsioonifunktsioon on **ReLU**.
+
+[[6]]
+<script>
+let v = `@input`.trim().replace(",", ".").replace("−", "-");
+Number(v) === 6
+</script>
+****************************************
+✅ **Lukk avatud!** Kaalutud summa on 2 × 4 + 1 × (−2) + 3 × 1 + (−3) = 6 ja kuna see on positiivne, jätab ReLU selle samaks – neuron „süttib" tugevusega 6.
+
+🔑 **Sinu võtmetäht: E**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## 2.5 Tehisintellekti rakendused valdkondades
@@ -2856,6 +2973,7 @@ Euroopa Liit on nendele küsimustele vastuseks võtnud vastu **Euroopa Liidu teh
 **1. Kuidas nimetatakse Eesti riigi virtuaalassistentide võrgustikku, mille kaudu saab avalikke teenuseid kasutada tavalises kõnekeeles suheldes? Kirjuta vastus.**
 
 [[Bürokratt]]
+[[?]] Vihje: mõtle, kes on iga rakenduse kasutaja: teadlane, riigiasutus, kuller või pank?
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["bürokratt", "burokratt", "bürokrati", "bürokratti"].includes(v)
@@ -2935,6 +3053,38 @@ Rahanduses kasutatakse TI-d pettuste tuvastamiseks, riskide hindamiseks, kauplem
 Radioloogi töös vaatab TI-süsteem röntgenipildid kiiresti läbi ja märgib kahtlased kohad, arst keskendub seejärel keerulistele juhtumitele. Lõpliku otsuse teeb arst, sest tema mõistab patsiendi konteksti, kasutab oma kogemust ja vastutab otsuse eest. TI võib eksida ning tema otsuseid ei saa alati selgitada.
 
 </details>
+
+### 🔐 Lukk 2.5
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Mu rakenduste kaardid on segi läinud! Ma ei mäleta enam, millises valdkonnas keegi töötab. Kui need õigetesse kohtadesse paned, tekib lukukood."
+
+Lukk avaneb, kui lahendad mõistatuse. Leia iga rakenduse jaoks valdkonna number. Kirjuta neli numbrit järjest (rakenduste A, B, C, D järjekorras) – see ongi lukukood.
+
+| Nr | Valdkond |
+|---|---|
+| 1 | Tervishoid ja teadus |
+| 2 | Transport ja logistika |
+| 3 | Rahandus |
+| 4 | Avalik sektor |
+
+- **A.** AlphaFold ennustab valkude ruumilist struktuuri.
+- **B.** Bürokratt aitab kasutada riigi teenuseid tavalises kõnekeeles.
+- **C.** Starship Technologies'i robotid toovad kullersaadetisi koju kätte.
+- **D.** TI märkab kaarditehingute seas pettusi.
+
+[[1423]]
+<script>
+let v = `@input`.replace(/[^0-9]/g, "");
+v === "1423"
+</script>
+****************************************
+✅ **Lukk avatud!** Samad TI tehnoloogiad – arvutinägemine, keeletöötlus ja anomaaliate tuvastamine – töötavad väga erinevates valdkondades, teadusest kuni pangani.
+
+🔑 **Sinu võtmetäht: L**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## Plokk 2. Kordamine ja harjutamine
@@ -3209,12 +3359,15 @@ Kirjelda lühidalt oma rühma rakendust: millist probleemi see lahendab, millise
 
 ### Ploki 2 enesekontrolltest
 
+Enne ukse avamist kontrolli, kas oled toa kõik teadmised kätte saanud.
+
 <!-- class="pae-jaotis" -->
 **I. Kontrollküsimused**
 
 **1. Kuidas nimetatakse selgelt määratletud sammude jada probleemi lahendamiseks? Kirjuta vastus.**
 
 [[algoritm]]
+[[?]] Vihje: sõnas on 5 tähte ja see on seotud selle toa teemaga – just see tekib masinõppe treenimise tulemusena.
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["algoritm", "algoritmi", "algoritmid", "algoritmiks"].includes(v)
@@ -3493,3 +3646,21 @@ c) Kuidas tagada, et TI-süsteemid teeksid õiglaseid ja mittediskrimineerivaid 
 Hea arutlus esitab selge seisukoha, põhjendab seda mitme argumendiga ja toob näiteid ploki tundidest. Teema a puhul võiks käsitleda põhimõtet „prügi sisse, prügi välja", andmete kvaliteedi tunnuseid (täpsus, täielikkus, ajakohasus, esinduslikkus), seda, et suurem kogus ei tähenda alati paremat tulemust, ning andmete kogumise väljakutseid (märgendamise kulu, privaatsus, eesti keele andmete vähesus). Teema b puhul võiks võrrelda närviraku ja tehisneuroni ehitust, õppimist ühenduste tugevuse muutmise kaudu ja kaalude muutmise kaudu ning tuua välja, et tehisneuron on palju lihtsam ja närvivõrk on ajust vaid inspireeritud, mitte selle koopia. Teema c puhul võiks käsitleda kallutatuse liike, mitmekesiseid ja esinduslikke andmeid, algoritmide auditeerimist, selgitatavust, inimese järelevalvet ning ELi tehisintellekti määrust. Arutluse lõpus tehakse järeldus ja arvestatakse ka teistsuguste vaatenurkadega.
 
 </details>
+
+### 🚪 Toa 2 uks
+
+<!-- class="pae-fakt" -->
+> **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 2.1, 2.2, 2.3, 2.4 ja 2.5 lukkudest järjekorras).
+
+[[MUDEL]]
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
+v === "mudel"
+</script>
+****************************************
+🎉 **Uks avaneb!** Masinaruumi hammasrattad hakkavad jälle ühtlaselt keerlema ja serverituled lähevad roheliseks. Kratt mäletab nüüd, et ta on **mudel**: algoritmid on tema tööjuhised, andmed on tema kütus, masinõppe ja närvivõrkude abil õppis ta näidetest ning nüüd saab ta aidata inimesi paljudes valdkondades. „Aitäh, päästemeeskond! Ma tean jälle, kuidas ma seest töötan – ja et pean õppima mitmekesistest andmetest, mitte lihtsalt asju pähe tuupima."
+
+🌟 **Kuldne täht: E** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
+
+➡️ **Järgmine tuba:** Keelelabor – seal ajab Kratt sõnad sassi ja sina pead talle õpetama, kuidas masin keelt mõistab.
+****************************************

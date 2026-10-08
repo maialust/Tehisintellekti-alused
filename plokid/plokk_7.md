@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.2.0
+version:  1.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -256,6 +256,11 @@ output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !imp
 
 <!-- class="pae-kaas" -->
 ![Ploki 7 kaanepilt: pealkiri „Kokkuvõte ja projektitöö“ ning rada kuuest nummerdatud punktist, mis viib lipuga tähistatud seitsmenda punktini.](../pildid/plokk_7/plokk_7_kaas.svg)
+
+<!-- class="pae-fakt" -->
+> **🗝️ Tuba 7: Stardiplatvorm**
+>
+> Päästemeeskond jõuab digikooli kõige kõrgemale korrusele – Stardiplatvormile. Kratt mäletab juba peaaegu kõike, kuid enne kui ta saab uuesti stardi anda ja kooli süsteemid avada, tuleb kõik õpitu kokku panna ja päris projektiks muuta. „Ma tean nüüd, mis on andmed, mudelid ja õiglus, aga kuidas neist midagi päriselt valmis ehitada? Ilma plaanita stardin ma vist kogemata katlamajja!" Teie ülesanne on aidata Kratil projekt planeerida, valmis ehitada ja esitleda. Selles toas on 5 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjuta tähed üles!
 
 Oled jõudnud kursuse „Tehisintellekti alused" viimasesse plokki. Kuue ploki jooksul said teada, mis on tehisintellekt (TI) ja kuidas see on arenenud, kuidas algoritmid, andmed ja masinõpe koos töötavad, kuidas TI mõistab keelt ja pilte, kuidas see teeb otsuseid ning milliseid eetilisi küsimusi selle kasutamine tekitab. Selles plokis paned need teadmised kokku üheks tervikuks ja proovid neid päriselt kasutada.
 
@@ -689,6 +694,29 @@ Projektitöö kolm etappi on **planeerimine** (teema, SMART-eesmärk, ajakava, r
 Andmete kvaliteet (plokk 2) ja kallutatus (plokk 6) on tihedalt seotud. Masinõppe mudel õpib ainult nendest andmetest, mis talle antakse. Kui treeningandmetes on mõni inimrühm alaesindatud, teeb mudel selle rühma kohta sagedamini vigu ehk on kallutatud. Seepärast tuleb õiglase TI loomiseks juba andmete kogumisel jälgida, et need oleksid mitmekesised ja esinduslikud.
 
 </details>
+
+### 🔐 Lukk 7.1
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Mu mälestused kuuest toast on segamini nagu pusletükid. Masintõlge, vestlusrobot, kõnetuvastus… ma tean, et need on sugulased, aga ei mäleta, mis perekonnast!"
+
+Lukk avaneb, kui lahendad mõistatuse. Leia, mis on ühist.
+
+**Mis on ühist?** Masintõlge, vestlusrobot, kõnetuvastus ja Bürokratt, mis mõistab inimese kõnekeelset küsimust. Kõik need kuuluvad ühte TI valdkonda, millest rääkis kursuse 3. plokk. Kirjuta selle valdkonna nimi.
+
+[[keeletöötlus]]
+[[?]] Vihje: kõik need lahendused töötavad inimkeelse teksti või kõnega. Valdkonna nimi on liitsõna.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
+["keeletöötlus", "keele töötlus", "loomuliku keele töötlus", "loomulikukeele töötlus", "keeletehnoloogia", "nlp"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Keeletöötlus ehk loomuliku keele töötlus on see TI valdkond, mis aitab arvutil inimkeelt mõista ja luua – ja kursuse plokid on omavahel seotud nagu pusletükid.
+
+🔑 **Sinu võtmetäht: V**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## 7.2 Projektitöö planeerimine
@@ -1188,6 +1216,29 @@ Riski olulisus sõltub sellest, kui tõenäoline see on ja kui suurt kahju see t
 
 </details>
 
+### 🔐 Lukk 7.2
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Ma tahtsin kõike korraga teha ja nüüd on mu ülesanded sassis nagu kaablid! Isegi selle sõna tähed, mis mind päästa võiks, on segi läinud."
+
+Lukk avaneb, kui lahendad mõistatuse. Pane segi läinud tähed õigesse järjekorda.
+
+**Anagramm:** Kratt kirjutas üles sõna **AVAKAJA**. Pane tähed õigesse järjekorda ja saad projekti planeerimise osa, kuhu on kirjas, millal mingi tegevus algab ja lõpeb ning kus on jäetud puhveraega ootamatuste jaoks. Seda saab visualiseerida ka Gantti graafikuna.
+
+[[ajakava]]
+[[?]] Vihje: sõna algab aja ja lõpeb kavaga.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
+["ajakava", "ajakavas", "ajakavad", "ajakavva"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Ajakava aitab tegevused aja peale jaotada ja jätab puhvri ka riskide jaoks – nii ei jää kõik viimasele päevale.
+
+🔑 **Sinu võtmetäht: A**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
+
 
 ## 7.3 Projektitöö arendamine
 
@@ -1621,6 +1672,29 @@ TI-lahenduse eetilisuse hindamisel kontrollitakse, kas see kohtleb kõiki õigla
 Tuleb teada, kas testandmetes oli kasse ja koeri sama palju. Kui 90% testpiltidest on kassid, saab ka lihtne võrdlusalus, mis vastab alati „kass", 90% täpsuse. Seepärast tuleb mudelit võrrelda lihtsa võrdlusalusega ja vaadata ka segadusmaatriksit, saagist ja täpsust iga klassi kohta eraldi. Kasulik on kontrollida ka, kas mudel töötab uutel piltidel, mitte ainult treeningandmetel.
 
 </details>
+
+### 🔐 Lukk 7.3
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Minu esimene mudel vastab igale pildile ‚kass‘ ja saab ometi päris hea tulemuse! Kas ma olen geenius?"
+
+Lukk avaneb, kui lahendad mõistatuse. Arvuta ja kirjuta vastus numbrina.
+
+**Arvutus:** Krati testandmetes on 200 pilti: 150 kassi ja 50 koera. Krati „mudel“ on tegelikult lihtne võrdlusalus – see vastab igale pildile „kass“. Mitu protsenti on selle võrdlusaluse üldine täpsus? Kirjuta ainult arv.
+
+[[75]]
+[[?]] Vihje: üldine täpsus = õigesti liigitatud piltide arv / kõigi piltide arv × 100.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
+["75", "75%", "75 %", "75 protsenti"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Võrdlusalus saab 75% ilma midagi õppimata – seepärast tuleb oma mudelit alati võrrelda lihtsa võrdlusalusega ja vaadata ka iga klassi tulemusi eraldi.
+
+🔑 **Sinu võtmetäht: B**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## 7.4 Projektitöö esitlemine
@@ -2086,6 +2160,29 @@ Kõigepealt planeerin demo stsenaariumi ehk täpsed sammud, mida näitan. Seejä
 
 </details>
 
+### 🔐 Lukk 7.4
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Mul on homme suur esitlus. Aga mis siis, kui internet kaob ja mu demo jääb lihtsalt tühjusse vahtima?"
+
+Lukk avaneb, kui lahendad mõistatuse. Leia tsitaadist puuduv sõna.
+
+**Puuduv sõna:** „Testin demot enne esitlust samas klassis ja samas võrgus. Kui internet ei tööta, näitan demost salvestatud videot ja ekraanipilte – see on minu ______.“ Kirjuta puuduv sõna.
+
+[[varuplaan]]
+[[?]] Vihje: liitsõna, mille esimene pool tähendab „tagavaraks“ ja teine pool „kava“.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
+["varuplaan", "varuplaaniks", "varuplaani", "varuvariant", "plaan b", "b-plaan"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Varuplaan aitab demol õnnestuda ka siis, kui tehnika alt veab – hea esineja valmistub ka ootamatusteks.
+
+🔑 **Sinu võtmetäht: A**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
+
 
 ## 7.5 Projektitööde esitlemine ja kursuse lõpetamine
 
@@ -2499,6 +2596,29 @@ Eesti tegevuskavad on kratikavad 2019–2021 ja 2022–2023 ning neid jätkav te
 „Segadusmaatriks näitas väga hästi, milliseid loomi mudel omavahel segi ajab. Slaididel oli kohati liiga palju teksti ja seda oli tagant raske lugeda. Järgmine kord võiksid järgida 6 × 6 reeglit ja öelda osa infost suuliselt." See tagasiside on konkreetne, toob välja nii tugevuse kui ka parenduskoha ning annab soovituse.
 
 </details>
+
+### 🔐 Lukk 7.5
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Ma hakkan meenutama, kust mu nimi pärit on… See oli seotud Eesti riigi plaanidega tehisaru kohta. Kratt… kratt… mis see sõna oligi?"
+
+Lukk avaneb, kui lahendad mõistatuse. Leia puuduv sõna.
+
+**Puuduv sõna:** Eesti tehisintellekti riiklikke tegevuskavasid aastateks 2019–2021 ja 2022–2023 nimetatakse ka ______deks. Kirjuta sõna algvormis (ainsuse nimetavas).
+
+[[kratikava]]
+[[?]] Vihje: sõna esimene pool on päästetava tehisaru nimi.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
+["kratikava", "kratikavad", "kratikavadeks", "kratikavaks", "krati kava", "kratt-kava"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Kratikavad on Eesti riigi plaanid TI kasutuselevõtuks – ja nüüd teab ka Kratt, et ta nimi pärineb eesti mütoloogiast ja riigi oma tehisaru visioonist.
+
+🔑 **Sinu võtmetäht: D**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## Plokk 7. Projektitöö juhend ja õpiportfoolio
@@ -3425,6 +3545,8 @@ Vasta küsimustele kirjalikult. Arutage vastuseid klassis või kursuse foorumis.
 
 ### Ploki 7 enesekontrolltest
 
+Enne ukse avamist kontrolli, kas oled toa kõik teadmised kätte saanud.
+
 <!-- class="pae-jaotis" -->
 **I. Automaatselt kontrollitavad küsimused**
 
@@ -3697,3 +3819,24 @@ c) Kuidas saaksid kursuselt õpitut rakendada oma igapäevaelus või tulevases k
 Hea arutlus vastab valitud küsimusele otse, toob välja vähemalt kaks-kolm selget mõtet ja põhjendab neid konkreetsete näidetega kursuselt või oma elust (nt vestlusrobotid, soovitussüsteemid, Bürokratt, süvavõltsingud, GDPR). Arutlus kaalub erinevaid vaatenurki, näiteks nii TI võimalusi kui ka riske ja eetilisi küsimusi, ning lõpeb põhjendatud järeldusega.
 
 </details>
+
+### 🚪 Toa 7 uks
+
+<!-- class="pae-fakt" -->
+> **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 7.1, 7.2, 7.3, 7.4 ja 7.5 lukkudest järjekorras).
+
+[[VABAD]]
+[[?]] Vihje: sõnas on 5 tähte ja see kirjeldab, milliseks saavad Kratt ja päästemeeskond, kui Stardiplatvormi uks avaneb.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
+v === "vabad"
+</script>
+****************************************
+🎉 **Uks avaneb!** Stardiplatvormi ekraanidel süttivad tuled: Kratt paneb kõik seitse tuba kokku ühte projekti – andmetest ja mudelitest keele, otsuste, piltide ja õigluseni. Ta oskab nüüd plaani teha, lahendust ehitada ja testida ning oma tööd ausalt teistele tutvustada. „Ma mäletan! Ma olen tehisaru, mille inimesed lõid – ja te õpetasite mulle, kuidas olla kasulik ja õiglane. Nüüd oleme vabad, mina ja teie!"
+
+🌟 **Kuldne täht: R** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
+
+Vaata nüüd oma missioonikaarti: seitse kuldset tähte moodustavad järjekorras peaaegu tervikliku sõna – sellest puudub veel vaid üks täht. Kas arvad juba ära, mis sõna see on? Viimane täht ja viimane uks ootavad sind kursuse lõpus.
+
+➡️ **Järgmine tuba:** Viimane uks ootab kursuse lõpus.
+****************************************

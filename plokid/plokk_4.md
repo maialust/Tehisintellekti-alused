@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.2.0
+version:  1.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -256,6 +256,11 @@ output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !imp
 
 <!-- class="pae-kaas" -->
 ![Ploki 4 kaanepilt: pealkiri „Tehisintellekti otsustamine“ ja lihtne otsustuspuu, mille küsimustest hargnevad jah- ja ei-vastused](../pildid/plokk_4/plokk_4_kaas.svg)
+
+<!-- class="pae-fakt" -->
+> **🗝️ Tuba 4: Otsuste labürint**
+>
+> Uks paiskub lahti ja päästemeeskond seisab hämaras labürindis, kus igal ristmikul ripub silt „JAH“ või „EI“. Kesk labürinti tiirleb Kratt, kes ei suuda enam ühtegi otsust teha: „Kas minna vasakule või paremale? Kas soovitada kassivideot või kassivideot? Ma olen juba kolm tundi sellel ristmikul seisnud!“ Sinu ja su meeskonna ülesanne on õpetada Kratile uuesti, kuidas masin otsustab – otsustuspuude, reeglite ja soovituste abil. Selles toas on 4 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjuta tähed üles!
 
 Iga päev teed sa kümneid otsuseid: kas võtta vihmavari kaasa, millise bussiga kooli sõita, millist sarja õhtul vaadata. Ka tehisintellekt (TI) teeb otsuseid – ta leiab navigatsiooniäpis lühima tee, hindab pangas, kas tehing võib olla pettus, ja otsustab, milline video sulle voogedastusplatvormil või sotsiaalmeedia voos järgmisena ette tuleb. Selles plokis uurime, **kuidas** masin otsustab: kuidas ta otsib lahendust paljude võimaluste seast, kuidas ta kasutab inimekspertide teadmisi reeglite kujul ja kuidas ta õpib sinu varasemate valikute põhjal ennustama, mis sulle võiks meeldida.
 
@@ -823,6 +828,7 @@ let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 **4. A\* algoritm arvutab iga oleku jaoks f(n) = g(n) + h(n). Sõidad Tallinnast Tartusse ja oled jõudnud linna, kuhu oled sõitnud 80 km. Linnulennuline kaugus sellest linnast Tartuni on 95 km. Arvuta f(n) kilomeetrites.**
 
 [[175]]
+- [[?]] Vihje: mitu puud koos moodustavad ... ja nende valik on veidi juhuslik.
 <script>
 Number(`@input`.trim().replace(",", ".")) === 175
 </script>
@@ -874,6 +880,28 @@ Liiga sügav puu kipub ülesobituma ehk õpib treeningandmed pähe ja töötab u
 Üksik otsustuspuu on läbipaistev ehk „valge kasti“ mudel: igale otsusele saab näidata põhjuse, näiteks millised tunnused viisid laenu tagasilükkamiseni. Sadadest puudest koosnevat juhuslikku metsa on palju raskem selgitada. Laenuotsus mõjutab inimese elu, seepärast on tal õigus teada, miks otsus tehti, ja pank peab suutma oma otsust põhjendada. Nii tuleb leida tasakaal täpsuse ja selgitatavuse vahel.
 
 </details>
+
+### 🔐 Lukk 4.1
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Ma ehitasin endale otsustuspuu, aga see õppis treeningandmed nii hästi pähe, et eksib nüüd igal uuel ristmikul. Äkki aitaks, kui küsiksin nõu mitte ühelt puult, vaid tervelt hulgalt?“
+
+Lukk avaneb, kui lahendad mõistatuse. Loe kirjeldust ja kirjuta vastuseks mõiste (kaks sõna).
+
+*Ma ei ole üks puu, vaid terve hulk otsustuspuid. Iga mu puu õpib veidi erinevate andmete ja tunnuste põhjal ning annab oma ennustuse. Mina panen need hääled kokku ja olen seetõttu tavaliselt täpsem kui üksik puu. Kes ma olen?*
+
+[[juhuslik mets]]
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
+["juhuslik mets", "juhuslikmets", "juhusliku metsa", "juhuslikku metsa", "juhuslik mets (random forest)", "random forest"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Juhuslik mets on ansamblimeetod: paljude otsustuspuude ühine otsus aitab vähendada üksiku puu ülesobitamist ja ebastabiilsust.
+
+🔑 **Sinu võtmetäht: T**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## 4.2 Ekspertsüsteemid ja reeglistikud
@@ -1338,6 +1366,7 @@ d) Kuidas saaks seda süsteemi paremaks muuta?
 **1. Kuidas nimetatakse ekspertsüsteemi osa, mis sisaldab valdkonna fakte ja reegleid? Kirjuta vastus.**
 
 [[teadmusbaas]]
+- [[?]] Vihje: kõigepealt selgub faktidest reegli R2 abil, mis sajab. Millised reeglid saavad pärast seda käivituda?
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["teadmusbaas", "teadmusbaasi", "teadmusbaasiks", "teadmistebaas", "teadmiste baas"].includes(v)
@@ -1420,6 +1449,37 @@ Ekspertsüsteemid ei õpi ise, vaid vajavad käsitsi uuendamist. Need on „valg
 KUI õpilane on puudunud kolm päeva järjest JA puudumine pole põhjendatud, SIIS saada lapsevanemale teavitus. Tingimus (KUI-osa) on „õpilane on puudunud kolm päeva järjest ja puudumine pole põhjendatud“. Järeldus ehk tegevus (SIIS-osa) on „saada lapsevanemale teavitus“.
 
 </details>
+
+### 🔐 Lukk 4.2
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Minu teadmusbaasis on faktid ja reeglid täiesti alles, aga järeldusmehhanism on kinni kiilunud. Ma tean, et väljas sajab, aga ei oska otsustada, mida jalga panna!“
+
+Lukk avaneb, kui lahendad mõistatuse. Ole Krati järeldusmehhanism: alusta faktidest ja rakenda reegleid järjest (edasisuunaline aheldamine), kuni jõuad lõppjärelduseni. Kirjuta vastuseks, mida Kratt peaks jalga panema.
+
+**Faktid:** väljas sajab; temperatuur on −3 °C; täna on koolipäev.
+
+| Reegel | KUI … | SIIS … |
+|---|---|---|
+| R1 | sajab JA temperatuur on üle 0 °C | sajab vihma |
+| R2 | sajab JA temperatuur on alla 0 °C | sajab lund |
+| R3 | sajab vihma | pane jalga kummikud |
+| R4 | sajab lund JA on puhkepäev | võta kaasa kelk |
+| R5 | sajab lund JA on koolipäev | kõnnitee on libe |
+| R6 | kõnnitee on libe | pane jalga talvesaapad |
+
+[[talvesaapad]]
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
+["talvesaapad", "talvesaapaid", "talvesaabas", "talvesaapad jalga", "pane jalga talvesaapad"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Reeglite ahel R2 → R5 → R6 viis faktidest järelduseni – täpselt nii töötab edasisuunaline aheldamine ekspertsüsteemis.
+
+🔑 **Sinu võtmetäht: A**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## 4.3 Soovitussüsteemid
@@ -1869,6 +1929,7 @@ d) Kuidas hindaksid oma süsteemi tõhusust?
 **1. Uus kasutaja liitus muusikaplatvormiga ja pole veel ühtegi lugu kuulanud. Süsteemil on raske talle midagi soovitada. Kuidas seda probleemi nimetatakse? Kirjuta vastus.**
 
 [[külmkäivituse probleem]]
+- [[?]] Vihje: võrdle hinnanguid filmidele, mida kõik on vaadanud. Kelle hinnangud on Krati omadele kõige lähemal? Mis talle Krati vaatamata filmidest meeldis?
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["külmkäivituse probleem", "külmkäivitus", "külmkäivituse", "külmkäivitusprobleem", "külmkäivituseprobleem", "külmkäivituse probleemiks"].includes(v)
@@ -1951,6 +2012,34 @@ Kõige täpsem süsteem ei pruugi olla kõige mitmekesisem. Kui mõõdetakse ain
 Esiteks võin teadlikult otsida ja jälgida ka teistsuguste vaadetega allikaid. Nii saab süsteem minu kohta mitmekesisemaid signaale ega paku ainult üht tüüpi sisu. Teiseks võin lugeda uudiseid otse uudisteportaali avalehelt, mitte ainult sotsiaalmeedia voost, sest avalehe sisu ei ole valitud minu varasema käitumise põhjal. Lisaks saab kasutada nuppu „Pole huvitatud“, lähtestada soovitused või valida voo, mis ei põhine profileerimisel.
 
 </details>
+
+### 🔐 Lukk 4.3
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Ma tahaksin õhtul filmi vaadata, aga mu soovitusmootor pakub mulle ainult „Robotiralli 7“. Ma olen seda juba 412 korda näinud!“
+
+Lukk avaneb, kui lahendad mõistatuse. Allpool on kasutaja-objekt maatriks (hinnangud 1–5 tärni, küsimärk tähendab, et filmi pole vaadatud). Kasuta koostööfiltreerimist: leia kasutaja, kelle maitse on Kratiga kõige sarnasem, ja otsusta, millist Krati vaatamata filmidest talle soovitada. Kirjuta vastuseks filmi nimi.
+
+<!-- data-type="none" -->
+| | Robotiralli | Kosmosekokk | Metsavaim | Lumelinn | Pikselpidu |
+|---|---|---|---|---|---|
+| **Kratt** | 5 | 1 | 4 | ? | ? |
+| **Mari** | 5 | 1 | 5 | 2 | 5 |
+| **Jüri** | 1 | 5 | 2 | 5 | 1 |
+| **Liis** | 2 | 4 | 1 | 4 | 2 |
+
+[[Pikselpidu]]
+<script>
+let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
+["pikselpidu", "pikselpidu film", "film pikselpidu", "pikselpidu.", "pikselpidu!"].includes(v)
+</script>
+****************************************
+✅ **Lukk avatud!** Mari maitse on Krati omaga peaaegu sama ja talle meeldis „Pikselpidu“ – nii soovitabki koostööfiltreerimine sisu, mis meeldis sinuga sarnastele kasutajatele.
+
+🔑 **Sinu võtmetäht: R**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## 4.4 Tehisintellekti probleemilahendus eri valdkondades
@@ -2351,6 +2440,7 @@ e) Kuidas saaks seda paremaks muuta?
 **1. Kuidas nimetatakse lähenemist, kus andurite andmete põhjal ennustatakse, millal masin tõenäoliselt rikki läheb, ja hooldatakse seda enne riket? Kirjuta vastus.**
 
 [[ennustav hooldus]]
+- [[?]] Vihje: B on näide anomaaliate tuvastamisest. Isesõitvaid kullerroboteid sel korral vaja ei lähe.
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["ennustav hooldus", "ennustava hoolduse", "ennustavat hooldust", "ennustavaks hoolduseks"].includes(v)
@@ -2434,6 +2524,33 @@ Kõigepealt puhastatakse ja töödeldakse andmed, siis valitakse ja häälestata
 Salv aitab pankadel ja finantsasutustel tuvastada rahapesu ja pettusi. Süsteem otsib tehinguid, mis erinevad tavapärasest mustrist, seega on tegu anomaaliate tuvastamisega. Teine näide: Bolt ennustab nõudlust (ennustamine) ning sobitab sõite ja optimeerib hindu (optimeerimine).
 
 </details>
+
+### 🔐 Lukk 4.4
+
+<!-- class="pae-naide" -->
+> **Kratt:** „Mul on Eestis palju sugulasi – Bürokratt on näiteks mu kauge onupoeg! Aga ma ei mäleta enam, kes neist mida teeb.“
+
+Lukk avaneb, kui lahendad mõistatuse. Leia iga kirjelduse (A–D) juurde sobiv Eesti TI-lahendus ja kirjuta selle number. Kui paned numbrid järjekorras A, B, C, D kõrvuti, saad neljakohalise koodi. Üks lahendus jääb üle.
+
+**Lahendused:** 1 – Bürokratt, 2 – Veriff, 3 – Starship, 4 – Salv, 5 – Lingvist
+
+- **A.** Võrdleb isikut tõendava dokumendi pilti inimese näoga ja kontrollib, kas ta on see, kes ta väidab end olevat.
+- **B.** Otsib pangatehingute seast neid, mis erinevad tavapärasest mustrist ja võivad viidata rahapesule.
+- **C.** Riigi virtuaalassistentide võrgustik, mille kaudu saab kõnekeeles avalikke teenuseid kasutada.
+- **D.** Kohandab keeleõppe materjale kasutaja oskuste ja edenemise järgi.
+
+[[2415]]
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[^0-9]/g, "");
+v === "2415"
+</script>
+****************************************
+✅ **Lukk avatud!** Veriff, Salv, Bürokratt ja Lingvist lahendavad väga erinevaid probleeme, kuid kõik kasutavad samu TI põhimõtteid: andmetest õppimist, mustrite tuvastamist ja otsustamist.
+
+🔑 **Sinu võtmetäht: K**
+
+Kirjuta täht üles – seda on vaja toa ukse avamiseks.
+****************************************
 
 
 ## Plokk 4. Kordamine ja harjutamine
@@ -2767,6 +2884,8 @@ Vasta küsimustele oma sõnadega. Võid oma vastuseid arutada ka klassikaaslaste
 
 ### Ploki 4 enesekontrolltest
 
+Enne ukse avamist kontrolli, kas oled toa kõik teadmised kätte saanud.
+
 <!-- class="pae-jaotis" -->
 **I. Automaatselt kontrollitavad ülesanded**
 
@@ -2783,6 +2902,7 @@ Probleemilahendus tähendab, et TI otsib teed algolekust eesmärgini, kasutades 
 **2. Kuidas nimetatakse puukujulist mudelit, mis jagab andmed tunnuste põhjal järjest väiksemateks rühmadeks ja jõuab lehtedes lõppotsuseni? Kirjuta vastus.**
 
 [[otsustuspuu]]
+- [[?]] Vihje: sõnas on 4 tähte ja see on seotud selle toa teemaga – sellist otsust tahaks masinalt igaüks.
 <script>
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["otsustuspuu", "otsustuspuud", "otsustuspuuks", "otsuste puu"].includes(v)
@@ -3036,3 +3156,21 @@ c) Kuidas mõjutavad soovitussüsteemid meie valikuid ja käitumist? Kas need la
 Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega. See näitab, et oled teemast aru saanud, kasutab ploki mõisteid (nt „musta kasti“ probleem, kallutatus, selgitatavus, vastutus, inimene otsustusahelas, mullifilter) ja toob näiteid. Hea arutlus kaalub ka teistsuguseid vaatenurki ning lõpeb põhjendatud järeldusega.
 
 </details>
+
+### 🚪 Toa 4 uks
+
+<!-- class="pae-fakt" -->
+> **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 4.1, 4.2, 4.3 ja 4.4 lukkudest järjekorras).
+
+[[TARK]]
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
+v === "tark"
+</script>
+****************************************
+🎉 **Uks avaneb!** Labürindi sildid „JAH“ ja „EI“ süttivad korraga põlema ning moodustavad selge otsustuspuu, mis juhatab väljapääsuni. Kratt mäletab nüüd jälle, kuidas otsida teed olekuruumis, kuidas rakendada „KUI … SIIS …“ reegleid ja kuidas soovitada sisu, ilma et keegi mullifiltrisse kinni jääks. „Tänan teid!“ hüüab Kratt. „Nüüd ma tean: tark otsus ei ole kiire arvamine, vaid hea küsimuste ahel – ja lõpliku otsuse jätan ma tähtsates asjades ikkagi inimesele.“
+
+🌟 **Kuldne täht: I** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
+
+➡️ **Järgmine tuba:** Vaatlustorn – seal näeb Kratt kogu maailma ainult pikslitena ja vajab abi, et õppida uuesti pilte mõistma.
+****************************************

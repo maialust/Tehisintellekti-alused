@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.2.0
+version:  1.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -532,6 +532,8 @@ Kirjuta üles oma kõige õnnestunum prompt ja selgita, mis tegi selle heaks.
 
 ### Ploki 5 enesekontrolltest
 
+Enne ukse avamist kontrolli, kas oled toa kõik teadmised kätte saanud.
+
 <!-- class="pae-jaotis" -->
 **I. Automaatselt kontrollitavad küsimused**
 
@@ -803,3 +805,22 @@ c) Kuidas mõjutab arvutinägemine privaatsust ja jälgimist? Millised on võima
 Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega. Kaalu eri vaatenurki (nt kunstnik, kasutaja, tehnoloogiaettevõte, seadusandja) ja too konkreetseid näiteid ploki tundidest. Näiteks teema b puhul võid käsitleda valeinfot, pettusi ja küberkiusamist, aga ka positiivseid kasutusviise ning lahendusi nagu meediakirjaoskus, märgistamise nõue ja päritolu tõendamine. Lõpeta põhjendatud järeldusega.
 
 </details>
+
+### 🚪 Toa 5 uks
+
+<!-- class="pae-fakt" -->
+> **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 5.1, 5.2, 5.3, 5.4 ja 5.5 lukkudest järjekorras).
+
+[[OPTIK]]
+[[?]] Vihje: sõnas on 5 tähte ja see on seotud nägemise ning prillide ja läätsedega.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
+v === "optik"
+</script>
+****************************************
+🎉 **Uks avaneb!** Vaatlustorni aknad lähevad selgeks ja pikslipudrust saavad taas näod, puud ja jalgrattad. Kratt mäletab jälle, et pilt on tema jaoks arvude tabel, millest konvolutsioonivõrk leiab mustreid, piiramiskastid näitavad objektide asukohta ja et iga pilti ei tasu uskuda – võltsingu tabamiseks tuleb kontrollida allikat ja detaile. „Ma näen jälle! Ja nüüd ma tean, et ka mina võin pildi peale eksida – aitäh, et õpetasite mind kaks korda vaatama!"
+
+🌟 **Kuldne täht: S** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
+
+➡️ **Järgmine tuba:** Nõukogusaal – seal peab Kratt õppima, mis on õiglane ja kes vastutab, kui tehisaru otsustab inimeste üle.
+****************************************

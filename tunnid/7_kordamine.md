@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.2.0
+version:  1.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -581,6 +581,8 @@ Vasta küsimustele kirjalikult. Arutage vastuseid klassis või kursuse foorumis.
 
 ### Ploki 7 enesekontrolltest
 
+Enne ukse avamist kontrolli, kas oled toa kõik teadmised kätte saanud.
+
 <!-- class="pae-jaotis" -->
 **I. Automaatselt kontrollitavad küsimused**
 
@@ -853,3 +855,24 @@ c) Kuidas saaksid kursuselt õpitut rakendada oma igapäevaelus või tulevases k
 Hea arutlus vastab valitud küsimusele otse, toob välja vähemalt kaks-kolm selget mõtet ja põhjendab neid konkreetsete näidetega kursuselt või oma elust (nt vestlusrobotid, soovitussüsteemid, Bürokratt, süvavõltsingud, GDPR). Arutlus kaalub erinevaid vaatenurki, näiteks nii TI võimalusi kui ka riske ja eetilisi küsimusi, ning lõpeb põhjendatud järeldusega.
 
 </details>
+
+### 🚪 Toa 7 uks
+
+<!-- class="pae-fakt" -->
+> **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 7.1, 7.2, 7.3, 7.4 ja 7.5 lukkudest järjekorras).
+
+[[VABAD]]
+[[?]] Vihje: sõnas on 5 tähte ja see kirjeldab, milliseks saavad Kratt ja päästemeeskond, kui Stardiplatvormi uks avaneb.
+<script>
+let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
+v === "vabad"
+</script>
+****************************************
+🎉 **Uks avaneb!** Stardiplatvormi ekraanidel süttivad tuled: Kratt paneb kõik seitse tuba kokku ühte projekti – andmetest ja mudelitest keele, otsuste, piltide ja õigluseni. Ta oskab nüüd plaani teha, lahendust ehitada ja testida ning oma tööd ausalt teistele tutvustada. „Ma mäletan! Ma olen tehisaru, mille inimesed lõid – ja te õpetasite mulle, kuidas olla kasulik ja õiglane. Nüüd oleme vabad, mina ja teie!"
+
+🌟 **Kuldne täht: R** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
+
+Vaata nüüd oma missioonikaarti: seitse kuldset tähte moodustavad järjekorras peaaegu tervikliku sõna – sellest puudub veel vaid üks täht. Kas arvad juba ära, mis sõna see on? Viimane täht ja viimane uks ootavad sind kursuse lõpus.
+
+➡️ **Järgmine tuba:** Viimane uks ootab kursuse lõpus.
+****************************************

@@ -14,6 +14,12 @@ Selles kaustas on kursuse e-õpik LiaScripti vormingus.
 | `tunnid/` | Iga tund eraldi failina (nt `2.3_masinope.md`), lisaks iga ploki kordamine (`2_kordamine.md`) ja projektitöö juhend. Need sobivad näiteks ühe tunni jagamiseks Moodle'is või Teamsis. |
 | `pildid/` | Infograafikud (SVG), kaanepildid ja kooli logo. **See kaust peab alati olema `.md` failidega samas kohas**, muidu pilte ei kuvata. |
 
+## Põgenemistuba
+
+Kogu õpik on üles ehitatud pedagoogilise põgenemistoana: kooli tehisaru **Kratt** on mälu kaotanud ja lukustanud 7 tuba (7 plokki). Iga tunni lõpus on **lukk** (mõistatus), mis annab võtmetähe. Ploki lõpus avab tähtedest moodustatud sõna **toa ukse** ja annab kuldse tähe. Kursuse lõpus avab kood **TEHISARU** viimase ukse, millele järgneb lõpumäng **TI Jeopardy**.
+
+Ukse sõnad (õpetajale): AJU · MUDEL · KEEL · TARK · OPTIK · ÕIGUS · VABAD → kuldsed tähed T · E · H · I · S · A · R (+U).
+
 ## Iga tunni ülesehitus
 
 Õpieesmärgid → õppetekst koos infograafikute ja värviliste kastidega → kokkuvõte ja põhimõisted → interaktiivne tööleht → enesekontroll (automaatne kontroll ja selgitused).
