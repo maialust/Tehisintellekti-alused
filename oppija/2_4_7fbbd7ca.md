@@ -259,7 +259,7 @@ output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !imp
 
 
 <!-- class="pae-kaas" -->
-![Õpilane pildistab pargis telefoniga oksal istuvat lindu, telefoni närvivõrk märgib linnu kastiga ja tunneb selle ära rasvatihasena, sõber kirjutab kõrval vaatluse vihikusse.](../pildid/illustratsioonid/2_4.svg)
+![Õpilane pildistab pargis telefoniga oksal istuvat lindu, telefoni närvivõrk märgib linnu kastiga ja tunneb selle ära rasvatihasena, sõber kirjutab kõrval vaatluse vihikusse.](../pildid/illustratsioonid/2_4.jpg)
 
 ### Õpieesmärgid
 

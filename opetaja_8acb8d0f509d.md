@@ -433,7 +433,7 @@ Esimene plokk annab üldpildi. Teises plokis vaatame „kapoti alla“: kuidas a
 ## 1.1 Mis on tehisintellekt?
 
 <!-- class="pae-kaas" -->
-![Klassiruumis märkavad õpilased tehisintellekti igapäevastes asjades: üks avab telefoni näotuvastusega, teine saab sülearvutis videosoovitusi, kolmas kasutab nutikõlari tõlget „Hello!“ – „Tere!“ ning õpetaja osutab tahvlile küsimusega „Kus on TI?“.](pildid/illustratsioonid/1_1.svg)
+![Klassiruumis märkavad õpilased tehisintellekti igapäevastes asjades: üks avab telefoni näotuvastusega, teine saab sülearvutis videosoovitusi, kolmas kasutab nutikõlari tõlget „Hello!“ – „Tere!“ ning õpetaja osutab tahvlile küsimusega „Kus on TI?“.](pildid/illustratsioonid/1_1.jpg)
 
 ### Õpieesmärgid
 
@@ -1040,7 +1040,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 1.2 Tehisintellekti ajalugu
 
 <!-- class="pae-kaas" -->
-![Ajatelg viib läbi kolme ajastu: 1950. aastatel seisavad teadlased kapisuuruste lindirullidega arvutite kõrval, 1997. aastal mängib maletaja vana arvuti vastu malet ja tänapäeval vestleb õpilane tugitoolis telefonis vestlusrobotiga.](pildid/illustratsioonid/1_2.svg)
+![Ajatelg viib läbi kolme ajastu: 1950. aastatel seisavad teadlased kapisuuruste lindirullidega arvutite kõrval, 1997. aastal mängib maletaja vana arvuti vastu malet ja tänapäeval vestleb õpilane tugitoolis telefonis vestlusrobotiga.](pildid/illustratsioonid/1_2.jpg)
 
 ### Õpieesmärgid
 
@@ -1590,7 +1590,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 1.3 Tehisintellekti rakendused
 
 <!-- class="pae-kaas" -->
-![Linnatänaval kasutavad inimesed tehisintellekti: noor naine tõlgib telefoniga sildi „Kohvik“ sõnaks „Café“, kõnniteel sõidab kullerrobot, ema ja laps vaatavad kaardirakenduse marsruuti, tänaval sõidab auto ning kliiniku aknas uurib arst koos TI-tööriistaga röntgenpilti.](pildid/illustratsioonid/1_3.svg)
+![Linnatänaval kasutavad inimesed tehisintellekti: noor naine tõlgib telefoniga sildi „Kohvik“ sõnaks „Café“, kõnniteel sõidab kullerrobot, ema ja laps vaatavad kaardirakenduse marsruuti, tänaval sõidab auto ning kliiniku aknas uurib arst koos TI-tööriistaga röntgenpilti.](pildid/illustratsioonid/1_3.jpg)
 
 ### Õpieesmärgid
 
@@ -2633,7 +2633,7 @@ See plokk on kogu kursuse kõige tehnilisem osa, aga ära karda: kõike selgitat
 ## 2.1 Algoritmide põhimõtted
 
 <!-- class="pae-kaas" -->
-![Õpilane seisab linnatänaval ja vaatab telefonist navigatsioonirakendust, mis on leidnud sihtkohta kiireima tee (12 minutit), samal ajal kui kullerrobot ületab ülekäigurada ja sõbranna ootab tõukerattaga.](pildid/illustratsioonid/2_1.svg)
+![Õpilane seisab linnatänaval ja vaatab telefonist navigatsioonirakendust, mis on leidnud sihtkohta kiireima tee (12 minutit), samal ajal kui kullerrobot ületab ülekäigurada ja sõbranna ootab tõukerattaga.](pildid/illustratsioonid/2_1.jpg)
 
 ### Õpieesmärgid
 
@@ -3172,7 +3172,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 2.2 Andmed ja nende tähtsus
 
 <!-- class="pae-kaas" -->
-![Õpilased koguvad klassis küsitluse andmeid paberankeetidest ja sülearvutist, õpetaja osutab suurel ekraanil tabelis puuduvale väärtusele, mille kõrval on graafik ja andmekaitse lukuikoon.](pildid/illustratsioonid/2_2.svg)
+![Õpilased koguvad klassis küsitluse andmeid paberankeetidest ja sülearvutist, õpetaja osutab suurel ekraanil tabelis puuduvale väärtusele, mille kõrval on graafik ja andmekaitse lukuikoon.](pildid/illustratsioonid/2_2.jpg)
 
 ### Õpieesmärgid
 
@@ -3721,7 +3721,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 2.3 Masinõppe põhimõtted
 
 <!-- class="pae-kaas" -->
-![Noormees istub õhtul kodus kirjutuslaua taga ja lohistab kahtlase e-kirja rämpsposti kausta, õpetades nii postkasti masinõppemudelit rämpsposti ära tundma, samal ajal kui kass lebab laual.](pildid/illustratsioonid/2_3.svg)
+![Noormees istub õhtul kodus kirjutuslaua taga ja lohistab kahtlase e-kirja rämpsposti kausta, õpetades nii postkasti masinõppemudelit rämpsposti ära tundma, samal ajal kui kass lebab laual.](pildid/illustratsioonid/2_3.jpg)
 
 ### Õpieesmärgid
 
@@ -4320,7 +4320,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 2.4 Närvivõrgud ja süvaõpe
 
 <!-- class="pae-kaas" -->
-![Õpilane pildistab pargis telefoniga oksal istuvat lindu, telefoni närvivõrk märgib linnu kastiga ja tunneb selle ära rasvatihasena, sõber kirjutab kõrval vaatluse vihikusse.](pildid/illustratsioonid/2_4.svg)
+![Õpilane pildistab pargis telefoniga oksal istuvat lindu, telefoni närvivõrk märgib linnu kastiga ja tunneb selle ära rasvatihasena, sõber kirjutab kõrval vaatluse vihikusse.](pildid/illustratsioonid/2_4.jpg)
 
 ### Õpieesmärgid
 
@@ -4926,7 +4926,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 2.5 Tehisintellekti rakendused valdkondades
 
 <!-- class="pae-kaas" -->
-![Kaks arsti vaatavad haiglas suurelt ekraanilt kopsuröntgeni pilti, millel tehisintellekti tööriist on märkinud oranži ringiga kahtlase koha, taustal on klaasi taga kompuutertomograaf.](pildid/illustratsioonid/2_5.svg)
+![Kaks arsti vaatavad haiglas suurelt ekraanilt kopsuröntgeni pilti, millel tehisintellekti tööriist on märkinud oranži ringiga kahtlase koha, taustal on klaasi taga kompuutertomograaf.](pildid/illustratsioonid/2_5.jpg)
 
 ### Õpieesmärgid
 
@@ -6096,7 +6096,7 @@ Ploki lõpus on kordamise osa praktiliste ülesannete, arutelu ja ploki enesekon
 ## 3.1 Kuidas tehisintellekt mõistab keelt
 
 <!-- class="pae-kaas" -->
-![Kaks õpilast istuvad koolikoridori pingil ja üks neist kirjutab telefonis sõbrale „Homme kohvikus?“, samal ajal kui suurendatud ekraanil jagatakse sõnum osadeks, muudetakse arvudeks ja tõlgendatakse kuupäevaks, küsimuseks ja kohvikuks.](pildid/illustratsioonid/3_1.svg)
+![Kaks õpilast istuvad koolikoridori pingil ja üks neist kirjutab telefonis sõbrale „Homme kohvikus?“, samal ajal kui suurendatud ekraanil jagatakse sõnum osadeks, muudetakse arvudeks ja tõlgendatakse kuupäevaks, küsimuseks ja kohvikuks.](pildid/illustratsioonid/3_1.jpg)
 
 ### Õpieesmärgid
 
@@ -6644,7 +6644,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 3.2 Teksti analüüs ja genereerimine
 
 <!-- class="pae-kaas" -->
-![Õpilane istub õhtul kodus kirjutuslaua taga ja vaatab arvutist kõrvaklappide arvustusi, mille tehisintellekt on jaganud positiivseteks, neutraalseteks ja negatiivseteks ning koondanud lühikeseks kokkuvõtteks.](pildid/illustratsioonid/3_2.svg)
+![Õpilane istub õhtul kodus kirjutuslaua taga ja vaatab arvutist kõrvaklappide arvustusi, mille tehisintellekt on jaganud positiivseteks, neutraalseteks ja negatiivseteks ning koondanud lühikeseks kokkuvõtteks.](pildid/illustratsioonid/3_2.jpg)
 
 ### Õpieesmärgid
 
@@ -7205,7 +7205,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 3.3 Vestlusagendid ja vestlusrobotid
 
 <!-- class="pae-kaas" -->
-![Vanaema küsib köögilaua taga tahvelarvutis vestlusrobotilt, mida teha aeguva ID-kaardiga, ja lapselaps kontrollib roboti vastust oma telefonis ametlikust allikast.](pildid/illustratsioonid/3_3.svg)
+![Vanaema küsib köögilaua taga tahvelarvutis vestlusrobotilt, mida teha aeguva ID-kaardiga, ja lapselaps kontrollib roboti vastust oma telefonis ametlikust allikast.](pildid/illustratsioonid/3_3.jpg)
 
 ### Õpieesmärgid
 
@@ -7734,7 +7734,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 3.4 Masintõlge ja keeletehnoloogiad
 
 <!-- class="pae-kaas" -->
-![Noor turist suunab välismaa tänavakohviku ees telefoni kaamera võõras kirjas menüütahvlile ja näeb eestikeelset tõlget, samal ajal kui tema sõbranna kuuleb kõrvaklapist kokka tervituse tõlget „Tere tulemast!“.](pildid/illustratsioonid/3_4.svg)
+![Noor turist suunab välismaa tänavakohviku ees telefoni kaamera võõras kirjas menüütahvlile ja näeb eestikeelset tõlget, samal ajal kui tema sõbranna kuuleb kõrvaklapist kokka tervituse tõlget „Tere tulemast!“.](pildid/illustratsioonid/3_4.jpg)
 
 ### Õpieesmärgid
 
@@ -8910,7 +8910,7 @@ Ploki lõpus ootavad sind praktilised rühmatööd, aruteluküsimused ja ploki e
 ## 4.1 Probleemilahendus ja otsustuspuud
 
 <!-- class="pae-kaas" -->
-![Õpilane seisab hommikul koolikotiga avatud ukse juures, vaatab telefonist vihmaprognoosi ja sirutab käe vihmavarju poole, samal ajal kui õhus on otsustuspuu, mille harud viivad vihmavarju või päikese juurde.](pildid/illustratsioonid/4_1.svg)
+![Õpilane seisab hommikul koolikotiga avatud ukse juures, vaatab telefonist vihmaprognoosi ja sirutab käe vihmavarju poole, samal ajal kui õhus on otsustuspuu, mille harud viivad vihmavarju või päikese juurde.](pildid/illustratsioonid/4_1.jpg)
 
 ### Õpieesmärgid
 
@@ -9531,7 +9531,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 4.2 Ekspertsüsteemid ja reeglistikud
 
 <!-- class="pae-kaas" -->
-![Arst istub vastuvõtul patsiendi vastas ja osutab arvutiekraanile, kus ekspertsüsteem küsib „Palavik?“ ning kõrval on reeglid „KUI palavik“, „JA köha“, „SIIS gripp?“.](pildid/illustratsioonid/4_2.svg)
+![Arst istub vastuvõtul patsiendi vastas ja osutab arvutiekraanile, kus ekspertsüsteem küsib „Palavik?“ ning kõrval on reeglid „KUI palavik“, „JA köha“, „SIIS gripp?“.](pildid/illustratsioonid/4_2.jpg)
 
 ### Õpieesmärgid
 
@@ -10109,7 +10109,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 4.3 Soovitussüsteemid
 
 <!-- class="pae-kaas" -->
-![Õpilane istub õhtul diivanil telefoniga, teler ja telefon soovitavad talle aina sarnaseid videoid, mis tiirlevad tema ümber mullis, samal ajal kui raamat, muusika, maailm ja kunst jäävad mullist välja.](pildid/illustratsioonid/4_3.svg)
+![Õpilane istub õhtul diivanil telefoniga, teler ja telefon soovitavad talle aina sarnaseid videoid, mis tiirlevad tema ümber mullis, samal ajal kui raamat, muusika, maailm ja kunst jäävad mullist välja.](pildid/illustratsioonid/4_3.jpg)
 
 ### Õpieesmärgid
 
@@ -10688,7 +10688,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 4.4 Tehisintellekti probleemilahendus eri valdkondades
 
 <!-- class="pae-kaas" -->
-![Kolm tehisintellekti kasutajat eri valdkondadest: põllumees vaatab tahvelarvutist drooni tehtud põllupilti, logistik osutab kaardile, mis näitab kiireimat marsruuti, ja pankur näeb ekraanil pettusehoiatust kahtlase kaarditehingu kohta.](pildid/illustratsioonid/4_4.svg)
+![Kolm tehisintellekti kasutajat eri valdkondadest: põllumees vaatab tahvelarvutist drooni tehtud põllupilti, logistik osutab kaardile, mis näitab kiireimat marsruuti, ja pankur näeb ekraanil pettusehoiatust kahtlase kaarditehingu kohta.](pildid/illustratsioonid/4_4.jpg)
 
 ### Õpieesmärgid
 
@@ -11884,7 +11884,7 @@ Selles plokis uurid, kuidas arvuti pildist üldse midagi „näeb“, kui tema j
 ## 5.1 Kuidas tehisintellekt näeb pilte
 
 <!-- class="pae-kaas" -->
-![Õpilane pildistab koolihoovis telefoniga karikakart, pilt laguneb värvilisteks piksliruutudeks ja telefoniekraanil tunneb tehisintellekt lille ära kui karikakra 94-protsendilise kindlusega.](pildid/illustratsioonid/5_1.svg)
+![Õpilane pildistab koolihoovis telefoniga karikakart, pilt laguneb värvilisteks piksliruutudeks ja telefoniekraanil tunneb tehisintellekt lille ära kui karikakra 94-protsendilise kindlusega.](pildid/illustratsioonid/5_1.jpg)
 
 ### Õpieesmärgid
 
@@ -12423,7 +12423,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 5.2 Objekti- ja näotuvastus
 
 <!-- class="pae-kaas" -->
-![Ristmikul jälgib kaamera tänavat ning tehisintellekt on märkinud värviliste kastidega auto, jalgratturi ja koera koos siltidega, samal ajal kui jalakäija ootab koeraga ülekäigurajal.](pildid/illustratsioonid/5_2.svg)
+![Ristmikul jälgib kaamera tänavat ning tehisintellekt on märkinud värviliste kastidega auto, jalgratturi ja koera koos siltidega, samal ajal kui jalakäija ootab koeraga ülekäigurajal.](pildid/illustratsioonid/5_2.jpg)
 
 ### Õpieesmärgid
 
@@ -12916,7 +12916,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 5.3 Meditsiiniline pildianalüüs
 
 <!-- class="pae-kaas" -->
-![Arst osutab suurel ekraanil kopsu röntgenpildile, kus tehisintellekt on märkinud kahtlase koha, kõrvalekraanil näitab TI abiline oma leidu ja teine arst vaatab tulemust tahvelarvutist.](pildid/illustratsioonid/5_3.svg)
+![Arst osutab suurel ekraanil kopsu röntgenpildile, kus tehisintellekt on märkinud kahtlase koha, kõrvalekraanil näitab TI abiline oma leidu ja teine arst vaatab tulemust tahvelarvutist.](pildid/illustratsioonid/5_3.jpg)
 
 ### Õpieesmärgid
 
@@ -13433,7 +13433,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 5.4 Generatiivne tehisintellekt ja loovus
 
 <!-- class="pae-kaas" -->
-![Kunstiklassis kirjutab õpilane pildigeneraatorisse „kass skafandris“ ning suurel ekraanil tekib mürast samm-sammult kass skafandris, samal ajal kui üks klassikaaslane maalib molbertil ja teine võrdleb oma käsitsi joonistatud kassi masina loodud pildiga.](pildid/illustratsioonid/5_4.svg)
+![Kunstiklassis kirjutab õpilane pildigeneraatorisse „kass skafandris“ ning suurel ekraanil tekib mürast samm-sammult kass skafandris, samal ajal kui üks klassikaaslane maalib molbertil ja teine võrdleb oma käsitsi joonistatud kassi masina loodud pildiga.](pildid/illustratsioonid/5_4.jpg)
 
 ### Õpieesmärgid
 
@@ -13996,7 +13996,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 5.5 Süvavõltsingud ja pildimanipulatsioon
 
 <!-- class="pae-kaas" -->
-![Klassiruumis uurivad õpilased suurelt ekraanilt videot, kus koolidirektor justkui teatab koolivabast päevast, luup ja numbrid märgivad kahtlasi kohti, õpetaja osutab ekraanile ja tahvlil on kontrollnimekiri.](pildid/illustratsioonid/5_5.svg)
+![Klassiruumis uurivad õpilased suurelt ekraanilt videot, kus koolidirektor justkui teatab koolivabast päevast, luup ja numbrid märgivad kahtlasi kohti, õpetaja osutab ekraanile ja tahvlil on kontrollnimekiri.](pildid/illustratsioonid/5_5.jpg)
 
 ### Õpieesmärgid
 
@@ -15162,7 +15162,7 @@ Ploki lõpus on kordamise osa praktiliste ülesannete, aruteluküsimuste ja plok
 ## 6.1 Eetilised põhimõtted
 
 <!-- class="pae-kaas" -->
-![Õpilased ja õpetajad arutavad koolis laua ümber tehisaru kasutamise kasu ja riske ning suurel ekraanil on kaalud, mille ühel pool on kasu ja teisel pool risk.](pildid/illustratsioonid/6_1.svg)
+![Õpilased ja õpetajad arutavad koolis laua ümber tehisaru kasutamise kasu ja riske ning suurel ekraanil on kaalud, mille ühel pool on kasu ja teisel pool risk.](pildid/illustratsioonid/6_1.jpg)
 
 ### Õpieesmärgid
 
@@ -15790,7 +15790,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 6.2 Privaatsus ja andmekaitse
 
 <!-- class="pae-kaas" -->
-![Noormees istub õhtul oma toas voodiäärel ja kõhkleb, kas lubada uuel rakendusel kasutada tema asukohta, kaamerat ja kontaktandmeid, mis liiguksid edasi pilveserverisse.](pildid/illustratsioonid/6_2.svg)
+![Noormees istub õhtul oma toas voodiäärel ja kõhkleb, kas lubada uuel rakendusel kasutada tema asukohta, kaamerat ja kontaktandmeid, mis liiguksid edasi pilveserverisse.](pildid/illustratsioonid/6_2.jpg)
 
 ### Õpieesmärgid
 
@@ -16175,7 +16175,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 6.3 Kallutatus ja õiglus
 
 <!-- class="pae-kaas" -->
-![Tööle kandideerijad ootavad ooteruumis, samal ajal kui suurel ekraanil sorteerib tehisaru nende CV-sid ja kaalud näitavad, et mõni rühm jääb ebaõiglaselt kõrvale.](pildid/illustratsioonid/6_3.svg)
+![Tööle kandideerijad ootavad ooteruumis, samal ajal kui suurel ekraanil sorteerib tehisaru nende CV-sid ja kaalud näitavad, et mõni rühm jääb ebaõiglaselt kõrvale.](pildid/illustratsioonid/6_3.jpg)
 
 ### Õpieesmärgid
 
@@ -16589,7 +16589,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 6.4 Mõju tööturule
 
 <!-- class="pae-kaas" -->
-![Logistikalaos õpetab kogenud töötaja noort praktikanti tahvelarvutist isesõitvate kärude marsruute jälgima, kolleeg kontrollib seinaekraanilt töö kulgu ja sadamavaatega akna all sõidavad kastidega robotkärud.](pildid/illustratsioonid/6_4.svg)
+![Logistikalaos õpetab kogenud töötaja noort praktikanti tahvelarvutist isesõitvate kärude marsruute jälgima, kolleeg kontrollib seinaekraanilt töö kulgu ja sadamavaatega akna all sõidavad kastidega robotkärud.](pildid/illustratsioonid/6_4.jpg)
 
 ### Õpieesmärgid
 
@@ -17075,7 +17075,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 6.5 Tulevikutrendid
 
 <!-- class="pae-kaas" -->
-![Kolm noort seisavad õhtul Tallinna vaateplatvormil ja arutavad tuleviku üle: linnas sõidab isejuhtiv buss, õhus lendab pakiga droon ning ajajoonel on märgitud täna, aasta 2030 ja küsimärk.](pildid/illustratsioonid/6_5.svg)
+![Kolm noort seisavad õhtul Tallinna vaateplatvormil ja arutavad tuleviku üle: linnas sõidab isejuhtiv buss, õhus lendab pakiga droon ning ajajoonel on märgitud täna, aasta 2030 ja küsimärk.](pildid/illustratsioonid/6_5.jpg)
 
 ### Õpieesmärgid
 
@@ -18223,7 +18223,7 @@ Ploki lõpust leiad ka **projektitöö juhendi**, **õpiportfoolio malli** ning 
 ## 7.1 Kursuse kokkuvõte
 
 <!-- class="pae-kaas" -->
-![Koridoris uurivad õpilased seinale pandud kuue kursuseploki plakatit, ühendavad neid oranži nööriga, teevad telefoniga pilti ja märgivad tahvelarvutis linnukestega, mida nad nüüd oskavad, samal ajal kui õpetaja kohvitassiga pealt vaatab.](pildid/illustratsioonid/7_1.svg)
+![Koridoris uurivad õpilased seinale pandud kuue kursuseploki plakatit, ühendavad neid oranži nööriga, teevad telefoniga pilti ja märgivad tahvelarvutis linnukestega, mida nad nüüd oskavad, samal ajal kui õpetaja kohvitassiga pealt vaatab.](pildid/illustratsioonid/7_1.jpg)
 
 ### Õpieesmärgid
 
@@ -18679,7 +18679,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 7.2 Projektitöö planeerimine
 
 <!-- class="pae-kaas" -->
-![Klassiruumis planeerib õpilaste rühm projekti: üks kirjutab tahvlile ajakava, teised istuvad laua taga sülearvuti, kalendri ja kleepmärkmetega ning õpetaja kuulab nende ideid.](pildid/illustratsioonid/7_2.svg)
+![Klassiruumis planeerib õpilaste rühm projekti: üks kirjutab tahvlile ajakava, teised istuvad laua taga sülearvuti, kalendri ja kleepmärkmetega ning õpetaja kuulab nende ideid.](pildid/illustratsioonid/7_2.jpg)
 
 ### Õpieesmärgid
 
@@ -19200,7 +19200,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 7.3 Projektitöö arendamine
 
 <!-- class="pae-kaas" -->
-![Arvutiklassis arendab rühm prügi sorteerivat TI-rakendust: üks õpilane pildistab pudelit andmestiku jaoks, kaks treenivad ja testivad mudelit arvutiekraanidel, kus kaamerapilt tunneb ära pudeli, ning neljas dokumenteerib täpsuse kasvu graafikut.](pildid/illustratsioonid/7_3.svg)
+![Arvutiklassis arendab rühm prügi sorteerivat TI-rakendust: üks õpilane pildistab pudelit andmestiku jaoks, kaks treenivad ja testivad mudelit arvutiekraanidel, kus kaamerapilt tunneb ära pudeli, ning neljas dokumenteerib täpsuse kasvu graafikut.](pildid/illustratsioonid/7_3.jpg)
 
 ### Õpieesmärgid
 
@@ -19657,7 +19657,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 7.4 Projektitöö esitlemine
 
 <!-- class="pae-kaas" -->
-![Pimendatud klassis esitleb kaheliikmeline rühm projekti: üks osutab tulemuste graafikule, teine näitab kaamera ees purki, mille TI-mudel ekraanil ära tunneb, kuulajad tõstavad küsimuseks kätt ja õpetaja hindab esitlust hindamislehel.](pildid/illustratsioonid/7_4.svg)
+![Pimendatud klassis esitleb kaheliikmeline rühm projekti: üks osutab tulemuste graafikule, teine näitab kaamera ees purki, mille TI-mudel ekraanil ära tunneb, kuulajad tõstavad küsimuseks kätt ja õpetaja hindab esitlust hindamislehel.](pildid/illustratsioonid/7_4.jpg)
 
 ### Õpieesmärgid
 
@@ -20144,7 +20144,7 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 7.5 Projektitööde esitlemine ja kursuse lõpetamine
 
 <!-- class="pae-kaas" -->
-![Vanikutega kaunistatud klassis kinnitab õpilane tagasisidetahvlile kleepmärkme, õpetaja ulatab teisele õpilasele lõputunnistuse, kaaslased plaksutavad ning laual on tort ja sülearvuti valmis projektikaustaga.](pildid/illustratsioonid/7_5.svg)
+![Vanikutega kaunistatud klassis kinnitab õpilane tagasisidetahvlile kleepmärkme, õpetaja ulatab teisele õpilasele lõputunnistuse, kaaslased plaksutavad ning laual on tort ja sülearvuti valmis projektikaustaga.](pildid/illustratsioonid/7_5.jpg)
 
 ### Õpieesmärgid
 

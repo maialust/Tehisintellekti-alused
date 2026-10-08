@@ -433,7 +433,7 @@ Esimene plokk annab üldpildi. Teises plokis vaatame „kapoti alla“: kuidas a
 ## 1.1 Mis on tehisintellekt?
 
 <!-- class="pae-kaas" -->
-![Klassiruumis märkavad õpilased tehisintellekti igapäevastes asjades: üks avab telefoni näotuvastusega, teine saab sülearvutis videosoovitusi, kolmas kasutab nutikõlari tõlget „Hello!“ – „Tere!“ ning õpetaja osutab tahvlile küsimusega „Kus on TI?“.](pildid/illustratsioonid/1_1.svg)
+![Klassiruumis märkavad õpilased tehisintellekti igapäevastes asjades: üks avab telefoni näotuvastusega, teine saab sülearvutis videosoovitusi, kolmas kasutab nutikõlari tõlget „Hello!“ – „Tere!“ ning õpetaja osutab tahvlile küsimusega „Kus on TI?“.](pildid/illustratsioonid/1_1.jpg)
 
 ### Õpieesmärgid
 
