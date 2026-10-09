@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.5.0
+version:  2.0.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -245,6 +245,22 @@ details summary { cursor: pointer; font-weight: bold; color: var(--pae-oranz-tum
 output.lia-script[input="submit"] { display:inline-block !important; background:#002959; color:#fff !important; font-weight:700; padding:.6em 1.2em; border-radius:999px; border:3px solid #FF8B48 !important; cursor:pointer; box-shadow:0 3px 10px rgba(0,41,89,.2); }
 output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !important; }
 
+/* Lihtsalt öeldes (ettelugemisega) */
+section.pae-lihtne { background:#EAF6EE; border:2px solid #2E8B57; border-left:10px solid #2E8B57; border-radius:14px; padding:.9em 1.3em; margin:1.2em 0; font-size:1.05em; line-height:1.6; box-shadow:0 3px 10px rgba(0,41,89,.08); }
+section.pae-lihtne p { margin:.5em 0; }
+:root.lia-variant-dark section.pae-lihtne, :root.lia-variant-dark section.pae-lihtne * { color:#1d2433 !important; }
+
+/* Sõnastiku hüpikselgitus */
+.pae-term { border-bottom:2px dotted #FF8B48; cursor:help; position:relative; outline:none; }
+.pae-term:hover::after, .pae-term:focus::after {
+  content: attr(data-def); position:absolute; left:0; top:1.7em; z-index:999;
+  width:max-content; max-width:min(320px, 80vw); white-space:normal;
+  background:#002959; color:#fff; padding:.55em .8em; border-radius:10px;
+  font-size:15px; line-height:1.45; font-weight:400; font-style:normal;
+  box-shadow:0 6px 18px rgba(0,41,89,.3); border-left:5px solid #FF8B48;
+}
+.pae-fakt .pae-term:hover::after, .pae-fakt .pae-term:focus::after { color:#fff !important; }
+
 @end
 
 @custom
@@ -262,6 +278,77 @@ output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !imp
 ![4. ploki kaanepilt](../pildid/plokk_4/plokk_4_kaas.svg)
 
 Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
+
+### 🔬 4. ploki TI-labor: Kuidas algoritm minu eest otsustab?
+
+<!-- class="pae-motle" -->
+> **Uurimisküsimus:** Kui täpselt suudab meie endi koostatud otsustuspuu uusi näiteid liigitada ja kui kiiresti hakkab soovitusalgoritm meile pakkuma ainult ühe teema sisu?
+
+**Eesmärk:** Koostad rühmas klassi andmetest lihtsa otsustuspuu ja mõõdad selle täpsust uute näidetega. Seejärel uurid katsega, kuidas soovitusalgoritm sinu tegevusele reageerib ja kuidas tekib filtrimull.
+
+**Vaja läheb:** paber ja pliiats või [draw.io](https://app.diagrams.net/) puu joonistamiseks; arvuti, kus saab avada **privaatse akna** (Chrome'is inkognito aken, Firefoxis ja Edge'is privaatne aken), ja YouTube; ~45 min, 3-liikmeline rühm
+
+**Rollid:** katsetaja, protokollija, kriitik (vahetage rolle)
+
+<!-- class="pae-lisaks" -->
+> **🔒 Privaatsus kõigepealt**
+>
+> - Ära logi YouTube'i ega Google'isse sisse ja ära kasuta oma kontot. Tee katse värskes privaatses aknas ja sulge aken kohe pärast katset.
+> - Ära kirjuta otsingusse oma nime ega muid isikuandmeid.
+> - Otsustuspuu andmetes kasuta ainult tegelasi, filme või toite – mitte klassikaaslaste andmeid.
+> - Vali neutraalne teema, mille õpetaja on heaks kiitnud.
+
+<!-- class="pae-jaotis" -->
+**1. Hüpotees**
+
+Kirjutage enne katset üles kaks oletust: a) mitu viiest uuest näitest teie otsustuspuu õigesti liigitab; b) mitu kümnest YouTube'i soovitusest on teie teemal pärast 10 minutit vaatamist.
+
+[[___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**2. Katse**
+
+**A. Otsustuspuu (~20 min)**
+
+1. Valige teema ja koostage tabel 20 näitega, nt 20 multifilmitegelast, filmi või toitu. Märkige iga näite juurde 3–4 jah/ei-tunnust (nt „Kas on loom?“, „Kas oskab lennata?“, „Kas on pärit Eestist?“) ja klass, mida puu peab ennustama (nt „kangelane“ või „pahalane“, „magus“ või „soolane“).
+2. Pange 5 näidet kõrvale – need on **testandmed**. Ülejäänud 15 näite põhjal ehitage paberil või draw.io-s otsustuspuu: valige juuretipuks tunnus, mis jagab näited kõige ühtlasemateks rühmadeks, ja jätkake, kuni lehtedes on ainult ühe klassi näited.
+3. Laske puul liigitada 5 testnäidet ja arvutage täpsus: õigete vastuste arv : 5.
+
+**B. Soovitusalgoritmi eksperiment (~15 min)**
+
+4. Avage värske privaatne aken ja YouTube **ilma sisselogimiseta**. Kirjutage üles avalehe 10 esimest soovitust. Kui avaleht on tühi, avage ükskõik milline video ja kirjutage üles selle kõrval või all olevad 10 soovitust. See on algseis.
+5. Valige üks neutraalne teema (nt kassid, korvpall, Lego, kokkamine). Otsige ja vaadake 10 minutit ainult selle teema videoid; klõpsake ka soovitatud videotel, kui need on samal teemal.
+6. Pärast 5 ja pärast 10 minutit loendage, mitu soovitust kümnest on teie teemal. Seejärel sulgege privaatne aken.
+
+<!-- data-type="none" -->
+| Katse | Mida muutsid | Tulemus | Märkus |
+|---|---|---|---|
+| 1 | otsustuspuu, 5 testnäidet | täpsus: … / 5 | |
+| 2 | YouTube, algseis (0 min) | teemal … / 10 soovitusest | |
+| 3 | YouTube, 5 min ühte teemat | teemal … / 10 soovitusest | |
+| 4 | YouTube, 10 min ühte teemat | teemal … / 10 soovitusest | |
+
+<!-- class="pae-jaotis" -->
+**3. Analüüs**
+
+- Kas teie hüpoteesid pidasid paika? Mida näitavad tulemused selle kohta, kuidas algoritm teie eest otsustab?
+- Kui puu eksis testnäidetega, siis miks? Kas puu oli 15 treeningnäitega liiga hästi kohandunud (ülesobitamine) või puudus mõni oluline tunnus?
+- Millised on teie katse piirangud (nt väike andmehulk, ainult üks platvorm, YouTube'i algoritm on salajane, ainult ühe rühma tulemus)? Mida peaks tegema, et järeldus oleks usaldusväärsem?
+
+[[___ ___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**4. Laboriaruanne portfooliosse**
+
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita Moodle'is.
+
+<!-- data-type="none" -->
+| Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
+|---|---|---|---|
+| Hüpotees ja katse | Mõlemad hüpoteesid on kontrollitavad; mõlemad katseosad on tehtud juhendi järgi | Hüpoteesid on olemas; katses on väikesi kõrvalekaldeid | Hüpotees puudub või katse jäi pooleli |
+| Andmed ja tulemused | Tabel on täielik; puu täpsus ja soovituste muutus on õigesti arvutatud ja selgelt esitatud | Enamik andmeid on olemas; arvutustes on väikesi vigu | Andmed on puudulikud või segased |
+| Järeldus ja piirangud | Järeldus tugineb andmetele ja on seotud ülesobitamise ning filtrimulliga; nimetatud on vähemalt kaks piirangut | Järeldus on olemas; nimetatud on üks piirang | Järeldus ei tulene andmetest; piiranguid pole nimetatud |
+| Koostöö ja ohutus | Rollid vahetusid; keegi ei loginud sisse ega kasutanud isikuandmeid | Rollid ei vahetunud, kuid ohutusreegleid järgiti | Ohutusreegleid rikuti (nt logiti oma kontoga sisse) |
 
 ### Praktilised ülesanded
 
@@ -303,9 +390,9 @@ Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **prakti
 
 **Kasulikud lingid:**
 
-- [Draw.io – diagrammide loomise tööriist](https://app.diagrams.net/)
-- [Lucidchart – diagrammide loomise tööriist](https://www.lucidchart.com/)
-- [Decision Trees in Machine Learning – Towards Data Science](https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052)
+- [draw.io – diagrammide loomise tööriist](https://app.diagrams.net/)
+- [R2D3: A visual introduction to machine learning](https://r2d3.us/visual-intro-to-machine-learning-part-1/)
+- [scikit-learn: Decision Trees](https://scikit-learn.org/1.4/modules/tree.html)
 
 Kirjelda lühidalt oma rühma otsustuspuud ja seda, mida sa ülesande käigus õppisid.
 
@@ -353,9 +440,9 @@ Kirjelda lühidalt oma rühma otsustuspuud ja seda, mida sa ülesande käigus õ
 
 **Kasulikud lingid:**
 
-- [Expert Systems – Introduction – Tutorialspoint](https://www.tutorialspoint.com/artificial_intelligence/artificial_intelligence_expert_systems.htm)
-- [Building a Simple Expert System – GeeksforGeeks](https://www.geeksforgeeks.org/building-a-simple-expert-system/)
-- [Experta – Python Expert Systems Library](https://github.com/nilp0inter/experta)
+- [Encyclopaedia Britannica: Expert system](https://www.britannica.com/technology/expert-system)
+- [MYCIN-i raamat: Rule-Based Expert Systems (tasuta peatükid)](https://people.dbmi.columbia.edu/~ehs7001/Buchanan-Shortliffe-1984/MYCIN%20Book.htm)
+- [Experta – Pythoni ekspertsüsteemide teek](https://github.com/nilp0inter/experta)
 
 Kirjuta siia kolm oma rühma reeglit ja kirjelda, kuidas su ekspertsüsteem testimisel toimis.
 
@@ -402,9 +489,9 @@ Kirjuta siia kolm oma rühma reeglit ja kirjelda, kuidas su ekspertsüsteem test
 
 **Kasulikud lingid:**
 
-- [How Do Recommendation Systems Work? – Towards Data Science](https://towardsdatascience.com/how-do-recommendation-systems-work-d1e229ca2f3c)
-- [Recommendation Systems – IBM Developer](https://developer.ibm.com/technologies/artificial-intelligence/articles/introduction-to-recommender-systems/)
-- [The Ethics of Recommendation Systems – Harvard Business Review](https://hbr.org/2021/03/the-ethics-of-recommendation-systems)
+- [Google for Developers: Recommendation systems](https://developers.google.com/machine-learning/recommendation)
+- [Euroopa Komisjon: digiteenuste määrus](https://digital-strategy.ec.europa.eu/et/policies/digital-services-act)
+- [Music-Map – koostööfiltreerimisel põhinev muusikakaart](https://www.music-map.com/)
 
 Kirjelda, mida sa analüüsitud soovitussüsteemi ja filtrimulli kohta teada said. Kas see muudab, kuidas sa ise seda rakendust kasutad?
 
@@ -453,9 +540,9 @@ Kirjelda, mida sa analüüsitud soovitussüsteemi ja filtrimulli kohta teada sai
 
 **Kasulikud lingid:**
 
-- [The Trolley Problem in AI – MIT Technology Review](https://www.technologyreview.com/2018/10/24/139313/a-global-ethics-study-aims-to-help-ai-solve-the-self-driving-trolley-problem/)
-- [AI Decision-Making – Stanford University](https://hai.stanford.edu/news/ai-decision-making)
-- [Ethics of Artificial Intelligence – UNESCO](https://en.unesco.org/artificial-intelligence/ethics)
+- [Moral Machine – MIT Media Lab](https://www.media.mit.edu/projects/moral-machine/)
+- [UNESCO: Recommendation on the Ethics of Artificial Intelligence (UNESCO Uus-Meremaa ülevaade)](https://unesco.org.nz/knowledge-hub/ethics-of-artificial-intelligence-recommendation)
+- [Euroopa Komisjon: tehisintellekti käsitlev õigusakt](https://digital-strategy.ec.europa.eu/et/policies/regulatory-framework-ai)
 
 Milline roll oli sinul ja millised väärtused läksid sinu rühmas omavahel kõige rohkem vastuollu?
 
@@ -502,10 +589,8 @@ Milline roll oli sinul ja millised väärtused läksid sinu rühmas omavahel kõ
 
 **Kasulikud lingid:**
 
-- [AI for Good – United Nations](https://aiforgood.itu.int/)
-- [AI for Social Good – Google](https://ai.google/social-good/)
-- [Solving Global Challenges with AI – World Economic Forum](https://www.weforum.org/agenda/2020/01/ai-for-good-global-challenges/)
-- [AI for Sustainable Development Goals – ITU](https://www.itu.int/en/ITU-T/AI/Pages/ai4sdgs.aspx)
+- [AI for Good – ITU (ÜRO)](https://aiforgood.itu.int/about-ai-for-good)
+- [IRCAI Global Top 100 – kestliku arengu eesmärke toetavad TI-projektid](https://ircai.org/project/ircai-global-top-100-2022-report/)
 
 Kirjelda lühidalt oma rühma lahendust. Millisesse teise rühma lahendusse sa „investeeriksid“ ja miks?
 
@@ -690,7 +775,7 @@ let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["mullifilter", "mullifiltriks", "mullifiltri", "filtrimull", "filtrimulliks", "filter bubble"].includes(v)
 </script>
 ****************************************
-Õige vastus: **filtrimull** (ka filtrimull). See tekib tagasisideahelast: mida rohkem sa üht teemat vaatad, seda rohkem süsteem seda sulle pakub.
+Õige vastus: **filtrimull** (ka mullifilter). See tekib tagasisideahelast: mida rohkem sa üht teemat vaatad, seda rohkem süsteem seda sulle pakub.
 ****************************************
 
 **10. Mis on tehisintellekti kontekstis „musta kasti“ probleem otsustamisel?**
@@ -871,10 +956,14 @@ Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega. 
 
 <!-- data-solution-button="off" -->
 [[TARK]]
-[[?]] Vihje: sõnas on 4 tähte ja see on seotud selle toa teemaga – sellist otsust tahaks masinalt igaüks.
+[[?]] Vihje 1: Kas kirjutasid iga luku võtmetähe üles? Pane tundide 4.1, 4.2, 4.3 ja 4.4 tähed järjekorras kõrvuti.
+[[?]] Vihje 2: Sõnas on 4 tähte, see algab T-ga ja on seotud selle toa teemaga – sellist otsust tahaks masinalt igaüks.
+[[?]] 🛟 Päästerõngas: mine tagasi lehtedele „🔐 Lukk 4.1“, „🔐 Lukk 4.2“, „🔐 Lukk 4.3“ ja „🔐 Lukk 4.4“ ja loe igaühe lõpus lõik „Sinu võtmetäht“. Kui ikka ei tule välja, küsi õpetajalt selle ukse päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI254") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "tark"
+}
 </script>
 ****************************************
 ![Kratt](../pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Labürindi sildid „JAH“ ja „EI“ süttivad korraga põlema ning moodustavad selge otsustuspuu, mis juhatab väljapääsuni. Kratt mäletab nüüd jälle, kuidas otsida teed olekuruumis, kuidas rakendada „KUI … SIIS …“ reegleid ja kuidas soovitada sisu, ilma et keegi filtrimulli kinni jääks. „Tänan teid!“ hüüab Kratt. „Nüüd ma tean: tark otsus ei ole kiire arvamine, vaid hea küsimuste ahel – ja lõpliku otsuse jätan ma tähtsates asjades ikkagi inimesele.“

@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.5.0
+version:  2.0.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -245,6 +245,22 @@ details summary { cursor: pointer; font-weight: bold; color: var(--pae-oranz-tum
 output.lia-script[input="submit"] { display:inline-block !important; background:#002959; color:#fff !important; font-weight:700; padding:.6em 1.2em; border-radius:999px; border:3px solid #FF8B48 !important; cursor:pointer; box-shadow:0 3px 10px rgba(0,41,89,.2); }
 output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !important; }
 
+/* Lihtsalt öeldes (ettelugemisega) */
+section.pae-lihtne { background:#EAF6EE; border:2px solid #2E8B57; border-left:10px solid #2E8B57; border-radius:14px; padding:.9em 1.3em; margin:1.2em 0; font-size:1.05em; line-height:1.6; box-shadow:0 3px 10px rgba(0,41,89,.08); }
+section.pae-lihtne p { margin:.5em 0; }
+:root.lia-variant-dark section.pae-lihtne, :root.lia-variant-dark section.pae-lihtne * { color:#1d2433 !important; }
+
+/* Sõnastiku hüpikselgitus */
+.pae-term { border-bottom:2px dotted #FF8B48; cursor:help; position:relative; outline:none; }
+.pae-term:hover::after, .pae-term:focus::after {
+  content: attr(data-def); position:absolute; left:0; top:1.7em; z-index:999;
+  width:max-content; max-width:min(320px, 80vw); white-space:normal;
+  background:#002959; color:#fff; padding:.55em .8em; border-radius:10px;
+  font-size:15px; line-height:1.45; font-weight:400; font-style:normal;
+  box-shadow:0 6px 18px rgba(0,41,89,.3); border-left:5px solid #FF8B48;
+}
+.pae-fakt .pae-term:hover::after, .pae-fakt .pae-term:focus::after { color:#fff !important; }
+
 @end
 
 @custom
@@ -259,17 +275,37 @@ output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !imp
 
 
 <!-- class="pae-kaas" -->
-![Õpilane pildistab pargis telefoniga oksal istuvat lindu, telefoni närvivõrk märgib linnu kastiga ja tunneb selle ära rasvatihasena, sõber kirjutab kõrval vaatluse vihikusse.](../pildid/illustratsioonid/2_4.jpg)
+![Sügisene park jõe ääres: õpilane pildistab telefoniga oksal istuvat rasvatihast, telefoni ekraanil on lind märgitud kastiga ja õhus hõljuvad helendavad sõlmed näitavad närvivõrku, mis on leidnud linnu pea, tiiva ja kõhu tunnused.](../pildid/illustratsioonid/2_4.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- oskad selgitada, mis on tehisnärvivõrk ja millest see on inspireeritud;
-- tead, kuidas töötab üks tehisneuron: mis on kaalud, nihe, kaalutud summa ja aktivatsioonifunktsioon;
-- oskad kirjeldada närvivõrgu kihte (sisendkiht, peidetud kihid, väljundkiht);
-- saad aru, kuidas närvivõrk õpib oma vigadest (tagasilevi ja gradientlaskumine);
-- tead, mis on süvaõpe, tunned selle peamisi arhitektuure, läbimurdeid ja väljakutseid.
+- **selgitad oma sõnadega**, mis on tehisnärvivõrk ja kuidas see õpib oma vigadest *(mõistmine)*;
+- **rakendad** <span class="pae-term" tabindex="0" data-def="tehisneuron: Närvivõrgu põhiüksus, mis võtab sisendid, töötleb neid ja annab väljundi">tehisneuroni</span> mõisteid (sisendid, <span class="pae-term" tabindex="0" data-def="kaal: Arv, mis näitab sisendi olulisust neuroni jaoks">kaalud</span>, <span class="pae-term" tabindex="0" data-def="nihe: Lisaarv, mis mõjutab, kui kergesti neuron „süttib“">nihe</span>, <span class="pae-term" tabindex="0" data-def="aktivatsioonifunktsioon: Funktsioon, mis määrab, kas ja kui tugevalt neuron „süttib“">aktivatsioonifunktsioon</span>) igapäevase otsuse kirjeldamiseks *(rakendamine)*;
+- **eristad** närvivõrgu kihte (sisendkiht, peidetud kihid, väljundkiht) ja **analüüsid**, mida iga kiht teeb *(analüüs)*;
+- **katsetad** TensorFlow Playgroundis kihtide, neuronite arvu ja <span class="pae-term" tabindex="0" data-def="õppimiskiirus: Hüperparameeter, mis määrab kaalude muutmise sammu suuruse">õppimiskiiruse</span> muutmist ning **põhjendad** tulemuste põhjal, mis mõjutab närvivõrgu õppimist *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Mis on tehisnärvivõrk?“, „Tehisneuron: kaalud, nihe ja aktivatsioon“, „Kihid: neuronitest võrguks“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „<span class="pae-term" tabindex="0" data-def="närvivõrk: Omavahel ühendatud tehisneuronitest koosnev arvutusmudel">Närvivõrk</span> õpib punkte eristama“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Närvivõrgu idee on võetud inimese ajust, kuid see ei ole päris aju. Närvivõrk koosneb väikestest arvutustest ehk tehisneuronitest. Iga neuron saab sisendeid ja igal sisendil on oma kaal. Kaal näitab, kui tähtis see sisend on. Näiteks otsustad, kas minna sõbra sünnipäevale: sõbrad on tähtsamad kui ilm. Aktivatsioonifunktsioon otsustab, millise signaali neuron edasi saadab. Neuronid on kihtides: sisendkiht, peidetud kihid ja väljundkiht. Õppimise ajal muudab võrk ise oma kaale, et vastused oleksid paremad.
+
+**Tähtsad sõnad:** **närvivõrk** – ajust inspireeritud arvutusmudel, mis õpib andmetest; **kaal** – arv, mis näitab sisendi tähtsust; **aktivatsioonifunktsioon** – reegel, mis otsustab, mida neuron edasi saadab; **kiht** – neuronite rühm samal tasemel.
+
+</section>
 
 ### Mis on tehisnärvivõrk?
 
@@ -290,8 +326,9 @@ Närvivõrkude ajalugu on pikk:
 
 - **1943** – Warren McCulloch ja Walter Pitts kirjeldasid esimese tehisneuroni mudeli;
 - **1958** – Frank Rosenblatt lõi **pertseptroni**, lihtsa õppiva närvivõrgu;
-- **1980.–1990. aastad** – levis **tagasilevi** algoritm, mis võimaldas treenida mitmekihilisi võrke;
-- **2010. aastad** – arvutusvõimsuse kasv ja suured andmehulgad tõid kaasa süvaõppe läbimurde.
+- **1980.–1990. aastad** – levis **<span class="pae-term" tabindex="0" data-def="tagasilevi: Algoritm, mis arvutab, kuidas muuta kaalusid vea vähendamiseks">tagasilevi</span>** algoritm, mis võimaldas treenida mitmekihilisi võrke;
+- **2010. aastad** – arvutusvõimsuse kasv ja suured andmehulgad tõid kaasa süvaõppe läbimurde;
+- **2024** – John Hopfield ja Geoffrey Hinton said tehisnärvivõrkudel põhineva masinõppe alusuuringute eest Nobeli füüsikaauhinna.
 
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Esimese tehisneuroni mudeli kirjeldasid Warren McCulloch ja Walter Pitts juba **1943. aastal** – rohkem kui 80 aastat tagasi. Süvaõppe läbimurdeni jõuti alles 2010. aastatel, kui arvutid said piisavalt võimsaks.
@@ -313,7 +350,7 @@ Need on neuroni **sisendid**. Kuid kõik põhjused ei ole võrdselt olulised. S�
 >
 > **Kaal** on arv, mis näitab, kui oluline on üks sisend neuroni jaoks. Suur positiivne kaal tähendab „see sisend räägib tugevalt poolt“, negatiivne kaal „see räägib vastu“. **Nihe** (*bias*) on lisaarv, mis näitab neuroni üldist kalduvust – kui kergesti ta „süttib“ isegi siis, kui sisendid on nõrgad. Kaalud ja nihked on need väärtused, mida närvivõrk treenimise käigus õpib.
 
-Neuron arvutab **kaalutud summa**: iga sisend korrutatakse oma kaaluga, tulemused liidetakse ja lõpuks lisatakse nihe.
+Neuron arvutab **<span class="pae-term" tabindex="0" data-def="kaalutud summa: Sisendite ja kaalude korrutiste summa koos nihkega">kaalutud summa</span>**: iga sisend korrutatakse oma kaaluga, tulemused liidetakse ja lõpuks lisatakse nihe.
 
 ```
   kaalutud summa = sisend1 × kaal1 + sisend2 × kaal2 + sisend3 × kaal3 + nihe
@@ -350,7 +387,7 @@ Miks on aktivatsioonifunktsiooni üldse vaja? Ilma selleta oleks kogu võrk, ük
 ![Närvivõrk, kus kolm sisendkihi neuronit on ühendatud nelja peidetud kihi neuroniga ja need omakorda ühe väljundneuroniga; iga ring on neuron ja iga joon on oma kaaluga ühendus.](../pildid/plokk_2/2_4_kihid.svg "Joonis 2.4.4. Sisendkiht, peidetud kiht ja väljundkiht")
 
 - **Sisendkiht** võtab vastu algandmed – näiteks pildi pikslite heleduse, õppimistundide arvu või sõnad. Sisendkiht ise midagi ei arvuta, ta lihtsalt annab andmed edasi.
-- **Peidetud kihid** töötlevad andmeid. Neid nimetatakse peidetuks, sest me ei näe otse, mida need sisaldavad. Iga peidetud kiht leiab andmetest järjest keerukamaid tunnuseid.
+- **Peidetud kihid** töötlevad andmeid. Neid nimetatakse peidetuks, sest me ei näe otse, mida need sisaldavad. Iga <span class="pae-term" tabindex="0" data-def="peidetud kiht: Sisend- ja väljundkihi vahel olev kiht, mis töötleb andmeid">peidetud kiht</span> leiab andmetest järjest keerukamaid tunnuseid.
 - **Väljundkiht** annab lõpptulemuse – näiteks „see on number 5“ või „tõenäosus, et õpilane sooritab eksami, on 85%“.
 
 Kui info liigub ainult ühes suunas sisendist väljundi poole, on tegu **edasisuunatud võrguga** (*feedforward*). **Rekurrentsetes võrkudes** võib info liikuda ka tsüklis tagasi, mis annab võrgule omamoodi mälu.
@@ -362,14 +399,14 @@ Närvivõrgus on kahte liiki väärtusi. **Kaalud ja nihked** õpib võrk treeni
 >
 > Kujuta ette närvivõrku, mis peab ennustama, kas õpilane sooritab eksami. Millised oleksid sisendkihi neuronid? Mitu neuronit peaks olema väljundkihis? Mida võiksid peidetud kihid sinu arvates „märgata“?
 
-### Kuidas närvivõrk õpib: viga, tagasilevi ja gradientlaskumine
+### ➕ Kuidas närvivõrk õpib: viga, tagasilevi ja gradientlaskumine
 
 Alguses on närvivõrgu kaalud juhuslikud ja võrk „arvab“ täiesti suvaliselt. Treenimise eesmärk on leida sellised kaalud ja nihked, et võrgu vastused oleksid võimalikult õiged. Treenimine käib tsüklina, mida korratakse tuhandeid või miljoneid kordi:
 
 ![Ringikujuline tsükkel neljast sammust: edasilevi, vea arvutamine, tagasilevi ja kaalude uuendamine; ringi keskel on kirjas, et tsükkel kordub tuhandeid kordi.](../pildid/plokk_2/2_4_treenimistsykkel.svg "Joonis 2.4.5. Närvivõrgu treenimistsükkel")
 
 1. **Edasilevi** – sisendandmed liiguvad läbi võrgu kiht kihi haaval ja võrk annab ennustuse.
-2. **Vea arvutamine** – võrgu vastust võrreldakse õige vastusega. Seda, kui suur on viga, mõõdab **kaofunktsioon** (ehk veafunktsioon). Mida väiksem on kadu, seda parem.
+2. **Vea arvutamine** – võrgu vastust võrreldakse õige vastusega. Seda, kui suur on viga, mõõdab **<span class="pae-term" tabindex="0" data-def="kaofunktsioon: Funktsioon, mis mõõdab, kui suur on võrgu viga">kaofunktsioon</span>** (ehk veafunktsioon). Mida väiksem on kadu, seda parem.
 3. **Tagasilevi** (*backpropagation*) – viga „levitatakse“ väljundkihist tagasi sisendi poole ja iga kaalu kohta arvutatakse, kui palju see vea tekkimisele kaasa aitas.
 4. **Kaalude uuendamine** – iga kaalu muudetakse natuke selles suunas, mis viga vähendab.
 
@@ -383,7 +420,7 @@ Alguses on närvivõrgu kaalud juhuslikud ja võrk „arvab“ täiesti suvalise
 >
 > Klient kaebab, et supp on liiga soolane. Peakokk ei karista kogu kööki ühtemoodi, vaid uurib ahelat tagurpidi: kes supi serveeris, kes maitsestas, kes puljongi keetis. Kes vea tekkimisele rohkem kaasa aitas, peab oma tegevust rohkem muutma. Nii teeb ka tagasilevi: kaalud, mis vea tekkimises suuremat rolli mängisid, saavad suurema paranduse.
 
-Kuidas aga teada, millises suunas kaalu muuta? Seda teeb **gradientlaskumine**. Kujuta ette, et seisad paksus udus mäenõlval ja tahad jõuda orgu (kõige väiksema veani). Sa ei näe kaugele, aga tunned jalgadega, kuhu poole maapind langeb. Teed sammu allamäge, tunned uuesti, teed järgmise sammu – ja nii kuni jõuad oru põhja.
+Kuidas aga teada, millises suunas kaalu muuta? Seda teeb **<span class="pae-term" tabindex="0" data-def="gradientlaskumine: Kaalude järkjärguline muutmine vea vähenemise suunas">gradientlaskumine</span>**. Kujuta ette, et seisad paksus udus mäenõlval ja tahad jõuda orgu (kõige väiksema veani). Sa ei näe kaugele, aga tunned jalgadega, kuhu poole maapind langeb. Teed sammu allamäge, tunned uuesti, teed järgmise sammu – ja nii kuni jõuad oru põhja.
 
 ![Veakõver, mida mööda pall liigub samm-sammult allamäge: alguses on viga suur, teel on väike lohk ehk lokaalne miinimum ja lõpus oru põhi, kus viga on väikseim.](../pildid/plokk_2/2_4_gradient.svg "Joonis 2.4.6. Gradientlaskumine: samm-sammult väiksema vea poole")
 
@@ -391,7 +428,7 @@ Gradient on lihtsalt „kalle“ – see näitab, millises suunas viga kõige ki
 
 Väga oluline on **sammu pikkus** ehk **õppimiskiirus** (*learning rate*). Kui sammud on liiga suured, võid hüpata orust üle ja kõikuda edasi-tagasi. Kui liiga väikesed, jõuad orgu väga aeglaselt. Õppimiskiirus on hüperparameeter.
 
-Kui võrk on kogu treeningandmestiku ühe korra läbi vaadanud, on möödunud üks **epohh**. Tavaliselt treenitakse paljude epohhide jooksul, kuni viga enam ei vähene – nagu loeksid õpikut mitu korda läbi. Praktikas ei vaadata kõiki andmeid korraga, vaid väikeste portsjonitena (**minipartiidena**); kui kaalusid uuendatakse iga üksiku näite järel, nimetatakse seda stohhastiliseks gradientlaskumiseks.
+Kui võrk on kogu treeningandmestiku ühe korra läbi vaadanud, on möödunud üks **<span class="pae-term" tabindex="0" data-def="epohh: Kogu treeningandmestiku üks täielik läbimine">epohh</span>**. Tavaliselt treenitakse paljude epohhide jooksul, kuni viga enam ei vähene – nagu loeksid õpikut mitu korda läbi. Praktikas ei vaadata kõiki andmeid korraga, vaid väikeste portsjonitena (**minipartiidena**); kui kaalusid uuendatakse iga üksiku näite järel, nimetatakse seda stohhastiliseks gradientlaskumiseks.
 
 <!-- data-type="linechart" data-title="Näide: võrgu viga treenimise ajal" -->
 | Epohh | Viga |
@@ -414,10 +451,10 @@ Treenimisel võib tekkida probleeme:
 - **lokaalne miinimum** – gradientlaskumine võib jääda kinni väikesesse „lohku“, mis ei ole kõige sügavam org;
 - **aeglane treenimine** – suurte võrkude treenimine võib kesta päevi või nädalaid; abi on nutikamatest optimeerijatest (nt Adam) ja võimsamast riistvarast.
 
-### Süvaõpe ja selle arhitektuurid
+### ➕ Süvaõpe ja selle arhitektuurid
 
 <!-- class="pae-moiste" -->
-> **Mõiste: süvaõpe**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="süvaõpe: Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke">süvaõpe</span>**
 >
 > **Süvaõpe** (*deep learning*) on masinõppe alamvaldkond, mis kasutab **mitme peidetud kihiga närvivõrke** (süvanärvivõrke). Sõna „süva“ viitab kihtide rohkusele ehk võrgu „sügavusele“, mitte mõtete sügavusele.
 
@@ -438,7 +475,7 @@ Eri ülesannete jaoks on välja töötatud eri tüüpi võrgud ehk **arhitektuur
 
 Transformerite läbimurre algas 2017. aastal teadusartikliga „Attention Is All You Need“ („Tähelepanu on kõik, mida vajad“). Tähelepanumehhanismi saab ette kujutada nii: lauses „Mari pani raamatu kotti, sest **see** oli raske“ peab mudel aru saama, et „see“ viitab raamatule, mitte kotile ega Marile. Tähelepanumehhanism aitab mudelil leida, millised sõnad on omavahel seotud, isegi kui need on lauses kaugel.
 
-### Läbimurded, väljakutsed ja süvaõpe Eestis
+### ➕ Läbimurded, väljakutsed ja süvaõpe Eestis
 
 Süvaõpe on toonud kaasa rea läbimurdeid:
 
@@ -446,7 +483,7 @@ Süvaõpe on toonud kaasa rea läbimurdeid:
 - **AlphaGo (2016)** – esimene TI-programm, mis võitis Go-mängus maailma tipptasemel mängijat. Go võimalike seisude arv on astronoomiline, nii et kõiki variante ei saa läbi arvutada. AlphaGo ühendas süvaõppe ja stiimulõppe.
 - **GPT-mudelid** (*Generative Pre-trained Transformer*) ja **BERT** – transformeril põhinevad keelemudelid, mis suudavad luua inimesesarnast teksti, vastata küsimustele, tõlkida ja kirjutada koodi. GPT iga uus versioon on olnud eelmisest võimekam.
 - **DALL-E, Midjourney ja Stable Diffusion** – mudelid, mis loovad tekstikirjelduse põhjal pilte.
-- **AlphaFold** – ennustab valkude ruumilist struktuuri; see on aidanud lahendada probleemi, millega teadlased maadlesid aastakümneid, ja võib kiirendada ravimite arendamist.
+- **AlphaFold** – ennustab valkude ruumilist struktuuri; see on aidanud lahendada probleemi, millega teadlased maadlesid aastakümneid, ja võib kiirendada ravimite arendamist. 2024. aastal said selle loojad Demis Hassabis ja John Jumper Nobeli keemiaauhinna.
 
 Süvaõpet kasutatakse **arvutinägemises** (pildituvastus, näotuvastus), **loomuliku keele töötluses** (masintõlge, tekstide meeleolu analüüs, küsimustele vastamine) ja **generatiivses TI-s**, mis loob uut teksti, pilte, muusikat ja videot.
 
@@ -466,7 +503,7 @@ Süvaõppe mudeleid ehitatakse tavaliselt raamistikega nagu TensorFlow, PyTorch,
 > - **Tartu Ülikooli** arvutiteaduse instituudis arendatakse süvanärvivõrkudel põhinevat eestikeelset kõnetuvastust ja masintõlget.
 > - **Tallinna Tehnikaülikooli** teadlased kasutavad süvaõpet tööstusprotsesside optimeerimiseks ja targa linna lahendustes.
 > - **Milrem Robotics** kasutab süvaõpet autonoomsete robotsõidukite juhtimises.
-> - **Bolt** kasutab süvaõpet nõudluse ennustamiseks ja hindade määramiseks.
+> - **Bolt** kasutab masinõpet nõudluse ennustamiseks ja hindade määramiseks.
 > - **Veriff** kasutab süvanärvivõrke näotuvastuseks ja dokumentide ehtsuse kontrollimiseks.
 > - **Texta** arendab eestikeelse teksti analüüsi lahendusi ja **Feelingstream** analüüsib klienditeeninduse vestlusi, et tuvastada kliendirahulolu ja probleeme.
 
@@ -476,6 +513,23 @@ Tulevikus püütakse luua tõhusamaid mudeleid, mis vajavad vähem andmeid ja en
 > **Tea lisaks**
 >
 > Närvivõrguga saad ise katsetada veebilehel **TensorFlow Playground** (playground.tensorflow.org). Seal saad lisada ja eemaldada kihte ja neuroneid, valida aktivatsioonifunktsiooni ja õppimiskiirust ning vaadata otse, kuidas võrk õpib punkte õigesti eristama. Proovi, mis juhtub, kui õppimiskiirus on liiga suur!
+
+### 🧪 TI-katse: närvivõrk õpib punkte eristama
+
+Närvivõrgu õppimist saab vaadata otse brauseris. Katsetad, kuidas peidetud kihid, neuronite arv ja õppimiskiirus mõjutavad seda, kas võrk suudab sinised ja oranžid punktid teineteisest eraldada.
+
+**Vaja läheb:** TensorFlow Playground ([playground.tensorflow.org](https://playground.tensorflow.org/)), ~10 min, paaristöö
+
+1. Ava leht. Vali vasakul andmestik **ringid** (sinised punktid keskel, oranžid ümber) ja vajuta ▶. Vaata, kuidas taust värvub ja kuidas viga testandmetel (*Test loss*) väheneb. Peata umbes 300 epohhi järel.
+2. Vajuta ↺ (lähtesta) ja eemalda „−“ nupuga kõik peidetud kihid. Käivita uuesti. Kas võrk ilma peidetud kihita suudab ringe eristada?
+3. Vali kõige raskem andmestik **spiraal**. Lisa kihte ja neuroneid ning proovi õppimiskiirust (*Learning rate*) 0,03 ja 3. Kirjuta üles parim saavutatud *Test loss* ja võrgu ehitus.
+
+**Pane tähele / kirjuta üles:** Miks ei saanud ilma peidetud kihita ringe eristada? Milline ehitus lahendas spiraali? Mis juhtus liiga suure õppimiskiirusega?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** Arvutage paberil „sünnipäeva-neuroni“ kaalutud summa kõigi kaheksa sisendikombinatsiooni korral (sõbrad, ilm ja kontrolltöö on kas 0 või 1) ja märkige, millal neuron „süttib“. Arutage, mis muutuks, kui nihe oleks −2 asemel 0.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -504,10 +558,18 @@ Tulevikus püütakse luua tõhusamaid mudeleid, mis vajavad vähem andmeid ja en
 | Epohh | Kogu treeningandmestiku üks täielik läbimine |
 | Süvaõpe | Masinõpe mitme peidetud kihiga närvivõrkudega |
 
+### 📚 Allikad ja lisalugemine
+
+- TensorFlow (vaadatud 2026). [TensorFlow Playground](https://playground.tensorflow.org/). Brauseris töötav närvivõrgu „liivakast“: saad muuta kihte, neuroneid, aktivatsioonifunktsiooni ja õppimiskiirust.
+- 3Blue1Brown (vaadatud 2026). [Neural networks](https://3blue1brown.com/lessons/neural-networks). Ingliskeelne visuaalne video ja tekst neuronitest, kihtidest, kaaludest ja nihetest käsitsi kirjutatud numbrite näitel – sobib lisalugemiseks.
+- Rootsi Kuninglik Teaduste Akadeemia (2024). [The Nobel Prize in Physics 2024. Press release](https://www.nobelprize.org/prizes/physics/2024/press-release/). Hopfield ja Hinton said Nobeli auhinna tehisnärvivõrkudel põhineva masinõppe alusuuringute eest.
+- Google DeepMind (2024). [Demis Hassabis & John Jumper awarded Nobel Prize in Chemistry](https://deepmind.google/discover/blog/demis-hassabis-john-jumper-awarded-nobel-prize-in-chemistry/). AlphaFold ja selle kasutamine teaduses.
+- Vaswani, A. jt (2017). [Attention Is All You Need](https://arxiv.org/abs/1706.03762). Teadusartikkel, milles tutvustati transformeri arhitektuuri (edasijõudnutele).
+
 ### Tööleht 2.4
 
 <!-- class="pae-jaotis" -->
-**I. Närvivõrkude põhimõisted**
+**➕ I. Närvivõrkude põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on tehisnärvivõrk.
 
@@ -534,7 +596,7 @@ Neuron on põhiline töötlusüksus ja kiht on neuronite rühm. Kaalud näitavad
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Närvivõrgu struktuur**
+**⭐ II. Närvivõrgu struktuur**
 
 **Ülesanne 3.** Vaata närvivõrgu joonist ja ühenda tähed õigete osadega.
 
@@ -593,7 +655,7 @@ Joonista paberile oma lihtne närvivõrgu skeem ja märgista sellel sisendkiht, 
 [[___]]
 
 <!-- class="pae-jaotis" -->
-**III. Närvivõrkude treenimine**
+**➕ III. Närvivõrkude treenimine**
 
 **Ülesanne 6.** Kirjelda närvivõrgu treenimise protsessi.
 
@@ -643,7 +705,7 @@ Joonista paberile oma lihtne närvivõrgu skeem ja märgista sellel sisendkiht, 
 [[___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Süvaõpe ja selle rakendused**
+**➕ IV. Süvaõpe ja selle rakendused**
 
 **Ülesanne 9.** Mis on süvaõpe ja kuidas see erineb traditsioonilisest masinõppest?
 
@@ -694,7 +756,7 @@ Joonista paberile oma lihtne närvivõrgu skeem ja märgista sellel sisendkiht, 
 [[___]]
 
 <!-- class="pae-jaotis" -->
-**V. Praktiline ülesanne**
+**⭐ V. Praktiline ülesanne**
 
 **Ülesanne 12.** Külasta veebilehte [playground.tensorflow.org](https://playground.tensorflow.org) ja katseta närvivõrkudega.
 
@@ -727,7 +789,7 @@ Joonista paberile oma lihtne närvivõrgu skeem ja märgista sellel sisendkiht, 
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Süvaõppe eetilised aspektid**
+**⭐ VI. Süvaõppe eetilised aspektid**
 
 **Ülesanne 14.** Millised eetilised küsimused kaasnevad süvaõppe kasutamisega? Nimeta vähemalt kolm.
 
@@ -738,7 +800,7 @@ Joonista paberile oma lihtne närvivõrgu skeem ja märgista sellel sisendkiht, 
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Arutelu**
+**➕ VII. Arutelu**
 
 **Ülesanne 16.** Millised on süvaõppe tulevikusuunad ja võimalikud läbimurded?
 
@@ -832,30 +894,85 @@ Gradientlaskumine on nagu udus mäelt alla orgu minek: kaugele ei näe, aga jalg
 
 </details>
 
+### 📤 Väljapääsupilet 2.4
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.4'] = ["Telefoni neuron otsustab, kas lülitada ekraan öörežiimi. Nimeta kaks sisendit ja selgita, kas nende kaal võiks olla positiivne või negatiivne.", "Mida muutis TensorFlow Playgroundis peidetud kihtide lisamine või õppimiskiiruse suurendamine?", "Mis jäi kaalude, nihke või aktivatsioonifunktsiooni juures kõige segasemaks?"];
+setTimeout(function(){var d=window.paePilet.load('2.4');document.querySelectorAll('[data-pilet="2.4"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="2.4" name="nimi" oninput="window.paePilet.save('2.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Telefoni neuron otsustab, kas lülitada ekraan öörežiimi. Nimeta kaks sisendit ja selgita, kas nende kaal võiks olla positiivne või negatiivne.</div><textarea data-pilet="2.4" name="q0" oninput="window.paePilet.save('2.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mida muutis TensorFlow Playgroundis peidetud kihtide lisamine või õppimiskiiruse suurendamine?</div><textarea data-pilet="2.4" name="q1" oninput="window.paePilet.save('2.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi kaalude, nihke või aktivatsioonifunktsiooni juures kõige segasemaks?</div><textarea data-pilet="2.4" name="q2" oninput="window.paePilet.save('2.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('2.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('2.4')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_2.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 2.4
 
 <!-- class="pae-naide" -->
 > ![Kratt](../pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Üks mu tehisneuronitest on ärganud, aga ta ei mäleta, kuidas arvutada! Ilma temata ei saa ma otsustada, kas lukk avaneb.“
 
-Lukk avaneb, kui lahendad mõistatuse. Arvuta, millise väljundi annab tehisneuron, ja kirjuta see arv lahtrisse.
+Lukk avaneb, kui lahendad ülesande. Kooli nutika kasvuhoone ventilaatorit juhib üks tehisneuron: mida suurem on neuroni väljund, seda tugevamalt ventilaator puhub. Arvuta tunnis õpitud meetodiga, millise väljundi neuron praegu annab, ja kirjuta see arv lahtrisse.
 
-| | Sisend | Kaal |
-|---|---|---|
-| 1. sisend | 2 | 4 |
-| 2. sisend | 1 | −2 |
-| 3. sisend | 3 | 1 |
+<!-- data-type="none" -->
+| | Mida sisend näitab | Sisend | Kaal |
+|---|---|---|---|
+| 1. sisend | mitu kraadi on temperatuur normist kõrgem | 2 | 4 |
+| 2. sisend | kas uks on lahti (1 = jah); lahtine uks juba jahutab | 1 | −2 |
+| 3. sisend | päikesepaiste tugevus (0–5) | 3 | 1 |
 
 Nihe on **−3** ja aktivatsioonifunktsioon on **ReLU**.
 
 <!-- data-solution-button="off" -->
 [[6]]
-[[?]] Vihje: korruta iga sisend oma kaaluga, liida tulemused kokku ja lisa nihe. Seejärel mõtle, mida ReLU positiivse arvuga teeb.
+[[?]] Vihje 1: Mida tuleb iga sisendiga teha enne liitmist? Kas nihe liidetakse ka? Mida teeb lõpuks ReLU?
+[[?]] Vihje 2: Kaalutud summa on 2 × 4 + 1 × (−2) + 3 × 1 + (−3). ReLU jätab positiivse arvu samaks ja muudab negatiivse arvu nulliks.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Tehisneuron: kaalud, nihe ja aktivatsioon“ ja loe lõik sünnipäevale mineku arvutusnäitega ning ReLU kirjeldus. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI674") { true } else {
 let v = `@input`.trim().replace(",", ".").replace("−", "-");
 Number(v) === 6
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Kaalutud summa on 2 × 4 + 1 × (−2) + 3 × 1 + (−3) = 6 ja kuna see on positiivne, jätab ReLU selle samaks – neuron „süttib“ tugevusega 6.
+✅ **Lukk avatud!** Kaalutud summa on 2 × 4 + 1 × (−2) + 3 × 1 + (−3) = 8 − 2 + 3 − 3 = 6 ja kuna see on positiivne, jätab ReLU selle samaks – neuron „süttib“ tugevusega 6 ja ventilaator hakkab puhuma.
 
 🔑 **Sinu võtmetäht: E**
 

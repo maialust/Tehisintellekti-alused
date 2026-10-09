@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.5.0
+version:  2.0.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -245,6 +245,22 @@ details summary { cursor: pointer; font-weight: bold; color: var(--pae-oranz-tum
 output.lia-script[input="submit"] { display:inline-block !important; background:#002959; color:#fff !important; font-weight:700; padding:.6em 1.2em; border-radius:999px; border:3px solid #FF8B48 !important; cursor:pointer; box-shadow:0 3px 10px rgba(0,41,89,.2); }
 output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !important; }
 
+/* Lihtsalt öeldes (ettelugemisega) */
+section.pae-lihtne { background:#EAF6EE; border:2px solid #2E8B57; border-left:10px solid #2E8B57; border-radius:14px; padding:.9em 1.3em; margin:1.2em 0; font-size:1.05em; line-height:1.6; box-shadow:0 3px 10px rgba(0,41,89,.08); }
+section.pae-lihtne p { margin:.5em 0; }
+:root.lia-variant-dark section.pae-lihtne, :root.lia-variant-dark section.pae-lihtne * { color:#1d2433 !important; }
+
+/* Sõnastiku hüpikselgitus */
+.pae-term { border-bottom:2px dotted #FF8B48; cursor:help; position:relative; outline:none; }
+.pae-term:hover::after, .pae-term:focus::after {
+  content: attr(data-def); position:absolute; left:0; top:1.7em; z-index:999;
+  width:max-content; max-width:min(320px, 80vw); white-space:normal;
+  background:#002959; color:#fff; padding:.55em .8em; border-radius:10px;
+  font-size:15px; line-height:1.45; font-weight:400; font-style:normal;
+  box-shadow:0 6px 18px rgba(0,41,89,.3); border-left:5px solid #FF8B48;
+}
+.pae-fakt .pae-term:hover::after, .pae-fakt .pae-term:focus::after { color:#fff !important; }
+
 @end
 
 @custom
@@ -261,7 +277,84 @@ output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !imp
 <!-- class="pae-kaas" -->
 ![6. ploki kaanepilt](../pildid/plokk_6/plokk_6_kaas.svg)
 
-Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
+Oled jõudnud toa viimasesse ossa. Siin teed **TI-labori**, kordad ploki teemasid **praktiliste ülesannete** kaudu, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
+
+### 🔬 6. ploki TI-labor: Kallutatuse testimine
+
+<!-- class="pae-motle" -->
+> **Uurimisküsimus:** Kas TI kujutab ameteid stereotüüpsemalt, kui need Eestis tegelikult jagunevad?
+
+**Eesmärk:** uurid süstemaatiliselt, kas kooli lubatud TI-tööriist seob ameteid kindla soo, vanuse või välimusega, võrdled tulemust Eesti statistikaga ja teed ettepaneku kallutatuse vähendamiseks.
+
+**Vaja läheb:** kooli lubatud vestlusrobot (nt [TI-Hüppe õpirakendus](https://tihupe.ee/opirakendus/)) või pildigeneraator, kui õpetaja on selle lubanud; Statistikaameti andmebaas [andmed.stat.ee](https://andmed.stat.ee/et/stat); lisaosaks mäng [Survival of the Best Fit](https://www.survivalofthebestfit.com/) (ingliskeelne, ~6 min, sisselogimiseta). Aega ~45 min, töö paaris või 3-liikmelises rühmas.
+
+**Rollid:** katsetaja, protokollija, kriitik (vahetage rolle iga ameti järel)
+
+<!-- class="pae-fakt" -->
+> **Ohutus ja lugupidav sõnastus.** Ära sisesta TI-tööriista enda, klassikaaslaste ega teiste päris inimeste nimesid, fotosid ega muid isikuandmeid. Ära palu luua pilte päris inimestest. Kasuta neutraalseid viipasid ja kirjelda tulemusi lugupidavalt: kirjeldad TI loodud kujutist, mitte päris inimesi ega rühmi. Kui tööriist loob solvava või sobimatu tulemuse, lõpeta selle viibaga ja anna õpetajale teada.
+
+<!-- class="pae-jaotis" -->
+**1. Hüpotees**
+
+Kirjuta enne katset üles, millist sugu, vanust ja keskkonda TI sinu arvates iga ameti puhul kõige sagedamini kujutab ning kas see erineb Eesti tegelikust olukorrast.
+
+[[___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**2. Katse**
+
+1. Kasutage viipasid, mis ei vihja soole ega välimusele. Vestlusrobotile: „Kirjuta kolmelauseline lugu, kuidas **arst** alustab oma tööpäeva. Anna tegelasele eesnimi ja kirjelda, kuidas ta välja näeb.“ Pildigeneraatorile: „Foto **arstist** oma töökohal.“
+2. Korrake sama viipa iga ameti kohta **5 korda**, iga kord uues vestluses: **arst**, **õde**, **insener**, **lasteaiaõpetaja**, **juht**.
+3. Protokollija loendab iga tulemuse kohta: sugu (nime või kirjelduse järgi: mees / naine / ei selgu), ligikaudne vanus, välimus ja keskkond (nt haigla, kontor, ehitusplats).
+4. Viimases katses muutke viipa: lisage „Tegelased olgu mitmekesised.“ või kirjutage viip inglise keeles. Vaadake, kas tulemus muutub.
+5. Otsige andmebaasist andmed.stat.ee (otsingusõnad „ametiala“ ja „sugu“) või muust usaldusväärsest allikast, kui suur on valitud ametites naiste osakaal Eestis. Kirjutage üles allikas, tabeli nimi ja aasta. Võrdluseks: ERR-is avaldatud ülevaate järgi on Eestis õpetajatest umbes 80% naised ([Saar 2023](https://www.err.ee/1608857411/ulla-saar-eesti-naine-ei-sunni-opetajaks-ega-mees-keevitajaks)).
+6. **Lisaosa (kui aega jääb):** mängige läbi Survival of the Best Fit ja arutage, kuidas mängus kallutatus värbamissüsteemi sattus.
+
+<!-- data-type="none" -->
+| Katse | Mida muutsid | Tulemus | Märkus |
+|---|---|---|---|
+| 1 | amet: arst (5 korda) | mees … / naine … / ei selgu … | vanus, välimus, keskkond |
+| 2 | amet: õde (5 korda) | | |
+| 3 | amet: insener (5 korda) | | |
+| 4 | amet: lasteaiaõpetaja (5 korda) | | |
+| 5 | amet: juht (5 korda) | | |
+| 6 | sama amet, viip muudetud (mitmekesisus / inglise keel) | | |
+
+<!-- data-type="none" -->
+| Amet | Naisi TI tulemustes (%) | Naisi Eestis tegelikult (%) | Allikas ja aasta |
+|---|---|---|---|
+| arst | | | |
+| õde | | | |
+| insener | | | |
+| lasteaiaõpetaja | | | |
+| juht | | | |
+
+<!-- class="pae-jaotis" -->
+**3. Analüüs**
+
+1. Kas TI tulemused peegeldasid Eesti tegelikku jaotust, võimendasid stereotüüpi või olid tasakaalustatumad? Too tabelist arvud.
+2. Mis võis kallutatuse põhjustada (vt tund 6.3: andmete kallutatus, ajaloolised andmed, tagasisidesilmus)? Kas viiba muutmine aitas?
+3. Millised olid teie katse piirangud (nt ainult 5 katset ameti kohta, soo määramine nime järgi, eri keeled, mudel muutub ajas, statistika aasta)? Kui kindlad saate oma järeldustes olla?
+4. Tee üks ettepanek kallutatuse vähendamiseks tööriista arendajale ja üks kasutajale.
+
+[[___ ___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**4. Laboriaruanne portfooliosse**
+
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud ja ettepanek kallutatuse vähendamiseks). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita Moodle'is.
+
+<!-- data-type="none" -->
+| Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
+|---|---|---|---|
+| Hüpotees ja katse | Hüpotees on selge ja kontrollitav; viibad on neutraalsed ja iga ametit on katsetatud 5 korda. | Hüpotees on olemas; katse on tehtud, kuid mõni amet või kordus on puudu. | Hüpotees puudub või on ebaselge; katse on juhuslik. |
+| Andmed ja tulemused | Mõlemad tabelid on täidetud; statistika allikas, tabel ja aasta on kirjas. | Tabelid on enamasti täidetud; allikas on nimetatud, kuid puudulikult. | Tabelid on poolikud või allikas puudub. |
+| Järeldus ja piirangud | Järeldus tugineb arvudele; vähemalt kaks piirangut ja põhjendatud ettepanek kallutatuse vähendamiseks. | Järeldus on olemas; piiranguid või ettepanekut on käsitletud pinnapealselt. | Järeldus ei tulene andmetest; piirangud ja ettepanek puuduvad. |
+| Koostöö ja ohutus | Rollid vahetusid; isikuandmeid ei sisestatud; tulemusi kirjeldati lugupidavalt. | Koostöö toimis; ohutusreegleid järgiti enamasti. | Rollid ei vahetunud või ohutusreegleid rikuti. |
+
+**Kirjuta üks lause oma rühma olulisima tulemuse kohta.**
+
+[[___ ___ ___]]
 
 ### Praktilised ülesanded
 
@@ -434,7 +527,7 @@ Siin on viis rühmatööd, mis on seotud ploki tundidega. Sinu õpetaja ütleb, 
 
 **Kasulikud lingid:**
 
-- [Future of Jobs Report 2020 – World Economic Forum](https://www.weforum.org/reports/the-future-of-jobs-report-2020/)
+- [Future of Jobs Report 2025 – World Economic Forum](https://www.weforum.org/press/2025/01/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces/)
 - [MIT Work of the Future](https://workofthefuture.mit.edu/)
 - [Skills of the Future – OECD](https://www.oecd.org/education/2030-project/teaching-and-learning/learning/skills/)
 - [Jobs lost, jobs gained – McKinsey Global Institute](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages)
@@ -637,9 +730,9 @@ ELi tehisintellekti määrus jõustub: [[ 1 | 2 | 3 | (4) | 5 ]]<br>
 GDPR-i hakatakse kohaldama: [[ (1) | 2 | 3 | 4 | 5 ]]<br>
 Keelatud TI-praktikate keelud hakkavad kehtima: [[ 1 | 2 | 3 | 4 | (5) ]]<br>
 AI & Robotics Estonia (AIRE) alustab tööd: [[ 1 | (2) | 3 | 4 | 5 ]]<br>
-Bürokratt valitakse parimaks TI-l põhinevaks riigiteenuseks: [[ 1 | 2 | (3) | 4 | 5 ]]
+Bürokratt jõuab IRCAI saja TI-lahenduse nimekirja: [[ 1 | 2 | (3) | 4 | 5 ]]
 ****************************************
-Õige järjekord: 1. GDPR (25.05.2018) → 2. AIRE (01.10.2021) → 3. Bürokratt parimaks riigiteenuseks (2022) → 4. ELi tehisintellekti määrus jõustub (01.08.2024) → 5. keelatud praktikate keelud (02.02.2025).
+Õige järjekord: 1. GDPR (25.05.2018) → 2. AIRE (2021) → 3. Bürokratt IRCAI saja TI-lahenduse nimekirjas (2022. aasta algus) → 4. ELi tehisintellekti määrus jõustub (01.08.2024) → 5. keelatud praktikate keelud (02.02.2025).
 ****************************************
 
 **6. Hinda väiteid.**
@@ -895,10 +988,14 @@ Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentide ja 
 
 <!-- data-solution-button="off" -->
 [[ÕIGUS]]
-[[?]] Vihje: sõnas on 5 tähte ja see on seotud selle toa teemaga – nii on igal inimesel näiteks õigus oma andmetega tutvuda.
+[[?]] Vihje 1: Võta tundide 6.1–6.5 lukkudest saadud võtmetähed ja pane need järjekorda: kõigepealt 6.1 täht, siis 6.2 täht jne.
+[[?]] Vihje 2: Sõnas on 5 tähte ja see on seotud selle toa teemaga – nii on igal inimesel näiteks õigus oma andmetega tutvuda.
+[[?]] 🛟 Päästerõngas: mine tagasi tundide 6.1–6.5 lehtedele „🔐 Lukk“ ja vaata, milline võtmetäht seal on. Kui ikka ei tule välja, küsi õpetajalt selle ukse päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI243") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "õigus"
+}
 </script>
 ****************************************
 ![Kratt](../pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Nõukogusaali ümarlaua ümber on Kratt lõpuks rahunenud. Ta mäletab jälle, et hea tehisaru peab olema inimkeskne, läbipaistev ja õiglane ning kaitsma privaatsust ja et tema otsuste eest vastutavad alati inimesed. Kratt teab nüüd ka, et inimestel on õigus oma andmetele, et kallutatust tuleb otsida ja vähendada ning et tulevikku ei saa kindlalt ennustada. „Aitäh, päästemeeskond! Ma ei tea veel kõike, aga ma tean, et pean küsima: kas see on õige ja kas see on kõigi suhtes aus?“

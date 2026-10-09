@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.5.0
+version:  2.0.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -245,6 +245,22 @@ details summary { cursor: pointer; font-weight: bold; color: var(--pae-oranz-tum
 output.lia-script[input="submit"] { display:inline-block !important; background:#002959; color:#fff !important; font-weight:700; padding:.6em 1.2em; border-radius:999px; border:3px solid #FF8B48 !important; cursor:pointer; box-shadow:0 3px 10px rgba(0,41,89,.2); }
 output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !important; }
 
+/* Lihtsalt öeldes (ettelugemisega) */
+section.pae-lihtne { background:#EAF6EE; border:2px solid #2E8B57; border-left:10px solid #2E8B57; border-radius:14px; padding:.9em 1.3em; margin:1.2em 0; font-size:1.05em; line-height:1.6; box-shadow:0 3px 10px rgba(0,41,89,.08); }
+section.pae-lihtne p { margin:.5em 0; }
+:root.lia-variant-dark section.pae-lihtne, :root.lia-variant-dark section.pae-lihtne * { color:#1d2433 !important; }
+
+/* Sõnastiku hüpikselgitus */
+.pae-term { border-bottom:2px dotted #FF8B48; cursor:help; position:relative; outline:none; }
+.pae-term:hover::after, .pae-term:focus::after {
+  content: attr(data-def); position:absolute; left:0; top:1.7em; z-index:999;
+  width:max-content; max-width:min(320px, 80vw); white-space:normal;
+  background:#002959; color:#fff; padding:.55em .8em; border-radius:10px;
+  font-size:15px; line-height:1.45; font-weight:400; font-style:normal;
+  box-shadow:0 6px 18px rgba(0,41,89,.3); border-left:5px solid #FF8B48;
+}
+.pae-fakt .pae-term:hover::after, .pae-fakt .pae-term:focus::after { color:#fff !important; }
+
 @end
 
 @custom
@@ -265,8 +281,10 @@ output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !imp
 [[TEHISARU]]
 [[?]] Vihje: sõna on kahest osast. Esimene osa tähendab „inimese tehtud“ (nagu tehisjärv), teine osa tähendab mõistust. Kui sa ei mäleta tähtede järjekorda, vaata oma missioonikaarti: igast toast said ühe kuldse tähe.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI547") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "tehisaru"
+}
 </script>
 ****************************************
 ![Kratt](../pildid/kratt/kratt_paastetud.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Viimane uks avaneb! Kratt on päästetud!**

@@ -36,12 +36,12 @@
 <text x="875.5" y="282" font-size="20" font-weight="700" fill="#33547A" text-anchor="middle"><tspan x="875.5" dy="0">2026</tspan></text>
 <circle cx="365.625" cy="250" r="10" fill="#FF8B48"/>
 <rect x="50" y="300" width="280" height="130" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
-<text x="190" y="336" font-size="22" font-weight="800" fill="#E67E42" text-anchor="middle"><tspan x="190" dy="0">1.10.2021</tspan></text>
-<text x="190" y="372" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="190" dy="0">AIRE alustab</tspan><tspan x="190" dy="25">tegevust</tspan></text>
+<text x="190" y="336" font-size="22" font-weight="800" fill="#E67E42" text-anchor="middle"><tspan x="190" dy="0">10/2021</tspan></text>
+<text x="190" y="372" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="190" dy="0">AIRE alustab</tspan><tspan x="190" dy="25">katseliselt</tspan></text>
 <circle cx="446.25" cy="250" r="10" fill="#FF8B48"/>
 <rect x="345" y="300" width="280" height="130" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
 <text x="485" y="336" font-size="22" font-weight="800" fill="#E67E42" text-anchor="middle"><tspan x="485" dy="0">2022</tspan></text>
-<text x="485" y="372" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="485" dy="0">Bürokratt – parim</tspan><tspan x="485" dy="25">TI-põhine riigiteenus</tspan></text>
+<text x="485" y="372" font-size="20" font-weight="400" fill="#002959" text-anchor="middle"><tspan x="485" dy="0">Bürokratt IRCAI</tspan><tspan x="485" dy="25">100 TI-projekti hulgas</tspan></text>
 <circle cx="446.25" cy="250" r="10" fill="#FF8B48"/>
 <rect x="655" y="300" width="280" height="130" rx="14" fill="#FFF4EC" filter="url(#sh)"/>
 <text x="795" y="336" font-size="22" font-weight="800" fill="#E67E42" text-anchor="middle"><tspan x="795" dy="0">2022</tspan></text>

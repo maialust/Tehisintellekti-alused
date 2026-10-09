@@ -39,7 +39,8 @@
   <stop offset="0" stop-color="#FFFFFF"/><stop offset="0.4" stop-color="#BFE2FF"/><stop offset="1" stop-color="#4E9BE0"/></radialGradient>
 <clipPath id="headclip"><path d="M256 150 C365 150 418 225 418 312 C418 405 345 462 256 462 C167 462 94 405 94 312 C94 225 147 150 256 150 Z"/></clipPath>
 </defs>
-<ellipse cx="256" cy="488" rx="140" ry="16" fill="#002959" opacity="0.22" filter="url(#soft)"/>
+<ellipse cx="256" cy="488" rx="140" ry="16" fill="#002959" opacity="0.22" filter="url(#soft)"><animate attributeName="rx" values="140;124;140" dur="3.2s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></ellipse>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="3.2s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
 <path d="M108 255 Q84 233 59 222 Q84 245 108 265 Z" fill="#E2A84A" stroke="#9C6420" stroke-width="1.5"/>
 <path d="M108 259 Q84 237 59 222" fill="none" stroke="#FFF6D8" stroke-width="1.5" opacity="0.8"/>
 <path d="M108 264 Q73 242 38 231 Q73 254 108 274 Z" fill="#F5CB6E" stroke="#9C6420" stroke-width="1.5"/>
@@ -109,7 +110,7 @@
 <path d="M150 182 Q256 160 362 182" fill="none" stroke="#7FA6D3" stroke-width="4" opacity="0.6" stroke-linecap="round"/>
 <path d="M226 82 C226 46 286 46 286 82" fill="none" stroke="#001B3D" stroke-width="13" stroke-linecap="round"/>
 <path d="M230 78 C232 52 262 50 272 58" fill="none" stroke="#6F9BCB" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
-<circle cx="256" cy="36" r="34" fill="#FFB347" opacity="0.6" filter="url(#glowf)"/>
+<circle cx="256" cy="36" r="34" fill="#FFB347" opacity="0.6" filter="url(#glowf)"><animate attributeName="r" values="28;40;28" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;0.85;0.4" dur="1.8s" repeatCount="indefinite"/></circle>
 <circle cx="256" cy="36" r="24" fill="url(#spark)"/>
 <path d="M256.0 14.0 L260.4 31.6 L278.0 36.0 L260.4 40.4 L256.0 58.0 L251.6 40.4 L234.0 36.0 L251.6 31.6 Z" fill="#FFF8D6" stroke="#FF9A50" stroke-width="2" stroke-linejoin="round"/>
 <ellipse cx="256" cy="352" rx="17" ry="13" fill="#E88A48"/>
@@ -127,6 +128,7 @@
 <ellipse cx="190" cy="229.0" rx="57.2" ry="27.0" fill="#5A2E12" opacity="0.18" filter="url(#soft)"/>
 <path d="M133 221 L247 221 L247 263.2 Q190 281.2 133 263.2 Z" fill="url(#lid)"/>
 <path d="M133 263.2 Q190 281.2 247 263.2" fill="none" stroke="#5A2E12" stroke-width="5" stroke-linecap="round"/>
+<rect x="132" y="220" width="116" height="0" fill="url(#lid)"><animate attributeName="height" values="0;0;132;0;0;0;132;0;0" keyTimes="0;0.55;0.58;0.61;0.64;0.90;0.93;0.96;1" dur="6s" repeatCount="indefinite"/></rect>
 </g>
 <ellipse cx="190" cy="286" rx="52" ry="60" fill="none" stroke="#6B3414" stroke-width="3.5" opacity="0.55"/>
 <clipPath id="clipb"><ellipse cx="322" cy="286" rx="52" ry="60"/></clipPath>
@@ -141,6 +143,7 @@
 <ellipse cx="322" cy="229.0" rx="57.2" ry="27.0" fill="#5A2E12" opacity="0.18" filter="url(#soft)"/>
 <path d="M265 221 L379 221 L379 256.0 Q322 274.0 265 256.0 Z" fill="url(#lid)"/>
 <path d="M265 256.0 Q322 274.0 379 256.0" fill="none" stroke="#5A2E12" stroke-width="5" stroke-linecap="round"/>
+<rect x="264" y="220" width="116" height="0" fill="url(#lid)"><animate attributeName="height" values="0;0;132;0;0;0;132;0;0" keyTimes="0;0.55;0.58;0.61;0.64;0.90;0.93;0.96;1" dur="6s" repeatCount="indefinite"/></rect>
 </g>
 <ellipse cx="322" cy="286" rx="52" ry="60" fill="none" stroke="#6B3414" stroke-width="3.5" opacity="0.55"/>
 <path d="M158 226 Q192 222 226 230" fill="none" stroke="#7A3D12" stroke-width="17" stroke-linecap="round"/><path d="M158 226 Q192 222 226 230" fill="none" stroke="#C97A35" stroke-width="7" stroke-linecap="round" transform="translate(0 -3)" opacity="0.8"/><path d="M286 210 Q320 190 354 206" fill="none" stroke="#7A3D12" stroke-width="17" stroke-linecap="round"/><path d="M286 210 Q320 190 354 206" fill="none" stroke="#C97A35" stroke-width="7" stroke-linecap="round" transform="translate(0 -3)" opacity="0.8"/>
@@ -155,13 +158,20 @@
 <path d="M282 432 C282 410 306 400 326 410 C344 418 344 444 326 452 C308 460 284 452 282 432 Z" fill="url(#straw)" stroke="#9C6420" stroke-width="3"/>
 <path d="M286 428 C276 420 280 404 294 408" fill="url(#straw)" stroke="#9C6420" stroke-width="3"/>
 <ellipse cx="304" cy="418" rx="10" ry="5" fill="#FFF6D8" opacity="0.7"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="3.6s" repeatCount="indefinite"/>
 <circle cx="410" cy="173" r="12" fill="#9FB3CC" opacity="0.5" filter="url(#blur3)"/>
 <circle cx="410" cy="170" r="12" fill="#F4F8FC" stroke="#C3D0E0" stroke-width="2"/>
 <circle cx="406" cy="166" r="3" fill="#fff"/>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.3;0.8;1" dur="3.6s" repeatCount="indefinite"/>
 <circle cx="438" cy="131" r="18" fill="#9FB3CC" opacity="0.5" filter="url(#blur3)"/>
 <circle cx="438" cy="128" r="18" fill="#F4F8FC" stroke="#C3D0E0" stroke-width="2"/>
 <circle cx="432" cy="122" r="4" fill="#fff"/>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.5;0.8;1" dur="3.6s" repeatCount="indefinite"/>
 <circle cx="466" cy="79" r="30" fill="#9FB3CC" opacity="0.5" filter="url(#blur3)"/>
 <circle cx="466" cy="76" r="30" fill="#F4F8FC" stroke="#C3D0E0" stroke-width="2"/>
 <circle cx="456" cy="66" r="8" fill="#fff"/>
+</g>
+</g>
 </svg>

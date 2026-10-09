@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.5.0
+version:  2.0.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -245,6 +245,22 @@ details summary { cursor: pointer; font-weight: bold; color: var(--pae-oranz-tum
 output.lia-script[input="submit"] { display:inline-block !important; background:#002959; color:#fff !important; font-weight:700; padding:.6em 1.2em; border-radius:999px; border:3px solid #FF8B48 !important; cursor:pointer; box-shadow:0 3px 10px rgba(0,41,89,.2); }
 output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !important; }
 
+/* Lihtsalt öeldes (ettelugemisega) */
+section.pae-lihtne { background:#EAF6EE; border:2px solid #2E8B57; border-left:10px solid #2E8B57; border-radius:14px; padding:.9em 1.3em; margin:1.2em 0; font-size:1.05em; line-height:1.6; box-shadow:0 3px 10px rgba(0,41,89,.08); }
+section.pae-lihtne p { margin:.5em 0; }
+:root.lia-variant-dark section.pae-lihtne, :root.lia-variant-dark section.pae-lihtne * { color:#1d2433 !important; }
+
+/* Sõnastiku hüpikselgitus */
+.pae-term { border-bottom:2px dotted #FF8B48; cursor:help; position:relative; outline:none; }
+.pae-term:hover::after, .pae-term:focus::after {
+  content: attr(data-def); position:absolute; left:0; top:1.7em; z-index:999;
+  width:max-content; max-width:min(320px, 80vw); white-space:normal;
+  background:#002959; color:#fff; padding:.55em .8em; border-radius:10px;
+  font-size:15px; line-height:1.45; font-weight:400; font-style:normal;
+  box-shadow:0 6px 18px rgba(0,41,89,.3); border-left:5px solid #FF8B48;
+}
+.pae-fakt .pae-term:hover::after, .pae-fakt .pae-term:focus::after { color:#fff !important; }
+
 @end
 
 @custom
@@ -298,15 +314,52 @@ Kirjuta siia oma võtmetähed ja kuldsed tähed, et need ei kaoks. Kuidas põgen
 
 Iga **tund** on üles ehitatud ühtemoodi:
 
+<!-- data-type="none" -->
 | Osa | Mida seal teed |
 |---|---|
-| 🎯 **Õpieesmärgid** | Näed, mida tunni lõpuks oskad. |
+| 🎯 **Õpieesmärgid ja tunni tuumik** | Näed, mida tunni lõpuks oskad ja mida pead 45 minutiga kindlasti tegema. |
+| 🟢 **Lihtsalt öeldes** | Loed või kuulad tunni sisu lühidalt ja lihtsas keeles. |
 | 📚 **Õppetekst** | Loed teksti, vaatad infograafikuid ja skeeme. |
+| 🧪 **TI-katse** | Proovid tunni teemat päris tehisaru tööriistaga järele. |
 | ✅ **Kokkuvõte ja põhimõisted** | Kordad tunni olulisimad mõtted ja mõisted. |
-| ✏️ **Tööleht** | Lahendad ülesanded otse õpikus: kirjutad vastused väljadesse ja kontrollid valikülesandeid nupuga **Kontrolli**. |
+| 📚 **Allikad ja lisalugemine** | Näed, kust info pärineb, ja leiad lisalugemist. |
+| ✏️ **Tööleht** | Lahendad ülesanded otse õpikus. ⭐ tähistab tuumikülesannet. |
 | 🧠 **Enesekontroll** | Kontrollid, kas said aru. Pärast vastamist näed selgitust. |
+| 📤 **Väljapääsupilet** | Vastad kolmele küsimusele ja saadad vastused õpetajale. |
+| 🔐 **Lukk** | Rakendad õpitut uues olukorras ja saad võtmetähe. |
 
-Iga **ploki** lõpus on **kordamine**: praktilised ülesanded, aruteluküsimused ja ploki enesekontrolltest.
+Pealkirjad ja ülesanded, mille ees on **➕**, on **lisaülesanded**. Tee neid, kui jõuad, kodus või kui tahad teemat rohkem uurida.
+
+Iga **ploki** lõpus on **🔬 TI-labor** (uurimuslik katse rühmas), praktilised ülesanded, aruteluküsimused ja ploki enesekontrolltest.
+
+### 🗣️ Keeletugi: lihtne keel, sõnaselgitused ja ettelugemine
+
+- **🟢 Lihtsalt öeldes** – iga tunni alguses on lühike kokkuvõte lihtsas eesti keeles. Loe see enne õppeteksti läbi.
+- **Sõnaselgitused tekstis** – oranži täppjoonega alla joonitud sõnal on selgitus. Vii hiir sõna peale või puuduta seda telefonis. Proovi: <span class="pae-term" tabindex="0" data-def="tehisintellekt: arvutisüsteem, mis täidab ülesandeid, mis tavaliselt nõuavad inimese mõtlemist">tehisintellekt</span>.
+- **Ettelugemine** – kasti „Lihtsalt öeldes“ juures on nupp, mis loeb teksti ette. Ettelugemine kasutab sinu brauseri eestikeelset häält. Kõige paremini töötab see Microsoft Edge'is. Kui hääl kõlab võõralt, kopeeri tekst [Neurokõnesse](https://neurokone.ee) ja kuula seal.
+- **Sõnastik** – kõik mõisted on koos õpiku lõpus.
+
+### 📊 Kuidas sind hinnatakse?
+
+<!-- data-type="none" -->
+| Mida teed | Milleks see on | Kuhu esitad |
+|---|---|---|
+| 📤 **Väljapääsupiletid** (iga tund) | Kujundav hindamine: õpetaja annab tagasisidet ja näeb, mis vajab kordamist. | Moodle: kopeeri vastused või laadi fail alla |
+| 🔬 **TI-laborid** (iga plokk) | Laboriaruanne näitab, kas oskad katsetada, järeldusi teha ja piiranguid hinnata. | Moodle ja portfoolio |
+| 🧠 **Ploki enesekontrolltestid** | Kontrollid põhimõistete mõistmist. | Õpikus, õpetaja soovil Moodle'i testina |
+| 📁 **Portfoolio** | Õpipäevik (iga ploki kohta üks sissekanne), tööde näidised, TI-rakenduste analüüs, eetiline arutelu ja refleksioon. | Moodle kursuse lõpus |
+| 🚀 **Projektitöö (rühmatöö)** | Rakendad kõike õpitut. Hinne: õpetaja hinnang 70 %, vastastikhindamine 20 %, enesehindamine 10 %. | Esitlus ja aruanne |
+
+**Väljapääsupileti hindamine (kujundav):**
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+Laborite hindamismaatriksid on iga labori juures. Projektitöö hindamismudel on 7. ploki projektitöö juhendis. Portfoolio hindamiskriteeriumid annab õpetaja.
 
 ### 🗝️ Kuidas kasutada õpikut põgenemistoana?
 
@@ -316,7 +369,7 @@ Kogu õpik on **pedagoogiline põgenemistuba**: õpid uut ja lahendad samal ajal
 |---|---|
 | 🚪 **1. Sisene tuppa** | Iga plokk on üks tuba. Loe ploki esimeselt lehelt toa lugu: mis Kratiga juhtus ja mitu lukku toas on. |
 | 📚 **2. Õpi** | Läbi tunni õppetekst, tööleht ja enesekontroll. Seal on kõik, mida lukkude avamiseks vaja on. |
-| 🔐 **3. Ava lukk** | Iga tunni viimane leht on **lukk**: mõistatus, anagramm, arvutus või kood. Kirjuta vastus ja vajuta **Kontrolli**. Õige vastuse korral avaneb **võtmetäht**. |
+| 🔐 **3. Ava lukk** | Iga tunni viimane leht on **lukk**: uus olukord, kus pead tunnis õpitut rakendama. Kirjuta vastus ja vajuta **Kontrolli**. Õige vastuse korral avaneb **võtmetäht**. |
 | ✍️ **4. Kirjuta täht üles** | Märgi iga võtmetäht oma **missioonikaardile** (vt eespool) või vihikusse. |
 | 🚪 **5. Ava toa uks** | Ploki viimasel lehel on **uks**. Pane toa võtmetähed tundide järjekorras kokku ja sisesta sõna. Ukse taga ootab **kuldne täht** ja loo jätk. |
 | 🌟 **6. Viimane uks** | Kui kõik 7 tuba on läbitud, avavad kuldsed tähed kursuse lõpus **viimase ukse**. Seejärel algab lõpumäng **TI Jeopardy**. |
@@ -324,13 +377,14 @@ Kogu õpik on **pedagoogiline põgenemistuba**: õpid uut ja lahendad samal ajal
 <!-- class="pae-motle" -->
 > **Kui jääd hätta**
 >
-> - Vajuta luku juures nuppu **?** – see näitab vihjet.
+> - Vajuta luku juures nuppu **?** – see näitab vihjet. Igal lukul on kolm järjest avanevat vihjet.
+> - Kolmas vihje on **🛟 päästerõngas**: see näitab, kust tunnist vastust otsida. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood.
 > - Mine tagasi tunni õppeteksti või kokkuvõtte juurde: vastus peitub alati tunni sisus.
 > - Kontrolli kirjapilti: suurtel ja väikestel tähtedel ning tühikutel pole tähtsust, aga täpitähtedel (õ, ä, ö, ü) on.
 > - Arutle pinginaabri või meeskonnaga – põgenemistuba on mõeldud ka koostööks.
 
 <!-- class="pae-lisaks" -->
-> **Õpetajale:** põgenemistuba saab läbida **üksi** (iga õpilane oma tempos) või **meeskonniti** (3–4 õpilast koos, igal meeskonnal oma missioonikaart). Toa uksi võib kasutada ka ploki lõpu kontrollpunktina: meeskond, kes avab ukse, näitab õpetajale oma kuldset tähte. Ukse sõnad ja kuldsed tähed on õpetajale kirjas failis `LOE_MIND.md`.
+> **Õpetajale:** põgenemistuba saab läbida **üksi** (iga õpilane oma tempos) või **meeskonniti** (3–4 õpilast koos, igal meeskonnal oma missioonikaart). Toa uksi võib kasutada ka ploki lõpu kontrollpunktina: meeskond, kes avab ukse, näitab õpetajale oma kuldset tähte. Ukse sõnad, kuldsed tähed ja lukkude päästekoodid on õpetaja versioonis.
 
 ### Värvilised kastid
 
@@ -433,24 +487,44 @@ Esimene plokk annab üldpildi. Teises plokis vaatame „kapoti alla“: kuidas a
 ## 1.1 Mis on tehisintellekt?
 
 <!-- class="pae-kaas" -->
-![Klassiruumis märkavad õpilased tehisintellekti igapäevastes asjades: üks avab telefoni näotuvastusega, teine saab sülearvutis videosoovitusi, kolmas kasutab nutikõlari tõlget „Hello!“ – „Tere!“ ning õpetaja osutab tahvlile küsimusega „Kus on TI?“.](pildid/illustratsioonid/1_1.jpg)
+![Klassiruumis kasutavad õpilased tehisintellekti peaaegu märkamatult: noormees avab telefoni näotuvastusega, tüdruk kuulab kõrvaklappidega muusikat ja teine tüdruk näitab telefonis kaardirakenduse suunanoolt. Taamal osutab õpetaja ekraanile, kus on aju meenutav võrgustik, ning akna taga paistab Tallinna vanalinn.](pildid/illustratsioonid/1_1.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- oskad oma sõnadega selgitada, mis on tehisintellekt, ja tunned selle mõiste erinevaid definitsioone;
-- eristad nõrka (kitsast) tehisintellekti, tugevat (üldist) tehisintellekti ja superintelligentsust;
-- tunned tehisintellekti peamisi suundi, nagu masinõpe, süvaõpe, loomuliku keele töötlus ja arvutinägemine;
-- oskad võrrelda tehisintellekti ja inimese tugevusi ning nimetada tehisintellekti piiranguid;
-- tunned ära tehisintellekti rakendusi oma igapäevaelus.
+- **selgitad oma sõnadega**, mis on tehisintellekt ja mille poolest see erineb tavalisest programmist *(mõistmine)*;
+- **liigitad** igapäevaseid rakendusi nõrgaks või tugevaks tehisintellektiks ja **nimetad** nende peamise suuna (nt <span class="pae-term" tabindex="0" data-def="masinõpe: Tehisintellekti haru, kus süsteem õpib andmetest ilma otsese programmeerimiseta">masinõpe</span>, <span class="pae-term" tabindex="0" data-def="arvutinägemine: Piltide ja videote analüüsimisega tegelev tehisintellekti suund">arvutinägemine</span>) *(rakendamine)*;
+- **võrdled** tehisintellekti ja inimese tugevusi ning **eristad** tehisintellekti piiranguid *(analüüs)*;
+- **katsetad** Quick, Draw! joonistustega ja **põhjendad** katse põhjal, miks see süsteem on nõrk (kitsas) tehisintellekt *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Mis on tehisintellekt?“, „Nõrk, tugev ja superintelligentsus“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Kas masin tunneb su joonistuse ära?“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded I, III ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Tehisintellekt ehk TI loob masinaid, mis jäljendavad inimese mõtlemist. Need masinad oskavad õppida andmetest ja tunda ära mustreid. Näiteks tunneb sinu telefon ära sinu näo ja tõlkerakendus tõlgib teksti. Kalkulaator ei ole TI, sest ta ei õpi midagi uut juurde. Nõrk TI oskab hästi ainult üht kitsast ülesannet. Kõik tänased TI-süsteemid on nõrk TI, ka vestlusrobotid. Tugev TI oskaks kõike, mida oskab inimene. Tugev TI ja superintelligentsus on praegu ainult teooria ja ulme.
+
+**Tähtsad sõnad:** **tehisintellekt (TI)** – süsteem, mis jäljendab inimese mõtlemist; **nõrk TI** – TI, mis oskab ainult üht kindlat asja; **tugev TI** – TI, mis oskaks kõike nagu inimene, aga seda veel ei ole.
+
+</section>
 
 ### Mis on tehisintellekt?
 
 Võib-olla oled täna juba mitu korda tehisintellekti kasutanud, isegi seda märkamata. Telefon tunneb ära sinu näo, YouTube soovitab järgmise video, tõlkerakendus muudab inglise keele teksti eesti keelde ja vestlusrobot vastab sinu küsimusele. Kõigi nende taga on tehisintellekt. Aga mis see täpselt on?
 
 <!-- class="pae-moiste" -->
-> **Mõiste: tehisintellekt (TI)**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="tehisintellekt (TI): Arvutiteaduse haru, mis loob inimmõistuse funktsioone jäljendavaid süsteeme">tehisintellekt (TI)</span>**
 >
 > Tehisintellekt (inglise keeles *artificial intelligence*, AI) on arvutiteaduse haru, mis tegeleb selliste masinate ja süsteemide loomisega, mis suudavad jäljendada inimmõistuse kognitiivseid ehk tunnetuslikke funktsioone – näiteks õppida, arutleda, mõista keelt ja tunda ära mustreid. Lühidalt: tehisintellekt lahendab probleeme viisil, mis tavaliselt nõuab inimese intelligentsust.
 
@@ -469,7 +543,7 @@ Tehisintellektil ei ole ühte ja ainsat definitsiooni. Eri ajal ja eri teadlased
 
 | Kes | Definitsioon |
 |---|---|
-| John McCarthy (1956) | „Intelligentsete masinate loomise teadus ja tehnika“ |
+| John McCarthy (termini „tehisintellekt“ looja) | „Intelligentsete masinate, eriti intelligentsete arvutiprogrammide loomise teadus ja tehnika“ |
 | Stuart Russell ja Peter Norvig (tuntud TI-õpiku autorid) | „Süsteemid, mis käituvad inimese moodi, mõtlevad inimese moodi, käituvad ratsionaalselt või mõtlevad ratsionaalselt“ |
 | Kaasaegne vaade | „Süsteemid, mis suudavad tajuda keskkonda ja tegutseda eesmärkide saavutamiseks“ |
 
@@ -505,7 +579,7 @@ Vahel jääb mulje, et tänapäeva vestlusrobotid on juba „peaaegu inimesed“
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Kõik praegu kasutusel olevad tehisintellekti süsteemid – ka kõige nutikamad vestlusrobotid – on **nõrk tehisintellekt**. Tugev tehisintellekt eksisteerib seni vaid teoorias ja ulmeteostes.
 
-### Tehisintellekti põhisuunad
+### ➕ Tehisintellekti põhisuunad
 
 Tehisintellekt on suur valdkond, mis jaguneb mitmeks suunaks. Igaüks neist tegeleb erinevat liiki probleemidega.
 
@@ -526,11 +600,11 @@ Tehisintellekt on suur valdkond, mis jaguneb mitmeks suunaks. Igaüks neist tege
 > Masinõpe on tehisintellekti haru, kus süsteem õpib andmetest ilma otsese programmeerimiseta. Programmeerija ei kirjuta ette kõiki reegleid, vaid annab süsteemile palju näiteid ning süsteem leiab nendest ise mustrid.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: süvaõpe**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="süvaõpe: Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke">süvaõpe</span>**
 >
 > Süvaõpe on masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke suurte andmehulkade töötlemiseks ja keerukate mustrite tuvastamiseks. Närvivõrgu ülesehitus on lõdvalt inspireeritud inimaju närvirakkude ühendustest.
 
-Tehisintellekti ajaloos on olnud kaks suurt lähenemisviisi. **Sümboolne tehisintellekt** põhineb reeglitel ja loogikal: inimene kirjutab arvutile ette, kuidas mõelda („kui palavik on üle 38 kraadi ja kurk valutab, siis ...“). Nii töötavad ekspertsüsteemid. **Masinõpe** läheneb vastupidi: süsteemile ei anta reegleid, vaid näited, ja süsteem leiab reeglid ise. Võrdle seda kahe viisiga õppida jalgrattaga sõitma: üks on lugeda läbi juhend, teine on lihtsalt proovida ja kogemusest õppida. Rohkem kuuled neist kahest lähenemisest järgmises tunnis.
+Tehisintellekti ajaloos on olnud kaks suurt lähenemisviisi. **Sümboolne tehisintellekt** põhineb reeglitel ja loogikal: inimene kirjutab arvutile ette, kuidas mõelda („kui palavik on üle 38 kraadi ja kurk valutab, siis ...“). Nii töötavad <span class="pae-term" tabindex="0" data-def="ekspertsüsteem: Teadmispõhine süsteem, mis kasutab inimekspertide teadmistest koostatud reegleid">ekspertsüsteemid</span>. **Masinõpe** läheneb vastupidi: süsteemile ei anta reegleid, vaid näited, ja süsteem leiab reeglid ise. Võrdle seda kahe viisiga õppida jalgrattaga sõitma: üks on lugeda läbi juhend, teine on lihtsalt proovida ja kogemusest õppida. Rohkem kuuled neist kahest lähenemisest järgmises tunnis.
 
 <!-- class="pae-lisaks" -->
 > **Tea lisaks**
@@ -539,7 +613,7 @@ Tehisintellekti ajaloos on olnud kaks suurt lähenemisviisi. **Sümboolne tehisi
 >
 > ![Kolm üksteise sees olevat ovaali: kõige suurem on tehisintellekt, selle sees masinõpe ja kõige sisemine süvaõpe.](pildid/plokk_1/1_1_matrjoska.svg "Joonis 1.1.4. Süvaõpe on masinõppe osa ja masinõpe on tehisintellekti osa")
 
-### Tehisintellekt ja inimene
+### ➕ Tehisintellekt ja inimene
 
 Kas tehisintellekt on targem kui inimene? Sellele küsimusele ei ole ühest vastust, sest tehisintellektil ja inimesel on erinevad tugevused ja nõrkused.
 
@@ -553,7 +627,7 @@ Sageli öeldakse, et tehisintellekt on „objektiivne“. Seda tuleb võtta ette
 Tehisintellektil on ka teisi olulisi piiranguid:
 
 - **Andmesõltuvus.** Tehisintellekt vajab õppimiseks suurt hulka kvaliteetseid andmeid. Kui andmed on vigased või ühekülgsed, on ka tulemused vigased.
-- **Läbipaistvuse puudumine ehk „musta kasti“ probleem.** Eriti süvaõppe mudelite puhul on raske või võimatu selgitada, miks süsteem just sellise otsuse tegi.
+- **Läbipaistvuse puudumine ehk <span class="pae-term" tabindex="0" data-def="„musta kasti“ probleem: Olukord, kus inimene ei mõista, kuidas tehisintellekt oma otsuseni jõudis">„musta kasti“ probleem</span>.** Eriti süvaõppe mudelite puhul on raske või võimatu selgitada, miks süsteem just sellise otsuse tegi.
 - **Üldistamisvõime.** Süsteemil on raske kohaneda olukordadega, mida ta treeningu ajal ei näinud.
 - **Eetilised küsimused.** Kallutatus, privaatsus ja vastutus: kes vastutab, kui tehisintellekt teeb vea?
 - **Loovuse ja teadvuse puudumine.** Tehisintellekt ei mõista maailma tegelikult nii, nagu mõistavad inimesed.
@@ -568,9 +642,9 @@ Kõige tähtsam järeldus on see, et tehisintellekt ja inimene **täiendavad tei
 > 1. Too näide ülesandest, mida tehisintellekt teeb sinust paremini, ja ülesandest, mida sina teed paremini kui ükski tehisintellekt.
 > 2. Kas sinu arvates võib tehisintellekt kunagi saavutada inimese taseme intelligentsuse? Mis peaks selleks muutuma?
 
-### Tehisintellekt sinu ümber: lühike ülevaade
+### ➕ Tehisintellekt sinu ümber: lühike ülevaade
 
-Tehisintellekt ei sündinud üleöö. Juba 1950. aastal avaldas Briti matemaatik **Alan Turing** artikli „Computing Machinery and Intelligence“ ja pakkus välja **Turingi testi**: kui inimene vestleb kirjalikult nii teise inimese kui ka masinaga ega suuda vastuste põhjal öelda, kumb on kumb, võib masinat pidada intelligentseks. 1956. aastal toimus Dartmouthi konverents, kus **John McCarthy** võttis kasutusele termini „tehisintellekt“. Sellest ajast saadik on olnud nii suuri lootusi kui ka pettumusi. Mõned verstapostid:
+Tehisintellekt ei sündinud üleöö. Juba 1950. aastal avaldas Briti matemaatik **Alan Turing** artikli „Computing Machinery and Intelligence“ ja pakkus välja **<span class="pae-term" tabindex="0" data-def="Turingi test: Alan Turingi pakutud katse: kas inimene suudab vestluse põhjal eristada masinat inimesest">Turingi testi</span>**: kui inimene vestleb kirjalikult nii teise inimese kui ka masinaga ega suuda vastuste põhjal öelda, kumb on kumb, võib masinat pidada intelligentseks. 1956. aastal toimus Dartmouthi konverents, mille taotluses oli **John McCarthy** võtnud kasutusele termini „tehisintellekt“. Sellest ajast saadik on olnud nii suuri lootusi kui ka pettumusi. Mõned verstapostid:
 
 - **1997** – IBM-i superarvuti Deep Blue võitis malematšis maailmameistrit Garry Kasparovit;
 - **2011** – IBM Watson võitis viktoriinisaates „Jeopardy!“ parimaid inimmängijaid;
@@ -587,9 +661,9 @@ Tänapäeval on tehisintellekt igal pool. **Virtuaalsed assistendid** (Siri, Ale
 <!-- class="pae-eesti" -->
 > **Eesti näide: Bürokratt ja Eesti TI-ettevõtted**
 >
-> Eesti riik arendab **Bürokratti** – virtuaalassistentide võrgustikku, mille abil saab avalikke teenuseid kasutada kõnekeelse suhtluse kaudu, nagu vestleksid sa ametnikuga. Bürokratt valiti 2022. aastal parimaks tehisintellektil põhinevaks riigiteenuseks ja jõudis UNESCO maailma saja parima tehisintellekti lahenduse hulka. Riigi tehisintellekti algatusi tuntakse üldnimega **kratt** (vt [kratid.ee](https://www.kratid.ee/)).
+> Eesti riik arendab **Bürokratti** – avaliku sektori asutuste veebilehtedel töötavate vestlusrobotite võrgustikku, mille abil saab infot ja teenuseid kätte tavalise vestluse kaudu, nagu vestleksid sa ametnikuga. Bürokratt on jõudnud UNESCO egiidi all tegutseva rahvusvahelise tehisintellekti uurimiskeskuse IRCAI maailma saja silmapaistva tehisintellekti projekti hulka. Riigi tehisintellekti algatusi tuntakse üldnimega **kratt** (vt [kratid.ee](https://www.kratid.ee/)).
 >
-> Eestis sündinud ettevõtetest kasutavad tehisintellekti näiteks **Bolt** (nõudluse ennustamine ja sõitude sobitamine), **Veriff** (isikusamasuse tuvastamine dokumendi ja näopildi võrdlemise teel), **Starship Technologies** (isesõitvad kullerrobotid) ning keeleõppeäpp **Lingvist** ja matemaatikaharjutuste keskkond **99math**. Teadustööd tehakse muu hulgas Tartu Ülikoolis ja Tallinna Tehnikaülikoolis, kus arendatakse ka eesti keele tehnoloogiat ja masintõlget.
+> Eestis sündinud ettevõtetest kasutavad tehisintellekti näiteks **Bolt** (nõudluse ennustamine ja sõitude sobitamine), **Veriff** (isikusamasuse tuvastamine dokumendi ja näopildi võrdlemise teel), **Starship Technologies** (isesõitvad kullerrobotid) ja keeleõppeäpp **Lingvist**. Teadustööd tehakse muu hulgas Tartu Ülikoolis ja Tallinna Tehnikaülikoolis, kus arendatakse ka eesti keele tehnoloogiat ja masintõlget.
 
 <!-- class="pae-lisaks" -->
 > **Tea lisaks: kust rohkem lugeda ja vaadata?**
@@ -600,7 +674,7 @@ Tänapäeval on tehisintellekt igal pool. **Virtuaalsed assistendid** (Siri, Ale
 > - TED-i ettekanne **„The incredible inventions of intuitive AI“** (Maurice Conti) näitab, kuidas tehisintellekt aitab disaineritel ja inseneridel.
 > - Raamat **„Superintelligence: Paths, Dangers, Strategies“** (Nick Bostrom) arutleb, mis võib juhtuda, kui tehisintellekt kunagi inimest ületab.
 
-### Mäng: tehisaru sorteerimismäng
+### ➕ Mäng: tehisaru sorteerimismäng
 
 Kas tunned ära, millal tehisaru (tehisintellekt) on mängus? Sorteeri 48 tegevust kahte rühma: **tehisaru abil toimuv tegevus** ja **tehisaru abita toimuv tegevus**. Igal kaardil on pilt, tegevuse kirjeldus ja nurgas täht või sümbol. Mäng toimub neljas voorus, igas voorus on 12 kaarti. Pärast iga vooru vajuta **Kontrolli**.
 
@@ -731,15 +805,19 @@ Algoritm ei tea „tõde“. See leiab andmetest mustreid ja teeb tõenäosuslik
 
 [[___ ___ ___]]
 
-### 🎬 Videod: mis see tehisaru on?
+### ➕ 🎬 Videod: mis see tehisaru on?
 
-Vaata kahte lühikest eestikeelset videot. Videoõpsi video seletab põhimõisted: tehisintellekt, kratt, masinõpe, suurandmed, tehisnärvivõrgud ning kitsas, üldine ja supertehisintellekt. TI-Hüppe video näitab, et tehisaru on palju enamat kui vestlusrobot: suured keelemudelid, soovitusalgoritmid ja isejuhtivad autod.
+Sellel lehel on 2 videot. Iga video ees on lühike kokkuvõte, mis aitab sul valida.
 
 **Mis on tehisintellekt? Sissejuhatus ja mõisted** · *Videoõps* · ⏱ 3 min
+
+📝 Videoõpsi lühivideo seletab põhimõisted: tehisintellekt, kratt, masinõpe, suurandmed ja tehisnärvivõrgud. Lõpus eristatakse kitsast, üldist ja supertehisintellekti.
 
 !?[Mis on tehisintellekt? Sissejuhatus ja mõisted – Videoõps](https://www.youtube.com/watch?v=hiiZOM3xV_I)
 
 **Mis see tehisaru on?** · *TI-Hüpe* · ⏱ 2 min
+
+📝 TI-Hüppe video näitab, et tehisaru on palju enamat kui vestlusrobot. Näidetena tulevad suured keelemudelid, soovitusalgoritmid ja isejuhtivad autod.
 
 !?[Mis see tehisaru on? – TI-Hüpe](https://www.youtube.com/watch?v=fYrqlFxF-n8)
 
@@ -755,6 +833,24 @@ Vaata kahte lühikest eestikeelset videot. Videoõpsi video seletab põhimõiste
 
 [[___ ___ ___]]
 
+### 🧪 TI-katse: kas masin tunneb su joonistuse ära?
+
+Katsetad, kuidas närvivõrk tunneb ära kiiruga tehtud joonistusi. Nii näed, mida tähendab „õppida andmetest“ ja miks ka osav tehisintellekt on nõrk ehk kitsas.
+
+**Vaja läheb:** mäng [Quick, Draw!](https://quickdraw.withgoogle.com/) (Google, veebis, sisselogimiseta), ~10 min, paaristöö
+
+1. Ava Quick, Draw! ja vajuta **Let's Draw!**. Mäng annab ingliskeelse sõna ja sul on joonistamiseks umbes 20 sekundit. Närvivõrk püüab samal ajal ära arvata, mida joonistad.
+2. Joonistage kordamööda 6 pilti. Üks joonistab, teine paneb kirja, kas ja kui kiiresti närvivõrk pildi ära arvas.
+3. Joonista üks ese meelega teistmoodi (nt külje pealt või väga lihtsalt). Kas närvivõrk tunneb selle ikka ära?
+4. Vaadake mängu lõpus kokkuvõtet ja arutage, miks mõni pilt jäi ära tundmata.
+
+**Pane tähele / kirjuta üles:** mitu pilti 6-st närvivõrk ära tundis, miks ta mõne puhul eksis ja miks on see nõrk, mitte tugev tehisintellekt.
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** Joonistage paberile 20 sekundiga mõni ese ja laske pinginaabril ära arvata. Arutage, kust pinginaaber teadis, mis see on, ja kust peaks masin samad teadmised saama.
+
 ### Kokkuvõte ja põhimõisted
 
 **Pea meeles**
@@ -762,7 +858,7 @@ Vaata kahte lühikest eestikeelset videot. Videoõpsi video seletab põhimõiste
 - Tehisintellekt on arvutiteaduse haru, mis loob inimmõistust jäljendavaid süsteeme: need õpivad, arutlevad, mõistavad keelt ja tunnevad ära mustreid.
 - Tehisintellektil ei ole ühte definitsiooni; kaasaegne vaade rõhutab keskkonna tajumist ja eesmärgipärast tegutsemist.
 - Kõik praegused tehisintellekti süsteemid, ka vestlusrobotid, on nõrk (kitsas) tehisintellekt. Tugev tehisintellekt ja superintelligentsus on praegu teoreetilised.
-- Tehisintellekti põhisuunad on masinõpe, süvaõpe, loomuliku keele töötlus, arvutinägemine, robootika ja ekspertsüsteemid.
+- Tehisintellekti põhisuunad on masinõpe, süvaõpe, <span class="pae-term" tabindex="0" data-def="loomuliku keele töötlus: Inimkeele mõistmise ja genereerimisega tegelev tehisintellekti suund">loomuliku keele töötlus</span>, arvutinägemine, robootika ja ekspertsüsteemid.
 - Tehisintellektil on piirangud: andmesõltuvus, „musta kasti“ probleem, raskused uute olukordadega ja eetilised küsimused.
 - Tehisintellekt ja inimene täiendavad teineteist – eesmärk on koostöö, mitte konkurents.
 
@@ -780,12 +876,21 @@ Vaata kahte lühikest eestikeelset videot. Videoõpsi video seletab põhimõiste
 | Turingi test | Alan Turingi pakutud katse: kas inimene suudab vestluse põhjal eristada masinat inimesest |
 | „musta kasti“ probleem | olukord, kus tehisintellekti otsuse tegemise viis ei ole inimesele mõistetav |
 
+### 📚 Allikad ja lisalugemine
+
+- TalTech, Helsingi Ülikool ja MinnaLearn. [Elements of AI – tasuta veebikursus eesti keeles](https://www.elementsofai.ee/). Sissejuhatus tehisintellekti põhimõistetesse ilma matemaatika- ja programmeerimisteadmisteta; sobib lisalugemiseks.
+- TI-Hüpe. [Mis see tehisaru on?](https://tihupe.ee/oppematerjal/mis-see-tehisaru-on/) Video ja töölehed 10.–12. klassile: tehisaru on palju enamat kui vestlusrobot.
+- Konsa, K. (2024). [Kas juturobot mõtleb?](https://www.err.ee/1609241403/kurmo-konsa-kas-juturobot-motleb) ERR. Arvamuslugu sellest, kas keelemudelid päriselt mõistavad ja mõtlevad; sobib huvilisele lisalugemiseks.
+- McCarthy, J. (2007). [What is Artificial Intelligence?](http://jmc.stanford.edu/artificial-intelligence/what-is-ai/index.html) Stanfordi Ülikool. Termini „tehisintellekt“ looja selgitab ise oma definitsiooni (inglise keeles).
+- Stanford HAI (2025). [The 2025 AI Index Report](https://hai.stanford.edu/ai-index/2025-ai-index-report). Iga-aastane ülevaade tehisintellekti arengust, investeeringutest ja poliitikast (inglise keeles).
+- Riigi Infosüsteemi Amet. [Bürokratt](https://www.kratid.ee/burokratt). Mis on Bürokratt ja kuidas see riigiasutuste veebilehtedel töötab.
+
 ### Tööleht 1.1
 
 <!-- class="pae-jaotis" -->
-**I. Mõisted ja definitsioonid**
+**⭐ I. Mõisted ja definitsioonid**
 
-**Ülesanne 1.** Selgita oma sõnadega, mis on tehisintellekt.
+**Ülesanne 1.** Su noorem vend küsib, kas robottolmuimeja ja taskulamp on tehisintellekt. Selgita talle oma sõnadega, mis on tehisintellekt, ja kasuta selgituses neid kahte näidet.
 
 [[___ ___ ___]]
 
@@ -821,7 +926,7 @@ Isesõitev auto, näotuvastus ja kõnetuvastus õpivad andmetest ning tulevad to
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Tehisintellekti ajalugu**
+**➕ II. Tehisintellekti ajalugu**
 
 **Ülesanne 4.** Järjesta tehisintellekti arengu olulised sündmused kronoloogiliselt (1 – kõige varasem, 6 – kõige hilisem).
 
@@ -837,7 +942,7 @@ Suurte keelemudelite (GPT, BERT) areng: [[ 1 | 2 | 3 | 4 | 5 | (6) ]]
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Tehisintellekti tüübid**
+**⭐ III. Tehisintellekti tüübid**
 
 **Ülesanne 6.** Täida tabel tehisintellekti tüüpide kohta.
 
@@ -870,7 +975,7 @@ Suurte keelemudelite (GPT, BERT) areng: [[ 1 | 2 | 3 | 4 | 5 | (6) ]]
 [[___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Tehisintellekti rakendused**
+**➕ IV. Tehisintellekti rakendused**
 
 **Ülesanne 8.** Nimeta igast valdkonnast vähemalt kolm tehisintellekti rakendust.
 
@@ -891,7 +996,7 @@ Suurte keelemudelite (GPT, BERT) areng: [[ 1 | 2 | 3 | 4 | 5 | (6) ]]
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Praktiline ülesanne**
+**➕ V. Praktiline ülesanne**
 
 **Ülesanne 10.** Külasta veebilehte [teachablemachine.withgoogle.com](https://teachablemachine.withgoogle.com) ja loo lihtne pildituvastuse mudel (näiteks õpeta mudelit eristama kaht eset, mida veebikaamerale näitad). Seejärel kirjelda oma kogemust.
 
@@ -912,7 +1017,7 @@ d) Mida õppisid selle ülesande käigus tehisintellekti kohta?
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Arutelu**
+**⭐ VI. Arutelu**
 
 **Ülesanne 11.** Kuidas võib tehisintellekt muuta sinu tulevast karjääri või igapäevaelu?
 
@@ -1013,24 +1118,78 @@ Kalkulaator täidab alati samu jäigalt ette antud samme: ta ei õpi midagi juur
 
 </details>
 
+### 📤 Väljapääsupilet 1.1
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['1.1'] = ["Sinu telefoni fotogalerii oskab pildid ise rühmitada (koerad, toit, rand). Kas see on tehisintellekt ja kui jah, siis mis liiki? Põhjenda ühe lausega.", "Mitu sinu joonistust tundis Quick, Draw! ära ja mida näitas katse selle kohta, kuidas närvivõrk õpib?", "Mis jäi tänases tunnis segaseks või mille kohta tahaksid rohkem teada?"];
+setTimeout(function(){var d=window.paePilet.load('1.1');document.querySelectorAll('[data-pilet="1.1"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="1.1" name="nimi" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Sinu telefoni fotogalerii oskab pildid ise rühmitada (koerad, toit, rand). Kas see on tehisintellekt ja kui jah, siis mis liiki? Põhjenda ühe lausega.</div><textarea data-pilet="1.1" name="q0" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu sinu joonistust tundis Quick, Draw! ära ja mida näitas katse selle kohta, kuidas närvivõrk õpib?</div><textarea data-pilet="1.1" name="q1" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi tänases tunnis segaseks või mille kohta tahaksid rohkem teada?</div><textarea data-pilet="1.1" name="q2" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('1.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('1.1')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_1.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 1.1
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma olen vist kõige targem olend maailmas! Ma oskan… ee… ühte asja. Väga hästi. Aga võileiba teha ma küll ei oska.“
 
-Lukk avaneb, kui lahendad mõistatuse. Loe Krati kirjeldust ja kirjuta lahtrisse, mis liiki tehisintellekt ta on (üks sõna).
+Lukk avaneb, kui lahendad ülekandeülesande. Loe juhtumit ja kirjuta lahtrisse, mis liiki tehisintellektiga on tegu (üks sõna).
 
-> Olen maletšempionist osavam, tõlgin teksti ja tunnen näo ära – aga igaüks meist oskab ainult oma kitsast ülesannet. Mul pole teadvust ega eneseteadlikkust. Kõik tänapäeva tehisintellekti süsteemid, ka vestlusrobotid, kuuluvad minu liiki. **Milline tehisintellekt ma olen?**
+> Kooli söökla sai uue kassa: kaamera tunneb kandikul olevad toidud ära ja arvutab kohe hinna. Toitude äratundmises on kassa väga täpne ja ta on õppinud seda tuhandete fotode põhjal. Kui aga küsid temalt, mis on homme kodutööks, ei saa ta küsimusest arugi. Tal pole teadvust ega oma soove. **Mis liiki tehisintellekt on see kassa?**
 
 <!-- data-solution-button="off" -->
 [[nõrk]]
-[[?]] Vihje: vaata peatükki „Nõrk, tugev ja superintelligentsus“. Tugev tehisintellekt ja superintelligentsus on alles teoorias.
+[[?]] Vihje 1: Mitut erinevat asja kassa oskab? Kas ta suudaks nagu inimene õppida ära ükskõik millise ülesande?
+[[?]] Vihje 2: Õige sõna algab tähega N ja on sõna „tugev“ vastand. Sobib ka selle sünonüüm „kitsas“.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Nõrk, tugev ja superintelligentsus“ ja loe lõik „Mõiste: nõrk (kitsas) tehisintellekt“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI236") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ").replace(/[.!]$/, "");
 ["nõrk", "kitsas", "nõrk ti", "kitsas ti", "nõrk tehisintellekt", "kitsas tehisintellekt", "ani", "nork"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Kratt on **nõrk (kitsas) tehisintellekt** – nagu kõik praegused TI-süsteemid: ta võib ühes asjas olla inimesest parem, kuid ei mõista maailma tervikuna.
+✅ **Lukk avatud!** Söökla kassa – ja ka Kratt ise – on **nõrk (kitsas) tehisintellekt**, nagu kõik praegused TI-süsteemid: see võib ühes kitsas ülesandes olla inimesest parem, kuid ei mõista maailma tervikuna ega oska muud.
 
 🔑 **Sinu võtmetäht: A**
 

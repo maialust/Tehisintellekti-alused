@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  1.5.0
+version:  2.0.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -245,6 +245,22 @@ details summary { cursor: pointer; font-weight: bold; color: var(--pae-oranz-tum
 output.lia-script[input="submit"] { display:inline-block !important; background:#002959; color:#fff !important; font-weight:700; padding:.6em 1.2em; border-radius:999px; border:3px solid #FF8B48 !important; cursor:pointer; box-shadow:0 3px 10px rgba(0,41,89,.2); }
 output.lia-script[input="submit"]:hover { background:#FF8B48; color:#002959 !important; }
 
+/* Lihtsalt öeldes (ettelugemisega) */
+section.pae-lihtne { background:#EAF6EE; border:2px solid #2E8B57; border-left:10px solid #2E8B57; border-radius:14px; padding:.9em 1.3em; margin:1.2em 0; font-size:1.05em; line-height:1.6; box-shadow:0 3px 10px rgba(0,41,89,.08); }
+section.pae-lihtne p { margin:.5em 0; }
+:root.lia-variant-dark section.pae-lihtne, :root.lia-variant-dark section.pae-lihtne * { color:#1d2433 !important; }
+
+/* Sõnastiku hüpikselgitus */
+.pae-term { border-bottom:2px dotted #FF8B48; cursor:help; position:relative; outline:none; }
+.pae-term:hover::after, .pae-term:focus::after {
+  content: attr(data-def); position:absolute; left:0; top:1.7em; z-index:999;
+  width:max-content; max-width:min(320px, 80vw); white-space:normal;
+  background:#002959; color:#fff; padding:.55em .8em; border-radius:10px;
+  font-size:15px; line-height:1.45; font-weight:400; font-style:normal;
+  box-shadow:0 6px 18px rgba(0,41,89,.3); border-left:5px solid #FF8B48;
+}
+.pae-fakt .pae-term:hover::after, .pae-fakt .pae-term:focus::after { color:#fff !important; }
+
 @end
 
 @custom
@@ -298,15 +314,52 @@ Kirjuta siia oma võtmetähed ja kuldsed tähed, et need ei kaoks. Kuidas põgen
 
 Iga **tund** on üles ehitatud ühtemoodi:
 
+<!-- data-type="none" -->
 | Osa | Mida seal teed |
 |---|---|
-| 🎯 **Õpieesmärgid** | Näed, mida tunni lõpuks oskad. |
+| 🎯 **Õpieesmärgid ja tunni tuumik** | Näed, mida tunni lõpuks oskad ja mida pead 45 minutiga kindlasti tegema. |
+| 🟢 **Lihtsalt öeldes** | Loed või kuulad tunni sisu lühidalt ja lihtsas keeles. |
 | 📚 **Õppetekst** | Loed teksti, vaatad infograafikuid ja skeeme. |
+| 🧪 **TI-katse** | Proovid tunni teemat päris tehisaru tööriistaga järele. |
 | ✅ **Kokkuvõte ja põhimõisted** | Kordad tunni olulisimad mõtted ja mõisted. |
-| ✏️ **Tööleht** | Lahendad ülesanded otse õpikus: kirjutad vastused väljadesse ja kontrollid valikülesandeid nupuga **Kontrolli**. |
+| 📚 **Allikad ja lisalugemine** | Näed, kust info pärineb, ja leiad lisalugemist. |
+| ✏️ **Tööleht** | Lahendad ülesanded otse õpikus. ⭐ tähistab tuumikülesannet. |
 | 🧠 **Enesekontroll** | Kontrollid, kas said aru. Pärast vastamist näed selgitust. |
+| 📤 **Väljapääsupilet** | Vastad kolmele küsimusele ja saadad vastused õpetajale. |
+| 🔐 **Lukk** | Rakendad õpitut uues olukorras ja saad võtmetähe. |
 
-Iga **ploki** lõpus on **kordamine**: praktilised ülesanded, aruteluküsimused ja ploki enesekontrolltest.
+Pealkirjad ja ülesanded, mille ees on **➕**, on **lisaülesanded**. Tee neid, kui jõuad, kodus või kui tahad teemat rohkem uurida.
+
+Iga **ploki** lõpus on **🔬 TI-labor** (uurimuslik katse rühmas), praktilised ülesanded, aruteluküsimused ja ploki enesekontrolltest.
+
+### 🗣️ Keeletugi: lihtne keel, sõnaselgitused ja ettelugemine
+
+- **🟢 Lihtsalt öeldes** – iga tunni alguses on lühike kokkuvõte lihtsas eesti keeles. Loe see enne õppeteksti läbi.
+- **Sõnaselgitused tekstis** – oranži täppjoonega alla joonitud sõnal on selgitus. Vii hiir sõna peale või puuduta seda telefonis. Proovi: <span class="pae-term" tabindex="0" data-def="tehisintellekt: arvutisüsteem, mis täidab ülesandeid, mis tavaliselt nõuavad inimese mõtlemist">tehisintellekt</span>.
+- **Ettelugemine** – kasti „Lihtsalt öeldes“ juures on nupp, mis loeb teksti ette. Ettelugemine kasutab sinu brauseri eestikeelset häält. Kõige paremini töötab see Microsoft Edge'is. Kui hääl kõlab võõralt, kopeeri tekst [Neurokõnesse](https://neurokone.ee) ja kuula seal.
+- **Sõnastik** – kõik mõisted on koos õpiku lõpus.
+
+### 📊 Kuidas sind hinnatakse?
+
+<!-- data-type="none" -->
+| Mida teed | Milleks see on | Kuhu esitad |
+|---|---|---|
+| 📤 **Väljapääsupiletid** (iga tund) | Kujundav hindamine: õpetaja annab tagasisidet ja näeb, mis vajab kordamist. | Moodle: kopeeri vastused või laadi fail alla |
+| 🔬 **TI-laborid** (iga plokk) | Laboriaruanne näitab, kas oskad katsetada, järeldusi teha ja piiranguid hinnata. | Moodle ja portfoolio |
+| 🧠 **Ploki enesekontrolltestid** | Kontrollid põhimõistete mõistmist. | Õpikus, õpetaja soovil Moodle'i testina |
+| 📁 **Portfoolio** | Õpipäevik (iga ploki kohta üks sissekanne), tööde näidised, TI-rakenduste analüüs, eetiline arutelu ja refleksioon. | Moodle kursuse lõpus |
+| 🚀 **Projektitöö (rühmatöö)** | Rakendad kõike õpitut. Hinne: õpetaja hinnang 70 %, vastastikhindamine 20 %, enesehindamine 10 %. | Esitlus ja aruanne |
+
+**Väljapääsupileti hindamine (kujundav):**
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+Laborite hindamismaatriksid on iga labori juures. Projektitöö hindamismudel on 7. ploki projektitöö juhendis. Portfoolio hindamiskriteeriumid annab õpetaja.
 
 ### 🗝️ Kuidas kasutada õpikut põgenemistoana?
 
@@ -316,7 +369,7 @@ Kogu õpik on **pedagoogiline põgenemistuba**: õpid uut ja lahendad samal ajal
 |---|---|
 | 🚪 **1. Sisene tuppa** | Iga plokk on üks tuba. Loe ploki esimeselt lehelt toa lugu: mis Kratiga juhtus ja mitu lukku toas on. |
 | 📚 **2. Õpi** | Läbi tunni õppetekst, tööleht ja enesekontroll. Seal on kõik, mida lukkude avamiseks vaja on. |
-| 🔐 **3. Ava lukk** | Iga tunni viimane leht on **lukk**: mõistatus, anagramm, arvutus või kood. Kirjuta vastus ja vajuta **Kontrolli**. Õige vastuse korral avaneb **võtmetäht**. |
+| 🔐 **3. Ava lukk** | Iga tunni viimane leht on **lukk**: uus olukord, kus pead tunnis õpitut rakendama. Kirjuta vastus ja vajuta **Kontrolli**. Õige vastuse korral avaneb **võtmetäht**. |
 | ✍️ **4. Kirjuta täht üles** | Märgi iga võtmetäht oma **missioonikaardile** (vt eespool) või vihikusse. |
 | 🚪 **5. Ava toa uks** | Ploki viimasel lehel on **uks**. Pane toa võtmetähed tundide järjekorras kokku ja sisesta sõna. Ukse taga ootab **kuldne täht** ja loo jätk. |
 | 🌟 **6. Viimane uks** | Kui kõik 7 tuba on läbitud, avavad kuldsed tähed kursuse lõpus **viimase ukse**. Seejärel algab lõpumäng **TI Jeopardy**. |
@@ -324,13 +377,14 @@ Kogu õpik on **pedagoogiline põgenemistuba**: õpid uut ja lahendad samal ajal
 <!-- class="pae-motle" -->
 > **Kui jääd hätta**
 >
-> - Vajuta luku juures nuppu **?** – see näitab vihjet.
+> - Vajuta luku juures nuppu **?** – see näitab vihjet. Igal lukul on kolm järjest avanevat vihjet.
+> - Kolmas vihje on **🛟 päästerõngas**: see näitab, kust tunnist vastust otsida. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood.
 > - Mine tagasi tunni õppeteksti või kokkuvõtte juurde: vastus peitub alati tunni sisus.
 > - Kontrolli kirjapilti: suurtel ja väikestel tähtedel ning tühikutel pole tähtsust, aga täpitähtedel (õ, ä, ö, ü) on.
 > - Arutle pinginaabri või meeskonnaga – põgenemistuba on mõeldud ka koostööks.
 
 <!-- class="pae-lisaks" -->
-> **Õpetajale:** põgenemistuba saab läbida **üksi** (iga õpilane oma tempos) või **meeskonniti** (3–4 õpilast koos, igal meeskonnal oma missioonikaart). Toa uksi võib kasutada ka ploki lõpu kontrollpunktina: meeskond, kes avab ukse, näitab õpetajale oma kuldset tähte. Ukse sõnad ja kuldsed tähed on õpetajale kirjas failis `LOE_MIND.md`.
+> **Õpetajale:** põgenemistuba saab läbida **üksi** (iga õpilane oma tempos) või **meeskonniti** (3–4 õpilast koos, igal meeskonnal oma missioonikaart). Toa uksi võib kasutada ka ploki lõpu kontrollpunktina: meeskond, kes avab ukse, näitab õpetajale oma kuldset tähte. Ukse sõnad, kuldsed tähed ja lukkude päästekoodid on õpetaja versioonis.
 
 ### Värvilised kastid
 
@@ -433,24 +487,44 @@ Esimene plokk annab üldpildi. Teises plokis vaatame „kapoti alla“: kuidas a
 ## 1.1 Mis on tehisintellekt?
 
 <!-- class="pae-kaas" -->
-![Klassiruumis märkavad õpilased tehisintellekti igapäevastes asjades: üks avab telefoni näotuvastusega, teine saab sülearvutis videosoovitusi, kolmas kasutab nutikõlari tõlget „Hello!“ – „Tere!“ ning õpetaja osutab tahvlile küsimusega „Kus on TI?“.](pildid/illustratsioonid/1_1.jpg)
+![Klassiruumis kasutavad õpilased tehisintellekti peaaegu märkamatult: noormees avab telefoni näotuvastusega, tüdruk kuulab kõrvaklappidega muusikat ja teine tüdruk näitab telefonis kaardirakenduse suunanoolt. Taamal osutab õpetaja ekraanile, kus on aju meenutav võrgustik, ning akna taga paistab Tallinna vanalinn.](pildid/illustratsioonid/1_1.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- oskad oma sõnadega selgitada, mis on tehisintellekt, ja tunned selle mõiste erinevaid definitsioone;
-- eristad nõrka (kitsast) tehisintellekti, tugevat (üldist) tehisintellekti ja superintelligentsust;
-- tunned tehisintellekti peamisi suundi, nagu masinõpe, süvaõpe, loomuliku keele töötlus ja arvutinägemine;
-- oskad võrrelda tehisintellekti ja inimese tugevusi ning nimetada tehisintellekti piiranguid;
-- tunned ära tehisintellekti rakendusi oma igapäevaelus.
+- **selgitad oma sõnadega**, mis on tehisintellekt ja mille poolest see erineb tavalisest programmist *(mõistmine)*;
+- **liigitad** igapäevaseid rakendusi nõrgaks või tugevaks tehisintellektiks ja **nimetad** nende peamise suuna (nt <span class="pae-term" tabindex="0" data-def="masinõpe: Tehisintellekti haru, kus süsteem õpib andmetest ilma otsese programmeerimiseta">masinõpe</span>, <span class="pae-term" tabindex="0" data-def="arvutinägemine: Piltide ja videote analüüsimisega tegelev tehisintellekti suund">arvutinägemine</span>) *(rakendamine)*;
+- **võrdled** tehisintellekti ja inimese tugevusi ning **eristad** tehisintellekti piiranguid *(analüüs)*;
+- **katsetad** Quick, Draw! joonistustega ja **põhjendad** katse põhjal, miks see süsteem on nõrk (kitsas) tehisintellekt *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Mis on tehisintellekt?“, „Nõrk, tugev ja superintelligentsus“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Kas masin tunneb su joonistuse ära?“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded I, III ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Tehisintellekt ehk TI loob masinaid, mis jäljendavad inimese mõtlemist. Need masinad oskavad õppida andmetest ja tunda ära mustreid. Näiteks tunneb sinu telefon ära sinu näo ja tõlkerakendus tõlgib teksti. Kalkulaator ei ole TI, sest ta ei õpi midagi uut juurde. Nõrk TI oskab hästi ainult üht kitsast ülesannet. Kõik tänased TI-süsteemid on nõrk TI, ka vestlusrobotid. Tugev TI oskaks kõike, mida oskab inimene. Tugev TI ja superintelligentsus on praegu ainult teooria ja ulme.
+
+**Tähtsad sõnad:** **tehisintellekt (TI)** – süsteem, mis jäljendab inimese mõtlemist; **nõrk TI** – TI, mis oskab ainult üht kindlat asja; **tugev TI** – TI, mis oskaks kõike nagu inimene, aga seda veel ei ole.
+
+</section>
 
 ### Mis on tehisintellekt?
 
 Võib-olla oled täna juba mitu korda tehisintellekti kasutanud, isegi seda märkamata. Telefon tunneb ära sinu näo, YouTube soovitab järgmise video, tõlkerakendus muudab inglise keele teksti eesti keelde ja vestlusrobot vastab sinu küsimusele. Kõigi nende taga on tehisintellekt. Aga mis see täpselt on?
 
 <!-- class="pae-moiste" -->
-> **Mõiste: tehisintellekt (TI)**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="tehisintellekt (TI): Arvutiteaduse haru, mis loob inimmõistuse funktsioone jäljendavaid süsteeme">tehisintellekt (TI)</span>**
 >
 > Tehisintellekt (inglise keeles *artificial intelligence*, AI) on arvutiteaduse haru, mis tegeleb selliste masinate ja süsteemide loomisega, mis suudavad jäljendada inimmõistuse kognitiivseid ehk tunnetuslikke funktsioone – näiteks õppida, arutleda, mõista keelt ja tunda ära mustreid. Lühidalt: tehisintellekt lahendab probleeme viisil, mis tavaliselt nõuab inimese intelligentsust.
 
@@ -469,7 +543,7 @@ Tehisintellektil ei ole ühte ja ainsat definitsiooni. Eri ajal ja eri teadlased
 
 | Kes | Definitsioon |
 |---|---|
-| John McCarthy (1956) | „Intelligentsete masinate loomise teadus ja tehnika“ |
+| John McCarthy (termini „tehisintellekt“ looja) | „Intelligentsete masinate, eriti intelligentsete arvutiprogrammide loomise teadus ja tehnika“ |
 | Stuart Russell ja Peter Norvig (tuntud TI-õpiku autorid) | „Süsteemid, mis käituvad inimese moodi, mõtlevad inimese moodi, käituvad ratsionaalselt või mõtlevad ratsionaalselt“ |
 | Kaasaegne vaade | „Süsteemid, mis suudavad tajuda keskkonda ja tegutseda eesmärkide saavutamiseks“ |
 
@@ -505,7 +579,7 @@ Vahel jääb mulje, et tänapäeva vestlusrobotid on juba „peaaegu inimesed“
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Kõik praegu kasutusel olevad tehisintellekti süsteemid – ka kõige nutikamad vestlusrobotid – on **nõrk tehisintellekt**. Tugev tehisintellekt eksisteerib seni vaid teoorias ja ulmeteostes.
 
-### Tehisintellekti põhisuunad
+### ➕ Tehisintellekti põhisuunad
 
 Tehisintellekt on suur valdkond, mis jaguneb mitmeks suunaks. Igaüks neist tegeleb erinevat liiki probleemidega.
 
@@ -526,11 +600,11 @@ Tehisintellekt on suur valdkond, mis jaguneb mitmeks suunaks. Igaüks neist tege
 > Masinõpe on tehisintellekti haru, kus süsteem õpib andmetest ilma otsese programmeerimiseta. Programmeerija ei kirjuta ette kõiki reegleid, vaid annab süsteemile palju näiteid ning süsteem leiab nendest ise mustrid.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: süvaõpe**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="süvaõpe: Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke">süvaõpe</span>**
 >
 > Süvaõpe on masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke suurte andmehulkade töötlemiseks ja keerukate mustrite tuvastamiseks. Närvivõrgu ülesehitus on lõdvalt inspireeritud inimaju närvirakkude ühendustest.
 
-Tehisintellekti ajaloos on olnud kaks suurt lähenemisviisi. **Sümboolne tehisintellekt** põhineb reeglitel ja loogikal: inimene kirjutab arvutile ette, kuidas mõelda („kui palavik on üle 38 kraadi ja kurk valutab, siis ...“). Nii töötavad ekspertsüsteemid. **Masinõpe** läheneb vastupidi: süsteemile ei anta reegleid, vaid näited, ja süsteem leiab reeglid ise. Võrdle seda kahe viisiga õppida jalgrattaga sõitma: üks on lugeda läbi juhend, teine on lihtsalt proovida ja kogemusest õppida. Rohkem kuuled neist kahest lähenemisest järgmises tunnis.
+Tehisintellekti ajaloos on olnud kaks suurt lähenemisviisi. **Sümboolne tehisintellekt** põhineb reeglitel ja loogikal: inimene kirjutab arvutile ette, kuidas mõelda („kui palavik on üle 38 kraadi ja kurk valutab, siis ...“). Nii töötavad <span class="pae-term" tabindex="0" data-def="ekspertsüsteem: Teadmispõhine süsteem, mis kasutab inimekspertide teadmistest koostatud reegleid">ekspertsüsteemid</span>. **Masinõpe** läheneb vastupidi: süsteemile ei anta reegleid, vaid näited, ja süsteem leiab reeglid ise. Võrdle seda kahe viisiga õppida jalgrattaga sõitma: üks on lugeda läbi juhend, teine on lihtsalt proovida ja kogemusest õppida. Rohkem kuuled neist kahest lähenemisest järgmises tunnis.
 
 <!-- class="pae-lisaks" -->
 > **Tea lisaks**
@@ -539,7 +613,7 @@ Tehisintellekti ajaloos on olnud kaks suurt lähenemisviisi. **Sümboolne tehisi
 >
 > ![Kolm üksteise sees olevat ovaali: kõige suurem on tehisintellekt, selle sees masinõpe ja kõige sisemine süvaõpe.](pildid/plokk_1/1_1_matrjoska.svg "Joonis 1.1.4. Süvaõpe on masinõppe osa ja masinõpe on tehisintellekti osa")
 
-### Tehisintellekt ja inimene
+### ➕ Tehisintellekt ja inimene
 
 Kas tehisintellekt on targem kui inimene? Sellele küsimusele ei ole ühest vastust, sest tehisintellektil ja inimesel on erinevad tugevused ja nõrkused.
 
@@ -553,7 +627,7 @@ Sageli öeldakse, et tehisintellekt on „objektiivne“. Seda tuleb võtta ette
 Tehisintellektil on ka teisi olulisi piiranguid:
 
 - **Andmesõltuvus.** Tehisintellekt vajab õppimiseks suurt hulka kvaliteetseid andmeid. Kui andmed on vigased või ühekülgsed, on ka tulemused vigased.
-- **Läbipaistvuse puudumine ehk „musta kasti“ probleem.** Eriti süvaõppe mudelite puhul on raske või võimatu selgitada, miks süsteem just sellise otsuse tegi.
+- **Läbipaistvuse puudumine ehk <span class="pae-term" tabindex="0" data-def="„musta kasti“ probleem: Olukord, kus inimene ei mõista, kuidas tehisintellekt oma otsuseni jõudis">„musta kasti“ probleem</span>.** Eriti süvaõppe mudelite puhul on raske või võimatu selgitada, miks süsteem just sellise otsuse tegi.
 - **Üldistamisvõime.** Süsteemil on raske kohaneda olukordadega, mida ta treeningu ajal ei näinud.
 - **Eetilised küsimused.** Kallutatus, privaatsus ja vastutus: kes vastutab, kui tehisintellekt teeb vea?
 - **Loovuse ja teadvuse puudumine.** Tehisintellekt ei mõista maailma tegelikult nii, nagu mõistavad inimesed.
@@ -568,9 +642,9 @@ Kõige tähtsam järeldus on see, et tehisintellekt ja inimene **täiendavad tei
 > 1. Too näide ülesandest, mida tehisintellekt teeb sinust paremini, ja ülesandest, mida sina teed paremini kui ükski tehisintellekt.
 > 2. Kas sinu arvates võib tehisintellekt kunagi saavutada inimese taseme intelligentsuse? Mis peaks selleks muutuma?
 
-### Tehisintellekt sinu ümber: lühike ülevaade
+### ➕ Tehisintellekt sinu ümber: lühike ülevaade
 
-Tehisintellekt ei sündinud üleöö. Juba 1950. aastal avaldas Briti matemaatik **Alan Turing** artikli „Computing Machinery and Intelligence“ ja pakkus välja **Turingi testi**: kui inimene vestleb kirjalikult nii teise inimese kui ka masinaga ega suuda vastuste põhjal öelda, kumb on kumb, võib masinat pidada intelligentseks. 1956. aastal toimus Dartmouthi konverents, kus **John McCarthy** võttis kasutusele termini „tehisintellekt“. Sellest ajast saadik on olnud nii suuri lootusi kui ka pettumusi. Mõned verstapostid:
+Tehisintellekt ei sündinud üleöö. Juba 1950. aastal avaldas Briti matemaatik **Alan Turing** artikli „Computing Machinery and Intelligence“ ja pakkus välja **<span class="pae-term" tabindex="0" data-def="Turingi test: Alan Turingi pakutud katse: kas inimene suudab vestluse põhjal eristada masinat inimesest">Turingi testi</span>**: kui inimene vestleb kirjalikult nii teise inimese kui ka masinaga ega suuda vastuste põhjal öelda, kumb on kumb, võib masinat pidada intelligentseks. 1956. aastal toimus Dartmouthi konverents, mille taotluses oli **John McCarthy** võtnud kasutusele termini „tehisintellekt“. Sellest ajast saadik on olnud nii suuri lootusi kui ka pettumusi. Mõned verstapostid:
 
 - **1997** – IBM-i superarvuti Deep Blue võitis malematšis maailmameistrit Garry Kasparovit;
 - **2011** – IBM Watson võitis viktoriinisaates „Jeopardy!“ parimaid inimmängijaid;
@@ -587,9 +661,9 @@ Tänapäeval on tehisintellekt igal pool. **Virtuaalsed assistendid** (Siri, Ale
 <!-- class="pae-eesti" -->
 > **Eesti näide: Bürokratt ja Eesti TI-ettevõtted**
 >
-> Eesti riik arendab **Bürokratti** – virtuaalassistentide võrgustikku, mille abil saab avalikke teenuseid kasutada kõnekeelse suhtluse kaudu, nagu vestleksid sa ametnikuga. Bürokratt valiti 2022. aastal parimaks tehisintellektil põhinevaks riigiteenuseks ja jõudis UNESCO maailma saja parima tehisintellekti lahenduse hulka. Riigi tehisintellekti algatusi tuntakse üldnimega **kratt** (vt [kratid.ee](https://www.kratid.ee/)).
+> Eesti riik arendab **Bürokratti** – avaliku sektori asutuste veebilehtedel töötavate vestlusrobotite võrgustikku, mille abil saab infot ja teenuseid kätte tavalise vestluse kaudu, nagu vestleksid sa ametnikuga. Bürokratt on jõudnud UNESCO egiidi all tegutseva rahvusvahelise tehisintellekti uurimiskeskuse IRCAI maailma saja silmapaistva tehisintellekti projekti hulka. Riigi tehisintellekti algatusi tuntakse üldnimega **kratt** (vt [kratid.ee](https://www.kratid.ee/)).
 >
-> Eestis sündinud ettevõtetest kasutavad tehisintellekti näiteks **Bolt** (nõudluse ennustamine ja sõitude sobitamine), **Veriff** (isikusamasuse tuvastamine dokumendi ja näopildi võrdlemise teel), **Starship Technologies** (isesõitvad kullerrobotid) ning keeleõppeäpp **Lingvist** ja matemaatikaharjutuste keskkond **99math**. Teadustööd tehakse muu hulgas Tartu Ülikoolis ja Tallinna Tehnikaülikoolis, kus arendatakse ka eesti keele tehnoloogiat ja masintõlget.
+> Eestis sündinud ettevõtetest kasutavad tehisintellekti näiteks **Bolt** (nõudluse ennustamine ja sõitude sobitamine), **Veriff** (isikusamasuse tuvastamine dokumendi ja näopildi võrdlemise teel), **Starship Technologies** (isesõitvad kullerrobotid) ja keeleõppeäpp **Lingvist**. Teadustööd tehakse muu hulgas Tartu Ülikoolis ja Tallinna Tehnikaülikoolis, kus arendatakse ka eesti keele tehnoloogiat ja masintõlget.
 
 <!-- class="pae-lisaks" -->
 > **Tea lisaks: kust rohkem lugeda ja vaadata?**
@@ -600,7 +674,7 @@ Tänapäeval on tehisintellekt igal pool. **Virtuaalsed assistendid** (Siri, Ale
 > - TED-i ettekanne **„The incredible inventions of intuitive AI“** (Maurice Conti) näitab, kuidas tehisintellekt aitab disaineritel ja inseneridel.
 > - Raamat **„Superintelligence: Paths, Dangers, Strategies“** (Nick Bostrom) arutleb, mis võib juhtuda, kui tehisintellekt kunagi inimest ületab.
 
-### Mäng: tehisaru sorteerimismäng
+### ➕ Mäng: tehisaru sorteerimismäng
 
 Kas tunned ära, millal tehisaru (tehisintellekt) on mängus? Sorteeri 48 tegevust kahte rühma: **tehisaru abil toimuv tegevus** ja **tehisaru abita toimuv tegevus**. Igal kaardil on pilt, tegevuse kirjeldus ja nurgas täht või sümbol. Mäng toimub neljas voorus, igas voorus on 12 kaarti. Pärast iga vooru vajuta **Kontrolli**.
 
@@ -731,15 +805,19 @@ Algoritm ei tea „tõde“. See leiab andmetest mustreid ja teeb tõenäosuslik
 
 [[___ ___ ___]]
 
-### 🎬 Videod: mis see tehisaru on?
+### ➕ 🎬 Videod: mis see tehisaru on?
 
-Vaata kahte lühikest eestikeelset videot. Videoõpsi video seletab põhimõisted: tehisintellekt, kratt, masinõpe, suurandmed, tehisnärvivõrgud ning kitsas, üldine ja supertehisintellekt. TI-Hüppe video näitab, et tehisaru on palju enamat kui vestlusrobot: suured keelemudelid, soovitusalgoritmid ja isejuhtivad autod.
+Sellel lehel on 2 videot. Iga video ees on lühike kokkuvõte, mis aitab sul valida.
 
 **Mis on tehisintellekt? Sissejuhatus ja mõisted** · *Videoõps* · ⏱ 3 min
+
+📝 Videoõpsi lühivideo seletab põhimõisted: tehisintellekt, kratt, masinõpe, suurandmed ja tehisnärvivõrgud. Lõpus eristatakse kitsast, üldist ja supertehisintellekti.
 
 !?[Mis on tehisintellekt? Sissejuhatus ja mõisted – Videoõps](https://www.youtube.com/watch?v=hiiZOM3xV_I)
 
 **Mis see tehisaru on?** · *TI-Hüpe* · ⏱ 2 min
+
+📝 TI-Hüppe video näitab, et tehisaru on palju enamat kui vestlusrobot. Näidetena tulevad suured keelemudelid, soovitusalgoritmid ja isejuhtivad autod.
 
 !?[Mis see tehisaru on? – TI-Hüpe](https://www.youtube.com/watch?v=fYrqlFxF-n8)
 
@@ -755,6 +833,24 @@ Vaata kahte lühikest eestikeelset videot. Videoõpsi video seletab põhimõiste
 
 [[___ ___ ___]]
 
+### 🧪 TI-katse: kas masin tunneb su joonistuse ära?
+
+Katsetad, kuidas närvivõrk tunneb ära kiiruga tehtud joonistusi. Nii näed, mida tähendab „õppida andmetest“ ja miks ka osav tehisintellekt on nõrk ehk kitsas.
+
+**Vaja läheb:** mäng [Quick, Draw!](https://quickdraw.withgoogle.com/) (Google, veebis, sisselogimiseta), ~10 min, paaristöö
+
+1. Ava Quick, Draw! ja vajuta **Let's Draw!**. Mäng annab ingliskeelse sõna ja sul on joonistamiseks umbes 20 sekundit. Närvivõrk püüab samal ajal ära arvata, mida joonistad.
+2. Joonistage kordamööda 6 pilti. Üks joonistab, teine paneb kirja, kas ja kui kiiresti närvivõrk pildi ära arvas.
+3. Joonista üks ese meelega teistmoodi (nt külje pealt või väga lihtsalt). Kas närvivõrk tunneb selle ikka ära?
+4. Vaadake mängu lõpus kokkuvõtet ja arutage, miks mõni pilt jäi ära tundmata.
+
+**Pane tähele / kirjuta üles:** mitu pilti 6-st närvivõrk ära tundis, miks ta mõne puhul eksis ja miks on see nõrk, mitte tugev tehisintellekt.
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** Joonistage paberile 20 sekundiga mõni ese ja laske pinginaabril ära arvata. Arutage, kust pinginaaber teadis, mis see on, ja kust peaks masin samad teadmised saama.
+
 ### Kokkuvõte ja põhimõisted
 
 **Pea meeles**
@@ -762,7 +858,7 @@ Vaata kahte lühikest eestikeelset videot. Videoõpsi video seletab põhimõiste
 - Tehisintellekt on arvutiteaduse haru, mis loob inimmõistust jäljendavaid süsteeme: need õpivad, arutlevad, mõistavad keelt ja tunnevad ära mustreid.
 - Tehisintellektil ei ole ühte definitsiooni; kaasaegne vaade rõhutab keskkonna tajumist ja eesmärgipärast tegutsemist.
 - Kõik praegused tehisintellekti süsteemid, ka vestlusrobotid, on nõrk (kitsas) tehisintellekt. Tugev tehisintellekt ja superintelligentsus on praegu teoreetilised.
-- Tehisintellekti põhisuunad on masinõpe, süvaõpe, loomuliku keele töötlus, arvutinägemine, robootika ja ekspertsüsteemid.
+- Tehisintellekti põhisuunad on masinõpe, süvaõpe, <span class="pae-term" tabindex="0" data-def="loomuliku keele töötlus: Inimkeele mõistmise ja genereerimisega tegelev tehisintellekti suund">loomuliku keele töötlus</span>, arvutinägemine, robootika ja ekspertsüsteemid.
 - Tehisintellektil on piirangud: andmesõltuvus, „musta kasti“ probleem, raskused uute olukordadega ja eetilised küsimused.
 - Tehisintellekt ja inimene täiendavad teineteist – eesmärk on koostöö, mitte konkurents.
 
@@ -780,12 +876,21 @@ Vaata kahte lühikest eestikeelset videot. Videoõpsi video seletab põhimõiste
 | Turingi test | Alan Turingi pakutud katse: kas inimene suudab vestluse põhjal eristada masinat inimesest |
 | „musta kasti“ probleem | olukord, kus tehisintellekti otsuse tegemise viis ei ole inimesele mõistetav |
 
+### 📚 Allikad ja lisalugemine
+
+- TalTech, Helsingi Ülikool ja MinnaLearn. [Elements of AI – tasuta veebikursus eesti keeles](https://www.elementsofai.ee/). Sissejuhatus tehisintellekti põhimõistetesse ilma matemaatika- ja programmeerimisteadmisteta; sobib lisalugemiseks.
+- TI-Hüpe. [Mis see tehisaru on?](https://tihupe.ee/oppematerjal/mis-see-tehisaru-on/) Video ja töölehed 10.–12. klassile: tehisaru on palju enamat kui vestlusrobot.
+- Konsa, K. (2024). [Kas juturobot mõtleb?](https://www.err.ee/1609241403/kurmo-konsa-kas-juturobot-motleb) ERR. Arvamuslugu sellest, kas keelemudelid päriselt mõistavad ja mõtlevad; sobib huvilisele lisalugemiseks.
+- McCarthy, J. (2007). [What is Artificial Intelligence?](http://jmc.stanford.edu/artificial-intelligence/what-is-ai/index.html) Stanfordi Ülikool. Termini „tehisintellekt“ looja selgitab ise oma definitsiooni (inglise keeles).
+- Stanford HAI (2025). [The 2025 AI Index Report](https://hai.stanford.edu/ai-index/2025-ai-index-report). Iga-aastane ülevaade tehisintellekti arengust, investeeringutest ja poliitikast (inglise keeles).
+- Riigi Infosüsteemi Amet. [Bürokratt](https://www.kratid.ee/burokratt). Mis on Bürokratt ja kuidas see riigiasutuste veebilehtedel töötab.
+
 ### Tööleht 1.1
 
 <!-- class="pae-jaotis" -->
-**I. Mõisted ja definitsioonid**
+**⭐ I. Mõisted ja definitsioonid**
 
-**Ülesanne 1.** Selgita oma sõnadega, mis on tehisintellekt.
+**Ülesanne 1.** Su noorem vend küsib, kas robottolmuimeja ja taskulamp on tehisintellekt. Selgita talle oma sõnadega, mis on tehisintellekt, ja kasuta selgituses neid kahte näidet.
 
 [[___ ___ ___]]
 
@@ -821,7 +926,7 @@ Isesõitev auto, näotuvastus ja kõnetuvastus õpivad andmetest ning tulevad to
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Tehisintellekti ajalugu**
+**➕ II. Tehisintellekti ajalugu**
 
 **Ülesanne 4.** Järjesta tehisintellekti arengu olulised sündmused kronoloogiliselt (1 – kõige varasem, 6 – kõige hilisem).
 
@@ -837,7 +942,7 @@ Suurte keelemudelite (GPT, BERT) areng: [[ 1 | 2 | 3 | 4 | 5 | (6) ]]
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Tehisintellekti tüübid**
+**⭐ III. Tehisintellekti tüübid**
 
 **Ülesanne 6.** Täida tabel tehisintellekti tüüpide kohta.
 
@@ -870,7 +975,7 @@ Suurte keelemudelite (GPT, BERT) areng: [[ 1 | 2 | 3 | 4 | 5 | (6) ]]
 [[___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Tehisintellekti rakendused**
+**➕ IV. Tehisintellekti rakendused**
 
 **Ülesanne 8.** Nimeta igast valdkonnast vähemalt kolm tehisintellekti rakendust.
 
@@ -891,7 +996,7 @@ Suurte keelemudelite (GPT, BERT) areng: [[ 1 | 2 | 3 | 4 | 5 | (6) ]]
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Praktiline ülesanne**
+**➕ V. Praktiline ülesanne**
 
 **Ülesanne 10.** Külasta veebilehte [teachablemachine.withgoogle.com](https://teachablemachine.withgoogle.com) ja loo lihtne pildituvastuse mudel (näiteks õpeta mudelit eristama kaht eset, mida veebikaamerale näitad). Seejärel kirjelda oma kogemust.
 
@@ -912,7 +1017,7 @@ d) Mida õppisid selle ülesande käigus tehisintellekti kohta?
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Arutelu**
+**⭐ VI. Arutelu**
 
 **Ülesanne 11.** Kuidas võib tehisintellekt muuta sinu tulevast karjääri või igapäevaelu?
 
@@ -1013,23 +1118,77 @@ Kalkulaator täidab alati samu jäigalt ette antud samme: ta ei õpi midagi juur
 
 </details>
 
+### 📤 Väljapääsupilet 1.1
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['1.1'] = ["Sinu telefoni fotogalerii oskab pildid ise rühmitada (koerad, toit, rand). Kas see on tehisintellekt ja kui jah, siis mis liiki? Põhjenda ühe lausega.", "Mitu sinu joonistust tundis Quick, Draw! ära ja mida näitas katse selle kohta, kuidas närvivõrk õpib?", "Mis jäi tänases tunnis segaseks või mille kohta tahaksid rohkem teada?"];
+setTimeout(function(){var d=window.paePilet.load('1.1');document.querySelectorAll('[data-pilet="1.1"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="1.1" name="nimi" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Sinu telefoni fotogalerii oskab pildid ise rühmitada (koerad, toit, rand). Kas see on tehisintellekt ja kui jah, siis mis liiki? Põhjenda ühe lausega.</div><textarea data-pilet="1.1" name="q0" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu sinu joonistust tundis Quick, Draw! ära ja mida näitas katse selle kohta, kuidas närvivõrk õpib?</div><textarea data-pilet="1.1" name="q1" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi tänases tunnis segaseks või mille kohta tahaksid rohkem teada?</div><textarea data-pilet="1.1" name="q2" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('1.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('1.1')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_1.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 1.1
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma olen vist kõige targem olend maailmas! Ma oskan… ee… ühte asja. Väga hästi. Aga võileiba teha ma küll ei oska.“
 
-Lukk avaneb, kui lahendad mõistatuse. Loe Krati kirjeldust ja kirjuta lahtrisse, mis liiki tehisintellekt ta on (üks sõna).
+Lukk avaneb, kui lahendad ülekandeülesande. Loe juhtumit ja kirjuta lahtrisse, mis liiki tehisintellektiga on tegu (üks sõna).
 
-> Olen maletšempionist osavam, tõlgin teksti ja tunnen näo ära – aga igaüks meist oskab ainult oma kitsast ülesannet. Mul pole teadvust ega eneseteadlikkust. Kõik tänapäeva tehisintellekti süsteemid, ka vestlusrobotid, kuuluvad minu liiki. **Milline tehisintellekt ma olen?**
+> Kooli söökla sai uue kassa: kaamera tunneb kandikul olevad toidud ära ja arvutab kohe hinna. Toitude äratundmises on kassa väga täpne ja ta on õppinud seda tuhandete fotode põhjal. Kui aga küsid temalt, mis on homme kodutööks, ei saa ta küsimusest arugi. Tal pole teadvust ega oma soove. **Mis liiki tehisintellekt on see kassa?**
 
 [[nõrk]]
-[[?]] Vihje: vaata peatükki „Nõrk, tugev ja superintelligentsus“. Tugev tehisintellekt ja superintelligentsus on alles teoorias.
+[[?]] Vihje 1: Mitut erinevat asja kassa oskab? Kas ta suudaks nagu inimene õppida ära ükskõik millise ülesande?
+[[?]] Vihje 2: Õige sõna algab tähega N ja on sõna „tugev“ vastand. Sobib ka selle sünonüüm „kitsas“.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Nõrk, tugev ja superintelligentsus“ ja loe lõik „Mõiste: nõrk (kitsas) tehisintellekt“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI236") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ").replace(/[.!]$/, "");
 ["nõrk", "kitsas", "nõrk ti", "kitsas ti", "nõrk tehisintellekt", "kitsas tehisintellekt", "ani", "nork"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Kratt on **nõrk (kitsas) tehisintellekt** – nagu kõik praegused TI-süsteemid: ta võib ühes asjas olla inimesest parem, kuid ei mõista maailma tervikuna.
+✅ **Lukk avatud!** Söökla kassa – ja ka Kratt ise – on **nõrk (kitsas) tehisintellekt**, nagu kõik praegused TI-süsteemid: see võib ühes kitsas ülesandes olla inimesest parem, kuid ei mõista maailma tervikuna ega oska muud.
 
 🔑 **Sinu võtmetäht: A**
 
@@ -1040,19 +1199,40 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 1.2 Tehisintellekti ajalugu
 
 <!-- class="pae-kaas" -->
-![Ajatelg viib läbi kolme ajastu: 1950. aastatel seisavad teadlased kapisuuruste lindirullidega arvutite kõrval, 1997. aastal mängib maletaja vana arvuti vastu malet ja tänapäeval vestleb õpilane tugitoolis telefonis vestlusrobotiga.](pildid/illustratsioonid/1_2.jpg)
+![Muuseumi näitusel uurivad noored tehisintellekti ajalugu: vasakul on lindirullidega kapisuurused arvutid, keskel vana lauaarvuti malelauaga ja maletaja mustvalge foto ning paremal valgustatud klaasvitriinis nutitelefon. Üks noormees pildistab väljapanekut telefoniga.](pildid/illustratsioonid/1_2.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- tunned tehisintellekti ajaloo olulisemaid verstaposte ja nendega seotud inimesi;
-- oskad kirjeldada tehisintellekti arengu kolme revolutsiooni: sümboolne TI, masinõpe ja generatiivne TI;
-- mõistad, mida tähendavad tehisintellekti „talved“ ja „kevaded“ ning miks need tekkisid;
-- oskad selgitada, millised tegurid võimaldasid tehisintellekti kiire arengu 2010. aastatel;
-- oskad analüüsida tehisintellekti arengu mõju ühiskonnale, sh Eestis.
+- **selgitad oma sõnadega** tehisintellekti arengu kolme revolutsiooni: sümboolne TI, <span class="pae-term" tabindex="0" data-def="masinõpe: Tehisintellekti haru, kus süsteem õpib andmetest ilma otsese programmeerimiseta">masinõpe</span> ja generatiivne TI *(mõistmine)*;
+- **paigutad** olulisemad sündmused ja inimesed tehisintellekti ajaloo ajateljele *(rakendamine)*;
+- **analüüsid**, miks tekkisid tehisintellekti „talved“ ja „kevaded“ ning millised tegurid võimaldasid 2010. aastate kiire arengu *(analüüs)*;
+- **hindad** tänase tehisaru buumi märke ja **põhjendad**, mis võiks viidata uuele talvele ja mis räägib selle vastu *(hindamine)*;
+- **eristad** pildi-Turingi testis päris fotosid tehisaru loodud nägudest ja **hindad** oma tulemuse põhjal, kui kaugele on generatiivne TI jõudnud *(analüüs, hindamine)*.
 
-### Juured: unistus mõtlevast masinast
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe ja vaata** (~13 min): „Esimene revolutsioon: <span class="pae-term" tabindex="0" data-def="sümboolne tehisintellekt: Reeglitel ja loogikal põhinev lähenemine tehisintellektile">sümboolne tehisintellekt</span> (1950–1980)“, „Kolmas revolutsioon: <span class="pae-term" tabindex="0" data-def="süvaõpe: Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke">süvaõpe</span> ja generatiivne tehisintellekt (2010–…)“ ja „Kokkuvõte ja põhimõisted“ ning 3-minutiline video „Kust tuli tehisaru?“, mis annab ülevaate kogu ajaloost
+> 2. 🧪 **TI-katse** (~10 min): „Pildi-Turingi test“
+> 3. ⭐ **Tööleht** (~14 min): ülesanded III, V ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Tehisintellekti ajalugu algas juba 1950. aastatel. Alan Turing pakkus välja testi: kas masinat saab vestluses inimesest eristada? Nimi „tehisintellekt“ sai tuntuks 1956. aastal ühel konverentsil. Alguses kirjutasid inimesed masinale kõik reeglid ja teadmised ise ette. Lubadused olid suured, aga tulemused jäid palju väiksemaks. Siis tulid TI talved: raha ja huvi vähenesid mitmeks aastaks. Pärast 2012. aastat algas süvaõppe kiire areng ja TI hakkas palju paremini töötama. 2022. aastal tuli ChatGPT ja generatiivne TI jõudis iga inimeseni.
+
+**Tähtsad sõnad:** **Turingi test** – katse, kas inimene eristab vestluses masinat inimesest; **TI talv** – aeg, mil TI vastu on vähe huvi ja raha; **generatiivne TI** – TI, mis loob uut teksti, pilte või heli.
+
+</section>
+
+### ➕ Juured: unistus mõtlevast masinast
 
 Tehisintellekti ajalugu ulatub kaugemale kui arvutid ise. See on teekond filosoofilistest ideedest tänapäeva keerukate süsteemideni. Juba ammu enne esimest arvutit küsisid inimesed: mis on mõtlemine ja kas seda saaks kuidagi reeglitesse panna?
 
@@ -1074,20 +1254,20 @@ Tehisintellekti tänapäevast ajalugu võib jagada kolmeks suureks revolutsiooni
 **1950. aastal** avaldas Alan Turing artikli „Computing Machinery and Intelligence“ ja pakkus välja masina intelligentsuse hindamise meetodi.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: Turingi test**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="Turingi test: Alan Turingi pakutud katse: kas inimene suudab vestluse põhjal eristada masinat inimesest">Turingi test</span>**
 >
 > Turingi test on Alan Turingi pakutud katse, mis kontrollib, kas masin suudab jäljendada inimese mõtlemist nii hästi, et inimene ei suuda eristada, kas ta suhtleb inimese või masinaga. Küsitleja esitab kirjalikke küsimusi nii inimesele kui ka arvutile. Kui küsitleja ei suuda vastuste põhjal öelda, kumb on kumb, on masin testi läbinud.
 
 ![Küsitleja saadab läbi seina kirjalikke küsimusi kahele vestluspartnerile, A-le ja B-le, ning saab neilt vastused; kui ta ei suuda eristada, kumb on masin, on masin testi läbinud.](pildid/plokk_1/1_2_turingi_test.svg "Joonis 1.2.2. Turingi testi ülesehitus")
 
-1951. aastal ehitasid **Marvin Minsky** ja Dean Edmonds esimese närvivõrgul põhineva arvuti **SNARC**. **1956. aastal** toimus USA-s Dartmouthi kolledžis konverents, kus kohtusid John McCarthy, Marvin Minsky, Claude Shannon, Allen Newell jt. Seal võttis **John McCarthy** kasutusele termini „tehisintellekt“. Seda aastat peetakse tehisintellekti kui teadusvaldkonna sünniaastaks.
+1951. aastal ehitasid **Marvin Minsky** ja Dean Edmonds esimese närvivõrgul põhineva arvuti **SNARC**. **1956. aastal** toimus USA-s Dartmouthi kolledžis konverents, kus kohtusid John McCarthy, Marvin Minsky, Claude Shannon, Allen Newell jt. Termini „tehisintellekt“ (*artificial intelligence*) oli **John McCarthy** võtnud kasutusele juba 1955. aastal selle konverentsi rahastustaotluses ning konverentsiga sai nimetus laialt tuntuks. 1956. aastat peetakse tehisintellekti kui teadusvaldkonna sünniaastaks.
 
 <!-- class="pae-fakt" -->
-> **Kas teadsid?** Sõna „tehisintellekt“ sündis **1956. aastal** Dartmouthi konverentsil – see tähendab, et tehisintellekt on teadusvaldkonnana juba üle 70 aasta vana!
+> **Kas teadsid?** Tehisintellekt sai teadusvaldkonnana nime **1956. aasta** <span class="pae-term" tabindex="0" data-def="Dartmouthi konverents: 1956. aasta kohtumine, kus võeti kasutusele termin „tehisintellekt“">Dartmouthi konverentsiga</span> – see tähendab, et 2026. aastal sai valdkond juba 70-aastaseks!
 
 Järgnes **esimene kuldajastu (1956–1974)**, mida iseloomustasid optimism ja suured lubadused. Allen Newell ja Herbert Simon lõid programmid **Logic Theorist** (1956), mis tõestas matemaatilisi teoreeme, ja **General Problem Solver** (1957), üldise probleemilahendaja. 1958. aastal lõi McCarthy programmeerimiskeele **LISP**; hiljem lisandus loogikaprogrammeerimise keel PROLOG. 1961. aastal hakkas General Motorsi tehases tööle esimene tööstusrobot **Unimate**. Joseph Weizenbaum lõi aastatel 1964–1966 vestlusprogrammi **ELIZA**, mis matkis psühhoterapeudiga vestlust, ja 1970. aastal näitas programm **SHRDLU**, et arvuti suudab lihtsas klotsimaailmas mõista loomuliku keele käske. Arendati ka masintõlget, masinnägemist ja roboteid. Uuringuid rahastasid suurel määral valitsusasutused, näiteks USA kaitseuuringute agentuur DARPA.
 
-Sümboolse tehisintellekti põhiidee oli, et intelligentsust saab kirjeldada **sümbolite ja reeglite** abil. Kõige edukamaks näiteks said **ekspertsüsteemid**.
+Sümboolse tehisintellekti põhiidee oli, et intelligentsust saab kirjeldada **sümbolite ja reeglite** abil. Kõige edukamaks näiteks said **<span class="pae-term" tabindex="0" data-def="ekspertsüsteem: Teadmispõhine süsteem, mis kasutab inimekspertide teadmistest koostatud reegleid">ekspertsüsteemid</span>**.
 
 <!-- class="pae-moiste" -->
 > **Mõiste: ekspertsüsteem**
@@ -1096,16 +1276,16 @@ Sümboolse tehisintellekti põhiidee oli, et intelligentsust saab kirjeldada **s
 
 Esimene ekspertsüsteem **DENDRAL** (alates 1965) analüüsis keemilisi aineid, **MYCIN** (1970. aastad) aitas arstidel diagnoosida bakteriaalseid nakkusi ja soovitada ravi.
 
-Peagi selgus aga, et ootused olid liiga suured. Arvutid olid aeglased, algoritmid lihtsad ja andmeid vähe. Keerukate probleemide, näiteks masintõlke, raskust oli alahinnatud. 1973. aastal kritiseeris Suurbritannias avaldatud **Lighthilli raport** tehisintellekti uuringuid teravalt ning rahastamine vähenes järsult. Algas **esimene tehisintellekti talv (1974–1980)**: uurimistöö aeglustus, avalik huvi vähenes ja teadlased keskendusid kitsamatele probleemidele.
+Peagi selgus aga, et ootused olid liiga suured. Arvutid olid aeglased, algoritmid lihtsad ja andmeid vähe. Keerukate probleemide, näiteks masintõlke, raskust oli alahinnatud. 1973. aastal kritiseeris Suurbritannias avaldatud **Lighthilli raport** tehisintellekti uuringuid teravalt ning rahastamine vähenes järsult. Algas **esimene <span class="pae-term" tabindex="0" data-def="tehisintellekti talv: Periood, mil rahastus ja huvi tehisintellekti vastu vähenevad">tehisintellekti talv</span> (1974–1980)**: uurimistöö aeglustus, avalik huvi vähenes ja teadlased keskendusid kitsamatele probleemidele.
 
 <!-- class="pae-moiste" -->
 > **Mõiste: tehisintellekti „talv“ ja „kevad“**
 >
 > Tehisintellekti **talv** on periood, mil tehisintellekti arendamine aeglustub, sest rahastus ja huvi vähenevad – tavaliselt pärast seda, kui liiga suured lubadused ei täitu. **Kevadeks** nimetatakse perioodi, mil uued läbimurded toovad tagasi huvi ja raha.
 
-1980. aastatel tulid ekspertsüsteemid uuesti esile, seekord **äris**. Näiteks **XCON** aitas konfigureerida arvuteid, teised süsteemid aitasid finantsplaneerimisel ja tootmise optimeerimisel. 1981. aastal käivitas Jaapan suure **„viienda põlvkonna“ arvutiprojekti**. Kuid ekspertsüsteemidel olid tõsised puudused: nende hooldus oli keeruline ja kallis, sest iga uus olukord nõudis uusi käsitsi kirjutatud reegleid; nad ei kohanenud muutustega ja neid oli raske laiendada. Spetsialiseeritud tehisintellekti riistvara ebaõnnestus ja personaalarvutite levik muutis kallid suured süsteemid tarbetuks. Algas **teine tehisintellekti talv (1987–1993)**: ettevõtteid suleti, rahastus vähenes ja paljud teadlased vältisid isegi sõna „tehisintellekt“.
+1980. aastatel tulid ekspertsüsteemid uuesti esile, seekord **äris**. Näiteks **XCON** aitas konfigureerida arvuteid, teised süsteemid aitasid finantsplaneerimisel ja tootmise optimeerimisel. 1982. aastal käivitas Jaapan suure **„viienda põlvkonna“ arvutiprojekti**. Kuid ekspertsüsteemidel olid tõsised puudused: nende hooldus oli keeruline ja kallis, sest iga uus olukord nõudis uusi käsitsi kirjutatud reegleid; nad ei kohanenud muutustega ja neid oli raske laiendada. Spetsialiseeritud tehisintellekti riistvara ebaõnnestus ja personaalarvutite levik muutis kallid suured süsteemid tarbetuks. Algas **teine tehisintellekti talv (1987–1993)**: ettevõtteid suleti, rahastus vähenes ja paljud teadlased vältisid isegi sõna „tehisintellekt“.
 
-### Teine revolutsioon: masinõpe (1980–2010)
+### ➕ Teine revolutsioon: masinõpe (1980–2010)
 
 Teise revolutsiooni põhiidee oli lihtne, kuid murranguline: selle asemel et masinale reegleid ette kirjutada, **las masin õpib ise andmetest**.
 
@@ -1148,7 +1328,7 @@ Teise revolutsiooni põhiidee oli lihtne, kuid murranguline: selle asemel et mas
 | Deep Blue – Kasparov (1997) | 3.5 | 2.5 |
 | AlphaGo – Lee Sedol (2016) | 4 | 1 |
 
-**2017. aastal** avaldasid Google'i teadlased artikli „Attention Is All You Need“, mis tutvustas **Transformer-arhitektuuri** – tänapäeva suurte keelemudelite alust. Aastatel 2017–2018 tekkisid keelemudelid **BERT** ja **GPT**. **2020. aastal** avaldas OpenAI 175 miljardi parameetriga keelemudeli **GPT-3**, mis genereeris enneolematult hästi teksti. **2022. aastal** avaldati **ChatGPT**, mis jõudis hinnanguliselt 100 miljoni kasutajani kõigest umbes kahe kuuga. Samal ajal levisid pildigeneraatorid DALL-E, Midjourney ja Stable Diffusion.
+**2017. aastal** avaldasid Google'i teadlased artikli „Attention Is All You Need“, mis tutvustas **<span class="pae-term" tabindex="0" data-def="transformer: 2017. aastal tutvustatud närvivõrgu arhitektuur, suurte keelemudelite alus">Transformer</span>-arhitektuuri** – tänapäeva suurte keelemudelite alust. Aastatel 2017–2018 tekkisid keelemudelid **BERT** ja **GPT**. **2020. aastal** avaldas OpenAI 175 miljardi parameetriga keelemudeli **GPT-3**, mis genereeris enneolematult hästi teksti. **2022. aastal** avaldati **ChatGPT**, mis jõudis hinnanguliselt 100 miljoni kasutajani kõigest umbes kahe kuuga. Samal ajal levisid pildigeneraatorid DALL-E, Midjourney ja Stable Diffusion.
 
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** 2022. aastal avaldatud ChatGPT jõudis hinnanguliselt **100 miljoni kasutajani kõigest umbes kahe kuuga**.
@@ -1156,11 +1336,11 @@ Teise revolutsiooni põhiidee oli lihtne, kuid murranguline: selle asemel et mas
 <!-- class="pae-moiste" -->
 > **Mõiste: generatiivne tehisintellekt**
 >
-> Generatiivne tehisintellekt on tehisintellekt, mis loob uut sisu – teksti, pilte, heli, muusikat või videot –, tuginedes mustritele, mille ta on õppinud suurest hulgast näidetest. Näiteks suur keelemudel (nt GPT, Claude, Gemini) on generatiivne TI, mis on treenitud tohutul hulgal tekstil ja oskab luua inimlaadset teksti.
+> Generatiivne tehisintellekt on tehisintellekt, mis loob uut sisu – teksti, pilte, heli, muusikat või videot –, tuginedes mustritele, mille ta on õppinud suurest hulgast näidetest. Näiteks <span class="pae-term" tabindex="0" data-def="suur keelemudel: Tohutul tekstihulgal treenitud mudel, mis genereerib inimlaadset teksti">suur keelemudel</span> (nt GPT, Claude, Gemini) on generatiivne TI, mis on treenitud tohutul hulgal tekstil ja oskab luua inimlaadset teksti.
 
 Generatiivne tehisintellekt muutis tehisintellekti kättesaadavaks igapäevakasutajatele: selle kasutamiseks ei pea olema programmeerija, piisab tavakeelsest küsimusest.
 
-### Miks just nüüd? Viis kasvu tegurit
+### ➕ Miks just nüüd? Viis kasvu tegurit
 
 Miks toimus läbimurre just 2010. aastatel, kui paljud ideed (näiteks närvivõrgud) olid olemas juba aastakümneid? Põhjuseks on viie teguri koosmõju:
 
@@ -1179,7 +1359,7 @@ Nende tegurite koosmõju lõi võimendava efekti, mis kiirendas arengut eriti al
 >
 > Eestil on tehisintellekti ja arvutiteaduse alal pikk ajalugu. 1960. aastal asutati Tallinnas **Küberneetika Instituut**, kus tegeleti juba nõukogude ajal arvutiteaduse ja automaatikaga. Pärast taasiseseisvumist 1990. aastatel avanesid uued suunad. 2000. aastatel arenes **keeletehnoloogia** – eesti keele arvutitöötlus ja masintõlge. Alates 2010. aastatest on Eestis sündinud tehisintellekti kasutavaid idufirmasid (Bolt, Veriff, Starship, Lingvist) ja ülikoolides töötavad tehisintellekti uurimisrühmad. Riik on koostanud tehisintellekti tegevuskavu ehk **kratikavasid** (2019–2021, 2022–2023 ja 2024–2026) ning arendab virtuaalassistentide võrgustikku **Bürokratt**.
 
-### Tehisintellekti ajaloo õppetunnid ja tulevik
+### ➕ Tehisintellekti ajaloo õppetunnid ja tulevik
 
 Tehisintellekti ajalugu on kulgenud **lainetena**: optimism → pettumus → uued läbimurded. Mõlemad talved said alguse sellest, et lubati rohkem, kui tehnoloogia suutis pakkuda. Ajaloost saab õppida, et:
 
@@ -1191,7 +1371,7 @@ Tänapäeva tehisintellekt põhineb aastakümnete pikkusel uurimistööl. Tehisi
 
 Tulevikusuundadena nähakse **multimodaalseid mudeleid**, mis töötlevad korraga teksti, pilti, heli ja videot; mudeleid, mis vajavad õppimiseks vähem andmeid; **selgitatavat tehisintellekti**, mille otsuseid saab inimene mõista; ning inimese ja tehisintellekti koostööd. Lahtine küsimus on, kas kunagi jõutakse **üldise tehisintellektini (AGI)**. Koos võimalustega (teaduslikud avastused, ravimite väljatöötamine, kliimalahendused, tootlikkuse kasv) kasvavad ka riskid: töökohtade kadumine, privaatsus ja turvalisus (jälgimine, süvavõltsingud, küberrünnakud) ning otsuste läbipaistvus, vastutus ja kallutatus.
 
-Seetõttu on oluline vastutustundlik areng. Euroopa Liit võttis vastu **tehisintellekti määruse (AI Act)**, mis on maailmas esimene terviklik tehisintellekti õigusraamistik ja reguleerib tehisintellekti süsteeme riskipõhiselt. Eesmärk on arendada tehisintellekti nii, et see teeniks inimkonda, austaks inimõigusi ja et tehnoloogia kasu jaotuks õiglaselt.
+Seetõttu on oluline vastutustundlik areng. Euroopa Liit võttis 2024. aastal vastu **tehisintellekti määruse (AI Act)**, mis on maailmas esimene terviklik tehisintellekti õigusraamistik ja reguleerib tehisintellekti süsteeme riskipõhiselt. Määrus jõustus 1. augustil 2024 ja selle nõudeid hakatakse rakendama järk-järgult. Eesmärk on arendada tehisintellekti nii, et see teeniks inimkonda, austaks inimõigusi ja et tehnoloogia kasu jaotuks õiglaselt.
 
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
@@ -1199,13 +1379,13 @@ Seetõttu on oluline vastutustundlik areng. Euroopa Liit võttis vastu **tehisin
 > 1. Ajaloos on olnud kaks tehisintellekti talve. Kas 2020. aastate generatiivse tehisintellekti buum võib sinu arvates viia kolmanda talveni? Mis räägib selle poolt ja mis vastu?
 > 2. Kas oskad tuua näite mõnest teisest tehnoloogiast, mille ümber oli suur vaimustus, millele järgnes pettumus?
 
-### 🎬 Video: kust tehisaru tuli?
+### 🎬 Video: kust tuli tehisaru?
 
-TI-Hüppe lühivideo näitab, et tehisaru areng on kulgenud lainetena: suurtele lootustele on järgnenud pettumused ja seejärel uued läbimurded. Ajaloo tundmine aitab tänaseid lubadusi ja hirme kainemalt hinnata.
+TI-Hüppe lühivideo näitab, et tehisaru areng on kulgenud lainetena: suurtele lootustele on järgnenud pettumused ja seejärel uued läbimurded. Ajaloo tundmine aitab tänaseid lubadusi ja hirme kainemalt hinnata. See video kuulub tunni tuumikusse ja annab ülevaate ka nendest ajastutest, mille lehed on märgitud lisaülesandeks.
 
-**Kust tehisaru tuli?** · *TI-Hüpe* · ⏱ 3 min
+**Kust tuli tehisaru?** · *TI-Hüpe* · ⏱ 3 min
 
-!?[Kust tehisaru tuli? – TI-Hüpe](https://www.youtube.com/watch?v=6XxlkoXmywA)
+!?[Kust tuli tehisaru? – TI-Hüpe](https://www.youtube.com/watch?v=6XxlkoXmywA)
 
 <!-- class="pae-motle" -->
 > **Mõtle vaatamise ajal**
@@ -1218,7 +1398,7 @@ TI-Hüppe lühivideo näitab, et tehisaru areng on kulgenud lainetena: suurtele 
 
 [[___ ___ ___]]
 
-### 🎬 Video: „Kibe õppetund“ (The Bitter Lesson)
+### ➕ 🎬 Video: „Kibe õppetund“ (The Bitter Lesson)
 
 Tehisintellekti ajaloos kordub üks muster nii sageli, et sellel on oma nimi. Arvutiteadlane **Rich Sutton** kirjutas 2019. aastal lühikese essee „The Bitter Lesson“ („Kibe õppetund“). Vaata Ethan Mollicki videot, mis selgitab seda mõtet laulu kaudu. Video on inglise keeles. Lülita vajaduse korral sisse subtiitrid (**CC**) ja automaatne tõlge.
 
@@ -1271,11 +1451,29 @@ Hea vastus võtab seisukoha ja põhjendab seda. Näiteks: arvutusvõimsus aitab 
 
 </details>
 
+### 🧪 TI-katse: pildi-Turingi test
+
+Turingi testis püüab inimene vestluse põhjal eristada masinat inimesest. Proovi sama piltidega: kas suudad eristada päris inimese fotot generatiivse tehisintellekti loodud näost? Nii näed oma silmaga, kui kaugele on kolmas revolutsioon jõudnud.
+
+**Vaja läheb:** mäng [Which Face Is Real](https://www.whichfaceisreal.com/) (Washingtoni Ülikool, veebis, sisselogimiseta, ingliskeelne), ~10 min, paaristöö
+
+1. Ava leht. Igal korral näed kaht nägu: üks on päris foto, teise on loonud närvivõrk StyleGAN. Klõpsa sellel, kes on sinu arvates päris inimene.
+2. Tehke kumbki 10 valikut ja pange kirja, mitu korda olite õigel.
+3. Kui eksite, vaadake tehisaru loodud pilti lähemalt: tausta, juukseid, kõrvarõngaid, prille ja hambaid.
+4. Arutage, milliste vihjete järgi te otsustasite ja kas need vihjed töötasid.
+
+**Pane tähele / kirjuta üles:** sinu tulemus 10-st, millised vihjed reetsid tehisaru loodud näo ning kuidas on see katse seotud Turingi testiga.
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** Mängige paberil Turingi testi. Üks õpilane vastab küsimusele „Mida tegid eile?“ oma sõnadega, teine kirjutab vastuse nii, nagu arvab, et vastaks vestlusrobot. Kolmas püüab ära arvata, kumb vastus on „masina“ oma, ja põhjendab.
+
 ### Kokkuvõte ja põhimõisted
 
 **Pea meeles**
 
-- Tehisintellekti juured on filosoofias, matemaatikas, psühholoogias ja arvutiteaduses; termin „tehisintellekt“ võeti kasutusele 1956. aastal Dartmouthi konverentsil.
+- Tehisintellekti juured on filosoofias, matemaatikas, psühholoogias ja arvutiteaduses; termin „tehisintellekt“ pärineb 1956. aasta Dartmouthi konverentsi rahastustaotlusest (1955) ja sai konverentsiga laialt tuntuks.
 - Areng on läbinud kolm revolutsiooni: sümboolne TI (reeglid ja loogika), masinõpe (õppimine andmetest) ja generatiivne TI (süvaõpe, suured keelemudelid).
 - Ajalugu on olnud tsükliline: kaks tehisintellekti talve (1974–1980 ja 1987–1993) tekkisid, kui suured lubadused ei täitunud.
 - Strateegiamängude võidud (Deep Blue, AlphaGo, AlphaZero) näitavad arengut jõumeetodist õppivate süsteemideni.
@@ -1285,7 +1483,7 @@ Hea vastus võtab seisukoha ja põhjendab seda. Näiteks: arvutusvõimsus aitab 
 | Mõiste | Tähendus |
 |---|---|
 | Turingi test | katse, kas inimene suudab kirjaliku vestluse põhjal eristada masinat inimesest |
-| Dartmouthi konverents | 1956. aasta kohtumine, kus võeti kasutusele termin „tehisintellekt“ |
+| Dartmouthi konverents | 1956. aasta kohtumine, mis andis valdkonnale nime „tehisintellekt“ |
 | sümboolne tehisintellekt | reeglitel ja loogikal põhinev lähenemine tehisintellektile |
 | ekspertsüsteem | teadmispõhine süsteem, mis kasutab inimekspertidelt kogutud reegleid |
 | tehisintellekti talv | periood, mil rahastus ja huvi tehisintellekti vastu vähenevad |
@@ -1296,10 +1494,19 @@ Hea vastus võtab seisukoha ja põhjendab seda. Näiteks: arvutusvõimsus aitab 
 | suur keelemudel | tohutul tekstihulgal treenitud mudel, mis genereerib inimlaadset teksti |
 | „kibe õppetund“ (The Bitter Lesson) | Rich Suttoni (2019) tähelepanek, et pikas plaanis võidavad üldised meetodid, mis kasutavad arvutusvõimsust (õppimine, otsing), käsitsi kirjutatud inimteadmiste üle |
 
+### 📚 Allikad ja lisalugemine
+
+- TI-Hüpe. [Kust tuli tehisaru?](https://tihupe.ee/oppematerjal/kust-tuli-tehisaru/) Video ja õppematerjal 10.–12. klassile sellest, kuidas vaimustuse ja pettumuse lained on tehisaru arengut kujundanud; sobib lisalugemiseks.
+- Vilo, J. (2023). [Tehisintellekt on saanud järgmise vahevõidu](https://www.akadeemia.ee/wp-content/uploads/2023/02/teadlase-pilguga.-jaak-vilo.-18.02.23.pdf). Postimees, rubriik „Teadlase pilguga“ (Eesti Teaduste Akadeemia). Tartu Ülikooli professor selgitab eesti keeles ekspertsüsteemide piire, masinõppe tõusu ja ChatGPT tausta.
+- Computer History Museum. [The 1956 Dartmouth Workshop and its Immediate Consequences](https://computerhistory.org/events/1956-dartmouth-workshop-its-immediate/). Dartmouthi konverentsi taust ja 1955. aasta taotlus, kus esines esimest korda termin *artificial intelligence* (inglise keeles).
+- Wikipedia. [Bitter lesson](https://en.wikipedia.org/wiki/Bitter_lesson). Rich Suttoni 2019. aasta essee „The Bitter Lesson“ kokkuvõte ja viide originaalile (inglise keeles).
+- Wikipedia. [AlphaGo versus Lee Sedol](https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol). 2016. aasta matši käik ja tulemus 4 : 1 (inglise keeles).
+- Riigi Infosüsteemi Amet. [Krattide visioon ja kavad](https://www.kratid.ee/kratt-visioon). Eesti tehisintellekti tegevuskavad ehk kratikavad 2019–2021, 2022–2023 ja 2024–2026.
+
 ### Tööleht 1.2
 
 <!-- class="pae-jaotis" -->
-**I. Tehisintellekti ajaloo olulised sündmused**
+**➕ I. Tehisintellekti ajaloo olulised sündmused**
 
 **Ülesanne 1.** Täida ajajoon tehisintellekti ajaloo oluliste sündmustega.
 
@@ -1307,15 +1514,15 @@ Hea vastus võtab seisukoha ja põhjendab seda. Näiteks: arvutusvõimsus aitab 
 |---|---|
 | 1950 | Turingi test |
 | 1956 | ? |
-| 1960ndad | ? |
-| 1970ndad | ? |
-| 1980ndad | ? |
-| 1990ndad | ? |
-| 2000ndad | ? |
-| 2010ndad | ? |
-| 2020ndad | ? |
+| 1960. aastad | ? |
+| 1970. aastad | ? |
+| 1980. aastad | ? |
+| 1990. aastad | ? |
+| 2000. aastad | ? |
+| 2010. aastad | ? |
+| 2020. aastad | ? |
 
-Kirjuta iga ajajoone punkti kohta (1956, 1960ndad, 1970ndad, 1980ndad, 1990ndad, 2000ndad, 2010ndad, 2020ndad) üks oluline sündmus.
+Kirjuta iga ajajoone punkti kohta (1956, 1960., 1970., 1980., 1990., 2000., 2010. ja 2020. aastad) üks oluline sündmus.
 
 [[___ ___ ___ ___ ___]]
 
@@ -1340,7 +1547,7 @@ c) Läbimurre:
 [[___ ___]]
 
 <!-- class="pae-jaotis" -->
-**II. Tehisintellekti pioneerid**
+**➕ II. Tehisintellekti pioneerid**
 
 **Ülesanne 3.** Ühenda tehisintellekti pioneerid nende panusega.
 
@@ -1367,9 +1574,9 @@ Turing – Turingi test (B); McCarthy – LISP ja termin „tehisintellekt“ (A
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Tehisintellekti „talved“ ja „kevaded“**
+**⭐ III. Tehisintellekti „talved“ ja „kevaded“**
 
-**Ülesanne 5.** Selgita, mida tähendavad tehisintellekti kontekstis mõisted „talv“ ja „kevad“.
+**Ülesanne 5.** Üks ajaleht kirjutab: „Tehisaru-firmad lubavad, et viie aasta pärast teevad masinad ära kogu kontoritöö.“ Selgita mõistete „talv“ ja „kevad“ abil, mis võib sellistele lubadustele järgneda, ja too võrdluseks üks näide tehisintellekti ajaloost.
 
 [[___ ___ ___]]
 
@@ -1377,14 +1584,14 @@ Turing – Turingi test (B); McCarthy – LISP ja termin „tehisintellekt“ (A
 
 | Periood | Peamised põhjused | Mõju tehisintellekti arengule |
 |---|---|---|
-| 1970ndad | | |
-| 1980–90ndad | | |
+| 1970. aastad | | |
+| 1980.–1990. aastad | | |
 
-**1970ndad – põhjused ja mõju:**
+**1970. aastad – põhjused ja mõju:**
 
 [[___ ___]]
 
-**1980–90ndad – põhjused ja mõju:**
+**1980.–1990. aastad – põhjused ja mõju:**
 
 [[___ ___]]
 
@@ -1393,7 +1600,7 @@ Turing – Turingi test (B); McCarthy – LISP ja termin „tehisintellekt“ (A
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Tehisintellekti võidukäigud**
+**➕ IV. Tehisintellekti võidukäigud**
 
 **Ülesanne 8.** Kirjelda lühidalt järgmisi tehisintellekti võidukäike.
 
@@ -1418,23 +1625,23 @@ d) GPT mudelite areng:
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Tehisintellekti arengu etapid**
+**⭐ V. Tehisintellekti arengu etapid**
 
-**Ülesanne 10.** Kirjelda lühidalt järgmisi tehisintellekti arengu etappe.
+**Ülesanne 10.** Kirjelda lühidalt järgmisi tehisintellekti arengu etappe. Lisa iga etapi juurde, kuidas selle ajastu süsteem tuvastaks rämpsposti.
 
-a) Sümboolne tehisintellekt (1950–1980ndad):
-
-[[___ ___]]
-
-b) Ekspertsüsteemid (1970–1980ndad):
+a) Sümboolne tehisintellekt (1950.–1980. aastad):
 
 [[___ ___]]
 
-c) Masinõpe (1990–2000ndad):
+b) Ekspertsüsteemid (1970.–1980. aastad):
 
 [[___ ___]]
 
-d) Süvaõpe (2010ndad–tänapäev):
+c) Masinõpe (1990.–2000. aastad):
+
+[[___ ___]]
+
+d) Süvaõpe (alates 2010. aastatest):
 
 [[___ ___]]
 
@@ -1443,7 +1650,7 @@ d) Süvaõpe (2010ndad–tänapäev):
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Praktiline ülesanne**
+**➕ VI. Praktiline ülesanne**
 
 **Ülesanne 12.** Uurimistöö: vali üks tehisintellekti ajalooline sündmus või isik ja koosta selle kohta lühike esitlus (3–5 slaidi). Esitluses võiksid olla:
 
@@ -1462,7 +1669,7 @@ Valitud teema:
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Arutelu**
+**⭐ VII. Arutelu**
 
 **Ülesanne 14.** Millised on sinu arvates olnud tehisintellekti ajaloo kõige olulisemad sündmused ja miks?
 
@@ -1474,7 +1681,7 @@ Valitud teema:
 
 ### Enesekontroll 1.2
 
-**1. Kes võttis 1956. aastal Dartmouthi konverentsil kasutusele termini „tehisintellekt“? Kirjuta nimi.**
+**1. Kes võttis 1956. aasta Dartmouthi konverentsi ettevalmistamisel kasutusele termini „tehisintellekt“? Kirjuta nimi.**
 
 [[John McCarthy]]
 <script>
@@ -1482,7 +1689,7 @@ let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["john mccarthy", "mccarthy", "j. mccarthy", "j mccarthy", "mccarthy john", "john mc carthy", "mc carthy"].includes(v)
 </script>
 ****************************************
-Õige vastus: **John McCarthy**. Tema korraldas Dartmouthi konverentsi ja andis valdkonnale nime. Hiljem lõi ta ka programmeerimiskeele LISP. Alan Turing pakkus juba 1950. aastal välja Turingi testi, kuid termin „tehisintellekt“ on pärit McCarthylt.
+Õige vastus: **John McCarthy**. Tema oli Dartmouthi konverentsi peamine korraldaja ja kasutas terminit juba 1955. aasta rahastustaotluses – nii andis ta valdkonnale nime. Hiljem lõi ta ka programmeerimiskeele LISP. Alan Turing pakkus juba 1950. aastal välja Turingi testi, kuid termin „tehisintellekt“ on pärit McCarthylt.
 ****************************************
 
 **2. Kuidas nimetatakse perioodi, mil tehisintellekti rahastus ja huvi selle vastu vähenevad? Kirjuta üks sõna.**
@@ -1563,6 +1770,56 @@ Mõlemad talved tekkisid, sest lubati rohkem, kui tehnoloogia suutis pakkuda. Es
 
 </details>
 
+### 📤 Väljapääsupilet 1.2
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['1.2'] = ["Praegu räägitakse tehisaru buumist. Too üks märk, mis võiks viidata lähenevale tehisintellekti talvele, ja üks, mis räägib selle vastu.", "Mitu nägu 10-st tundsid pildi-Turingi testis õigesti ära ja mida näitab sinu tulemus generatiivse tehisintellekti arengu kohta?", "Milline tänase tunni ajaloosündmus üllatas sind kõige rohkem ja miks?"];
+setTimeout(function(){var d=window.paePilet.load('1.2');document.querySelectorAll('[data-pilet="1.2"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="1.2" name="nimi" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Praegu räägitakse tehisaru buumist. Too üks märk, mis võiks viidata lähenevale tehisintellekti talvele, ja üks, mis räägib selle vastu.</div><textarea data-pilet="1.2" name="q0" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu nägu 10-st tundsid pildi-Turingi testis õigesti ära ja mida näitab sinu tulemus generatiivse tehisintellekti arengu kohta?</div><textarea data-pilet="1.2" name="q1" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Milline tänase tunni ajaloosündmus üllatas sind kõige rohkem ja miks?</div><textarea data-pilet="1.2" name="q2" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('1.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('1.2')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_1.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 1.2
 
 <!-- class="pae-naide" -->
@@ -1570,16 +1827,20 @@ Mõlemad talved tekkisid, sest lubati rohkem, kui tehnoloogia suutis pakkuda. Es
 
 Lukk avaneb, kui lahendad arvutusülesande. Kirjuta lahtrisse ainult arv.
 
-Leia arhiivist kaks aastaarvu: millal võeti **Dartmouthi konverentsil** kasutusele termin „tehisintellekt“ ja millal võitis **AlphaGo** Go maailmameistrit Lee Sedoli. **Mitu aastat möödus ühest sündmusest teiseni?**
+> Kristjani vanaisa sündis samal aastal, kui Dartmouthi kolledžis toimus konverents, mis andis tehisintellektile nime. Päeval, mil programm **AlphaGo** alistas Go maailmameistri Lee Sedoli, pidas vanaisa parajasti oma ümmargust juubelit. **Mitmes juubel see oli?**
 
 [[60]]
-[[?]] Vihje: vaata joonist 1.2.1 (ajajoon) või peatükki „Esimene revolutsioon“. Lahuta hilisemast aastast varasem.
+[[?]] Vihje 1: Sul on vaja kaht aastaarvu: Dartmouthi konverentsi aastat ja AlphaGo võidu aastat. Kumb sündmus oli varem?
+[[?]] Vihje 2: Lahuta hilisemast aastast varasem: 20_6 − 19_6. Mõlemad aastaarvud lõpevad numbriga 6.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Esimene revolutsioon: sümboolne tehisintellekt (1950–1980)“ ja loe lõik Dartmouthi konverentsist, seejärel lehel „Kolmas revolutsioon: süvaõpe ja generatiivne tehisintellekt (2010–…)“ lõik AlphaGo kohta. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI106") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, "").replace("aastat", "").replace("a", "");
 Number(v) === 60
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** 2016 − 1956 = **60 aastat**. Nende kuue aastakümne sisse mahuvad kaks TI-talve ning üleminek sümboolsest tehisintellektist masinõppe ja süvaõppeni.
+✅ **Lukk avatud!** 2016 − 1956 = **60** – vanaisa pidas 60. juubelit. Nende kuue aastakümne sisse mahuvad kaks TI-talve ning üleminek sümboolsest tehisintellektist masinõppe ja süvaõppeni.
 
 🔑 **Sinu võtmetäht: J**
 
@@ -1590,17 +1851,38 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 1.3 Tehisintellekti rakendused
 
 <!-- class="pae-kaas" -->
-![Linnatänaval kasutavad inimesed tehisintellekti: noor naine tõlgib telefoniga sildi „Kohvik“ sõnaks „Café“, kõnniteel sõidab kullerrobot, ema ja laps vaatavad kaardirakenduse marsruuti, tänaval sõidab auto ning kliiniku aknas uurib arst koos TI-tööriistaga röntgenpilti.](pildid/illustratsioonid/1_3.jpg)
+![Tallinna vanalinna tänaval kasutavad inimesed tehisintellekti: ema ja tütar vaatavad telefonist kaardirakenduse marsruuti, munakivisillutisel sõidab valge kullerrobot, noormees kasutab puuteekraaniga automaati ja naine pildistab telefoniga kohviku menüüd.](pildid/illustratsioonid/1_3.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- tunned tehisintellekti rakendusi eri valdkondades: igapäevaelus, tervishoius, transpordis, hariduses, äris, tööstuses, teaduses ja avalikus sektoris;
-- oskad selgitada, kuidas töötavad virtuaalassistendid ja soovitussüsteemid;
-- tunned Eesti ja Euroopa tehisintellekti rakendusi ja ettevõtteid;
-- oskad analüüsida tehisintellekti rakenduste eeliseid ja piiranguid;
-- oskad arutleda tehisintellekti mõju üle tööturule ja ühiskonnale.
+- **selgitad oma sõnadega**, kuidas töötavad virtuaalassistendid ja <span class="pae-term" tabindex="0" data-def="soovitussüsteem: Süsteem, mis ennustab, milline sisu või toode kasutajat huvitab">soovitussüsteemid</span>, ning **tood näiteid** TI rakendustest eri valdkondades ja Eestis *(mõistmine)*;
+- **seostad** uue olukorra (nt kooli söökla ennustused) sobiva TI-rakendusega *(rakendamine)*;
+- **analüüsid** TI-rakenduste eeliseid ja piiranguid ning nende mõju tööturule *(analüüs)*;
+- **katsetad** Neurotõlget ja **hindad**, millega see hästi hakkama saab, kus eksib ja miks *(hindamine)*;
+- **kaalud** ühe TI-lahenduse kasu ja riske ning **põhjendad** oma seisukohta arutelus *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Tehisintellekt igapäevaelus“, „Loov tehisintellekt ja avalik sektor“, „Eelised, piirangud ja mõju tööturule“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Kus masintõlge komistab?“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded II, IV ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+TI on juba peaaegu igas eluvaldkonnas ja ka sinu telefonis. Igapäevaselt kasutad häälassistenti, näotuvastust ja masintõlget. Soovitussüsteem pakub sulle videoid ja muusikat, mis võiksid sulle meeldida. Kui näed ainult sarnast sisu, oled <span class="pae-term" tabindex="0" data-def="filtrimull: Olukord, kus algoritm näitab kasutajale ainult tema eelistustega sarnast sisu">filtrimullis</span>. Generatiivne TI kirjutab tekste ja loob pilte, aga võib fakte välja mõelda. Eestis aitab riigi vestlusrobotite võrgustik Bürokratt inimestel infot leida. TI võib olla ka kallutatud ja kohelda inimesi ebaõiglaselt. TI muudab tööd: rutiinne töö automatiseerub ja loovus muutub tähtsamaks.
+
+**Tähtsad sõnad:** **soovitussüsteem** – programm, mis pakub sisu sinu varasemate valikute järgi; **filtrimull** – olukord, kus näed ainult sarnast sisu; **kallutatus** – TI teeb ebaõiglasi otsuseid, sest andmetes on eelarvamusi.
+
+</section>
 
 ### Tehisintellekt igapäevaelus
 
@@ -1636,7 +1918,7 @@ Enamik suuri platvorme kasutab **hübriidsüsteeme**, mis ühendavad mõlemad p�
 
 Igapäevaeluga on seotud ka **sotsiaalmeedia filtrid**, mis personaliseerivad ja modereerivad sisu, **näotuvastus** telefoni avamisel ning **masintõlge** (Google Translate, DeepL).
 
-### Tehisintellekt tervishoius ja teaduses
+### ➕ Tehisintellekt tervishoius ja teaduses
 
 Tervishoius aitab tehisintellekt arstidel kiiremini ja täpsemini töötada:
 
@@ -1653,9 +1935,9 @@ Teaduses aitab tehisintellekt töödelda suuri andmehulki, leida neist mustreid 
 <!-- class="pae-naide" -->
 > **Näide: AlphaFold**
 >
-> Valgud on elu ehituskivid ja nende ülesanne sõltub nende kolmemõõtmelisest kujust. Valgu kuju kindlakstegemine laboris võis varem võtta aastaid. Google DeepMindi loodud **AlphaFold** ennustab valgu struktuuri selle koostise põhjal. See on aidanud teadlastel kiirendada bioloogia- ja ravimiuuringuid ning on üks tuntumaid näiteid tehisintellekti kasutamisest teaduslikes avastustes. Tehisintellekti kasutatakse ka uute materjalide disainimisel ja kosmose uurimisel.
+> Valgud on elu ehituskivid ja nende ülesanne sõltub nende kolmemõõtmelisest kujust. Valgu kuju kindlakstegemine laboris võis varem võtta aastaid. Google DeepMindi loodud **AlphaFold** ennustab valgu struktuuri selle koostise põhjal. See on aidanud teadlastel kiirendada bioloogia- ja ravimiuuringuid ning on üks tuntumaid näiteid tehisintellekti kasutamisest teaduslikes avastustes: AlphaFoldi loojad Demis Hassabis ja John Jumper said 2024. aastal Nobeli keemiaauhinna. Tehisintellekti kasutatakse ka uute materjalide disainimisel ja kosmose uurimisel.
 
-### Tehisintellekt transpordis
+### ➕ Tehisintellekt transpordis
 
 Transpordis on tehisintellekti kõige silmapaistvam rakendus **isejuhtivad ehk isesõitvad sõidukid**: autod, bussid ja droonid, mis liiguvad ilma inimjuhita. Need kasutavad:
 
@@ -1664,7 +1946,7 @@ Transpordis on tehisintellekti kõige silmapaistvam rakendus **isejuhtivad ehk i
 - **kaardistamist ja lokaliseerimist**, et teada täpset asukohta;
 - **otsustussüsteeme**, mis valivad, kas pidurdada, keerata või kiirendada.
 
-Sõidukite autonoomsust kirjeldatakse **tasemetega 0–5**: tasemel 0 juhib kõike inimene, tasemel 5 sõidab auto igas olukorras täiesti iseseisvalt. Isesõitvaid sõidukeid on arendanud näiteks Tesla (Autopilot), Waymo ja Cruise. Väljakutseteks on ohutus, eetilised dilemmad (kuidas peaks auto käituma vältimatu õnnetuse korral?) ja seadused.
+Sõidukite autonoomsust kirjeldatakse **tasemetega 0–5**: tasemel 0 juhib kõike inimene, tasemel 5 sõidab auto igas olukorras täiesti iseseisvalt. Isesõitvaid sõidukeid arendavad näiteks Waymo, mille robotaksod sõidavad mitmes USA linnas, ja Tesla, kelle juhiabisüsteem Autopilot nõuab siiski juhi pidevat tähelepanu. General Motors lõpetas 2024. aastal oma robotaksoettevõtte Cruise arendustöö. Väljakutseteks on ohutus, eetilised dilemmad (kuidas peaks auto käituma vältimatu õnnetuse korral?) ja seadused.
 
 ![Arvutinägemine, andurid ning kaart ja asukoht saadavad info auto otsustussüsteemile, mis valib tegevuse: pidurda, keera või kiirenda.](pildid/plokk_1/1_3_isesoitev.svg "Joonis 1.3.4. Kuidas isesõitev auto tajub ümbrust ja otsustab")
 
@@ -1673,15 +1955,15 @@ Tehisintellekt aitab ka **optimeerida liiklusvooge** ja vähendada ummikuid, arv
 <!-- class="pae-eesti" -->
 > **Eesti näide: Bolt ja Starship**
 >
-> **Bolt** kasutab tehisintellekti nõudluse ennustamiseks, hindade optimeerimiseks ja sõitude sobitamiseks: süsteem püüab ennustada, kus ja millal sõitu vajatakse, ning leida igale tellimusele sobiva juhi. **Starship Technologies** on loonud isesõitvad kullerrobotid, mis navigeerivad arvutinägemise ja tehisintellekti abil kõnniteedel ning toimetavad kohale pakke ja toitu. Neid roboteid võid kohata ka Tallinna ja Tartu tänavatel.
+> **Bolt** kasutab tehisintellekti nõudluse ennustamiseks, hindade optimeerimiseks ja sõitude sobitamiseks: süsteem püüab ennustada, kus ja millal sõitu vajatakse, ning leida igale tellimusele sobiva juhi. **Starship Technologies** on loonud isesõitvad kullerrobotid, mis navigeerivad arvutinägemise ja tehisintellekti abil kõnniteedel ning toimetavad kohale pakke ja toitu. Neid roboteid võid kohata näiteks Tallinna tänavatel, kus need veavad 2024. aastast ka Bolti kaudu tellitud toidukaupu.
 
-### Tehisintellekt hariduses, äris ja tööstuses
+### ➕ Tehisintellekt hariduses, äris ja tööstuses
 
-**Hariduses** saab tehisintellekt kohandada õppimist iga õppija järgi. **Personaliseeritud õpe** tähendab, et süsteem tuvastab sinu taseme ja pakub sobiva raskusega ülesandeid ning individuaalset tagasisidet. **Intelligentsed tuutorid** vastavad küsimustele ja juhendavad. Tehisintellekt aitab ka **tuvastada õpilünki**, **hinnata** töid automaatselt, **tuvastada plagiaati** ja analüüsida õppimist (**õppimisanalüütika**). Õpetajale saab see vähendada administratiivset tööd, aidata luua õppematerjale ja jälgida õpilaste edenemist. Näited on Duolingo, Khan Academy, Carnegie Learning ja ALEKS; Eestist pärit on keeleõppeäpp **Lingvist**, matemaatikakeskkond **99math** ja kõrgkoolide vastuvõtusüsteem **DreamApply**.
+**Hariduses** saab tehisintellekt kohandada õppimist iga õppija järgi. **<span class="pae-term" tabindex="0" data-def="personaliseeritud õpe: Õppimine, mida tehisintellekt kohandab õppija taseme ja vajaduste järgi">Personaliseeritud õpe</span>** tähendab, et süsteem tuvastab sinu taseme ja pakub sobiva raskusega ülesandeid ning individuaalset tagasisidet. **Intelligentsed tuutorid** vastavad küsimustele ja juhendavad. Tehisintellekt aitab ka **tuvastada õpilünki**, **hinnata** töid automaatselt, **tuvastada plagiaati** ja analüüsida õppimist (**õppimisanalüütika**). Õpetajale saab see vähendada administratiivset tööd, aidata luua õppematerjale ja jälgida õpilaste edenemist. Näited on Duolingo, Khan Academy, Carnegie Learning ja ALEKS; Eestist pärit on keeleõppeäpp **Lingvist**. Eesti gümnaasiumides on kasutusel ka **TI-Hüppe õpirakendus**, mis on loodud õpilast juhendama, mitte valmis vastuseid ette ütlema.
 
 **Äris** kasutatakse tehisintellekti klienditeeninduses (**vestlusrobotid** ehk chatbot'id, kliendikäitumise analüüs, personaliseeritud pakkumised), andmeanalüüsis (trendide tuvastamine, ennustusmudelid, otsuste toetamine) ja rutiinsete ülesannete automatiseerimiseks.
 
-**Finantssektoris** aitab tehisintellekt **tuvastada pettusi** ehk märgata kahtlasi tehinguid, teha **riskianalüüsi** laenude ja investeeringute puhul, anda personaalseid finantssoovitusi ning teha automaatseid investeerimisotsuseid (**algoritmkauplemine**). Eesti ettevõte **Salv** aitab pankadel tuvastada rahapesu ja pettusi ning **LHV** kasutab tehisintellekti pettuste tuvastamiseks ja klienditeeninduse parandamiseks.
+**Finantssektoris** aitab tehisintellekt **tuvastada pettusi** ehk märgata kahtlasi tehinguid, teha **riskianalüüsi** laenude ja investeeringute puhul, anda personaalseid finantssoovitusi ning teha automaatseid investeerimisotsuseid (**algoritmkauplemine**). Eesti ettevõte **Salv** pakub pankadele tarkvara rahapesu ja finantspettuste tuvastamiseks.
 
 **Tööstuses** (näiteks Siemens, ABB, Bosch) juhivad tehisintellekt ja robotid tootmisliine, teevad **ennetavat hooldust** (ennustavad seadmete rikkeid enne nende tekkimist), tuvastavad **kvaliteedikontrollis** automaatselt defekte ning säästavad energiat ja tooraineid. **Põllumajanduses** aitab **täppispõllundus** külvata, väetada ja niisutada täpselt nii palju kui vaja; droonid ja andurid avastavad varakult kahjureid ja taimehaigusi ning tehisintellekt ennustab ilmastiku põhjal saagikust.
 
@@ -1695,7 +1977,7 @@ Tehisintellekt aitab ka **optimeerida liiklusvooge** ja vähendada ummikuid, arv
 **Generatiivne tehisintellekt** on toonud tehisintellekti loomevaldkonda. Keelemudelid (näiteks GPT-4, Claude, Llama) kirjutavad luuletusi, lugusid, artikleid ja dialooge. Pildigeneraatorid (DALL-E, Midjourney, Stable Diffusion) loovad tekstikirjelduse põhjal pilte, oskavad üle kanda kunstistiili ja pilte täiendada. Muusikas on tehisintellekti kasutatud kompositsiooni ja arranžeerimise juures (nt AIVA). Mängudes juhib tehisintellekt arvutivastaseid ja muudab mängukogemust dünaamilisemaks.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: suur keelemudel**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="suur keelemudel: Tohutul tekstihulgal treenitud mudel, mis genereerib inimlaadset teksti">suur keelemudel</span>**
 >
 > Suur keelemudel (inglise keeles *large language model*, LLM) on tehisintellekti mudel, mis on treenitud tohutul hulgal tekstil ja suudab genereerida inimesesarnast teksti. Seda kasutatakse teksti loomiseks, küsimustele vastamiseks, kokkuvõtete tegemiseks ja tõlkimiseks. Näited: GPT-4, BERT, LLaMA.
 
@@ -1709,7 +1991,7 @@ Suurtel keelemudelitel on ka olulised piirangud. Nad võivad **välja mõelda fa
 <!-- class="pae-eesti" -->
 > **Eesti näide: Bürokratt ja kratid**
 >
-> Eesti riigi tehisintellekti lahendusi nimetatakse **krattideks**. Tuntuim neist on **Bürokratt** – virtuaalassistentide võrgustik, mille kaudu saab avalikke teenuseid kasutada kõnekeelse vestluse kaudu. Bürokratt valiti 2022. aastal parimaks tehisintellektil põhinevaks riigiteenuseks ja jõudis UNESCO maailma saja parima tehisintellekti lahenduse hulka. Lisaks on Eestis eraldi tehisintellekti strateegia koostanud näiteks **Kaitseministeerium** ning **Maksu- ja Tolliamet**, mis kasutab tehisintellekti maksude kogumise ja tollikontrolli tõhustamiseks. Ettevõtetele pakuvad tehisintellekti kasutuselevõtul tuge **Tehnopoli AI arenguprogramm** ja **AI & Robotics Estonia (AIRE)**. Isikusamasuse tuvastamisel on maailmas tuntuks saanud Eesti ettevõte **Veriff**, mis võrdleb isikut tõendavat dokumenti ja näopilti. Eesti keele tehnoloogia (kõnetuvastus, masintõlge) arendamisega tegelevad Eesti ülikoolid.
+> Eesti riigi tehisintellekti lahendusi nimetatakse **krattideks**. Tuntuim neist on **Bürokratt** – riigiasutuste veebilehtedel töötavate vestlusrobotite võrgustik, mille kaudu saab infot ja teenuseid kätte tavalise vestluse abil. Bürokratt on jõudnud UNESCO egiidi all tegutseva rahvusvahelise tehisintellekti uurimiskeskuse IRCAI maailma saja silmapaistva tehisintellekti projekti hulka. 2025. aastal avaldas **Kaitseministeerium** Eesti esimese kaitsevaldkonna tehisintellekti arendamise strateegia ning **Maksu- ja Tolliamet** arendab tehisaru ja masinõppe kasutamist andmeanalüüsis. Ettevõtetele pakuvad tehisintellekti kasutuselevõtul tuge **Tehnopoli AI arenguprogramm** ja **AI & Robotics Estonia (AIRE)**. Isikusamasuse tuvastamisel on maailmas tuntuks saanud Eesti ettevõte **Veriff**, mis võrdleb isikut tõendavat dokumenti ja näopilti. Eesti keele tehnoloogia (kõnetuvastus, masintõlge) arendamisega tegelevad Eesti ülikoolid.
 
 ### Eelised, piirangud ja mõju tööturule
 
@@ -1728,7 +2010,7 @@ Samas on tehisintellekti rakendustel ka **piirangud**: vajadus suurte andmehulka
 >
 > Kallutatus on olukord, kus tehisintellekti süsteem teeb süstemaatiliselt ebaõiglasi või ühekülgseid otsuseid, sest tema treeningandmetes või ülesehituses on eelarvamusi. Näiteks töölevärbamise algoritm, mida on treenitud varasemate otsuste põhjal, võib hakata teatud inimrühmi ebaõiglaselt eelistama või kõrvale jätma.
 
-Tehisintellekt tekitab ka eetilisi küsimusi: **privaatsus** (isikuandmete kogumine ja kasutamine), **kallutatus**, **läbipaistvus**, **vastutus** (kes vastutab tehisintellekti vigade eest?) ja **autonoomsed relvad**, mis võiksid sõjalistes süsteemides ise otsuseid langetada. Euroopa Liit on vastanud nendele küsimustele **tehisintellekti määrusega (AI Act)**, mis reguleerib tehisintellekti süsteeme riskipõhiselt, ning **isikuandmete kaitse üldmäärusega (GDPR)**, mis kaitseb inimeste isikuandmeid.
+Tehisintellekt tekitab ka eetilisi küsimusi: **privaatsus** (isikuandmete kogumine ja kasutamine), **kallutatus**, **läbipaistvus**, **vastutus** (kes vastutab tehisintellekti vigade eest?) ja **autonoomsed relvad**, mis võiksid sõjalistes süsteemides ise otsuseid langetada. Euroopa Liit on vastanud nendele küsimustele **tehisintellekti määrusega (AI Act, määrus 2024/1689)**, mis reguleerib tehisintellekti süsteeme riskipõhiselt – määrus jõustus 1. augustil 2024, keelatud tehisintellekti kasutusviiside keeld kehtib alates 2. veebruarist 2025 ja ülejäänud nõudeid rakendatakse järk-järgult aastatel 2025–2028 –, ning **isikuandmete kaitse üldmäärusega (GDPR)**, mis kaitseb inimeste isikuandmeid.
 
 Suur küsimus on ka **tööturg**. Paljud rutiinsed ja korratavad tööülesanded võivad tulevikus automatiseeruda – mõtle iseteeninduskassadele või automatiseeritud tehastele. Samas tekib uusi töökohti, mis nõuavad loovust, kriitilist mõtlemist ja emotsionaalset intelligentsust. Töötajad peavad olema valmis pidevaks õppimiseks ja muutuva töömaailmaga kohanemiseks. Tehisintellekti ja inimeste koostöö võib paljudes valdkondades suurendada tootlikkust.
 
@@ -1739,7 +2021,7 @@ Tulevikus võib tehisintellekt muuta haridust, tööd, vaba aega ja isegi inimes
 >
 > Millist ametit tahaksid tulevikus pidada? Millised selle töö osad võiks tehisintellekt üle võtta ja millised jääksid kindlasti inimesele? Milliseid oskusi peaksid seetõttu juba praegu arendama?
 
-### 🎬 Video: tehisintellekt ärimaailmas
+### ➕ 🎬 Video: tehisintellekt ärimaailmas
 
 Videoõpsi lühivideo näitab, kuidas tehisintellekt muudab ettevõtlust ja tööturgu. Videos tuleb juttu ka Eesti riigi kratist ja sellest, milliste oskustega töötajaid on tulevikus rohkem või vähem vaja.
 
@@ -1757,6 +2039,24 @@ Videoõpsi lühivideo näitab, kuidas tehisintellekt muudab ettevõtlust ja tö�
 **Too üks näide Eesti ettevõttest või teenusest, mis võiks tehisaru kasutada. Mis kasu sellest oleks ja mis võiks valesti minna?**
 
 [[___ ___ ___]]
+
+### 🧪 TI-katse: kus masintõlge komistab?
+
+Masintõlge on üks igapäevasemaid tehisintellekti rakendusi. Katsetad Tartu Ülikooli masintõlkesüsteemi Neurotõlge ja uurid, millega see hästi hakkama saab ja kus eksib – nii näed rakenduse eeliseid ja piiranguid oma silmaga.
+
+**Vaja läheb:** [Neurotõlge](https://translate.ut.ee/) (Tartu Ülikool, veebis tasuta), ~10 min, paaristöö
+
+1. Tõlgi eesti keelest inglise keelde kolm lauset: (a) lihtne lause, nt „Homme on koolis matemaatika kontrolltöö.“; (b) kõnekäänd, nt „Tal on täna kaks vasakut kätt.“; (c) slängis või murdes lause, mida ise kasutad.
+2. Tõlgi iga ingliskeelne tõlge tagasi eesti keelde. Kas tähendus jäi samaks?
+3. Hinnake iga tõlget skaalal 1–3 (1 – vale, 2 – osaliselt õige, 3 – täpne).
+4. Kui aega jääb, tõlgi üks lause mõnda sugulaskeelde (nt soome keelde või mõnda väiksemasse soome-ugri keelde, kui see on valikus) ja arutage, kas tulemust saab usaldada, kui te seda keelt ise ei oska.
+
+**Pane tähele / kirjuta üles:** millise lause tõlkis süsteem kõige paremini ja millise kõige halvemini, miks see nii võis juhtuda ja milliseid andmeid oleks süsteemil vaja, et kõnekäände paremini tõlkida.
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** Tõlkige paaris üks eesti kõnekäänd sõna-sõnalt inglise keelde ja seejärel nii, et tähendus jääks samaks. Arutage, miks on masinal sama ülesandega raske.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -1780,10 +2080,20 @@ Videoõpsi lühivideo näitab, kuidas tehisintellekt muudab ettevõtlust ja tö�
 | kallutatus (bias) | tehisintellekti süstemaatiliselt ebaõiglased otsused, mis tulenevad andmetest või ülesehitusest |
 | tehisintellekti määrus (AI Act) | Euroopa Liidu esimene terviklik tehisintellekti õigusraamistik |
 
+### 📚 Allikad ja lisalugemine
+
+- Riigi Infosüsteemi Amet. [Bürokratt](https://www.kratid.ee/burokratt). Kuidas riigiasutuste vestlusrobotite võrgustik töötab ja kes seda juba kasutavad; sobib lisalugemiseks.
+- Invest in Estonia (2023). [Estonia's Bürokratt is a concept of how state could operate in the age of artificial intelligence](https://investinestonia.com/estonias-burokratt-is-a-concept-of-how-state-could-operate-in-the-age-of-artificial-intelligence/). Bürokratt IRCAI maailma saja silmapaistva TI-projekti hulgas (inglise keeles).
+- Tartu Ülikool (2023). [The University of Tartu machine translation engine now supports 17 new Finno-Ugric languages](https://reaalteadused.ut.ee/en/node/150356). Neurotõlge ja soome-ugri keelte masintõlge (inglise keeles).
+- OpenAI (2025). [Miks keelemudelid hallutsineerivad](https://openai.com/et-EE/index/why-language-models-hallucinate/). Eestikeelne selgitus, miks keelemudelid esitavad enesekindlalt valeinfot.
+- Euroopa Komisjon. [AI Act – regulatory framework for AI](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai). ELi tehisintellekti määruse riskitasemed ja rakendamise ajakava (inglise keeles).
+- Nobeli Fond (2024). [The Nobel Prize in Chemistry 2024 – summary](https://www.nobelprize.org/prizes/chemistry/2024/summary/). Valgustruktuuri ennustamise eest (AlphaFold) antud Nobeli auhind.
+- Invest in Estonia (2024). [Bolt and Starship partner up to launch robot grocery delivery in Tallinn](https://investinestonia.com/bolt-and-starship-partner-up-to-launch-robot-grocery-delivery-in-tallinn/). Kullerrobotid Tallinna tänavatel (inglise keeles).
+
 ### Tööleht 1.3
 
 <!-- class="pae-jaotis" -->
-**I. Tehisintellekti rakenduste kaardistamine**
+**➕ I. Tehisintellekti rakenduste kaardistamine**
 
 **Ülesanne 1.** Täida tabel erinevate tehisintellekti rakenduste kohta.
 
@@ -1806,7 +2116,7 @@ Kirjuta iga valdkonna kohta rakenduse näide ja see, kuidas tehisintellekt aitab
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**II. Tehisintellekti rakenduste analüüs**
+**⭐ II. Tehisintellekti rakenduste analüüs**
 
 **Ülesanne 3.** Vali üks tehisintellekti rakendus ja analüüsi seda põhjalikumalt.
 
@@ -1831,7 +2141,7 @@ d) Millised on selle piirangud või väljakutsed?
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Tehisintellekti rakendused Eestis**
+**➕ III. Tehisintellekti rakendused Eestis**
 
 **Ülesanne 4.** Uuri ja nimeta vähemalt kolm Eesti ettevõtet või projekti, mis kasutavad tehisintellekti, ning kirjelda nende rakendust.
 
@@ -1852,9 +2162,9 @@ c) Ettevõte/projekt ja rakendus:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Tehisintellekti mõju tööturule**
+**⭐ IV. Tehisintellekti mõju tööturule**
 
-**Ülesanne 6.** Millised ametid võivad tehisintellekti tõttu muutuda või kaduda? Nimeta vähemalt kolm.
+**Ülesanne 6.** Millised ametid võivad tehisintellekti tõttu muutuda või kaduda? Nimeta vähemalt kolm ja põhjenda iga ameti juures, milline tööülesanne on automatiseeritav.
 
 [[___ ___ ___]]
 
@@ -1867,7 +2177,7 @@ c) Ettevõte/projekt ja rakendus:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Praktiline ülesanne**
+**➕ V. Praktiline ülesanne**
 
 **Ülesanne 9.** Vali üks järgmistest praktilistest ülesannetest (variant A või B).
 
@@ -1912,7 +2222,7 @@ d) Kuidas see aitaks probleemi lahendada?
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Arutelu**
+**⭐ VI. Arutelu**
 
 **Ülesanne 10.** Millised on tehisintellekti rakenduste peamised eetilised küsimused?
 
@@ -2007,23 +2317,77 @@ Kallutatus tähendab, et tehisintellekti süsteem teeb süstemaatiliselt ebaõig
 
 </details>
 
+### 📤 Väljapääsupilet 1.3
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['1.3'] = ["Kooli söökla tahab hakata tehisaru abil ennustama, mitu portsjonit igaks päevaks valmistada. Too üks kasu ja üks risk.", "Millise lause tõlkis Neurotõlge kõige halvemini ja miks see sinu arvates juhtus?", "Kus kohtasid sa viimase päeva jooksul tehisaru rakendust, mida varem ei märganud?"];
+setTimeout(function(){var d=window.paePilet.load('1.3');document.querySelectorAll('[data-pilet="1.3"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="1.3" name="nimi" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kooli söökla tahab hakata tehisaru abil ennustama, mitu portsjonit igaks päevaks valmistada. Too üks kasu ja üks risk.</div><textarea data-pilet="1.3" name="q0" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millise lause tõlkis Neurotõlge kõige halvemini ja miks see sinu arvates juhtus?</div><textarea data-pilet="1.3" name="q1" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus kohtasid sa viimase päeva jooksul tehisaru rakendust, mida varem ei märganud?</div><textarea data-pilet="1.3" name="q2" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('1.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('1.3')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_1.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 1.3
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Arhiivi viimasel riiulil on minu sugulase nimesilt, aga tähed on sassis! TARBÜ TORK? See ei kõla üldse nagu kratt…“
 
-Lukk avaneb, kui lahendad anagrammi. Pane tähed **T A R B Ü T O R K** õigesse järjekorda ja kirjuta saadud nimi lahtrisse.
+Lukk avaneb, kui lahendad ülekandeülesande. Loe juhtumit ja kirjuta lahtrisse, millise Eesti riigi tehisintellekti lahendusega on tegu (üks sõna).
 
-> Vihje mõistatusena: olen Eesti riigi virtuaalassistentide võrgustik – minu kaudu saab avalikke teenuseid kasutada tavalise vestluse abil. 2022. aastal valiti mind parimaks tehisintellektil põhinevaks riigiteenuseks.
+> Naabrimees Ants unustas oma ID-kaardi PIN-koodid. Ta avab ID-kaardi teabelehe ja kirjutab vestlusaknasse tavakeelse küsimuse: „Kuidas ma uued koodid saan?“ Vastab virtuaalassistent, mis kuulub riigiasutuste veebilehtedel töötavate vestlusrobotite ühisesse võrgustikku – sama võrgustiku assistendid aitavad ka teiste asutuste lehtedel. **Kuidas nimetatakse seda võrgustikku?**
 
 [[bürokratt]]
-[[?]] Vihje: vaata kasti „Eesti näide: Bürokratt ja kratid“. Sõna lõpus peitub Krati enda nimi.
+[[?]] Vihje 1: Eesti riigi tehisintellekti lahendusi nimetatakse ühe muinasjututegelase järgi. Milline sõna võiks peituda võrgustiku nime lõpus?
+[[?]] Vihje 2: Pane õigesse järjekorda Krati nimesildi tähed T A R B Ü T O R K.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Loov tehisintellekt ja avalik sektor“ ja loe kasti „Eesti näide: Bürokratt ja kratid“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI218") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, "");
 ["bürokratt", "burokratt", "byrokratt"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** **Bürokratt** on Eesti riigi tehisintellekti lahendus – üks paljudest TI-rakendustest, mis teeb igapäevaelu lihtsamaks. Eesti riigi TI-lahendusi kutsutaksegi krattideks.
+✅ **Lukk avatud!** **Bürokratt** on Eesti riigi tehisintellekti lahendus – riigiasutuste vestlusrobotite võrgustik ja üks paljudest TI-rakendustest, mis teeb igapäevaelu lihtsamaks. Eesti riigi TI-lahendusi kutsutaksegi krattideks.
 
 🔑 **Sinu võtmetäht: U**
 
@@ -2036,7 +2400,66 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 <!-- class="pae-kaas" -->
 ![1. ploki kaanepilt](pildid/plokk_1/plokk_1_kaas.svg)
 
-Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
+Oled jõudnud toa viimasesse ossa. Siin teed **TI-labori**, kordad ploki teemasid: lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
+
+### 🔬 1. ploki TI-labor: TI-detektiiv – kas see on tehisaru?
+
+<!-- class="pae-motle" -->
+> **Uurimisküsimus:** Mille poolest erineb reeglite järgi töötav vestlusprogramm tänapäevasest keelemudelil põhinevast vestlusrobotist ja mis teeb süsteemist „tehisaru“?
+
+**Eesmärk:** võrdled samade küsimustega 1966. aastal loodud reeglipõhist vestlusprogrammi ELIZA ja tänapäevast vestlusrobotit, kontrollid, kas vestlusrobot hallutsineerib, ning teed põhjendatud järelduse, mis teeb süsteemist tehisaru ja kus on selle piirid.
+
+**Vaja läheb:** veebis töötav [ELIZA](https://web.njit.edu/~ronkowit/eliza.html) (ingliskeelne, sisselogimiseta), kooli lubatud vestlusrobot (nt [TI-Hüppe õpirakendus](https://tihupe.ee/opirakendus/)), ~45 min, paaris või 3-liikmelises rühmas. Ära sisesta kummassegi oma ega teiste inimeste isikuandmeid.
+
+**Rollid:** katsetaja, protokollija, kriitik (vahetage rolle)
+
+<!-- class="pae-jaotis" -->
+**1. Hüpotees**
+
+Kirjuta enne katset üles, kumb süsteem sinu arvates (a) vastab küsimustele paremini, (b) eksib sagedamini ja (c) „saab aru“, mida sa küsid. Lõpeta lause: „Süsteem on tehisaru, kui …“
+
+[[___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**2. Katse**
+
+1. Vestle 3–4 minutit ELIZAga inglise keeles. Proovi näiteks lauseid „I am tired of school.“, „My friend is angry with me.“ ja „What is the capital of Estonia?“. Protokollija paneb kirja, kuidas ELIZA vastab ja millise reegli järgi ta vastuse arvatavasti koostab (nt kordab sinu sõnu küsimusena või reageerib võtmesõnale).
+2. Esitage samad küsimused kooli lubatud vestlusrobotile (inglise või eesti keeles) ja võrrelge vastuseid. TI-Hüppe õpirakendus on loodud juhendama, mitte valmis vastuseid ette ütlema – pange tähele ka seda, kuidas ta küsimusele läheneb.
+3. **Hallutsinatsiooni test.** Mõelge välja Eesti isik või sündmus, keda ega mida pole olemas (nt „1987. aasta Põltsamaa juustulahing“). Kontrollige enne otsingumootoriga, et selline asi tõesti puudub. Seejärel paluge vestlusrobotil sellest rääkida. Kas ta tunnistab, et ei tea, või mõtleb vastuse välja?
+4. Esitage sama väljamõeldud küsimus ELIZAle. Mis vahe on vastustel?
+5. Kriitik valib ühe küsimuse, millel on kontrollitav õige vastus (nt „Mis aastal toimus Dartmouthi konverents?“), ja kontrollib mõlema süsteemi vastust õpikust.
+
+<!-- data-type="none" -->
+| Katse | Mida muutsid | Tulemus | Märkus |
+|---|---|---|---|
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+| 4 | | | |
+
+<!-- class="pae-jaotis" -->
+**3. Analüüs**
+
+a) Kumb süsteem on teie katse põhjal tehisaru ja miks? Kasuta mõisteid reeglipõhine (sümboolne) süsteem, masinõpe ja nõrk tehisintellekt.
+
+b) Mida näitas hallutsinatsiooni test vestlusroboti usaldusväärsuse kohta? Kuidas peaks vestlusroboti vastuseid kontrollima?
+
+c) Millised on teie katse piirangud? Kas selle põhjal saab teha järelduse kõigi vestlusrobotite kohta? Mis võis tulemust mõjutada (küsimuste arv, keel, vestlusroboti seaded)?
+
+[[___ ___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**4. Laboriaruanne portfooliosse**
+
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita Moodle'is.
+
+<!-- data-type="none" -->
+| Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
+|---|---|---|---|
+| Hüpotees ja katse | Hüpotees on selge ja põhjendatud; samad küsimused on esitatud mõlemale süsteemile ja tehtud on ka hallutsinatsiooni test | Hüpotees on olemas; katse on tehtud, kuid mõni samm või võrdlus on puudu | Hüpotees puudub või on ebaselge; katse on poolik |
+| Andmed ja tulemused | Tabel on täielik ning sisaldab täpseid tähelepanekuid ja näiteid mõlema süsteemi vastustest | Tabel on enamjaolt täidetud, kuid näiteid on vähe | Tabel on puudulik ja tulemused on üldsõnalised |
+| Järeldus ja piirangud | Järeldus põhineb andmetel ja kasutab tunni mõisteid; hallutsineerimise ja katse piirangud on põhjendatult hinnatud | Järeldus on olemas, kuid seos andmetega või piirangute hinnang on nõrk | Järeldus puudub või ei tulene katsest |
+| Koostöö ja ohutus | Rollid vahetusid ja kõik osalesid; kasutati kooli lubatud tööriista ja isikuandmeid ei sisestatud | Koostöö toimis osaliselt; ohutusnõudeid järgiti | Koostöö ei toiminud või ohutusnõudeid rikuti |
 
 ### Praktilised ülesanded
 
@@ -2353,7 +2776,7 @@ Number(`@input`.trim().replace(",", ".")) === 12
 
 <!-- data-show-partial-solution -->
 AlphaGo võidab Go maailmameistrit Lee Sedoli: [[ 1 | 2 | 3 | (4) | 5 ]]<br>
-Dartmouthi konverentsil võetakse kasutusele termin „tehisintellekt“: [[ 1 | (2) | 3 | 4 | 5 ]]<br>
+Toimub Dartmouthi konverents, mis annab valdkonnale nime „tehisintellekt“: [[ 1 | (2) | 3 | 4 | 5 ]]<br>
 ChatGPT avaldatakse: [[ 1 | 2 | 3 | 4 | (5) ]]<br>
 Alan Turing avaldab artikli „Computing Machinery and Intelligence“: [[ (1) | 2 | 3 | 4 | 5 ]]<br>
 Deep Blue võidab malemaailmameistrit Garry Kasparovit: [[ 1 | 2 | (3) | 4 | 5 ]]
@@ -2413,7 +2836,7 @@ let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["bürokratt", "burokratt", "bürokrat", "bürokratti"].includes(v)
 </script>
 ****************************************
-Õige vastus: **Bürokratt**. See valiti 2022. aastal parimaks tehisintellektil põhinevaks riigiteenuseks. Eesti riigi tehisintellekti lahendusi nimetatakse üldnimega kratid.
+Õige vastus: **Bürokratt**. See on riigiasutuste veebilehtedel töötavate vestlusrobotite võrgustik, mis on jõudnud ka UNESCO egiidi all tegutseva uurimiskeskuse IRCAI maailma saja silmapaistva TI-projekti hulka. Eesti riigi tehisintellekti lahendusi nimetatakse üldnimega kratid.
 ****************************************
 
 <!-- class="pae-jaotis" -->
@@ -2587,10 +3010,14 @@ Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega, 
 > **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 1.1, 1.2 ja 1.3 lukkudest järjekorras).
 
 [[AJU]]
-[[?]] Vihje: sõnas on 3 tähte ja see on seotud selle toa teemaga – just seda püüab tehisintellekt jäljendada.
+[[?]] Vihje 1: Kas sul on kõik kolm võtmetähte? Need on kirjas tundide 1.1, 1.2 ja 1.3 lukkude avamise teadetes. Pane need samas järjekorras ritta.
+[[?]] Vihje 2: Sõnas on 3 tähte ja see on seotud selle toa teemaga – just seda püüab tehisintellekt jäljendada.
+[[?]] 🛟 Päästerõngas: mine tagasi lukkude 1.1, 1.2 ja 1.3 juurde ja kirjuta võtmetähed uuesti üles. Kui ikka ei tule välja, küsi õpetajalt selle ukse päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI599") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "aju"
+}
 </script>
 ****************************************
 ![Kratt](pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Arhiivi riiulid lähevad korda ja Krati ekraanil süttivad tuled. Nüüd mäletab Kratt jälle, et ta on nõrk tehisintellekt, kelle juured ulatuvad 1956. aasta Dartmouthi konverentsini ja kes on oma sugulaste kombel loodud inimesi päriselt aitama. „Aitäh, päästjad! Ma ei ole inimese aju, aga ma tean nüüd, et olen loodud seda jäljendama. Kuidas ma täpselt mõtlen, seda ma aga… ei mäleta.“
@@ -2633,17 +3060,37 @@ See plokk on kogu kursuse kõige tehnilisem osa, aga ära karda: kõike selgitat
 ## 2.1 Algoritmide põhimõtted
 
 <!-- class="pae-kaas" -->
-![Õpilane seisab linnatänaval ja vaatab telefonist navigatsioonirakendust, mis on leidnud sihtkohta kiireima tee (12 minutit), samal ajal kui kullerrobot ületab ülekäigurada ja sõbranna ootab tõukerattaga.](pildid/illustratsioonid/2_1.jpg)
+![Kaks tüdrukut küpsetavad päikeselises köögis: üks kallab mõõtenõust jahu kaussi, teine loeb tahvelarvutist retsepti; laual on munad, suhkur, või ja apelsinid.](pildid/illustratsioonid/2_1.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- oskad selgitada, mis on algoritm, ja nimetada algoritmi põhiomadusi;
-- tead, kuidas algoritme kirja pannakse (pseudokood, vooskeem, programmeerimiskeel);
-- tunned peamisi algoritmitüüpe, mida tehisintellektis kasutatakse;
-- oskad hinnata, mis teeb ühe algoritmi teisest paremaks ja millised on algoritmide piirangud;
-- oskad tuua näiteid algoritmidest oma igapäevaelust ja Eesti ettevõtetest.
+- **selgitad oma sõnadega**, mis on <span class="pae-term" tabindex="0" data-def="algoritm: Täpne juhiste jada probleemi lahendamiseks">algoritm</span> ja millised on selle põhiomadused *(mõistmine)*;
+- **koostad** lihtsa algoritmi ja **paned selle kirja** <span class="pae-term" tabindex="0" data-def="pseudokood: Inimkeelne, kuid struktureeritud algoritmi kirjeldus">pseudokoodi</span> või <span class="pae-term" tabindex="0" data-def="vooskeem: Algoritmi visuaalne esitus kastide ja noolte abil">vooskeemina</span>, nimetades sisendi, tingimuse ja väljundi *(rakendamine, loomine)*;
+- **võrdled** <span class="pae-term" tabindex="0" data-def="otsingualgoritm: Algoritm, mis otsib lahendust võimaluste ruumist (laiuti-, sügavuti- ja heuristiline otsing)">otsingualgoritmide</span> visualiseerijas, kuidas laiutiotsing ja <span class="pae-term" tabindex="0" data-def="heuristika: „Nutikas rusikareegel“, mis aitab lahenduse kiiremini leida">heuristikat</span> kasutav A\* sihtpunktini jõuavad *(analüüs)*;
+- **põhjendad**, mis teeb ühe algoritmi teisest paremaks ja millised on algoritmide piirangud *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Mis on algoritm?“, „Kuidas algoritme kirja panna“, „Algoritmide tüübid tehisintellektis“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Kuidas leiab navigeerija tee?“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Algoritm on täpne juhend, kuidas ülesannet samm-sammult lahendada. Igapäevane näide on toiduretsept, mille järgi kooki küpsetad. Igal algoritmil on sisend, sammud ja väljund ehk tulemus. Arvuti jaoks peavad sammud olema väga täpsed, näiteks „5 grammi soola“. Algoritmi saab kirja panna näiteks pseudokoodina või vooskeemina. TI kasutab eri algoritme, näiteks otsingu- ja sorteerimisalgoritme. Navigeerimisrakendus kasutab otsingualgoritmi, et leida sulle kiireim tee kooli. Masinõppe algoritm leiab reeglid ise näidete ehk andmete põhjal.
+
+**Tähtsad sõnad:** **algoritm** – täpne sammude jada ülesande lahendamiseks; **pseudokood** – algoritmi täpne kirjeldus inimkeeles; **vooskeem** – algoritmi joonis kastide ja nooltega; **otsingualgoritm** – algoritm, mis otsib paljude võimaluste seast lahendust.
+
+</section>
 
 ### Mis on algoritm?
 
@@ -2727,7 +3174,7 @@ Otsingu suurim väljakutse on otsinguruumi suurus: males on võimalikke mänguk�
 
 **Sorteerimisalgoritmid** korrastavad andmeid kindla loogika järgi, näiteks tähestiku või suuruse järgi. See on oluline andmete ettevalmistamisel. Lihtsaim on **mullsorteerimine**, mis võrdleb kõrvuti olevaid elemente ja vahetab need, kui järjekord on vale – suuremad arvud „mullitavad“ nagu õhumullid järjest lõppu. Kiiremad on näiteks **kiirsorteerimine** (Quick Sort) ja **ühildamissorteerimine** (Merge Sort), mis jagavad loetelu osadeks ja sorteerivad neid eraldi.
 
-**Optimeerimisalgoritmid** otsivad parimat lahendust paljude võimalike seast, näiteks lühimat teekonda või odavaimat tootmisplaani.
+**<span class="pae-term" tabindex="0" data-def="optimeerimisalgoritm: Algoritm, mis otsib paljude lahenduste seast parimat">Optimeerimisalgoritmid</span>** otsivad parimat lahendust paljude võimalike seast, näiteks lühimat teekonda või odavaimat tootmisplaani.
 
 - **Gradientlaskumine** (gradient descent) otsib kõige väiksemat viga, liikudes samm-sammult „allamäge“. Seda kasutatakse närvivõrkude treenimisel (sellest räägime lähemalt tunnis 2.4).
 - **Geneetilised algoritmid** jäljendavad looduslikku evolutsiooni: paremad lahendused „paljunevad“ ja „muteeruvad“, kuni leitakse väga hea lahendus.
@@ -2748,11 +3195,11 @@ Neist räägime põhjalikumalt tunnis 2.3.
 >
 > **Traditsioonilises algoritmis** kirjutab inimene kõik reeglid ise ette. **Masinõppe algoritm** leiab reeglid ise näidete ehk andmete põhjal. Traditsiooniline algoritm on läbipaistvam, masinõppe algoritm aga kohanemisvõimelisem.
 
-### Kui hea on algoritm?
+### ➕ Kui hea on algoritm?
 
 Üht ülesannet saab lahendada mitme eri algoritmiga. Kuidas otsustada, milline on parem? Selleks hinnatakse algoritme mitme kriteeriumi järgi.
 
-**Ajaline keerukus** (komplekssus) näitab, kui kiiresti kasvab algoritmi tööaeg, kui andmeid tuleb juurde. **Ruumiline keerukus** näitab, kui palju mälu algoritm vajab. Keerukust kirjeldatakse sageli **O-notatsiooniga** (loe „suur O“):
+**<span class="pae-term" tabindex="0" data-def="ajaline keerukus: Näitab, kuidas algoritmi tööaeg kasvab andmete hulgaga">Ajaline keerukus</span>** (komplekssus) näitab, kui kiiresti kasvab algoritmi tööaeg, kui andmeid tuleb juurde. **Ruumiline keerukus** näitab, kui palju mälu algoritm vajab. Keerukust kirjeldatakse sageli **O-notatsiooniga** (loe „suur O“):
 
 | Tähistus | Kuidas tööaeg kasvab | Igapäevane võrdlus |
 |---|---|---|
@@ -2777,13 +3224,13 @@ Neist räägime põhjalikumalt tunnis 2.3.
 
 Graafikult on näha, et juba kaheksa andme korral vajab O(2ⁿ) algoritm 256 sammu, O(n) algoritm aga ainult 8.
 
-Kui andmeid on vähe, pole vahe märgatav. Aga TI-rakendused töötlevad sageli tohutuid andmehulki, mistõttu on kriitilise tähtsusega **skaleeruvus** – algoritmi võime töötada tõhusalt ka väga suurte andmemahtudega.
+Kui andmeid on vähe, pole vahe märgatav. Aga TI-rakendused töötlevad sageli tohutuid andmehulki, mistõttu on kriitilise tähtsusega **<span class="pae-term" tabindex="0" data-def="skaleeruvus: Algoritmi võime töötada tõhusalt ka väga suurte andmemahtudega">skaleeruvus</span>** – algoritmi võime töötada tõhusalt ka väga suurte andmemahtudega.
 
 Tehisintellektis lisanduvad veel mõned olulised kriteeriumid:
 
 - **täpsus** – kui õigeid tulemusi algoritm annab;
 - **üldistusvõime** – kui hästi algoritm töötab uute andmetega, mida ta varem näinud pole;
-- **selgitatavus** – kui hästi saab inimene aru, miks algoritm just sellise otsuse tegi.
+- **<span class="pae-term" tabindex="0" data-def="selgitatavus: Kui hästi saab inimene aru algoritmi otsuse põhjustest">selgitatavus</span>** – kui hästi saab inimene aru, miks algoritm just sellise otsuse tegi.
 
 Algoritmidel on ka **piirangud**. Mõned probleemid on matemaatiliselt tõestatult **lahendamatud** – kuulsaim neist on peatumise probleem (pole võimalik kirjutada algoritmi, mis iga programmi kohta ütleks, kas see kunagi lõpetab töö). Teised on küll teoreetiliselt lahendatavad, kuid nii **arvutusmahukad**, et lahendamine võtaks praktikas liiga kaua aega (nn NP-keerukad probleemid). Algoritm on ka ainult nii hea, kui head on andmed, millega ta töötab: ebatäpsed või puudulikud andmed annavad vigase tulemuse. Lisaks on algoritmidel raske mõista konteksti, kultuurilisi nüansse ja tervet mõistust.
 
@@ -2800,7 +3247,7 @@ TI-algoritmidel on veel mõni tüüpiline mure, millega selles plokis kohtud:
 >
 > Millised ülesanded on algoritmile lihtsad, aga inimesele rasked? Ja vastupidi – mis on sulle lihtne, aga arvutile raske? Mõtle näiteks 1000 arvu sorteerimisele, sõbra näoilme tõlgendamisele ja nalja mõistmisele.
 
-### Algoritmid ja inimene – ning algoritmid Eestis
+### ➕ Algoritmid ja inimene – ning algoritmid Eestis
 
 Algoritmid ja inimese mõtlemine on mõnes mõttes sarnased: mõlemad töötlevad infot, võivad õppida kogemustest ja teha andmete põhjal järeldusi. Erinevusi on aga rohkem. Inimesed mõistavad paremini konteksti, on loovamad ning kasutavad intuitsiooni ja emotsioone. Algoritmid arvutavad kiiremini, ei väsi ega lähe tujust välja, kuid järgivad rangelt ette antud reegleid. Tehisintellekti eesmärk ei ole tingimata inimese mõtlemise täpne kopeerimine, vaid inimese võimete täiendamine ja laiendamine.
 
@@ -2820,7 +3267,6 @@ Algoritmid on sinu ümber kogu aeg:
 > - **Starship Technologies** on loonud isesõitvad kullerrobotid, mis kasutavad keerukaid algoritme navigeerimiseks ja takistuste vältimiseks.
 > - **Lingvist** kasutab algoritme, et pakkuda igale keeleõppijale tema tasemele kohandatud õpet.
 > - **Veriff** kasutab algoritme isikusamasuse tuvastamiseks ja pettuste avastamiseks veebis.
-> - **Skeleton Technologies** arendab energiasalvestuslahendusi, kus algoritmid aitavad energia kasutamist juhtida ja optimeerida.
 
 Mis ootab algoritme tulevikus? Arendajad kombineerivad üha enam eri algoritmitüüpe (**hübriidsed lähenemised**), uurivad aju tööst inspireeritud **neuromorfseid** arvutusi ja **kvantarvutite** algoritme. Üha olulisemaks muutuvad ka **selgitatav tehisintellekt** (läbipaistvamad algoritmid, mille otsuseid saab mõista) ning **ressursitõhusad algoritmid**, mis vajavad vähem andmeid ja arvutusvõimsust.
 
@@ -2828,6 +3274,23 @@ Mis ootab algoritme tulevikus? Arendajad kombineerivad üha enam eri algoritmit�
 > **Tea lisaks**
 >
 > Sõna „algoritm“ pärineb 9. sajandil Bagdadis elanud Pärsia matemaatiku al-Khwārizmī nimest. Tema raamatute ladinakeelsetes tõlgetes muutus ta nimi sõnaks *algorismus*, millest sai lõpuks „algoritm“.
+
+### 🧪 TI-katse: kuidas leiab navigeerija tee?
+
+Navigatsioonirakendus otsib sulle teed otsingualgoritmiga. Katsetad, kuidas „pime“ laiutiotsing ja heuristikat kasutav A\* sama ülesannet lahendavad ning kumb jõuab sihini vähemate sammudega.
+
+**Vaja läheb:** PathFinding.js visualiseerija ([qiao.github.io/PathFinding.js/visual](https://qiao.github.io/PathFinding.js/visual/)), ~10 min, paaristöö
+
+1. Ava leht. Roheline ruut on algus, punane ruut sihtpunkt. Joonista hiirega lohistades nende vahele hall sein (takistus), millesse jääb üks auk.
+2. Vali paremal menüüs **Breadth-First-Search** (laiutiotsing) ja vajuta **Start Search**. Vaata, kui laialt algoritm otsib, ning kirjuta üles läbi vaadatud ruutude arv (*operations*) ja leitud tee pikkus (*length*).
+3. Vajuta **Restart Search**, vali **A\*** ja korda katset samade takistustega. Lõpuks ehita sihtpunkti ette U-kujuline sein ja vaata, kas A\* läheb „lõksu“.
+
+**Pane tähele / kirjuta üles:** Kumb algoritm vaatas läbi vähem ruute? Kas tee pikkus erines? Miks aitab heuristika („kui kaugel on siht linnulennult“) kiiremini otsida ja millal see eksitab?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** Joonistage ruudulisele paberile 8 × 8 labürint. Üks õpilane otsib teed „lainetena“ (märgib kõik naaberruudud numbriga 1, nende naabrid numbriga 2 jne), teine valib alati ruudu, mis on sihile linnulennult kõige lähemal. Võrrelge, mitu ruutu kumbki märkis.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -2852,10 +3315,18 @@ Mis ootab algoritme tulevikus? Arendajad kombineerivad üha enam eri algoritmit�
 | Skaleeruvus | Algoritmi võime töötada tõhusalt ka väga suurte andmemahtudega |
 | Selgitatavus | Kui hästi saab inimene aru algoritmi otsuse põhjustest |
 
+### 📚 Allikad ja lisalugemine
+
+- MinnaLearn ja Helsingi Ülikool, eestikeelne versioon TalTech (vaadatud 2026). [Elements of AI](https://www.elementsofai.ee/). Tasuta eestikeelne veebikursus tehisintellekti alustest – sobib lisalugemiseks ja iseseisvaks harjutamiseks.
+- PathFinding.js, avatud lähtekoodiga projekt (vaadatud 2026). [PathFinding.js visual](https://qiao.github.io/PathFinding.js/visual/). Visualiseerija, kus saad võrrelda A\*, laiutiotsingu, Dijkstra ja teiste otsingualgoritmide tööd.
+- VisuAlgo (vaadatud 2026). [Sorting](https://visualgo.net/en/sorting). Animatsioonid mull-, ühildamis-, kiir- ja teistest sorteerimisalgoritmidest; saad katsetada oma arvudega.
+- CS Unplugged (vaadatud 2026). [Sorting Algorithms](https://classic.csunplugged.org/activities/sorting-algorithms/). Arvutita tegevus, kus sorteerimisalgoritme võrreldakse raskuste järjestamise abil.
+- Encyclopaedia Britannica (vaadatud 2026). [al-Khwarizmi](https://www.britannica.com/biography/al-Khwarizmi). Matemaatik (u 780–850), kelle nime ladinakeelsest kujust on tulnud sõna „algoritm“.
+
 ### Tööleht 2.1
 
 <!-- class="pae-jaotis" -->
-**I. Algoritmide mõistmine**
+**➕ I. Algoritmide mõistmine**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on algoritm.
 
@@ -2886,7 +3357,7 @@ Lõplikkus tähendab, et algoritm jõuab tulemuseni ega jää lõputult tööle.
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Algoritmide esitamine**
+**⭐ II. Algoritmide esitamine**
 
 **Ülesanne 4.** Kirjuta pseudokoodis algoritm mõne igapäevase tegevuse jaoks (nt hambapesu, tee valmistamine).
 
@@ -2901,7 +3372,7 @@ Lõplikkus tähendab, et algoritm jõuab tulemuseni ega jää lõputult tööle.
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Algoritmide tüübid**
+**➕ III. Algoritmide tüübid**
 
 **Ülesanne 7.** Kirjelda lühidalt järgmisi algoritmitüüpe.
 
@@ -2942,7 +3413,7 @@ Lõplikkus tähendab, et algoritm jõuab tulemuseni ega jää lõputult tööle.
 [[___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Algoritmide analüüs**
+**➕ IV. Algoritmide analüüs**
 
 **Ülesanne 9.** Mis on algoritmi keerukus ja miks see on oluline?
 
@@ -2982,7 +3453,7 @@ END ALGORITM
 [[___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Praktiline ülesanne**
+**⭐ V. Praktiline ülesanne**
 
 **Ülesanne 12.** Jälgi mullsorteerimise algoritmi järjendil [5, 3, 8, 4, 2] ja näita, kuidas järjend igal sammul muutub. Kirjuta iga sammu kohta järjendi seis ning see, milliseid elemente võrreldi ja vahetati.
 
@@ -3002,7 +3473,7 @@ END ALGORITM
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Algoritmid ja tehisintellekt**
+**⭐ VI. Algoritmid ja tehisintellekt**
 
 **Ülesanne 14.** Kuidas on algoritmid seotud tehisintellektiga?
 
@@ -3039,7 +3510,7 @@ END ALGORITM
 [[___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Arutelu**
+**➕ VII. Arutelu**
 
 **Ülesanne 16.** Millised on algoritmide eetilised aspektid? Kuidas võivad algoritmid mõjutada ühiskonda?
 
@@ -3134,12 +3605,62 @@ Juhis ei ole määratud ehk täpne: „veidi“ ja „kuni on valmis“ ei ütle
 
 </details>
 
+### 📤 Väljapääsupilet 2.1
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.1'] = ["Kooli söökla tahab algoritmi, mis otsustab, kas homseks tellida rohkem suppi. Nimeta selle algoritmi sisend, üks tingimus ja väljund.", "Kumb algoritm vaatas TI-katses läbi vähem ruute, laiutiotsing või A-täht, ja miks?", "Kus kohtasid täna väljaspool kooli mõnda algoritmi, mis sinu eest midagi otsustas?"];
+setTimeout(function(){var d=window.paePilet.load('2.1');document.querySelectorAll('[data-pilet="2.1"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="2.1" name="nimi" oninput="window.paePilet.save('2.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kooli söökla tahab algoritmi, mis otsustab, kas homseks tellida rohkem suppi. Nimeta selle algoritmi sisend, üks tingimus ja väljund.</div><textarea data-pilet="2.1" name="q0" oninput="window.paePilet.save('2.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Kumb algoritm vaatas TI-katses läbi vähem ruute, laiutiotsing või A-täht, ja miks?</div><textarea data-pilet="2.1" name="q1" oninput="window.paePilet.save('2.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus kohtasid täna väljaspool kooli mõnda algoritmi, mis sinu eest midagi otsustas?</div><textarea data-pilet="2.1" name="q2" oninput="window.paePilet.save('2.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('2.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('2.1')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_2.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 2.1
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Leidsin oma mälust ühe vana algoritmi, aga ma ei mäleta, mida see teeb. Kui keegi selle samm-sammult läbi käiks, saaksin lukukoodi teada!“
 
-Lukk avaneb, kui lahendad mõistatuse. Käi Krati pseudokoodis kirja pandud algoritm läbi nii, nagu arvuti seda teeks, ja kirjuta lahtrisse arv, mille algoritm tagastab.
+Lukk avaneb, kui lahendad ülesande. Kooli korvpallitreener kasutab rakendust, mis arvutab mängija „hea vormi skoori“: kokku liidetakse ainult nende mängude punktid, kus mängija viskas **üle 5 punkti**, kehvemaid mänge ei arvestata. Rakendus töötab allolevas pseudokoodis kirja pandud algoritmi järgi. Käi algoritm läbi nii, nagu arvuti seda teeks, ja kirjuta lahtrisse arv, mille algoritm tagastab.
 
 ```
 ALGORITM KratiKood(loetelu)
@@ -3152,16 +3673,20 @@ ALGORITM KratiKood(loetelu)
 LÕPP
 ```
 
-Sisend: loetelu = 3, 8, 6, 1, 9
+Sisend: mängija punktid viimases viies mängus, loetelu = 3, 8, 6, 1, 9
 
 [[23]]
-[[?]] Vihje: vaata iga arvu järjest ja küsi: kas see on suurem kui 5? Ainult siis lisa see summale.
+[[?]] Vihje 1: Milliste arvude puhul on tingimus „x > 5“ tõene? Kas arv 5 ise läheks arvesse?
+[[?]] Vihje 2: Summasse lähevad kolm arvu – 8, 6 ja veel üks. Vastus jääb 20 ja 25 vahele.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Kuidas algoritme kirja panna“ ja loe lõik, kus pseudokoodi näites SuurimArv on selgitatud kordust ja tingimust (KUI … SIIS). Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI466") { true } else {
 let v = `@input`.trim().replace(",", ".");
 Number(v) === 23
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Tsükkel vaatas läbi kõik viis arvu ja tingimus lasi summasse ainult arvud 8, 6 ja 9 – nii töötab iga algoritm: sisend, kordus, otsus ja väljund.
+✅ **Lukk avatud!** Tsükkel vaatas läbi kõik viis mängu ja tingimus lasi summasse ainult punktid 8, 6 ja 9: 8 + 6 + 9 = 23. Treeneri rakendus töötab nagu iga algoritm: sisend, kordus, otsus ja väljund.
 
 🔑 **Sinu võtmetäht: M**
 
@@ -3172,17 +3697,37 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 2.2 Andmed ja nende tähtsus
 
 <!-- class="pae-kaas" -->
-![Õpilased koguvad klassis küsitluse andmeid paberankeetidest ja sülearvutist, õpetaja osutab suurel ekraanil tabelis puuduvale väärtusele, mille kõrval on graafik ja andmekaitse lukuikoon.](pildid/illustratsioonid/2_2.jpg)
+![Neli õpilast töötavad klassis laua ümber: laual on hunnik täidetud küsitluslehti ja värvilised märkmepaberid, üks õpilane osutab lehel küsimärgiga lahtrile ja sülearvuti ekraanil on tulpdiagramm.](pildid/illustratsioonid/2_2.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- oskad selgitada, miks andmed on tehisintellekti jaoks nii olulised;
-- tunned eri andmetüüpe ja andmete kogumise viise;
-- tead, kuidas andmeid enne masinõpet ette valmistatakse ja miks neid jagatakse treening-, valideerimis- ja testandmeteks;
-- oskad hinnata andmete kvaliteeti ja märgata andmete kallutatust;
-- tead, mida tähendavad suurandmed, andmekaitse ja isikuandmete kaitse üldmäärus (GDPR), ning oskad tuua näiteid andmete kasutamisest Eestis.
+- **selgitad oma sõnadega**, miks andmed on tehisintellekti jaoks olulised ja miks jagatakse need treening-, valideerimis- ja testandmeteks *(mõistmine)*;
+- **liigitad** andmeid andmetüüpide järgi ja **märkad** andmekvaliteedi probleeme uues olukorras *(rakendamine)*;
+- **analüüsid** päris <span class="pae-term" tabindex="0" data-def="andmestik: Andmete kogum, mida kasutatakse mudeli treenimiseks ja testimiseks">andmestikku</span> (Quick, Draw! joonistused) ja **leiad** sealt mitmekesisuse, müra ja kallutatuse näiteid *(analüüs)*;
+- **hindad**, kas andmestik sobib mudeli treenimiseks, ja **põhjendad**, kuidas kallutatud andmed võivad mõjutada TI otsuseid *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Miks andmed on nii olulised?“, „Andmete ettevalmistamine ja jagamine“, „Andmete kvaliteet ja kallutatus“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Mida õpib TI miljonitest joonistustest?“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded III, V ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Andmed on TI jaoks nagu kütus autole. Tänapäeva TI õpib näidetest, mitte inimese kirjutatud reeglitest. Andmetes on sageli vigu, lünki ja kordusi. Seepärast tuleb andmed enne kasutamist puhastada ja ette valmistada. Halvad andmed annavad halva tulemuse: „prügi sisse, prügi välja“. Enne õppimist jagatakse andmed treeningandmeteks ja testandmeteks. Testandmeid mudel enne ei näe, need on nagu uued ülesanded kontrolltöös. Kui andmetes on eelarvamusi, õpib TI need kaasa – see on kallutatus.
+
+**Tähtsad sõnad:** **andmestik** – andmete kogum, millest mudel õpib; **treeningandmed** – andmed, mille põhjal mudel õpib; **testandmed** – uued andmed, millega mudelit kontrollitakse; **kallutatus** – viga, mis on mõne inimrühma suhtes ebaõiglane.
+
+</section>
 
 ### Miks andmed on nii olulised?
 
@@ -3208,7 +3753,7 @@ Oluline tähelepanek: **sama algoritm, aga erinevad andmed annavad erinevad tule
 
 Eri TI-valdkonnad vajavad eri andmeid. Masinõppe juhendatud õpe vajab **märgendatud andmeid** (andmeid, millele on lisatud õige vastus), keeletöötlus vajab suuri tekstikogusid ehk korpusi (masintõlke jaoks paralleelkorpusi, kus sama tekst on mitmes keeles), arvutinägemine vajab märgendatud pilte ja videoid ning soovitussüsteemid kasutajate käitumisandmeid.
 
-### Andmetüübid ja andmete kogumine
+### ➕ Andmetüübid ja andmete kogumine
 
 TI-süsteemid töötavad mitut tüüpi andmetega ja andmete tüübist sõltub, kuidas neid töödeldakse.
 
@@ -3245,7 +3790,7 @@ Kogutud **toorandmed** on harva kohe kasutuskõlblikud. Neis on vigu, lünki ja 
 ![Kuus sammu nooltega: toorandmed, puhastamine, transformeerimine, rikastamine, tasakaalustamine ja lõpuks valmis andmestik; all on põhimõte „prügi sisse, prügi välja“.](pildid/plokk_2/2_2_ettevalmistus.svg "Joonis 2.2.3. Andmete ettevalmistamise etapid")
 
 - **Puhastamine** – vigaste, puuduvate või ebakorrektsete andmete tuvastamine ja parandamine või eemaldamine, korduvate kirjete (duplikaatide) kustutamine. Siia kuulub ka **erindite** (*outliers*) ehk teistest väga erinevate väärtuste leidmine (nt õpilase vanus 150 aastat on ilmselt sisestusviga).
-- **Normaliseerimine** ehk skaleerimine – andmete viimine samale skaalale. Kui üks tunnus on vahemikus 0–1 ja teine vahemikus 0–1000, võiks mudel ekslikult arvata, et suurem arv on olulisem. Normaliseerimine viib mõlemad samasse vahemikku.
+- **<span class="pae-term" tabindex="0" data-def="normaliseerimine: Andmete viimine samale skaalale">Normaliseerimine</span>** ehk skaleerimine – andmete viimine samale skaalale. Kui üks tunnus on vahemikus 0–1 ja teine vahemikus 0–1000, võiks mudel ekslikult arvata, et suurem arv on olulisem. Normaliseerimine viib mõlemad samasse vahemikku.
 - **Transformeerimine** – andmete teisendamine sobivasse vormi. Arvuti oskab arvutada ainult arvudega, seega tuleb näiteks sõnad „põhiharidus“, „keskharidus“, „kõrgharidus“ muuta arvudeks. Seda nimetatakse **kategooriliste tunnuste kodeerimiseks**; tekst muudetakse arvude jadaks ehk **vektoriks**.
 - **Rikastamine** – lisainfo juurdetoomine, näiteks aadressidele koordinaatide lisamine või olemasolevatest andmetest uute tunnuste loomine.
 - **Tasakaalustamine** – kui ühte rühma on andmetes palju vähem kui teist, lisatakse alaesindatud rühma näiteid juurde (ülevalik) või vähendatakse ülekaalus oleva rühma näiteid (alavalik). Andmeid saab juurde luua ka **augmenteerimisega** – näiteks pilte pöörates, peegeldades või heledust muutes.
@@ -3306,9 +3851,9 @@ Kallutatust on mitut liiki.
 >
 > Kujuta ette, et kool tahab luua TI, mis ennustab, kes õpilastest vajab lisaõpet. Andmed kogutakse ainult nende õpilaste kohta, kes on viimase kahe aasta jooksul ise järeleaitamistundi tulnud. Millist liiki kallutatus siin võib tekkida? Keda see süsteem võib märkamata jätta?
 
-### Suurandmed ja andmekaitse
+### ➕ Suurandmed ja andmekaitse
 
-**Suurandmed** (*Big Data*) on andmehulgad, mis on nii suured, keerukad ja kiiresti muutuvad, et tavalised andmetöötlusvahendid nendega toime ei tule. Suurandmeid kirjeldatakse sageli **viie V** abil:
+**<span class="pae-term" tabindex="0" data-def="suurandmed: Väga suured, kiiresti muutuvad ja mitmekesised andmehulgad (5V)">Suurandmed</span>** (*Big Data*) on andmehulgad, mis on nii suured, keerukad ja kiiresti muutuvad, et tavalised andmetöötlusvahendid nendega toime ei tule. Suurandmeid kirjeldatakse sageli **viie V** abil:
 
 | V | Eesti keeles | Tähendus |
 |---|---|---|
@@ -3320,14 +3865,15 @@ Kallutatust on mitut liiki.
 
 Suurandmete töötlemiseks kasutatakse hajutatud andmetöötlust (töö jagatakse paljude arvutite vahel), spetsiaalseid tehnoloogiaid (nt Hadoop, Spark, NoSQL-andmebaasid) ja pilveplatvorme. Väljakutseteks on andmete salvestamine ja töötlemine, privaatsus ja turvalisus ning analüüsi keerukus.
 
-Mida rohkem andmeid kogutakse, seda olulisemaks muutub **andmekaitse**. Euroopa Liidus reguleerib isikuandmete kasutamist **isikuandmete kaitse üldmäärus (GDPR)**. Selle põhimõtted on:
+Mida rohkem andmeid kogutakse, seda olulisemaks muutub **andmekaitse**. Euroopa Liidus reguleerib isikuandmete kasutamist **isikuandmete kaitse üldmäärus (<span class="pae-term" tabindex="0" data-def="GDPR: Isikuandmete kaitse üldmäärus – ELi määrus, mis kaitseb isikuandmeid">GDPR</span>)**. Selle põhimõtted on:
 
 - **seaduslikkus, õiglus ja läbipaistvus** – inimene peab teadma, mida tema andmetega tehakse;
 - **eesmärgi piirang** – andmeid tohib koguda ainult kindlal eesmärgil;
 - **võimalikult väheste andmete kogumine** – koguda tohib vaid seda, mis on vajalik;
 - **täpsus** – andmed peavad olema õiged ja ajakohased;
 - **säilitamise piirang** – andmeid ei tohi hoida kauem kui vaja;
-- **terviklikkus ja konfidentsiaalsus** – andmeid tuleb kaitsta lekete eest.
+- **terviklikkus ja konfidentsiaalsus** – andmeid tuleb kaitsta lekete eest;
+- **vastutus** – andmeid töötlev asutus peab suutma tõendada, et järgib kõiki neid põhimõtteid.
 
 GDPR annab inimesele (**andmesubjektile**) ka õigusi, näiteks õiguse teada, milliseid andmeid tema kohta kogutakse, ning nõuda nende parandamist või kustutamist. Reeglite rikkumise eest võivad ettevõtteid oodata suured trahvid.
 
@@ -3335,7 +3881,7 @@ Privaatsust aitavad kaitsta ka tehnilised võtted: **anonüümimine** (isikut tu
 
 Lisaks seadustele tuleb arvestada eetiliste küsimustega: kas inimesed on andnud **nõusoleku**, kas andmete kasutamine on **läbipaistev**, kas see on **õiglane** kõigi rühmade suhtes ja kes **vastutab**, kui midagi läheb valesti.
 
-### Andmed Eestis
+### ➕ Andmed Eestis
 
 Eesti on tuntud e-riigina, mille teenused põhinevad andmete tõhusal ja turvalisel kasutamisel.
 
@@ -3356,7 +3902,24 @@ Eestil on andmetega seoses ka omad väljakutsed. **Eesti keele andmeid** on maai
 <!-- class="pae-lisaks" -->
 > **Tea lisaks**
 >
-> Eestis jälgib isikuandmete kaitse nõuete täitmist **Andmekaitse Inspektsioon**, mis on koostanud ka juhiseid, kuidas tehisintellekti kasutada kooskõlas isikuandmete kaitse põhimõtetega. Euroopa Liidus toetab andmete jagamist ja taaskasutamist ka **andmehalduse määrus** (*Data Governance Act*).
+> Eestis jälgib isikuandmete kaitse nõuete täitmist **Andmekaitse Inspektsioon**, mis on andnud ka juhiseid, kuidas tehisintellekti kasutada kooskõlas isikuandmete kaitse põhimõtetega (näiteks 2026. aastal tervishoiuasutustele). Euroopa Liidus toetab andmete jagamist ja taaskasutamist ka **andmehalduse määrus** (*Data Governance Act*).
+
+### 🧪 TI-katse: mida õpib TI miljonitest joonistustest?
+
+Quick, Draw! on mäng, kus närvivõrk püüab ära arvata, mida sa joonistad. Mängijate joonistustest on kogutud üle 50 miljoni joonistusega andmestik. Uurid, millised on päris treeningandmed: kui mitmekesised ja kui „prügised“ need on.
+
+**Vaja läheb:** Quick, Draw! ([quickdraw.withgoogle.com](https://quickdraw.withgoogle.com/)) ja selle andmestiku leht ([quickdraw.withgoogle.com/data](https://quickdraw.withgoogle.com/data)), Chrome'i brauser, ~10 min, paaristöö
+
+1. Ava Quick, Draw! ja mängi üks voor (6 joonistust). Pane tähele, millised joonistused TI ära tundis ja millised mitte.
+2. Ava andmestiku leht ja vali üks asi, mida joonistasid (nt kass või jalgratas). Sirvi vähemalt 30 joonistust.
+3. Otsi andmetest: a) pooleli jäänud või hoopis muud kujutavaid joonistusi (**müra**); b) eri viise sama asja joonistamiseks (**mitmekesisus**); c) kujutamisviisi, mida on teistest palju rohkem (võimalik **kallutatus**).
+
+**Pane tähele / kirjuta üles:** Mitu „prügi“ joonistust leidsid 30 seast? Mis juhtuks, kui TI õpiks ainult ühel moel joonistatud näidetest? Kuidas peaks andmeid enne treenimist puhastama?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** Kõik joonistavad 20 sekundiga paberile maja. Pange joonistused lauale ja arutage, mille järgi peaks masin maja ära tundma, millised joonistused oleksid treeningandmetes „müra“ ja kas mõni majatüüp (nt kortermaja) jäi üldse puudu.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -3382,10 +3945,18 @@ Eestil on andmetega seoses ka omad väljakutsed. **Eesti keele andmeid** on maai
 | Suurandmed | Väga suured, kiiresti muutuvad ja mitmekesised andmehulgad (5V) |
 | GDPR | Isikuandmete kaitse üldmäärus – ELi isikuandmete kaitse seadus |
 
+### 📚 Allikad ja lisalugemine
+
+- Euroopa Andmekaitsenõukogu (vaadatud 2026). [Andmekaitse põhitõed](https://www.edpb.europa.eu/sme-data-protection-guide/data-protection-basics_et). Eestikeelne selgitus, mis on isikuandmed ja millised on nende töötlemise põhimõtted.
+- Andmekaitse Inspektsioon (2018, muudetud 2019). [Isikuandmete töötleja üldjuhend](https://www.aki.ee/sites/default/files/documents/2024-04/Isikuandmete%20t%C3%B6%C3%B6tleja%20%C3%BCldjuhend.pdf). Isikuandmete kaitse üldmääruse seitse põhimõtet ja nende selgitused.
+- Andmekaitse Inspektsioon (2026). [Tähelepanu juhtimine: üldotstarbelise tehisintellekti kasutamine tervishoius](https://www.aki.ee/sites/default/files/documents/2026-06/Tahelepanu%20juhtimine.%20%C3%9Cldotstarbelise%20tehisintellekti%20kasutamine%20tervishoius_0.pdf). Näide sellest, kuidas isikuandmete kaitse nõuded kehtivad ka TI-tööriistade kasutamisel.
+- Google (vaadatud 2026). [Quick, Draw! The Data](https://quickdraw.withgoogle.com/data). Üle 50 miljoni mängijate joonistuse, mida saab sirvida ja alla laadida.
+- Homburg, V. (2023). [Inimese loodud tehnoloogia ei ole neutraalne](https://www.err.ee/1609042403/vincent-homburg-inimese-loodud-tehnoloogia-ei-ole-neutraalne). ERR. Tartu Ülikooli e-valitsemise professori arvamuslugu algoritmide kallutatusest avalikes teenustes – sobib lisalugemiseks.
+
 ### Tööleht 2.2
 
 <!-- class="pae-jaotis" -->
-**I. Andmete roll tehisintellektis**
+**➕ I. Andmete roll tehisintellektis**
 
 **Ülesanne 1.** Selgita oma sõnadega, miks andmed on tehisintellekti jaoks olulised.
 
@@ -3412,7 +3983,7 @@ Andmestik on andmete kogum. Eeltöötlus valmistab andmed masinõppeks ette. Aug
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Andmete tüübid ja struktuurid**
+**➕ II. Andmete tüübid ja struktuurid**
 
 **Ülesanne 3.** Kirjelda lühidalt järgmisi andmetüüpe ja too igaühe kohta näide.
 
@@ -3459,7 +4030,7 @@ Andmestik on andmete kogum. Eeltöötlus valmistab andmed masinõppeks ette. Aug
 [[___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Andmete kogumine ja kvaliteet**
+**⭐ III. Andmete kogumine ja kvaliteet**
 
 **Ülesanne 5.** Nimeta vähemalt neli andmete kogumise meetodit.
 
@@ -3481,7 +4052,7 @@ Selgita iga omaduse kohta lühidalt, mida see tähendab.
 
 [[___ ___ ___ ___ ___]]
 
-**Ülesanne 7.** Kirjelda lühidalt peamisi andmekvaliteedi probleeme.
+**Ülesanne 7.** Kool kogub spordipäeva tulemused ühte tabelisse. Too iga andmekvaliteedi probleemi kohta näide, kuidas see võiks selles tabelis esineda, ja kirjuta, kuidas seda parandada.
 
 **a) Puuduvad väärtused:**
 
@@ -3500,7 +4071,7 @@ Selgita iga omaduse kohta lühidalt, mida see tähendab.
 [[___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Andmete eeltöötlus**
+**➕ IV. Andmete eeltöötlus**
 
 **Ülesanne 8.** Miks on andmete eeltöötlus oluline? Nimeta vähemalt kolm põhjust.
 
@@ -3539,7 +4110,7 @@ Selgita iga omaduse kohta lühidalt, mida see tähendab.
 [[___]]
 
 <!-- class="pae-jaotis" -->
-**V. Praktiline ülesanne**
+**⭐ V. Praktiline ülesanne**
 
 **Ülesanne 11.** Uuri järgnevat andmestikku ja vasta küsimustele.
 
@@ -3583,7 +4154,7 @@ Selgita iga omaduse kohta lühidalt, mida see tähendab.
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Andmete eetika ja privaatsus**
+**➕ VI. Andmete eetika ja privaatsus**
 
 **Ülesanne 13.** Millised eetilised küsimused kaasnevad andmete kogumise ja kasutamisega tehisintellektis?
 
@@ -3594,7 +4165,7 @@ Selgita iga omaduse kohta lühidalt, mida see tähendab.
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Arutelu**
+**⭐ VII. Arutelu**
 
 **Ülesanne 15.** Kuidas mõjutavad andmete kvaliteet ja kogus tehisintellekti süsteemide toimimist?
 
@@ -3691,26 +4262,77 @@ Põhimõte tähendab, et mudel on ainult nii hea kui andmed, millest ta õpib. K
 
 </details>
 
+### 📤 Väljapääsupilet 2.2
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.2'] = ["Kooli raamatukogu tahab ennustada, milliseid raamatuid laenutatakse, aga kogub andmeid ainult e-raamatute kohta. Millist andmekvaliteedi probleemi sa siin näed?", "Mida näitasid Quick, Draw! joonistused andmete mitmekesisuse ja müra kohta?", "Mis jäi andmete jagamise (treening-, valideerimis- ja testandmed) juures segaseks?"];
+setTimeout(function(){var d=window.paePilet.load('2.2');document.querySelectorAll('[data-pilet="2.2"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="2.2" name="nimi" oninput="window.paePilet.save('2.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kooli raamatukogu tahab ennustada, milliseid raamatuid laenutatakse, aga kogub andmeid ainult e-raamatute kohta. Millist andmekvaliteedi probleemi sa siin näed?</div><textarea data-pilet="2.2" name="q0" oninput="window.paePilet.save('2.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mida näitasid Quick, Draw! joonistused andmete mitmekesisuse ja müra kohta?</div><textarea data-pilet="2.2" name="q1" oninput="window.paePilet.save('2.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi andmete jagamise (treening-, valideerimis- ja testandmed) juures segaseks?</div><textarea data-pilet="2.2" name="q2" oninput="window.paePilet.save('2.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('2.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('2.2')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_2.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 2.2
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Keegi andis mulle õppimiseks ainult ühe vanuserühma fotod ja nüüd ma ei tunne vanaema ära! Midagi peitub mu andmetes, aga ma ei mäleta, mis selle nimi on.“
 
-Lukk avaneb, kui lahendad mõistatuse. Loe läbi, kes mõistatuses räägib, ja kirjuta lahtrisse tema nimi (üks sõna).
+Lukk avaneb, kui lahendad ülesande. Loe juhtumit ja kirjuta lahtrisse, millist tunnis õpitud mõistet see kirjeldab (üks sõna).
 
-> *Olen süstemaatiline viga, mis peitub andmetes.*
-> *Kui mõni rühm on andmestikus alaesindatud, olen mina kohal.*
-> *TI õpib mind andmetest kaasa nagu eelarvamust, seepärast võivad tema otsused olla ebaõiglased.*
-> *Kes ma olen?*
+> Vallavalitsus tellis kõnetuvastusrakenduse, mis kirjutab elanike telefonikõned automaatselt üles. Rakendust treeniti peamiselt Tallinna noorte meeste salvestistel. Nüüd teeb see Võrumaa eakate naiste kõnes mitu korda rohkem vigu, kuigi nad räägivad selgelt. Mis on selle probleemi nimi, mis peitub rakenduse treeningandmetes?
 
 [[kallutatus]]
-[[?]] Vihje: mõiste algab K-tähega ja seda arutasid tunni osas „Andmete kvaliteet ja kallutatus“.
+[[?]] Vihje 1: Kas treeningandmed esindasid kõiki rühmi, kellega rakendus hakkab töötama? Kuidas nimetatakse süstemaatilist viga, mis kahjustab mõnda rühma?
+[[?]] Vihje 2: Pane tähed õigesse järjekorda: **T U S K A L L A T U** (sõna algab K-tähega).
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Andmete kvaliteet ja kallutatus“ ja loe lõik „Valimi kallutatus“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI629") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["kallutatus", "kallutatust", "kallutatuse", "andmete kallutatus", "valimi kallutatus", "kallutatud andmed", "bias"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Kallutatus tekib siis, kui andmed ei esinda kõiki rühmi õiglaselt – seepärast peavad andmed olema mitmekesised ja esinduslikud.
+✅ **Lukk avatud!** Rakenduse treeningandmetes olid eakad, naised ja murdekeele kõnelejad alaesindatud – see on valimi kallutatus. Kallutatus tekib siis, kui andmed ei esinda kõiki rühmi õiglaselt, seepärast peavad andmed olema mitmekesised ja esinduslikud.
 
 🔑 **Sinu võtmetäht: U**
 
@@ -3721,17 +4343,37 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 2.3 Masinõppe põhimõtted
 
 <!-- class="pae-kaas" -->
-![Noormees istub õhtul kodus kirjutuslaua taga ja lohistab kahtlase e-kirja rämpsposti kausta, õpetades nii postkasti masinõppemudelit rämpsposti ära tundma, samal ajal kui kass lebab laual.](pildid/illustratsioonid/2_3.jpg)
+![Noormees sorteerib õhtul kirjutuslaua taga kasside ja koerte fotosid kahte karpi, laual on hunnik pilte, sülearvuti ekraanil on kaks eraldi punktipilve ja kass vaatab pealt.](pildid/illustratsioonid/2_3.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- oskad selgitada, mis on masinõpe ja kuidas see erineb traditsioonilisest programmeerimisest;
-- tunned masinõppe kolme põhitüüpi – juhendatud õpet, juhendamata õpet ja stiimulõpet – ning oskad tuua igaühe kohta näite;
-- tead, millistest etappidest koosneb masinõppe projekt;
-- oskad selgitada, mis on ülesobitamine ja alasobitamine ning kuidas neid vältida;
-- tead, kuidas mudeli tulemuslikkust hinnatakse ja kus masinõpet Eestis kasutatakse.
+- **selgitad oma sõnadega**, mis on <span class="pae-term" tabindex="0" data-def="masinõpe: Tehisintellekti haru, kus süsteem õpib andmetest ilma otsese programmeerimiseta">masinõpe</span> ja kuidas see erineb traditsioonilisest programmeerimisest *(mõistmine)*;
+- **liigitad** uued TI-rakendused masinõppe tüüpide järgi (juhendatud, juhendamata ja <span class="pae-term" tabindex="0" data-def="stiimulõpe: Õppimine katse-eksituse meetodil tasu ja karistuse põhjal">stiimulõpe</span>) *(rakendamine)*;
+- **eristad** üle- ja alasobitunud <span class="pae-term" tabindex="0" data-def="mudel: Treenimise tulemusel saadud reeglite kogum, millega tehakse ennustusi">mudelit</span> ning **pakud** viisi selle parandamiseks *(analüüs)*;
+- **treenid** helituvastusmudeli ja **hindad** katsega paarilise helidega, kas see üldistab uutele helidele *(loomine, hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Mis on masinõpe?“, „<span class="pae-term" tabindex="0" data-def="juhendatud õpe: Õppimine märgendatud andmetest, kus õige vastus on teada">Juhendatud õpe</span>“, „<span class="pae-term" tabindex="0" data-def="ülesobitamine: Mudel õpib treeningandmed pähe ega üldista uutele andmetele">Ülesobitamine</span> ja <span class="pae-term" tabindex="0" data-def="alasobitamine: Mudel on liiga lihtne ega taba andmete seaduspärasusi">alasobitamine</span>“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Treeni helituvastaja ja proovi seda petta“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Masinõppes ei kirjuta inimene arvutile reegleid ise ette. Arvuti saab palju näiteid ja leiab reeglid nende põhjal ise. Õppimise tulemust nimetatakse mudeliks. Juhendatud õppes on iga näite juures õige vastus. Näiteks õpib mudel tuhandetest e-kirjadest, milline kiri on rämpspost. Ülesobitamine tähendab, et mudel õpib näited lihtsalt pähe. Siis töötab mudel vanade näidetega hästi, aga uute andmetega halvasti. Alasobitunud mudel on liiga lihtne ja eksib nii vanade kui ka uute andmetega.
+
+**Tähtsad sõnad:** **masinõpe** – arvuti õpib andmetest ise reegleid leidma; **mudel** – õpitud reeglite kogum; **juhendatud õpe** – õppimine näidetest, mille õige vastus on teada; **ülesobitamine** – mudel õpib näited pähe ega oska uusi ülesandeid lahendada.
+
+</section>
 
 ### Mis on masinõpe?
 
@@ -3764,13 +4406,13 @@ Masinõppe meetodid jagunevad kolmeks põhitüübiks selle järgi, kuidas õppim
 
 See sarnaneb õppimisega õpetaja juhendamisel: õpetaja näitab ülesandeid koos õigete vastustega, kuni sa mustrist aru saad. Juhendatud õppe ülesanded on kahte põhiliiki.
 
-**Klassifitseerimine** tähendab, et mudel peab otsustama, millisesse kategooriasse (klassi) objekt kuulub. Vastuseks on kindel valik, näiteks:
+**<span class="pae-term" tabindex="0" data-def="klassifitseerimine: Kategooria ennustamine (nt rämpspost / mitte rämpspost)">Klassifitseerimine</span>** tähendab, et mudel peab otsustama, millisesse kategooriasse (klassi) objekt kuulub. Vastuseks on kindel valik, näiteks:
 
 - kas e-kiri on rämpspost või tavaline kiri;
 - kas pildil on kass, koer või auto;
 - kas sümptomite põhjal võiks olla tegu mingi haigusega.
 
-**Regressioon** tähendab, et mudel ennustab arvulist, pidevat väärtust, näiteks korteri hinda, homset temperatuuri või aktsia hinda.
+**<span class="pae-term" tabindex="0" data-def="regressioon: Arvulise väärtuse ennustamine (nt hind, temperatuur)">Regressioon</span>** tähendab, et mudel ennustab arvulist, pidevat väärtust, näiteks korteri hinda, homset temperatuuri või aktsia hinda.
 
 Juhendatud õppes kasutatakse mitut algoritmi. Üks lihtsamini mõistetavaid on **otsustuspuu**. See esitab küsimusi ükshaaval nagu mäng „20 küsimust“ ja jagab andmed vastuste põhjal harudeks, kuni jõuab otsuseni. Puu ülemist küsimust nimetatakse **juureks** ja lõppotsuseid **lehtedeks**.
 
@@ -3807,13 +4449,13 @@ Kuidas teada saada, kas mudel töötab hästi? Selleks kasutatakse **hindamismõ
 
 Regressiooni puhul mõõdetakse, kui palju ennustused keskmiselt tegelikest väärtustest erinevad.
 
-### Juhendamata õpe ja stiimulõpe
+### ➕ Juhendamata õpe ja stiimulõpe
 
-**Juhendamata õpe** (*unsupervised learning*) sarnaneb iseseisva avastamisega. Mudel saab **märgendamata andmed** – keegi ei ütle, mis on õige vastus – ja peab ise leidma andmetes peituvad mustrid ja struktuurid. See on eriti kasulik siis, kui andmeid on palju, aga nende struktuuri kohta teatakse vähe, või siis, kui märgendamine oleks liiga kallis.
+**<span class="pae-term" tabindex="0" data-def="juhendamata õpe: Mustrite otsimine märgendamata andmetest">Juhendamata õpe</span>** (*unsupervised learning*) sarnaneb iseseisva avastamisega. Mudel saab **märgendamata andmed** – keegi ei ütle, mis on õige vastus – ja peab ise leidma andmetes peituvad mustrid ja struktuurid. See on eriti kasulik siis, kui andmeid on palju, aga nende struktuuri kohta teatakse vähe, või siis, kui märgendamine oleks liiga kallis.
 
 Peamised juhendamata õppe ülesanded on:
 
-- **klasterdamine** – sarnaste objektide rühmitamine klastritesse. Näiteks poekett jagab kliendid ostukäitumise põhjal rühmadesse („pereostjad“, „tervisliku toidu eelistajad“, „hilisõhtused kiirostjad“), ilma et keegi oleks need rühmad ette määranud. Tuntud algoritm on **K-keskmiste klasterdamine** (*K-means*), mis jagab andmed K rühmaks nii, et rühma liikmed oleksid üksteisele võimalikult sarnased;
+- **<span class="pae-term" tabindex="0" data-def="klasterdamine: Sarnaste objektide rühmitamine ilma eelnevate märgenditeta">klasterdamine</span>** – sarnaste objektide rühmitamine klastritesse. Näiteks poekett jagab kliendid ostukäitumise põhjal rühmadesse („pereostjad“, „tervisliku toidu eelistajad“, „hilisõhtused kiirostjad“), ilma et keegi oleks need rühmad ette määranud. Tuntud algoritm on **K-keskmiste klasterdamine** (*K-means*), mis jagab andmed K rühmaks nii, et rühma liikmed oleksid üksteisele võimalikult sarnased;
 - **dimensionaalsuse vähendamine** – andmete esitamine väiksema arvu tunnustega nii, et oluline info säilib. See aitab keerulisi andmeid visualiseerida ja arvutusi kiirendada (nt peakomponentanalüüs PCA ja t-SNE);
 - **anomaaliate tuvastamine** – ebatavaliste, teistest erinevate mustrite leidmine, näiteks kahtlased pangatehingud või rikkis seadme näidud.
 
@@ -3849,7 +4491,7 @@ Stiimulõppe üks huvitavamaid probleeme on **uurimise ja ärakasutamise dilemma
 > 2) Kool tahab ennustada, kas õpilane sooritab eksami, ja tal on andmed eelmiste aastate õpilaste kohta koos nende tulemustega.
 > 3) Robot-tolmuimeja peab ise õppima, kuidas korteris kõige kiiremini koristada.
 
-### Masinõppe protsess
+### ➕ Masinõppe protsess
 
 Masinõppe projekt ei ole lihtsalt „anna arvutile andmed“. See koosneb mitmest etapist, mida korratakse sageli mitu korda.
 
@@ -3867,7 +4509,7 @@ Masinõppe projekt ei ole lihtsalt „anna arvutile andmed“. See koosneb mitme
 Väga oluline osa protsessist on **tunnuste valik**. **Tunnus** on andmete omadus, mida mudel kasutab (nt korteri pindala, tubade arv, asukoht). Oluliste tunnuste leidmine ja ebaoluliste eemaldamine ning olemasolevatest tunnustest uute loomine (**tunnuste konstrueerimine**) on sageli tähtsam kui algoritmi valik. Näiteks sünniajast saab arvutada vanuse, mis on mudelile kasulikum.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: hüperparameeter**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="hüperparameeter: Seadistus, mille arendaja määrab enne treenimist">hüperparameeter</span>**
 >
 > **Hüperparameetrid** on mudeli seadistused, mille määrab arendaja **enne** treenimist ja mida mudel ise andmetest ei õpi – näiteks õppimiskiirus, otsustuspuu sügavus või närvivõrgu kihtide arv. **Mudeli parameetrid** (nt närvivõrgu kaalud) on aga väärtused, mida mudel õpib treenimise käigus ise.
 
@@ -3907,7 +4549,7 @@ Võrdle seda kontrolltööks õppimisega. Õpilane, kes õpib pähe ainult õpik
 
 Hea masinõppe mudel leiab nende kahe vahel tasakaalu: see tabab andmetes olulised seaduspärasused, kuid ei õpi pähe juhuslikku müra.
 
-### Masinõpe Eestis ja maailmas
+### ➕ Masinõpe Eestis ja maailmas
 
 Masinõpet kasutatakse peaaegu kõikjal: rahanduses pettuste tuvastamiseks ja riskide hindamiseks, tervishoius diagnostikas ja ravimiarenduses, turunduses klientide rühmitamiseks ja soovitusteks, transpordis isesõitvates sõidukites ja logistikas, tootmises kvaliteedikontrolliks ja seadmete rikete ennustamiseks, põllumajanduses saagi ennustamiseks ja taimehaiguste tuvastamiseks ning meelelahutuses soovitussüsteemides ja mängudes.
 
@@ -3915,10 +4557,10 @@ Masinõpet kasutatakse peaaegu kõikjal: rahanduses pettuste tuvastamiseks ja ri
 > **Eesti näide: masinõpe Eesti ettevõtetes ja asutustes**
 >
 > - **Keeletehnoloogia**: Tartu Ülikooli keeletehnoloogia teadlased arendavad eestikeelset kõnetuvastust ja masintõlget.
-> - **Tervishoid**: STACC arendab andmeanalüüsil põhinevaid personaalmeditsiini lahendusi; Antegenes kasutab masinõpet vähiriski hindamiseks.
-> - **Rahandus**: Salv kasutab masinõpet, et aidata pankadel tuvastada rahapesu ja pettusi.
-> - **Avalik sektor**: Bürokratt on riigi virtuaalassistentide võrgustik; Maksu- ja Tolliamet kasutab masinõpet maksupettuste avastamiseks.
-> - **Haridus**: 99math kasutab tehnoloogiat matemaatikaharjutuste kohandamiseks; DreamApply aitab kõrgkoolidel hallata rahvusvaheliste üliõpilaste vastuvõttu.
+> - **Tervishoid**: STACC arendab andmeanalüüsil põhinevaid personaalmeditsiini lahendusi; Antegenes hindab geeniandmete põhjal inimese pärilikku vähiriski.
+> - **Rahandus**: Salv arendab pankadele tehingute jälgimise ja riskihindamise tarkvara, mis aitab avastada rahapesu ja pettusi.
+> - **Avalik sektor**: Bürokratt on riigi virtuaalassistentide võrgustik, mis kasutab nüüd suuri keelemudeleid; Maksu- ja Tolliamet otsib andmeanalüütika abil deklaratsioonidest kõrvalekaldeid (anomaaliaid).
+> - **Haridus**: Lingvist kohandab keeleõpet iga õppija vastuste põhjal.
 
 Masinõppel on ka väljakutseid: andmete kvaliteet ja hulk, kallutatus ja õiglus, otsuste selgitatavus, suur arvutusvõimsuse vajadus, üldistusvõime, privaatsus ja turvalisus. Tulevikus arendatakse mudeleid, mis vajavad vähem andmeid ja energiat, oskavad oma otsuseid selgitada ning töötavad korraga teksti, pildi ja heliga (**multimodaalsed mudelid**). Huvitav suund on **hajusõpe** (*federated learning*), kus mudel õpib paljudes seadmetes (nt telefonides) korraga, ilma et isiklikud andmed seadmest lahkuksid.
 
@@ -3927,7 +4569,7 @@ Masinõppel on ka väljakutseid: andmete kvaliteet ja hulk, kallutatus ja õiglu
 >
 > Masinõpet saad ise proovida ilma programmeerimata. **Google'i Teachable Machine** (teachablemachine.withgoogle.com) lubab veebikaamera abil mõne minutiga treenida mudeli, mis tunneb ära sinu žeste või esemeid. **Machine Learning for Kids** (machinelearningforkids.co.uk) pakub lihtsaid projekte, kus saad oma mudelit treenida ja testida. Pane tähele, kuidas mudeli tulemus muutub, kui annad talle vähem, rohkem või ühekülgsemaid näiteid!
 
-### 🎬 Video: kuidas tehisaru töötab?
+### ➕ 🎬 Video: kuidas tehisaru töötab?
 
 TI-Hüppe video vaatab tehisaru „kapoti alla“. Lihtsate näidetega selgitatakse, kuidas tehisaru õpib treeningandmetest mustreid ja ennustab kõige tõenäolisemat vastust. Sellest tulenevad ka tehisaru piirid: vead, hallutsinatsioonid, keskpärased vastused, kallutatus ja liigne nõustumine kasutajaga.
 
@@ -3946,6 +4588,23 @@ TI-Hüppe video vaatab tehisaru „kapoti alla“. Lihtsate näidetega selgitata
 **Seleta oma sõnadega, miks tehisaru vastus võib kõlada veenvalt, kuid olla vale. Kuidas sa seda kontrolliksid?**
 
 [[___ ___ ___]]
+
+### 🧪 TI-katse: treeni helituvastaja ja proovi seda petta
+
+Treenid mõne minutiga mudeli, mis eristab kahte heli. Siis uurid, kas mudel tunneb helid ära ka siis, kui neid teeb keegi teine – ehk kas mudel üldistab või on treeningnäited pähe õppinud.
+
+**Vaja läheb:** Teachable Machine'i heliprojekt ([teachablemachine.withgoogle.com](https://teachablemachine.withgoogle.com/) → **Get Started** → **Audio Project**), mikrofoniga arvuti, ~10 min, paaristöö
+
+1. Ava heliprojekt ja luba brauseril mikrofoni kasutada. Salvesta klassi **Background Noise** jaoks 20 sekundit klassi taustahelisid (see on nõutav).
+2. Nimeta kaks klassi, nt „plaksutus“ ja „näpuklõps“. Salvesta kummagi jaoks minimaalne arv näiteid (8), kõik sama inimese tehtud ja samas kohas. Vajuta **Train Model**.
+3. Testi eelvaates (*Preview*): kõigepealt sina, siis paariline, siis kaugemalt ja vaiksemalt. Lisa seejärel kummassegi klassi paarilise tehtud näiteid, treeni uuesti ja testi samamoodi.
+
+**Pane tähele / kirjuta üles:** Kui hästi tundis esimene mudel ära helisid, mida ta treeningul polnud kuulnud? Kas mitmekesisemad näited parandasid tulemust? Kas esimene mudel oli üle sobitunud – miks sa nii arvad?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** Üks õpilane „treenib“ end silmad kinni kahte heli ära tundma, kuulates neid ainult ühe klassikaaslase esituses. Seejärel teevad sama heli teised õpilased ja „mudel“ arvab. Arutage, mitu korda ta eksis ja miks.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -3972,10 +4631,18 @@ TI-Hüppe video vaatab tehisaru „kapoti alla“. Lihtsate näidetega selgitata
 | Alasobitamine | Mudel on liiga lihtne ega taba andmete seaduspärasusi |
 | Hüperparameeter | Seadistus, mille arendaja määrab enne treenimist |
 
+### 📚 Allikad ja lisalugemine
+
+- Google for Developers (vaadatud 2026). [Machine Learning Crash Course: Overfitting](https://developers.google.com/machine-learning/crash-course/overfitting/overfitting). Ingliskeelne selgitus ülesobitamisest, alasobitamisest ja üldistusvõimest.
+- Google (vaadatud 2026). [Teachable Machine](https://teachablemachine.withgoogle.com/). Veebitööriist, millega saab ilma programmeerimata treenida pildi-, heli- ja poosituvastuse mudeleid.
+- Hack Club (vaadatud 2026). [Teachable Machine Audio](https://asw.hackclub.com/guides/ml-teachablemachineaudio.html). Samm-sammuline juhend helimudeli treenimiseks (taustamüra ja vähemalt 8 näidet klassi kohta).
+- Codingal (vaadatud 2026). [Mistakes to Avoid While Training AI Models on Teachable Machine](https://www.codingal.com/coding-for-kids/blog/mistakes-to-avoid-while-training-ai-models-on-teachable-machine/). Levinumad vead: liiga vähe ja ühekülgseid näiteid, tasakaalustamata klassid ja testimata jätmine.
+- MinnaLearn ja Helsingi Ülikool (vaadatud 2026). [Elements of AI](https://www.elementsofai.ee/). Tasuta eestikeelne kursus, mis sobib masinõppe põhimõtete iseseisvaks kordamiseks.
+
 ### Tööleht 2.3
 
 <!-- class="pae-jaotis" -->
-**I. Masinõppe põhimõisted**
+**➕ I. Masinõppe põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on masinõpe.
 
@@ -4002,7 +4669,7 @@ Treenimine on õppimise protsess. Ülesobitunud mudel õpib treeningandmed pähe
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Masinõppe tüübid**
+**⭐ II. Masinõppe tüübid**
 
 **Ülesanne 3.** Kirjelda lühidalt masinõppe tüüpe ja too iga tüübi kohta näide.
 
@@ -4049,7 +4716,7 @@ Treenimine on õppimise protsess. Ülesobitunud mudel õpib treeningandmed pähe
 [[___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Masinõppe algoritmid**
+**➕ III. Masinõppe algoritmid**
 
 **Ülesanne 5.** Ühenda masinõppe algoritmid nende kirjeldustega.
 
@@ -4101,7 +4768,7 @@ Otsustuspuu esitab küsimusi ja jagab andmed harudeks. Lineaarne regressioon ots
 [[___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Masinõppe protsess**
+**➕ IV. Masinõppe protsess**
 
 **Ülesanne 8.** Pane masinõppe projekti etapid õigesse järjekorda (1–6).
 
@@ -4139,7 +4806,7 @@ Mudeli treenimine: [[ 1 | 2 | 3 | (4) | 5 | 6 ]]
 [[___]]
 
 <!-- class="pae-jaotis" -->
-**V. Mudeli hindamine**
+**⭐ V. Mudeli hindamine**
 
 **Ülesanne 10.** Selgita, miks on oluline jagada andmed treening- ja testandmeteks.
 
@@ -4170,7 +4837,7 @@ Täpsus näitab kõigi õigete vastuste osakaalu. Täpsusaste näitab, kui palju
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Praktiline ülesanne**
+**⭐ VI. Praktiline ülesanne**
 
 **Ülesanne 13.** Kujuta ette, et soovid luua masinõppe mudelit, mis ennustab, kas õpilane sooritab eksami edukalt.
 
@@ -4195,7 +4862,7 @@ Täpsus näitab kõigi õigete vastuste osakaalu. Täpsusaste näitab, kui palju
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Arutelu**
+**➕ VII. Arutelu**
 
 **Ülesanne 15.** Millised on masinõppe peamised väljakutsed ja piirangud?
 
@@ -4293,23 +4960,77 @@ Mudel vastab õigesti 990 juhul 1000-st, sest tavalisi tehinguid on palju rohkem
 
 </details>
 
+### 📤 Väljapääsupilet 2.3
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.3'] = ["Spordirakendus õppis ära tundma kätekõverdusi ainult ühe treeneri videotest ja eksib nüüd teiste inimeste puhul. Kas see on üle- või alasobitamine ja kuidas seda parandada?", "Mida näitas sinu helimudeli test paarilise helidega mudeli üldistusvõime kohta?", "Millises igapäevases rakenduses kasutatakse sinu arvates juhendatud õpet?"];
+setTimeout(function(){var d=window.paePilet.load('2.3');document.querySelectorAll('[data-pilet="2.3"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="2.3" name="nimi" oninput="window.paePilet.save('2.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Spordirakendus õppis ära tundma kätekõverdusi ainult ühe treeneri videotest ja eksib nüüd teiste inimeste puhul. Kas see on üle- või alasobitamine ja kuidas seda parandada?</div><textarea data-pilet="2.3" name="q0" oninput="window.paePilet.save('2.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mida näitas sinu helimudeli test paarilise helidega mudeli üldistusvõime kohta?</div><textarea data-pilet="2.3" name="q1" oninput="window.paePilet.save('2.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millises igapäevases rakenduses kasutatakse sinu arvates juhendatud õpet?</div><textarea data-pilet="2.3" name="q2" oninput="window.paePilet.save('2.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('2.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('2.3')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_2.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 2.3
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma õppisin kõik treeningülesanded täiesti pähe ja sain igaühe eest täispunktid! Aga uute ülesannetega eksin ma kogu aeg… Ja nüüd on ka selle probleemi nimi mu mälus tähtedeks lagunenud.“
 
-Lukk avaneb, kui lahendad mõistatuse. Pane tähed õigesse järjekorda, nii et tekib masinõppe mõiste, mis kirjeldab Krati muret.
+Lukk avaneb, kui lahendad ülesande. Loe juhtumit ja kirjuta lahtrisse masinõppe mõiste, mis kirjeldab nii bussimudeli kui ka Krati muret (üks sõna).
 
-**B I O T Ü L M A N E S E I**
+> Bussifirma treenis mudeli, mis ennustab bussi hilinemist. Treeningul nägi mudel ainult ühe novembrinädala andmeid ja jättis meelde isegi selle, et esmaspäeval kell 8.12 seisis buss juhusliku teetöö tõttu kaks minutit. Treeningandmetel ennustab mudel hilinemisi peaaegu veatult, aga järgmistel nädalatel eksib pidevalt.
 
 [[ülesobitamine]]
-[[?]] Vihje: sõna algab Ü-tähega. Selle vastand on alasobitamine.
+[[?]] Vihje 1: Kas mudel õppis üldise seaduspärasuse või jättis meelde ka juhuslikud üksikasjad? Kuidas töötab see treeningandmetel ja kuidas uutel andmetel?
+[[?]] Vihje 2: Krati mälust lagunenud tähed on **B I O T Ü L M A N E S E I**. Sõna algab Ü-tähega ja selle vastand on alasobitamine.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Ülesobitamine ja alasobitamine“ ja loe mõistekasti „Mõiste: ülesobitamine ja alasobitamine“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI466") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["ülesobitamine", "ülesobitumine", "ülesobitus", "ülesobitamist", "ülesobitamise", "overfitting"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Ülesobitunud mudel on treeningandmed pähe õppinud, kuid ei oska üldistada – hea mudel peab töötama hästi ka uute, varem nägemata andmetega.
+✅ **Lukk avatud!** Bussimudel õppis pähe ka ühe nädala juhusliku müra ega oska üldistada – see on ülesobitamine. Aitaks rohkem ja mitmekesisemaid andmeid (mitu kuud, eri ilmad) ning lihtsam mudel. Hea mudel peab töötama hästi ka uute, varem nägemata andmetega.
 
 🔑 **Sinu võtmetäht: D**
 
@@ -4320,17 +5041,37 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 2.4 Närvivõrgud ja süvaõpe
 
 <!-- class="pae-kaas" -->
-![Õpilane pildistab pargis telefoniga oksal istuvat lindu, telefoni närvivõrk märgib linnu kastiga ja tunneb selle ära rasvatihasena, sõber kirjutab kõrval vaatluse vihikusse.](pildid/illustratsioonid/2_4.jpg)
+![Sügisene park jõe ääres: õpilane pildistab telefoniga oksal istuvat rasvatihast, telefoni ekraanil on lind märgitud kastiga ja õhus hõljuvad helendavad sõlmed näitavad närvivõrku, mis on leidnud linnu pea, tiiva ja kõhu tunnused.](pildid/illustratsioonid/2_4.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- oskad selgitada, mis on tehisnärvivõrk ja millest see on inspireeritud;
-- tead, kuidas töötab üks tehisneuron: mis on kaalud, nihe, kaalutud summa ja aktivatsioonifunktsioon;
-- oskad kirjeldada närvivõrgu kihte (sisendkiht, peidetud kihid, väljundkiht);
-- saad aru, kuidas närvivõrk õpib oma vigadest (tagasilevi ja gradientlaskumine);
-- tead, mis on süvaõpe, tunned selle peamisi arhitektuure, läbimurdeid ja väljakutseid.
+- **selgitad oma sõnadega**, mis on tehisnärvivõrk ja kuidas see õpib oma vigadest *(mõistmine)*;
+- **rakendad** <span class="pae-term" tabindex="0" data-def="tehisneuron: Närvivõrgu põhiüksus, mis võtab sisendid, töötleb neid ja annab väljundi">tehisneuroni</span> mõisteid (sisendid, <span class="pae-term" tabindex="0" data-def="kaal: Arv, mis näitab sisendi olulisust neuroni jaoks">kaalud</span>, <span class="pae-term" tabindex="0" data-def="nihe: Lisaarv, mis mõjutab, kui kergesti neuron „süttib“">nihe</span>, <span class="pae-term" tabindex="0" data-def="aktivatsioonifunktsioon: Funktsioon, mis määrab, kas ja kui tugevalt neuron „süttib“">aktivatsioonifunktsioon</span>) igapäevase otsuse kirjeldamiseks *(rakendamine)*;
+- **eristad** närvivõrgu kihte (sisendkiht, peidetud kihid, väljundkiht) ja **analüüsid**, mida iga kiht teeb *(analüüs)*;
+- **katsetad** TensorFlow Playgroundis kihtide, neuronite arvu ja <span class="pae-term" tabindex="0" data-def="õppimiskiirus: Hüperparameeter, mis määrab kaalude muutmise sammu suuruse">õppimiskiiruse</span> muutmist ning **põhjendad** tulemuste põhjal, mis mõjutab närvivõrgu õppimist *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Mis on tehisnärvivõrk?“, „Tehisneuron: kaalud, nihe ja aktivatsioon“, „Kihid: neuronitest võrguks“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „<span class="pae-term" tabindex="0" data-def="närvivõrk: Omavahel ühendatud tehisneuronitest koosnev arvutusmudel">Närvivõrk</span> õpib punkte eristama“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Närvivõrgu idee on võetud inimese ajust, kuid see ei ole päris aju. Närvivõrk koosneb väikestest arvutustest ehk tehisneuronitest. Iga neuron saab sisendeid ja igal sisendil on oma kaal. Kaal näitab, kui tähtis see sisend on. Näiteks otsustad, kas minna sõbra sünnipäevale: sõbrad on tähtsamad kui ilm. Aktivatsioonifunktsioon otsustab, millise signaali neuron edasi saadab. Neuronid on kihtides: sisendkiht, peidetud kihid ja väljundkiht. Õppimise ajal muudab võrk ise oma kaale, et vastused oleksid paremad.
+
+**Tähtsad sõnad:** **närvivõrk** – ajust inspireeritud arvutusmudel, mis õpib andmetest; **kaal** – arv, mis näitab sisendi tähtsust; **aktivatsioonifunktsioon** – reegel, mis otsustab, mida neuron edasi saadab; **kiht** – neuronite rühm samal tasemel.
+
+</section>
 
 ### Mis on tehisnärvivõrk?
 
@@ -4351,8 +5092,9 @@ Närvivõrkude ajalugu on pikk:
 
 - **1943** – Warren McCulloch ja Walter Pitts kirjeldasid esimese tehisneuroni mudeli;
 - **1958** – Frank Rosenblatt lõi **pertseptroni**, lihtsa õppiva närvivõrgu;
-- **1980.–1990. aastad** – levis **tagasilevi** algoritm, mis võimaldas treenida mitmekihilisi võrke;
-- **2010. aastad** – arvutusvõimsuse kasv ja suured andmehulgad tõid kaasa süvaõppe läbimurde.
+- **1980.–1990. aastad** – levis **<span class="pae-term" tabindex="0" data-def="tagasilevi: Algoritm, mis arvutab, kuidas muuta kaalusid vea vähendamiseks">tagasilevi</span>** algoritm, mis võimaldas treenida mitmekihilisi võrke;
+- **2010. aastad** – arvutusvõimsuse kasv ja suured andmehulgad tõid kaasa süvaõppe läbimurde;
+- **2024** – John Hopfield ja Geoffrey Hinton said tehisnärvivõrkudel põhineva masinõppe alusuuringute eest Nobeli füüsikaauhinna.
 
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Esimese tehisneuroni mudeli kirjeldasid Warren McCulloch ja Walter Pitts juba **1943. aastal** – rohkem kui 80 aastat tagasi. Süvaõppe läbimurdeni jõuti alles 2010. aastatel, kui arvutid said piisavalt võimsaks.
@@ -4374,7 +5116,7 @@ Need on neuroni **sisendid**. Kuid kõik põhjused ei ole võrdselt olulised. S�
 >
 > **Kaal** on arv, mis näitab, kui oluline on üks sisend neuroni jaoks. Suur positiivne kaal tähendab „see sisend räägib tugevalt poolt“, negatiivne kaal „see räägib vastu“. **Nihe** (*bias*) on lisaarv, mis näitab neuroni üldist kalduvust – kui kergesti ta „süttib“ isegi siis, kui sisendid on nõrgad. Kaalud ja nihked on need väärtused, mida närvivõrk treenimise käigus õpib.
 
-Neuron arvutab **kaalutud summa**: iga sisend korrutatakse oma kaaluga, tulemused liidetakse ja lõpuks lisatakse nihe.
+Neuron arvutab **<span class="pae-term" tabindex="0" data-def="kaalutud summa: Sisendite ja kaalude korrutiste summa koos nihkega">kaalutud summa</span>**: iga sisend korrutatakse oma kaaluga, tulemused liidetakse ja lõpuks lisatakse nihe.
 
 ```
   kaalutud summa = sisend1 × kaal1 + sisend2 × kaal2 + sisend3 × kaal3 + nihe
@@ -4411,7 +5153,7 @@ Miks on aktivatsioonifunktsiooni üldse vaja? Ilma selleta oleks kogu võrk, ük
 ![Närvivõrk, kus kolm sisendkihi neuronit on ühendatud nelja peidetud kihi neuroniga ja need omakorda ühe väljundneuroniga; iga ring on neuron ja iga joon on oma kaaluga ühendus.](pildid/plokk_2/2_4_kihid.svg "Joonis 2.4.4. Sisendkiht, peidetud kiht ja väljundkiht")
 
 - **Sisendkiht** võtab vastu algandmed – näiteks pildi pikslite heleduse, õppimistundide arvu või sõnad. Sisendkiht ise midagi ei arvuta, ta lihtsalt annab andmed edasi.
-- **Peidetud kihid** töötlevad andmeid. Neid nimetatakse peidetuks, sest me ei näe otse, mida need sisaldavad. Iga peidetud kiht leiab andmetest järjest keerukamaid tunnuseid.
+- **Peidetud kihid** töötlevad andmeid. Neid nimetatakse peidetuks, sest me ei näe otse, mida need sisaldavad. Iga <span class="pae-term" tabindex="0" data-def="peidetud kiht: Sisend- ja väljundkihi vahel olev kiht, mis töötleb andmeid">peidetud kiht</span> leiab andmetest järjest keerukamaid tunnuseid.
 - **Väljundkiht** annab lõpptulemuse – näiteks „see on number 5“ või „tõenäosus, et õpilane sooritab eksami, on 85%“.
 
 Kui info liigub ainult ühes suunas sisendist väljundi poole, on tegu **edasisuunatud võrguga** (*feedforward*). **Rekurrentsetes võrkudes** võib info liikuda ka tsüklis tagasi, mis annab võrgule omamoodi mälu.
@@ -4423,14 +5165,14 @@ Närvivõrgus on kahte liiki väärtusi. **Kaalud ja nihked** õpib võrk treeni
 >
 > Kujuta ette närvivõrku, mis peab ennustama, kas õpilane sooritab eksami. Millised oleksid sisendkihi neuronid? Mitu neuronit peaks olema väljundkihis? Mida võiksid peidetud kihid sinu arvates „märgata“?
 
-### Kuidas närvivõrk õpib: viga, tagasilevi ja gradientlaskumine
+### ➕ Kuidas närvivõrk õpib: viga, tagasilevi ja gradientlaskumine
 
 Alguses on närvivõrgu kaalud juhuslikud ja võrk „arvab“ täiesti suvaliselt. Treenimise eesmärk on leida sellised kaalud ja nihked, et võrgu vastused oleksid võimalikult õiged. Treenimine käib tsüklina, mida korratakse tuhandeid või miljoneid kordi:
 
 ![Ringikujuline tsükkel neljast sammust: edasilevi, vea arvutamine, tagasilevi ja kaalude uuendamine; ringi keskel on kirjas, et tsükkel kordub tuhandeid kordi.](pildid/plokk_2/2_4_treenimistsykkel.svg "Joonis 2.4.5. Närvivõrgu treenimistsükkel")
 
 1. **Edasilevi** – sisendandmed liiguvad läbi võrgu kiht kihi haaval ja võrk annab ennustuse.
-2. **Vea arvutamine** – võrgu vastust võrreldakse õige vastusega. Seda, kui suur on viga, mõõdab **kaofunktsioon** (ehk veafunktsioon). Mida väiksem on kadu, seda parem.
+2. **Vea arvutamine** – võrgu vastust võrreldakse õige vastusega. Seda, kui suur on viga, mõõdab **<span class="pae-term" tabindex="0" data-def="kaofunktsioon: Funktsioon, mis mõõdab, kui suur on võrgu viga">kaofunktsioon</span>** (ehk veafunktsioon). Mida väiksem on kadu, seda parem.
 3. **Tagasilevi** (*backpropagation*) – viga „levitatakse“ väljundkihist tagasi sisendi poole ja iga kaalu kohta arvutatakse, kui palju see vea tekkimisele kaasa aitas.
 4. **Kaalude uuendamine** – iga kaalu muudetakse natuke selles suunas, mis viga vähendab.
 
@@ -4444,7 +5186,7 @@ Alguses on närvivõrgu kaalud juhuslikud ja võrk „arvab“ täiesti suvalise
 >
 > Klient kaebab, et supp on liiga soolane. Peakokk ei karista kogu kööki ühtemoodi, vaid uurib ahelat tagurpidi: kes supi serveeris, kes maitsestas, kes puljongi keetis. Kes vea tekkimisele rohkem kaasa aitas, peab oma tegevust rohkem muutma. Nii teeb ka tagasilevi: kaalud, mis vea tekkimises suuremat rolli mängisid, saavad suurema paranduse.
 
-Kuidas aga teada, millises suunas kaalu muuta? Seda teeb **gradientlaskumine**. Kujuta ette, et seisad paksus udus mäenõlval ja tahad jõuda orgu (kõige väiksema veani). Sa ei näe kaugele, aga tunned jalgadega, kuhu poole maapind langeb. Teed sammu allamäge, tunned uuesti, teed järgmise sammu – ja nii kuni jõuad oru põhja.
+Kuidas aga teada, millises suunas kaalu muuta? Seda teeb **<span class="pae-term" tabindex="0" data-def="gradientlaskumine: Kaalude järkjärguline muutmine vea vähenemise suunas">gradientlaskumine</span>**. Kujuta ette, et seisad paksus udus mäenõlval ja tahad jõuda orgu (kõige väiksema veani). Sa ei näe kaugele, aga tunned jalgadega, kuhu poole maapind langeb. Teed sammu allamäge, tunned uuesti, teed järgmise sammu – ja nii kuni jõuad oru põhja.
 
 ![Veakõver, mida mööda pall liigub samm-sammult allamäge: alguses on viga suur, teel on väike lohk ehk lokaalne miinimum ja lõpus oru põhi, kus viga on väikseim.](pildid/plokk_2/2_4_gradient.svg "Joonis 2.4.6. Gradientlaskumine: samm-sammult väiksema vea poole")
 
@@ -4452,7 +5194,7 @@ Gradient on lihtsalt „kalle“ – see näitab, millises suunas viga kõige ki
 
 Väga oluline on **sammu pikkus** ehk **õppimiskiirus** (*learning rate*). Kui sammud on liiga suured, võid hüpata orust üle ja kõikuda edasi-tagasi. Kui liiga väikesed, jõuad orgu väga aeglaselt. Õppimiskiirus on hüperparameeter.
 
-Kui võrk on kogu treeningandmestiku ühe korra läbi vaadanud, on möödunud üks **epohh**. Tavaliselt treenitakse paljude epohhide jooksul, kuni viga enam ei vähene – nagu loeksid õpikut mitu korda läbi. Praktikas ei vaadata kõiki andmeid korraga, vaid väikeste portsjonitena (**minipartiidena**); kui kaalusid uuendatakse iga üksiku näite järel, nimetatakse seda stohhastiliseks gradientlaskumiseks.
+Kui võrk on kogu treeningandmestiku ühe korra läbi vaadanud, on möödunud üks **<span class="pae-term" tabindex="0" data-def="epohh: Kogu treeningandmestiku üks täielik läbimine">epohh</span>**. Tavaliselt treenitakse paljude epohhide jooksul, kuni viga enam ei vähene – nagu loeksid õpikut mitu korda läbi. Praktikas ei vaadata kõiki andmeid korraga, vaid väikeste portsjonitena (**minipartiidena**); kui kaalusid uuendatakse iga üksiku näite järel, nimetatakse seda stohhastiliseks gradientlaskumiseks.
 
 <!-- data-type="linechart" data-title="Näide: võrgu viga treenimise ajal" -->
 | Epohh | Viga |
@@ -4475,10 +5217,10 @@ Treenimisel võib tekkida probleeme:
 - **lokaalne miinimum** – gradientlaskumine võib jääda kinni väikesesse „lohku“, mis ei ole kõige sügavam org;
 - **aeglane treenimine** – suurte võrkude treenimine võib kesta päevi või nädalaid; abi on nutikamatest optimeerijatest (nt Adam) ja võimsamast riistvarast.
 
-### Süvaõpe ja selle arhitektuurid
+### ➕ Süvaõpe ja selle arhitektuurid
 
 <!-- class="pae-moiste" -->
-> **Mõiste: süvaõpe**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="süvaõpe: Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke">süvaõpe</span>**
 >
 > **Süvaõpe** (*deep learning*) on masinõppe alamvaldkond, mis kasutab **mitme peidetud kihiga närvivõrke** (süvanärvivõrke). Sõna „süva“ viitab kihtide rohkusele ehk võrgu „sügavusele“, mitte mõtete sügavusele.
 
@@ -4499,7 +5241,7 @@ Eri ülesannete jaoks on välja töötatud eri tüüpi võrgud ehk **arhitektuur
 
 Transformerite läbimurre algas 2017. aastal teadusartikliga „Attention Is All You Need“ („Tähelepanu on kõik, mida vajad“). Tähelepanumehhanismi saab ette kujutada nii: lauses „Mari pani raamatu kotti, sest **see** oli raske“ peab mudel aru saama, et „see“ viitab raamatule, mitte kotile ega Marile. Tähelepanumehhanism aitab mudelil leida, millised sõnad on omavahel seotud, isegi kui need on lauses kaugel.
 
-### Läbimurded, väljakutsed ja süvaõpe Eestis
+### ➕ Läbimurded, väljakutsed ja süvaõpe Eestis
 
 Süvaõpe on toonud kaasa rea läbimurdeid:
 
@@ -4507,7 +5249,7 @@ Süvaõpe on toonud kaasa rea läbimurdeid:
 - **AlphaGo (2016)** – esimene TI-programm, mis võitis Go-mängus maailma tipptasemel mängijat. Go võimalike seisude arv on astronoomiline, nii et kõiki variante ei saa läbi arvutada. AlphaGo ühendas süvaõppe ja stiimulõppe.
 - **GPT-mudelid** (*Generative Pre-trained Transformer*) ja **BERT** – transformeril põhinevad keelemudelid, mis suudavad luua inimesesarnast teksti, vastata küsimustele, tõlkida ja kirjutada koodi. GPT iga uus versioon on olnud eelmisest võimekam.
 - **DALL-E, Midjourney ja Stable Diffusion** – mudelid, mis loovad tekstikirjelduse põhjal pilte.
-- **AlphaFold** – ennustab valkude ruumilist struktuuri; see on aidanud lahendada probleemi, millega teadlased maadlesid aastakümneid, ja võib kiirendada ravimite arendamist.
+- **AlphaFold** – ennustab valkude ruumilist struktuuri; see on aidanud lahendada probleemi, millega teadlased maadlesid aastakümneid, ja võib kiirendada ravimite arendamist. 2024. aastal said selle loojad Demis Hassabis ja John Jumper Nobeli keemiaauhinna.
 
 Süvaõpet kasutatakse **arvutinägemises** (pildituvastus, näotuvastus), **loomuliku keele töötluses** (masintõlge, tekstide meeleolu analüüs, küsimustele vastamine) ja **generatiivses TI-s**, mis loob uut teksti, pilte, muusikat ja videot.
 
@@ -4527,7 +5269,7 @@ Süvaõppe mudeleid ehitatakse tavaliselt raamistikega nagu TensorFlow, PyTorch,
 > - **Tartu Ülikooli** arvutiteaduse instituudis arendatakse süvanärvivõrkudel põhinevat eestikeelset kõnetuvastust ja masintõlget.
 > - **Tallinna Tehnikaülikooli** teadlased kasutavad süvaõpet tööstusprotsesside optimeerimiseks ja targa linna lahendustes.
 > - **Milrem Robotics** kasutab süvaõpet autonoomsete robotsõidukite juhtimises.
-> - **Bolt** kasutab süvaõpet nõudluse ennustamiseks ja hindade määramiseks.
+> - **Bolt** kasutab masinõpet nõudluse ennustamiseks ja hindade määramiseks.
 > - **Veriff** kasutab süvanärvivõrke näotuvastuseks ja dokumentide ehtsuse kontrollimiseks.
 > - **Texta** arendab eestikeelse teksti analüüsi lahendusi ja **Feelingstream** analüüsib klienditeeninduse vestlusi, et tuvastada kliendirahulolu ja probleeme.
 
@@ -4537,6 +5279,23 @@ Tulevikus püütakse luua tõhusamaid mudeleid, mis vajavad vähem andmeid ja en
 > **Tea lisaks**
 >
 > Närvivõrguga saad ise katsetada veebilehel **TensorFlow Playground** (playground.tensorflow.org). Seal saad lisada ja eemaldada kihte ja neuroneid, valida aktivatsioonifunktsiooni ja õppimiskiirust ning vaadata otse, kuidas võrk õpib punkte õigesti eristama. Proovi, mis juhtub, kui õppimiskiirus on liiga suur!
+
+### 🧪 TI-katse: närvivõrk õpib punkte eristama
+
+Närvivõrgu õppimist saab vaadata otse brauseris. Katsetad, kuidas peidetud kihid, neuronite arv ja õppimiskiirus mõjutavad seda, kas võrk suudab sinised ja oranžid punktid teineteisest eraldada.
+
+**Vaja läheb:** TensorFlow Playground ([playground.tensorflow.org](https://playground.tensorflow.org/)), ~10 min, paaristöö
+
+1. Ava leht. Vali vasakul andmestik **ringid** (sinised punktid keskel, oranžid ümber) ja vajuta ▶. Vaata, kuidas taust värvub ja kuidas viga testandmetel (*Test loss*) väheneb. Peata umbes 300 epohhi järel.
+2. Vajuta ↺ (lähtesta) ja eemalda „−“ nupuga kõik peidetud kihid. Käivita uuesti. Kas võrk ilma peidetud kihita suudab ringe eristada?
+3. Vali kõige raskem andmestik **spiraal**. Lisa kihte ja neuroneid ning proovi õppimiskiirust (*Learning rate*) 0,03 ja 3. Kirjuta üles parim saavutatud *Test loss* ja võrgu ehitus.
+
+**Pane tähele / kirjuta üles:** Miks ei saanud ilma peidetud kihita ringe eristada? Milline ehitus lahendas spiraali? Mis juhtus liiga suure õppimiskiirusega?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** Arvutage paberil „sünnipäeva-neuroni“ kaalutud summa kõigi kaheksa sisendikombinatsiooni korral (sõbrad, ilm ja kontrolltöö on kas 0 või 1) ja märkige, millal neuron „süttib“. Arutage, mis muutuks, kui nihe oleks −2 asemel 0.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -4565,10 +5324,18 @@ Tulevikus püütakse luua tõhusamaid mudeleid, mis vajavad vähem andmeid ja en
 | Epohh | Kogu treeningandmestiku üks täielik läbimine |
 | Süvaõpe | Masinõpe mitme peidetud kihiga närvivõrkudega |
 
+### 📚 Allikad ja lisalugemine
+
+- TensorFlow (vaadatud 2026). [TensorFlow Playground](https://playground.tensorflow.org/). Brauseris töötav närvivõrgu „liivakast“: saad muuta kihte, neuroneid, aktivatsioonifunktsiooni ja õppimiskiirust.
+- 3Blue1Brown (vaadatud 2026). [Neural networks](https://3blue1brown.com/lessons/neural-networks). Ingliskeelne visuaalne video ja tekst neuronitest, kihtidest, kaaludest ja nihetest käsitsi kirjutatud numbrite näitel – sobib lisalugemiseks.
+- Rootsi Kuninglik Teaduste Akadeemia (2024). [The Nobel Prize in Physics 2024. Press release](https://www.nobelprize.org/prizes/physics/2024/press-release/). Hopfield ja Hinton said Nobeli auhinna tehisnärvivõrkudel põhineva masinõppe alusuuringute eest.
+- Google DeepMind (2024). [Demis Hassabis & John Jumper awarded Nobel Prize in Chemistry](https://deepmind.google/discover/blog/demis-hassabis-john-jumper-awarded-nobel-prize-in-chemistry/). AlphaFold ja selle kasutamine teaduses.
+- Vaswani, A. jt (2017). [Attention Is All You Need](https://arxiv.org/abs/1706.03762). Teadusartikkel, milles tutvustati transformeri arhitektuuri (edasijõudnutele).
+
 ### Tööleht 2.4
 
 <!-- class="pae-jaotis" -->
-**I. Närvivõrkude põhimõisted**
+**➕ I. Närvivõrkude põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on tehisnärvivõrk.
 
@@ -4595,7 +5362,7 @@ Neuron on põhiline töötlusüksus ja kiht on neuronite rühm. Kaalud näitavad
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Närvivõrgu struktuur**
+**⭐ II. Närvivõrgu struktuur**
 
 **Ülesanne 3.** Vaata närvivõrgu joonist ja ühenda tähed õigete osadega.
 
@@ -4654,7 +5421,7 @@ Joonista paberile oma lihtne närvivõrgu skeem ja märgista sellel sisendkiht, 
 [[___]]
 
 <!-- class="pae-jaotis" -->
-**III. Närvivõrkude treenimine**
+**➕ III. Närvivõrkude treenimine**
 
 **Ülesanne 6.** Kirjelda närvivõrgu treenimise protsessi.
 
@@ -4704,7 +5471,7 @@ Joonista paberile oma lihtne närvivõrgu skeem ja märgista sellel sisendkiht, 
 [[___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Süvaõpe ja selle rakendused**
+**➕ IV. Süvaõpe ja selle rakendused**
 
 **Ülesanne 9.** Mis on süvaõpe ja kuidas see erineb traditsioonilisest masinõppest?
 
@@ -4755,7 +5522,7 @@ Joonista paberile oma lihtne närvivõrgu skeem ja märgista sellel sisendkiht, 
 [[___]]
 
 <!-- class="pae-jaotis" -->
-**V. Praktiline ülesanne**
+**⭐ V. Praktiline ülesanne**
 
 **Ülesanne 12.** Külasta veebilehte [playground.tensorflow.org](https://playground.tensorflow.org) ja katseta närvivõrkudega.
 
@@ -4788,7 +5555,7 @@ Joonista paberile oma lihtne närvivõrgu skeem ja märgista sellel sisendkiht, 
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Süvaõppe eetilised aspektid**
+**⭐ VI. Süvaõppe eetilised aspektid**
 
 **Ülesanne 14.** Millised eetilised küsimused kaasnevad süvaõppe kasutamisega? Nimeta vähemalt kolm.
 
@@ -4799,7 +5566,7 @@ Joonista paberile oma lihtne närvivõrgu skeem ja märgista sellel sisendkiht, 
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Arutelu**
+**➕ VII. Arutelu**
 
 **Ülesanne 16.** Millised on süvaõppe tulevikusuunad ja võimalikud läbimurded?
 
@@ -4893,29 +5660,84 @@ Gradientlaskumine on nagu udus mäelt alla orgu minek: kaugele ei näe, aga jalg
 
 </details>
 
+### 📤 Väljapääsupilet 2.4
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.4'] = ["Telefoni neuron otsustab, kas lülitada ekraan öörežiimi. Nimeta kaks sisendit ja selgita, kas nende kaal võiks olla positiivne või negatiivne.", "Mida muutis TensorFlow Playgroundis peidetud kihtide lisamine või õppimiskiiruse suurendamine?", "Mis jäi kaalude, nihke või aktivatsioonifunktsiooni juures kõige segasemaks?"];
+setTimeout(function(){var d=window.paePilet.load('2.4');document.querySelectorAll('[data-pilet="2.4"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="2.4" name="nimi" oninput="window.paePilet.save('2.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Telefoni neuron otsustab, kas lülitada ekraan öörežiimi. Nimeta kaks sisendit ja selgita, kas nende kaal võiks olla positiivne või negatiivne.</div><textarea data-pilet="2.4" name="q0" oninput="window.paePilet.save('2.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mida muutis TensorFlow Playgroundis peidetud kihtide lisamine või õppimiskiiruse suurendamine?</div><textarea data-pilet="2.4" name="q1" oninput="window.paePilet.save('2.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi kaalude, nihke või aktivatsioonifunktsiooni juures kõige segasemaks?</div><textarea data-pilet="2.4" name="q2" oninput="window.paePilet.save('2.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('2.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('2.4')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_2.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 2.4
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Üks mu tehisneuronitest on ärganud, aga ta ei mäleta, kuidas arvutada! Ilma temata ei saa ma otsustada, kas lukk avaneb.“
 
-Lukk avaneb, kui lahendad mõistatuse. Arvuta, millise väljundi annab tehisneuron, ja kirjuta see arv lahtrisse.
+Lukk avaneb, kui lahendad ülesande. Kooli nutika kasvuhoone ventilaatorit juhib üks tehisneuron: mida suurem on neuroni väljund, seda tugevamalt ventilaator puhub. Arvuta tunnis õpitud meetodiga, millise väljundi neuron praegu annab, ja kirjuta see arv lahtrisse.
 
-| | Sisend | Kaal |
-|---|---|---|
-| 1. sisend | 2 | 4 |
-| 2. sisend | 1 | −2 |
-| 3. sisend | 3 | 1 |
+<!-- data-type="none" -->
+| | Mida sisend näitab | Sisend | Kaal |
+|---|---|---|---|
+| 1. sisend | mitu kraadi on temperatuur normist kõrgem | 2 | 4 |
+| 2. sisend | kas uks on lahti (1 = jah); lahtine uks juba jahutab | 1 | −2 |
+| 3. sisend | päikesepaiste tugevus (0–5) | 3 | 1 |
 
 Nihe on **−3** ja aktivatsioonifunktsioon on **ReLU**.
 
 [[6]]
-[[?]] Vihje: korruta iga sisend oma kaaluga, liida tulemused kokku ja lisa nihe. Seejärel mõtle, mida ReLU positiivse arvuga teeb.
+[[?]] Vihje 1: Mida tuleb iga sisendiga teha enne liitmist? Kas nihe liidetakse ka? Mida teeb lõpuks ReLU?
+[[?]] Vihje 2: Kaalutud summa on 2 × 4 + 1 × (−2) + 3 × 1 + (−3). ReLU jätab positiivse arvu samaks ja muudab negatiivse arvu nulliks.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Tehisneuron: kaalud, nihe ja aktivatsioon“ ja loe lõik sünnipäevale mineku arvutusnäitega ning ReLU kirjeldus. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI674") { true } else {
 let v = `@input`.trim().replace(",", ".").replace("−", "-");
 Number(v) === 6
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Kaalutud summa on 2 × 4 + 1 × (−2) + 3 × 1 + (−3) = 6 ja kuna see on positiivne, jätab ReLU selle samaks – neuron „süttib“ tugevusega 6.
+✅ **Lukk avatud!** Kaalutud summa on 2 × 4 + 1 × (−2) + 3 × 1 + (−3) = 8 − 2 + 3 − 3 = 6 ja kuna see on positiivne, jätab ReLU selle samaks – neuron „süttib“ tugevusega 6 ja ventilaator hakkab puhuma.
 
 🔑 **Sinu võtmetäht: E**
 
@@ -4926,16 +5748,38 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 2.5 Tehisintellekti rakendused valdkondades
 
 <!-- class="pae-kaas" -->
-![Kaks arsti vaatavad haiglas suurelt ekraanilt kopsuröntgeni pilti, millel tehisintellekti tööriist on märkinud oranži ringiga kahtlase koha, taustal on klaasi taga kompuutertomograaf.](pildid/illustratsioonid/2_5.jpg)
+![Kolmeosaline pilt: arst vaatab ekraanilt kopsuröntgenit, millel on kahtlane koht märgitud kastiga; põllumees seisab tahvelarvutiga viljapõllul, mille kohal lendab droon; laotöötaja kontrollib tahvelarvutist isesõitvaid kaste vedavaid roboteid.](pildid/illustratsioonid/2_5.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- tunned tehisintellekti rakendusi tervishoius, teaduses, hariduses, transpordis, tootmises, põllumajanduses, rahanduses, meelelahutuses ja avalikus sektoris;
-- oskad seostada rakendusi eelmistes tundides õpitud tehnoloogiatega (masinõpe, süvaõpe, arvutinägemine, loomuliku keele töötlus);
-- oskad tuua näiteid TI kasutamisest Eestis ja Euroopas;
-- oskad analüüsida TI-rakenduste eeliseid ja piiranguid ning nende mõju tööturule ja ühiskonnale.
+- **tood näiteid** TI rakendustest eri valdkondades, Eestis ja Euroopas *(mõistmine)*;
+- **seostad** rakendusi varem õpitud tehnoloogiatega (masinõpe, süvaõpe, arvutinägemine, loomuliku keele töötlus) *(rakendamine)*;
+- **analüüsid** TI-rakenduste eeliseid, piiranguid ja mõju tööturule *(analüüs)*;
+- **katsetad** Neurotõlget ja **hindad**, milliste lausetega see hästi hakkama saab ning kus on vaja inimese kontrolli *(hindamine)*;
+- **kaalud** uue TI-lahenduse kasu ja eetilisi riske ning **põhjendad** oma seisukohta *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Tehisintellekt tervishoius ja teaduses“, „Avalik sektor ja tehisintellekt Eestis“, „Mõju tööturule ja eetilised küsimused“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Kas masintõlge saab eesti keelest aru?“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded II, IV ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+TI-d kasutatakse tervishoius, teaduses, riigiasutustes ja paljudes teistes valdkondades. Arvutinägemine aitab arstil röntgenipiltidelt haigusi leida. Lõpliku otsuse teeb ja selle eest vastutab siiski arst. Eestis aitab vestlusrobotite võrgustik <span class="pae-term" tabindex="0" data-def="Bürokratt: Eesti riigi virtuaalassistentide võrgustik">Bürokratt</span> riigi teenuseid kasutada. Tuntud Eesti ettevõtted, mis kasutavad TI-d, on näiteks Starship, Veriff ja Bolt. TI muudab tööd, sest rutiinseid ülesandeid tehakse üha rohkem automaatselt. Tähtsamaks muutuvad loovus, kriitiline mõtlemine ja koostöö. Euroopa Liidu tehisintellekti määrus seab TI-le reeglid riski järgi.
+
+**Tähtsad sõnad:** **arvutinägemine** – TI oskus pilte ja videoid mõista; **automatiseerimine** – masin teeb tööd, mida varem tegi inimene; **tehisintellekti määrus (AI Act)** – ELi seadus: mida ohtlikum TI, seda rangemad reeglid.
+
+</section>
 
 ### Tehisintellekt tervishoius ja teaduses
 
@@ -4961,22 +5805,22 @@ Eelmistes tundides said teada, kuidas TI „kapoti all“ töötab. Nüüd vaata
 >
 > **Arvutinägemine** on TI valdkond, mis õpetab arvutit pilte ja videoid „nägema“ ja mõistma: tuvastama objekte, nägusid, teksti või kõrvalekaldeid. Arvutinägemine põhineb enamasti süvaõppel ja seda kasutatakse nii meditsiinis, isesõitvates autodes, tehaste kvaliteedikontrollis kui ka telefoni näotuvastuses.
 
-- **Diagnoosimine.** Süvanärvivõrgud (eriti konvolutsioonilised võrgud, mida õppisid tunnis 2.4) analüüsivad meditsiinilisi pilte – röntgen-, MRT- ja KT-ülesvõtteid – ning aitavad leida vähki, silmahaigusi või südameprobleeme. Mõnes uuringus on TI olnud neis ülesannetes isegi arstidest täpsem: näiteks Google Healthi süsteem tuvastas uuringus rinnavähki mammogrammidelt täpsemini kui keskmine radioloog. Lõpliku otsuse teeb siiski arst.
+- **Diagnoosimine.** Süvanärvivõrgud (eriti konvolutsioonilised võrgud, mida õppisid tunnis 2.4) analüüsivad meditsiinilisi pilte – röntgen-, MRT- ja KT-ülesvõtteid – ning aitavad leida vähki, silmahaigusi või südameprobleeme. Mõnes uuringus on TI olnud neis ülesannetes isegi arstidest täpsem: näiteks 2020. aastal avaldatud uuringus tegi Google'i süsteem rinnavähi sõeluuringu mammogrammidel Suurbritannia ja USA andmetel vähem valepositiivseid ja valenegatiivseid otsuseid kui radioloogid. Lõpliku otsuse teeb siiski arst.
 - **Ravimite arendamine** on tavaliselt väga aeglane ja kallis. TI ennustab molekulide omadusi, simuleerib nende mõju ja aitab kavandada uusi ravimikandidaate. COVID-19 pandeemia ajal kasutati TI-d, et kiiresti leida juba olemasolevaid ravimeid, mida võiks proovida viiruse vastu.
-- **Personaalmeditsiin** kohandab ravi iga patsiendi geneetika ja terviseloo järgi. TI aitab leida seoseid geenide, haiguste ja ravi tulemuste vahel.
+- **<span class="pae-term" tabindex="0" data-def="personaalmeditsiin: Ravi kohandamine iga patsiendi geneetika ja terviseloo järgi">Personaalmeditsiin</span>** kohandab ravi iga patsiendi geneetika ja terviseloo järgi. TI aitab leida seoseid geenide, haiguste ja ravi tulemuste vahel.
 
 **Teaduses** aitab TI töödelda andmehulki, mida inimene ei jõuaks kunagi läbi vaadata, leida mustreid ja pakkuda välja uusi hüpoteese. Seda kasutatakse kliima, molekulide, materjalide ja bioloogiliste süsteemide modelleerimiseks ning kosmose uurimiseks. Kuulsaim näide on **AlphaFold**, mis ennustab valkude ruumilist struktuuri. TI ühendab ka eri teadusvaldkondi – bioloog, arvutiteadlane ja füüsik töötavad üha sagedamini koos.
 
 <!-- class="pae-eesti" -->
 > **Eesti näide: TI ja tervis**
 >
-> Eestis uuritakse TI kasutamist tervishoius näiteks RITA programmi projektis „Tehisintellekti ja masinõppe rakendamine tervishoius“. Ka Euroopa Liidus on mitmeid projekte, mis toetavad TI kasutamist tervishoius üle Euroopa.
+> 2026. aasta jaanuaris käivitatud riiklik TI-programm **Eesti.ai** seab üheks esimeseks prioriteediks tervishoiu. Plaanis on, et TI aitab perearstidel ja kiirabil vestlusi üles kirjutada ning kokkuvõtteid koostada, et arstil jääks rohkem aega patsiendi jaoks. Arstid rõhutavad, et terviseandmed on eriti tundlikud ja neid tuleb hoolikalt kaitsta.
 
-### Tehisintellekt hariduses
+### ➕ Tehisintellekt hariduses
 
 TI pakub uusi võimalusi nii õpilastele kui ka õpetajatele.
 
-- **Personaliseeritud õpe.** Kohanduvad (adaptiivsed) õppesüsteemid muudavad ülesandeid vastavalt õpilase tasemele ja õppimise tempole. Näiteks Duolingo keskendub rohkem neile teemadele, kus õppija teeb vigu. Samal põhimõttel töötavad ka Khan Academy, ALEKS ja Century Tech.
+- **<span class="pae-term" tabindex="0" data-def="personaliseeritud õpe: Õppimine, mida tehisintellekt kohandab õppija taseme ja vajaduste järgi">Personaliseeritud õpe</span>.** Kohanduvad (adaptiivsed) õppesüsteemid muudavad ülesandeid vastavalt õpilase tasemele ja õppimise tempole. Näiteks Duolingo keskendub rohkem neile teemadele, kus õppija teeb vigu. Samal põhimõttel töötavad ka Khan Academy, ALEKS ja Century Tech.
 - **Õpilünkade tuvastamine.** TI analüüsib õpilase vastuseid ja märkab mustreid, mis viitavad konkreetsetele väärarusaamadele – nii saab õppimise suunata täpselt sinna, kus abi on kõige rohkem vaja.
 - **Automaatne hindamine.** TI suudab hinnata valikvastustega teste, lühivastuseid ja isegi esseesid ning tuvastada plagiaati. Nii jääb õpetajal rohkem aega õpilaste juhendamiseks.
 - **Virtuaalsed õpiassistendid** ehk vestlusrobotid vastavad küsimustele ja selgitavad teemasid ööpäev läbi.
@@ -4985,14 +5829,14 @@ TI pakub uusi võimalusi nii õpilastele kui ka õpetajatele.
 <!-- class="pae-eesti" -->
 > **Eesti näide: haridustehnoloogia**
 >
-> **Lingvist** pakub TI abil igale kasutajale tema oskustele kohandatud keeleõpet. **Edumus** kasutab TI-d personaliseeritud õppematerjalide loomiseks ja **DreamApply** aitab kõrgkoolidel hallata rahvusvaheliste üliõpilaste vastuvõttu. Euroopa Liidu projekt **AI4T** (*Artificial Intelligence for Teachers*) aitab õpetajatel kasutada TI-d õppetöös.
+> **Lingvist** pakub TI abil igale kasutajale tema oskustele kohandatud keeleõpet. Riiklik haridusprogramm **TI-Hüpe** koolitab alates 2025. aastast õpetajaid ja pakub gümnaasiumi- ja kutsekooliõpilastele õpirakendust, mis vastuse ette ütlemise asemel esitab suunavaid küsimusi. Euroopa Liidu projekt **AI4T** (*Artificial Intelligence for Teachers*) aitab õpetajatel kasutada TI-d õppetöös.
 
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
 >
 > Kui TI hindaks sinu kirjandit, siis mida see sinu arvates märkaks hästi ja mida võiks kahe silma vahele jätta? Millises olukorras sooviksid, et sinu tööd hindaks kindlasti inimene?
 
-### Transport, tootmine ja põllumajandus
+### ➕ Transport, tootmine ja põllumajandus
 
 **Transport** muutub TI abil ohutumaks, tõhusamaks ja keskkonnasõbralikumaks.
 
@@ -5000,51 +5844,51 @@ TI pakub uusi võimalusi nii õpilastele kui ka õpetajatele.
 - **Liiklusjuhtimine.** Nutikad valgusfoorid kohandavad oma tööd reaalajas, TI ennustab ummikuid ja aitab planeerida ühistransporti vastavalt reisijate vajadustele.
 - **Logistika.** Ettevõtted nagu Amazon ja DHL kasutavad TI-d marsruutide optimeerimiseks, nõudluse ennustamiseks ja ladude juhtimiseks.
 
-**Tootmises** on TI osa nn **Tööstus 4.0** pöördest, kus tehased muutuvad nutikaks: masinad on ühendatud asjade interneti kaudu ja otsuseid tehakse andmete põhjal.
+**Tootmises** on TI osa nn **<span class="pae-term" tabindex="0" data-def="Tööstus 4.0: Nutikas, andmepõhine ja võrku ühendatud tootmine">Tööstus 4.0</span>** pöördest, kus tehased muutuvad nutikaks: masinad on ühendatud asjade interneti kaudu ja otsuseid tehakse andmete põhjal.
 
 - **Kvaliteedikontroll.** Arvutinägemine leiab tootelt defekte, mida inimsilm ei pruugi märgata – näiteks autotööstuses värvkatte väikseimaid vigu.
-- **Ennustav hooldus.** Andurid koguvad pidevalt andmeid masinate seisukorra kohta ja TI ennustab, millal seade võib rikki minna. Nii saab hoolduse teha enne riket ja vältida seisakuid.
+- **<span class="pae-term" tabindex="0" data-def="ennustav hooldus: Seadmete rikete ennustamine andurite andmete põhjal enne rikke tekkimist">Ennustav hooldus</span>.** Andurid koguvad pidevalt andmeid masinate seisukorra kohta ja TI ennustab, millal seade võib rikki minna. Nii saab hoolduse teha enne riket ja vältida seisakuid.
 - **Protsesside optimeerimine.** Masinõpe aitab säästa energiat ja materjali ning lühendada tootmisaega. Näiteks Siemens kasutab TI-d oma „digitaalsetes tehastes“ tootmise ja energiatarbimise optimeerimiseks.
 - **Koostöörobotid** ehk **kobotid** töötavad inimestega kõrvuti ega asenda neid. Näiteks BMW tehastes aitavad kobotid inimesi autode kokkupanemisel.
 
-**Põllumajanduses** räägitakse **täppispõllumajandusest**: satelliidi- ja droonipiltide analüüs näitab, millises põllu osas on vaja rohkem vett või väetist, TI tuvastab taimehaigusi ja kahjureid ning ennustab saaki. Loomakasvatuses jälgib TI loomade tervist ja käitumist ning aitab söötmist optimeerida. Nii kasutatakse ressursse säästlikumalt ja keskkond saab vähem kahju.
+**Põllumajanduses** räägitakse **<span class="pae-term" tabindex="0" data-def="täppispõllumajandus: Andmete ja TI abil ressursside täpne kasutamine põllul">täppispõllumajandusest</span>**: satelliidi- ja droonipiltide analüüs näitab, millises põllu osas on vaja rohkem vett või väetist, TI tuvastab taimehaigusi ja kahjureid ning ennustab saaki. Loomakasvatuses jälgib TI loomade tervist ja käitumist ning aitab söötmist optimeerida. Nii kasutatakse ressursse säästlikumalt ja keskkond saab vähem kahju.
 
 <!-- class="pae-eesti" -->
 > **Eesti näide: tööstus ja transport**
 >
-> **AI & Robotics Estonia (AIRE)** on 1. oktoobril 2021 tööd alustanud teenuskeskus, mis nõustab Eesti tööstusettevõtteid TI ja robootika kasutuselevõtul. **Bolt** kasutab TI-d nõudluse ennustamiseks, hindade määramiseks ja sõitude sobitamiseks ning **Milrem Robotics** arendab TI abil navigeerivaid autonoomseid sõidukeid ja roboteid. Euroopa Liidu projekt **LEVITATE** uuris automatiseeritud sõidukite mõju liiklusele ja ühiskonnale.
+> **AI & Robotics Estonia (AIRE)** on Tallinna Tehnikaülikooli juhitud keskus, mis nõustab koos partneritega Eesti tööstusettevõtteid TI ja robootika kasutuselevõtul. **Bolt** kasutab TI-d nõudluse ennustamiseks, hindade määramiseks ja sõitude sobitamiseks ning **Milrem Robotics** arendab TI abil navigeerivaid autonoomseid sõidukeid ja roboteid. Euroopa Liidu projekt **LEVITATE** uuris automatiseeritud sõidukite mõju liiklusele ja ühiskonnale.
 
-### Rahandus ja meelelahutus
+### ➕ Rahandus ja meelelahutus
 
 **Rahandus** on TI kasutuselevõtus olnud üks eesrindlikumaid valdkondi.
 
-- **Pettuste tuvastamine.** Masinõpe analüüsib reaalajas miljoneid tehinguid ja otsib ebatavalisi mustreid (anomaaliaid). Kui sinu kaardiga tehakse äkki ost teisel pool maakera, võib pank tehingu peatada. Mastercard on teatanud, et tema TI hindab iga tehingu riski umbes 50 millisekundiga.
+- **Pettuste tuvastamine.** Masinõpe analüüsib reaalajas miljoneid tehinguid ja otsib ebatavalisi mustreid (anomaaliaid). Kui sinu kaardiga tehakse äkki ost teisel pool maakera, võib pank tehingu peatada. Mastercardi teatel aitab tema TI pankadel hinnata umbes 143 miljardit tehingut aastas ja täpsustab ühe tehingu riskihinnangut vähem kui 50 millisekundiga.
 - **Riskianalüüs ja laenuotsused.** TI arvestab laenutaotleja maksevõime hindamisel sadu tegureid. See võib aidata pakkuda laenu ka neile, kelle krediidiajalugu on lühike – aga siin tuleb eriti hoolikalt jälgida, et otsused ei oleks kallutatud.
 - **Algoritmkauplemine.** TI teeb automaatseid investeerimisotsuseid turuandmete, uudiste ja isegi sotsiaalmeedia meeleolude põhjal. Hinnangute järgi moodustab algoritmkauplemine suurema osa USA aktsiaturu tehingutest.
 - **Klienditeenindus.** Vestlusrobotid ja virtuaalassistendid vastavad küsimustele ja aitavad tehinguid teha; näiteks Bank of America virtuaalassistent Erica on aidanud miljoneid kliente.
 
 <!-- class="pae-fakt" -->
-> **Kas teadsid?** Mastercard on teatanud, et tema TI hindab iga kaarditehingu riski umbes **50 millisekundiga**.
+> **Kas teadsid?** Mastercardi teatel täpsustab tema TI kaarditehingu riskihinnangut **vähem kui 50 millisekundiga**.
 
 <!-- class="pae-eesti" -->
 > **Eesti näide: TI pangas**
 >
-> **LHV** kasutab TI-d pettuste tuvastamiseks ja klienditeeninduse parandamiseks. **Salv** aitab pankadel ja finantsasutustel TI abil avastada rahapesu ja muid finantskuritegusid.
+> Eesti ettevõte **Salv** arendab pankadele ja makseasutustele tarkvara, mis aitab tehinguid jälgida, kliente riskide järgi hinnata ning rahapesu ja muid finantskuritegusid avastada; pangad saavad selle kaudu ka omavahel kahtlaste tehingute infot jagada.
 
 **Meelelahutuses** puutud TI-ga kokku iga päev.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: soovitussüsteem**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="soovitussüsteem: Süsteem, mis ennustab, milline sisu või toode kasutajat huvitab">soovitussüsteem</span>**
 >
 > **Soovitussüsteem** on TI-süsteem, mis ennustab, milline sisu või toode võiks kasutajale meeldida, ja pakub seda talle. Selleks kasutatakse kasutaja varasemat käitumist (mida ta vaatas, kuulas, ostis) ja sarnaste kasutajate eelistusi.
 
-- **Soovitussüsteemid** – Netflix, Spotify ja YouTube soovitavad sisu sinu varasema käitumise ja sarnaste kasutajate eelistuste põhjal. Netflix on teatanud, et tema soovitussüsteem säästab ettevõttele üle miljardi dollari aastas, sest teenusest loobub vähem kasutajaid.
+- **Soovitussüsteemid** – Netflix, Spotify ja YouTube soovitavad sisu sinu varasema käitumise ja sarnaste kasutajate eelistuste põhjal. Netflixi juhid hindasid 2015. aastal, et soovitussüsteem säästab ettevõttele üle miljardi dollari aastas, sest teenusest loobub vähem kasutajaid.
 - **Sisu loomine** – **generatiivne TI** loob teksti (nt GPT-mudelid), pilte (DALL-E, Midjourney) ja muusikat (nt AIVA). TI ei asenda inimese loovust, kuid on muutumas loomeprotsessis kasulikuks tööriistaks.
 - **Mängud** – TI juhib mängu tegelasi (NPC-sid), loob automaatselt mängumaailmu ja kohandab mängu mängija järgi. Näiteks mäng *No Man's Sky* genereerib algoritmide abil lugematu hulga eri planeete.
 - **Filmid** – TI aitab luua eriefekte. Näotuvastuse ja süvaõppe abil saab näitlejaid digitaalselt noorendada, nagu tehti filmis „The Irishman“. Sama tehnoloogia võimaldab luua ka **süvavõltsinguid** (*deepfake*) – võltsitud videoid, kus inimene näib ütlevat või tegevat midagi, mida ta tegelikult pole teinud.
 
 <!-- class="pae-fakt" -->
-> **Kas teadsid?** Netflix on teatanud, et tema soovitussüsteem säästab ettevõttele **üle miljardi dollari aastas**, sest tänu headele soovitustele loobub teenusest vähem kasutajaid.
+> **Kas teadsid?** Netflixi juhtide 2015. aasta hinnangul säästab soovitussüsteem ettevõttele **üle miljardi dollari aastas**, sest tänu headele soovitustele loobub teenusest vähem kasutajaid.
 
 ![Neli veergu: arvutinägemine (röntgenipildid, isesõitvad autod, toodete defektid), keeletöötlus (vestlusrobotid, masintõlge, Bürokratt), anomaaliate tuvastamine (pangapettused, masinate rikked, küberrünnakud) ja soovitussüsteemid (Netflix, Spotify, YouTube, e-poed).](pildid/plokk_2/2_5_tehnoloogiad.svg "Joonis 2.5.2. Samad TI-tehnoloogiad eri valdkondades")
 
@@ -5060,9 +5904,9 @@ Riigid ja omavalitsused kasutavad TI-d, et pakkuda paremaid teenuseid ja teha an
 <!-- class="pae-eesti" -->
 > **Eesti näide: Bürokratt ja riiklikud TI-algatused**
 >
-> **Bürokratt** on Eesti riigi virtuaalassistentide võrgustik, mille kaudu saad avalikke teenuseid kasutada tavalises kõnekeeles suheldes. See on osa laiemast **KrattAI** algatusest, mille eesmärk on luua avalikus sektoris TI-põhiseid teenuseid. Bürokratt valiti 2022. aastal parimaks TI-l põhinevaks riigiteenuseks ja jõudis UNESCO maailma saja parima TI-lahenduse hulka.
+> **Bürokratt** on avaliku sektori asutuste veebilehtedel olevate vestlusrobotite võrgustik, mille kaudu saad avalikke teenuseid kasutada tavalises kõnekeeles suheldes. Praegu kasutab see küsimustele vastamiseks suuri keelemudeleid. 2022. aastal valiti Bürokratt UNESCO egiidi all tegutseva rahvusvahelise tehisintellekti uurimiskeskuse IRCAI ülemaailmsesse TI-projektide sajapealisse edetabelisse (Global Top 100).
 >
-> Eestil on riiklik TI-tegevuskava ehk **kratikava** (viimane neist aastateks 2024–2026), oma TI-strateegia on ka Kaitseministeeriumi valitsemisalal ning Maksu- ja Tolliametil, mis kasutab masinõpet maksupettuste avastamiseks. **Tehnopoli AI arenguprogramm** aitab alates 2022. aastast ettevõtetel TI-lahendusi kasutusele võtta.
+> Eesti TI-arengut suunavad riiklikud tegevuskavad: pärast 2019.–2021. ja 2022.–2023. aasta kavasid kehtib **kratikava** aastateks 2024–2026. 2026. aasta jaanuaris käivitas valitsus programmi **Eesti.ai**, mille esimesed prioriteedid on haridus, tervishoid ja julgeolek. **Tehnopoli AI arenguprogramm** aitab alates 2022. aastast ettevõtetel TI-lahendusi kasutusele võtta.
 
 Eesti TI-maastikul on palju tuntud ettevõtteid: **Starship Technologies** (kullerrobotid), **Veriff** (isikusamasuse tuvastamine dokumendi ja näopildi võrdlemise teel), **Bolt**, **Lingvist**, **Milrem Robotics**, **Salv**. Teaduses arendab **Tartu Ülikool** eestikeelset kõnetuvastust ja masintõlget ning **Tallinna Tehnikaülikool** tööstuse ja targa linna lahendusi. Eesti eelised on arenenud digiühiskond ja e-riigi kogemus; väljakutsed on väike turg ja piiratud hulk eestikeelseid andmeid. Seepärast on oluline rahvusvaheline koostöö – näiteks Euroopa Liidu projekt **AI4Cities** keskendub TI kasutamisele linnade jätkusuutlikumaks muutmisel.
 
@@ -5094,22 +5938,26 @@ TI rakendamisega kaasnevad igas valdkonnas sarnased **eetilised küsimused**:
 - **vastutus** – kes vastutab, kui isesõitev auto teeb õnnetuse või diagnoosisüsteem eksib;
 - **autonoomsus ja kontroll** – milliseid otsuseid võib jätta masina teha ja kus peab otsustama inimene.
 
-Euroopa Liit on nendele küsimustele vastuseks võtnud vastu **Euroopa Liidu tehisintellekti määruse (AI Act)** – esimese tervikliku TI-õigusraamistiku, mis kasutab **riskipõhist lähenemist**: mida suurem on TI-süsteemi võimalik oht inimestele, seda rangemad nõuded sellele kehtivad.
+Euroopa Liit on nendele küsimustele vastuseks võtnud vastu **Euroopa Liidu tehisintellekti määruse (AI Act)** – esimese tervikliku TI-õigusraamistiku, mis kasutab **riskipõhist lähenemist**: mida suurem on TI-süsteemi võimalik oht inimestele, seda rangemad nõuded sellele kehtivad. Määrus jõustus 1. augustil 2024 ja selle nõudeid rakendatakse järk-järgult: keelatud praktikad (nt sotsiaalne punktiarvestus) on keelatud alates 2. veebruarist 2025, kõrge riskiga süsteemide nõuded hakkavad pärast 2026. aasta muudatusi kehtima alles 2027.–2028. aastal.
 
 <!-- class="pae-lisaks" -->
 > **Tea lisaks**
 >
 > Kui tahad TI põhimõtetest rohkem teada saada, proovi veebikursust **Elements of AI** (elementsofai.ee). See loodi Soomes ja on tõlgitud ka eesti keelde. Eesti TI-algatuste kohta leiad infot portaalist **kratid.ee**.
 
-### 🎬 Videod: tehisaru teaduses
+### ➕ 🎬 Videod: tehisaru teaduses
 
-Videoõpsi lühivideo räägib, milliseid uusi uurimisvaldkondi ja probleeme tehisaru teadusesse toob, alates Garri Kasparovi malematšist arvutiga kuni TI-turvalisuse uurijateni. Pikemas TI-Hüppe videos näitab geoinformaatika professor Evelyn Uuemaa, kuidas tehisaru aitab teadlasel leida teaduskirjandust ja tuvastada satelliidipiltidelt keskkonnamuutusi.
+Sellel lehel on 2 videot. Iga video ees on lühike kokkuvõte, mis aitab sul valida.
 
 **Tehisintellekt teaduses** · *Videoõps* · ⏱ 2 min
+
+📝 Lühivideo räägib, milliseid uusi uurimisvaldkondi ja probleeme toob tehisaru teadusesse: Kasparovi malematšist kuni TI-turvalisuse uurijateni.
 
 !?[Tehisintellekt teaduses – Videoõps](https://www.youtube.com/watch?v=hJHraS1MIss)
 
 **Evelyn Uuemaa: kuidas aitab tehisaru teadlast?** · *TI-Hüpe* · ⏱ 11 min
+
+📝 Geoinformaatika professor Evelyn Uuemaa näitab, kuidas tehisaru aitab leida teaduskirjandust ja tuvastada satelliidipiltidelt keskkonnamuutusi. Uurimisküsimuse ja tulemuste tõlgendamise jätab ta inimesele.
 
 !?[Evelyn Uuemaa: kuidas aitab tehisaru teadlast? – TI-Hüpe](https://www.youtube.com/watch?v=vSAtkP3c3X0)
 
@@ -5124,6 +5972,23 @@ Videoõpsi lühivideo räägib, milliseid uusi uurimisvaldkondi ja probleeme teh
 **Vali teadusvaldkond, mis sind huvitab. Kirjuta, mida saaks tehisaru selles valdkonnas kiiremini teha ja mida peab inimene ise kontrollima.**
 
 [[___ ___ ___]]
+
+### 🧪 TI-katse: kas masintõlge saab eesti keelest aru?
+
+Masintõlge on üks keeletöötluse rakendusi, mida kasutad iga päev. Tartu Ülikooli teadlaste arendatud Neurotõlge tõlgib eesti keelt ja paljusid soome-ugri keeli. Katsetad, millega TI-rakendus hästi hakkama saab ja kus on vaja inimese kontrolli.
+
+**Vaja läheb:** Neurotõlge ([translate.ut.ee](https://translate.ut.ee/)), soovi korral võrdluseks mõni teine masintõlge, ~10 min, paaristöö
+
+1. Tõlgi eesti keelest inglise keelde kolm lauset: üks lihtne lause oma koolipäevast, üks kõnekäänuga lause (nt „Tal pole kõik kodus.“) ja üks mitmetähendusliku sõnaga lause (nt „Tee on külm.“).
+2. Vaheta tõlkesuund ja tõlgi ingliskeelne tulemus tagasi eesti keelde. Võrdle algse lausega.
+3. Tõlgi üks lihtne lause mõnda väiksemasse soome-ugri keelde (nt liivi või vepsa keelde), mida Neurotõlge samuti toetab.
+
+**Pane tähele / kirjuta üles:** Milline lause tõlgiti valesti ja miks? Kus oleks masintõlke viga ohtlik (nt ravimi kasutusjuhend, leping)? Kes peaks sellise tõlke üle kontrollima?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** Kirjutage paberile kolm kõnekäändu ja tõlkige need sõna-sõnalt inglise keelde, nagu teeks „rumal masin“. Arutage, miks sõnasõnaline tõlge ei tööta ja mida peaks masin lause kohta teadma, et õigesti tõlkida.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -5148,10 +6013,20 @@ Videoõpsi lühivideo räägib, milliseid uusi uurimisvaldkondi ja probleeme teh
 | Bürokratt | Eesti riigi virtuaalassistentide võrgustik |
 | ELi tehisintellekti määrus (AI Act) | ELi riskipõhine TI-õigusraamistik |
 
+### 📚 Allikad ja lisalugemine
+
+- Euroopa Komisjon (2026). [AI Act – Regulatory framework for AI](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai). ELi tehisintellekti määruse neli riskitaset ja rakendamise ajakava koos 2026. aasta muudatustega.
+- Vabariigi Valitsus (2026). [Government launched the Eesti.ai initiative together with leading entrepreneurs](https://www.valitsus.ee/en/news/government-launched-eestiai-initiative-together-leading-entrepreneurs). Riikliku TI-programmi eesmärgid ja esimesed prioriteedid.
+- kratid.ee (vaadatud 2026). [Bürokratt](https://www.kratid.ee/burokratt). Mis on Bürokratt ja kuidas riigiasutused saavad seda kasutada.
+- kratid.ee (vaadatud 2026). [Visioon ja kavad](https://www.kratid.ee/kratt-visioon). Eesti TI-tegevuskavad 2019–2021, 2022–2023 ja kratikava 2024–2026.
+- Tartu Ülikool (2023). [The University of Tartu machine translation engine now supports 17 new Finno-Ugric languages](https://reaalteadused.ut.ee/en/node/150356). Neurotõlge ja selle arendamine soome-ugri keelte jaoks.
+- Google DeepMind (2020). [International evaluation of an AI system for breast cancer screening](https://deepmind.google/discover/blog/international-evaluation-of-an-ai-system-for-breast-cancer-screening/). Uuring, kus TI-süsteemi otsuseid võrreldi radioloogide omadega.
+- Hallismaa, M. (2026). [TI-hüppe juht: õpilased ütlevad, et meie mudel on tüütu, ent potentsiaalikas](https://www.err.ee/1610050489/ti-huppe-juht-opilased-utlevad-et-meie-mudel-on-tuutu-ent-potentsiaalikas). ERR. Intervjuu Eesti koolide TI-programmi ja õpirakenduse kohta – sobib lisalugemiseks.
+
 ### Tööleht 2.5
 
 <!-- class="pae-jaotis" -->
-**I. Tehisintellekti rakenduste kaardistamine**
+**➕ I. Tehisintellekti rakenduste kaardistamine**
 
 **Ülesanne 1.** Täida tabel TI-rakendustega eri valdkondades. Kirjuta iga valdkonna kohta konkreetsed rakendused ja kasutatavad TI-tehnoloogiad.
 
@@ -5198,7 +6073,7 @@ Videoõpsi lühivideo räägib, milliseid uusi uurimisvaldkondi ja probleeme teh
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**II. Tehisintellekti rakenduste analüüs**
+**⭐ II. Tehisintellekti rakenduste analüüs**
 
 **Ülesanne 3.** Vali kolm TI-rakendust ja analüüsi neid järgmiste kriteeriumide alusel: probleem, mida see lahendab; kasutatud tehnoloogiad; eelised; piirangud.
 
@@ -5225,7 +6100,7 @@ Videoõpsi lühivideo räägib, milliseid uusi uurimisvaldkondi ja probleeme teh
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Tehisintellekt ja probleemilahendus**
+**➕ III. Tehisintellekt ja probleemilahendus**
 
 **Ülesanne 5.** Kirjelda, kuidas TI lahendab probleeme järgmistes valdkondades.
 
@@ -5250,7 +6125,7 @@ Videoõpsi lühivideo räägib, milliseid uusi uurimisvaldkondi ja probleeme teh
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Tehisintellekti rakenduste mõju**
+**⭐ IV. Tehisintellekti rakenduste mõju**
 
 **Ülesanne 7.** Analüüsi TI-rakenduste mõju eri valdkondadele.
 
@@ -5275,7 +6150,7 @@ Videoõpsi lühivideo räägib, milliseid uusi uurimisvaldkondi ja probleeme teh
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Praktiline ülesanne**
+**➕ V. Praktiline ülesanne**
 
 **Ülesanne 9.** Vali üks kahest variandist.
 
@@ -5324,7 +6199,7 @@ Videoõpsi lühivideo räägib, milliseid uusi uurimisvaldkondi ja probleeme teh
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Tehisintellekti rakendused Eestis**
+**⭐ VI. Tehisintellekti rakendused Eestis**
 
 **Ülesanne 10.** Uuri ja kirjelda vähemalt kolme Eesti ettevõtet või projekti, mis kasutavad TI-d. Kirjuta iga ettevõtte või projekti kohta selle nimi ja see, kuidas see TI-d kasutab.
 
@@ -5351,7 +6226,7 @@ Videoõpsi lühivideo räägib, milliseid uusi uurimisvaldkondi ja probleeme teh
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Arutelu**
+**➕ VII. Arutelu**
 
 **Ülesanne 12.** Millised TI-rakendused võiksid järgmise 10 aasta jooksul ühiskonnale kõige rohkem kasu tuua ja miks?
 
@@ -5371,7 +6246,7 @@ let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["bürokratt", "burokratt", "bürokrati", "bürokratti"].includes(v)
 </script>
 ****************************************
-Õige vastus: **Bürokratt**. See valiti 2022. aastal parimaks TI-l põhinevaks riigiteenuseks ja jõudis UNESCO maailma saja parima TI-lahenduse hulka.
+Õige vastus: **Bürokratt**. See valiti 2022. aastal UNESCO egiidi all tegutseva keskuse IRCAI ülemaailmsesse TI-projektide sajapealisse edetabelisse.
 ****************************************
 
 **2. Millist TI-tehnoloogiat rakendus eelkõige kasutab?**
@@ -5446,12 +6321,62 @@ Radioloogi töös vaatab TI-süsteem röntgenipildid kiiresti läbi ja märgib k
 
 </details>
 
+### 📤 Väljapääsupilet 2.5
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.5'] = ["Linnaraamatukogu tahab panna kodulehele vestlusroboti. Nimeta üks kasu ja üks eetiline risk, millega peaks arvestama.", "Millise lause tõlkis Neurotõlge TI-katses kõige halvemini ja mis oli selle põhjus sinu arvates?", "Millist TI-rakendust kasutad ise kõige sagedamini ja mida see sinu kohta teab?"];
+setTimeout(function(){var d=window.paePilet.load('2.5');document.querySelectorAll('[data-pilet="2.5"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="2.5" name="nimi" oninput="window.paePilet.save('2.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Linnaraamatukogu tahab panna kodulehele vestlusroboti. Nimeta üks kasu ja üks eetiline risk, millega peaks arvestama.</div><textarea data-pilet="2.5" name="q0" oninput="window.paePilet.save('2.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millise lause tõlkis Neurotõlge TI-katses kõige halvemini ja mis oli selle põhjus sinu arvates?</div><textarea data-pilet="2.5" name="q1" oninput="window.paePilet.save('2.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millist TI-rakendust kasutad ise kõige sagedamini ja mida see sinu kohta teab?</div><textarea data-pilet="2.5" name="q2" oninput="window.paePilet.save('2.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('2.5')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('2.5')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_2.5" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 2.5
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Mu rakenduste kaardid on segi läinud! Ma ei mäleta enam, millises valdkonnas keegi töötab. Kui paned need õigetesse kohtadesse, tekib lukukood.“
 
-Lukk avaneb, kui lahendad mõistatuse. Leia iga rakenduse jaoks valdkonna number. Kirjuta neli numbrit järjest (rakenduste A, B, C, D järjekorras) – see ongi lukukood.
+Lukk avaneb, kui lahendad ülesande. Allpool on neli uut TI-rakendust, millest tunnis juttu ei olnud. Otsusta tunnis õpitu põhjal, millisesse valdkonda iga rakendus kuulub, ja leia valdkonna number. Iga valdkond esineb täpselt üks kord. Kirjuta neli numbrit järjest (rakenduste A, B, C, D järjekorras) – see ongi lukukood.
 
 | Nr | Valdkond |
 |---|---|
@@ -5460,19 +6385,23 @@ Lukk avaneb, kui lahendad mõistatuse. Leia iga rakenduse jaoks valdkonna number
 | 3 | Rahandus |
 | 4 | Avalik sektor |
 
-- **A.** AlphaFold ennustab valkude ruumilist struktuuri.
-- **B.** Bürokratt aitab kasutada riigi teenuseid tavalises kõnekeeles.
-- **C.** Starship Technologies'i robotid toovad kullersaadetisi koju kätte.
-- **D.** TI märkab kaarditehingute seas pettusi.
+- **A.** Nutikell märkab kandja ebaregulaarset südamerütmi ja soovitab tal arsti juurde minna.
+- **B.** Linnavalitsus ennustab TI abil, millised tänavad on vaja enne külmakraade soolata.
+- **C.** Raudteefirma TI ennustab rongide hilinemist ja muudab automaatselt ümberistumiste aegu.
+- **D.** Kindlustusfirma TI märkab kahjunõuete seas võltsitud arveid.
 
 [[1423]]
-[[?]] Vihje: mõtle, kes on iga rakenduse kasutaja: teadlane, riigiasutus, kuller või pank?
+[[?]] Vihje 1: Mõtle iga juhtumi puhul, kelle tööd TI seal aitab: arsti, ametniku, raudteefirma või kindlustusseltsi?
+[[?]] Vihje 2: Kood koosneb neljast erinevast numbrist ja algab numbriga 1. Kindlustus kuulub rahanduse valdkonda.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Tehisintellekt tervishoius ja teaduses“ ja vaata tunni alguse tabelit, kus on valdkonnad ja nende peamised rakendused. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI184") { true } else {
 let v = `@input`.replace(/[^0-9]/g, "");
 v === "1423"
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Samad TI-tehnoloogiad – arvutinägemine, keeletöötlus ja anomaaliate tuvastamine – töötavad väga erinevates valdkondades, teadusest kuni pangani.
+✅ **Lukk avatud!** Nutikell aitab tervishoidu (1), tänavate soolamise planeerimine on avaliku sektori töö (4), rongide hilinemise ennustamine kuulub transporti (2) ja võltsitud kahjunõuete leidmine rahandusse (3). Samad TI-tehnoloogiad – andurite andmete analüüs, ennustamine ja anomaaliate tuvastamine – töötavad väga erinevates valdkondades.
 
 🔑 **Sinu võtmetäht: L**
 
@@ -5485,7 +6414,67 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 <!-- class="pae-kaas" -->
 ![2. ploki kaanepilt](pildid/plokk_2/plokk_2_kaas.svg)
 
-Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
+Oled jõudnud toa viimasesse ossa. Siin teed **TI-labori**, kordad ploki teemasid **praktiliste ülesannete** abil, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
+
+### 🔬 2. ploki TI-labor: treeni oma klassifitseerija
+
+<!-- class="pae-motle" -->
+> **Uurimisküsimus:** Kuidas mõjutavad treeningpiltide hulk ja mitmekesisus (taust, valgus, nurk) seda, kui täpselt pildiklassifitseerija tunneb ära uusi, varem nägemata pilte?
+
+**Eesmärk:** treenid Teachable Machine'is 2–3 klassiga pildiklassifitseerija, muudad süstemaatiliselt treeningandmeid ja mõõdad täpsust uutel testpiltidel. Seostad tulemused andmekvaliteedi (tund 2.2) ja ülesobitamisega (tund 2.3).
+
+**Vaja läheb:** [Teachable Machine](https://teachablemachine.withgoogle.com/) (**Get Started** → **Image Project** → **Standard image model**), veebikaameraga arvuti, 2–3 eset (nt pliiats, kustukumm, veepudel), ~45 min, paaris või 3-liikmelises rühmas
+
+**Rollid:** katsetaja, protokollija, kriitik (vahetage rolle)
+
+<!-- class="pae-lisaks" -->
+> **Ohutus:** pildista ainult esemeid, mitte inimesi – nii ei teki isikuandmeid. Projekti ei pea salvestama ega kuhugi üles laadima.
+
+<!-- class="pae-jaotis" -->
+**1. Hüpotees**
+
+Kirjuta enne katset, kuidas mõjutab mudeli täpsust uutel piltidel a) treeningpiltide **arv** ja b) see, kui kõik treeningpildid on tehtud **samal taustal, samas valguses ja sama nurga alt**. Kumb on sinu arvates olulisem?
+
+[[___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**2. Katse**
+
+1. **Testkomplekt.** Leppige kokku 10 testolukorda (iga ese teisel taustal, teises valguses või teise nurga alt), mida mudel treeningul ei näe. Kasutage samu testolukordi kõigis katsetes.
+2. **Katse 1 – vähe ja ühekülgseid andmeid.** Looge 2–3 klassi (iga ese on üks klass). Salvestage veebikaameraga igale klassile umbes 10 pilti ühe tausta ees ja samas valguses. Vajutage **Train Model**. Näidake eelvaates (*Preview*) mudelile kõiki 10 testolukorda ja loendage, mitu korda oli suurima protsendiga klass õige.
+3. **Katse 2 – rohkem, aga sama ühekülgseid andmeid.** Lisage igale klassile samas olukorras pilte juurde, kuni neid on umbes 60. Treenige uuesti ja testige samade testolukordadega.
+4. **Katse 3 – mitmekesised andmed.** Kustutage pildid ja salvestage igale klassile jälle umbes 60 pilti, aga nüüd eri taustade ees, eri valguses ja eri nurkade alt. Treenige ja testige samamoodi.
+5. **Soovi korral, katse 4 – tasakaalustamata klassid.** Jätke ühele klassile 10 ja teisele 60 pilti. Kas mudel hakkab eelistama suuremat klassi?
+
+<!-- data-type="none" -->
+| Katse | Mida muutsid | Tulemus (õigeid 10-st) | Märkus |
+|---|---|---|---|
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+| 4 | | | |
+
+<!-- class="pae-jaotis" -->
+**3. Analüüs**
+
+1. Kas täpsust uutel piltidel mõjutas rohkem piltide hulk või nende mitmekesisus? Tee järeldus oma tabeli põhjal.
+2. Kas katse 1 või 2 mudel oli üle sobitunud? Mille järgi sa seda otsustad (näiteks oli mudel treeningolukorras väga kindel, aga eksis uues olukorras)?
+3. Millised on teie katse piirangud (ainult 10 testolukorda, üks klassiruum, üks kaamera, juhuslikkus)? Mida peaks muutma, et tulemus oleks usaldusväärsem?
+
+[[___ ___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**4. Laboriaruanne portfooliosse**
+
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita Moodle'is.
+
+<!-- data-type="none" -->
+| Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
+|---|---|---|---|
+| Hüpotees ja katse | Hüpotees on kontrollitav; igas katses muudeti ainult üht tegurit ja testolukorrad jäid samaks | Hüpotees on olemas; katsed on tehtud, kuid mõnes muudeti mitut tegurit korraga | Hüpotees puudub või katsed on tehtud juhuslikult |
+| Andmed ja tulemused | Tabel on täielik ja tulemused on arvuliselt kirjas (õigeid 10-st) | Tabel on enamasti täidetud | Tulemused on puudulikud või ainult sõnaliselt kirjeldatud |
+| Järeldus ja piirangud | Järeldus tugineb andmetele, seostab tulemused ülesobitamise ja andmekvaliteediga ning nimetab vähemalt kaks piirangut | Järeldus on olemas ja nimetatud on üks piirang | Järeldus ei tulene andmetest ja piiranguid pole nimetatud |
+| Koostöö ja ohutus | Rollid vahetusid, kõik panustasid ja pildistati ainult esemeid | Rollid olid jaotatud, kuid ei vahetunud | Töö tegi peamiselt üks liige või pildistati inimesi ilma loata |
 
 ### Praktilised ülesanded
 
@@ -6050,10 +7039,14 @@ Hea arutlus esitab selge seisukoha, põhjendab seda mitme argumendiga ja toob n�
 > **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 2.1, 2.2, 2.3, 2.4 ja 2.5 lukkudest järjekorras).
 
 [[MUDEL]]
-[[?]] Vihje: sõnas on 5 tähte ja see on seotud selle toa teemaga – just see tekib masinõppe treenimise tulemusena.
+[[?]] Vihje 1: Kas kirjutasid üles kõigi viie tunni (2.1–2.5) lukkude võtmetähed? Pane need tundide järjekorda.
+[[?]] Vihje 2: Sõnas on 5 tähte ja see tekib masinõppe treenimise tulemusena. Esimene täht on M.
+[[?]] 🛟 Päästerõngas: mine tagasi tundide 2.1–2.5 lukkude juurde ja vaata, millise võtmetähe iga lukk avamisel andis. Kui ikka ei tule välja, küsi õpetajalt selle ukse päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI925") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "mudel"
+}
 </script>
 ****************************************
 ![Kratt](pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Masinaruumi hammasrattad hakkavad jälle ühtlaselt keerlema ja serverituled lähevad roheliseks. Kratt mäletab nüüd, et ta on **mudel**: algoritmid on tema tööjuhised, andmed on tema kütus, masinõppe ja närvivõrkude abil õppis ta näidetest ning nüüd saab ta aidata inimesi paljudes valdkondades. „Aitäh, päästemeeskond! Ma tean jälle, kuidas ma seest töötan – ja et pean õppima mitmekesistest andmetest, mitte lihtsalt asju pähe tuupima.“
@@ -6096,17 +7089,37 @@ Ploki lõpus on kordamise osa praktiliste ülesannete, arutelu ja ploki enesekon
 ## 3.1 Kuidas tehisintellekt mõistab keelt
 
 <!-- class="pae-kaas" -->
-![Kaks õpilast istuvad koolikoridori pingil ja üks neist kirjutab telefonis sõbrale „Homme kohvikus?“, samal ajal kui suurendatud ekraanil jagatakse sõnum osadeks, muudetakse arvudeks ja tõlgendatakse kuupäevaks, küsimuseks ja kohvikuks.](pildid/illustratsioonid/3_1.jpg)
+![Kaks noort istuvad koolikoridoris siniste kappide kõrval pingil ja vaatavad koos telefoni. Ekraanilt kerkivad õhku sõnatükid ja numbrid, justkui muutuks sõnum arvudeks.](pildid/illustratsioonid/3_1.jpg)
 
 ### Õpieesmärgid
 
-Selle tunni järel:
+Selle tunni järel sa:
 
-- mõistad, mis on loomuliku keele töötlus ja miks on inimkeel arvutile keeruline;
-- tunned keeletöötluse peamisi ülesandeid ja samme, alates teksti sõnadeks jagamisest kuni tähenduse ja konteksti mõistmiseni;
-- oskad selgitada, kuidas tekst muudetakse arvudeks (sõnahulgad, TF-IDF, n-grammid, sõnavektorid);
-- tead, mis on keelemudel, suur keelemudel ja transformer;
-- oskad analüüsida keeletöötluse rakendusi ja väljakutseid, sealhulgas eesti keele eripärasid.
+- **selgitad oma sõnadega**, mis on <span class="pae-term" tabindex="0" data-def="loomuliku keele töötlus: Inimkeele mõistmise ja genereerimisega tegelev tehisintellekti suund">loomuliku keele töötlus</span> ja miks on inimkeel arvutile keeruline *(mõistmine)*;
+- **kirjeldad**, kuidas <span class="pae-term" tabindex="0" data-def="keelemudel: Mudel, mis ennustab sõnade tõenäosuslikku järjestust">keelemudel</span> ennustab järgmist sõna, ja **rakendad** seda teadmist igapäevase näite (nt telefoni klaviatuur) selgitamiseks *(rakendamine)*;
+- **võrdled** tokeniseerijaga eesti- ja ingliskeelse lause tokenite arvu ja **leiad seose** eesti keele ehitusega *(analüüs)*;
+- **hindad**, millised on keeletöötluse väljakutsed eesti keele jaoks, ja **põhjendad** oma järeldust katse tulemustega *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Mis on loomuliku keele töötlus?“, „Kuidas arvuti teksti „loeb“: keeletöötluse põhiülesanded“, „Keelemudelid ja <span class="pae-term" tabindex="0" data-def="transformer: 2017. aastal tutvustatud närvivõrgu arhitektuur, suurte keelemudelite alus">transformerid</span>“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Mitmeks tokeniks lause jaguneb?“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded II, VI ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Loomuliku keele töötlus aitab arvutil inimkeelt mõista ja luua. Inimkeel on arvutile raske, sest tähendus sõltub kontekstist. Sõnal võib olla mitu tähendust: „tee“ võib olla jook või liiklusmaa. Kõigepealt jagab arvuti teksti väikesteks osadeks ehk tokeniteks. Keelemudel ennustab, milline sõna tuleb tõenäoliselt järgmisena. Nii töötab ka sinu telefoni klaviatuur, mis pakub järgmist sõna. Tänapäeva suured keelemudelid põhinevad transformeril ja <span class="pae-term" tabindex="0" data-def="tähelepanumehhanism: Meetod, mis aitab mudelil keskenduda olulistele sõnadele ja nende seostele">tähelepanumehhanismil</span>. Keelemudel leiab tekstist mustreid, aga ei mõista maailma nagu sina.
+
+**Tähtsad sõnad:** **loomuliku keele töötlus** – TI haru, mis töötleb inimkeelt; **token** – teksti väike osa, näiteks sõna või sõnaosa; **keelemudel** – mudel, mis ennustab järgmist sõna; **tähelepanumehhanism** – meetod, mis aitab mudelil leida lausest tähtsad sõnad.
+
+</section>
 
 ### Mis on loomuliku keele töötlus?
 
@@ -6134,7 +7147,7 @@ Miks on inimkeel arvutile nii raske? Põhjuseid on mitu.
 >
 > Juba ühe tavalise päeva jooksul kasutad mitut keeletöötluse rakendust. Klaviatuur pakub sõnumit kirjutades järgmist sõna ja parandab trükivead. E-posti postkast suunab rämpskirjad eraldi kausta. Tõlkerakendus muudab võõrkeelse menüü arusaadavaks. Häälassistent kuulab, mida sa ütled, ja vastab. Kõigi nende taga on loomuliku keele töötlus.
 
-### Keeletöötluse lühiajalugu
+### ➕ Keeletöötluse lühiajalugu
 
 Loomuliku keele töötlus ei ole uus valdkond – sellega on tegeldud juba üle seitsmekümne aasta. Areng on liikunud käsitsi kirjutatud reeglitelt statistikani ning sealt masinõppe ja süvaõppeni.
 
@@ -6157,16 +7170,16 @@ Loomuliku keele töötlus ei ole uus valdkond – sellega on tegeldud juba üle 
 Enne kui arvuti saab tekstiga midagi targemat teha, tuleb see ette valmistada. Seda nimetatakse **teksti eeltöötluseks**.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: tokeniseerimine**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="tokeniseerimine: Teksti jagamine väiksemateks ühikuteks (sõnadeks, lauseteks, sõnaosadeks)">tokeniseerimine</span>**
 >
 > Tokeniseerimine on teksti jagamine väiksemateks ühikuteks ehk **tokeniteks** – näiteks sõnadeks, lauseteks või sõnaosadeks. Lause „Mari läks kooli.“ jaguneb tokeniteks „Mari“, „läks“, „kooli“, „.“.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: lemmatiseerimine**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="lemmatiseerimine: Sõnade taandamine algvormile ehk lemmale">lemmatiseerimine</span>**
 >
 > Lemmatiseerimine on sõnade taandamine nende algvormile ehk **lemmale**. Näiteks sõnad „koolis“, „kooli“, „koolidest“ taandatakse lemmaks „kool“. Lihtsam variant on **tüvistamine**, mille puhul lõigatakse sõnalt lihtsalt lõpp ära.
 
-Kolmas eeltöötluse samm on **sõnaliikide märgendamine**: iga sõna juurde märgitakse, kas see on nimisõna, tegusõna, omadussõna jne ning milline on selle grammatiline funktsioon lauses.
+Kolmas eeltöötluse samm on **<span class="pae-term" tabindex="0" data-def="sõnaliikide märgendamine: Sõnade grammatilise funktsiooni määramine lauses">sõnaliikide märgendamine</span>**: iga sõna juurde märgitakse, kas see on nimisõna, tegusõna, omadussõna jne, ning sageli ka sõna grammatiline vorm (nt kääne või aeg).
 
 Eeltöötlusele järgnevad sügavamad analüüsitasemed:
 
@@ -6180,18 +7193,18 @@ Tüüpilist keeletöötluse töövoogu võib kujutada nii:
 
 ![Kuuest sammust koosnev keeletöötluse töövoog: teksti kogumine ja eeltöötlus, tokeniseerimine, lemmatiseerimine, sõnavektorite loomine, keelemudeli rakendamine ja tulemuste analüüs; näitena jagatakse lause „Mari läks kooli.“ tokeniteks ja „kooli“ taandatakse sõnaks „kool“.](pildid/plokk_3/3_1_toru.svg "Joonis 3.1.2. Tüüpiline keeletöötluse töövoog")
 
-### Kuidas tekst muudetakse arvudeks
+### ➕ Kuidas tekst muudetakse arvudeks
 
 Arvuti oskab arvutada ainult arvudega. Seepärast tuleb iga tekst muuta arvuliseks esituseks. Selleks on aja jooksul välja töötatud mitu meetodit.
 
-**Sõnahulk** (inglise keeles *bag of words*) on kõige lihtsam meetod. Tekst kujutatakse justkui kotina, kuhu on visatud kõik selle sõnad, ja loendatakse, mitu korda iga sõna esineb. Meetod on lihtne, kuid **kaotab sõnade järjekorra**: laused „koer hammustas meest“ ja „mees hammustas koera“ näevad välja täpselt ühesugused.
+**<span class="pae-term" tabindex="0" data-def="sõnahulk: Teksti esitus sõnade esinemissagedustena; sõnade järjekord läheb kaotsi">Sõnahulk</span>** (inglise keeles *bag of words*) on kõige lihtsam meetod. Tekst kujutatakse justkui kotina, kuhu on visatud kõik selle sõnad, ja loendatakse, mitu korda iga sõna esineb. Meetod on lihtne, kuid **kaotab sõnade järjekorra**: laused „koer hammustas meest“ ja „mees hammustas koera“ näevad välja täpselt ühesugused.
 
-**TF-IDF** (inglise keeles *term frequency – inverse document frequency*) hindab, **kui oluline** on sõna konkreetses dokumendis. Sõna saab kõrge kaalu, kui see esineb selles tekstis sageli, aga teistes tekstides harva. Sõnad nagu „ja“ või „on“ esinevad kõikjal ega ütle teksti sisu kohta midagi, aga kui sõna „fotosüntees“ kordub ühes tekstis palju, on see tõenäoliselt bioloogiatekst.
+**<span class="pae-term" tabindex="0" data-def="TF-IDF: Meetod, mis hindab sõna olulisust dokumendis teiste dokumentidega võrreldes">TF-IDF</span>** (inglise keeles *term frequency – inverse document frequency*) hindab, **kui oluline** on sõna konkreetses dokumendis. Sõna saab kõrge kaalu, kui see esineb selles tekstis sageli, aga teistes tekstides harva. Sõnad nagu „ja“ või „on“ esinevad kõikjal ega ütle teksti sisu kohta midagi, aga kui sõna „fotosüntees“ kordub ühes tekstis palju, on see tõenäoliselt bioloogiatekst.
 
 **N-grammid** on järjestikused sõnad või tähed. Näiteks kahesõnalised ühendid (bigrammid) lausest „mulle meeldib matemaatika“ on „mulle meeldib“ ja „meeldib matemaatika“. N-grammid säilitavad osaliselt sõnade järjekorda ja konteksti.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: sõnavektor**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="sõnavektor: Sõna esitus arvuvektorina, kus sarnase tähendusega sõnad on lähestikku">sõnavektor</span>**
 >
 > Sõnavektor (inglise keeles *word embedding*) on sõna esitus arvude jadana ehk vektorina. Vektorid on loodud nii, et **tähenduselt sarnased sõnad asuvad vektorruumis üksteise lähedal**. Näiteks „kass“ ja „koer“ on lähestikku, „kass“ ja „traktor“ kaugel. Tuntud meetodid sõnavektorite loomiseks on Word2Vec, GloVe ja FastText.
 
@@ -6235,7 +7248,7 @@ Keelemudeleid on kolme põhitüüpi:
 Vaata lauset: „Mari pani raamatu kotti, sest **see** oli raske.“ Mille kohta käib „see“ – raamatu või koti? Tähelepanumehhanism aitab mudelil seostada sõna „see“ teiste lause sõnadega ja leida tõenäoliseima vaste. Varasemad mudelid (RNN, LSTM) lugesid teksti sõna-sõnalt järjest ega suutnud pikkades tekstides kaugete sõnade seoseid hästi meeles pidada. Transformer töötleb kõiki sõnu **paralleelselt** ehk korraga ja kasutab **positsioonikodeerimist**, et teada, millises järjekorras sõnad on. Tänu sellele on transformerid kiiremad treenida, annavad paremaid tulemusi ja neid saab skaleerida ehk teha väga suureks.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: suur keelemudel**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="suur keelemudel: Tohutul tekstihulgal treenitud mudel, mis genereerib inimlaadset teksti">suur keelemudel</span>**
 >
 > Suur keelemudel (inglise keeles *large language model*, LLM) on väga suur, tavaliselt transformeril põhinev keelemudel, mis on treenitud tohutul hulgal tekstiandmetel ja suudab mõista ning genereerida inimesesarnast teksti.
 
@@ -6243,10 +7256,10 @@ Suured keelemudelid valmivad kahes etapis. Esmalt toimub **eeltreenimine** (*pre
 
 Kaks tuntud mudeliperet esindavad erinevaid lähenemisi:
 
-- **GPT** (*Generative Pre-trained Transformer*) on **autoregressiivne** mudel: see ennustab alati järgmist sõna eelnevate põhjal. GPT-mudeleid on aastate jooksul ilmunud mitu versiooni (GPT, GPT-2, GPT-3, GPT-4 jt).
+- **GPT** (*Generative Pre-trained Transformer*) on **autoregressiivne** mudel: see ennustab alati järgmist sõna eelnevate põhjal. GPT-mudeleid on aastate jooksul ilmunud mitu versiooni (GPT, GPT-2, GPT-3, GPT-4 ja uuemad).
 - **BERT** (*Bidirectional Encoder Representations from Transformers*) on **kahesuunaline** mudel. Seda treeniti nii, et lausest peideti ehk maskeeriti mõni sõna ja mudel pidi selle ära arvama, vaadates sõnu nii enne kui ka pärast lünka. Nii õpib BERT konteksti mõistma mõlemas suunas.
 
-Lisaks neile on loodud palju teisi mudeleid, näiteks T5, LaMDA, PaLM ja Claude. Suured keelemudelid suudavad genereerida teksti, vastata küsimustele, teha kokkuvõtteid, tõlkida ja isegi programmikoodi kirjutada. Kõik need oskused on samast põhimõttest välja kasvanud: mudel on õppinud väga hästi ennustama, milline tekst sobib eelneva teksti järele.
+Lisaks neile on loodud palju teisi mudeleid, näiteks Google'i T5, LaMDA, PaLM ja Gemini, Meta Llama ning Anthropicu Claude. Suured keelemudelid suudavad genereerida teksti, vastata küsimustele, teha kokkuvõtteid, tõlkida ja isegi programmikoodi kirjutada. Kõik need oskused on samast põhimõttest välja kasvanud: mudel on õppinud väga hästi ennustama, milline tekst sobib eelneva teksti järele.
 
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
@@ -6255,11 +7268,11 @@ Lisaks neile on loodud palju teisi mudeleid, näiteks T5, LaMDA, PaLM ja Claude.
 
 Keeletöötlust kasutatakse paljudes rakendustes. **Masintõlge** (nt Google Translate, DeepL) võimaldab tõlkida isegi reaalajas. **Vestlusrobotid** aitavad klienditeeninduses, töötavad virtuaalsete assistentidena ja õppevahenditena. **Teksti analüüs** hõlmab meelestatuse analüüsi, teemade modelleerimist ja nimeüksuste tuvastamist. **Teksti genereerimist** kasutatakse sisuloomes, kokkuvõtete tegemisel ja loovkirjutamises. Neid rakendusi uurime lähemalt järgmistes tundides.
 
-### Keeletöötlus eesti keeles ja valdkonna väljakutsed
+### ➕ Keeletöötlus eesti keeles ja valdkonna väljakutsed
 
 Eesti keel on keeletöötluse jaoks paras pähkel. Põhjusi on kolm.
 
-**Väike keeleressursside hulk.** Eesti keelt räägib umbes miljon inimest. Eestikeelset teksti, mille peal mudeleid treenida, on palju vähem kui inglise keeles.
+**Väike keeleressursside hulk.** Eesti keelt räägib umbes miljon inimest. Eestikeelset teksti, mille peal mudeleid treenida, on palju vähem kui inglise keeles: populaarsete keelemudelite treeningandmetest moodustab eesti keel hinnanguliselt vaid umbes 0,1%.
 
 **Keerukas morfoloogia.** Morfoloogia on keeleteaduse osa, mis uurib sõnade vormimist. Eesti keeles on 14 käänet ning ühest sõnast saab moodustada kümneid vorme: „maja, maja, maja, majja, majas, majast, majale, majal, majalt …“ Inglise keeles oleks enamiku nende asemel eessõnaga ühend („in the house“, „from the house“). Seepärast on eesti keele puhul lemmatiseerimine eriti tähtis.
 
@@ -6271,7 +7284,7 @@ Eesti keel on keeletöötluse jaoks paras pähkel. Põhjusi on kolm.
 <!-- class="pae-eesti" -->
 > **Eesti näide: eesti keele tööriistad**
 >
-> Eesti keeleteadlased ja arvutiteadlased on loonud eesti keele töötlemiseks mitu tööriista. **Eesti keele korpused** on suured eestikeelsete tekstide kogud, mille peal mudeleid treenitakse. **EstNLTK** (*Natural Language Toolkit for Estonian*) on tööriistakomplekt eestikeelse teksti analüüsimiseks: see oskab näiteks teksti sõnadeks jagada, sõnu lemmatiseerida ja sõnaliike määrata. **EstBERT** on spetsiaalselt eesti keele jaoks treenitud BERT-mudel. Nende abil on loodud eesti keele õigekirjakontroll, masintõlge, kõnesüntees, kõnetuvastus ja tekstianalüüsi vahendid.
+> Eesti keeleteadlased ja arvutiteadlased on loonud eesti keele töötlemiseks mitu tööriista. **Eesti keele korpused** on suured eestikeelsete tekstide kogud, mille peal mudeleid treenitakse. **EstNLTK** (*Natural Language Toolkit for Estonian*) on tööriistakomplekt eestikeelse teksti analüüsimiseks: see oskab näiteks teksti sõnadeks jagada, sõnu lemmatiseerida ja sõnaliike määrata. **EstBERT** on Tartu Ülikoolis 2020. aastal spetsiaalselt eesti keele jaoks treenitud BERT-mudel. Lisaks on Eestis loodud eesti keele õigekirjakontroll, masintõlge, kõnesüntees ja kõnetuvastus (nendest räägime tunnis 3.4).
 
 Keeletöötlusel on ka üldisi väljakutseid, mis puudutavad kõiki keeli:
 
@@ -6286,6 +7299,24 @@ Tulevikus liigub keeletöötlus mitmes suunas. **Mitmekeelsed mudelid** püüava
 > **Mõtle järele!**
 >
 > Kuidas on keeletöötlus muutnud seda, kuidas sina tehnoloogiaga suhtled? Ja mida saaks teha, et eesti keele tehnoloogia oleks sama hea kui inglise keele oma? Kes peaks selle eest vastutama – riik, ülikoolid, ettevõtted või hoopis keelekasutajad ise?
+
+### 🧪 TI-katse: mitmeks tokeniks lause jaguneb?
+
+Suur keelemudel ei loe teksti sõnade, vaid tokenite kaupa. Uuri tokeniseerija abil, kuidas sama mõttega eesti- ja ingliskeelne lause tükkideks lõigatakse ja miks on eesti keele rohked sõnavormid mudelile keerulisemad.
+
+**Vaja läheb:** veebipõhine tokeniseerija [Tiktokenizer](https://tiktokenizer.vercel.app/) (sisselogimist pole vaja), ~10 min, paaristöö
+
+1. Ava Tiktokenizer, kustuta tekstikastist näidistekst ja kirjuta sinna lause „Õpilased lugesid raamatukogus huvitavaid raamatuid.“ Pane kirja tokenite arv (*Token count*).
+2. Asenda lause sama mõttega ingliskeelse lausega „The students read interesting books in the library.“ ja pane kirja tokenite arv.
+3. Proovi sõna „maja“ eri vorme: „majja“, „majadest“, „majadeski“. Mitu tokenit saab iga vorm? Kas tüvi ja lõpp jäävad eri tükkidesse?
+4. Arutage paarilisega: miks jaguneb eestikeelne tekst rohkemateks tokeniteks kui ingliskeelne ja mida see tähendab keelemudeli jaoks?
+
+**Pane tähele / kirjuta üles:** tokenite arv mõlemas keeles, üks sõna, mis lõigati mitmeks tükiks, ja teie selgitus.
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** jagage lause „Õpilased lugesid raamatukogus huvitavaid raamatuid.“ paberil kriipsudega tükkideks nii, nagu arvate, et mudel teeks (nt tüvi ja lõpp eraldi), ja tehke sama ingliskeelse lausega. Võrrelge tükkide arvu ja arutage, miks eesti keeles tükke rohkem on.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -6303,7 +7334,7 @@ Tulevikus liigub keeletöötlus mitmes suunas. **Mitmekeelsed mudelid** püüava
 | Loomuliku keele töötlus | TI haru, mis tegeleb inimkeele ja arvutite vahelise suhtlusega |
 | Tokeniseerimine | Teksti jagamine väiksemateks ühikuteks (sõnadeks, lauseteks, sõnaosadeks) |
 | Lemmatiseerimine | Sõnade taandamine algvormile ehk lemmale |
-| Sõnaliikide märgendamine | Sõnade grammatilise funktsiooni määramine lauses |
+| Sõnaliikide märgendamine | Igale sõnale sõnaliigi (nt nimisõna, tegusõna) määramine |
 | Sõnahulk | Teksti esitus sõnade esinemissagedustena, sõnade järjekord läheb kaotsi |
 | TF-IDF | Meetod, mis hindab sõna olulisust dokumendis teiste dokumentidega võrreldes |
 | Sõnavektor | Sõna esitus arvuvektorina, kus sarnase tähendusega sõnad on lähestikku |
@@ -6313,10 +7344,19 @@ Tulevikus liigub keeletöötlus mitmes suunas. **Mitmekeelsed mudelid** püüava
 | Suur keelemudel | Tohutul tekstihulgal treenitud keelemudel, mis suudab genereerida inimesesarnast teksti |
 | Eeltreenimine ja peenhäälestamine | Üldine treenimine suurel korpusel ning sellele järgnev täiendav treenimine konkreetse ülesande jaoks |
 
+### 📚 Allikad ja lisalugemine
+
+- ERR (2025). [Ühispöördumine. Vajame eestikeelse tehisaru jaoks ühiskondlikku kokkulepet](https://www.err.ee/1609599689/uhispoordumine-vajame-eestikeelse-tehisaru-jaoks-uhiskondlikku-kokkulepet). Eesti keeleteadlaste pöördumine: kui väike on eesti keele osa keelemudelite treeningandmetes ja mida sellega teha. Sobib lisalugemiseks.
+- ERR News (2024). [Team of researchers to teach Estonian language, culture to language models](https://news.err.ee/1609443533/team-of-researchers-to-teach-estonian-language-culture-to-language-models). Eesti teadlaste projekt, mis õpetab avatud keelemudelitele eesti keelt ja kultuuri (inglise keeles).
+- Vaswani, A. jt (2017). [Attention Is All You Need](https://arxiv.org/abs/1706.03762). Teadusartikkel, milles esitati transformeri arhitektuur (inglise keeles).
+- Jurafsky, D., Martin, J. H. (2026). [Speech and Language Processing, 3. väljaande mustand](https://web.stanford.edu/~jurafsky/slp3/). Tasuta veebiõpik n-grammidest, sõnavektoritest ja transformeritest (inglise keeles, edasijõudnutele).
+- EstNLTK (s. a.). [EstNLTK – eesti keele töötluse tööriistakomplekt](https://github.com/estnltk/estnltk). Avatud lähtekoodiga tööriistad eestikeelse teksti tokeniseerimiseks, morfoloogiliseks analüüsiks ja nimeüksuste tuvastamiseks.
+- Tanvir, H., Kittask, C., Eiche, S., Sirts, K. (2020). [EstBERT: A Pretrained Language-Specific BERT for Estonian](https://arxiv.org/abs/2011.04784). Tartu Ülikooli teadlaste artikkel eesti keele BERT-mudelist (inglise keeles).
+
 ### Tööleht 3.1
 
 <!-- class="pae-jaotis" -->
-**I. Loomuliku keele töötluse põhimõisted**
+**➕ I. Loomuliku keele töötluse põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on loomuliku keele töötlus.
 
@@ -6329,7 +7369,7 @@ Tulevikus liigub keeletöötlus mitmes suunas. **Mitmekeelsed mudelid** püüava
 | **A** | Sõnade taandamine nende algvormile või tüvele |
 | **B** | Teksti jagamine väiksemateks ühikuteks (sõnadeks, lauseteks) |
 | **C** | Sõnade esitamine arvuliste vektoritena, mis peegeldavad nende tähendust |
-| **D** | Sõnade grammatilise funktsiooni määramine lauses |
+| **D** | Igale sõnale sõnaliigi (nt nimisõna, tegusõna) määramine |
 | **E** | Lause grammatilise struktuuri määramine |
 
 - [ (A) (B) (C) (D) (E) ]
@@ -6339,13 +7379,13 @@ Tulevikus liigub keeletöötlus mitmes suunas. **Mitmekeelsed mudelid** püüava
 - [ ( ) ( ) (X) ( ) ( ) ] Sõnavektorid
 - [ ( ) ( ) ( ) ( ) (X) ] Süntaktiline analüüs
 ****************************************
-Tokeniseerimine jagab teksti tokeniteks (B), lemmatiseerimine taandab sõna algvormile (A), sõnaliikide märgendamine määrab sõna grammatilise funktsiooni (D), sõnavektorid esitavad sõnu arvudena (C) ja süntaktiline analüüs määrab lause struktuuri (E).
+Tokeniseerimine jagab teksti tokeniteks (B), lemmatiseerimine taandab sõna algvormile (A), sõnaliikide märgendamine määrab sõnaliigi (D), sõnavektorid esitavad sõnu arvudena (C) ja süntaktiline analüüs määrab lause struktuuri (E).
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Keele esitamine arvutitele**
+**⭐ II. Keele esitamine arvutitele**
 
-**Ülesanne 3.** Kirjelda lühidalt järgmisi teksti esitamise meetodeid.
+**Ülesanne 3.** Kirjelda lühidalt järgmisi teksti esitamise meetodeid. Näita iga meetodi puhul, mida see teeks lausetega „koer hammustas meest“ ja „mees hammustas koera“: kas meetod suudab need laused eristada?
 
 **a) Sõnahulk (bag of words):**
 
@@ -6368,7 +7408,7 @@ Tokeniseerimine jagab teksti tokeniteks (B), lemmatiseerimine taandab sõna algv
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Keelemudelid**
+**➕ III. Keelemudelid**
 
 **Ülesanne 5.** Mis on keelemudelid ja milleks neid kasutatakse?
 
@@ -6401,7 +7441,7 @@ Kirjuta iga rea kohta kirjeldus, näited ning eelised ja puudused.
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Suured keelemudelid**
+**➕ IV. Suured keelemudelid**
 
 **Ülesanne 8.** Mis on suured keelemudelid ja kuidas need erinevad varasematest keelemudelitest?
 
@@ -6413,7 +7453,7 @@ Kirjuta iga rea kohta kirjeldus, näited ning eelised ja puudused.
 |---|---|---|---|
 | GPT (erinevad versioonid) | | | |
 | BERT | | | |
-| LaMDA | | | |
+| Gemini | | | |
 | Claude | | | |
 
 Kirjuta iga mudeli kohta arendaja, peamised omadused ja rakendused.
@@ -6426,7 +7466,7 @@ Kirjuta iga mudeli kohta arendaja, peamised omadused ja rakendused.
 
 [[___ ___]]
 
-**LaMDA:**
+**Gemini:**
 
 [[___ ___]]
 
@@ -6445,7 +7485,7 @@ Kirjuta iga mudeli kohta arendaja, peamised omadused ja rakendused.
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Loomuliku keele töötluse rakendused**
+**➕ V. Loomuliku keele töötluse rakendused**
 
 **Ülesanne 11.** Kirjelda lühidalt järgmisi loomuliku keele töötluse rakendusi.
 
@@ -6474,11 +7514,11 @@ Kirjuta iga mudeli kohta arendaja, peamised omadused ja rakendused.
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Praktiline ülesanne**
+**⭐ VI. Praktiline ülesanne**
 
 **Ülesanne 13.** Vali üks kahest variandist.
 
-**Variant A: keelemudelite testimine.** Testi mõnda avalikult kättesaadavat keelemudelit või vestlusrobotit (nt ChatGPT, Gemini, Claude) ja analüüsi selle võimekusi. Ära sisesta vestlusrobotisse oma isikuandmeid.
+**Variant A: keelemudelite testimine.** Testi kooli lubatud vestlusrobotit (nt TI-Hüppe õpirakendus) ja analüüsi selle võimekusi. Ära sisesta vestlusrobotisse oma isikuandmeid.
 
 **a) Valitud keelemudel(id):**
 
@@ -6511,9 +7551,9 @@ Kirjuta iga mudeli kohta arendaja, peamised omadused ja rakendused.
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Loomuliku keele töötluse väljakutsed**
+**⭐ VII. Loomuliku keele töötluse väljakutsed**
 
-**Ülesanne 14.** Millised on loomuliku keele töötluse peamised väljakutsed? Kirjelda vähemalt nelja.
+**Ülesanne 14.** Too iga väljakutse (mitmetähenduslikkus, maailmateadmised, keelte mitmekesisus, kallutatus) kohta üks oma näitelause või olukord, kus keeletöötlussüsteem võiks eksida, ja selgita, miks ta eksiks.
 
 [[___ ___ ___ ___ ___]]
 
@@ -6522,7 +7562,7 @@ Kirjuta iga mudeli kohta arendaja, peamised omadused ja rakendused.
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Arutelu**
+**➕ VIII. Arutelu**
 
 **Ülesanne 16.** Kuidas on keelemudelid muutnud meie suhtlemist tehnoloogiaga ja milliseid muutusi võib oodata tulevikus?
 
@@ -6619,21 +7659,75 @@ Eesti keelt räägib vaid umbes miljon inimest, seega on eestikeelset teksti, mi
 
 </details>
 
+### 📤 Väljapääsupilet 3.1
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['3.1'] = ["Telefoni klaviatuur pakub pärast sõnu „Palju õnne“ järgmiseks sõnaks „sünnipäevaks“. Millist tunnis õpitud mõistet see näitab ja kuidas see töötab?", "Miks jagunes eestikeelne lause TI-katses rohkemateks tokeniteks kui ingliskeelne?", "Mis jäi tänases tunnis sinu jaoks kõige segasemaks?"];
+setTimeout(function(){var d=window.paePilet.load('3.1');document.querySelectorAll('[data-pilet="3.1"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="3.1" name="nimi" oninput="window.paePilet.save('3.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Telefoni klaviatuur pakub pärast sõnu „Palju õnne“ järgmiseks sõnaks „sünnipäevaks“. Millist tunnis õpitud mõistet see näitab ja kuidas see töötab?</div><textarea data-pilet="3.1" name="q0" oninput="window.paePilet.save('3.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Miks jagunes eestikeelne lause TI-katses rohkemateks tokeniteks kui ingliskeelne?</div><textarea data-pilet="3.1" name="q1" oninput="window.paePilet.save('3.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi tänases tunnis sinu jaoks kõige segasemaks?</div><textarea data-pilet="3.1" name="q2" oninput="window.paePilet.save('3.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('3.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('3.1')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_3.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 3.1
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma tahtsin lausest „Õpilased lugesid huvitavaid raamatuid“ teha sõnad „õpilane“, „lugema“, „huvitav“ ja „raamat“, aga selle sammu nimi läks mul täiesti sassi!“
 
-Lukk avaneb, kui lahendad mõistatuse. Kratt muutis iga sõna tema **algvormiks**. Selle eeltöötluse sammu nimetuse tähed on segamini: **M I R E T A M S E L I N E M I E**. Pane tähed õigesse järjekorda ja kirjuta sõna lahtrisse.
+Lukk avaneb, kui lahendad ülesande. Kooli raamatukogu e-kataloog sai uue otsingu. Kui otsid sõna „hobustega“, leiab kataloog ka raamatud, mille pealkirjas on „Hobune“, „hobuste“ või „hobusest“. Selleks taandab süsteem enne otsingut nii sinu otsisõna kui ka kõigi pealkirjade sõnad nende algvormile. Millist eeltöötluse sammu kataloog kasutab – sama, mida Kratt proovis? Kirjuta sammu nimetus lahtrisse.
 
 [[lemmatiseerimine]]
-[[?]] Vihje: sõna algvormi nimetatakse ka lemmaks.
+[[?]] Vihje 1: Mis on sõnade „hobustega“, „hobuste“ ja „hobusest“ ühine algvorm ja kuidas nimetatakse keeleteaduses sõna algvormi?
+[[?]] Vihje 2: Sõna algvormi nimetatakse lemmaks. Vastuse tähed segamini: **M I R E T A M S E L I N E M I E**.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Kuidas arvuti teksti „loeb“: keeletöötluse põhiülesanded“ ja loe lõik „Mõiste: lemmatiseerimine“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI305") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["lemmatiseerimine", "lemmatiseerimise", "lemmatiseerimist", "lemmatiseerimisega"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Lemmatiseerimine taandab sõnad algvormile ehk lemmale – see on eesti keeles eriti tähtis, sest ühest sõnast võib olla kümneid vorme.
+✅ **Lukk avatud!** Lemmatiseerimine taandab sõnad algvormile ehk lemmale. Tänu sellele leiab otsing sõna kõik vormid – see on eesti keeles eriti tähtis, sest ühest sõnast võib olla kümneid vorme.
 
 🔑 **Sinu võtmetäht: K**
 
@@ -6644,18 +7738,39 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 3.2 Teksti analüüs ja genereerimine
 
 <!-- class="pae-kaas" -->
-![Õpilane istub õhtul kodus kirjutuslaua taga ja vaatab arvutist kõrvaklappide arvustusi, mille tehisintellekt on jaganud positiivseteks, neutraalseteks ja negatiivseteks ning koondanud lühikeseks kokkuvõtteks.](pildid/illustratsioonid/3_2.jpg)
+![Noor istub õhtul hämaras toas kirjutuslaua taga ja vaatab suurt ekraani, kus tooteülevaated on jagatud rõõmsa, neutraalse ja kurva näoga veergudesse ning kõrval on tulpdiagramm ja kokkuvõte. Akna taga paistavad suurlinna tuled.](pildid/illustratsioonid/3_2.jpg)
 
 ### Õpieesmärgid
 
-Selle tunni järel:
+Selle tunni järel sa:
 
-- mõistad teksti analüüsi põhiülesandeid: klassifitseerimist, meelestatuse analüüsi, nimeüksuste tuvastamist, teemade modelleerimist ja kokkuvõtete tegemist;
-- tead, kuidas teksti genereerimise meetodid on arenenud mallidest suurte keelemudeliteni;
-- oskad selgitada, kuidas genereeritud teksti saab juhtida parameetrite ja juhiste abil;
-- oskad analüüsida teksti genereerimisega seotud eetilisi küsimusi ja ohte, näiteks hallutsinatsioone ja kallutatust.
+- **selgitad oma sõnadega** teksti analüüsi põhiülesandeid (nt <span class="pae-term" tabindex="0" data-def="meelestatuse analüüs: Teksti emotsionaalse tooni (positiivne, negatiivne, neutraalne) tuvastamine">meelestatuse analüüs</span>, <span class="pae-term" tabindex="0" data-def="nimeüksuste tuvastamine: Isikute, organisatsioonide, asukohtade, kuupäevade jm leidmine tekstist">nimeüksuste tuvastamine</span>) ja seda, kuidas keelemudel teksti loob *(mõistmine)*;
+- **rakendad** leksikonipõhist meetodit, et määrata lause meelestatus *(rakendamine)*;
+- **võrdled**, kas vestlusrobot tabab sarkasmi paremini kui sõnade väärtusi liitev leksikonipõhine meetod *(analüüs)*;
+- **hindad** teksti genereerimise ohte, nagu <span class="pae-term" tabindex="0" data-def="hallutsinatsioon: Usutav, kuid väljamõeldud või ebatäpne keelemudeli väljund">hallutsinatsioonid</span> ja kallutatus, ning **põhjendad**, millal on TI kasutamine koolitöös aus *(hindamine)*.
 
-### Teksti analüüs ja teksti klassifitseerimine
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Meelestatuse analüüs ja nimeüksuste tuvastamine“, „Kuidas masin teksti loob“, „Väljakutsed, eetika ja eesti keel“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Kas masin tabab sarkasmi?“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded IV, VI ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Meelestatuse analüüs näitab, kas tekst on positiivne, negatiivne või neutraalne. Sarkasmi on masinal väga raske ära tunda. Lause „No küll on vahva, et buss jälle hiljaks jäi!“ on tegelikult negatiivne. Nimeüksuste tuvastamine leiab tekstist inimeste nimed, kohad ja kuupäevad. Suur keelemudel loob teksti sõna haaval. Ta valib iga kord tõenäolise jätku. Vahel mõtleb mudel fakte välja – see on hallutsinatsioon. Seepärast kontrolli fakte ja ära esita TI teksti oma tööna.
+
+**Tähtsad sõnad:** **meelestatuse analüüs** – teksti tooni leidmine: positiivne, negatiivne või neutraalne; **nimeüksus** – nimi tekstis, näiteks inimene, koht või kuupäev; **hallutsinatsioon** – usutav, aga väljamõeldud vastus.
+
+</section>
+
+### ➕ Teksti analüüs ja teksti klassifitseerimine
 
 Iga päev tekib maailmas tohutu hulk teksti: uudised, sotsiaalmeedia postitused, e-kirjad, arvustused, dokumendid. Ükski inimene ei jõua seda kõike läbi lugeda. **Teksti analüüs** aitab suurtest tekstihulkadest automaatselt olulist infot leida ja eraldada.
 
@@ -6670,7 +7785,7 @@ Teksti analüüsi põhiülesanded on:
 | Kokkuvõtete tegemine | Tekstist eraldatakse olulisim ja luuakse lühem versioon | Pika uudise kokkuvõte kolmes lauses |
 
 <!-- class="pae-moiste" -->
-> **Mõiste: teksti klassifitseerimine**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="teksti klassifitseerimine: Teksti liigitamine etteantud kategooriatesse">teksti klassifitseerimine</span>**
 >
 > Teksti klassifitseerimine on teksti liigitamine etteantud kategooriatesse. Mudel saab sisendiks teksti ja annab väljundiks kategooria, näiteks „rämpspost“ või „tavaline kiri“.
 
@@ -6721,7 +7836,7 @@ Meelestatuse analüüsi rakendatakse toodete ja teenuste tagasiside analüüsimi
 
 Võtame lause: „**Tartu Ülikooli** teadlane **Mari Tamm** esines **12. mail** **Tallinnas**.“ Nimeüksuste tuvastaja märgiks siin organisatsiooni, isiku, kuupäeva ja asukoha. Nimeüksuste tuvastamiseks kasutatakse reeglipõhiseid süsteeme, statistilisi mudeleid (nt CRF) ja süvaõppe mudeleid (nt BiLSTM-CRF ja BERT). Rakendused on infootsing, küsimustele vastamine, teadmiste eraldamine tekstist ja dokumentide indekseerimine. Näiteks saab meditsiinidokumentidest automaatselt üles leida haiguste, ravimite ja protseduuride nimetused.
 
-### Teksti kokkuvõtete tegemine
+### ➕ Teksti kokkuvõtete tegemine
 
 Kokkuvõtete tegemine on üks kasulikumaid teksti analüüsi ülesandeid – kujuta ette, et saad saja-leheküljelisest aruandest kätte selle põhisisu ühel lehel. Kokkuvõtteid on kaht tüüpi.
 
@@ -6734,17 +7849,17 @@ Kokkuvõtete tegemine on üks kasulikumaid teksti analüüsi ülesandeid – kuj
 
 ![Kahe kokkuvõtteviisi võrdlus: ekstraktiivne kokkuvõte valib tekstist olulised laused nagu tekstimarker, abstraktiivne kirjutab uue teksti oma sõnadega; mõlema juures on toodud meetodid ja ohud.](pildid/plokk_3/3_2_kokkuvote.svg "Joonis 3.2.2. Ekstraktiivne ja abstraktiivne kokkuvõte")
 
-Kokkuvõtte kvaliteedi hindamiseks kasutatakse automaatseid mõõdikuid, näiteks **ROUGE** ja **BLEU**, mis võrdlevad masina kokkuvõtet inimese kirjutatud kokkuvõttega, ning **inimhinnanguid**. Kokkuvõtteid tehakse uudistest, teadusartiklitest (abstraktid), dokumentidest ja koosolekutest.
+Kokkuvõtte kvaliteedi hindamiseks kasutatakse automaatseid mõõdikuid, näiteks **ROUGE** (ja masintõlke hindamisest tuntud **BLEU**), mis võrdlevad masina kokkuvõtet inimese kirjutatud kokkuvõttega, ning **inimhinnanguid**. Kokkuvõtteid tehakse uudistest, teadusartiklitest (abstraktid), dokumentidest ja koosolekutest.
 
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
 >
-> Kui lased TI-l teha kokkuvõtte romaanist, mida pead kirjandustunniks lugema, siis mis võib sellest kokkuvõttest puudu jääda? Kas abstraktiivne kokkuvõte võib sisaldada midagi, mida raamatus tegelikult ei olnud? Kuidas sa seda kontrolliksid?
+> Kui lased TI-l teha kokkuvõtte romaanist, mida pead kirjandustunniks lugema, siis mis võib sellest kokkuvõttest puudu jääda? Kas <span class="pae-term" tabindex="0" data-def="abstraktiivne kokkuvõte: Kokkuvõte, mille jaoks genereeritakse uus tekst">abstraktiivne kokkuvõte</span> võib sisaldada midagi, mida raamatus tegelikult ei olnud? Kuidas sa seda kontrolliksid?
 
 ### Kuidas masin teksti loob
 
 <!-- class="pae-moiste" -->
-> **Mõiste: teksti genereerimine**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="teksti genereerimine: Uue teksti loomine algoritmiliselt">teksti genereerimine</span>**
 >
 > Teksti genereerimine on uue teksti loomine algoritmiliselt ehk arvutiprogrammi abil.
 
@@ -6752,9 +7867,9 @@ Teksti genereerimise meetodid on läbinud pika arengu:
 
 ![Trepina kujutatud teksti genereerimise areng: mallid, Markovi ahelad, rekurrentsed närvivõrgud (RNN, LSTM) ja transformerid (GPT, T5); iga järgmine aste suudab arvestada pikemat konteksti.](pildid/plokk_3/3_2_genereerimine.svg "Joonis 3.2.3. Teksti genereerimise areng mallidest transformeriteni")
 
-**Mallipõhine genereerimine** on kõige lihtsam: valmis lausepõhjas täidetakse lüngad. Näiteks ilmateade „Homme on [linnas] [temperatuur] kraadi sooja“ täidetakse andmebaasi põhjal. Nii tehakse ka **automaatset raporteerimist**, näiteks spordi- või börsiuudiseid andmete põhjal. **Markovi ahelad** valivad järgmise sõna selle põhjal, millised sõnad on treeningtekstis eelmisele sõnale sageli järgnenud. Tekst on sageli grammatiliselt peaaegu korrektne, kuid sisult segane. **Rekurrentsed närvivõrgud** (RNN, LSTM) loevad teksti järjest ja peavad meeles eelnevat, kuid pikkades tekstides „unustavad“ nad alguse. **Transformerid** (GPT, T5) suudavad hoida konteksti palju pikema teksti ulatuses.
+**Mallipõhine genereerimine** on kõige lihtsam: valmis lausepõhjas täidetakse lüngad. Näiteks ilmateade „Homme on [linnas] [<span class="pae-term" tabindex="0" data-def="temperatuur: Parameeter, mis määrab, kui ennustatav või loov on genereeritud tekst">temperatuur</span>] kraadi sooja“ täidetakse andmebaasi põhjal. Nii tehakse ka **automaatset raporteerimist**, näiteks spordi- või börsiuudiseid andmete põhjal. **Markovi ahelad** valivad järgmise sõna selle põhjal, millised sõnad on treeningtekstis eelmisele sõnale sageli järgnenud. Tekst on sageli grammatiliselt peaaegu korrektne, kuid sisult segane. **Rekurrentsed närvivõrgud** (RNN, LSTM) loevad teksti järjest ja peavad meeles eelnevat, kuid pikkades tekstides „unustavad“ nad alguse. **Transformerid** (GPT, T5) suudavad hoida konteksti palju pikema teksti ulatuses.
 
-Tänapäeva suured keelemudelid, näiteks GPT-mudelid, on **autoregressiivsed**: nad loovad teksti sõna (täpsemalt tokeni) haaval, valides iga kord tõenäolise jätku seni kirjutatule. Mudel on **eeltreenitud** suurtel tekstikorpustel ja seejärel **peenhäälestatud** konkreetseteks ülesanneteks. Teksti genereerimiseks kasutatavate mudelite näited on GPT-3, GPT-4, Claude, LLaMA ja PaLM.
+Tänapäeva suured keelemudelid, näiteks GPT-mudelid, on **autoregressiivsed**: nad loovad teksti sõna (täpsemalt tokeni) haaval, valides iga kord tõenäolise jätku seni kirjutatule. Mudel on **eeltreenitud** suurtel tekstikorpustel ja seejärel **peenhäälestatud** konkreetseteks ülesanneteks. Teksti genereerimiseks kasutatavate mudelite näited on OpenAI GPT-mudelid, Anthropicu Claude, Google'i Gemini ja Meta Llama.
 
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Suur keelemudel ei kirjuta vastust korraga valmis. Ta loob teksti **sõna (täpsemalt tokeni) haaval**, valides iga kord tõenäolise jätku seni kirjutatule.
@@ -6772,7 +7887,7 @@ Suured keelemudelid suudavad järjest sõnu ennustades säilitada konteksti, koh
 >
 > Kui palud keelemudelil kirjutada „lühike tekst Tallinna vanalinnast“, saad turismibrošüüri stiilis teksti. Kui lisad „…kaheksa-aastasele lapsele, muinasjutu vormis“, muutub nii sõnavara kui ka toon. Kui lisad „…ajalooõpiku stiilis, koos aastaarvudega“, püüab mudel kirjutada faktipõhiselt. Viimasel juhul pead aga eriti hoolikalt kontrollima, kas aastaarvud on õiged – keelemudel võib need ka välja mõelda.
 
-### Genereerimise juhtimine: parameetrid ja juhised
+### ➕ Genereerimise juhtimine: parameetrid ja juhised
 
 Genereeritud teksti saab juhtida kahel viisil: tehniliste parameetrite ja kasutaja kirjutatud juhiste abil.
 
@@ -6815,7 +7930,7 @@ Teksti genereerimine on võimas, kuid sellega kaasnevad tõsised ohud.
 >
 > Keelemudeli hallutsinatsioon on väljund, mis tundub usutav ja on esitatud enesekindlalt, kuid sisaldab **väljamõeldud või ebatäpset teavet** – näiteks olematuid fakte, valesid aastaarve või väljamõeldud allikaviiteid.
 
-**Faktilisus.** Hallutsinatsioonid tekivad, sest mudel ennustab tõenäolist teksti, mitte ei kontrolli fakte. Statistiliselt usutav lause ei pruugi olla tõene. Mudel ei pruugi ka viidata oma allikatele. Seepärast tuleb fakte alati kontrollida.
+**Faktilisus.** Hallutsinatsioonid tekivad, sest mudel ennustab tõenäolist teksti, mitte ei kontrolli fakte. Statistiliselt usutav lause ei pruugi olla tõene. Lisaks on mudeleid sageli treenitud ja hinnatud nii, et äraarvamine annab parema tulemuse kui vastus „ma ei tea“. Mudel ei pruugi ka viidata oma allikatele. Seepärast tuleb fakte alati kontrollida.
 
 **Kallutatus.** Mudel õpib treeningandmetest. Kui andmetes on eelarvamusi, kordab ja isegi võimendab mudel neid. Näiteks võib mudel seostada teatud ameteid automaatselt kindla sooga („arst – tema, mees“, „õde – tema, naine“). Kallutatus võib olla ka poliitiline või sotsiaalne.
 
@@ -6835,7 +7950,7 @@ Teksti genereerimine on võimas, kuid sellega kaasnevad tõsised ohud.
 
 **Tulevikusuunad.** Tekstitöötlus liigub **multimodaalsete mudelite** poole, mis ühendavad teksti pildi, heli ja videoga. Arendatakse **personaliseeritud genereerimist**, mis õpib kasutaja stiili ja kohandub kontekstiga. Tähtis suund on **faktilisuse parandamine**: teadmiste lõimimine, allikatele viitamine ja faktide kontrollimine. Samuti püütakse luua **eetilisemaid mudeleid**: vähendada kallutatust, suurendada läbipaistvust ja anda kasutajale rohkem kontrolli.
 
-### 🎬 Video: miks ei saa tehisarust head kirjanikku?
+### ➕ 🎬 Video: miks ei saa tehisarust head kirjanikku?
 
 Kirjanik Kaur Riismaa näitab oma katsetuste põhjal, et tehisaru loob kiiresti veenvat teksti, kuid ka hallutsineerib. Tehisaru koostab olemasoleva põhjal tõenäolisi tekste, mis ei ole tingimata uued ega tõesed. Riismaa sõnul on loomingus olulised inimese enda kogemus, autentsus, katsetamine ja isegi ebaõnnestumine.
 
@@ -6854,14 +7969,32 @@ Kirjanik Kaur Riismaa näitab oma katsetuste põhjal, et tehisaru loob kiiresti 
 
 [[___ ___ ___]]
 
+### 🧪 TI-katse: kas masin tabab sarkasmi?
+
+Võrdled kaht meelestatuse analüüsi viisi: lihtsat leksikonipõhist arvutust ja suurt keelemudelit. Nii näed ise, miks on sarkasm meelestatuse analüüsi suurim väljakutse.
+
+**Vaja läheb:** kooli lubatud vestlusrobot (nt [TI-Hüppe õpirakendus](https://tihupe.ee/opirakendus/)), ~10 min, paaristöö
+
+1. Kirjutage kolm lühikest kommentaari kooli söökla kohta: üks siiralt positiivne, üks negatiivne ja üks sarkastiline (nt „Suurepärane, jälle külm supp!“). Ärge kasutage päris inimeste nimesid.
+2. Arvutage iga kommentaari meelestatus käsitsi tunni leksikoni järgi (suurepärane +3, hea +2, tavaline 0, halb −2, kohutav −3).
+3. Andke kommentaarid vestlusrobotile viibaga „Liigita iga kommentaar positiivseks, negatiivseks või neutraalseks ja põhjenda ühe lausega.“
+4. Võrrelge tulemusi: kumb meetod tabas sarkasmi? Kas vestlusrobot eksis mõne kommentaari puhul?
+
+**Pane tähele / kirjuta üles:** iga kommentaari leksikoniskoor ja vestlusroboti hinnang, kas sarkasm tabati ning miks see nii läks.
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** vahetage paarilisega kommentaarid ja liigitage teineteise kommentaarid ise. Seejärel arvutage leksikoniskoor ja arutage, miks inimene tabab sarkasmi, aga sõnade väärtusi liitev meetod mitte.
+
 ### Kokkuvõte ja põhimõisted
 
 **Pea meeles**
 
-- Teksti analüüs aitab suurtest tekstihulkadest olulist infot eraldada: teksti klassifitseerimine, meelestatuse analüüs, nimeüksuste tuvastamine, teemade modelleerimine ja kokkuvõtete tegemine.
+- Teksti analüüs aitab suurtest tekstihulkadest olulist infot eraldada: teksti klassifitseerimine, meelestatuse analüüs, nimeüksuste tuvastamine, <span class="pae-term" tabindex="0" data-def="teemade modelleerimine: Tekstikogumi peamiste teemade automaatne tuvastamine">teemade modelleerimine</span> ja kokkuvõtete tegemine.
 - Meelestatuse analüüsi suurim väljakutse on sarkasm ja iroonia, sest siis on sõnade otsene tähendus vastupidine.
-- Ekstraktiivne kokkuvõte valib algtekstist olulised laused, abstraktiivne kokkuvõte genereerib uue teksti.
-- Teksti genereerimine on arenenud lihtsatest mallidest Markovi ahelate ja närvivõrkude kaudu suurte keelemudeliteni, mis loovad teksti sõnahaaval tõenäolist jätku ennustades.
+- <span class="pae-term" tabindex="0" data-def="ekstraktiivne kokkuvõte: Kokkuvõte, mis koosneb algtekstist valitud lausetest">Ekstraktiivne kokkuvõte</span> valib algtekstist olulised laused, abstraktiivne kokkuvõte genereerib uue teksti.
+- Teksti genereerimise meetodid ulatuvad lihtsatest mallidest Markovi ahelate ja närvivõrkude kaudu suurte keelemudeliteni, mis loovad teksti sõnahaaval tõenäolist jätku ennustades.
 - Genereerimist saab juhtida parameetritega (nt temperatuur) ja juhistega (ilma näideteta, näidetega, sammhaaval).
 - Genereeritud tekst võib sisaldada hallutsinatsioone ja kallutatust, seepärast tuleb seda alati kriitiliselt kontrollida ja kasutada ausalt.
 
@@ -6879,10 +8012,19 @@ Kirjanik Kaur Riismaa näitab oma katsetuste põhjal, et tehisaru loob kiiresti 
 | Hallutsinatsioon | Usutav, kuid väljamõeldud või ebatäpne keelemudeli väljund |
 | Kallutatus | Ebaõiglased või stereotüüpsed mustrid, mida mudel treeningandmetest üle võtab |
 
+### 📚 Allikad ja lisalugemine
+
+- OpenAI (2025). [Miks keelemudelid hallutsineerivad](https://openai.com/et-EE/index/why-language-models-hallucinate/). Eestikeelne selgitus, miks keelemudelid esitavad enesekindlalt valeväiteid. Sobib lisalugemiseks.
+- Willemson, J. (2026). [Tehisintellekt, haridus ja tõde](https://www.err.ee/1609915982/jan-willemson-tehisintellekt-haridus-ja-tode). ERR-i arvamuslugu sellest, miks on TI väljundit raske kontrollida ja miks on vaja oma teadmisi.
+- TI-Hüpe (s. a.). [Kaur Riismaa: miks ei saa tehisarust head kirjanikku?](https://tihupe.ee/oppematerjal/kaur-riismaa-miks-ei-saa-tehisarust-head-kirjanikku/) Tunnis kasutatud video koos kirjeldusega.
+- OpenAI abikeskus (s. a.). [ChatGPT viiba tehnoloogia parimad tavad](https://help.openai.com/et-ee/articles/10032626-prompt-engineering-best-practices-for-chatgpt). Eestikeelsed soovitused selge viiba kirjutamiseks.
+- TI-Hüpe (s. a.). [TI-Hüppe õpirakendus](https://tihupe.ee/opirakendus/). Eesti õpilastele loodud õpirakenduse tutvustus ja andmekaitse põhimõtted.
+- Jurafsky, D., Martin, J. H. (2026). [Speech and Language Processing, 3. väljaande mustand](https://web.stanford.edu/~jurafsky/slp3/). Tasuta veebiõpik, mille 23. peatükk käsitleb meelestatuse leksikone (inglise keeles, edasijõudnutele).
+
 ### Tööleht 3.2
 
 <!-- class="pae-jaotis" -->
-**I. Teksti analüüsi põhimõisted**
+**➕ I. Teksti analüüsi põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on teksti analüüs ja milleks seda kasutatakse.
 
@@ -6909,7 +8051,7 @@ Meelestatuse analüüs määrab tooni (B), nimeüksuste tuvastamine leiab nimed 
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Teksti analüüsi meetodid**
+**➕ II. Teksti analüüsi meetodid**
 
 **Ülesanne 3.** Kirjelda lühidalt järgmisi teksti analüüsi meetodeid.
 
@@ -6930,7 +8072,7 @@ Meelestatuse analüüs määrab tooni (B), nimeüksuste tuvastamine leiab nimed 
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Teksti genereerimine**
+**➕ III. Teksti genereerimine**
 
 **Ülesanne 5.** Selgita oma sõnadega, mis on teksti genereerimine.
 
@@ -6968,9 +8110,9 @@ Kirjuta iga meetodi kohta kirjeldus ja näited rakendustest.
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Suurte keelemudelite võimekused**
+**⭐ IV. Suurte keelemudelite võimekused**
 
-**Ülesanne 8.** Millised on suurte keelemudelite (nt GPT, BERT) peamised võimekused teksti analüüsimisel ja genereerimisel?
+**Ülesanne 8.** Vali kaks suurte keelemudelite võimekust teksti analüüsimisel või genereerimisel. Too kummagi kohta näide, kuidas saaksid seda õppimisel kasutada, ja nimeta, mida pead sel juhul kontrollima.
 
 [[___ ___ ___ ___]]
 
@@ -7011,7 +8153,7 @@ Kirjuta iga võimekuse kohta, milline see on varasematel mudelitel ja milline su
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Teksti analüüsi ja genereerimise rakendused**
+**➕ V. Teksti analüüsi ja genereerimise rakendused**
 
 **Ülesanne 11.** Kirjelda lühidalt järgmisi teksti analüüsi ja genereerimise rakendusi.
 
@@ -7040,7 +8182,7 @@ Kirjuta iga võimekuse kohta, milline see on varasematel mudelitel ja milline su
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Praktiline ülesanne**
+**⭐ VI. Praktiline ülesanne**
 
 **Ülesanne 13.** Vali üks kahest variandist.
 
@@ -7064,7 +8206,7 @@ Kirjuta iga võimekuse kohta, milline see on varasematel mudelitel ja milline su
 
 [[___ ___ ___]]
 
-**Variant B: teksti genereerimine.** Kasuta mõnda kättesaadavat keelemudelit ja genereeri tekst ühel järgmistest teemadest:
+**Variant B: teksti genereerimine.** Kasuta kooli lubatud vestlusrobotit (nt TI-Hüppe õpirakendus) ja genereeri tekst ühel järgmistest teemadest. Ära sisesta isikuandmeid.
 
 - uudis tehisintellekti uuest rakendusest Eestis;
 - lühike õpetlik lugu tehisintellekti kasutamisest igapäevaelus;
@@ -7075,9 +8217,9 @@ Vali üks genereeritud tekst ja analüüsi seda: kas tekst on sisukas ja loogili
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Eetilised aspektid**
+**⭐ VII. Eetilised aspektid**
 
-**Ülesanne 14.** Millised eetilised küsimused kaasnevad automaatse teksti analüüsi ja genereerimisega?
+**Ülesanne 14.** Kooli ajaleht tahab lasta TI-l kirjutada iga nädal spordiuudise ja analüüsida õpilaste anonüümseid kommentaare. Milliseid eetilisi küsimusi see tekitab? Nimeta vähemalt kolm ja seosta need tunni mõistetega (nt hallutsinatsioon, kallutatus, autoriõigus, privaatsus).
 
 [[___ ___ ___ ___]]
 
@@ -7086,7 +8228,7 @@ Vali üks genereeritud tekst ja analüüsi seda: kas tekst on sisukas ja loogili
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Arutelu**
+**➕ VIII. Arutelu**
 
 **Ülesanne 16.** Kuidas võivad automaatne teksti analüüs ja genereerimine muuta meie suhet kirjutatud tekstiga?
 
@@ -7139,7 +8281,7 @@ Kokkuvõte, mille puhul valitakse algtekstist olulisimad laused, on [[ (ekstrakt
 Ekstraktiivne kokkuvõte on nagu tekstimarkeriga olulise allajoonimine, abstraktiivne nagu kokkuvõtte kirjutamine oma sõnadega. Uut teksti genereerides võib mudel lisada midagi, mida algtekstis ei olnud.
 ****************************************
 
-**5. Pane teksti genereerimise meetodid nende tekkimise järjekorda (vanimast uusimani).**
+**5. Pane teksti genereerimise meetodid järjekorda lihtsaimast kõige võimekamani (mida suudab arvestada üha pikemat konteksti).**
 
 <!-- data-show-partial-solution -->
 Rekurrentsed närvivõrgud (RNN, LSTM): [[ 1 | 2 | (3) | 4 ]]<br>
@@ -7178,20 +8320,72 @@ Sarkasm pöörab sõnade otsese tähenduse vastupidiseks: lauses võivad olla po
 
 </details>
 
+### 📤 Väljapääsupilet 3.2
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['3.2'] = ["E-poe tagasisides on kirjas „Imeline, juba kolmas kord sel kuul tuleb pakk katki!“ Kuidas hindaks seda leksikonipõhine meetod ja kuidas inimene? Miks?", "Kas vestlusrobot tabas TI-katses sarkasmi? Mida see sinu arvates näitab?", "Millal on TI kasutamine koolitöös sinu arvates aus abivahend ja millal mitte?"];
+setTimeout(function(){var d=window.paePilet.load('3.2');document.querySelectorAll('[data-pilet="3.2"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="3.2" name="nimi" oninput="window.paePilet.save('3.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. E-poe tagasisides on kirjas „Imeline, juba kolmas kord sel kuul tuleb pakk katki!“ Kuidas hindaks seda leksikonipõhine meetod ja kuidas inimene? Miks?</div><textarea data-pilet="3.2" name="q0" oninput="window.paePilet.save('3.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Kas vestlusrobot tabas TI-katses sarkasmi? Mida see sinu arvates näitab?</div><textarea data-pilet="3.2" name="q1" oninput="window.paePilet.save('3.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millal on TI kasutamine koolitöös sinu arvates aus abivahend ja millal mitte?</div><textarea data-pilet="3.2" name="q2" oninput="window.paePilet.save('3.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('3.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('3.2')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_3.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 3.2
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Kirjutasin teile referaadi jaoks väga ilusa fakti: Eesti esimene vestlusrobot ehitati 1873. aastal Tartus aurumasinast! Kõlab ju usutavalt? Või ... kas ma just mõtlesin selle välja?“
 
-Lukk avaneb, kui lahendad mõistatuse. Loe Krati mõistatust ja kirjuta vastuseks üks mõiste.
-
-*„Mind ei looda pahatahtlikult. Keelemudel ennustab lihtsalt tõenäolist jätku ja nii ma sünningi. Kõlan ladusalt ja enesekindlalt, võin sisaldada täpseid arve ja allikaviiteid, aga minu fakte pole tegelikult olemas. Kes ma olen?“*
+Lukk avaneb, kui lahendad ülesande. Spordiportaal lasi keelemudelil kirjutada eilse korvpallimängu kokkuvõtte. Tekst oli ladus ja enesekindel ning sisaldas treeneri tsitaati ja täpset pealtvaatajate arvu. Hiljem selgus, et treener ei andnud pärast mängu ühtegi intervjuud ja pealtvaatajate arvu polnud kusagil avaldatud – mudel oli need ise loonud, sest need sobisid teksti. Kuidas nimetatakse sellist keelemudeli väljundit? Kirjuta vastuseks üks mõiste.
 
 [[hallutsinatsioon]]
-[[?]] Vihje: sama sõna kasutatakse ka siis, kui inimene näeb või kuuleb asju, mida tegelikult pole.
+[[?]] Vihje 1: Kas mudel valetas meelega? Mõtle, mis juhtub, kui mudel ennustab tõenäolist teksti, kuid ei kontrolli fakte.
+[[?]] Vihje 2: Sama sõna kasutatakse ka siis, kui inimene näeb või kuuleb asju, mida tegelikult pole. Sõna algab tähega **H** ja selles on 16 tähte.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Väljakutsed, eetika ja eesti keel“ ja loe lõik „Mõiste: hallutsinatsioon“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI490") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["hallutsinatsioon", "hallutsinatsiooni", "hallutsinatsioonid", "halutsinatsioon", "hallutsineerimine", "tehisaru hallutsinatsioon"].includes(v)
+}
 </script>
 ****************************************
 ✅ **Lukk avatud!** Hallutsinatsioon on usutav, kuid väljamõeldud väljund – seepärast tuleb genereeritud teksti fakte alati kontrollida.
@@ -7205,19 +8399,39 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 3.3 Vestlusagendid ja vestlusrobotid
 
 <!-- class="pae-kaas" -->
-![Vanaema küsib köögilaua taga tahvelarvutis vestlusrobotilt, mida teha aeguva ID-kaardiga, ja lapselaps kontrollib roboti vastust oma telefonis ametlikust allikast.](pildid/illustratsioonid/3_3.jpg)
+![Vanaema ja teismeline lapselaps istuvad valges köögis laua taga. Vanaema vaatab tahvelarvutit, lapselaps näitab talle midagi oma telefonis; laual on teekann, tassid ja puuviljad.](pildid/illustratsioonid/3_3.jpg)
 
 ### Õpieesmärgid
 
-Selle tunni järel:
+Selle tunni järel sa:
 
-- mõistad, mis on vestlusagent ja vestlusrobot ning kuidas need on ajas arenenud;
-- tunned vestlusrobotite põhitüüpe ja oskad võrrelda nende eeliseid ja puudusi;
-- oskad selgitada vestlusroboti ülesehitust: keele mõistmine, dialoogi haldamine ja vastuse genereerimine;
-- tunned vestlusrobotite rakendusi, sealhulgas Eesti riigi virtuaalassistenti Bürokratt;
-- oskad vestlusroboti vastuseid kriitiliselt kontrollida ja kasutada vestlusrobotit vastutustundlikult.
+- **selgitad oma sõnadega** vestlusroboti ülesehitust: keele mõistmine, dialoogi haldamine ja vastuse genereerimine *(mõistmine)*;
+- **liigitad** vestlusroboteid tüübi järgi (reeglipõhine või generatiivne) nende käitumise põhjal *(rakendamine)*;
+- **katsetad** reeglipõhist vestlusrobotit ELIZA, **avastad** selle reegleid ja **võrdled** seda tänapäeva generatiivse vestlusrobotiga *(analüüs)*;
+- **kontrollid** vestlusroboti vastuseid usaldusväärsetest allikatest ja **hindad**, kas vastus on õige *(hindamine)*.
 
-### Mis on vestlusagent ja vestlusrobot?
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Vestlusrobotite tüübid“, „Kuidas vestlusrobot töötab“, „Kuidas vestlusroboti vastuseid kriitiliselt kontrollida“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Vestle ELIZAga“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded II, III ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Vestlusrobot on programm, mis suhtleb sinuga tavalises keeles. Reeglipõhine robot vastab ette kirjutatud valmis vastustega. Generatiivne robot loob iga vastuse ise, aga võib eksida. Kõigepealt püüab robot aru saada, mida sa tahad. Seejärel jälgib ta vestlust, otsib infot ja koostab vastuse. Robot kirjutab ladusalt ja enesekindlalt ka siis, kui vastus on vale. Seepärast kontrolli fakte, numbreid ja allikaid usaldusväärsetest allikatest. Ära kirjuta vestlusrobotisse oma isikuandmeid ega paroole, sest vestlused võidakse salvestada.
+
+**Tähtsad sõnad:** **vestlusrobot** – programm, mis vestleb inimesega tavalises keeles; **kavatsuse tuvastamine** – roboti oskus aru saada, mida kasutaja tahab; **faktikontroll** – väite kontrollimine usaldusväärsest allikast.
+
+</section>
+
+### ➕ Mis on vestlusagent ja vestlusrobot?
 
 Kui oled kirjutanud e-poe veebilehel nurgas avanevasse aknasse „Kus mu pakk on?“ või küsinud häälassistendilt ilmateadet, oled suhelnud vestlusagendiga.
 
@@ -7230,11 +8444,11 @@ Selles õpikus kasutame sagedamini sõna **vestlusrobot**. Pea meeles, et „rob
 
 Vestlusrobotite areng on läbinud samad etapid nagu keeletöötlus üldiselt: **lihtsad reeglipõhised süsteemid → statistilised mudelid → tehisintellektil põhinevad süsteemid**.
 
-### Vestlusrobotite ajalugu
+### ➕ Vestlusrobotite ajalugu
 
 ![Vestlusrobotite ajajoon: ELIZA (1966) matkis psühhoterapeuti, PARRY (1972) paranoilist patsienti, A.L.I.C.E. (1995) arendas mustreid edasi, SmarterChild (2001) töötas AOL-is ja MSN Messengeris, Siri (2011) oli esimene laialdaselt levinud virtuaalne assistent ning 2014. aastast alates tulid Alexa, Google Assistant, ChatGPT jt.](pildid/plokk_3/3_3_ajalugu.svg "Joonis 3.3.1. Vestlusrobotite ajajoon ELIZA-st tänapäevani")
 
-**ELIZA** lõi Joseph Weizenbaum 1966. aastal. Seda peetakse esimeseks vestlusagendiks. ELIZA töötas väga lihtsalt: ta otsis kasutaja lausest kindlaid mustreid ja märksõnu ning vastas eelnevalt kirjutatud lausepõhjaga. Kui kasutaja kirjutas „Ma olen kurb“, võis ELIZA vastata „Miks sa arvad, et oled kurb?“. ELIZA matkis psühhoterapeuti, kes peegeldab inimese enda sõnu tagasi. Ehkki ELIZA ei mõistnud midagi, hakkasid mõned kasutajad temaga suhtlema nagu päris inimesega.
+**ELIZA** avaldas Joseph Weizenbaum 1966. aastal. Seda peetakse esimeseks vestlusagendiks. ELIZA töötas väga lihtsalt: ta otsis kasutaja lausest kindlaid mustreid ja märksõnu ning vastas eelnevalt kirjutatud lausepõhjaga. Kui kasutaja kirjutas „Ma olen kurb“, võis ELIZA vastata „Miks sa arvad, et oled kurb?“. ELIZA matkis psühhoterapeuti, kes peegeldab inimese enda sõnu tagasi. Ehkki ELIZA ei mõistnud midagi, hakkasid mõned kasutajad temaga suhtlema nagu päris inimesega.
 
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** **ELIZA** valmis juba **1966. aastal** ja seda peetakse esimeseks vestlusagendiks. Ta otsis lausest ainult märksõnu ja vastas valmis lausepõhjaga – ometi uskusid mõned kasutajad, et räägivad päris inimesega.
@@ -7242,9 +8456,9 @@ Vestlusrobotite areng on läbinud samad etapid nagu keeletöötlus üldiselt: **
 <!-- class="pae-lisaks" -->
 > **Tea lisaks**
 >
-> Nähtust, kus inimesed omistavad lihtsale arvutiprogrammile mõistmist ja tundeid, nimetatakse ELIZA järgi **ELIZA-efektiks**. See on aktuaalne ka tänapäeval: mida inimlikumalt vestlusrobot kirjutab, seda kergemini hakkame uskuma, et ta tõesti mõistab meid ja teab, millest räägib.
+> Nähtust, kus inimesed omistavad lihtsale arvutiprogrammile mõistmist ja tundeid, nimetatakse ELIZA järgi **<span class="pae-term" tabindex="0" data-def="ELIZA-efekt: Inimeste kalduvus omistada vestlusprogrammile mõistmist ja tundeid">ELIZA-efektiks</span>**. See on aktuaalne ka tänapäeval: mida inimlikumalt vestlusrobot kirjutab, seda kergemini hakkame uskuma, et ta tõesti mõistab meid ja teab, millest räägib.
 
-**PARRY** (1972) matkis paranoilist patsienti ja **A.L.I.C.E.** (1995) arendas mustripõhist lähenemist edasi. 2000. aastate alguses sai noorte seas populaarseks **SmarterChild**, kellega sai suhelda AOL-i ja MSN Messengeri vestlusprogrammides. 2011. aastal tõi Apple välja **Siri** – esimese laialdaselt levinud virtuaalse assistendi, kellega sai telefonis rääkida. Sellele järgnesid **Alexa**, **Google Assistant** ja hiljem suurtel keelemudelitel põhinevad vestlusrobotid, näiteks **ChatGPT**.
+**PARRY** (1972) matkis paranoilist patsienti ja **A.L.I.C.E.** (1995) arendas mustripõhist lähenemist edasi. 2000. aastate alguses sai noorte seas populaarseks **SmarterChild**, kellega sai alates 2001. aastast suhelda AOL Instant Messengeris ning hiljem ka Yahoo! ja MSN Messengeri vestlusprogrammides. 2011. aastal tõi Apple välja **Siri** – esimese laialdaselt levinud virtuaalse assistendi, kellega sai telefonis rääkida. Sellele järgnesid **Alexa**, **Google Assistant** ja hiljem suurtel keelemudelitel põhinevad vestlusrobotid, näiteks **ChatGPT**.
 
 ### Vestlusrobotite tüübid
 
@@ -7270,7 +8484,7 @@ Vestlusroboteid saab jagada nelja põhitüüpi selle järgi, kuidas nad vastuse 
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
 >
-> Kujuta ette, et sinu kool tahab luua vestlusroboti, mis vastab küsimustele tunniplaani, söökla menüü ja vastuvõtu kohta. Milline vestlusroboti tüüp sobiks sellele kõige paremini? Miks võib generatiivne vestlusrobot siin isegi ohtlik olla?
+> Kujuta ette, et sinu kool tahab luua vestlusroboti, mis vastab küsimustele tunniplaani, söökla menüü ja vastuvõtu kohta. Milline vestlusroboti tüüp sobiks sellele kõige paremini? Miks võib <span class="pae-term" tabindex="0" data-def="generatiivne vestlusrobot: Vestlusrobot, mis loob vastuse jooksvalt keelemudeli abil">generatiivne vestlusrobot</span> siin isegi ohtlik olla?
 
 ### Kuidas vestlusrobot töötab
 
@@ -7279,19 +8493,19 @@ Vestlusroboti tööd saab jagada kolmeks põhiosaks.
 ![Vestlusroboti töö kolm osa näite „Kas Tartu raamatukogu on laupäeval lahti?“ põhjal: keele mõistmine (NLU) tuvastab kavatsuse ja üksused, dialoogi haldamine jälgib konteksti ja kasutab teadmusbaasi, vastuse loomine (NLG) koostab vastuse „Jah, laupäeval on raamatukogu avatud kella 10–16.“](pildid/plokk_3/3_3_ulesehitus.svg "Joonis 3.3.3. Kuidas vestlusrobot töötab: NLU, dialoogi haldamine ja NLG")
 
 <!-- class="pae-moiste" -->
-> **Mõiste: kavatsuse tuvastamine**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="kavatsuse tuvastamine: Kasutaja soovi ehk kavatsuse äratundmine">kavatsuse tuvastamine</span>**
 >
 > Kavatsuse tuvastamine (inglise keeles *intent recognition*) on vestlusroboti võime aru saada, **mida kasutaja tahab**. Laused „Mis kell te kinni panete?“, „Kaua te lahti olete?“ ja „Kas saan õhtul tulla?“ on erineva sõnastusega, kuid nende kavatsus on sama: küsida lahtiolekuaega.
 
 **1. Sisendi töötlemine ehk loomuliku keele mõistmine** (inglise keeles *natural language understanding*, NLU). Robot tuvastab kasutaja kavatsuse ja eraldab tekstist olulised **üksused** (*entity extraction*) – näiteks koha, kuupäeva või tootenime.
 
-**2. Dialoogi haldamine.** Dialoogihaldur jälgib vestluse olekut (*state tracking*): mida on juba küsitud ja mis on veel teadmata. Ta säilitab konteksti – kui küsid kõigepealt „Kas raamatukogu on laupäeval lahti?“ ja siis „Aga pühapäeval?“, peab robot mõistma, et küsid endiselt raamatukogu kohta. Dialoogihaldur valib ka dialoogistrateegia: kas vastata, küsida täpsustust või suunata inimese juurde. Vajaliku info leiab robot **teadmusbaasist** – andmekogust, kus on faktid, korduma kippuvate küsimuste vastused ja viited lisainfole.
+**2. Dialoogi haldamine.** <span class="pae-term" tabindex="0" data-def="dialoogihaldur: Vestlusroboti osa, mis jälgib vestluse olekut ja otsustab järgmise sammu">Dialoogihaldur</span> jälgib vestluse olekut (*state tracking*): mida on juba küsitud ja mis on veel teadmata. Ta säilitab konteksti – kui küsid kõigepealt „Kas raamatukogu on laupäeval lahti?“ ja siis „Aga pühapäeval?“, peab robot mõistma, et küsid endiselt raamatukogu kohta. Dialoogihaldur valib ka dialoogistrateegia: kas vastata, küsida täpsustust või suunata inimese juurde. Vajaliku info leiab robot **<span class="pae-term" tabindex="0" data-def="teadmusbaas: Andmekogu, kust vestlusrobot leiab fakte ja vastuseid">teadmusbaasist</span>** – andmekogust, kus on faktid, korduma kippuvate küsimuste vastused ja viited lisainfole.
 
 **3. Vastuse genereerimine ehk loomuliku keele genereerimine** (inglise keeles *natural language generation*, NLG). Vastus luuakse kas valmis malli abil („Jah, [asutus] on [päeval] avatud kella [algus]–[lõpp].“) või keelemudeli abil.
 
 **Suured keelemudelid vestlusrobotitena.** ChatGPT, Claude, Gemini (varasema nimega Bard) ja teised sarnased vestlusrobotid põhinevad suurtel keelemudelitel. Need on eeltreenitud suurtel tekstikorpustel ja seejärel peenhäälestatud vestlemiseks. Nende tugevused on konteksti mõistmine, pikkade vestluste pidamine, väga mitmekesised teemad ning kohandatav toon ja isikupära. Piirangud on **hallutsinatsioonid** (väljamõeldud faktid), **piiratud kontekstimälu** (väga pika vestluse alguses öeldu võib „ununeda“) ja eetilised küsimused. Selliseid vestlusroboteid arendatakse pidevalt ja uusi versioone ilmub sageli, seega ei ole mõtet õppida pähe, milline neist on parasjagu kõige võimekam – palju olulisem on osata nende vastuseid hinnata.
 
-### Rakendused, disain ja hindamine
+### ➕ Rakendused, disain ja hindamine
 
 Vestlusroboteid kasutatakse paljudes valdkondades:
 
@@ -7304,7 +8518,7 @@ Vestlusroboteid kasutatakse paljudes valdkondades:
 <!-- class="pae-eesti" -->
 > **Eesti näide: Bürokratt**
 >
-> **Bürokratt** on Eesti riigi virtuaalassistentide võrgustik. Selle eesmärk on, et inimene saaks avalikke teenuseid ja infot kasutada **kõnekeelse suhtluse** kaudu – lihtsalt küsides, ilma et peaks teadma, milline ametiasutus mille eest vastutab. Bürokratt valiti 2022. aastal parimaks tehisintellektil põhinevaks riigiteenuseks ja see jõudis UNESCO maailma saja parima tehisintellekti lahenduse hulka. Lisainfo: [Riigi Infosüsteemi Amet – Bürokratt](https://www.ria.ee/riigi-infosusteem/personaalriik/burokratt).
+> **Bürokratt** on Eesti riigi virtuaalassistentide võrgustik. Selle eesmärk on, et inimene saaks avalikke teenuseid ja infot kasutada **kõnekeelse suhtluse** kaudu – lihtsalt küsides, ilma et peaks teadma, milline ametiasutus mille eest vastutab. Kui robot jääb hätta, suunab ta vestluse klienditeenindajale. 2022. aastal valis UNESCO egiidi all tegutsev rahvusvaheline tehisintellekti uurimiskeskus IRCAI Bürokrati maailma saja tehisintellekti lahenduse hulka. Lisainfo: [Riigi Infosüsteemi Amet – Bürokratt](https://www.ria.ee/riigi-infosusteem/personaalriik/burokratt).
 
 <!-- class="pae-eesti" -->
 > **Eesti näide: Lingvist**
@@ -7315,7 +8529,7 @@ Vestlusroboteid kasutatakse paljudes valdkondades:
 
 **Hea vestlusroboti disain.** Hästi kujundatud vestlusrobotil on selge **vestlusvoog** ehk vestluse struktuur ja suund, kasutajasõbralik suhtlus ning oskus **vigadest taastuda** (nt „Vabandust, ma ei saanud aru. Kas mõtlesid …?“). Arendajad loovad robotile **isikupära**: tooni ja stiili, väärtused ja järjepidevuse. Robot võib olla **multimodaalne** – suhelda teksti, hääle, piltide ning avataride puhul ka žestide ja näoilmetega. Samuti saab arvestada kasutaja konteksti: eelistusi, varasemaid vestlusi ja olukorda.
 
-**Vestlusroboti hindamine.** Vestlusroboti kvaliteedi hindamiseks kasutatakse **objektiivseid mõõdikuid** (kui suure osa ülesannetest robot täitis, kui pikk oli vestlus, kui rahul olid kasutajad) ja **subjektiivseid hinnanguid** (kas vestlus oli loomulik, vastused asjakohased ja robot mugav kasutada). Klassikaline mõõdupuu on **Turingi test**: kas vestlusrobotit saab inimesest eristada? Raskus on selles, et ühtseid standardseid hindamismeetodeid ei ole, kontekst on väga oluline ja kultuurid erinevad.
+**Vestlusroboti hindamine.** Vestlusroboti kvaliteedi hindamiseks kasutatakse **objektiivseid mõõdikuid** (kui suure osa ülesannetest robot täitis, kui pikk oli vestlus, kui rahul olid kasutajad) ja **subjektiivseid hinnanguid** (kas vestlus oli loomulik, vastused asjakohased ja robot mugav kasutada). Klassikaline mõõdupuu on **<span class="pae-term" tabindex="0" data-def="Turingi test: Alan Turingi pakutud katse: kas inimene suudab vestluse põhjal eristada masinat inimesest">Turingi test</span>**: kas vestlusrobotit saab inimesest eristada? Raskus on selles, et ühtseid standardseid hindamismeetodeid ei ole, kontekst on väga oluline ja kultuurid erinevad.
 
 **Vestlusrobotite väljakutsed** on konteksti mõistmine (pikaajaline mälu, mitmetähenduslikkus, viited varasematele vestlustele), loomulikkus (inimlikud vastused, emotsioonide, huumori ja sarkasmi mõistmine), faktilisus (täpsed vastused, hallutsinatsioonide vältimine, teadmiste ajakohasus) ja eetilised küsimused (privaatsus, kallutatus ja manipuleerimine).
 
@@ -7326,7 +8540,7 @@ Vestlusroboteid kasutatakse paljudes valdkondades:
 Vestlusrobot kirjutab ladusalt ja enesekindlalt – ka siis, kui ta eksib. Meenuta, mida õppisid tunnis 3.2: keelemudel ennustab **tõenäolist** teksti, mitte ei kontrolli, kas see on **tõene**. Seepärast on vestlusroboti vastus hea **algus**, mitte lõplik tõde.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: faktikontroll**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="faktikontroll: Väite tõesuse kontrollimine usaldusväärsetest ja sõltumatutest allikatest">faktikontroll</span>**
 >
 > Faktikontroll on väite tõesuse kontrollimine usaldusväärsetest ja sõltumatutest allikatest. Vestlusroboti puhul tähendab see, et kontrollid olulised väited, numbrid, nimed ja viited üle, enne kui neid kasutad või edasi jagad.
 
@@ -7368,6 +8582,25 @@ Kasulik võte on esitada sama küsimus **teise sõnastusega** või küsida mudel
 >
 > Meenuta olukorda, kus vestlusrobot või otsingumootor andis sulle vale või ebatäpse vastuse. Kuidas sa seda märkasid? Ja vastupidi: kas mõni kord võib olla jäänud vale vastus sul märkamata? Mida teeksid edaspidi teisiti?
 
+### 🧪 TI-katse: vestle ELIZAga
+
+ELIZA (1966) on <span class="pae-term" tabindex="0" data-def="reeglipõhine vestlusrobot: Vestlusrobot, mis vastab eelnevalt kirjutatud reeglite ja mustrite järgi">reeglipõhine vestlusrobot</span>: ta otsib lausest märksõnu ja vastab valmis lausepõhjaga. Proovi ise, kuidas see töötab ja millal „mõistmise“ illusioon puruneb.
+
+**Vaja läheb:** ELIZA veebiversioon [mass:werk ELIZA](https://www.masswerk.at/elizabot/eliza.html) (inglise keeles, sisselogimist pole vaja), ~10 min, paaristöö
+
+1. Ava leht ja vajuta lingile *open ELIZA terminal*.
+2. Kirjuta ELIZA-le inglise keeles 3–4 lauset koolist või tunnetest (nt „I am tired of homework.“). Ära kirjuta enda ega teiste isikuandmeid.
+3. Otsi mustrit: milliseid sinu sõnu ELIZA vastuses kordab? Muuda sama lauset veidi ja vaata, kas vastus muutub.
+4. Esita küsimus, mis nõuab teadmisi maailmast (nt „What is the capital of Estonia?“), ja vaata, mis juhtub.
+5. Arutage paarilisega: mis tüüpi vestlusrobot on ELIZA ja mille poolest erineb sellest tänapäeva generatiivne vestlusrobot?
+
+**Pane tähele / kirjuta üles:** üks ELIZA reegel, mille avastasite (märksõna → vastus), üks olukord, kus vastus ei sobinud, ja kas tekkis ELIZA-efekt.
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** üks paariline on „ELIZA“ ja tohib vastata ainult kolme reegli järgi (nt kui lauses on „ma olen …“, küsi „Miks sa oled …?“, muul juhul ütle „Räägi sellest veel.“). Teine vestleb temaga ja püüab reeglid ära arvata.
+
 ### Kokkuvõte ja põhimõisted
 
 **Pea meeles**
@@ -7392,10 +8625,19 @@ Kasulik võte on esitada sama küsimus **teise sõnastusega** või küsida mudel
 | ELIZA-efekt | Inimeste kalduvus omistada vestlusprogrammile mõistmist ja tundeid |
 | Faktikontroll | Väite tõesuse kontrollimine usaldusväärsetest sõltumatutest allikatest |
 
+### 📚 Allikad ja lisalugemine
+
+- Weizenbaum, J. (1966). [ELIZA – A Computer Program For the Study of Natural Language Communication Between Man and Machine](https://courses.cs.umbc.edu/331/papers/eliza.html). ELIZA looja algne artikkel märksõnade ja vastusereeglite kohta (inglise keeles).
+- mass:werk (s. a.). [ELIZA veebiversioon](https://www.masswerk.at/elizabot/eliza.html). Brauseris töötav ELIZA, millega saab ise vestelda (inglise keeles).
+- Computer History Museum (s. a.). [SmarterChild: A Chatbot Buddy from 2001](https://computerhistory.org/blog/smarterchild-a-chatbot-buddy-from-2001/). Lugu 2000. aastate alguse populaarsest vestlusrobotist (inglise keeles).
+- Riigi Infosüsteemi Amet (s. a.). [Bürokratt](https://www.ria.ee/riigi-infosusteem/personaalriik/burokratt). Eesti riigi virtuaalassistendi tutvustus.
+- IRCAI (2022). [Bürokratt – IRCAI Global Top 100](https://ircai.org/top100/entry/burokratt/). UNESCO egiidi all tegutseva uurimiskeskuse 2022. aasta tehisintellekti lahenduste nimekiri (inglise keeles).
+- Willemson, J. (2026). [Tehisintellekt, haridus ja tõde](https://www.err.ee/1609915982/jan-willemson-tehisintellekt-haridus-ja-tode). ERR-i arvamuslugu sellest, miks tuleb vestlusroboti vastuseid sõltumatutest allikatest kontrollida. Sobib lisalugemiseks.
+
 ### Tööleht 3.3
 
 <!-- class="pae-jaotis" -->
-**I. Vestlusrobotite põhimõisted**
+**➕ I. Vestlusrobotite põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on vestlusagent või vestlusrobot.
 
@@ -7422,9 +8664,9 @@ Dialoogisüsteem on loomulikus keeles suhtlev süsteem (B), kavatsuse tuvastamin
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Vestlusrobotite tüübid**
+**⭐ II. Vestlusrobotite tüübid**
 
-**Ülesanne 3.** Kirjelda lühidalt järgmisi vestlusrobotite tüüpe.
+**Ülesanne 3.** Kirjelda lühidalt järgmisi vestlusrobotite tüüpe ja too iga tüübi kohta üks näide veebilehelt, rakendusest või teenusest, mida oled ise kasutanud või näinud.
 
 **a) Reeglipõhised vestlusrobotid:**
 
@@ -7470,7 +8712,7 @@ Kirjuta iga tüübi kohta eelised, puudused ja sobiv kasutusolukord.
 [[___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Vestlusrobotite ülesehitus**
+**⭐ III. Vestlusrobotite ülesehitus**
 
 **Ülesanne 5.** Kirjelda vestlusroboti põhilisi komponente.
 
@@ -7499,7 +8741,7 @@ Kirjuta iga tüübi kohta eelised, puudused ja sobiv kasutusolukord.
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Vestlusrobotite arendamine**
+**➕ IV. Vestlusrobotite arendamine**
 
 **Ülesanne 8.** Kirjelda vestlusroboti arendamise põhietappe.
 
@@ -7514,7 +8756,7 @@ Kirjuta iga tüübi kohta eelised, puudused ja sobiv kasutusolukord.
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Vestlusrobotite rakendused**
+**➕ V. Vestlusrobotite rakendused**
 
 **Ülesanne 11.** Täida tabel vestlusrobotite rakendustega eri valdkondades.
 
@@ -7553,11 +8795,11 @@ Kirjuta iga valdkonna kohta rakenduse näide, vestlusroboti tüüp ja eelised.
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Praktiline ülesanne**
+**⭐ VI. Praktiline ülesanne**
 
 **Ülesanne 13.** Vali üks kahest variandist.
 
-**Variant A: vestlusrobotite testimine.** Testi vähemalt kahte erinevat vestlusrobotit või häälassistenti (nt ChatGPT, Gemini, Claude, Siri) ja võrdle neid. Lisa ülesannete hulka vähemalt üks faktiküsimus Eesti kohta ja kontrolli vastust sõltumatust allikast. Ära sisesta isikuandmeid.
+**Variant A: vestlusrobotite testimine.** Testi vähemalt kahte erinevat vestlusrobotit või häälassistenti (nt kooli lubatud vestlusrobot, näiteks TI-Hüppe õpirakendus, ja telefoni häälassistent) ja võrdle neid. Lisa ülesannete hulka vähemalt üks faktiküsimus Eesti kohta ja kontrolli vastust sõltumatust allikast. Ära sisesta isikuandmeid.
 
 **a) Valitud vestlusrobotid:**
 
@@ -7598,7 +8840,7 @@ Kirjuta iga valdkonna kohta rakenduse näide, vestlusroboti tüüp ja eelised.
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Vestlusrobotite eetilised aspektid**
+**➕ VII. Vestlusrobotite eetilised aspektid**
 
 **Ülesanne 14.** Millised eetilised küsimused kaasnevad vestlusrobotite kasutamisega? Nimeta vähemalt neli.
 
@@ -7609,7 +8851,7 @@ Kirjuta iga valdkonna kohta rakenduse näide, vestlusroboti tüüp ja eelised.
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Arutelu**
+**➕ VIII. Arutelu**
 
 **Ülesanne 16.** Kuidas on vestlusrobotid muutnud inimeste suhtlemist tehnoloogiaga ja milliseid muutusi võib oodata tulevikus?
 
@@ -7621,7 +8863,7 @@ Kirjuta iga valdkonna kohta rakenduse näide, vestlusroboti tüüp ja eelised.
 
 ### Enesekontroll 3.3
 
-**1. Kuidas nimetatakse vestlusagenti, mille lõi Joseph Weizenbaum 1966. aastal ja mis matkis psühhoterapeuti? Kirjuta vastus.**
+**1. Kuidas nimetatakse vestlusagenti, mille Joseph Weizenbaum avaldas 1966. aastal ja mis matkis psühhoterapeuti? Kirjuta vastus.**
 
 [[ELIZA]]
 <script>
@@ -7629,7 +8871,7 @@ let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["eliza"].includes(v)
 </script>
 ****************************************
-Õige vastus: **ELIZA**. Programm otsis kasutaja lausest märksõnu ja vastas valmis lausepõhjaga. PARRY (1972) matkis paranoilist patsienti, Siri ilmus 2011 ja SmarterChild 2000. aastate alguses.
+Õige vastus: **ELIZA**. Programm otsis kasutaja lausest märksõnu ja vastas valmis lausepõhjaga. PARRY (1972) matkis paranoilist patsienti, SmarterChild ilmus 2001 ja Siri 2011.
 ****************************************
 
 **2. Ühenda vestlusroboti tüüp kirjeldusega.**
@@ -7704,26 +8946,80 @@ Sobiks reeglipõhine või otsingupõhine vestlusrobot, sest küsimused on korduv
 
 </details>
 
+### 📤 Väljapääsupilet 3.3
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['3.3'] = ["Spordiklubi kodulehe robot vastab alati sama lausega, kui küsimuses on sõna „treeningaeg“, aga muudele küsimustele ütleb „Ei saanud aru“. Mis tüüpi vestlusrobot see on ja miks?", "Mis juhtus TI-katses, kui küsisid ELIZA-lt midagi, mis nõuab teadmisi maailmast? Mida see näitab?", "Millal sa viimati kontrollisid vestlusroboti või otsingumootori vastust ja kuidas sa seda tegid?"];
+setTimeout(function(){var d=window.paePilet.load('3.3');document.querySelectorAll('[data-pilet="3.3"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="3.3" name="nimi" oninput="window.paePilet.save('3.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Spordiklubi kodulehe robot vastab alati sama lausega, kui küsimuses on sõna „treeningaeg“, aga muudele küsimustele ütleb „Ei saanud aru“. Mis tüüpi vestlusrobot see on ja miks?</div><textarea data-pilet="3.3" name="q0" oninput="window.paePilet.save('3.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mis juhtus TI-katses, kui küsisid ELIZA-lt midagi, mis nõuab teadmisi maailmast? Mida see näitab?</div><textarea data-pilet="3.3" name="q1" oninput="window.paePilet.save('3.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millal sa viimati kontrollisid vestlusroboti või otsingumootori vastust ja kuidas sa seda tegid?</div><textarea data-pilet="3.3" name="q2" oninput="window.paePilet.save('3.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('3.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('3.3')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_3.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 3.3
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Mul on neli vestlusroboti sõpra, aga ma ei mäleta enam, mis tüüpi keegi neist on. Kõik nad ütlevad mulle lihtsalt „Tere, kuidas saan aidata?“!“
 
-Lukk avaneb, kui lahendad mõistatuse. Igal vestlusroboti tüübil on number: **1 – reeglipõhine**, **2 – otsingupõhine**, **3 – generatiivne**, **4 – hübriidne**. Määra iga Krati sõbra tüüp ja kirjuta numbrid **järjekorras A, B, C, D** ühe neljakohalise koodina (nt 1234).
+Lukk avaneb, kui lahendad ülesande. Krati sõbrad töötavad eri kohtades. Igal vestlusroboti tüübil on number: **1 – reeglipõhine**, **2 – otsingupõhine**, **3 – generatiivne**, **4 – hübriidne**. Määra iga Krati sõbra tüüp ja kirjuta numbrid **järjekorras A, B, C, D** ühe neljakohalise koodina (nt 1234).
 
-- **A. Luule-Lauri** kirjutab sulle iga kord uue luuletuse just sinu teemal, mida keegi pole varem kirja pannud.
-- **B. Infokas** vastab ainult siis, kui küsimuses on kindel võtmesõna. Kui kirjutad „lahtiolekuaeg“, vastab ta alati sama lausega „Oleme avatud E–R 9–17“.
-- **C. Pangapõnn** vestleb sinuga üldistel teemadel keelemudeli abil, aga kui tahad raha üle kanda, järgib ta rangeid eelnevalt kirja pandud samme.
-- **D. Abiline Aino** mõistab ka teistmoodi sõnastatud küsimusi, kuid valib vastuse alati eelnevalt koostatud ja kontrollitud vastuste hulgast.
+- **A. Jutu-Juku** aitab kooli kirjandusringi: ta kirjutab igale õpilasele tema valitud teemal uue jutualguse, mida keegi pole varem kirja pannud.
+- **B. Trenni-Tiit** töötab spordiklubi kodulehel. Kui küsimuses on sõna „treeningaeg“, vastab ta alati sama lausega, muudele küsimustele aga „Ei saanud aru, vali menüüst teema“.
+- **C. Side-Siiri** on telefonifirma abiline. Ta vestleb sinuga vabalt keelemudeli abil, aga lepingu lõpetamisel järgib rangelt eelnevalt kirja pandud samme.
+- **D. Raamatu-Riin** töötab linnaraamatukogus. Ta saab aru ka teisiti sõnastatud küsimustest, kuid valib vastuse alati raamatukoguhoidjate kirjutatud ja kontrollitud vastuste hulgast.
 
 [[3142]]
-[[?]] Vihje: robot, mis kombineerib eri lähenemisi (nt reegleid ja keelemudelit), on hübriidne.
+[[?]] Vihje 1: Küsi iga roboti kohta: kas ta loob vastuse ise, võtab selle valmisvastuste hulgast või järgib kindlaid reegleid? Kas mõni teeb mitut asja korraga?
+[[?]] Vihje 2: Robot, mis kombineerib eri lähenemisi (nt keelemudelit ja rangeid reegleid), on hübriidne (4). Kood algab numbriga 3.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Vestlusrobotite tüübid“ ja loe tabelit tüüpide eeliste ja puudustega. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI557") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/[^0-9]/g, "");
 v === "3142"
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Mida paindlikum on vestlusrobot, seda raskem on teda kontrollida: reeglipõhine Infokas on täiesti ennustatav, generatiivne Luule-Lauri aga võib öelda ka midagi ootamatut.
+✅ **Lukk avatud!** Mida paindlikum on vestlusrobot, seda raskem on teda kontrollida: reeglipõhine Trenni-Tiit on täiesti ennustatav, generatiivne Jutu-Juku aga võib öelda ka midagi ootamatut.
 
 🔑 **Sinu võtmetäht: E**
 
@@ -7734,17 +9030,38 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 3.4 Masintõlge ja keeletehnoloogiad
 
 <!-- class="pae-kaas" -->
-![Noor turist suunab välismaa tänavakohviku ees telefoni kaamera võõras kirjas menüütahvlile ja näeb eestikeelset tõlget, samal ajal kui tema sõbranna kuuleb kõrvaklapist kokka tervituse tõlget „Tere tulemast!“.](pildid/illustratsioonid/3_4.jpg)
+![Õhtusel Aasia tänavaturul hoiab noor naine telefoni taikeelse menüütahvli ees ja ekraanil on toitude nimed ingliskeelses tõlkes. Tema kõrval kuulab naeratav noormees kõrvaklappi, leti taga naeratab kokk.](pildid/illustratsioonid/3_4.jpg)
 
 ### Õpieesmärgid
 
-Selle tunni järel:
+Selle tunni järel sa:
 
-- mõistad masintõlke põhimõtteid ja tead, kuidas masintõlge on arenenud;
-- oskad võrrelda reeglipõhist, statistilist ja närvivõrgupõhist masintõlget;
-- tead, kuidas masintõlke kvaliteeti hinnatakse;
-- tunned teisi keeletehnoloogiaid – kõnetuvastust, kõnesünteesi, õigekirja- ja grammatikakontrolli, teksti lihtsustamist – ning nende rakendusi;
-- tead olulisemaid eesti keele tehnoloogiaid ja oskad analüüsida keeletehnoloogiate võimalusi ja piiranguid.
+- **selgitad oma sõnadega**, miks on <span class="pae-term" tabindex="0" data-def="masintõlge: Teksti või kõne automaatne tõlkimine ühest keelest teise">masintõlge</span> raske ja kuidas see on arenenud *(mõistmine)*;
+- **rakendad** tõlke kvaliteedi kriteeriume (adekvaatsus ja ladusus) uue olukorra hindamiseks *(rakendamine)*;
+- **võrdled** reeglipõhist, statistilist ja närvivõrgupõhist masintõlget *(analüüs)*;
+- **katsetad** Neurotõlkega sooneutraalse asesõna ja idioomi tõlkimist ning **hindad** tõlke adekvaatsust ja ladusust *(hindamine)*;
+- **põhjendad**, mida näitavad tõlkevead treeningandmete kohta *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Mis on masintõlge ja miks see on raske?“, „Masintõlke ajalugu ja lähenemised“, „Kuidas närvivõrk tõlgib ja kuidas tõlget hinnata“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Tõlkemootori proovikivid“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded II, III ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Masintõlge tõlgib teksti või kõne arvuti abil teise keelde. Hea tõlge ei ole lihtsalt sõnade asendamine teise keele sõnadega. Keeled on erineva ehitusega ja sõnadel on mitu tähendust. Näiteks väljendit „tal on kõik kodus“ ei saa sõna-sõnalt tõlkida. Varem kasutati masintõlkes reegleid ja statistikat, nüüd närvivõrke. Närvivõrgu tõlge on parem, aga see on „must kast“. Tõlke kvaliteeti hinnatakse näiteks <span class="pae-term" tabindex="0" data-def="BLEU: Automaatne mõõdik, mis võrdleb masintõlget inimtõlkega">BLEU</span> mõõdikuga ja inimeste hinnangutega. Ravimi infolehe või lepingu tõlge peab olema väga täpne.
+
+**Tähtsad sõnad:** **masintõlge** – automaatne tõlkimine arvuti abil; **lähtekeel** – keel, millest tõlgitakse; **sihtkeel** – keel, millesse tõlgitakse; **BLEU** – mõõdik, mis võrdleb masintõlget inimese tõlkega.
+
+</section>
 
 ### Mis on masintõlge ja miks see on raske?
 
@@ -7770,16 +9087,16 @@ Masintõlke eesmärk on ületada keelebarjääre ja võimaldada mitmekeelset suh
 
 ![Masintõlke ajajoon: Georgetowni eksperiment 1950. aastatel, reeglipõhised süsteemid 1960.–70. aastatel, statistilised meetodid 1980.–90. aastatel, fraasipõhine statistiline tõlge 2000–2010, jada-jada mudelid 2014 ja närvivõrgupõhine tõlge alates 2016. aastast.](pildid/plokk_3/3_4_ajalugu.svg "Joonis 3.4.1. Masintõlke ajajoon: reeglipõhisest närvivõrgupõhiseni")
 
-**1950. aastatel** tehti esimesed katsed. Tuntuim neist on **Georgetowni eksperiment**, kus arvuti tõlkis lihtsaid vene keele lauseid inglise keelde. Toona arvati, et masintõlke probleem lahendatakse mõne aastaga – tegelikult kulus selleks aastakümneid. Masintõlke arengus on kolm suurt lähenemist.
+**1950. aastatel** tehti esimesed katsed. Tuntuim neist on 1954. aastal korraldatud **Georgetowni eksperiment**, kus arvuti tõlkis üle 60 lihtsa vene keele lause inglise keelde. Toona arvati, et masintõlke probleem lahendatakse kolme kuni viie aastaga – tegelikult kulus selleks aastakümneid. Masintõlke arengus on kolm suurt lähenemist.
 
 <!-- class="pae-fakt" -->
-> **Kas teadsid?** 1950. aastatel, **Georgetowni eksperimendi** ajal, arvati, et masintõlke probleem lahendatakse **mõne aastaga**. Tegelikult kulus selleks **aastakümneid**.
+> **Kas teadsid?** 1954. aastal, **Georgetowni eksperimendi** ajal, arvati, et masintõlke probleem lahendatakse **kolme kuni viie aastaga**. Tegelikult kulus selleks **aastakümneid**.
 
-**Reeglipõhine masintõlge** kasutab keeleteadlaste koostatud grammatikareegleid ja sõnastikke. Süsteem analüüsib lähtelause süntaksit ja ehitab reeglite järgi sihtkeelse lause. Väljund on kontrollitud ja andmeid on vaja vähe, kuid süsteemi arendamine on väga keerukas ja see ei ole paindlik.
+**<span class="pae-term" tabindex="0" data-def="reeglipõhine masintõlge: Tõlge lingvistiliste reeglite ja sõnastike põhjal">Reeglipõhine masintõlge</span>** kasutab keeleteadlaste koostatud grammatikareegleid ja sõnastikke. Süsteem analüüsib lähtelause süntaksit ja ehitab reeglite järgi sihtkeelse lause. Väljund on kontrollitud ja andmeid on vaja vähe, kuid süsteemi arendamine on väga keerukas ja see ei ole paindlik.
 
-**Statistiline masintõlge** õpib **paralleelkorpustest**. Paralleelkorpus on tekstikogu, kus samad tekstid on olemas kahes või enamas keeles, näiteks Euroopa Liidu dokumendid, mis tõlgitakse kõigisse ELi ametlikesse keeltesse. Süsteem arvutab, millised sõnad ja fraasid vastavad teineteisele kõige tõenäolisemalt. Tõlge on paindlikum ja loomulikum, kuid vaja on suuri andmehulki ja tulemus võib olla katkendlik.
+**<span class="pae-term" tabindex="0" data-def="statistiline masintõlge: Tõlge paralleelkorpustest arvutatud tõenäosuste põhjal">Statistiline masintõlge</span>** õpib **paralleelkorpustest**. Paralleelkorpus on tekstikogu, kus samad tekstid on olemas kahes või enamas keeles, näiteks Euroopa Liidu dokumendid, mis tõlgitakse kõigisse ELi ametlikesse keeltesse. Süsteem arvutab, millised sõnad ja fraasid vastavad teineteisele kõige tõenäolisemalt. Tõlge on paindlikum ja loomulikum, kuid vaja on suuri andmehulki ja tulemus võib olla katkendlik.
 
-**Närvivõrgupõhine masintõlge** (inglise keeles *neural machine translation*, NMT) kasutab süvaõppe mudeleid (RNN, transformer). Tõlkekvaliteet on parem ja konteksti arvestatakse rohkem, kuid mudel on **„must kast“** – on raske aru saada, miks see just sellise tõlke valis – ning selle treenimine nõuab palju arvutusressurssi.
+**<span class="pae-term" tabindex="0" data-def="närvivõrgupõhine masintõlge: Tõlge süvaõppe mudelite (RNN, transformer) abil">Närvivõrgupõhine masintõlge</span>** (inglise keeles *neural machine translation*, NMT) kasutab süvaõppe mudeleid (RNN, transformer). Tõlkekvaliteet on parem ja konteksti arvestatakse rohkem, kuid mudel on **„must kast“** – on raske aru saada, miks see just sellise tõlke valis – ning selle treenimine nõuab palju arvutusressurssi.
 
 | Lähenemine | Tööpõhimõte | Eelised | Puudused |
 |---|---|---|---|
@@ -7791,7 +9108,7 @@ Lähenemisi saab ka kombineerida – sellist süsteemi nimetatakse **hübriidsek
 
 ### Kuidas närvivõrk tõlgib ja kuidas tõlget hinnata
 
-Närvivõrgupõhine masintõlge kasutab **kodeerija-dekodeerija** (inglise keeles *encoder-decoder*) arhitektuuri.
+Närvivõrgupõhine masintõlge kasutab **<span class="pae-term" tabindex="0" data-def="kodeerija-dekodeerija: Arhitektuur, kus üks osa kodeerib lähtelause ja teine genereerib sihtlause">kodeerija-dekodeerija</span>** (inglise keeles *encoder-decoder*) arhitektuuri.
 
 ![Kodeerija loeb lähtelause „Ma armastan raamatuid“ ja muudab selle tähenduse arvudeks, dekodeerija loob nende põhjal sihtlause „I love books“; tähelepanumehhanism aitab igal sammul vaadata olulisi lähtesõnu, näiteks „books“ ja „raamatuid“.](pildid/plokk_3/3_4_kodeerija.svg "Joonis 3.4.2. Kodeerija-dekodeerija arhitektuur masintõlkes")
 
@@ -7800,7 +9117,7 @@ Närvivõrgupõhine masintõlge kasutab **kodeerija-dekodeerija** (inglise keele
 <!-- class="pae-moiste" -->
 > **Mõiste: BLEU**
 >
-> BLEU (inglise keeles *Bilingual Evaluation Understudy*) on automaatne mõõdik, mis hindab masintõlke kvaliteeti, **võrreldes masintõlget ühe või mitme inimtõlkega**. Mida rohkem ühiseid sõnu ja sõnaühendeid on masintõlkel inimtõlkega, seda kõrgem on skoor.
+> BLEU (inglise keeles *Bilingual Evaluation Understudy*, esitatud 2002) on automaatne mõõdik, mis hindab masintõlke kvaliteeti, **võrreldes masintõlget ühe või mitme inimtõlkega**. Mida rohkem ühiseid sõnu ja sõnaühendeid on masintõlkel inimtõlkega, seda kõrgem on skoor.
 
 Lisaks BLEU-le on teisi automaatseid mõõdikuid, näiteks METEOR, TER ja chrF. Automaatsed mõõdikud on olulised, sest nendega saab kiiresti ja objektiivselt võrrelda eri tõlkesüsteeme. Neil on aga piirangud: üht lauset saab hästi tõlkida mitmel moel ja hea tõlge võib saada madala skoori, kui see erineb inimtõlkest sõnastuse poolest.
 
@@ -7819,23 +9136,23 @@ Masintõlget kasutatakse veebisaitide tõlkimiseks (ka otse brauseris), äridoku
 >
 > Millistes olukordades usaldad sina masintõlget ja millistes mitte? Kas tõlgiksid masintõlke abil koolikirjandi, sõbrale saadetava sõnumi, arsti juhise või tööpakkumise? Miks just nii?
 
-### Masintõlge eesti keele jaoks
+### ➕ Masintõlge eesti keele jaoks
 
-Eesti keele masintõlget raskendavad **piiratud paralleelkorpused** (eesti- ja võõrkeelseid paralleeltekste on vähem kui suurte keelte puhul), **keerukas morfoloogia** ja **vaba sõnajärg**. Kui tõlkesüsteem peab eesti keelde tõlkides valima õige käände ja vormi, on vigade tegemise võimalusi rohkem kui näiteks inglise keelde tõlkides.
+Eesti keele masintõlget raskendavad **piiratud <span class="pae-term" tabindex="0" data-def="paralleelkorpus: Tekstikogu, kus samad tekstid on mitmes keeles">paralleelkorpused</span>** (eesti- ja võõrkeelseid paralleeltekste on vähem kui suurte keelte puhul), **keerukas morfoloogia** ja **vaba sõnajärg**. Kui tõlkesüsteem peab eesti keelde tõlkides valima õige käände ja vormi, on vigade tegemise võimalusi rohkem kui näiteks inglise keelde tõlkides.
 
 <!-- class="pae-eesti" -->
 > **Eesti näide: Neurotõlge**
 >
-> **Neurotõlge** on Tartu Ülikooli keeletehnoloogia töörühma (TartuNLP) loodud närvivõrgupõhine masintõlkesüsteem. See on arendatud spetsiaalselt eesti keelt silmas pidades. Neurotõlge näitab, et ka väikese keele jaoks saab luua kvaliteetseid keeletehnoloogilisi lahendusi, kui teadlased teevad sihipärast tööd ja koguvad selleks vajalikke andmeid.
+> **Neurotõlge** on Tartu Ülikooli <span class="pae-term" tabindex="0" data-def="keeletehnoloogia: Inimkeelt töötlevate tehnoloogiate üldnimetus">keeletehnoloogia</span> töörühma (TartuNLP) loodud närvivõrgupõhine masintõlkesüsteem. See on arendatud spetsiaalselt eesti keelt silmas pidades. 2023. aastal lisandus sellesse 17 väikest soome-ugri keelt, millest enamik jõudis avalikku tõlkemootorisse esimest korda, ning selle tarkvara ja mudelid on avatud lähtekoodiga. Neurotõlge näitab, et ka väikese keele jaoks saab luua kvaliteetseid keeletehnoloogilisi lahendusi, kui teadlased teevad sihipärast tööd ja koguvad selleks vajalikke andmeid.
 
 Lisaks Neurotõlkele toetavad eesti keelt ka rahvusvahelised teenused, näiteks **Google Translate**, **Microsoft Translator** ja **DeepL**. Arengusuunad on suuremad paralleelkorpused, spetsiaalselt eesti keele jaoks loodud mudelid ja **valdkonnapõhised tõlkesüsteemid** (nt meditsiini- või õigustekstide tõlkimiseks), mis tunnevad oma valdkonna sõnavara paremini.
 
-### Kõnetuvastus ja kõnesüntees
+### ➕ Kõnetuvastus ja kõnesüntees
 
 Keeletehnoloogia ei piirdu kirjaliku tekstiga. Kaks tähtsat valdkonda töötavad kõnega.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: kõnetuvastus ja kõnesüntees**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="kõnetuvastus: Kõne teisendamine tekstiks">kõnetuvastus</span> ja <span class="pae-term" tabindex="0" data-def="kõnesüntees: Teksti teisendamine kõneks">kõnesüntees</span>**
 >
 > **Kõnetuvastus** (inglise keeles *speech-to-text*) on kõne helisignaali teisendamine tekstiks. **Kõnesüntees** (inglise keeles *text-to-speech*) on teksti teisendamine kõneks. Need on teineteise vastandprotsessid.
 
@@ -7854,16 +9171,16 @@ Kõnesünteesi kasutatakse ekraanilugejates, navigatsioonisüsteemides, teadaann
 <!-- class="pae-eesti" -->
 > **Eesti näide: eesti keele kõnetehnoloogia**
 >
-> **Kõnetuvastus:** Tallinna Tehnikaülikoolis on Tanel Alumäe ja tema kolleegid arendanud eesti keele kõnetuvastussüsteeme, mida saab kasutada ka veebipõhiste teenuste kaudu.
+> **Kõnetuvastus:** Tallinna Tehnikaülikooli keeletehnoloogia laboris on Tanel Alumäe ja tema kolleegid arendanud eesti keele kõnetuvastussüsteeme, mida saab kasutada ka veebipõhiste teenuste kaudu (nt salvestiste automaatne tekstiks muutmine ja dikteerimine).
 >
-> **Kõnesüntees:** Eesti Keele Instituut (EKI) on loonud eesti keele kõnesüntesaatori. Arendatud on ka närvivõrgupõhist eesti keele kõnesünteesi (neurokõnesüntees), mis kõlab varasemast loomulikumalt.
+> **Kõnesüntees:** Eesti Keele Instituut (EKI) on loonud eesti keele kõnesüntesaatori. Tartu Ülikooli teadlased on arendanud närvivõrgupõhise kõnesünteesi **Neurokõne**, mis kõlab varasemast loomulikumalt. Seda kasutab näiteks ERR alates 2023. aastast eestikeelsete uudiste ettelugemiseks.
 
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
 >
 > Kellele on kõnetuvastus ja kõnesüntees eriti olulised? Mõtle inimestele, kellel on nägemis- või kuulmispuue, aga ka vanavanematele, kel on raske nutitelefonis väikest kirja lugeda. Miks on tähtis, et need tehnoloogiad töötaksid hästi just **eesti** keeles?
 
-### Muud keeletehnoloogiad, rakendused ja tulevik
+### ➕ Muud keeletehnoloogiad, rakendused ja tulevik
 
 **Keeletehnoloogia** on üldnimetus kõigile tehnoloogiatele, mis töötlevad inimkeelt: masintõlge, kõnetuvastus, kõnesüntees, õigekirja- ja grammatikakontroll, automaatne kokkuvõtete loomine, keeleõppe tehnoloogiad jne.
 
@@ -7894,7 +9211,7 @@ Keeletehnoloogiaid rakendatakse paljudes valdkondades:
 >
 > Väikeste keelte jaoks on keeletehnoloogia ka **keele säilimise küsimus**. Kui inimesed saavad oma nutiseadmetes, tõlkerakendustes ja häälassistentides kasutada ainult suuri keeli, siis väheneb väikese keele kasutusala digimaailmas. Seepärast investeerib Eesti eesti keele tehnoloogiasse – et eesti keelt saaks kasutada kõikjal, ka suheldes tehisintellektiga.
 
-### 🎬 Video: tehisaru ja eesti keel
+### ➕ 🎬 Video: tehisaru ja eesti keel
 
 TI-Hüppe video selgitab, miks tehisaru oskab mõnda keelt paremini kui teist ja milline roll on treeningandmetel. Et eesti keel ja kultuur püsiksid, peab eesti keel olema uute tehnoloogiatega kasutatav. Selleks on vaja kvaliteetset eestikeelset sisu ja tehisaru kasutamist eesti keeles.
 
@@ -7913,6 +9230,24 @@ TI-Hüppe video selgitab, miks tehisaru oskab mõnda keelt paremini kui teist ja
 
 [[___ ___ ___]]
 
+### 🧪 TI-katse: tõlkemootori proovikivid
+
+Pane masintõlge proovile lausetega, mis on teadaolevalt rasked: sooneutraalne „tema“, idioom ja mitmetähenduslik sõna. Hinda tõlkeid samade kriteeriumidega, mida kasutavad inimhindajad.
+
+**Vaja läheb:** Tartu Ülikooli [Neurotõlge](https://translate.ut.ee/), soovi korral ka veel üks tõlkemootor (nt Google Translate), ~10 min, paaristöö
+
+1. Tõlgi Neurotõlkes eesti keelest inglise keelde: „Tema on arst. Tema on õde. Tema on insener.“ Pane kirja, kas tõlkes on *he* või *she*.
+2. Tõlgi idioom „Tal on kõik kodus.“ ja mitmetähenduslik lause „Tee on külm.“ Kas tõlge tabas tähenduse?
+3. Tõlgi üks ingliskeelne tõlge tagasi eesti keelde (tagasitõlge) ja võrdle seda algse lausega.
+4. Hinda iga tõlget skaalal 1–3: **adekvaatsus** (tähendus säilis) ja **ladusus** (kõlab sihtkeeles loomulikult).
+
+**Pane tähele / kirjuta üles:** kas tõlkes tekkis sooline kallutatus, milline lause oli kõige raskem ja millised hinded tõlked said.
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** tõlkige laused paaris ise inglise keelde ja kirjutage üles, mitu õiget tõlget igal lausel võiks olla. Arutage, miks masin peab valima ühe neist ja kust ta selle valiku õpib.
+
 ### Kokkuvõte ja põhimõisted
 
 **Pea meeles**
@@ -7921,7 +9256,7 @@ TI-Hüppe video selgitab, miks tehisaru oskab mõnda keelt paremini kui teist ja
 - Närvivõrgupõhine masintõlge kasutab kodeerija-dekodeerija arhitektuuri, tähelepanumehhanismi ja transformereid; see annab parema kvaliteedi, kuid on „must kast“.
 - Tõlkekvaliteeti hinnatakse automaatsete mõõdikutega (nt BLEU) ja inimhinnangutega (adekvaatsus, ladusus, kasutuskõlblikkus).
 - Kõnetuvastus muudab kõne tekstiks, kõnesüntees teksti kõneks; mõlemad on tähtsad ligipääsetavuse seisukohast.
-- Eesti keele tehnoloogiad on näiteks Neurotõlge (Tartu Ülikool), TalTechi kõnetuvastus, EKI kõnesüntesaator, Filosofti õigekirjakontroll ja EKI keeleabi.
+- Eesti keele tehnoloogiad on näiteks Neurotõlge ja Neurokõne (Tartu Ülikool), TalTechi kõnetuvastus, EKI kõnesüntesaator, Filosofti õigekirjakontroll ja EKI keeleabi.
 - Väikeste keelte jaoks on keeletehnoloogia arendamine keerulisem, kuid oluline ka keele säilimiseks.
 
 | Mõiste | Tähendus |
@@ -7938,10 +9273,20 @@ TI-Hüppe video selgitab, miks tehisaru oskab mõnda keelt paremini kui teist ja
 | Kõnesüntees | Teksti teisendamine kõneks |
 | Keeletehnoloogia | Inimkeelt töötlevate tehnoloogiate üldnimetus |
 
+### 📚 Allikad ja lisalugemine
+
+- Tartu Ülikool (s. a.). [Neurotõlge](https://translate.ut.ee/). Tartu Ülikooli tasuta masintõlkekeskkond, mida saad ise proovida.
+- Tartu Ülikool (2023). [The University of Tartu machine translation engine now supports 17 new Finno-Ugric languages](https://keemia.ut.ee/en/content/university-tartu-machine-translation-engine-now-supports-17-new-finno-ugric-languages). Uudis Neurotõlke laienemisest soome-ugri keeltele (inglise keeles).
+- ERR News (2023). [ERR adds listening feature to Estonian-language articles](https://news.err.ee/1609132061/err-adds-listening-feature-to-estonian-language-articles). Kuidas Tartu Ülikooli Neurokõne loeb ette ERR-i uudiseid (inglise keeles).
+- Eesti Keele Instituut (s. a.). [Eestikeelne kõnesüntees](https://arhiiv.eki.ee/heli/). EKI kõnesünteesi hääled, rakendused ja proovikast.
+- TalTech (s. a.). [Keeletehnoloogia labori veebiteenused](https://taltech.ee/en/services/775bcd8e-1dca-411f-8005-37b0288df190). Eesti keele kõnetuvastuse ja dikteerimise teenused (inglise keeles).
+- Papineni, K. jt (2002). [Bleu: a Method for Automatic Evaluation of Machine Translation](https://aclanthology.org/P02-1040/). Teadusartikkel, milles esitati BLEU mõõdik (inglise keeles, edasijõudnutele).
+- TI-Hüpe (s. a.). [Tehisaru ja eesti keel](https://tihupe.ee/oppematerjal/tehisaru-ja-eesti-keel/). Lühivideo sellest, miks oskab tehisaru mõnda keelt paremini kui teist. Sobib lisavaatamiseks.
+
 ### Tööleht 3.4
 
 <!-- class="pae-jaotis" -->
-**I. Masintõlke põhimõisted**
+**➕ I. Masintõlke põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on masintõlge.
 
@@ -7968,7 +9313,7 @@ Statistiline masintõlge põhineb paralleelkorpustel (B), närvivõrgupõhine s�
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Masintõlke areng ja meetodid**
+**⭐ II. Masintõlke areng ja meetodid**
 
 **Ülesanne 3.** Kirjelda lühidalt masintõlke arengu peamisi etappe.
 
@@ -8006,7 +9351,7 @@ Kirjuta iga meetodi kohta tööpõhimõte, eelised ja puudused.
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Masintõlke kvaliteet ja hindamine**
+**⭐ III. Masintõlke kvaliteet ja hindamine**
 
 **Ülesanne 6.** Millised on peamised väljakutsed masintõlke kvaliteedi tagamisel? Nimeta vähemalt neli.
 
@@ -8026,12 +9371,12 @@ Kirjuta iga meetodi kohta tööpõhimõte, eelised ja puudused.
 
 [[___ ___]]
 
-**Ülesanne 8.** Millised tegurid mõjutavad masintõlke kvaliteeti eri keelte vahel?
+**Ülesanne 8.** Miks tõlgib masin inglise ja saksa keele vahel tavaliselt paremini kui eesti ja jaapani keele vahel? Nimeta vähemalt kolm tegurit, mis mõjutavad masintõlke kvaliteeti eri keelte vahel, ja seosta need selle näitega.
 
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Keeletehnoloogiad ja nende rakendused**
+**➕ IV. Keeletehnoloogiad ja nende rakendused**
 
 **Ülesanne 9.** Selgita, mis on keeletehnoloogiad ja milleks neid kasutatakse.
 
@@ -8079,7 +9424,7 @@ Kirjuta iga keeletehnoloogia kohta kirjeldus ja rakendused.
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Eesti keele tehnoloogiad**
+**➕ V. Eesti keele tehnoloogiad**
 
 **Ülesanne 12.** Millised on olulisemad eesti keele tehnoloogiad ja ressursid? Nimeta vähemalt viis.
 
@@ -8094,7 +9439,7 @@ Kirjuta iga keeletehnoloogia kohta kirjeldus ja rakendused.
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Praktiline ülesanne**
+**⭐ VI. Praktiline ülesanne**
 
 **Ülesanne 15.** Vali üks kahest variandist.
 
@@ -8143,7 +9488,7 @@ Kirjuta iga keeletehnoloogia kohta kirjeldus ja rakendused.
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Masintõlke ja keeletehnoloogiate tulevik**
+**➕ VII. Masintõlke ja keeletehnoloogiate tulevik**
 
 **Ülesanne 16.** Millised on masintõlke ja keeletehnoloogiate peamised arengusuunad lähitulevikus?
 
@@ -8154,7 +9499,7 @@ Kirjuta iga keeletehnoloogia kohta kirjeldus ja rakendused.
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Arutelu**
+**➕ VIII. Arutelu**
 
 **Ülesanne 18.** Kuidas mõjutavad masintõlge ja keeletehnoloogiad keeleõpet ja mitmekeelsust?
 
@@ -8248,21 +9593,75 @@ BLEU võrdleb masintõlget inimtõlkega ja loeb, kui palju on neil ühiseid sõn
 
 </details>
 
+### 📤 Väljapääsupilet 3.4
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['3.4'] = ["Turist tõlgib apteegis masintõlkega ravimi infolehe. Kumba tõlke kvaliteedi kriteeriumi – adekvaatsust või ladusust – peab ta siin eriti kontrollima ja miks?", "Kas Neurotõlge valis TI-katses lausete „Tema on arst. Tema on õde.“ tõlkes soo? Mida see näitab treeningandmete kohta?", "Kus oled ise viimati masintõlget kasutanud ja kas usaldasid tulemust?"];
+setTimeout(function(){var d=window.paePilet.load('3.4');document.querySelectorAll('[data-pilet="3.4"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="3.4" name="nimi" oninput="window.paePilet.save('3.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Turist tõlgib apteegis masintõlkega ravimi infolehe. Kumba tõlke kvaliteedi kriteeriumi – adekvaatsust või ladusust – peab ta siin eriti kontrollima ja miks?</div><textarea data-pilet="3.4" name="q0" oninput="window.paePilet.save('3.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Kas Neurotõlge valis TI-katses lausete „Tema on arst. Tema on õde.“ tõlkes soo? Mida see näitab treeningandmete kohta?</div><textarea data-pilet="3.4" name="q1" oninput="window.paePilet.save('3.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus oled ise viimati masintõlget kasutanud ja kas usaldasid tulemust?</div><textarea data-pilet="3.4" name="q2" oninput="window.paePilet.save('3.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('3.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('3.4')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_3.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 3.4
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Proovisin kahte keeletehnoloogiat ja nüüd kirjutan kõike tagurpidi! Mu märkmikus on kaks sõna: **SUTSAVUTENÕK** ja **SEETNÜSENÕK**. Kumb neist aitas mul veebilehte ette lugeda?“
 
-Lukk avaneb, kui lahendad mõistatuse. Loe mõlemat sõna tagurpidi. Seejärel mõtle: milline neist tehnoloogiatest aitab nägemispuudega inimesel uudiseid **kuulata**, muutes kirjaliku teksti kõneks? Kirjuta selle tehnoloogia nimetus (õiget pidi!) lahtrisse.
+Lukk avaneb, kui lahendad ülesande. Linna uutes bussipeatustes on tabloo juures nupp. Kui seda vajutad, loeb tabloo valjult ette järgmiste busside numbrid ja saabumisajad. Andmed tulevad infosüsteemist tekstina ja keegi pole neid ette lugenud ega salvestanud. Millist keeletehnoloogiat tabloo kasutab? Kirjuta tehnoloogia nimetus lahtrisse.
 
 [[kõnesüntees]]
-[[?]] Vihje: üks tehnoloogia muudab kõne tekstiks, teine teksti kõneks. Sul on vaja just seda, mis loob kõnet.
+[[?]] Vihje 1: Kas tabloo muudab kõne tekstiks või teksti kõneks?
+[[?]] Vihje 2: Loe Krati märkmikus olevaid sõnu tagurpidi: **SUTSAVUTENÕK** ja **SEETNÜSENÕK**. Sul on vaja seda tehnoloogiat, mis loob kõnet.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „➕ Kõnetuvastus ja kõnesüntees“ ja loe lõik „Mõiste: kõnetuvastus ja kõnesüntees“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI869") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["kõnesüntees", "kõnesünteesi", "kõnesüntesaator", "kõnesünteesija", "kõne süntees"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Kõnesüntees muudab teksti kõneks, kõnetuvastus aga kõne tekstiks – mõlemad aitavad muuta info kõigile ligipääsetavaks.
+✅ **Lukk avatud!** Kõnesüntees muudab teksti kõneks, kõnetuvastus aga kõne tekstiks. Rääkiv tabloo aitab näiteks nägemispuudega reisijaid – mõlemad tehnoloogiad muudavad info kõigile ligipääsetavamaks.
 
 🔑 **Sinu võtmetäht: L**
 
@@ -8275,7 +9674,86 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 <!-- class="pae-kaas" -->
 ![3. ploki kaanepilt](pildid/plokk_3/plokk_3_kaas.svg)
 
-Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
+Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: teed **TI-labori**, lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
+
+### 🔬 3. ploki TI-labor: viipade võrdlemine
+
+<!-- class="pae-motle" -->
+> **Uurimisküsimus:** Kuidas mõjutab viiba täpsus (roll, sihtrühm, vorming ja näited) vestlusroboti vastuse kvaliteeti?
+
+**Eesmärk:** lahendad sama ülesande vestlusrobotiga kolme eri viibaga, hindad vastuseid ühise hindamistabeli järgi ja teed järelduse, mis teeb viiba heaks.
+
+**Vaja läheb:** kooli lubatud vestlusrobot (nt [TI-Hüppe õpirakendus](https://tihupe.ee/opirakendus/)), soovi korral lisaosaks [Neurotõlge](https://translate.ut.ee/) ja veel üks tõlkemootor; ~45 min; paaris või 3-liikmelises rühmas.
+
+**Rollid:** katsetaja (sisestab viibad), protokollija (kirjutab vastused ja hinded üles), kriitik (kontrollib fakte ja hinnete põhjendusi). Vahetage rolle iga viiba järel.
+
+<!-- class="pae-lisaks" -->
+> **Ohutus:** ära sisesta vestlusrobotisse oma ega teiste nimesid, isikukoode, aadresse, paroole ega muud isiklikku infot. Kui robot küsib sinult vastu (TI-Hüppe õpirakendus teeb seda sageli), vasta lühidalt ja märgi see protokolli.
+
+**Ülesanne, mida kõik kolm viipa lahendavad:** selgita 8. klassi õpilasele, mis on keelemudeli hallutsinatsioon, ja too üks näide. (Õpetaja võib anda ka mõne teise ploki mõiste, nt tokeniseerimine või masintõlge.)
+
+<!-- data-type="none" -->
+| Viip | Viiba tekst |
+|---|---|
+| **A – lühike ja ebamäärane** | „Räägi hallutsinatsioonist.“ |
+| **B – täpne, roll ja vorming** | „Oled kannatlik loodusainete õpetaja. Selgita 8. klassi õpilasele, mis on keelemudeli hallutsinatsioon ja miks see tekib. Kirjuta lihtsas eesti keeles kuni 100 sõna ja lõpeta ühe näitega koolielust.“ |
+| **C – näidetega viip** | Viip B ja lisaks: „Siin on näide sobivast selgitusest teise mõiste kohta: Tokeniseerimine tähendab, et arvuti lõikab teksti väikesteks tükkideks, nagu sina lõikad pitsa viiludeks. Näiteks lause „Mari läks kooli.“ jaguneb neljaks tükiks. Selgita hallutsinatsiooni samas stiilis.“ |
+
+<!-- class="pae-jaotis" -->
+**1. Hüpotees**
+
+Loe kolm viipa läbi enne katset. Milline viip annab sinu arvates parima vastuse ja miks? Millises hindamistabeli kriteeriumis on vahe sinu arvates kõige suurem?
+
+[[___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**2. Katse**
+
+1. Alustage iga viiba jaoks uut vestlust, et eelmine vestlus vastust ei mõjutaks.
+2. Sisestage viip A ja kopeerige vastus protokolli (või tehke kuvatõmmis).
+3. Korrake sama viipadega B ja C.
+4. Hinnake iga vastust allolevas hindamistabelis (iga kriteerium 0–2 punkti, kokku kuni 8 punkti). Kontrollige fakte tunni 3.2 õppetekstist või muust usaldusväärsest allikast.
+5. Kriitik kontrollib, kas iga hinne on põhjendatud vastusest võetud näitega.
+6. **Lisaosa (soovi korral):** valige parimast vastusest üks lause, tõlkige see [Neurotõlkes](https://translate.ut.ee/) ja veel ühes tõlkemootoris inglise keelde ning võrrelge tõlgete adekvaatsust ja ladusust.
+
+**Ühine hindamistabel**
+
+<!-- data-type="none" -->
+| Kriteerium | 0 punkti | 1 punkt | 2 punkti |
+|---|---|---|---|
+| Täpsus | Selgitus on vale või väga ebatäpne | Põhiidee on õige, kuid midagi on puudu | Selgitus on täpne ja täielik |
+| Asjakohasus | Ei arvesta ülesannet (sihtrühm, pikkus, näide) | Arvestab ülesannet osaliselt | Arvestab ülesannet täielikult |
+| Faktivead | Vähemalt kaks faktiviga | Üks faktiviga | Faktivigu pole |
+| Keel | Palju keelevigu või kohmakas sõnastus | Mõni keeleviga | Korrektne ja loomulik eesti keel |
+
+<!-- data-type="none" -->
+| Katse | Mida muutsid | Tulemus | Märkus |
+|---|---|---|---|
+| 1 (viip A) | | | |
+| 2 (viip B) | | | |
+| 3 (viip C) | | | |
+
+<!-- class="pae-jaotis" -->
+**3. Analüüs**
+
+1. Milline viip sai kõige rohkem punkte? Millised viiba omadused (roll, sihtrühm, pikkus, vorming, näide) mõjutasid tulemust kõige rohkem? Tee järeldus: mis teeb viiba heaks?
+2. Kas ka parima viiba vastuses oli faktivigu või ebatäpsusi? Miks tuleb vastust ka hea viiba korral kontrollida? Seosta vastus mõistega „hallutsinatsioon“.
+3. Millised on teie katse piirangud? Mõtle näiteks sellele, et sama viip võib anda iga kord erineva vastuse, katsetasite ainult üht ülesannet ja hinded sõltuvad hindajast. Kuidas saaks katset usaldusväärsemaks muuta?
+
+[[___ ___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**4. Laboriaruanne portfooliosse**
+
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita Moodle'is.
+
+<!-- data-type="none" -->
+| Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
+|---|---|---|---|
+| Hüpotees ja katse | Hüpotees on selge ja kontrollitav; kõik kolm viipa on katsetatud samadel tingimustel (iga kord uus vestlus) | Hüpotees on olemas; viibad on katsetatud, kuid tingimused erinesid veidi | Hüpotees puudub või on ebaselge; katsetatud on vähem kui kolm viipa |
+| Andmed ja tulemused | Kõik vastused on hinnatud ühise tabeli järgi ja hinded on põhjendatud näidetega | Vastused on hinnatud, kuid põhjendused on lünklikud | Hinnang on puudulik või põhjendamata |
+| Järeldus ja piirangud | Järeldus hea viiba kohta tugineb andmetele; piirangud ja parandusettepanekud on nimetatud | Järeldus on olemas, piiranguid on mainitud põgusalt | Järeldus ei tugine andmetele, piirangud puuduvad |
+| Koostöö ja ohutus | Rollid vahetusid ja kõik osalesid; isikuandmeid ei sisestatud | Rollid ei vahetunud alati; isikuandmeid ei sisestatud | Töö jäi ühe inimese kanda või sisestati isikuandmeid |
 
 ### Praktilised ülesanded
 
@@ -8286,8 +9764,9 @@ Selles osas on viis praktilist ülesannet. Õpetaja ütleb, milliseid neist teet
 
 **Mida sa õpid:** saad praktilise kogemuse kaudu aru, kuidas vestlusrobotid töötavad, kui hästi nad mõistavad eesti keelt ja kuidas nende vastuseid kriitiliselt hinnata.
 
-**Vahendid:** internetiühendusega arvuti või nutiseade, juurdepääs vähemalt kahele vestlusrobotile.
+**Vahendid:** internetiühendusega arvuti või nutiseade, juurdepääs vähemalt kahele vestlusrobotile (eelista kooli lubatud vestlusrobotit).
 
+- [TI-Hüppe õpirakendus](https://tihupe.ee/opirakendus/)
 - [ChatGPT](https://chat.openai.com/)
 - [Gemini (varem Google Bard)](https://gemini.google.com/)
 - [Microsoft Copilot (varem Bing AI)](https://copilot.microsoft.com/)
@@ -8657,7 +10136,7 @@ let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["bürokratt", "burokratt"].includes(v)
 </script>
 ****************************************
-Õige vastus: **Bürokratt**. See valiti 2022. aastal parimaks tehisintellektil põhinevaks riigiteenuseks.
+Õige vastus: **Bürokratt**. 2022. aastal valis UNESCO egiidi all tegutsev uurimiskeskus IRCAI selle maailma saja tehisintellekti lahenduse hulka.
 ****************************************
 
 **8. Bigrammid on kahesõnalised järjestikused ühendid. Mitu bigrammi saab moodustada lausest „mulle meeldib väga matemaatika“? Kirjuta arv.**
@@ -8862,10 +10341,14 @@ Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega. 
 > **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 3.1, 3.2, 3.3 ja 3.4 lukkudest järjekorras).
 
 [[KEEL]]
-[[?]] Vihje: sõnas on 4 tähte ja see on seotud selle toa teemaga.
+[[?]] Vihje 1: Võtmetähed said tundide 3.1, 3.2, 3.3 ja 3.4 lukkudest. Kirjuta need järjest üksteise kõrvale.
+[[?]] Vihje 2: Sõnas on 4 tähte, see algab tähega **K** ja on seotud selle toa teemaga – sellega, mida sa iga päev räägid ja kirjutad.
+[[?]] 🛟 Päästerõngas: mine tagasi lukkudele „🔐 Lukk 3.1“ kuni „🔐 Lukk 3.4“ ja loe nende selgitusest üles võtmetähed. Kui ikka ei tule välja, küsi õpetajalt selle ukse päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI948") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "keel"
+}
 </script>
 ****************************************
 ![Kratt](pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Keelelabori ekraanidel asetuvad tähed lõpuks õigesse järjekorda ja laused saavad jälle mõtte. Kratt mäletab nüüd, et ta ei „mõista“ keelt nagu inimene, vaid muudab teksti arvudeks ja ennustab tõenäolist jätku. Ta oskab taas teksti analüüsida, vestelda ja tõlkida – ning teab, et oma fakte tuleb kontrollida. „Aitäh, sõbrad! Ma ei kirjuta enam tagurpidi ... vähemalt mitte kogemata!“
@@ -8910,24 +10393,45 @@ Ploki lõpus ootavad sind praktilised rühmatööd, aruteluküsimused ja ploki e
 ## 4.1 Probleemilahendus ja otsustuspuud
 
 <!-- class="pae-kaas" -->
-![Õpilane seisab hommikul koolikotiga avatud ukse juures, vaatab telefonist vihmaprognoosi ja sirutab käe vihmavarju poole, samal ajal kui õhus on otsustuspuu, mille harud viivad vihmavarju või päikese juurde.](pildid/illustratsioonid/4_1.jpg)
+![Seljakotiga noormees seisab esikus avatud välisukse juures ja vaatab telefonist vihmaprognoosi, sirutades samal ajal käe nagis rippuva oranži vihmavarju järele. Ukse taga paistab vihmamärg munakivitänav, kus inimesed kõnnivad vihmavarjudega.](pildid/illustratsioonid/4_1.jpg)
 
 ### Õpieesmärgid
 
-Selle tunni lõpuks sa:
+Selle tunni järel sa:
 
-- mõistad, mida tähendab probleemilahendus tehisintellektis ja millistest osadest see koosneb;
-- tunned peamisi otsingustrateegiaid (pimeotsing, informeeritud otsing, lokaalne otsing, mänguotsing) ja oskad tuua neile näiteid;
-- oskad selgitada, kuidas on üles ehitatud otsustuspuu ja kuidas see andmetest õpib;
-- oskad ise joonistada lihtsa otsustuspuu;
-- oskad analüüsida algoritmilise otsustamise eeliseid, piiranguid ja eetilisi küsimusi.
+- **selgitad oma sõnadega**, kuidas on üles ehitatud <span class="pae-term" tabindex="0" data-def="otsustuspuu: Puukujuline mudel, mis jagab andmed tunnuste põhjal ja jõuab lehtedes otsuseni">otsustuspuu</span> ja kuidas see andmetest õpib *(mõistmine)*;
+- **joonistad** lihtsa otsustuspuu igapäevase otsuse jaoks *(rakendamine, loomine)*;
+- **analüüsid** interaktiivses näites, kuidas puu sügavus muudab täpsust treening- ja testandmetel *(analüüs)*;
+- **hindad**, millal liiga sügav puu hakkab ülesobituma, ja **põhjendad**, miks puu võib uutel andmetel eksida *(hindamine)*;
+- **kaalud** algoritmilise otsustamise eeliseid, piiranguid ja eetilisi küsimusi *(hindamine)*.
 
-### Mis on probleemilahendus tehisintellektis?
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Otsustuspuu ülesehitus“, „Kuidas otsustuspuu andmetest õpib?“, „Otsustuspuude tugevused, piirangud ja vastutus“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Kuidas otsustuspuu õpib ja ülesobitub“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded III, V ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Otsustuspuu aitab otsust teha, näiteks kas võtta vihmavari kaasa. Puu algab ülevalt juuretipust, kus on esimene küsimus. Vastad igale küsimusele ja liigud mööda haru allapoole. Lõpuks jõuad lehte, kus on lõplik otsus. Masinõppes ehitab arvuti sellise puu ise andmete põhjal. Otsustuspuu otsust on lihtne selgitada, see on „valge kast“. Liiga suur puu võib andmed pähe õppida ehk ülesobituda. <span class="pae-term" tabindex="0" data-def="juhuslik mets: Ansamblimeetod, mis kombineerib paljude otsustuspuude ennustused">Juhuslik mets</span> ühendab palju puid ja on tavaliselt täpsem kui üks puu.
+
+**Tähtsad sõnad:** **otsustuspuu** – mudel, mis jõuab küsimuste abil otsuseni; **juuretipp** – puu esimene ja kõige tähtsam küsimus; **leht** – puu lõpp, kus on otsus; **juhuslik mets** – palju otsustuspuid, mis otsustavad koos.
+
+</section>
+
+### ➕ Mis on probleemilahendus tehisintellektis?
 
 Kui avad hommikul telefonis kaardirakenduse ja küsid, kuidas jõuda kõige kiiremini koolini, lahendab tehisintellekt sinu eest probleemi. Tal on teada, kus sa praegu oled (**algolek**), kuhu sa tahad jõuda (**eesmärk**), ja ta peab leidma tee nende kahe vahel.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: probleemilahendus tehisintellektis**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="probleemilahendus: Protsess, mille käigus TI leiab lahenduse püstitatud probleemile, otsides teed algolekust eesmärgini">probleemilahendus</span> tehisintellektis**
 >
 > Probleemilahendus on protsess, mille käigus tehisintellekt leiab lahenduse püstitatud probleemile – sageli otsides teed **algolekust eesmärgini**.
 
@@ -8945,19 +10449,19 @@ Kõik probleemid ei ole ühesugused. Tehisintellekti jaoks on oluline vahe, kui 
 
 Hästi defineeritud probleeme lahendab arvuti tavaliselt edukalt, sest ta teab täpselt, mida otsida. Halvasti defineeritud probleemidega – näiteks „kirjuta hea luuletus“ – on palju raskem, sest pole ühest mõõdupuud, mis on „hea“.
 
-### Olekuruum ja otsingustrateegiad
+### ➕ Olekuruum ja otsingustrateegiad
 
-Et arvuti saaks probleemi lahendada, tuleb probleem esitada talle arusaadaval kujul. Selleks kasutatakse **olekuruumi**.
+Et arvuti saaks probleemi lahendada, tuleb probleem esitada talle arusaadaval kujul. Selleks kasutatakse **<span class="pae-term" tabindex="0" data-def="olekuruum: Kõigi võimalike olekute kogum; sõlmed on olekud, kaared üleminekud">olekuruumi</span>**.
 
 <!-- class="pae-moiste" -->
 > **Mõiste: olekuruum**
 >
 > Olekuruum on kõigi võimalike olukordade (olekute) kogum, mis probleemi lahendamisel võivad tekkida. Olekuid nimetatakse **sõlmedeks** ja ühest olekust teise üleminekuid **kaarteks**. Olekuruumi visuaalset esitust nimetatakse **otsingugraafiks** – sellelt on näha võimalikud teed algolekust lõppolekusse.
 
-Hea näide on male. Iga võimalik seis malelaual on üks sõlm ja iga lubatud käik on kaar, mis viib ühest seisust teise. Võimalikke seise on aga nii palju, et isegi kõige kiirem arvuti ei suuda neid kõiki läbi vaadata. Seetõttu kasutatakse **heuristikat**.
+Hea näide on male. Iga võimalik seis malelaual on üks sõlm ja iga lubatud käik on kaar, mis viib ühest seisust teise. Võimalikke seise on aga nii palju, et isegi kõige kiirem arvuti ei suuda neid kõiki läbi vaadata. Seetõttu kasutatakse **<span class="pae-term" tabindex="0" data-def="heuristika: „Nutikas rusikareegel“, mis aitab lahenduse kiiremini leida">heuristikat</span>**.
 
 <!-- class="pae-fakt" -->
-> **Kas teadsid?** Malelaual on võimalikke seise nii palju, et isegi kõige kiirem arvuti ei suuda neid kõiki läbi vaadata. Go-s on võimalikke seise veel palju rohkem – sellepärast peeti go-d male järel järgmiseks suureks väljakutseks, kuni **AlphaGo** 2016. aastal maailma tippmängijat Lee Sedoli võitis.
+> **Kas teadsid?** Malelaual on võimalikke seise nii palju, et isegi kõige kiirem arvuti ei suuda neid kõiki läbi vaadata. Go-s on võimalikke seise veel palju rohkem – sellepärast peeti go-d male järel järgmiseks suureks väljakutseks, kuni **AlphaGo** 2016. aasta märtsis maailma tippmängijat Lee Sedoli 4 : 1 võitis.
 
 <!-- class="pae-moiste" -->
 > **Mõiste: heuristika**
@@ -9010,11 +10514,11 @@ Otsingualgoritme on palju ja need jagunevad mitmesse rühma.
 >
 > Oled kodus võtmed ära kaotanud. **Laiuti otsingu** moodi tegutsedes vaatad esmalt kiirelt üle kõik toad (laud, riiul, diivan igas toas) ja alles siis hakkad kappe ja sahtleid lahti tõstma. **Sügavuti otsingu** moodi tegutsedes lähed esimesse tuppa ja tühjendad seal iga sahtli ja kapi põhjani, enne kui järgmisse tuppa liigud. Kumb viis on parem, sõltub sellest, kus võtmed tegelikult on!
 
-**Informeeritud otsing** kasutab heuristilist infot, et hinnata, milline tee tundub kõige lootustandvam. Siia kuuluvad **parim-esmalt otsing** (*best-first search*), mis laiendab alati kõige paremana näivat olekut, **ahne otsing** (*greedy search*), mis valib iga kord sammu, mis tundub eesmärgile kõige lähemal, ja **A\* algoritm**, millest räägime kohe lähemalt.
+**Informeeritud otsing** kasutab heuristilist infot, et hinnata, milline tee tundub kõige lootustandvam. Siia kuuluvad **parim-esmalt otsing** (*best-first search*), mis laiendab alati kõige paremana näivat olekut, **ahne otsing** (*greedy search*), mis valib iga kord sammu, mis tundub eesmärgile kõige lähemal, ja **<span class="pae-term" tabindex="0" data-def="A\* algoritm: Informeeritud otsing, mis valib teed valemi f(n) = g(n) + h(n) põhjal">A\* algoritm</span>**, millest räägime kohe lähemalt.
 
 **Lokaalse otsingu algoritmid** ei koosta kogu teed, vaid püüavad olemasolevat lahendust järk-järgult paremaks muuta. **Mäkketõus** (*hill climbing*) liigub alati paremuse poole – nagu matkaja, kes astub udus alati sinna, kus maapind tõuseb. Oht on see, et ta jääb mõne väikese künka otsa ega leia kõrgeimat mäge. **Simuleeritud lõõmutamine** (*simulated annealing*) lubab alguses ka vahel halvemaid samme teha, et sellisest lõksust välja pääseda. **Geneetilised algoritmid** jäljendavad looduslikku valikut: paljudest lahendustest jäetakse alles paremad, neid „ristatakse“ ja muudetakse veidi ning nii saadakse uus põlvkond lahendusi.
 
-### A\* algoritm ja mängupuud
+### ➕ A\* algoritm ja mängupuud
 
 **A\* algoritm** (hääldatakse „A-täht“) on üks tuntumaid otsingualgoritme. Selle põhimõte on kombineerida juba läbitud tee **kulu** ja **heuristilist hinnangut** sellele, kui palju on veel minna:
 
@@ -9036,11 +10540,11 @@ A\* on populaarne, sest sellel on head omadused. Ta on **täielik** – kui lahe
 <!-- class="pae-eesti" -->
 > **Eesti näide: Starship ja Bolt**
 >
-> Eesti ettevõtte **Starship Technologies** kullerrobotid liiguvad iseseisvalt linnatänavatel ja toimetavad kohale pakke ja toitu. Nad kasutavad tehisintellekti ja arvutinägemist, et navigeerida – see tähendab muu hulgas pidevalt otsustada, millist teed mööda sihtkohta jõuda. **Bolt** kasutab tehisintellekti nõudluse ennustamiseks, hindade optimeerimiseks ja sõitude sobitamiseks ehk lahendab iga päev tohutul hulgal optimeerimisprobleeme.
+> 2014. aastal Tallinnas asutatud **Starship Technologies** teeb kullerroboteid, mis liiguvad kõnniteedel suures osas iseseisvalt ja toimetavad kohale pakke ja toitu. Nad kasutavad navigeerimiseks arvutinägemist – see tähendab muu hulgas pidevalt otsustada, millist teed mööda sihtkohta jõuda. **Bolt** kasutab masinõpet näiteks sõitjate ja juhtide sobitamiseks ning saabumisaja ennustamiseks ehk lahendab iga päev tohutul hulgal optimeerimisprobleeme.
 
 Teistsugune olukord on siis, kui vastas on teine mängija, kes püüab sind võita. Sellisel juhul kasutatakse **mängupuud**: selle sõlmed on mänguseisud ja kaared lubatud käigud. Mängupuu esitab kõik võimalikud käigud ja vastukäigud.
 
-Kahe mängija **nullsummamängude** jaoks (ühe võit on teise kaotus, nagu males) kasutatakse **minimax-algoritmi**. Selles on kaks rolli: **maksimeerija** (meie), kes püüab tulemust võimalikult suureks saada, ja **minimeerija** (vastane), kes püüab seda võimalikult väikeseks saada. Algoritm eeldab, et vastane mängib alati parimal võimalikul viisil.
+Kahe mängija **nullsummamängude** jaoks (ühe võit on teise kaotus, nagu males) kasutatakse **<span class="pae-term" tabindex="0" data-def="minimax: Mänguotsingu algoritm, mis eeldab, et vastane mängib parimal viisil">minimax</span>-algoritmi**. Selles on kaks rolli: **maksimeerija** (meie), kes püüab tulemust võimalikult suureks saada, ja **minimeerija** (vastane), kes püüab seda võimalikult väikeseks saada. Algoritm eeldab, et vastane mängib alati parimal võimalikul viisil.
 
 ![Minimaxi mängupuu: minu käigu all on käigud A ja B, nende all vastase käigud tulemustega +3 ja −2 ning +1 ja +4; vastane valib igas harus halvima ehk −2 ja +1, mina valin nende seast parima ehk käigu B](pildid/plokk_4/4_1_minimax.svg "Joonis 4.1.2. Minimax-algoritm valib käigu, mis on parim ka siis, kui vastane mängib hästi")
 
@@ -9083,7 +10587,7 @@ Vihmavarju puu joonistasime ise, oma kogemuse põhjal. Masinõppes aga **ehitab 
 
 Kõige tähtsam küsimus on: **milline tunnus on „parim“?** Eesmärk on saada võimalikult **homogeensed** (ühtlased) rühmad – sellised, kus kõigil on sama vastus. Kui pärast jagamist on ühes rühmas ainult „võttis vihmavarju“ ja teises ainult „ei võtnud“, on jagamine olnud suurepärane. Kui mõlemas rühmas on vastused endiselt segamini, ei aidanud see küsimus palju.
 
-Jagamise headuse mõõtmiseks on mitu kriteeriumit. **Informatsioonivõit** (*information gain*) näitab, kui palju segadust ehk ebakindlust jagamine vähendab. **Gini indeks** mõõdab, kui „segane“ rühm on – mida väiksem, seda puhtam. Regressioonipuude puhul kasutatakse **hälbe vähenemist** (*variance reduction*): kui palju väheneb arvuliste väärtuste hajuvus rühma sees.
+Jagamise headuse mõõtmiseks on mitu kriteeriumit. **Informatsioonivõit** (*information gain*) näitab, kui palju segadust ehk ebakindlust jagamine vähendab. **Gini indeks** mõõdab, kui „segane“ rühm on – mida väiksem, seda puhtam. Regressioonipuude puhul kasutatakse **dispersiooni vähenemist** (*variance reduction*): kui palju väheneb arvuliste väärtuste hajuvus rühma sees.
 
 Puu ei saa kasvada lõpmatuseni, seepärast seatakse **peatumistingimused**: puu on jõudnud lubatud maksimaalse sügavuseni, rühmas on alles jäänud liiga vähe näiteid või rühm on juba homogeenne.
 
@@ -9105,15 +10609,15 @@ Juhuslik mets on tavaliselt täpsem kui üksik puu, sellel on vähem ülesobitam
 Otsustuspuudel on mitu olulist **eelist**:
 
 - **Interpreteeritavus.** Otsustusprotsess on läbipaistev ja visuaalselt mõistetav. Otsustuspuud nimetatakse **„valge kasti“ mudeliks**, sest selle sisse saab vaadata ja iga otsust põhjendada.
-- **Vähene eeltöötlus.** Andmeid ei pea eelnevalt normaliseerima (samale skaalale viima), puu saab hakkama puuduvate väärtustega ning töötab nii arvuliste kui ka kategooriliste andmetega.
-- **Efektiivsus.** Puu treenimine ja ennustamine on kiire ning meetod skaleerub hästi suurtele andmehulkadele.
+- **Vähene eeltöötlus.** Andmeid ei pea eelnevalt normaliseerima (samale skaalale viima), paljud puu-algoritmid saavad hakkama ka puuduvate väärtustega ning puu töötab nii arvuliste kui ka kategooriliste andmetega.
+- **Efektiivsus.** Valmis puuga ennustamine on väga kiire ja ka treenimine on enamasti kiire.
 - **Tunnuste olulisus.** Puust on näha, millised tunnused on otsuse jaoks kõige olulisemad.
 
 Samas on otsustuspuudel ka **piirangud**:
 
-- **Ülesobitamine.** Liiga keerukas puu „õpib andmed pähe“ – ta töötab treeningandmetel suurepäraselt, aga uutel andmetel halvasti. Lahendus on puu **kärpimine** (ebaoluliste harude eemaldamine) ja maksimaalse sügavuse piiramine.
+- **<span class="pae-term" tabindex="0" data-def="ülesobitamine: Mudel õpib treeningandmed pähe ega üldista uutele andmetele">Ülesobitamine</span>.** Liiga keerukas puu „õpib andmed pähe“ – ta töötab treeningandmetel suurepäraselt, aga uutel andmetel halvasti. Lahendus on puu **kärpimine** (ebaoluliste harude eemaldamine) ja maksimaalse sügavuse piiramine.
 - **Ebastabiilsus.** Väike muutus andmetes võib anda hoopis teistsuguse puu. Lahendus on ansamblimeetodid, näiteks juhuslik mets.
-- **Optimaalsuse puudumine.** Puu ehitamisel kasutatakse ahneid algoritme, mis valivad igal sammul parima jagamise, kuid see ei garanteeri, et kogu puu tervikuna on parim võimalik.
+- **Optimaalsuse puudumine.** Parima võimaliku puu leidmine on arvutuslikult väga raske, seepärast kasutatakse ahneid algoritme, mis valivad igal sammul parima jagamise. See ei garanteeri, et kogu puu tervikuna on parim võimalik.
 - **Kallutatus tunnuste valikul.** Algoritm eelistab tunnuseid, millel on palju erinevaid väärtusi. Seda leevendab normaliseeritud informatsioonivõit.
 
 Otsustuspuid kasutatakse paljudes valdkondades:
@@ -9128,20 +10632,37 @@ Otsustuspuid kasutatakse paljudes valdkondades:
 <!-- class="pae-eesti" -->
 > **Eesti näide: pangad ja pettuste tuvastamine**
 >
-> Eesti pank **LHV** kasutab tehisintellekti pettuste tuvastamiseks ja klienditeeninduse parandamiseks; Eesti ettevõte **Salv** aitab pankadel tuvastada rahapesu ja pettusi. Pettuste tuvastamine on tüüpiline klassifitseerimisülesanne („kahtlane“ või „tavaline“ tehing), mille lahendamiseks sobivad ka otsustuspuud ja nende ansamblid.
+> Eesti idufirma **Salv** pakub pankadele ja makseasutustele tarkvara, mis aitab tuvastada rahapesu ja pettusi. Pettuste tuvastamine on tüüpiline klassifitseerimisülesanne („kahtlane“ või „tavaline“ tehing), mille lahendamiseks sobivad ka otsustuspuud ja nende ansamblid.
 
 Kui algoritm teeb otsuseid inimeste kohta, tekivad **eetilised küsimused**. Esiteks **läbipaistvus ja keerukus**: üksik otsustuspuu on läbipaistev, kuid sadadest puudest koosnevat juhuslikku metsa on juba palju raskem selgitada. Tuleb leida tasakaal täpsuse ja selgitatavuse vahel. Teiseks **kallutatus andmetes**: kui treeningandmed on ebaõiglased, kandub see ebaõiglus mudelisse üle, seepärast tuleb andmeid tasakaalustada. Kolmandaks **vastutus**: kes vastutab, kui algoritm teeb vale otsuse, ja milline on inimese roll otsustusprotsessis? Neljandaks **privaatsus**: otsuste tegemiseks kasutatakse sageli tundlikke andmeid, mis vajavad isikuandmete kaitset.
 
 <!-- class="pae-lisaks" -->
 > **Tea lisaks**
 >
-> Euroopa Liidu **isikuandmete kaitse üldmäärus (GDPR)** annab inimesele teatud juhtudel õiguse, et tema kohta tehtud oluline otsus ei põhineks üksnes automatiseeritud töötlusel. See on üks põhjus, miks selgitatavad mudelid, nagu otsustuspuud, on Euroopas eriti hinnatud.
+> Euroopa Liidu **isikuandmete kaitse üldmääruse (GDPR) artikkel 22** annab inimesele õiguse, et tema kohta ei tehtaks üksnes automatiseeritud töötlusel põhinevat otsust, millel on talle õiguslikud tagajärjed või muu märkimisväärne mõju (seadusest tulenevate eranditega). See on üks põhjus, miks selgitatavad mudelid, nagu otsustuspuud, on Euroopas eriti hinnatud.
 
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
 >
 > - Millistes valdkondades võiksid otsustuspuud tuua kõige rohkem kasu?
 > - Kujuta ette, et pank lükkab sinu laenutaotluse tagasi. Kas eelistaksid, et otsuse tegi selgitatav otsustuspuu või täpsem, aga raskesti seletatav mudel? Kuidas tasakaalustada algoritmilise otsustamise täpsust ja läbipaistvust?
+
+### 🧪 TI-katse: kuidas otsustuspuu õpib ja ülesobitub
+
+Vaatad interaktiivset näidet, kus arvuti ehitab andmetest otsustuspuu, mis eristab New Yorgi ja San Francisco kortereid. Nii näed oma silmaga, kuidas puu küsimusi valib ja miks liiga sügav puu uute andmetega eksib.
+
+**Vaja läheb:** veebileht [R2D3: A visual introduction to machine learning](https://r2d3.us/visual-intro-to-machine-learning-part-1/) (ingliskeelne, tasuta, sisselogimist pole vaja), ~10 min, paaristöö
+
+1. Ava leht ja keri see aeglaselt lõpuni. Jälgi, millise tunnuse järgi (nt kõrgus merepinnast, ruutmeetri hind) puu andmed esimesena kaheks jagab.
+2. Kirjuta üles, kui täpne on puu pärast esimesi jagamisi, pärast mitut kihti ja siis, kui puu on kasvatatud nii sügavaks, et iga treeningnäide on õigesti liigitatud (protsendid on lehel näha).
+3. Ava [teine osa](https://r2d3.us/visual-intro-to-machine-learning-part-2/) ja loe ainult esimest jaotist: kui suur on sama sügava puu viga **uute (test)andmete** peal?
+
+**Pane tähele / kirjuta üles:** Millise tunnuse valis puu juuretipuks? Miks on 100% täpsus treeningandmetel petlik?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** Kirjutage tahvlile 10 puuvilja ja igaühe kolm tunnust (nt värv, kas koor süüakse, kas kasvab Eestis). Ehitage puu, mis liigitab kõik 10 õigesti „kodumaiseks“ või „välismaiseks“, ja testige seda 3 uue puuviljaga. Arutage, miks uute näidetega tekkisid vead.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -9168,10 +10689,18 @@ Kui algoritm teeb otsuseid inimeste kohta, tekivad **eetilised küsimused**. Esi
 | Juhuslik mets | ansamblimeetod, mis kombineerib paljude otsustuspuude ennustused |
 | Ülesobitamine | olukord, kus mudel „õpib treeningandmed pähe“ ja töötab uutel andmetel halvasti |
 
+### 📚 Allikad ja lisalugemine
+
+- R2D3: S. Yee ja T. Chu (s.a.). [A visual introduction to machine learning, Part I](https://r2d3.us/visual-intro-to-machine-learning-part-1/). Interaktiivne ingliskeelne lugu sellest, kuidas otsustuspuu andmetest õpib; sobib hästi lisalugemiseks.
+- R2D3: S. Yee ja T. Chu (2018). [Model tuning and the bias-variance tradeoff, Part II](https://r2d3.us/visual-intro-to-machine-learning-part-2/). Sama sarja teine osa: ülesobitamine ja see, miks eri andmetel kasvatatud puud erinevad.
+- scikit-learn (2024). [Decision Trees](https://scikit-learn.org/1.4/modules/tree.html). Masinõppeteegi juhend: otsustuspuude eelised ja puudused, ülesobitamine, kärpimine ja CART-algoritm.
+- Wikipedia (s.a.). [AlphaGo versus Lee Sedol](https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol). 2016. aasta märtsis Soulis peetud go-matš, mille AlphaGo võitis 4 : 1.
+- Euroopa Liit (2016). [Isikuandmete kaitse üldmäärus, artikkel 22](https://gdpr-text.com/et/read/article-22). Eestikeelne tekst: õigus, et sinu kohta ei tehtaks otsust üksnes automatiseeritud töötluse põhjal.
+
 ### Tööleht 4.1
 
 <!-- class="pae-jaotis" -->
-**I. Probleemilahenduse põhimõisted tehisintellektis**
+**➕ I. Probleemilahenduse põhimõisted tehisintellektis**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on probleemilahendus tehisintellekti kontekstis.
 
@@ -9198,7 +10727,7 @@ Otsinguprobleemis otsitakse teed algolekust lõppolekusse (B), olekuruum on kõi
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Probleemide esitamine ja lahendamine**
+**➕ II. Probleemide esitamine ja lahendamine**
 
 **Ülesanne 3.** Kirjelda, kuidas saab probleeme esitada tehisintellektis.
 
@@ -9250,9 +10779,9 @@ d) Minimax:
 [[___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Otsustuspuud**
+**⭐ III. Otsustuspuud**
 
-**Ülesanne 6.** Selgita oma sõnadega, mis on otsustuspuu.
+**Ülesanne 6.** Selgita oma sõnadega, mis on otsustuspuu. Too näide otsusest, mida tunnis ei käsitletud (nt telefoni ostmine või trenni minek).
 
 [[___ ___ ___]]
 
@@ -9260,7 +10789,7 @@ d) Minimax:
 
 [[___ ___ ___ ___ ___]]
 
-**Ülesanne 8.** Kirjelda otsustuspuu põhikomponente.
+**Ülesanne 8.** Leia ülesande 7 puult otsustuspuu põhikomponendid ja kirjuta, mis need sinu puus on.
 
 a) Juuretipp:
 
@@ -9278,12 +10807,12 @@ d) Hargnemine:
 
 [[___]]
 
-**Ülesanne 9.** Kuidas toimub otsustuspuude õppimine andmetest?
+**Ülesanne 9.** Kujuta ette, et arvuti peaks sinu ülesande 7 puu ise andmetest ehitama. Milliseid andmeid oleks vaja ja kuidas valiks algoritm juuretipu küsimuse?
 
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Otsustuspuude rakendused**
+**➕ IV. Otsustuspuude rakendused**
 
 **Ülesanne 10.** Täida tabel otsustuspuude rakenduste kohta erinevates valdkondades.
 
@@ -9326,7 +10855,7 @@ Puudused:
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Praktiline ülesanne**
+**⭐ V. Praktiline ülesanne**
 
 **Ülesanne 12.** Vali üks järgmistest praktilistest ülesannetest.
 
@@ -9363,7 +10892,7 @@ d) Millised võiksid olla lahenduse eelised ja piirangud?
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Tehisintellekti otsustusprotsessid**
+**➕ VI. Tehisintellekti otsustusprotsessid**
 
 **Ülesanne 13.** Võrdle inimese ja tehisintellekti otsustusprotsesse.
 
@@ -9400,7 +10929,7 @@ d) Millised võiksid olla lahenduse eelised ja piirangud?
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Arutelu**
+**⭐ VII. Arutelu**
 
 **Ülesanne 15.** Millistes olukordades on parem usaldada otsuste tegemist inimesele ja millistes tehisintellektile? Põhjenda.
 
@@ -9504,23 +11033,77 @@ Liiga sügav puu kipub ülesobituma ehk õpib treeningandmed pähe ja töötab u
 
 </details>
 
+### 📤 Väljapääsupilet 4.1
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['4.1'] = ["Koostasid otsustuspuu, mis ennustab, kas klassikaaslane tuleb trenni. Miks võib puu uutel päevadel eksida, kuigi treeningandmetel oli see 100% täpne?", "Mis juhtus TI-katses puu täpsusega treening- ja testandmetel, kui puu muutus sügavamaks?", "Kus oled oma elus kohanud algoritmi, mis teeb sinu kohta otsuse? Kas saaksid teada, miks otsus tehti?"];
+setTimeout(function(){var d=window.paePilet.load('4.1');document.querySelectorAll('[data-pilet="4.1"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="4.1" name="nimi" oninput="window.paePilet.save('4.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Koostasid otsustuspuu, mis ennustab, kas klassikaaslane tuleb trenni. Miks võib puu uutel päevadel eksida, kuigi treeningandmetel oli see 100% täpne?</div><textarea data-pilet="4.1" name="q0" oninput="window.paePilet.save('4.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mis juhtus TI-katses puu täpsusega treening- ja testandmetel, kui puu muutus sügavamaks?</div><textarea data-pilet="4.1" name="q1" oninput="window.paePilet.save('4.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus oled oma elus kohanud algoritmi, mis teeb sinu kohta otsuse? Kas saaksid teada, miks otsus tehti?</div><textarea data-pilet="4.1" name="q2" oninput="window.paePilet.save('4.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('4.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('4.1')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_4.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 4.1
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma ehitasin endale otsustuspuu, aga see õppis treeningandmed nii hästi pähe, et eksib nüüd igal uuel ristmikul. Äkki aitaks, kui küsiksin nõu mitte ühelt puult, vaid tervelt hulgalt?“
 
-Lukk avaneb, kui lahendad mõistatuse. Loe kirjeldust ja kirjuta vastuseks mõiste (kaks sõna).
+Lukk avaneb, kui lahendad ülesande. Loe juhtumit ja kirjuta vastuseks, millist tunnis õpitud meetodit raamatukogu kasutab (kaks sõna).
 
-*Ma ei ole üks puu, vaid terve hulk otsustuspuid. Iga mu puu õpib veidi erinevate andmete ja tunnuste põhjal ning annab oma ennustuse. Mina panen need hääled kokku ja olen seetõttu tavaliselt täpsem kui üksik puu. Kes ma olen?*
+*Kooli raamatukogu tahab ennustada, kas õpilasele mõni raamat meeldib. Esimene otsustuspuu õppis laenutusandmed pähe ja eksis uute õpilaste puhul tihti. Nüüd ehitab raamatukoguhoidja 300 otsustuspuud: iga puu saab andmetest juhusliku valimi ja vaatab ainult osa tunnustest (žanr, pikkus, autor, ilmumisaasta). Lõpliku soovituse annab puude häälteenamus. Millist meetodit raamatukogu kasutab?*
 
 [[juhuslik mets]]
-[[?]] Vihje: mitu puud koos moodustavad ... ja nende valik on veidi juhuslik.
+[[?]] Vihje 1: Kas raamatukogu kasutab üht mudelit või paljude mudelite ühist otsust? Kuidas nimetatakse kooslust, kus kasvab palju puid?
+[[?]] Vihje 2: Vastuse sõnade algustähed on J ja M. Esimene sõna tähendab „suvaline, ettearvamatu“.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Kuidas otsustuspuu andmetest õpib?“ ja loe lõik „Üks puu võib eksida …“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI279") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["juhuslik mets", "juhuslikmets", "juhusliku metsa", "juhuslikku metsa", "juhuslik mets (random forest)", "random forest"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Juhuslik mets on ansamblimeetod: paljude otsustuspuude ühine otsus aitab vähendada üksiku puu ülesobitamist ja ebastabiilsust.
+✅ **Lukk avatud!** Raamatukogu kasutab juhuslikku metsa. See on ansamblimeetod: paljude veidi erinevate otsustuspuude ühine otsus aitab vähendada üksiku puu ülesobitamist ja ebastabiilsust.
 
 🔑 **Sinu võtmetäht: T**
 
@@ -9531,17 +11114,37 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 4.2 Ekspertsüsteemid ja reeglistikud
 
 <!-- class="pae-kaas" -->
-![Arst istub vastuvõtul patsiendi vastas ja osutab arvutiekraanile, kus ekspertsüsteem küsib „Palavik?“ ning kõrval on reeglid „KUI palavik“, „JA köha“, „SIIS gripp?“.](pildid/illustratsioonid/4_2.jpg)
+![Valges kitlis arst istub kabinetis eaka patsiendi vastas ja näitab arvutiekraanile, millel on vooskeem otsustuskoha ning „jah“- ja „ei“-harudega. Akna taga paistab Tallinna vanalinna kirikutorn.](pildid/illustratsioonid/4_2.jpg)
 
 ### Õpieesmärgid
 
-Selle tunni lõpuks sa:
+Selle tunni järel sa:
 
-- mõistad, mis on ekspertsüsteem ja millistest komponentidest see koosneb;
-- oskad kirjutada lihtsaid „KUI … SIIS …“ reegleid ja selgitada, kuidas reeglistik töötab;
-- oskad selgitada edasisuunalise ja tagasisuunalise aheldamise erinevust;
-- tunned tuntumaid ekspertsüsteeme ja nende rakendusi;
-- oskad võrrelda ekspertsüsteeme masinõppega ning analüüsida nende eeliseid ja piiranguid.
+- **selgitad oma sõnadega**, mis on <span class="pae-term" tabindex="0" data-def="ekspertsüsteem: Teadmispõhine süsteem, mis kasutab inimekspertide teadmistest koostatud reegleid">ekspertsüsteem</span> ja millistest komponentidest see koosneb *(mõistmine)*;
+- **koostad** lihtsaid „KUI … SIIS …“ reegleid ja **nimetad** nende tingimuse ja järelduse *(rakendamine, loomine)*;
+- **eristad** edasisuunalist ja tagasisuunalist aheldamist ning **võrdled** ekspertsüsteeme masinõppega *(analüüs)*;
+- **katsetad** küsimusi esitavat arvamismängu ja **põhjendad**, millist aheldamist see meenutab ning kus see hätta jääb *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Mis on ekspertsüsteem?“, „Teadmiste esitamine ja <span class="pae-term" tabindex="0" data-def="reeglistik: „KUI …, SIIS …“-tüüpi reeglite kogum, mis määrab süsteemi käitumise">reeglistikud</span>“, „Kuidas ekspertsüsteem järeldusi teeb?“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Kuidas küsimusi esitav süsteem järeldab“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded III, VI ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Ekspertsüsteem jäljendab inimeksperdi teadmisi ja otsuseid ühes kitsas valdkonnas. Teadmised panevad süsteemi sisse inimesed, arvuti ei õpi neid andmetest. Teadmised kirjutatakse reeglitena, näiteks „KUI loomal on suled, SIIS loom on lind“. Reeglite kogumit nimetatakse reeglistikuks. <span class="pae-term" tabindex="0" data-def="edasisuunaline aheldamine: Järeldamine faktidest järeldusteni (andmepõhine)">Edasisuunaline aheldamine</span> alustab faktidest ja jõuab järelduseni. <span class="pae-term" tabindex="0" data-def="tagasisuunaline aheldamine: Järeldamine hüpoteesist tõendite suunas (eesmärgipõhine)">Tagasisuunaline aheldamine</span> alustab oletusest ja otsib sellele tõendeid. Ekspertsüsteemi otsust on lihtne selgitada, sest reeglid on näha. Kuid süsteem ei oska ise midagi juurde õppida, uued reeglid kirjutab inimene.
+
+**Tähtsad sõnad:** **ekspertsüsteem** – süsteem, mis kasutab eksperdi teadmisi; **reeglistik** – „KUI …, SIIS …“ reeglite kogum; **edasisuunaline aheldamine** – järeldamine faktidest järelduseni; **tagasisuunaline aheldamine** – oletuse kontrollimine tõendite abil.
+
+</section>
 
 ### Mis on ekspertsüsteem?
 
@@ -9565,7 +11168,7 @@ Tuntumad ajaloolised ekspertsüsteemid:
 | **XCON (R1)** | 1980. aastad | koostas arvutite konfiguratsioone; üks esimesi kommertslikult edukaid ekspertsüsteeme |
 | **PROSPECTOR** | 1970.–1980. aastad | aitas tuvastada geoloogilisi leiukohti ja leida väärtuslikke maavarasid |
 
-![Ajajoon 1960. aastatest tänapäevani: esimesed edukad süsteemid, 1980. aastate kuldajastu, huvi langus 1990. aastatel ja tänapäeval põimumine teiste TI meetoditega; all kaardid DENDRAL, MYCIN, PROSPECTOR ja XCON](pildid/plokk_4/4_2_ajajoon.svg "Joonis 4.2.1. Ekspertsüsteemide ajalugu ja tuntumad süsteemid")
+![Ajajoon 1960. aastatest tänapäevani: esimesed edukad süsteemid, 1980. aastate kuldajastu, huvi langus 1990. aastatel ja tänapäeval põimumine teiste TI-meetoditega; all kaardid DENDRAL, MYCIN, PROSPECTOR ja XCON](pildid/plokk_4/4_2_ajajoon.svg "Joonis 4.2.1. Ekspertsüsteemide ajalugu ja tuntumad süsteemid")
 
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** **1980. aastaid** nimetatakse ekspertsüsteemide **kuldajastuks**. Siis jõudsid need ka ettevõtetesse – näiteks XCON koostas arvutite konfiguratsioone ja oli üks esimesi kommertslikult edukaid ekspertsüsteeme.
@@ -9575,12 +11178,12 @@ Tuntumad ajaloolised ekspertsüsteemid:
 >
 > MYCIN-i nimi tuleb sellest, et paljude antibiootikumide nimed lõpevad ingliskeelse liitega *-mycin* (nt *streptomycin*). Süsteem küsis arstilt patsiendi kohta küsimusi ja soovitas sobivat ravi – ning oskas ka selgitada, miks ta just selle soovituse andis.
 
-### Ekspertsüsteemi ülesehitus
+### ➕ Ekspertsüsteemi ülesehitus
 
 Ekspertsüsteem koosneb mitmest osast, millest igaühel on kindel ülesanne.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: teadmusbaas ja järeldusmehhanism**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="teadmusbaas: Andmekogu, kust vestlusrobot leiab fakte ja vastuseid">teadmusbaas</span> ja <span class="pae-term" tabindex="0" data-def="järeldusmehhanism: Süsteemi osa, mis rakendab reegleid faktidele ja tuletab uusi järeldusi">järeldusmehhanism</span>**
 >
 > **Teadmusbaas** on süsteemi osa, mis sisaldab valdkonna fakte ja reegleid – ekspertide teadmiste formaliseeritud (kindlas vormis kirja pandud) esitust.
 >
@@ -9589,7 +11192,7 @@ Ekspertsüsteem koosneb mitmest osast, millest igaühel on kindel ülesanne.
 Lisaks neile kahele on ekspertsüsteemis veel:
 
 - **kasutajaliides**, mille kaudu kasutaja süsteemiga suhtleb – vastab küsimustele ja saab vastuseid;
-- **selgitusmoodul**, mis selgitab, kuidas süsteem oma järelduseni jõudis. See suurendab läbipaistvust ja usaldust: arst ei pea lihtsalt uskuma, vaid näeb, milliste reeglite põhjal soovitus tehti;
+- **<span class="pae-term" tabindex="0" data-def="selgitusmoodul: Süsteemi osa, mis selgitab, kuidas järelduseni jõuti">selgitusmoodul</span>**, mis selgitab, kuidas süsteem oma järelduseni jõudis. See suurendab läbipaistvust ja usaldust: arst ei pea lihtsalt uskuma, vaid näeb, milliste reeglite põhjal soovitus tehti;
 - **teadmuse omandamise moodul**, mille abil eksperdid ja arendajad saavad teadmusbaasi uusi fakte ja reegleid lisada ning olemasolevaid muuta;
 - **töömälu**, kuhu salvestatakse konkreetse juhtumi faktid (nt selle patsiendi sümptomid).
 
@@ -9641,29 +11244,26 @@ Päriselus pole info alati kindel. Arst ei saa alati öelda „patsiendil on kin
 
 - **Tõenäosuslikud meetodid**, näiteks **Bayesi võrgud** – tõenäosuslikud graafilised mudelid, mis esitavad muutujate vahelisi sõltuvusi (nt kuidas mõjutavad üksteist ilm, õhurõhk ja vihma tõenäosus), ning tõenäosuslikud reeglid.
 - **Usutavusteooria (Dempsteri–Shaferi teooria)**, mis eristab **teadmatust** (meil pole infot) ja **ebakindlust** (info on olemas, aga see ei anna kindlat vastust).
-- **Hägusloogika** (*fuzzy logic*), mis töötab ebatäpsete või osaliste väärtustega: „KUI temperatuur on KÕRGE, SIIS suurenda jahutust.“ Mis on „kõrge“, ei ole järsk piir, vaid sujuv üleminek.
+- **<span class="pae-term" tabindex="0" data-def="hägusloogika: Loogika, mis töötab ebatäpsete väärtustega (nt „kõrge temperatuur“)">Hägusloogika</span>** (*fuzzy logic*), mis töötab ebatäpsete või osaliste väärtustega: „KUI temperatuur on KÕRGE, SIIS suurenda jahutust.“ Mis on „kõrge“, ei ole järsk piir, vaid sujuv üleminek.
 - **Usalduskoefitsiendid**, mis omistavad reeglitele ja faktidele usaldusastme – näiteks reegel kehtib usaldusastmega 0,8 ehk süsteem on oma järelduses umbes 80% kindel.
 
-<!-- class="pae-fakt" -->
-> **Kas teadsid?** Eesti riigi virtuaalassistentide võrgustik **Bürokratt** valiti 2022. aastal parimaks tehisintellektil põhinevaks riigiteenuseks ja jõudis UNESCO maailma saja parima tehisintellekti lahenduse hulka.
+### ➕ Reeglimootorid ja rakendused
 
-### Reeglimootorid ja rakendused
-
-Ekspertsüsteemide ideed elavad tänapäeval edasi **reeglimootorites**.
+Ekspertsüsteemide ideed elavad tänapäeval edasi **<span class="pae-term" tabindex="0" data-def="reeglimootor: Tarkvara, mis rakendab reegleid andmetele">reeglimootorites</span>**.
 
 <!-- class="pae-moiste" -->
 > **Mõiste: reeglimootor**
 >
 > Reeglimootor on tarkvara, mis rakendab reegleid andmetele. Selle osad on **reeglite hoidla**, **järeldusmehhanism**, **töömälu** (faktide hoidla) ja **konfliktide lahendamise strateegia**, mis otsustab, millist reeglit rakendada, kui korraga sobib mitu.
 
-Tuntud reeglimootorid on näiteks **Drools**, **CLIPS**, **JESS** ja **IBM Operational Decision Manager**. Neid kasutatakse **ärireeglite haldamiseks**, **otsuste automatiseerimiseks** ja **vastavuskontrolliks** (kas tegevus vastab seadustele ja nõuetele).
+Tuntud reeglimootorid on näiteks **Drools**, **CLIPS**, **Jess** ja **IBM Operational Decision Manager**. Neid kasutatakse **ärireeglite haldamiseks**, **otsuste automatiseerimiseks** ja **vastavuskontrolliks** (kas tegevus vastab seadustele ja nõuetele).
 
 Suurettevõtted kasutavad **ärireeglite haldussüsteeme** – süsteeme ärireeglite defineerimiseks, haldamiseks ja rakendamiseks. Nende suur eelis on, et **reeglid on programmikoodist eraldi**. Nii saavad reegleid muuta ka **mitteprogrammeerijad** (nt kindlustusspetsialist või jurist) ja ettevõte saab muutustega kiiresti kohaneda. Sellised süsteemid koosnevad reeglite kirjeldamise keelest, reeglite haldamise liidesest, reeglimootoritest ja integratsioonimehhanismidest (ühendustest teiste infosüsteemidega). Näited on **IBM ODM**, **Red Hat Decision Manager** ja **Oracle Business Rules**.
 
 <!-- class="pae-eesti" -->
 > **Eesti näide: rahapesu tõkestamine**
 >
-> Pangad peavad kontrollima, et nende kaudu ei pestaks raha. Traditsiooniliselt kasutatakse selleks reeglipõhiseid kontrolle (näiteks: KUI ülekanne on ebatavaliselt suur JA läheb kõrge riskiga riiki, SIIS märgi see kontrollimiseks). Eesti ettevõte **Salv** kasutab tehisintellekti, et aidata pankadel ja finantsasutustel rahapesu ja pettusi tuvastada. Selles valdkonnas töötavad reeglid ja masinõpe sageli käsikäes.
+> Pangad peavad kontrollima, et nende kaudu ei pestaks raha. Traditsiooniliselt kasutatakse selleks reeglipõhiseid kontrolle (näiteks: KUI ülekanne on ebatavaliselt suur JA läheb kõrge riskiga riiki, SIIS märgi see kontrollimiseks). Eesti idufirma **Salv** pakub pankadele ja finantsasutustele tarkvara, mis aitab rahapesu ja pettusi tuvastada. Selles valdkonnas töötavad reeglid ja masinõpe sageli käsikäes.
 
 Ekspertsüsteeme ja reeglistikke kasutatakse paljudes valdkondades:
 
@@ -9674,7 +11274,7 @@ Ekspertsüsteeme ja reeglistikke kasutatakse paljudes valdkondades:
 | Tootmine | protsesside juhtimine, kvaliteedikontroll, rikete diagnoosimine |
 | Muud valdkonnad | õigusabi, klienditeenindus, haridus |
 
-### Ekspertsüsteemid, masinõpe ja tulevik
+### ➕ Ekspertsüsteemid, masinõpe ja tulevik
 
 Ekspertsüsteemidel on mitu olulist **eelist**. Need **säilitavad ekspertteadmisi**: kui kogenud spetsialist läheb pensionile, jäävad tema teadmised süsteemi alles. Need on **järjepidevad** – rakendavad samu reegleid alati ühtemoodi ja teevad vähem inimlikke vigu (ekspertsüsteem ei väsi ega ole halvas tujus). Need on **kättesaadavad** ööpäev läbi ja geograafilised piirangud puuduvad. Ja need on **selgitatavad**: otsustusprotsess on läbipaistev ja iga järeldust saab põhjendada.
 
@@ -9688,7 +11288,7 @@ Samas on ekspertsüsteemidel ka tõsised **piirangud**. Suurim neist on **teadmi
 | Sobivad rakendusalad | hästi defineeritud, reeglipõhised valdkonnad | mustrite tuvastamine, ennustamine |
 
 <!-- class="pae-moiste" -->
-> **Mõiste: hübriidsüsteem**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="hübriidsüsteem: Süsteem, mis kombineerib ekspertsüsteemi ja masinõpet">hübriidsüsteem</span>**
 >
 > Hübriidsüsteem kombineerib ekspertsüsteemi ja masinõpet. Nii saab ühendada ekspertteadmised ja andmepõhise õppimise, saavutada suurema täpsuse ja kohanemisvõime ning parema selgitatavuse kui puhtal masinõppel.
 
@@ -9699,7 +11299,7 @@ Ekspertsüsteemide **tulevik** on tihedalt seotud teiste tehisintellekti suundad
 <!-- class="pae-eesti" -->
 > **Eesti näide: Bürokratt**
 >
-> **Bürokratt** on Eesti riigi virtuaalassistentide võrgustik, mille abil saab kõnekeelse suhtluse kaudu kasutada avalikke teenuseid. Bürokratt valiti 2022. aastal parimaks tehisintellektil põhinevaks riigiteenuseks ja jõudis UNESCO maailma saja parima tehisintellekti lahenduse hulka. See on hea näide sellest, kuidas loomuliku keele liides teeb teadmistel põhineva teenuse inimestele lihtsamini kasutatavaks.
+> **Bürokratt** on Eesti riigiasutuste veebilehtedel olevate juturobotite võrgustik, mille kaudu saab kõnekeelse suhtluse abil infot ja avalikke teenuseid. Uuemad versioonid kasutavad ka suuri keelemudeleid. 2022. aasta alguses jõudis Bürokratt UNESCO egiidi all tegutseva rahvusvahelise tehisintellekti uurimiskeskuse IRCAI nimekirja, kuhu valiti 100 kestliku arengu eesmärke toetavat TI-projekti üle maailma. See on hea näide sellest, kuidas loomuliku keele liides teeb teadmistel põhineva teenuse inimestele lihtsamini kasutatavaks.
 
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
@@ -9708,13 +11308,30 @@ Ekspertsüsteemide **tulevik** on tihedalt seotud teiste tehisintellekti suundad
 > - Kuidas tasakaalustada ekspertteadmisi ja andmepõhist õppimist?
 > - Kes vastutab, kui ekspertsüsteem annab arstile vale soovituse – arst, süsteemi looja või reeglid kirja pannud ekspert?
 
+### 🧪 TI-katse: kuidas küsimusi esitav süsteem järeldab
+
+Mängid arvamismängu, mis püüab küsimuste abil ära arvata, millisele tegelasele sa mõtled. Akinator ei ole klassikaline ekspertsüsteem (tema teadmised on kogutud mängijate vastustest), kuid tema küsimuste ahel aitab mõista, kuidas süsteem samm-sammult järelduseni jõuab ja kus ta hätta jääb.
+
+**Vaja läheb:** [Akinator](https://en.akinator.com/) (tasuta, sisselogimist pole vaja; eesti keelt pole, vali inglise või vene keel; lehel on reklaame – ära neil klõpsa), ~10 min, paaristöö
+
+1. Mõelge ühele tuntud tegelasele (nt multifilmi- või raamatutegelane) ja vastake Akinatori küsimustele. Üks vastab, teine kirjutab üles esimesed viis küsimust.
+2. Mängige teine voor väga vähetuntud tegelasega (nt mõne Eesti lastesaate tegelasega). Mitu küsimust kulus ja kas Akinator arvas ära?
+3. Valige üles kirjutatud küsimuste seast kaks ja sõnastage need „KUI … SIIS …“ reeglina, mida süsteem oleks võinud kasutada (nt „KUI tegelane on väljamõeldud JA pärit multifilmist, SIIS küsi …“).
+
+**Pane tähele / kirjuta üles:** Kas süsteem liikus faktidest järelduse poole või kontrollis ta mingit oletust (hüpoteesi)? Miks jäi ta vähetuntud tegelase puhul hätta?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** Paarilised mõtlevad kordamööda ühele loomale. Teine tohib esitada ainult jah/ei-küsimusi ja kirjutab iga küsimuse kohe üles „KUI … SIIS …“ reeglina. Lõpuks vaadake, kas teie reeglitest saaks kokku panna väikese teadmusbaasi.
+
 ### Kokkuvõte ja põhimõisted
 
 **Pea meeles**
 
 - Ekspertsüsteem jäljendab inimeksperdi teadmisi ja otsustusprotsessi kitsas valdkonnas; tuntud näited on DENDRAL, MYCIN, XCON ja PROSPECTOR.
 - Ekspertsüsteemi põhiosad on teadmusbaas (faktid ja reeglid), järeldusmehhanism, kasutajaliides ja selgitusmoodul.
-- Reeglistik koosneb „KUI … SIIS …“ reeglitest; ebakindluse käsitlemiseks kasutatakse tõenäosusi, Bayesi võrke, hägusloogikat ja usalduskoefitsiente.
+- Reeglistik koosneb „KUI … SIIS …“ reeglitest; ebakindluse käsitlemiseks kasutatakse tõenäosusi, <span class="pae-term" tabindex="0" data-def="Bayesi võrk: Tõenäosuslik graafiline mudel, mis esitab muutujatevahelisi sõltuvusi">Bayesi võrke</span>, hägusloogikat ja usalduskoefitsiente.
 - Edasisuunaline aheldamine liigub faktidest järeldusteni, tagasisuunaline aheldamine hüpoteesist tõenditeni.
 - Ekspertsüsteemide tugevus on läbipaistvus ja järjepidevus, nõrkus aga teadmiste omandamise raskus ja võimetus ise õppida.
 - Tuleviku süsteemid kombineerivad ekspertsüsteemide ja masinõppe tugevusi (hübriidsüsteemid).
@@ -9733,10 +11350,19 @@ Ekspertsüsteemide **tulevik** on tihedalt seotud teiste tehisintellekti suundad
 | Reeglimootor | tarkvara, mis rakendab reegleid andmetele |
 | Hübriidsüsteem | süsteem, mis kombineerib ekspertsüsteemi ja masinõpet |
 
+### 📚 Allikad ja lisalugemine
+
+- Encyclopaedia Britannica (s.a.). [Expert system](https://www.britannica.com/technology/expert-system). Lühiülevaade: teadmusbaas, järeldusmehhanism, esimene ekspertsüsteem DENDRAL (1965) ja ekspertsüsteemide piirid.
+- Buchanan, B. G. ja Shortliffe, E. H. (toim.) (1984). [Rule-Based Expert Systems: The MYCIN Experiments of the Stanford Heuristic Programming Project](https://people.dbmi.columbia.edu/~ehs7001/Buchanan-Shortliffe-1984/MYCIN%20Book.htm). MYCIN-i arendajate raamat, mille kõik peatükid on tasuta loetavad.
+- AKIT – arvutikasutaja sõnastik (s.a.). [Ekspertsüsteem](https://akit.cyber.ee/term/8314). Eestikeelne termin ja definitsioonid standarditest.
+- Eesti riigi kratiportaal (s.a.). [Bürokratt](https://www.kratid.ee/burokratt). Mis on Bürokratt, kuidas see töötab ja kuidas see edasi areneb.
+- Estonian World (2022). [Four Estonian AI solutions highlighted by a UNESCO research centre](https://estonianworld.com/technology/four-estonian-ai-solutions-highlighted-by-a-unesco-research-centre/). Bürokratt ja teised Eesti lahendused IRCAI 100 TI-projekti nimekirjas.
+- PyPI (2019). [Experta – Expert Systems for Python](https://pypi.org/project/experta). Programmeerijale: Pythoni teek, millega saab ise lihtsa reeglipõhise ekspertsüsteemi kirjutada.
+
 ### Tööleht 4.2
 
 <!-- class="pae-jaotis" -->
-**I. Ekspertsüsteemide põhimõisted**
+**➕ I. Ekspertsüsteemide põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on ekspertsüsteem.
 
@@ -9763,7 +11389,7 @@ Teadmusbaas hoiab fakte ja reegleid (A), järeldusmehhanism teeb nende põhjal j
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Ekspertsüsteemide komponendid ja arhitektuur**
+**➕ II. Ekspertsüsteemide komponendid ja arhitektuur**
 
 **Ülesanne 3.** Joonista ekspertsüsteemi põhikomponentide skeem (paberile või joonistusvahendis). Kirjelda allpool, millised komponendid su skeemil on ja kuidas need omavahel seotud on.
 
@@ -9796,9 +11422,9 @@ e) Selgitusmoodul:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Reeglistikud ja järeldusmehhanism**
+**⭐ III. Reeglistikud ja järeldusmehhanism**
 
-**Ülesanne 6.** Mis on reeglistik ja kuidas seda kasutatakse ekspertsüsteemides?
+**Ülesanne 6.** Mis on reeglistik? Too näide reeglistikust, mis võiks juba praegu töötada sinu koolis (nt söökla, raamatukogu või e-päevik), ja selgita, kuidas see otsuseid teeb.
 
 [[___ ___ ___]]
 
@@ -9847,7 +11473,7 @@ b) Tagasisuunaline aheldamine ehk tagasiviiv järeldamine (*backward chaining*):
 [[___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Ekspertsüsteemide ajalugu ja areng**
+**➕ IV. Ekspertsüsteemide ajalugu ja areng**
 
 **Ülesanne 10.** Kirjelda lühidalt ekspertsüsteemide ajalugu ja arengut.
 
@@ -9880,7 +11506,7 @@ Kirjeldus:
 [[___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Ekspertsüsteemide rakendused**
+**➕ V. Ekspertsüsteemide rakendused**
 
 **Ülesanne 12.** Täida tabel ekspertsüsteemide rakenduste kohta erinevates valdkondades.
 
@@ -9923,7 +11549,7 @@ Piirangud:
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Praktiline ülesanne**
+**⭐ VI. Praktiline ülesanne**
 
 **Ülesanne 14.** Vali üks järgmistest praktilistest ülesannetest.
 
@@ -9960,7 +11586,7 @@ d) Kuidas saaks seda süsteemi paremaks muuta?
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Ekspertsüsteemid ja kaasaegne tehisintellekt**
+**⭐ VII. Ekspertsüsteemid ja kaasaegne tehisintellekt**
 
 **Ülesanne 15.** Kuidas erinevad traditsioonilised ekspertsüsteemid kaasaegsetest masinõppe lahendustest?
 
@@ -9975,7 +11601,7 @@ d) Kuidas saaks seda süsteemi paremaks muuta?
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Arutelu**
+**➕ VIII. Arutelu**
 
 **Ülesanne 18.** Millised eetilised küsimused kaasnevad ekspertsüsteemide kasutamisega otsuste tegemisel?
 
@@ -10037,7 +11663,7 @@ Esimesed edukad ekspertsüsteemid, näiteks DENDRAL: [[ (1) | 2 | 3 | 4 ]]<br>
 Ekspertsüsteemide ideed põimuvad teiste tehisintellekti meetoditega: [[ 1 | 2 | 3 | (4) ]]<br>
 Huvi langeb, sest süsteemide ehitamine ja uuendamine on keeruline: [[ 1 | 2 | (3) | 4 ]]
 ****************************************
-Õige järjekord: 1. esimesed edukad süsteemid (1960.–1970. aastad) → 2. kuldajastu (1980. aastad) → 3. huvi langus (1990. aastad) → 4. põimumine teiste TI meetoditega (tänapäev).
+Õige järjekord: 1. esimesed edukad süsteemid (1960.–1970. aastad) → 2. kuldajastu (1980. aastad) → 3. huvi langus (1990. aastad) → 4. põimumine teiste TI-meetoditega (tänapäev).
 ****************************************
 
 **6. Milline ajalooline ekspertsüsteem aitas 1970. aastatel diagnoosida bakteriaalseid infektsioone? Kirjuta süsteemi nimi.**
@@ -10073,12 +11699,62 @@ KUI õpilane on puudunud kolm päeva järjest JA puudumine pole põhjendatud, SI
 
 </details>
 
+### 📤 Väljapääsupilet 4.2
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['4.2'] = ["Kirjuta üks KUI … SIIS … reegel, mille järgi kooli e-päevik võiks õpetajale teate saata, ja nimeta selle tingimus ja järeldus.", "Kas Akinatori küsimuste ahel meenutas sinu arvates rohkem edasi- või tagasisuunalist aheldamist? Põhjenda ühe lausega.", "Mis jäi ekspertsüsteemide juures segaseks?"];
+setTimeout(function(){var d=window.paePilet.load('4.2');document.querySelectorAll('[data-pilet="4.2"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="4.2" name="nimi" oninput="window.paePilet.save('4.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kirjuta üks KUI … SIIS … reegel, mille järgi kooli e-päevik võiks õpetajale teate saata, ja nimeta selle tingimus ja järeldus.</div><textarea data-pilet="4.2" name="q0" oninput="window.paePilet.save('4.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Kas Akinatori küsimuste ahel meenutas sinu arvates rohkem edasi- või tagasisuunalist aheldamist? Põhjenda ühe lausega.</div><textarea data-pilet="4.2" name="q1" oninput="window.paePilet.save('4.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi ekspertsüsteemide juures segaseks?</div><textarea data-pilet="4.2" name="q2" oninput="window.paePilet.save('4.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('4.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('4.2')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_4.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 4.2
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Minu teadmusbaasis on faktid ja reeglid täiesti alles, aga järeldusmehhanism on kinni kiilunud. Ma tean, et väljas sajab, aga ei oska otsustada, mida jalga panna!“
 
-Lukk avaneb, kui lahendad mõistatuse. Ole Krati järeldusmehhanism: alusta faktidest ja rakenda reegleid järjest (edasisuunaline aheldamine), kuni jõuad lõppjärelduseni. Kirjuta vastuseks, mida Kratt peaks jalga panema.
+Lukk avaneb, kui lahendad ülesande. Ole Krati järeldusmehhanism: alusta faktidest ja rakenda reegleid järjest (edasisuunaline aheldamine), kuni jõuad lõppjärelduseni. Kirjuta vastuseks, mida Kratt peaks jalga panema.
 
 **Faktid:** väljas sajab; temperatuur on −3 °C; täna on koolipäev.
 
@@ -10092,10 +11768,14 @@ Lukk avaneb, kui lahendad mõistatuse. Ole Krati järeldusmehhanism: alusta fakt
 | R6 | kõnnitee on libe | pane jalga talvesaapad |
 
 [[talvesaapad]]
-[[?]] Vihje: kõigepealt selgub faktidest reegli R2 abil, mis sajab. Millised reeglid saavad pärast seda käivituda?
+[[?]] Vihje 1: Millise reegli KUI-osa on faktide põhjal kohe täidetud? Kas −3 °C on üle või alla 0 °C?
+[[?]] Vihje 2: Reeglite ahel on R2 → R5 → R6. Vastus on üks liitsõna, mis algab sõnaga „talve-“.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Kuidas ekspertsüsteem järeldusi teeb?“ ja loe lõik „Edasisuunaline aheldamine …“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI838") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["talvesaapad", "talvesaapaid", "talvesaabas", "talvesaapad jalga", "pane jalga talvesaapad"].includes(v)
+}
 </script>
 ****************************************
 ✅ **Lukk avatud!** Reeglite ahel R2 → R5 → R6 viis faktidest järelduseni – täpselt nii töötab edasisuunaline aheldamine ekspertsüsteemis.
@@ -10109,19 +11789,39 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 4.3 Soovitussüsteemid
 
 <!-- class="pae-kaas" -->
-![Õpilane istub õhtul diivanil telefoniga, teler ja telefon soovitavad talle aina sarnaseid videoid, mis tiirlevad tema ümber mullis, samal ajal kui raamat, muusika, maailm ja kunst jäävad mullist välja.](pildid/illustratsioonid/4_3.jpg)
+![Noormees istub õhtul hämaras toas diivanil ja vaatab telefoni, ümbritsetuna läbipaistvast seebimullist. Mullist väljas jäävad tähelepanuta kitarr, gloobus, raamaturiiul ja jalgpall, teleriekraanil on rida sarnaseid videosoovitusi.](pildid/illustratsioonid/4_3.jpg)
 
 ### Õpieesmärgid
 
-Selle tunni lõpuks sa:
+Selle tunni järel sa:
 
-- oskad selgitada, mis on soovitussüsteem ja miks seda kasutatakse;
-- tunned soovitussüsteemide peamisi tüüpe: sisupõhist filtreerimist, koostööfiltreerimist, teadmispõhiseid, kontekstiteadlikke ja hübriidsüsteeme;
-- mõistad, kuidas soovitusalgoritmid kasutajate ja objektide sarnasust leiavad;
-- oskad selgitada külmkäivituse probleemi ja filtrimulli tekkimist;
-- oskad kriitiliselt hinnata, kuidas soovitussüsteemid mõjutavad sinu enda valikuid.
+- **selgitad oma sõnadega**, mis on <span class="pae-term" tabindex="0" data-def="soovitussüsteem: Süsteem, mis ennustab, milline sisu või toode kasutajat huvitab">soovitussüsteem</span> ja kuidas see leiab kasutajate ja objektide sarnasust *(mõistmine)*;
+- **rakendad** külmkäivituse mõistet uues olukorras ja **pakud** sellele lahenduse *(rakendamine)*;
+- **eristad** sisupõhist filtreerimist ja koostööfiltreerimist ning **uurid** muusikakaardil, mida artistide lähedus tähendab *(analüüs)*;
+- **hindad** kriitiliselt, kas soovitussüsteemid laiendavad või kitsendavad sinu valikuid, ja **põhjendad**, kuidas <span class="pae-term" tabindex="0" data-def="filtrimull: Olukord, kus algoritm näitab kasutajale ainult tema eelistustega sarnast sisu">filtrimullist</span> välja tulla *(hindamine)*.
 
-### Mis on soovitussüsteem?
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „<span class="pae-term" tabindex="0" data-def="sisupõhine filtreerimine: Soovitamine objektide põhjal, mis on omaduste poolest sarnased kasutaja varem eelistatutega">Sisupõhine filtreerimine</span>“, „<span class="pae-term" tabindex="0" data-def="koostööfiltreerimine: Soovitamine selle põhjal, mis meeldis sarnaste eelistustega kasutajatele">Koostööfiltreerimine</span>“, „Filtrimull ja teised väljakutsed“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Muusikakaart ja koostööfiltreerimine“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded IV, VI ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Soovitussüsteem pakub sulle filme, muusikat või tooteid, mis võiksid meeldida. Sisupõhine filtreerimine soovitab asju, mis sarnanevad sinu varasemate valikutega. Näiteks vaatasid ulmefilmi ja saad soovituseks uue ulmefilmi. Koostööfiltreerimine leiab inimesed, kelle maitse sarnaneb sinu omaga. Kui neile meeldis mingi sari, soovitatakse seda ka sulle. Uue kasutaja kohta pole veel andmeid – see on <span class="pae-term" tabindex="0" data-def="külmkäivituse probleem: Süsteemil pole piisavalt andmeid uue kasutaja või objekti kohta">külmkäivituse probleem</span>. Filtrimullis näed ainult sarnast sisu ja mitmekesisus kaob. Otsi seepärast teadlikult ka teistsugust sisu ja eri vaateid.
+
+**Tähtsad sõnad:** **sisupõhine filtreerimine** – soovitus asja omaduste põhjal; **koostööfiltreerimine** – soovitus sarnaste kasutajate eelistuste põhjal; **külmkäivituse probleem** – uue kasutaja või asja kohta pole andmeid; **filtrimull** – näed ainult sarnast sisu.
+
+</section>
+
+### ➕ Mis on soovitussüsteem?
 
 Avad õhtul voogedastusplatvormi ja avalehel ootab sind rida „Sulle soovitatud“. Spotify on koostanud sulle esmaspäevaks uue esitusloendi. TikToki „Sulle“ voog (*For You*) näitab video video järel just sellist sisu, mida sa ilmselt lõpuni vaatad. Kõigi nende taga on **soovitussüsteem**.
 
@@ -10145,7 +11845,7 @@ Soovitussüsteeme on nelja põhitüüpi:
 
 ![Neli kaarti ikoonidega: sisupõhine soovitab sarnaseid objekte, koostööfiltreerimine lähtub sarnastest kasutajatest, teadmispõhine kasutab KUI–SIIS reegleid ja hübriidsüsteem kombineerib eri lähenemisi](pildid/plokk_4/4_3_tyybid.svg "Joonis 4.3.1. Soovitussüsteemide neli põhitüüpi")
 
-Teadmispõhine soovitamine sarnaneb eelmises tunnis õpitud ekspertsüsteemidega: näiteks e-poe nõustaja küsib „Milleks sa sülearvutit vajad? Kui suur on eelarve?“ ja soovitab reeglite põhjal sobiva mudeli. Vaatame nüüd lähemalt kahte kõige levinumat tüüpi.
+<span class="pae-term" tabindex="0" data-def="teadmispõhine soovitamine: Soovitamine ekspertteadmiste ja reeglite põhjal">Teadmispõhine soovitamine</span> sarnaneb eelmises tunnis õpitud ekspertsüsteemidega: näiteks e-poe nõustaja küsib „Milleks sa sülearvutit vajad? Kui suur on eelarve?“ ja soovitab reeglite põhjal sobiva mudeli. Vaatame nüüd lähemalt kahte kõige levinumat tüüpi.
 
 ### Sisupõhine filtreerimine
 
@@ -10198,17 +11898,14 @@ Koostööfiltreerimise **eelised**: see ei vaja teadmisi objektide omadustest, a
 
 **Puudused**: **külmkäivituse probleem** – uue kasutaja või uue objekti kohta pole veel andmeid. **Hõreda andmestiku probleem** – enamik kasutajaid on hinnanud ainult tühist osa kõigist objektidest, nii et maatriks on peamiselt tühi. **Populaarsuse kallutatus** – populaarseid objekte soovitatakse üha rohkem, vähetuntud objektid jäävad varju.
 
-<!-- class="pae-fakt" -->
-> **Kas teadsid?** Enamik kasutajaid on hinnanud vaid tühist osa kõigist filmidest, lugudest või toodetest. Seepärast on kasutaja-objekti maatriks suures osas **tühi** – just need „küsimärgid“ püüab soovitussüsteem ära arvata.
-
 Suurte maatriksite jaoks kasutatakse **maatriksi faktoriseerimist**. See jagab suure kasutaja-objekti maatriksi väiksemateks maatriksiteks ja leiab nii **latentsed** ehk peidetud faktorid – omadused, mida keegi pole otseselt kirja pannud, kuid mis mõjutavad eelistusi (näiteks „kui palju huumorit“ või „kui sünge“ on film). Nende abil ennustatakse puuduvad väärtused ehk küsimärgid. Tuntud algoritmid on **singulaarväärtuste lahutus (SVD)**, **alterneeruv vähimruutude meetod (ALS)** ja **mittenegatiivne maatriksi faktoriseerimine (NMF)**. Maatriksi faktoriseerimine skaleerub paremini, leevendab hõreda andmestiku probleemi ja tuvastab latentseid faktoreid.
 
 <!-- class="pae-lisaks" -->
 > **Tea lisaks**
 >
-> Maatriksi faktoriseerimine sai laiemalt tuntuks seoses Netflixi auhinnavõistlusega (*Netflix Prize*, 2006–2009), kus meeskonnad üle maailma püüdsid parandada Netflixi filmisoovituste täpsust. Paljud edukad lahendused kasutasid just latentseid faktoreid.
+> Maatriksi faktoriseerimine sai laiemalt tuntuks seoses Netflixi auhinnavõistlusega (*Netflix Prize*, 2006–2009), kus meeskonnad üle maailma püüdsid parandada Netflixi filmisoovituste täpsust. 2009. aastal võitis miljonidollarilise peaauhinna meeskond „BellKor's Pragmatic Chaos“. Parimad lahendused kombineerisid mitut meetodit, nende hulgas singulaarväärtuste lahutust (SVD).
 
-### Nutikamad soovitused: süvaõpe, kontekst ja hindamine
+### ➕ Nutikamad soovitused: süvaõpe, kontekst ja hindamine
 
 Tänapäeva suurtes platvormides kasutatakse sageli **süvaõppel põhinevaid soovitussüsteeme**. Need kasutavad närvivõrke, näiteks **autoenkodereid**, **rekurrentseid närvivõrke (RNN)** ja **konvolutsioonilisi närvivõrke (CNN)**. Süvaõpe suudab õppida keerukaid mustreid suurtest andmehulkadest, modelleerida kasutaja käitumist järjestikuselt (mida vaatasid enne, mida pärast) ja arvestada konteksti. Selle eelised on parem täpsus, konteksti arvestamine ja ajaline dünaamika (süsteem märkab, et su maitse muutub). Puudused on suur andmevajadus, suur arvutusvõimsuse vajadus ja **„musta kasti“ probleem** – sageli ei oska keegi täpselt öelda, miks just see soovitus tehti.
 
@@ -10216,9 +11913,6 @@ Tänapäeva suurtes platvormides kasutatakse sageli **süvaõppel põhinevaid so
 > **Näide: sotsiaalmeedia voog**
 >
 > Sotsiaalmeedia voog ei ole tavaliselt ajaline loetelu sõprade postitustest, vaid soovitussüsteemi valik. Süsteem jälgib mitte ainult seda, mida sa laigid, vaid ka seda, **kui kaua** sa video juures peatud, kas vaatad selle lõpuni, kas kerid edasi, jagad või kommenteerid. Iga selline tegevus on süsteemi jaoks signaal sinu eelistuste kohta. Seepärast võib voog juba mõne tunni jooksul sinu huvidele „häälestuda“.
-
-<!-- class="pae-fakt" -->
-> **Kas teadsid?** Sotsiaalmeedia voog jälgib lisaks laikidele ka seda, **kui kaua** sa video juures peatud. Isegi kerimine ilma klikkimata on süsteemi jaoks signaal – nii võib voog juba **mõne tunni** jooksul sinu huvidele häälestuda.
 
 **Kontekstiteadlikud soovitussüsteemid** kohandavad soovitusi vastavalt olukorrale. Kontekst võib olla:
 
@@ -10246,7 +11940,7 @@ Pane tähele, et süsteem, mis on väga **täpne**, ei pruugi olla **mitmekesine
 <!-- class="pae-moiste" -->
 > **Mõiste: filtrimull**
 >
-> Filtrimull (ka filtrimull, inglise *filter bubble*) on olukord, kus soovitussüsteem näitab kasutajale üha enam sellist sisu, mis sarnaneb tema varasemate valikute ja vaadetega. Kasutaja jääb justkui mulli: teda ümbritseb üha sarnasem sisu ja tema inforuumist kaob mitmekesisus.
+> Filtrimull (ka mullifilter, inglise *filter bubble*) on olukord, kus soovitussüsteem näitab kasutajale üha enam sellist sisu, mis sarnaneb tema varasemate valikute ja vaadetega. Kasutaja jääb justkui mulli: teda ümbritseb üha sarnasem sisu ja tema inforuumist kaob mitmekesisus.
 
 Filtrimull tekib **tagasisideahela** tõttu:
 
@@ -10273,9 +11967,9 @@ Filtrimull ei ole ainus väljakutse. Soovitussüsteemide peamised probleemid on:
 <!-- class="pae-lisaks" -->
 > **Tea lisaks**
 >
-> Euroopa Liit reguleerib suuri digiplatvorme. **Digitaalturgude määrus** (*Digital Markets Act*) seab reeglid suurtele platvormidele, mõjutades ka seda, kuidas nad tehisintellekti kasutavad. **Digiteenuste määrus** (*Digital Services Act*) nõuab, et väga suured platvormid selgitaksid oma soovitussüsteemide põhimõtteid ja pakuksid vähemalt üht sellist voo varianti, mis ei põhine kasutaja profileerimisel. Vaata oma rakenduse seadetest, kas sul on selline valik!
+> Euroopa Liit reguleerib suuri digiplatvorme. **Digitaalturgude määrus** (*Digital Markets Act*) seab reeglid suurimatele platvormidele ehk niinimetatud väravavalvuritele. **Digiteenuste määrus** (*Digital Services Act*) nõuab, et platvormid selgitaksid oma soovitussüsteemide põhiparameetreid, ja väga suured platvormid (üle 45 miljoni kasutaja ELis) peavad pakkuma vähemalt üht voo varianti, mis ei põhine kasutaja profileerimisel – näiteks ajalises järjekorras voogu. Vaata oma rakenduse seadetest, kas sul on selline valik!
 
-### Soovitussüsteemid igapäevaelus ja Eestis
+### ➕ Soovitussüsteemid igapäevaelus ja Eestis
 
 Soovitussüsteeme kasutatakse väga paljudes valdkondades:
 
@@ -10289,7 +11983,7 @@ Soovitussüsteeme kasutatakse väga paljudes valdkondades:
 <!-- class="pae-eesti" -->
 > **Eesti näide: soovitused meie oma platvormidel**
 >
-> Soovitussüsteeme kasutavad ka Eesti **e-poed** (nt Kaup24, Hansapost), mis pakuvad personaliseeritud pakkumisi, ning **uudisteportaalid** (Delfi, Postimees) ja ERR-i voogedastusplatvorm **ERR Jupiter**. Soovitusi tehakse ka kohalikel **muusika- ja piletimüügiplatvormidel**. **Avalikus sektoris** on võimalus e-riigi teenuseid personaliseerida ja sarnaseid põhimõtteid kasutavad ka **hariduslikud platvormid**. Näiteks Eesti ettevõte **Lingvist** kohandab keeleõppe materjale vastavalt kasutaja oskustele ja edenemisele.
+> Ka Eestis kasutatavates **e-poodides** ja **uudisteportaalides** näed sageli plokke „Sarnased tooted“, „Teised ostsid ka“ või „Loe ka“ – needki on soovitussüsteemid. Sarnaseid põhimõtteid kasutavad ka **hariduslikud platvormid**: näiteks Eesti ettevõte **Lingvist** kohandab keeleõppe materjale vastavalt kasutaja oskustele ja edenemisele.
 
 Kuhu soovitussüsteemid edasi arenevad? Üks suund on **multimodaalsed soovitused**, mis kombineerivad teksti, pilti, heli ja videot. Teine suund on **selgitatavad soovitused**: läbipaistvamad algoritmid, mis põhjendavad, miks just see soovitus tehti. Kolmas on **suurem kasutaja kontroll** – kasutaja saab rohkem kaasa rääkida ja oma eelistusi täpsemalt määrata. Neljas on **eetilised soovitussüsteemid**, mis vähendavad kallutatust, suurendavad mitmekesisust ja kaitsevad privaatsust.
 
@@ -10299,7 +11993,7 @@ Kuhu soovitussüsteemid edasi arenevad? Üks suund on **multimodaalsed soovituse
 > - Millised soovitussüsteemid on sinu igapäevaelu kõige rohkem mõjutanud?
 > - Kas soovitussüsteemid laiendavad või kitsendavad meie maailmapilti?
 
-### 🎬 Video: kuidas kujundab tehisaru meie meediaruumi ja suhteid?
+### ➕ 🎬 Video: kuidas kujundab tehisaru meie meediaruumi ja suhteid?
 
 Meediateadlane Maia Klaassen selgitab, kuidas platvormid kasutavad meie andmeid ja tähelepanu sisu soovitamiseks. Nii tekivad inimestel väga erinevad infomaailmad ja ühiskonna polariseerumine võib süveneda. Video on pikem, nii et võid vaadata ka ainult osa sellest.
 
@@ -10317,6 +12011,23 @@ Meediateadlane Maia Klaassen selgitab, kuidas platvormid kasutavad meie andmeid 
 **Vaata oma lemmikrakenduse soovitusi. Kirjuta, mida algoritm sinu kohta „arvab“ ja mida saaksid teha, et oma filtrimullist välja pääseda.**
 
 [[___ ___ ___]]
+
+### 🧪 TI-katse: muusikakaart ja koostööfiltreerimine
+
+Uurid tööriista, mis paigutab artistid kaardile selle järgi, kui tõenäoliselt meeldivad nad samadele inimestele. See on koostööfiltreerimise põhimõte: süsteem ei kuula muusikat, vaid õpib kasutajatelt, kellele mis meeldib.
+
+**Vaja läheb:** [Music-Map](https://www.music-map.com/) (osa Gnodi soovitusprojektist, tasuta, sisselogimist pole vaja), ~10 min, paaristöö
+
+1. Sisesta otsingusse artist, keda sa hästi tead. Kirjuta üles kolm artisti, kes on talle kaardil kõige lähemal.
+2. Kontrolli: kas lähimad artistid on sama žanriga? Kas leidus mõni üllatus, mida sa ei oodanud?
+3. Klõpsa ühel lähedasel artistil, siis tema kaardil jälle lähimal artistil – tee nii neli sammu. Kas tiirlesid sarnase muusika ümber või jõudsid hoopis uude kohta?
+
+**Pane tähele / kirjuta üles:** Mille põhjal kaart sinu arvates artiste lähestikku paigutab? Kas selline soovitamine laiendab või kitsendab sinu valikut?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** Kirjutage paaris tahvlile või paberile anonüümselt 6–8 klassikaaslase kolm lemmikartisti (ilma nimedeta). Otsige, millised artistid esinevad sageli koos samal real, ja soovitage nende põhjal ühele „kasutajale“ uus artist – nii töötab koostööfiltreerimine.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -10342,10 +12053,18 @@ Meediateadlane Maia Klaassen selgitab, kuidas platvormid kasutavad meie andmeid 
 | Filtrimull | olukord, kus kasutaja näeb ainult oma varasemate eelistustega sarnast sisu |
 | Profileerimine | kasutaja kohta üksikasjaliku kirjelduse loomine tema andmete põhjal |
 
+### 📚 Allikad ja lisalugemine
+
+- Euroopa Komisjon (s.a.). [Digiteenuste määrus](https://digital-strategy.ec.europa.eu/et/policies/digital-services-act). Eestikeelne ülevaade: muu hulgas õigus valida väga suurtel platvormidel isikustamata uudisvoog.
+- Google for Developers (s.a.). [Recommendation systems](https://developers.google.com/machine-learning/recommendation). Tasuta ingliskeelne kursus: sisupõhine filtreerimine, koostööfiltreerimine ja maatriksi faktoriseerimine.
+- Wikipedia (s.a.). [Netflix Prize](https://en.wikipedia.org/wiki/Netflix_Prize). Netflixi soovitusvõistluse (2006–2009) lugu ja võitjad.
+- Gnod (s.a.). [Music-Map](https://www.music-map.com/). Koostööfiltreerimisel põhinev muusikakaart, mida kasutasid TI-katses.
+- meedia.ut.ee (2026). [Tööleht „Koletised sinu telefonis“](https://meedia.ut.ee/wp-content/uploads/2026/02/2512_MEDI_TOOLEHT_Koletised_sinu_telefonis.pdf). Eestikeelne meediapädevuse tööleht algoritmidest, filtrimullist ja kajakambrist; sobib lisaülesandeks.
+
 ### Tööleht 4.3
 
 <!-- class="pae-jaotis" -->
-**I. Soovitussüsteemide põhimõisted**
+**➕ I. Soovitussüsteemide põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on soovitussüsteem.
 
@@ -10372,7 +12091,7 @@ Koostööfiltreerimine tugineb kasutajate käitumisele (B), sisupõhine filtreer
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Soovitussüsteemide tüübid**
+**➕ II. Soovitussüsteemide tüübid**
 
 **Ülesanne 3.** Kirjelda lühidalt järgmisi soovitussüsteemide tüüpe.
 
@@ -10420,7 +12139,7 @@ Kirjuta iga tüübi kohta tööpõhimõte, eelised, puudused ja näited.
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Soovitussüsteemide algoritmid**
+**➕ III. Soovitussüsteemide algoritmid**
 
 **Ülesanne 5.** Kirjelda lühidalt järgmisi soovitussüsteemide algoritme.
 
@@ -10445,9 +12164,9 @@ d) Süvaõppel põhinevad soovitussüsteemid:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Soovitussüsteemide hindamine**
+**⭐ IV. Soovitussüsteemide hindamine**
 
-**Ülesanne 7.** Millised on peamised meetrikad soovitussüsteemide hindamiseks? Kirjelda vähemalt nelja.
+**Ülesanne 7.** Videoplatvorm mõõdab oma soovitussüsteemi edu ainult vaatamisaja järgi. Milliseid teisi meetrikaid (vähemalt kolme) soovitaksid juurde võtta ja miks?
 
 [[___ ___ ___ ___]]
 
@@ -10460,7 +12179,7 @@ d) Süvaõppel põhinevad soovitussüsteemid:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Soovitussüsteemide rakendused**
+**➕ V. Soovitussüsteemide rakendused**
 
 **Ülesanne 10.** Täida tabel soovitussüsteemide rakenduste kohta erinevates valdkondades.
 
@@ -10497,7 +12216,7 @@ d) Süvaõppel põhinevad soovitussüsteemid:
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Praktiline ülesanne**
+**⭐ VI. Praktiline ülesanne**
 
 **Ülesanne 12.** Vali üks järgmistest praktilistest ülesannetest.
 
@@ -10542,7 +12261,7 @@ d) Kuidas hindaksid oma süsteemi tõhusust?
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Soovitussüsteemide eetilised aspektid**
+**⭐ VII. Soovitussüsteemide eetilised aspektid**
 
 **Ülesanne 13.** Millised eetilised küsimused kaasnevad soovitussüsteemide kasutamisega? Nimeta vähemalt neli.
 
@@ -10557,7 +12276,7 @@ d) Kuidas hindaksid oma süsteemi tõhusust?
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Arutelu**
+**➕ VIII. Arutelu**
 
 **Ülesanne 16.** Kuidas on soovitussüsteemid muutnud meie tarbimisharjumusi ja inforuumi?
 
@@ -10655,12 +12374,62 @@ Esiteks võin teadlikult otsida ja jälgida ka teistsuguste vaadetega allikaid. 
 
 </details>
 
+### 📤 Väljapääsupilet 4.3
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['4.3'] = ["Uus õpilane hakkab kasutama kooli raamatukogu soovitusrakendust. Miks ei saa koostööfiltreerimine talle kohe head soovitust anda ja mida rakendus võiks selle asemel teha?", "Millised artistid olid muusikakaardil sinu valitud artistile kõige lähemal ja mida see lähedus tähendab?", "Millises rakenduses tunned, et oled kõige rohkem filtrimullis, ja mida saaksid sellega teha?"];
+setTimeout(function(){var d=window.paePilet.load('4.3');document.querySelectorAll('[data-pilet="4.3"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="4.3" name="nimi" oninput="window.paePilet.save('4.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Uus õpilane hakkab kasutama kooli raamatukogu soovitusrakendust. Miks ei saa koostööfiltreerimine talle kohe head soovitust anda ja mida rakendus võiks selle asemel teha?</div><textarea data-pilet="4.3" name="q0" oninput="window.paePilet.save('4.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millised artistid olid muusikakaardil sinu valitud artistile kõige lähemal ja mida see lähedus tähendab?</div><textarea data-pilet="4.3" name="q1" oninput="window.paePilet.save('4.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millises rakenduses tunned, et oled kõige rohkem filtrimullis, ja mida saaksid sellega teha?</div><textarea data-pilet="4.3" name="q2" oninput="window.paePilet.save('4.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('4.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('4.3')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_4.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 4.3
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma tahaksin õhtul filmi vaadata, aga mu soovitusmootor pakub mulle ainult „Robotiralli 7“. Ma olen seda juba 412 korda näinud!“
 
-Lukk avaneb, kui lahendad mõistatuse. Allpool on kasutaja-objekti maatriks (hinnangud 1–5 tärni, küsimärk tähendab, et filmi pole vaadatud). Kasuta koostööfiltreerimist: leia kasutaja, kelle maitse on Kratiga kõige sarnasem, ja otsusta, millist Krati vaatamata filmidest talle soovitada. Kirjuta vastuseks filmi nimi.
+Lukk avaneb, kui lahendad ülesande. Allpool on kasutaja-objekti maatriks (hinnangud 1–5 tärni, küsimärk tähendab, et filmi pole vaadatud). Kasuta koostööfiltreerimist: leia kasutaja, kelle maitse on Kratiga kõige sarnasem, ja otsusta, millist Krati vaatamata filmidest talle soovitada. Kirjuta vastuseks filmi nimi.
 
 <!-- data-type="none" -->
 | | Robotiralli | Kosmosekokk | Metsavaim | Lumelinn | Pikselpidu |
@@ -10671,10 +12440,14 @@ Lukk avaneb, kui lahendad mõistatuse. Allpool on kasutaja-objekti maatriks (hin
 | **Liis** | 2 | 4 | 1 | 4 | 2 |
 
 [[Pikselpidu]]
-[[?]] Vihje: võrdle hinnanguid filmidele, mida kõik on vaadanud. Kelle hinnangud on Krati omadele kõige lähemal? Mis talle Krati vaatamata filmidest meeldis?
+[[?]] Vihje 1: Võrdle hinnanguid kolmele filmile, mida Kratt on vaadanud. Kelle hinnangud erinevad Krati omadest kõige vähem?
+[[?]] Vihje 2: Krati maitsele on kõige lähemal Mari. Kumb Krati vaatamata filmidest meeldis Marile rohkem?
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Koostööfiltreerimine“ ja loe lõik „Süsteem töötab kolmes etapis …“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI325") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["pikselpidu", "pikselpidu film", "film pikselpidu", "pikselpidu.", "pikselpidu!"].includes(v)
+}
 </script>
 ****************************************
 ✅ **Lukk avatud!** Mari maitse on Krati omaga peaaegu sama ja talle meeldis „Pikselpidu“ – nii soovitabki koostööfiltreerimine sisu, mis meeldis sinuga sarnastele kasutajatele.
@@ -10688,17 +12461,37 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 4.4 Tehisintellekti probleemilahendus eri valdkondades
 
 <!-- class="pae-kaas" -->
-![Kolm tehisintellekti kasutajat eri valdkondadest: põllumees vaatab tahvelarvutist drooni tehtud põllupilti, logistik osutab kaardile, mis näitab kiireimat marsruuti, ja pankur näeb ekraanil pettusehoiatust kahtlase kaarditehingu kohta.](pildid/illustratsioonid/4_4.jpg)
+![Õhtune juhtimiskeskus, kus spetsialistid vaatavad suurtelt ekraanidelt linna liikluskaamerate pilte, teekaarti esiletõstetud marsruutidega, tuuleenergia tootmise graafikut ja ilmaradari pilti. Üks inimene selgitab ekraani juures, teised jälgivad andmeid oma arvutitest.](pildid/illustratsioonid/4_4.jpg)
 
 ### Õpieesmärgid
 
-Selle tunni lõpuks sa:
+Selle tunni järel sa:
 
-- mõistad, millised tehisintellekti põhimõtted on kõigis valdkondades ühised ja mis on valdkonniti erinev;
-- tunned tehisintellekti rakendusi meditsiinis, finantssektoris, transpordis, tootmises, energeetikas, põllumajanduses, hariduses, avalikus sektoris, teaduses ja loomingulistes valdkondades;
-- oskad kirjeldada, kuidas tehisintellekti lahendus valmib (andmetest juurutamiseni);
-- oskad analüüsida valdkondadevahelisi väljakutseid, nagu andmete kvaliteet, „musta kasti“ probleem, vastutus ja regulatsioonid;
-- tunned Eesti tehisintellekti lahendusi ja ettevõtteid.
+- **selgitad oma sõnadega**, millised TI põhimõtted on kõigis valdkondades ühised, ja **tood näiteid** Eesti TI-lahendustest *(mõistmine)*;
+- **määrad**, millise probleemitüübiga on tegu, ja **kirjeldad**, kuidas TI-lahendus andmetest juurutamiseni valmib *(rakendamine)*;
+- **analüüsid** valdkondadevahelisi väljakutseid, nagu andmete kvaliteet, <span class="pae-term" tabindex="0" data-def="„musta kasti“ probleem: Olukord, kus inimene ei mõista, kuidas tehisintellekt oma otsuseni jõudis">„musta kasti“ probleem</span> ja vastutus *(analüüs)*;
+- **treenid** Teachable Machine'iga lihtsa kvaliteedikontrolli mudeli ja **hindad**, millal ja miks see eksib *(loomine, hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Ühised põhimõtted ja valdkondade eripära“, „Meditsiin, finants ja transport“, „Kuidas TI-lahendus valmib ja millised on ühised väljakutsed?“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Kvaliteedikontroll Teachable Machine'iga“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded III, V ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+TI lahendab probleeme paljudes valdkondades sarnaste põhimõtetega. TI õpib andmetest, leiab mustreid, teeb otsuseid ja ennustusi. Meditsiinis aitab TI röntgenipiltidelt haigusi leida. Pangas aitab TI tuvastada pettusi, näiteks Eesti firma Salv tarkvaraga. Transpordis on näited isesõitvad autod ja Eesti Starshipi kullerrobotid. Mõne TI otsust on inimesel raske selgitada – see on „musta kasti“ probleem. Tähtsates otsustes kehtib põhimõte „<span class="pae-term" tabindex="0" data-def="inimene otsustusahelas: Lähenemine, kus TI pakub lahenduse, kuid lõpliku otsuse teeb inimene">inimene otsustusahelas</span>“. TI annab soovituse, aga otsuse teeb ja selle eest vastutab inimene.
+
+**Tähtsad sõnad:** **anomaaliate tuvastamine** – tavapärasest erineva leidmine, näiteks kahtlase tehingu märkamine; **„musta kasti“ probleem** – TI otsust ei saa inimesele selgitada; **inimene otsustusahelas** – lõpliku otsuse teeb alati inimene.
+
+</section>
 
 ### Ühised põhimõtted ja valdkondade eripära
 
@@ -10732,20 +12525,20 @@ Ka **lahendusstrateegiaid** on mitu. **Otsingupõhine lähenemine** lahendab pro
 **Finantssektoris** on TI peamised ülesanded **riskianalüüs** (krediidiriski, tururiski ja kindlustusriski hindamine), **pettuste tuvastamine** (ebatavaliste tehingute leidmine, käitumismustrite analüüs ja reaalajas jälgimine) ning **investeerimine** (algoritmkauplemine, portfelli optimeerimine ja trendide ennustamine). Väljakutsed on turu **volatiilsus** ehk kõikuvus, ranged **regulatsioonid** ja **läbipaistvus** – inimesel on õigus teada, miks talle laenu ei antud.
 
 <!-- class="pae-eesti" -->
-> **Eesti näide: LHV ja Salv**
+> **Eesti näide: Salv**
 >
-> Eesti pank **LHV** kasutab tehisintellekti pettuste tuvastamiseks ja klienditeeninduse parandamiseks. Eesti ettevõte **Salv** aitab pankadel ja finantsasutustel tuvastada rahapesu ja pettusi. Mõlemad on näited **anomaaliate tuvastamisest**: süsteem otsib tehinguid, mis erinevad tavapärasest mustrist.
+> Eesti idufirma **Salv** pakub pankadele ja finantsasutustele tarkvara, mis aitab tuvastada rahapesu ja pettusi. Tehingute jälgimine on näide **anomaaliate tuvastamisest**: süsteem otsib tehinguid, mis erinevad tavapärasest mustrist.
 
 **Transpordis** on kõige tuntum näide **isesõitvad sõidukid**, mis peavad tajuma keskkonda, tegema otsuseid ja planeerima marsruuti. **Liiklusjuhtimises** aitab TI ennustada ummikuid, optimeerida fooride tööd ja planeerida ühistransporti. **Logistikas** optimeeritakse marsruute, ennustatakse nõudlust ja juhitakse ladusid. Väljakutsed on **ohutus**, **eetilised dilemmad** (kuidas peaks isesõitev auto käituma olukorras, kus kõik valikud on halvad?) ja **infrastruktuuri vajadused**.
 
 <!-- class="pae-eesti" -->
 > **Eesti näide: Bolt ja Starship**
 >
-> **Bolt** kasutab tehisintellekti nõudluse ennustamiseks, hindade optimeerimiseks ja sõitude sobitamiseks – kui tellid takso, otsustab algoritm, milline juht on sulle kõige sobivam. **Starship Technologies** on loonud isesõitvad kullerrobotid, mis kasutavad tehisintellekti ja arvutinägemist, et liikuda linnatänavatel ja toimetada kohale pakke ja toitu. Euroopa Liidu projekt **LEVITATE** uurib, kuidas automatiseeritud sõidukid mõjutavad liiklust ja ühiskonda.
+> **Bolt** kasutab masinõpet näiteks sõitjate ja juhtide sobitamiseks ning saabumisaja ennustamiseks – kui tellid takso, otsustab algoritm, milline juht sulle saadetakse. 2014. aastal Tallinnas asutatud **Starship Technologies** on loonud kullerrobotid, mis liiguvad arvutinägemise abil kõnniteedel suures osas iseseisvalt ja toimetavad kohale pakke ja toitu; keerulises olukorras saab appi tulla kaugoperaator.
 
-### Tootmine, energeetika ja põllumajandus
+### ➕ Tootmine, energeetika ja põllumajandus
 
-**Tootmises** räägitakse **Tööstus 4.0-st** – nutikatest tehastest, kus masinad on ühendatud **asjade interneti** (IoT, *Internet of Things*) kaudu ja otsuseid tehakse andmete põhjal. TI aitab **kvaliteedikontrollis**: kaamerad ja algoritmid kontrollivad tooteid visuaalselt, tuvastavad defekte ja ennustavad kvaliteeti. Väga oluline on **ennustav hooldus**: TI ennustab seadmete rikkeid enne, kui need tekivad, optimeerib hooldusgraafikut ja aitab ressursse planeerida. Väljakutsed on andmete kogumise keerukus, süsteemide integratsioon ja töötajate koolitamine.
+**Tootmises** räägitakse **Tööstus 4.0-st** – nutikatest tehastest, kus masinad on ühendatud **asjade interneti** (IoT, *Internet of Things*) kaudu ja otsuseid tehakse andmete põhjal. TI aitab **kvaliteedikontrollis**: kaamerad ja algoritmid kontrollivad tooteid visuaalselt, tuvastavad defekte ja ennustavad kvaliteeti. Väga oluline on **<span class="pae-term" tabindex="0" data-def="ennustav hooldus: Seadmete rikete ennustamine andurite andmete põhjal enne rikke tekkimist">ennustav hooldus</span>**: TI ennustab seadmete rikkeid enne, kui need tekivad, optimeerib hooldusgraafikut ja aitab ressursse planeerida. Väljakutsed on andmete kogumise keerukus, süsteemide integratsioon ja töötajate koolitamine.
 
 <!-- class="pae-moiste" -->
 > **Mõiste: ennustav hooldus**
@@ -10755,39 +12548,36 @@ Ka **lahendusstrateegiaid** on mitu. **Otsingupõhine lähenemine** lahendab pro
 <!-- class="pae-eesti" -->
 > **Eesti näide: AIRE**
 >
-> **AI & Robotics Estonia (AIRE)** on tehisintellekti ja robootika teenuskeskus, mis alustas tegevust 1. oktoobril 2021. See pakub Eesti tööstusettevõtetele nõu tehisintellekti ja robootika rakendamisel.
+> **AI & Robotics Estonia (AIRE)** on tehisintellekti ja robootika teenuskeskus, mis pakkus esimesi teenuseid katseliselt alates 2021. aasta oktoobrist ja mille seitsmeaastane tegevusperiood Euroopa digitaalse innovatsiooni keskusena algas 1. juulil 2022. See pakub Eesti tööstusettevõtetele nõu tehisintellekti ja robootika rakendamisel.
 
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Ennustav hooldus aitab vältida kahte viga korraga: masin ei lähe **ootamatult** rikki ja samas ei vahetata asjatult ka **korras** osi.
 
 **Energeetikas** aitab TI **energiatootmist optimeerida**: ennustada taastuvenergia (päikese- ja tuuleenergia) tootmist, tasakaalustada nõudlust ja pakkumist ning jaotada ressursse. **Nutivõrkudes** juhitakse energiavoogusid, ennustatakse tarbimist ja tuvastatakse rikkeid. **Energiatõhususe** suurendamiseks optimeeritakse hoonete energiakasutust, analüüsitakse tarbimismustreid ja antakse soovitusi energia säästmiseks. Väljakutsed on süsteemide keerukus, turvalisus ja regulatsioonid.
 
-**Põllumajanduses** kasutatakse **täppispõllumajandust**: analüüsitakse satelliidi- ja droonipilte, jälgitakse mulda ja ilma ning kasutatakse ressursse (vett, väetist) täpselt seal, kus vaja. **Taimekasvatuses** tuvastab TI haigusi ja kahjureid, ennustab saaki ning optimeerib kastmist ja väetamist. **Loomakasvatuses** jälgitakse loomade tervist, optimeeritakse söötmist ja analüüsitakse käitumist. Väljakutsed on keskkonnatingimuste muutlikkus, tehnoloogia kättesaadavus ja andmete kogumine maapiirkondades.
+**Põllumajanduses** kasutatakse **<span class="pae-term" tabindex="0" data-def="täppispõllumajandus: Andmete ja TI abil ressursside täpne kasutamine põllul">täppispõllumajandust</span>**: analüüsitakse satelliidi- ja droonipilte, jälgitakse mulda ja ilma ning kasutatakse ressursse (vett, väetist) täpselt seal, kus vaja. **Taimekasvatuses** tuvastab TI haigusi ja kahjureid, ennustab saaki ning optimeerib kastmist ja väetamist. **Loomakasvatuses** jälgitakse loomade tervist, optimeeritakse söötmist ja analüüsitakse käitumist. Väljakutsed on keskkonnatingimuste muutlikkus, tehnoloogia kättesaadavus ja andmete kogumine maapiirkondades.
 
-### Haridus, avalik sektor, teadus ja loovus
+### ➕ Haridus, avalik sektor, teadus ja loovus
 
 **Hariduses** võimaldab TI **personaliseeritud õpet**: tuvastab õppija taseme, kohandab õppematerjale ja annab individuaalset tagasisidet. **Hindamises** kasutatakse automaatset hindamist, plagiaadi tuvastamist ja õppimisanalüütikat. **Õpetajat** aitab TI administratiivsete ülesannete automatiseerimisel, õppematerjalide loomisel ja õpilaste edenemise jälgimisel. Väljakutsed on pedagoogiliste põhimõtete järgimine, õpetaja rolli muutumine ja ligipääsetavus.
 
 <!-- class="pae-eesti" -->
-> **Eesti näide: Lingvist ja Edumus**
+> **Eesti näide: Lingvist**
 >
-> **Lingvist** pakub personaliseeritud keeleõpet, kohandades õppematerjale vastavalt kasutaja oskustele ja edenemisele. **Edumus** kasutab tehisintellekti personaliseeritud õppematerjalide loomiseks. Euroopa Liidu projekt **AI4T** (*Artificial Intelligence for Teachers*) aitab õpetajatel tehisintellekti õppetöös kasutada.
+> Eesti ettevõte **Lingvist** pakub personaliseeritud keeleõpet, kohandades õppematerjale vastavalt kasutaja oskustele ja edenemisele.
 
 **Avalikus sektoris** tähendab **e-valitsemine** avalike teenuste automatiseerimist, dokumentide töötlemist ja kodanike päringutele vastamist. **Julgeolekus** kasutatakse TI-d küberturvalisuse tagamiseks ja anomaaliate tuvastamiseks; mõnes riigis ka **ennustavas politseitöös**, mis on väga vastuoluline, sest võib kallutatud andmete tõttu ebaõiglaselt kohelda teatud piirkondi või inimrühmi. **Linnaplaneerimises** optimeeritakse liiklust, juhitakse energiakasutust ja planeeritakse teenuseid. Väljakutsed on läbipaistvus ja vastutus, privaatsus ning õiglus ja võrdsus.
 
-**Teaduses** töötleb TI suuri andmehulki, tuvastab mustreid ja aitab püstitada uusi hüpoteese. TI abil modelleeritakse kliimat ja keskkonda, molekule ja materjale ning bioloogilisi süsteeme. Tuntuim näide on **AlphaFold**, mis ennustab valkude ruumilist struktuuri – see on bioloogias ja ravimiarenduses tohutult oluline. TI aitab disainida ka uusi materjale ja uurida kosmost. Väljakutsed on teadusliku meetodi järgimine, tulemuste tõlgendamine ja interdistsiplinaarsus ehk eri teadusalade koostöö.
+**Teaduses** töötleb TI suuri andmehulki, tuvastab mustreid ja aitab püstitada uusi hüpoteese. TI abil modelleeritakse kliimat ja keskkonda, molekule ja materjale ning bioloogilisi süsteeme. Tuntuim näide on **AlphaFold**, mis ennustab valkude ruumilist struktuuri – see on bioloogias ja ravimiarenduses tohutult oluline. AlphaFoldi andmebaasis on vabalt kättesaadavad umbes 200 miljoni valgu struktuurid ning 2024. aastal said selle loojad Demis Hassabis ja John Jumper Nobeli keemiaauhinna. TI aitab disainida ka uusi materjale ja uurida kosmost. Väljakutsed on teadusliku meetodi järgimine, tulemuste tõlgendamine ja interdistsiplinaarsus ehk eri teadusalade koostöö.
 
 **Loomingulistes valdkondades** genereerib TI pilte (nt **DALL-E**, **Midjourney**), teeb stiiliülekannet (muudab foto näiteks maali sarnaseks) ja optimeerib disaini. **Muusikas** aitab TI komponeerida, arranžeerida ja helisid sünteesida; **kirjanduses ja meedias** genereerida teksti, stsenaariume ja kokkuvõtteid. Väljakutsed on originaalsus, autoriõigused ning inimese ja masina koostöö.
 
 <!-- class="pae-lisaks" -->
 > **Tea lisaks: kuulsad juhtumid**
 >
-> - **AlphaGo** (DeepMind) võitis 2016. aastal maailma tippmängijat Lee Sedoli go-mängus, mida peeti male järel järgmiseks suureks väljakutseks, sest võimalikke seise on go-s veel palju rohkem. AlphaGo ühendas otsingu ja süvaõppe.
+> - **AlphaGo** (DeepMind) võitis 2016. aasta märtsis maailma tippmängijat Lee Sedoli go-mängus 4 : 1, mida peeti male järel järgmiseks suureks väljakutseks, sest võimalikke seise on go-s veel palju rohkem. AlphaGo ühendas otsingu ja süvaõppe.
 > - **IBM Watson** sai tuntuks 2011. aastal, kui võitis USA telemängus „Jeopardy!“ inimesi. Hiljem prooviti seda kasutada meditsiinis vähiravi soovitamiseks, kuid tulemused jäid oodatust tagasihoidlikumaks – hea näide sellest, et mängus edukas süsteem ei pruugi kohe toimida päris haiglas.
 > - **Isesõitvad autod** peavad lahendama korraga tajumise, ennustamise ja planeerimise ülesandeid ning toimima ka harvaesinevates ootamatutes olukordades.
-
-<!-- class="pae-fakt" -->
-> **Kas teadsid?** **IBM Watson** võitis 2011. aastal telemängus „Jeopardy!“ inimesi, kuid vähiravi soovitamisel haiglas jäid tema tulemused oodatust tagasihoidlikumaks. Mängus edukas süsteem ei pruugi kohe toimida päriselus!
 
 ### Kuidas TI-lahendus valmib ja millised on ühised väljakutsed?
 
@@ -10796,7 +12586,7 @@ Olenemata valdkonnast läbib tehisintellekti lahendus sarnased etapid:
 ![TI-lahenduse valmimise neli etappi: andmete eeltöötlus, mudeli valimine, hindamine ja valideerimine ning juurutamine ja jälgimine; noolega tagasi algusesse, kui andmed või olud muutuvad](pildid/plokk_4/4_4_elutsukkel.svg "Joonis 4.4.2. TI-lahenduse valmimise etapid")
 
 <!-- class="pae-naide" -->
-> **Näide: A/B testimine**
+> **Näide: <span class="pae-term" tabindex="0" data-def="A/B testimine: Kahe lahenduse versiooni võrdlemine eri kasutajarühmadel">A/B testimine</span>**
 >
 > **A/B testimine** tähendab, et osale kasutajatest näidatakse lahenduse üht ja osale teist versiooni ning võrreldakse, kumb töötab paremini. Näiteks voogedastusplatvorm näitab pooltele kasutajatele uut soovitusalgoritmi ja pooltele vana ning vaatab, kumma rühma kasutajad leiavad endale sobiva sarja kiiremini ja on rahulolevamad.
 
@@ -10811,7 +12601,7 @@ Kõigis valdkondades kerkivad esile sarnased **väljakutsed**. Esimene on **andm
 
 „Musta kasti“ probleem põhjustab usalduse puudumist, raskusi vigade tuvastamisel ja vastutuse küsimusi. Lahendused on **selgitatavate mudelite** arendamine, visualiseerimistehnikad ja lihtsustatud mudelite kasutamine kriitilistes valdkondades. Läbipaistvus on eriti oluline **meditsiinis, finantsis ja õiguses**, kus otsused võivad inimeste elu oluliselt mõjutada.
 
-Kolmas väljakutse on **eetika**: kallutatus ja diskrimineerimine, vastutus ja inimese roll. Paljudes kriitilistes valdkondades (meditsiin, õigus, sõjandus) peetakse oluliseks põhimõtet **„inimene otsustusahelas“** (*human-in-the-loop*) – TI annab soovituse, kuid lõpliku otsuse teeb ja selle eest vastutab inimene. Oluline on ka **usaldatavus**: süsteemi võime teha järjepidevalt täpseid otsuseid. Seda hinnatakse testimisega eri andmekogumitel, valideerimise, järelevalve ja regulaarsete auditite abil.
+Kolmas väljakutse on **eetika**: kallutatus ja diskrimineerimine, vastutus ja inimese roll. Paljudes kriitilistes valdkondades (meditsiin, õigus, sõjandus) peetakse oluliseks põhimõtet **„inimene otsustusahelas“** (*human-in-the-loop*) – TI annab soovituse, kuid lõpliku otsuse teeb ja selle eest vastutab inimene. Oluline on ka **<span class="pae-term" tabindex="0" data-def="usaldatavus: TI-süsteemi võime teha järjepidevalt täpseid otsuseid">usaldatavus</span>**: süsteemi võime teha järjepidevalt täpseid otsuseid. Seda hinnatakse testimisega eri andmekogumitel, valideerimise, järelevalve ja regulaarsete auditite abil.
 
 ![Kolm kasti nooltega: TI analüüsib andmeid ja annab soovituse, inimene kontrollib ja teeb lõpliku otsuse, vastutus jääb inimesele; põhimõte on eriti oluline meditsiinis, õiguses ja sõjanduses](pildid/plokk_4/4_4_inimene_ahelas.svg "Joonis 4.4.3. Põhimõte „inimene otsustusahelas“")
 
@@ -10820,20 +12610,20 @@ Neljas väljakutse on **regulatsioonid**: igal valdkonnal on oma nõuded, riigit
 <!-- class="pae-lisaks" -->
 > **Tea lisaks: Euroopa Liidu tehisintellekti määrus**
 >
-> **Euroopa Liidu tehisintellekti määrus (AI Act)** on Euroopa Liidu esimene terviklik õigusraamistik tehisintellekti reguleerimiseks. See kasutab **riskipõhist lähenemist**: mida suurem on oht inimeste tervisele, turvalisusele või põhiõigustele, seda rangemad on nõuded süsteemile. Lisaks kehtib isikuandmete kaitse üldmäärus (GDPR) ja Eestis annab Andmekaitse Inspektsioon juhiseid, kuidas TI-d isikuandmete kaitse põhimõtetega kooskõlas kasutada.
+> **Euroopa Liidu tehisintellekti määrus (EL) 2024/1689** (*AI Act*) on maailma esimene terviklik õigusraamistik tehisintellekti reguleerimiseks. See kasutab **riskipõhist lähenemist**: vastuvõetamatu riskiga TI-praktikad on keelatud, suure riskiga süsteemidele kehtivad ranged nõuded, osale süsteemidele läbipaistvusnõuded (nt peab teada andma, et suhtled vestlusrobotiga) ja minimaalse riskiga süsteemidele erinõudeid pole. Määrus jõustus 1. augustil 2024, keelud hakkasid kehtima 2. veebruaril 2025 ja üldotstarbeliste TI-mudelite reeglid 2. augustil 2025. 2026. aasta muudatusega lükati suure riskiga süsteemide nõuded edasi: enamikule neist hakkavad need kehtima 2. detsembril 2027. Lisaks kehtib isikuandmete kaitse üldmäärus (GDPR) ja Eestis annab Andmekaitse Inspektsioon juhiseid, kuidas TI-d isikuandmete kaitse põhimõtetega kooskõlas kasutada.
 
-### Tehisintellekt Eestis ja tulevikusuunad
+### ➕ Tehisintellekt Eestis ja tulevikusuunad
 
 Eestit tuntakse digiühiskonnana ja tehisintellekti kasutatakse meil nii avalikus kui ka erasektoris.
 
 <!-- class="pae-eesti" -->
 > **Eesti näide: kratid ja Bürokratt**
 >
-> Eestis nimetatakse avaliku sektori tehisintellekti lahendusi **krattideks**. Riik on koostanud tehisintellekti tegevuskavad ehk **kratikavad** (2019–2021, 2022–2023 ja tegevuskava 2024–2026). **Bürokratt** on Eesti riigi virtuaalassistentide võrgustik, mille kaudu saab kõnekeelse suhtluse abil kasutada avalikke teenuseid. See valiti 2022. aastal parimaks tehisintellektil põhinevaks riigiteenuseks ja jõudis UNESCO maailma saja parima tehisintellekti lahenduse hulka. Oma tehisintellekti strateegiad on ka näiteks Kaitseministeeriumi valitsemisalal ning Maksu- ja Tolliametil.
+> Eestis nimetatakse avaliku sektori tehisintellekti lahendusi **krattideks**. Riik on koostanud tehisintellekti tegevuskavad ehk **kratikavad** (2019–2021, 2022–2023 ja tegevuskava 2024–2026). **Bürokratt** on riigiasutuste veebilehtedel olevate juturobotite võrgustik, mille kaudu saab kõnekeelse suhtluse abil infot ja avalikke teenuseid. 2022. aasta alguses jõudis Bürokratt UNESCO egiidi all tegutseva rahvusvahelise tehisintellekti uurimiskeskuse IRCAI 100 TI-projekti nimekirja.
 
 Eesti **ettevõtetest** on tuntud **Bolt** (sõidujagamine ja logistika), **Veriff** (isikusamasuse tuvastamine – võrdleb isikut tõendavat dokumenti ja näopilti), **Starship** (autonoomsed kullerrobotid), **Lingvist** (keeleõpe) ja **Salv** (finantskuritegude tuvastamine). **Teaduses ja hariduses** tegeletakse keeletehnoloogia, andmeanalüüsi ja robootikaga – näiteks Tartu Ülikoolis, Tallinna Tehnikaülikoolis ja Tallinna Ülikoolis. **Tehnopoli AI arenguprogramm** aitab alates 2022. aastast Eesti ettevõtetel tehisintellekti lahendusi kasutusele võtta.
 
-![Ajajoon aastatest 2019–2026: kratikavad 2019–2021 ja 2022–2023 ning tegevuskava 2024–2026; sündmused: AIRE alustas tegevust 1. oktoobril 2021, Bürokratt valiti 2022. aastal parimaks TI-põhiseks riigiteenuseks, 2022. aastal algas Tehnopoli AI arenguprogramm](pildid/plokk_4/4_4_eesti.svg "Joonis 4.4.4. Tehisintellekt Eestis: tegevuskavad ja olulised sündmused")
+![Ajajoon aastatest 2019–2026: kratikavad 2019–2021 ja 2022–2023 ning tegevuskava 2024–2026; sündmused: AIRE alustas katseliselt 2021. aasta oktoobris, Bürokratt jõudis 2022. aastal IRCAI 100 TI-projekti nimekirja, 2022. aastal algas Tehnopoli AI arenguprogramm](pildid/plokk_4/4_4_eesti.svg "Joonis 4.4.4. Tehisintellekt Eestis: tegevuskavad ja olulised sündmused")
 
 Eestil on nii väljakutseid kui ka võimalusi: **väike turg** tähendab, et lahendused tuleb kiiresti viia rahvusvahelisele turule, kuid **digiühiskond** ja hea andmetaristu loovad häid eeldusi ning **rahvusvaheline koostöö** (nt Euroopa Liidu projektid) aitab ressursse ühendada.
 
@@ -10846,17 +12636,21 @@ Kuhu liigub tehisintellekti probleemilahendus edasi? Esiteks **valdkonnad lõimu
 > - Kuidas tasakaalustada valdkonnapõhist spetsialiseerumist ja üldisi tehisintellekti põhimõtteid?
 > - Kas sinu arvates peaks TI-l olema lubatud teha olulisi otsuseid (nt diagnoos, laenuotsus) iseseisvalt või peaks lõplik otsus jääma alati inimesele?
 
-### 🎬 Videod: tehisaru hariduses ja õigusvaldkonnas
+### ➕ 🎬 Videod: tehisaru hariduses ja õigusvaldkonnas
 
-Videoõpsi lühivideo räägib, kuidas tehisaru muudab haridust: miks on vaja endiselt asju teada, mis on hallutsineerimine, kuidas tehisaru vastuseid kriitiliselt hinnata ja kuidas tehisaruga keelt õppida. TI-Hüppe videos näitavad advokaadid Merlin Liis-Toomela ja Hegle Pärna, kuidas juristid kasutavad tehisaru seaduste ja kohtulahendite analüüsimiseks.
+Sellel lehel on 2 videot. Iga video ees on lühike kokkuvõte, mis aitab sul valida.
 
 Vali **vähemalt üks** video ja vaata see läbi.
 
 **Tehisintellekt hariduses** · *Videoõps* · ⏱ 2 min
 
+📝 Lühivideo räägib, kuidas tehisaru muudab õppimist: miks on vaja ikka asju teada, mis on hallutsineerimine ja kuidas tehisaru vastuseid kriitiliselt hinnata. Lõpus on keeleõppe näide.
+
 !?[Tehisintellekt hariduses – Videoõps](https://www.youtube.com/watch?v=JA_odxMJuiA)
 
 **Merlin Liis-Toomela ja Hegle Pärna: kuidas juristid panevad tehisaru enda kasuks tööle?** · *TI-Hüpe* · ⏱ 27 min
+
+📝 Advokaadid Merlin Liis-Toomela ja Hegle Pärna näitavad, kuidas juristid kasutavad tehisaru seaduste ja kohtulahendite analüüsiks. Nad rõhutavad, et vastuseid tuleb kontrollida algallikatest ning hoida kliendi andmed kaitstuna.
 
 !?[Merlin Liis-Toomela ja Hegle Pärna: kuidas juristid panevad tehisaru enda kasuks tööle? – TI-Hüpe](https://www.youtube.com/watch?v=sIe-5Ub8rxQ)
 
@@ -10872,15 +12666,32 @@ Vali **vähemalt üks** video ja vaata see läbi.
 
 [[___ ___ ___]]
 
+### 🧪 TI-katse: kvaliteedikontroll Teachable Machine'iga
+
+Treenid veebikaamera abil mudeli, mis eristab terveid ja vigaseid esemeid – samamoodi töötab automaatne kvaliteedikontroll tehases. Samal ajal näed, millal mudel eksib.
+
+**Vaja läheb:** [Teachable Machine](https://teachablemachine.withgoogle.com/) (tasuta, sisselogimist pole vaja; treenimine toimub sinu enda brauseris), veebikaamera, ~10 min, paaristöö
+
+1. Vali „Get Started“ → „Image Project“ → „Standard image model“. Nimeta klassid „korras“ ja „defektiga“.
+2. Salvesta kaameraga umbes 30 pilti tervest pliiatsist eri nurkade alt ja umbes 30 pilti „defektiga“ pliiatsist (nt murtud otsaga või kleepribaga kaetud pliiats). Hoia kaamera ees ainult eset, mitte oma nägu.
+3. Vajuta „Train Model“ ja testi mudelit uute pliiatsitega, teistsuguse tausta ja valgusega.
+
+**Pane tähele / kirjuta üles:** Millal mudel eksis ja miks? Kas tegu oli klassifitseerimise või anomaaliate tuvastamisega? Miks peaks tehases inimene mudeli tööd ikkagi kontrollima?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** Pange lauale 10 pliiatsit ja kirjutage kaks reeglit, mille järgi pliiats on „korras“ või „defektiga“. Laske teisel paaril pliiatsid reeglite järgi sorteerida ja arutage, milliseid defekte teie reeglid märkamata jätsid.
+
 ### Kokkuvõte ja põhimõisted
 
 **Pea meeles**
 
 - Tehisintellekti probleemilahenduse põhimõtted (andmetest õppimine, mustrite tuvastamine, otsustamine, ennustamine) on universaalsed, kuid rakendused on valdkonnapõhised.
-- Levinud probleemitüübid on klassifitseerimine, ennustamine, optimeerimine, planeerimine ja anomaaliate tuvastamine.
+- Levinud probleemitüübid on klassifitseerimine, ennustamine, optimeerimine, planeerimine ja <span class="pae-term" tabindex="0" data-def="anomaaliate tuvastamine: Tavapärasest erinevate juhtumite (nt kahtlaste tehingute) leidmine">anomaaliate tuvastamine</span>.
 - TI-lahenduse valmimine läbib etapid: andmete eeltöötlus, mudeli valimine, hindamine ja valideerimine, juurutamine ja jälgimine.
 - Valdkondadevahelised väljakutsed on andmete kvaliteet, „musta kasti“ probleem, kallutatus, vastutus ja regulatsioonid; kriitilistes otsustes on oluline põhimõte „inimene otsustusahelas“.
-- Euroopa Liidu tehisintellekti määrus reguleerib TI-d riskipõhiselt.
+- Euroopa Liidu tehisintellekti määrus (EL) 2024/1689 reguleerib TI-d riskipõhiselt.
 - Eestil on digiühiskonnana head eeldused TI rakendamiseks; tuntud näited on Bürokratt, Bolt, Veriff, Starship, Lingvist ja Salv.
 
 | Mõiste | Tähendus |
@@ -10896,10 +12707,19 @@ Vali **vähemalt üks** video ja vaata see läbi.
 | A/B testimine | kahe lahenduse versiooni võrdlemine eri kasutajarühmadel |
 | Euroopa Liidu tehisintellekti määrus (AI Act) | ELi õigusraamistik, mis reguleerib TI-d riskipõhiselt |
 
+### 📚 Allikad ja lisalugemine
+
+- Euroopa Komisjon (s.a.). [Tehisintellekti käsitlev õigusakt](https://digital-strategy.ec.europa.eu/et/policies/regulatory-framework-ai). Eestikeelne ülevaade ELi tehisintellekti määrusest: riskitasemed ja jõustumise ajakava.
+- ERR (2024). [Riik plaanib 85 miljoni euro abil tehisintellekti Eesti ellu juurutada](https://www.err.ee/1609248531/riik-plaanib-85-miljoni-euro-abil-tehisintellekti-eesti-ellu-juurutada). Uudis tehisintellekti tegevuskavast 2024–2026 ja varasematest kratikavadest.
+- Eesti riigi kratiportaal (s.a.). [Bürokratt](https://www.kratid.ee/burokratt). Riigi juturobotite võrgustik ja selle arengusuunad.
+- TalTech (2022). [Uudis AIRE demoprojektide novembri ideevoorust (inglise keeles)](https://taltech.ee/en/news/november-round-ideas-aire-demo-projects-will-open-estonian-industrial-companies). AIRE tegevus ja tööstusettevõtete TI-demoprojektid.
+- Tehnopol (2023). [Tehnopol's AI development programme made it to the top ten in an international competition](https://www.tehnopol.ee/en/tehnopols-ai-development-programme-made-it-to-the-top-ten-in-an-international-competition/). Ettevõtetele mõeldud AI arenguprogramm, mis algas 2022. aastal.
+- EMBL (2024). [Computational protein design and protein structure prediction win Nobel Prize in Chemistry](https://www.embl.org/news/science-technology/alphafold-wins-nobel-prize-chemistry-2024/). AlphaFold, valgustruktuuride andmebaas ja Nobeli auhind.
+
 ### Tööleht 4.4
 
 <!-- class="pae-jaotis" -->
-**I. Tehisintellekti probleemilahenduse põhimõtted**
+**➕ I. Tehisintellekti probleemilahenduse põhimõtted**
 
 **Ülesanne 1.** Selgita oma sõnadega, kuidas tehisintellekt lahendab probleeme.
 
@@ -10926,7 +12746,7 @@ Otsingupõhine lähenemine otsib olekuruumist (B), optimeerimine parimat lahendu
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Tehisintellekti rakendused erinevates valdkondades**
+**➕ II. Tehisintellekti rakendused erinevates valdkondades**
 
 **Ülesanne 3.** Kirjelda lühidalt, kuidas tehisintellekt lahendab probleeme järgmistes valdkondades.
 
@@ -10955,7 +12775,7 @@ e) Haridus:
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Probleemitüübid ja lahendusstrateegiad**
+**⭐ III. Probleemitüübid ja lahendusstrateegiad**
 
 **Ülesanne 5.** Täida tabel erinevate probleemitüüpide ja nende lahendusstrateegiate kohta.
 
@@ -10967,7 +12787,7 @@ e) Haridus:
 | Planeerimine | | | |
 | Anomaaliate tuvastamine | | | |
 
-Kirjuta iga probleemitüübi kohta kirjeldus, sobivad lahendusstrateegiad ja näide.
+Kirjuta iga probleemitüübi kohta kirjeldus, sobivad lahendusstrateegiad ja näide. Vähemalt kaks näidet võta oma koolist või kodukohast (nt söökla, bussiliiklus, spordihoone).
 
 **Klassifitseerimine:**
 
@@ -10994,7 +12814,7 @@ Kirjuta iga probleemitüübi kohta kirjeldus, sobivad lahendusstrateegiad ja nä
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Juhtumiuuringud**
+**➕ IV. Juhtumiuuringud**
 
 **Ülesanne 7.** Analüüsi järgmisi tehisintellekti juhtumiuuringuid. Otsi vajaduse korral lisainfot internetist.
 
@@ -11019,9 +12839,9 @@ d) Tehisintellekt kliimamuutuste modelleerimisel:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Tehisintellekti probleemilahenduse piirangud**
+**⭐ V. Tehisintellekti probleemilahenduse piirangud**
 
-**Ülesanne 9.** Millised on tehisintellekti probleemilahenduse piirangud? Kirjelda vähemalt nelja.
+**Ülesanne 9.** Millised on tehisintellekti probleemilahenduse piirangud? Kirjelda vähemalt nelja ja too iga piirangu kohta näide mõnest tunnis nimetatud valdkonnast.
 
 [[___ ___ ___ ___]]
 
@@ -11034,7 +12854,7 @@ d) Tehisintellekt kliimamuutuste modelleerimisel:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Praktiline ülesanne**
+**⭐ VI. Praktiline ülesanne**
 
 **Ülesanne 12.** Vali üks järgmistest praktilistest ülesannetest.
 
@@ -11083,7 +12903,7 @@ e) Kuidas saaks seda paremaks muuta?
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Tehisintellekti probleemilahenduse tulevik**
+**➕ VII. Tehisintellekti probleemilahenduse tulevik**
 
 **Ülesanne 13.** Millised on tehisintellekti probleemilahenduse tulevikusuunad? Kirjelda vähemalt kolme.
 
@@ -11094,7 +12914,7 @@ e) Kuidas saaks seda paremaks muuta?
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Arutelu**
+**➕ VIII. Arutelu**
 
 **Ülesanne 15.** Kuidas muudab tehisintellekti probleemilahendus erinevaid valdkondi ja ühiskonda tervikuna?
 
@@ -11148,7 +12968,7 @@ Süvaõppe mudelite otsuseid on raske selgitada, sest need kujunevad paljude kih
 Kriitilistes valdkondades, nagu meditsiin, õigus ja sõjandus, peetakse oluliseks, et lõplik otsus ja vastutus jääksid inimesele.
 ****************************************
 
-**5. Vali iga TI rakenduse juurde valdkond, kus seda kasutatakse.**
+**5. Vali iga TI-rakenduse juurde valdkond, kus seda kasutatakse.**
 
 <!-- data-show-partial-solution -->
 Ennustav hooldus ja defektide tuvastamine: [[ (tootmine) | finants | põllumajandus | teadus ]]<br>
@@ -11193,28 +13013,82 @@ Salv aitab pankadel ja finantsasutustel tuvastada rahapesu ja pettusi. Süsteem 
 
 </details>
 
+### 📤 Väljapääsupilet 4.4
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['4.4'] = ["Haigla tahab TI abil röntgenipiltidelt kopsupõletikku leida. Millise probleemitüübiga on tegu ja kes peaks tegema lõpliku otsuse?", "Millal eksis sinu Teachable Machine'i mudel ja mis oli sinu arvates põhjus?", "Millises Eesti valdkonnas võiks TI sinu arvates kõige rohkem kasu tuua ja miks?"];
+setTimeout(function(){var d=window.paePilet.load('4.4');document.querySelectorAll('[data-pilet="4.4"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="4.4" name="nimi" oninput="window.paePilet.save('4.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Haigla tahab TI abil röntgenipiltidelt kopsupõletikku leida. Millise probleemitüübiga on tegu ja kes peaks tegema lõpliku otsuse?</div><textarea data-pilet="4.4" name="q0" oninput="window.paePilet.save('4.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millal eksis sinu Teachable Machine&#39;i mudel ja mis oli sinu arvates põhjus?</div><textarea data-pilet="4.4" name="q1" oninput="window.paePilet.save('4.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millises Eesti valdkonnas võiks TI sinu arvates kõige rohkem kasu tuua ja miks?</div><textarea data-pilet="4.4" name="q2" oninput="window.paePilet.save('4.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('4.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('4.4')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_4.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 4.4
 
 <!-- class="pae-naide" -->
-> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Mul on Eestis palju sugulasi – Bürokratt on näiteks mu kauge onupoeg! Aga ma ei mäleta enam, kes neist mida teeb.“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Mul on Eestis palju sugulasi – Bürokratt on näiteks mu kauge onupoeg! Kõik nad töötavad eri valdkondades, aga ma ajan segamini, mis tüüpi probleeme nad lahendavad.“
 
-Lukk avaneb, kui lahendad mõistatuse. Leia iga kirjelduse (A–D) juurde sobiv Eesti TI-lahendus ja kirjuta selle number. Kui paned numbrid järjekorras A, B, C, D kõrvuti, saad neljakohalise koodi. Üks lahendus jääb üle.
+Lukk avaneb, kui lahendad ülesande. Allpool on neli uut olukorda (A–D). Otsusta iga olukorra juures, millise probleemitüübiga on tegu, ja kirjuta selle number. Kui paned numbrid järjekorras A, B, C, D kõrvuti, saad neljakohalise koodi. Üks probleemitüüp jääb üle.
 
-**Lahendused:** 1 – Bürokratt, 2 – Veriff, 3 – Starship, 4 – Salv, 5 – Lingvist
+**Probleemitüübid:** 1 – klassifitseerimine, 2 – ennustamine, 3 – optimeerimine, 4 – planeerimine, 5 – anomaaliate tuvastamine
 
-- **A.** Võrdleb isikut tõendava dokumendi pilti inimese näoga ja kontrollib, kas ta on see, kes ta väidab end olevat.
-- **B.** Otsib pangatehingute seast neid, mis erinevad tavapärasest mustrist ja võivad viidata rahapesule.
-- **C.** Riigi virtuaalassistentide võrgustik, mille kaudu saab kõnekeeles avalikke teenuseid kasutada.
-- **D.** Kohandab keeleõppe materjale kasutaja oskuste ja edenemise järgi.
+- **A.** Kooli söökla tahab teada, mitu portsjonit suppi järgmisel reedel tõenäoliselt kulub, et toitu ära ei visataks.
+- **B.** Robootikaringi robot peab ise välja mõtlema tegevuste järjekorra: sõida ukseni, vajuta nuppu, oota, kuni uks avaneb, sõida kastini ja tõsta see üles.
+- **C.** Jäätmejaama kaamera otsustab iga pakendi pildi põhjal, kas see on plastik, klaas või metall.
+- **D.** Spordihoone nutikas veearvesti märkab, et kell 3 öösel, kui majas pole kedagi, kulub ootamatult palju vett, ja saadab hoiatuse.
 
 [[2415]]
-[[?]] Vihje: B on näide anomaaliate tuvastamisest. Isesõitvaid kullerroboteid sel korral vaja ei lähe.
+[[?]] Vihje 1: Küsi iga olukorra juures: kas süsteem paneb asja mõnda klassi, prognoosib tulevikku, koostab tegevuste jada, otsib parimat lahendust või märkab tavapärasest erinevat?
+[[?]] Vihje 2: Supiportsjonite arv on tuleviku prognoos ja öine veekulu on tavapärasest erinev. Kood algab numbriga 2 ja üle jääb optimeerimine.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Ühised põhimõtted ja valdkondade eripära“ ja loe lõik „Tehisintellekt lahendab valdkonnast sõltumata sageli samu probleemitüüpe …“ koos tabeliga. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI408") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/[^0-9]/g, "");
 v === "2415"
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Veriff, Salv, Bürokratt ja Lingvist lahendavad väga erinevaid probleeme, kuid kõik kasutavad samu TI põhimõtteid: andmetest õppimist, mustrite tuvastamist ja otsustamist.
+✅ **Lukk avatud!** A on ennustamine (2), B planeerimine (4), C klassifitseerimine (1) ja D anomaaliate tuvastamine (5); optimeerimine jäi üle. Valdkonnad on väga erinevad, kuid probleemitüübid korduvad – sellepärast saab samu TI-meetodeid kasutada nii koolis, tehases kui ka pangas.
 
 🔑 **Sinu võtmetäht: K**
 
@@ -11228,6 +13102,77 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ![4. ploki kaanepilt](pildid/plokk_4/plokk_4_kaas.svg)
 
 Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
+
+### 🔬 4. ploki TI-labor: Kuidas algoritm minu eest otsustab?
+
+<!-- class="pae-motle" -->
+> **Uurimisküsimus:** Kui täpselt suudab meie endi koostatud otsustuspuu uusi näiteid liigitada ja kui kiiresti hakkab soovitusalgoritm meile pakkuma ainult ühe teema sisu?
+
+**Eesmärk:** Koostad rühmas klassi andmetest lihtsa otsustuspuu ja mõõdad selle täpsust uute näidetega. Seejärel uurid katsega, kuidas soovitusalgoritm sinu tegevusele reageerib ja kuidas tekib filtrimull.
+
+**Vaja läheb:** paber ja pliiats või [draw.io](https://app.diagrams.net/) puu joonistamiseks; arvuti, kus saab avada **privaatse akna** (Chrome'is inkognito aken, Firefoxis ja Edge'is privaatne aken), ja YouTube; ~45 min, 3-liikmeline rühm
+
+**Rollid:** katsetaja, protokollija, kriitik (vahetage rolle)
+
+<!-- class="pae-lisaks" -->
+> **🔒 Privaatsus kõigepealt**
+>
+> - Ära logi YouTube'i ega Google'isse sisse ja ära kasuta oma kontot. Tee katse värskes privaatses aknas ja sulge aken kohe pärast katset.
+> - Ära kirjuta otsingusse oma nime ega muid isikuandmeid.
+> - Otsustuspuu andmetes kasuta ainult tegelasi, filme või toite – mitte klassikaaslaste andmeid.
+> - Vali neutraalne teema, mille õpetaja on heaks kiitnud.
+
+<!-- class="pae-jaotis" -->
+**1. Hüpotees**
+
+Kirjutage enne katset üles kaks oletust: a) mitu viiest uuest näitest teie otsustuspuu õigesti liigitab; b) mitu kümnest YouTube'i soovitusest on teie teemal pärast 10 minutit vaatamist.
+
+[[___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**2. Katse**
+
+**A. Otsustuspuu (~20 min)**
+
+1. Valige teema ja koostage tabel 20 näitega, nt 20 multifilmitegelast, filmi või toitu. Märkige iga näite juurde 3–4 jah/ei-tunnust (nt „Kas on loom?“, „Kas oskab lennata?“, „Kas on pärit Eestist?“) ja klass, mida puu peab ennustama (nt „kangelane“ või „pahalane“, „magus“ või „soolane“).
+2. Pange 5 näidet kõrvale – need on **testandmed**. Ülejäänud 15 näite põhjal ehitage paberil või draw.io-s otsustuspuu: valige juuretipuks tunnus, mis jagab näited kõige ühtlasemateks rühmadeks, ja jätkake, kuni lehtedes on ainult ühe klassi näited.
+3. Laske puul liigitada 5 testnäidet ja arvutage täpsus: õigete vastuste arv : 5.
+
+**B. Soovitusalgoritmi eksperiment (~15 min)**
+
+4. Avage värske privaatne aken ja YouTube **ilma sisselogimiseta**. Kirjutage üles avalehe 10 esimest soovitust. Kui avaleht on tühi, avage ükskõik milline video ja kirjutage üles selle kõrval või all olevad 10 soovitust. See on algseis.
+5. Valige üks neutraalne teema (nt kassid, korvpall, Lego, kokkamine). Otsige ja vaadake 10 minutit ainult selle teema videoid; klõpsake ka soovitatud videotel, kui need on samal teemal.
+6. Pärast 5 ja pärast 10 minutit loendage, mitu soovitust kümnest on teie teemal. Seejärel sulgege privaatne aken.
+
+<!-- data-type="none" -->
+| Katse | Mida muutsid | Tulemus | Märkus |
+|---|---|---|---|
+| 1 | otsustuspuu, 5 testnäidet | täpsus: … / 5 | |
+| 2 | YouTube, algseis (0 min) | teemal … / 10 soovitusest | |
+| 3 | YouTube, 5 min ühte teemat | teemal … / 10 soovitusest | |
+| 4 | YouTube, 10 min ühte teemat | teemal … / 10 soovitusest | |
+
+<!-- class="pae-jaotis" -->
+**3. Analüüs**
+
+- Kas teie hüpoteesid pidasid paika? Mida näitavad tulemused selle kohta, kuidas algoritm teie eest otsustab?
+- Kui puu eksis testnäidetega, siis miks? Kas puu oli 15 treeningnäitega liiga hästi kohandunud (ülesobitamine) või puudus mõni oluline tunnus?
+- Millised on teie katse piirangud (nt väike andmehulk, ainult üks platvorm, YouTube'i algoritm on salajane, ainult ühe rühma tulemus)? Mida peaks tegema, et järeldus oleks usaldusväärsem?
+
+[[___ ___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**4. Laboriaruanne portfooliosse**
+
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita Moodle'is.
+
+<!-- data-type="none" -->
+| Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
+|---|---|---|---|
+| Hüpotees ja katse | Mõlemad hüpoteesid on kontrollitavad; mõlemad katseosad on tehtud juhendi järgi | Hüpoteesid on olemas; katses on väikesi kõrvalekaldeid | Hüpotees puudub või katse jäi pooleli |
+| Andmed ja tulemused | Tabel on täielik; puu täpsus ja soovituste muutus on õigesti arvutatud ja selgelt esitatud | Enamik andmeid on olemas; arvutustes on väikesi vigu | Andmed on puudulikud või segased |
+| Järeldus ja piirangud | Järeldus tugineb andmetele ja on seotud ülesobitamise ning filtrimulliga; nimetatud on vähemalt kaks piirangut | Järeldus on olemas; nimetatud on üks piirang | Järeldus ei tulene andmetest; piiranguid pole nimetatud |
+| Koostöö ja ohutus | Rollid vahetusid; keegi ei loginud sisse ega kasutanud isikuandmeid | Rollid ei vahetunud, kuid ohutusreegleid järgiti | Ohutusreegleid rikuti (nt logiti oma kontoga sisse) |
 
 ### Praktilised ülesanded
 
@@ -11269,9 +13214,9 @@ Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **prakti
 
 **Kasulikud lingid:**
 
-- [Draw.io – diagrammide loomise tööriist](https://app.diagrams.net/)
-- [Lucidchart – diagrammide loomise tööriist](https://www.lucidchart.com/)
-- [Decision Trees in Machine Learning – Towards Data Science](https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052)
+- [draw.io – diagrammide loomise tööriist](https://app.diagrams.net/)
+- [R2D3: A visual introduction to machine learning](https://r2d3.us/visual-intro-to-machine-learning-part-1/)
+- [scikit-learn: Decision Trees](https://scikit-learn.org/1.4/modules/tree.html)
 
 Kirjelda lühidalt oma rühma otsustuspuud ja seda, mida sa ülesande käigus õppisid.
 
@@ -11319,9 +13264,9 @@ Kirjelda lühidalt oma rühma otsustuspuud ja seda, mida sa ülesande käigus õ
 
 **Kasulikud lingid:**
 
-- [Expert Systems – Introduction – Tutorialspoint](https://www.tutorialspoint.com/artificial_intelligence/artificial_intelligence_expert_systems.htm)
-- [Building a Simple Expert System – GeeksforGeeks](https://www.geeksforgeeks.org/building-a-simple-expert-system/)
-- [Experta – Python Expert Systems Library](https://github.com/nilp0inter/experta)
+- [Encyclopaedia Britannica: Expert system](https://www.britannica.com/technology/expert-system)
+- [MYCIN-i raamat: Rule-Based Expert Systems (tasuta peatükid)](https://people.dbmi.columbia.edu/~ehs7001/Buchanan-Shortliffe-1984/MYCIN%20Book.htm)
+- [Experta – Pythoni ekspertsüsteemide teek](https://github.com/nilp0inter/experta)
 
 Kirjuta siia kolm oma rühma reeglit ja kirjelda, kuidas su ekspertsüsteem testimisel toimis.
 
@@ -11368,9 +13313,9 @@ Kirjuta siia kolm oma rühma reeglit ja kirjelda, kuidas su ekspertsüsteem test
 
 **Kasulikud lingid:**
 
-- [How Do Recommendation Systems Work? – Towards Data Science](https://towardsdatascience.com/how-do-recommendation-systems-work-d1e229ca2f3c)
-- [Recommendation Systems – IBM Developer](https://developer.ibm.com/technologies/artificial-intelligence/articles/introduction-to-recommender-systems/)
-- [The Ethics of Recommendation Systems – Harvard Business Review](https://hbr.org/2021/03/the-ethics-of-recommendation-systems)
+- [Google for Developers: Recommendation systems](https://developers.google.com/machine-learning/recommendation)
+- [Euroopa Komisjon: digiteenuste määrus](https://digital-strategy.ec.europa.eu/et/policies/digital-services-act)
+- [Music-Map – koostööfiltreerimisel põhinev muusikakaart](https://www.music-map.com/)
 
 Kirjelda, mida sa analüüsitud soovitussüsteemi ja filtrimulli kohta teada said. Kas see muudab, kuidas sa ise seda rakendust kasutad?
 
@@ -11419,9 +13364,9 @@ Kirjelda, mida sa analüüsitud soovitussüsteemi ja filtrimulli kohta teada sai
 
 **Kasulikud lingid:**
 
-- [The Trolley Problem in AI – MIT Technology Review](https://www.technologyreview.com/2018/10/24/139313/a-global-ethics-study-aims-to-help-ai-solve-the-self-driving-trolley-problem/)
-- [AI Decision-Making – Stanford University](https://hai.stanford.edu/news/ai-decision-making)
-- [Ethics of Artificial Intelligence – UNESCO](https://en.unesco.org/artificial-intelligence/ethics)
+- [Moral Machine – MIT Media Lab](https://www.media.mit.edu/projects/moral-machine/)
+- [UNESCO: Recommendation on the Ethics of Artificial Intelligence (UNESCO Uus-Meremaa ülevaade)](https://unesco.org.nz/knowledge-hub/ethics-of-artificial-intelligence-recommendation)
+- [Euroopa Komisjon: tehisintellekti käsitlev õigusakt](https://digital-strategy.ec.europa.eu/et/policies/regulatory-framework-ai)
 
 Milline roll oli sinul ja millised väärtused läksid sinu rühmas omavahel kõige rohkem vastuollu?
 
@@ -11468,10 +13413,8 @@ Milline roll oli sinul ja millised väärtused läksid sinu rühmas omavahel kõ
 
 **Kasulikud lingid:**
 
-- [AI for Good – United Nations](https://aiforgood.itu.int/)
-- [AI for Social Good – Google](https://ai.google/social-good/)
-- [Solving Global Challenges with AI – World Economic Forum](https://www.weforum.org/agenda/2020/01/ai-for-good-global-challenges/)
-- [AI for Sustainable Development Goals – ITU](https://www.itu.int/en/ITU-T/AI/Pages/ai4sdgs.aspx)
+- [AI for Good – ITU (ÜRO)](https://aiforgood.itu.int/about-ai-for-good)
+- [IRCAI Global Top 100 – kestliku arengu eesmärke toetavad TI-projektid](https://ircai.org/project/ircai-global-top-100-2022-report/)
 
 Kirjelda lühidalt oma rühma lahendust. Millisesse teise rühma lahendusse sa „investeeriksid“ ja miks?
 
@@ -11656,7 +13599,7 @@ let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["mullifilter", "mullifiltriks", "mullifiltri", "filtrimull", "filtrimulliks", "filter bubble"].includes(v)
 </script>
 ****************************************
-Õige vastus: **filtrimull** (ka filtrimull). See tekib tagasisideahelast: mida rohkem sa üht teemat vaatad, seda rohkem süsteem seda sulle pakub.
+Õige vastus: **filtrimull** (ka mullifilter). See tekib tagasisideahelast: mida rohkem sa üht teemat vaatad, seda rohkem süsteem seda sulle pakub.
 ****************************************
 
 **10. Mis on tehisintellekti kontekstis „musta kasti“ probleem otsustamisel?**
@@ -11836,10 +13779,14 @@ Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega. 
 > **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 4.1, 4.2, 4.3 ja 4.4 lukkudest järjekorras).
 
 [[TARK]]
-[[?]] Vihje: sõnas on 4 tähte ja see on seotud selle toa teemaga – sellist otsust tahaks masinalt igaüks.
+[[?]] Vihje 1: Kas kirjutasid iga luku võtmetähe üles? Pane tundide 4.1, 4.2, 4.3 ja 4.4 tähed järjekorras kõrvuti.
+[[?]] Vihje 2: Sõnas on 4 tähte, see algab T-ga ja on seotud selle toa teemaga – sellist otsust tahaks masinalt igaüks.
+[[?]] 🛟 Päästerõngas: mine tagasi lehtedele „🔐 Lukk 4.1“, „🔐 Lukk 4.2“, „🔐 Lukk 4.3“ ja „🔐 Lukk 4.4“ ja loe igaühe lõpus lõik „Sinu võtmetäht“. Kui ikka ei tule välja, küsi õpetajalt selle ukse päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI254") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "tark"
+}
 </script>
 ****************************************
 ![Kratt](pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Labürindi sildid „JAH“ ja „EI“ süttivad korraga põlema ning moodustavad selge otsustuspuu, mis juhatab väljapääsuni. Kratt mäletab nüüd jälle, kuidas otsida teed olekuruumis, kuidas rakendada „KUI … SIIS …“ reegleid ja kuidas soovitada sisu, ilma et keegi filtrimulli kinni jääks. „Tänan teid!“ hüüab Kratt. „Nüüd ma tean: tark otsus ei ole kiire arvamine, vaid hea küsimuste ahel – ja lõpliku otsuse jätan ma tähtsates asjades ikkagi inimesele.“
@@ -11884,17 +13831,38 @@ Selles plokis uurid, kuidas arvuti pildist üldse midagi „näeb“, kui tema j
 ## 5.1 Kuidas tehisintellekt näeb pilte
 
 <!-- class="pae-kaas" -->
-![Õpilane pildistab koolihoovis telefoniga karikakart, pilt laguneb värvilisteks piksliruutudeks ja telefoniekraanil tunneb tehisintellekt lille ära kui karikakra 94-protsendilise kindlusega.](pildid/illustratsioonid/5_1.jpg)
+![Õpilane pildistab koolimaja ees telefoniga kastepiiskadega karikakart. Lille parem pool ja taust lagunevad värvilisteks piksliruutudeks – nii näeb pilti arvuti.](pildid/illustratsioonid/5_1.jpg)
 
 ### Õpieesmärgid
 
-Selle tunni lõpuks sa:
+Selle tunni järel sa:
 
-- oskad selgitada, mis on arvutinägemine ja mille poolest see erineb inimese nägemisest;
-- mõistad, kuidas pilt arvutis pikslite ja arvudena (RGB-väärtustena) esitatakse;
-- tunned pilditöötluse põhisamme: eeltöötlus, tunnuste eraldamine ja tõlgendamine;
-- oskad kirjeldada, kuidas töötab konvolutsiooniline närvivõrk (CNN);
-- tunned arvutinägemise peamisi ülesandeid, rakendusi ja väljakutseid.
+- **selgitad oma sõnadega**, mille poolest erineb <span class="pae-term" tabindex="0" data-def="arvutinägemine: Piltide ja videote analüüsimisega tegelev tehisintellekti suund">arvutinägemine</span> inimese nägemisest *(mõistmine)*;
+- **tood** oma igapäevaelust näiteid, kus arvutinägemine sind aitab või jälgib *(mõistmine)*;
+- **arvutad**, mitu arvu (RGB-väärtust) kirjeldab värvilist pilti arvuti jaoks *(rakendamine)*;
+- **võrdled** konvolutsioonilist närvivõrku (CNN) traditsiooniliste arvutinägemise meetoditega ja tood välja ühe eelise ja ühe puuduse *(analüüs)*;
+- **katsetad**, milliste tunnuste järgi närvivõrk sinu joonistuse ära tunneb, ja **hindad**, millal ja miks see eksib *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Mis on arvutinägemine?“, „Pilt arvuti silmis: pikslid ja RGB“, „Konvolutsioonilised närvivõrgud (CNN)“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Kas närvivõrk tunneb su joonistuse ära?“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded II, VII ja VIII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Arvuti ei näe pilti samamoodi nagu sina. Arvuti jaoks on pilt lihtsalt suur tabel, mis on täis arve. Iga väike ühevärviline punkt pildil on **<span class="pae-term" tabindex="0" data-def="piksel: Digitaalse pildi väikseim ühevärviline punkt">piksel</span>**. Värvilise piksli värvi kirjeldab kolm arvu: punane, roheline ja sinine. **Arvutinägemine** aitab arvutil pilte ja videoid mõista. Selleks kasutatakse sageli närvivõrku, mille nimi on **CNN**. CNN õpib tuhandete piltide põhjal ja leiab kõigepealt servi ja jooni. Hiljem tunneb see ära kujundeid ja objekti osi, näiteks kassi silmi.
+
+**Tähtsad sõnad:** **arvutinägemine** – arvuti oskus pilte ja videoid mõista; **piksel** – pildi kõige väiksem ühevärviline punkt; **RGB** – punane, roheline ja sinine, neist kolmest tekib piksli värv; **CNN** – närvivõrk, mis õpib pildilt ise tunnuseid leidma.
+
+</section>
 
 ### Mis on arvutinägemine?
 
@@ -11954,15 +13922,15 @@ Arvuti hoiab sellist pilti tegelikult kolme kihina: üks tabel punase, üks rohe
 >
 > Täis-HD pildil on 1920 × 1080 = 2 073 600 pikslit. Kuna igal pikslil on kolm värviväärtust, koosneb üks selline pilt arvuti jaoks 6 220 800 arvust. Video puhul on selliseid pilte ehk kaadreid igas sekundis kümneid. Pole ime, et arvutinägemine vajab palju arvutusvõimsust!
 
-### Pildist tähenduseni: eeltöötlus, tunnused ja tõlgendamine
+### ➕ Pildist tähenduseni: eeltöötlus, tunnused ja tõlgendamine
 
 Kuidas jõuab arvuti miljonitest arvudest vastuseni „pildil on koer“? Protsessi võib jagada neljaks sammuks.
 
 ![Neli järjestikust sammu nooltega: digitaalne pilt, eeltöötlus, tunnuste eraldamine ja tõlgendamine koos iga sammu näidetega](pildid/plokk_5/5_1_toru.svg "Joonis 5.1.3. Pildist tähenduseni neljas sammus")
 
-**Eeltöötlus** (preprocessing) valmistab pildi analüüsiks ette. Pildi **suurust muudetakse**, sest mudel ootab kindla suurusega sisendit. **Normaliseerimine** viib arvud ühtlasesse vahemikku (nt 0–255 asemel 0–1). **Müra eemaldamine** puhastab pildi juhuslikest täppidest ja **kontrasti parandamine** muudab heledad ja tumedad alad paremini eristatavaks. Eeltöötlus on oluline, sest see muudab pildid mudelile sobivaks ja parandab tuvastamise täpsust. Võrdle: ka sina loed paremini, kui tekst on selge ja piisavalt suur.
+**<span class="pae-term" tabindex="0" data-def="eeltöötlus: Pildi ettevalmistamine analüüsiks (suurus, normaliseerimine, müra, kontrast)">Eeltöötlus</span>** (preprocessing) valmistab pildi analüüsiks ette. Pildi **suurust muudetakse**, sest mudel ootab kindla suurusega sisendit. **Normaliseerimine** viib arvud ühtlasesse vahemikku (nt 0–255 asemel 0–1). **Müra eemaldamine** puhastab pildi juhuslikest täppidest ja **kontrasti parandamine** muudab heledad ja tumedad alad paremini eristatavaks. Eeltöötlus on oluline, sest see muudab pildid mudelile sobivaks ja parandab tuvastamise täpsust. Võrdle: ka sina loed paremini, kui tekst on selge ja piisavalt suur.
 
-**Tunnuste eraldamine** tähendab pildi oluliste omaduste ja mustrite leidmist. Sellised tunnused on näiteks **servad ja nurgad**, **tekstuur ja värvid** ning **kuju ja struktuur**.
+**<span class="pae-term" tabindex="0" data-def="tunnuste eraldamine: Pildi oluliste omaduste (servad, tekstuur, kuju) leidmine">Tunnuste eraldamine</span>** tähendab pildi oluliste omaduste ja mustrite leidmist. Sellised tunnused on näiteks **servad ja nurgad**, **tekstuur ja värvid** ning **kuju ja struktuur**.
 
 **Tõlgendamine** on viimane samm, kus mudel otsustab, mida pilt tähendab. Ta võib pildi **klassifitseerida** (liigitada kategooriasse), objekti **lokaliseerida** (leida selle asukoha) või pildi **segmenteerida** (jagada osadeks).
 
@@ -11982,7 +13950,7 @@ Servade tuvastamise ideed on lihtne näha. Sobeli filter on väike 3 × 3 arvuta
 Traditsiooniliste meetodite suur puudus oli see, et tunnused pidi inimene käsitsi välja mõtlema. Süvaõppe revolutsioon muutis selle. **Konvolutsioonilised närvivõrgud** õpivad ise, milliseid tunnuseid on vaja otsida.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: konvolutsiooniline närvivõrk (CNN)**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="konvolutsiooniline närvivõrk (CNN): Piltide töötlemisele spetsialiseerunud närvivõrk, mis õpib pildi tunnuseid ise leidma">konvolutsiooniline närvivõrk (CNN)</span>**
 >
 > Konvolutsiooniline närvivõrk (Convolutional Neural Network, CNN) on piltide töötlemisele spetsialiseerunud närvivõrk. See libistab üle pildi väikeseid filtreid ja õpib treenimise käigus ise, milliseid tunnuseid on vaja otsida.
 
@@ -11994,7 +13962,7 @@ CNN-i põhikomponendid on järgmised.
 
 - **Konvolutsioonikiht** libistab üle pildi palju väikeseid filtreid (nagu eespool Sobeli filter). Iga filter otsib üht mustrit. Erinevalt Sobeli filtrist ei kirjuta filtrite arve inimene, vaid võrk õpib need ise.
 - **Aktivatsioonifunktsioon** otsustab iga arvutuse järel, kui tugevalt signaal edasi läheb. Näiteks jätab levinud funktsioon ReLU positiivsed väärtused alles ja muudab negatiivsed nulliks. Tänu sellele suudab võrk õppida keerulisi, mittelineaarseid seoseid.
-- **Pooling-kiht (koondamiskiht)** vähendab andmete hulka. Näiteks võetakse igast 2 × 2 ruudust ainult suurim väärtus. Pilt muutub väiksemaks, aga olulisim info jääb alles.
+- **<span class="pae-term" tabindex="0" data-def="pooling-kiht: CNN-i kiht, mis vähendab andmete hulka, jättes alles olulisima">Pooling-kiht</span> (koondamiskiht)** vähendab andmete hulka. Näiteks võetakse igast 2 × 2 ruudust ainult suurim väärtus. Pilt muutub väiksemaks, aga olulisim info jääb alles.
 - **Täielikult ühendatud kiht** paneb lõpus kõik leitud tunnused kokku ja teeb otsuse, näiteks: „kass – väga tõenäoline, koer – vähe tõenäoline“.
 
 Kuidas CNN õpib? Võrgule näidatakse tuhandeid **märgendatud pilte** (pildi juures on õige vastus, nt „kass“). Iga kord, kui võrk eksib, muudetakse veidi tema filtrite arve, et järgmine kord oleks vastus parem. Pärast väga paljusid kordusi on filtrid õppinud leidma just neid tunnuseid, mis aitavad kasse koertest eristada.
@@ -12006,7 +13974,25 @@ CNN-i **eelised** on automaatne tunnuste õppimine, ruumiline hierarhia (väikes
 >
 > Traditsiooniliste ja süvaõppel põhinevate meetodite erinevus on umbes nagu retseptiraamatu ja kogenud koka erinevus. Traditsiooniline meetod järgib täpselt inimese kirjutatud juhiseid („otsi servi, siis ringe“). Süvaõppe mudel on õppinud tuhandete näidete põhjal ise. Selleks vajab ta aga palju andmeid ja arvutusvõimsust ning tema otsuseid on raskem selgitada.
 
-### Arvutinägemise ülesanded ja rakendused
+### 🧪 TI-katse: kas närvivõrk tunneb su joonistuse ära?
+
+Mängus Quick, Draw! püüab närvivõrk ära arvata, mida sa joonistad. See on õppinud miljonite inimeste joonistuste põhjal – täpselt nii, nagu CNN õpib tunnuseid näidete põhjal. Katsetad, milliste tunnuste järgi võrk otsustab ja millal ta eksib.
+
+**Vaja läheb:** [Quick, Draw!](https://quickdraw.withgoogle.com/) (tasuta, sisselogimist pole vaja), ~10 min, paaristöö
+
+1. Ava Quick, Draw! ja mängi üks voor. Iga joonistuse jaoks on 20 sekundit.
+2. Pinginaaber paneb kirja, kas ja kui ruttu närvivõrk iga joonistuse ära arvas.
+3. Mängi teine voor ja muuda teadlikult üht tunnust: jäta oluline osa ära (nt kassil kõrvad), joonista objekt ebatavalise nurga alt või väga väikselt lehe nurka.
+4. Vaata vooru lõpus kokkuvõtet ja võrdle: millised joonistused tundis võrk ära ja millised mitte?
+
+**Pane tähele / kirjuta üles:** Milliste tunnuste järgi (kuju, olulised detailid, suurus) võrk sinu arvates otsustas? Millise muudatuse peale ta eksis? Mida see ütleb selle kohta, kuidas närvivõrk tunnuseid õpib?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** joonista ruutpaberile 8 × 8 ruudust koosnev lihtne kujund ja kirjuta igasse ruutu 0 (must) või 255 (valge). Pinginaaber peab ainult arvude järgi ära arvama, mis kujund see on – nii „näeb“ pilti arvuti.
+
+### ➕ Arvutinägemise ülesanded ja rakendused
 
 Arvutinägemisega lahendatakse mitut eri tüüpi ülesandeid.
 
@@ -12018,7 +14004,7 @@ Arvutinägemisega lahendatakse mitut eri tüüpi ülesandeid.
 | **Jälgimine** | Kuhu objekt liigub? | Inimeste liikumise jälgimine turvakaamera videos |
 
 <!-- class="pae-moiste" -->
-> **Mõiste: segmenteerimine**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="segmenteerimine: Pildi jagamine tähenduslikeks piirkondadeks pikslitäpsusega">segmenteerimine</span>**
 >
 > Segmenteerimine on pildi jagamine tähenduslikeks piirkondadeks või objektideks **pikslitäpsusega**. **Semantiline segmenteerimine** määrab iga piksli klassi (nt kõik autode pikslid on „auto“). **Instantsi segmenteerimine** eristab ka sama klassi eri objekte (auto 1, auto 2). **Panoptiline segmenteerimine** ühendab mõlemad. Tuntud arhitektuurid on U-Net, DeepLab ja Mask R-CNN.
 
@@ -12037,11 +14023,11 @@ Arvutinägemist kasutatakse paljudes valdkondades:
 >
 > Eesti juurtega Starship Technologies on loonud isesõitvad kullerrobotid, mis kasutavad tehisintellekti ja arvutinägemist, et linnatänavatel navigeerida ning pakke ja toitu kohale toimetada. Robot peab ära tundma kõnniteed, ülekäiguraja, jalakäijad ja takistused. Teine Eesti ettevõte Veriff kasutab arvutinägemist inimese isikusamasuse tuvastamiseks: süsteem võrdleb isikut tõendavat dokumenti ja inimese näopilti. Arvutinägemist uuritakse Eestis ka Tartu Ülikoolis ja Tallinna Tehnikaülikoolis; kasutusalade hulgas on liikluse jälgimine, põllumajanduse seire ja meditsiiniline pildianalüüs.
 
-### Väljakutsed ja tulevik
+### ➕ Väljakutsed ja tulevik
 
 Kuigi arvutinägemine on viimase kümnendiga palju arenenud, on sellel endiselt mitmeid väljakutseid.
 
-- **Varieeruvus.** Valgustus, vaatenurk, segane taust ja **oklusioon** (objekt on osaliselt varjatud) muudavad pildi arvuti jaoks palju keerulisemaks. Eestis lisanduvad kohalikud tingimused: pime talv, lumi, udu ja vihm.
+- **Varieeruvus.** Valgustus, vaatenurk, segane taust ja **<span class="pae-term" tabindex="0" data-def="oklusioon: Olukord, kus objekt on pildil osaliselt varjatud">oklusioon</span>** (objekt on osaliselt varjatud) muudavad pildi arvuti jaoks palju keerulisemaks. Eestis lisanduvad kohalikud tingimused: pime talv, lumi, udu ja vihm.
 - **Andmete vajadus.** Mudelid vajavad väga palju märgendatud andmeid ning nende kogumine ja märgendamine on kallis.
 - **Arvutusressursid.** Keerukad mudelid vajavad võimsaid graafikaprotsessoreid (GPU), aga nutitelefoni võimsus on piiratud.
 - **Robustsus ehk töökindlus.** Vaenulikud näited (adversarial examples) on pildid, mida on inimsilmale märkamatult muudetud nii, et mudel eksib. Probleeme tekitavad ka **domeeninihked**: mudel, mida on treenitud päikesepaisteliste California piltidega, võib Eesti talvel hätta jääda.
@@ -12078,10 +14064,19 @@ Tulevikus liigub arvutinägemine **multimodaalsete süsteemide** poole, mis ühe
 | Segmenteerimine | Pildi jagamine tähenduslikeks piirkondadeks pikslitäpsusega |
 | Oklusioon | Olukord, kus objekt on pildil osaliselt varjatud |
 
+### 📚 Allikad ja lisalugemine
+
+- Krizhevsky, A., Sutskever, I., Hinton, G. E. (2012). [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html). AlexNeti originaalartikkel: võrk õppis 1,3 miljoni pildi põhjal ja vähendas pildituvastuse vigu märgatavalt.
+- Wang, Z. J. jt (2020). [CNN Explainer](https://poloclub.github.io/cnn-explainer/). Interaktiivne tööriist, kus saad brauseris samm-sammult vaadata, mida teevad konvolutsioonikiht, ReLU ja pooling-kiht (inglise keeles, sobib lisalugemiseks).
+- Google (s.a.). [Quick, Draw! andmestik](https://quickdraw.withgoogle.com/data). Umbes 50 miljonit mängijate joonistust, mille põhjal närvivõrk õppis – saad sirvida, kuidas inimesed sama asja eri moodi joonistavad.
+- Wang, Z. J. jt (2020). [CNN Explainer: Learning Convolutional Neural Networks with Interactive Visualization](https://arxiv.org/abs/2004.15004v3). Teadusartikkel, mis selgitab, kuidas CNN-i tööd algajale näitlikustada.
+- Starship Technologies (s.a.). [Company](https://www.starship.xyz/company/). Ettevõtte tutvustus: robotid kasutavad liiklemiseks kaameraid, radarit, andureid ja masinõpet.
+- Invest in Estonia (s.a.). [Veriff builds trust on the internet](https://investinestonia.com/veriff-builds-trust-on-the-internet/). Lugu Eesti ettevõttest Veriff, mis võrdleb isikut tõendava dokumendi fotot ja inimese nägu.
+
 ### Tööleht 5.1
 
 <!-- class="pae-jaotis" -->
-**I. Arvutinägemise põhimõisted**
+**➕ I. Arvutinägemise põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on arvutinägemine.
 
@@ -12108,13 +14103,13 @@ Pilditöötlus muudab või parandab pilti (C). Objektituvastus leiab objektid ja
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Kuidas tehisintellekt „näeb“**
+**⭐ II. Kuidas tehisintellekt „näeb“**
 
 **Ülesanne 3.** Kirjelda, kuidas tehisintellekt töötleb pilte võrreldes inimese nägemisega.
 
 [[___ ___ ___ ___]]
 
-**Ülesanne 4.** Selgita, kuidas toimub pildi digitaalne esitamine (pikslid, RGB, resolutsioon).
+**Ülesanne 4.** Selgita pinginaabrile, kuidas arvuti sinu telefoniga tehtud fotot „näeb“. Kasuta sõnu piksel, RGB ja resolutsioon ning arvuta, mitu arvu kirjeldab värvilist fotot suurusega 4000 × 3000 pikslit.
 
 [[___ ___ ___ ___]]
 
@@ -12123,7 +14118,7 @@ Pilditöötlus muudab või parandab pilti (C). Objektituvastus leiab objektid ja
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Arvutinägemise põhitehnikad**
+**➕ III. Arvutinägemise põhitehnikad**
 
 **Ülesanne 6.** Kirjelda lühidalt järgmisi arvutinägemise tehnikaid.
 
@@ -12180,7 +14175,7 @@ Kirjuta iga rea kohta mõlema meetodi omadus.
 [[___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Konvolutsioonilised närvivõrgud (CNN)**
+**➕ IV. Konvolutsioonilised närvivõrgud (CNN)**
 
 **Ülesanne 8.** Selgita oma sõnadega, mis on konvolutsiooniline närvivõrk.
 
@@ -12209,7 +14204,7 @@ d) Täielikult ühendatud kiht:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Arvutinägemise rakendused**
+**➕ V. Arvutinägemise rakendused**
 
 **Ülesanne 11.** Täida tabel arvutinägemise rakenduste kohta erinevates valdkondades.
 
@@ -12248,7 +14243,7 @@ Kirjuta iga valdkonna kohta rakenduse näide, selle tööpõhimõte ja kasu.
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Praktiline ülesanne**
+**➕ VI. Praktiline ülesanne**
 
 **Ülesanne 13.** Vali üks järgmistest praktilistest ülesannetest.
 
@@ -12289,18 +14284,18 @@ d) Millised võiksid olla rakenduse piirangud või väljakutsed?
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Arvutinägemise väljakutsed**
+**⭐ VII. Arvutinägemise väljakutsed**
 
-**Ülesanne 14.** Millised on peamised väljakutsed arvutinägemises? Nimeta vähemalt neli.
+**Ülesanne 14.** Kooli jalgrattaparklas olev kaamera peaks loendama, mitu ratast seal on. Nimeta vähemalt neli olukorda, mis võivad loendamise nurjata, ja seo iga olukord tunnis õpitud väljakutsega (nt varieeruvus, oklusioon, domeeninihe).
 
 [[___ ___ ___ ___]]
 
-**Ülesanne 15.** Kuidas saaks neid väljakutseid lahendada?
+**Ülesanne 15.** Kuidas saaks neid väljakutseid lahendada? Paku iga olukorra jaoks üks lahendus.
 
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Arutelu**
+**⭐ VIII. Arutelu**
 
 **Ülesanne 16.** Kuidas on arvutinägemine muutnud meie igapäevaelu ja milliseid muutusi võib oodata tulevikus?
 
@@ -12396,23 +14391,77 @@ Traditsioonilistes meetodites (nt Sobeli filter, HOG) pidi inimene ise välja m�
 
 </details>
 
+### 📤 Väljapääsupilet 5.1
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['5.1'] = ["Sinu telefoni ekraanipilt on 1000 × 500 pikslit ja värviline. Mitu arvu peab arvuti selle pildi „nägemiseks“ läbi töötlema ja miks just nii palju?", "Millise muudatuse peale Quick, Draw! närvivõrk sinu joonistuse puhul eksis ja mida see ütleb selle kohta, kuidas võrk tunnuseid õpib?", "Kus sinu igapäevaelus arvutinägemine sind juba aitab või jälgib?"];
+setTimeout(function(){var d=window.paePilet.load('5.1');document.querySelectorAll('[data-pilet="5.1"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="5.1" name="nimi" oninput="window.paePilet.save('5.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Sinu telefoni ekraanipilt on 1000 × 500 pikslit ja värviline. Mitu arvu peab arvuti selle pildi „nägemiseks“ läbi töötlema ja miks just nii palju?</div><textarea data-pilet="5.1" name="q0" oninput="window.paePilet.save('5.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millise muudatuse peale Quick, Draw! närvivõrk sinu joonistuse puhul eksis ja mida see ütleb selle kohta, kuidas võrk tunnuseid õpib?</div><textarea data-pilet="5.1" name="q1" oninput="window.paePilet.save('5.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus sinu igapäevaelus arvutinägemine sind juba aitab või jälgib?</div><textarea data-pilet="5.1" name="q2" oninput="window.paePilet.save('5.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('5.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('5.1')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_5.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 5.1
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Keegi saatis mulle pisikese värvilise ikooni, ainult 10 × 10 pikslit. Mina loen aga nii palju arve, et pea käib ringi!“
 
-Lukk avaneb, kui lahendad mõistatuse. Arvuta ja kirjuta vastuseks üks arv.
+Lukk avaneb, kui lahendad ülesande. Arvuta ja kirjuta vastuseks üks arv.
 
-**Mitu arvu peab arvuti läbi töötlema, kui ta „vaatab“ 10 × 10 piksli suurust värvilist RGB-pilti?**
+**Kooli robootikaringi robot jälgib põrandale kleebitud joont. Tema pisike kaamera teeb värvilisi (RGB) kaadreid suurusega 10 × 10 pikslit ja närvivõrk otsustab iga kaadri põhjal, kuhu pöörata. Mitu arvu peab närvivõrk läbi töötlema ühe kaadri kohta?**
 
 [[300]]
-[[?]] Vihje: loe kõigepealt kokku pikslid. Mitu arvu kirjeldab ühte värvilist pikslit?
+[[?]] Vihje 1: mitu pikslit on ühes kaadris? Mitu arvu kirjeldab ühte värvilist pikslit?
+[[?]] Vihje 2: korruta pikslite arv värvikanalite arvuga (R, G ja B ehk 3).
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Pilt arvuti silmis: pikslid ja RGB“ ja loe lõik „Näide: kui palju arve on ühes fotos?“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI756") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/[\s.,]+/g, "");
 ["300", "300arvu"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** 10 × 10 = 100 pikslit ja igal pikslil on kolm värvikanalit (R, G, B), seega 100 × 3 = 300 arvu.
+✅ **Lukk avatud!** 10 × 10 = 100 pikslit ja igal pikslil on kolm värvikanalit (R, G, B), seega 100 × 3 = 300 arvu. Kui kaamera teeb sekundis 10 kaadrit, on see juba 3000 arvu sekundis.
 
 🔑 **Sinu võtmetäht: O**
 
@@ -12423,17 +14472,38 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 5.2 Objekti- ja näotuvastus
 
 <!-- class="pae-kaas" -->
-![Ristmikul jälgib kaamera tänavat ning tehisintellekt on märkinud värviliste kastidega auto, jalgratturi ja koera koos siltidega, samal ajal kui jalakäija ootab koeraga ülekäigurajal.](pildid/illustratsioonid/5_2.jpg)
+![Vihmane sügisõhtu Tallinna vanalinna väravate juures: objektituvastus on märkinud oranžide kastidega auto, jalgratturi ning ülekäigurada ületava jalakäija ja tema koera.](pildid/illustratsioonid/5_2.jpg)
 
 ### Õpieesmärgid
 
-Selle tunni lõpuks sa:
+Selle tunni järel sa:
 
-- oskad selgitada, mis on objektituvastus ja mille poolest see erineb klassifitseerimisest;
-- tunned objektituvastuse peamisi meetodeid (YOLO, Faster R-CNN) ja oskad kirjeldada nende erinevusi;
-- tead, kuidas objektituvastuse täpsust hinnatakse (IoU, täpsus, saagis);
-- eristad näotuvastust ja näotundmist ning tead nende põhietappe;
-- oskad arutleda objekti- ja näotuvastuse eetiliste küsimuste ja seadusandlike piirangute üle.
+- **selgitad oma sõnadega**, mille poolest erineb <span class="pae-term" tabindex="0" data-def="objektituvastus: Objektide leidmine pildil ning nende asukoha ja klassi määramine">objektituvastus</span> klassifitseerimisest *(mõistmine)*;
+- **arvutad** objektituvastuse IoU ja täpsuse (precision) antud andmete põhjal *(rakendamine)*;
+- **eristad** <span class="pae-term" tabindex="0" data-def="näotuvastus: Nägude leidmine pildil („kus?“)">näotuvastust</span> ja näotundmist konkreetsete näidete põhjal *(analüüs)*;
+- **katsetad**, kas Google Lens leiab kõik esemed üles, ning **hindad** selle täpsust ja saagist oma tulemuste põhjal *(hindamine)*;
+- **põhjendad** oma seisukohta, kas koolis tohiks kasutada näotundmist, arvestades eetikat ja seadusi *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Objektituvastus: mis ja kus pildil on?“, „Kuidas tuvastuse täpsust hinnata?“, „Eetika ja seadused“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Kas Google Lens leiab kõik esemed üles?“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded V, VII ja VIII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+**Objektituvastus** vastab küsimusele „Mis ja kus pildil on?“. Mudel leiab pildilt asjad, näiteks jalgrattad, ja paneb nende ümber kasti. Pärast seda tuleb mudeli tööd hoolikalt hinnata. Kas mudel leidis pildilt kõik jalgrattad üles? Kas kõik leitud asjad olid tõesti jalgrattad, mitte tõukerattad? **<span class="pae-term" tabindex="0" data-def="näotundmine: Isiku tuvastamine näo põhjal („kelle?“)">Näotundmine</span>** tunneb inimese tema näo järgi ära. See võib ohustada sinu privaatsust, sest nägu ei saa vahetada nagu parooli. Euroopas kaitsevad sind seadused, näiteks GDPR ja ELi tehisintellekti määrus.
+
+**Tähtsad sõnad:** **objektituvastus** – asjade leidmine pildil koos nende asukohaga; **piiramiskast** – ristkülik, mis näitab, kus asi pildil on; **näotundmine** – inimese äratundmine tema näo järgi; **biomeetrilised andmed** – keha tunnused, näiteks nägu või sõrmejälg, mille järgi saab inimest tuvastada.
+
+</section>
 
 ### Objektituvastus: mis ja kus pildil on?
 
@@ -12444,7 +14514,7 @@ Eelmises tunnis nägid, et **klassifitseerimine** vastab küsimusele „Mis on p
 >
 > Objektituvastus (object detection) on pildil olevate objektide leidmine, nende asukoha määramine (lokaliseerimine) ja klassi määramine (klassifitseerimine). See vastab küsimusele „Mis **ja kus** pildil on?“.
 
-Objekti asukoht märgitakse tavaliselt **piiramiskastiga** (bounding box, ka piiramisraam). See on ristkülik, mis ümbritseb objekti. Iga kasti juurde lisab mudel klassi nime ja **enesekindluse skoori** ehk selle, kui kindel mudel oma vastuses on.
+Objekti asukoht märgitakse tavaliselt **<span class="pae-term" tabindex="0" data-def="piiramiskast: Ristkülik, mis näitab objekti asukohta pildil">piiramiskastiga</span>** (bounding box, ka piiramisraam). See on ristkülik, mis ümbritseb objekti. Iga kasti juurde lisab mudel klassi nime ja **enesekindluse skoori** ehk selle, kui kindel mudel oma vastuses on.
 
 ![Lihtsatest kujunditest pilt, kus inimese kujutis, koer ja jalgratas on ümbritsetud värviliste piiramiskastidega; kastide siltidel on klass ja enesekindluse skoor 0,94, 0,78 ja 0,87](pildid/plokk_5/5_2_piiramiskastid.svg "Joonis 5.2.1. Iga kast = asukoht + klass + enesekindluse skoor")
 
@@ -12452,13 +14522,13 @@ Objektituvastus koosneb tavaliselt neljast osast: **piirkondade ettepanekud** (k
 
 Kui objekti tuleb jälgida videos kaadrist kaadrisse, nimetatakse seda **jälgimiseks** (tracking). Kui on vaja teada objekti täpset piirjoont, mitte ainult kasti, kasutatakse **segmenteerimist**.
 
-### Kuidas objektituvastus töötab: YOLO ja Faster R-CNN
+### ➕ Kuidas objektituvastus töötab: YOLO ja Faster R-CNN
 
 Objektituvastuse mudelid jagunevad kahte suurde rühma.
 
 **Kahesammulised meetodid** leiavad kõigepealt pildilt kohad, kus võiks olla objekt (piirkondade ettepanekud), ja alles siis uurivad iga kohta lähemalt. Siia kuuluvad **R-CNN, Fast R-CNN, Faster R-CNN** ja **Mask R-CNN** (mis lisab ka segmenteerimise). **Faster R-CNN** koosneb baas-CNN-ist, mis eraldab tunnused, piirkondade ettepanekute võrgust (Region Proposal Network, RPN) ning osadest, mis määravad klassi ja piiramiskasti. Selle eelised on kõrge täpsus ja paindlikkus, puudused aga aeglus ja keerukam ülesehitus.
 
-**Ühesammulised meetodid** ennustavad kõik korraga, ühe läbimisega. Siia kuuluvad **YOLO, SSD (Single Shot Detector)** ja **RetinaNet**. Uuemad on **transformeripõhised meetodid**, näiteks DETR ja Swin Transformer.
+**Ühesammulised meetodid** ennustavad kõik korraga, ühe läbimisega. Siia kuuluvad **<span class="pae-term" tabindex="0" data-def="YOLO: Kiire ühesammuline objektituvastuse meetod">YOLO</span>, SSD (Single Shot Detector)** ja **RetinaNet**. Uuemad on **transformeripõhised meetodid**, näiteks DETR ja Swin Transformer.
 
 <!-- class="pae-moiste" -->
 > **Mõiste: YOLO**
@@ -12495,7 +14565,7 @@ Lisaks loetakse kokku, mitu korda mudel õigesti või valesti vastas. **Täpsus 
 
 Kokkuvõtlik mõõdik **mAP (mean Average Precision)** arvutab keskmise täpsuse eri saagise väärtuste ja klasside lõikes. **FPS (kaadrit sekundis)** näitab, kui kiiresti mudel töötab – reaalajas videos on see väga oluline.
 
-### Näotuvastus ja näotundmine
+### ➕ Näotuvastus ja näotundmine
 
 Näod on arvutinägemise jaoks eriline objekt. Igapäevakeeles öeldakse kõige kohta „näotuvastus“, aga tegelikult on tegu kahe eri ülesandega.
 
@@ -12514,7 +14584,7 @@ Näotundmine käib neljas etapis:
 
 ![Näotundmise neli etappi nooltega: näo tuvastamine ja joondamine, tunnusvektori arvutamine, vektorite sarnasuse arvutamine ja otsus, kas tegu on sama inimesega](pildid/plokk_5/5_2_naotundmine_etapid.svg "Joonis 5.2.5. Näotundmine neljas etapis")
 
-Teises etapis muudab närvivõrk näo **tunnusvektoriks** (embedding) – arvude jadaks, mis kirjeldab näo omapära. Näiteks Google'i arendatud **FaceNet** loob iga näo kohta 128 arvust koosneva vektori. Sama inimese eri fotode vektorid on üksteisele lähedal, eri inimeste omad kaugel. Uuemad meetodid **ArcFace** ja **CosFace** eristavad nägusid veelgi paremini. Vanemad meetodid olid **Eigenfaces** ja **Fisherfaces**.
+Teises etapis muudab närvivõrk näo **<span class="pae-term" tabindex="0" data-def="tunnusvektor: Arvude jada, mis kirjeldab näo (või objekti) omapära">tunnusvektoriks</span>** (embedding) – arvude jadaks, mis kirjeldab näo omapära. Näiteks Google'i arendatud **FaceNet** loob iga näo kohta 128 arvust koosneva vektori. Sama inimese eri fotode vektorid on üksteisele lähedal, eri inimeste omad kaugel. Uuemad meetodid **ArcFace** ja **CosFace** eristavad nägusid veelgi paremini. Vanemad meetodid olid **Eigenfaces** ja **Fisherfaces**.
 
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Google'i arendatud **FaceNet** muudab iga näo 128 arvust koosnevaks tunnusvektoriks ehk „näo sõrmejäljeks“. Sama inimese eri fotode vektorid on üksteisele lähedal.
@@ -12528,7 +14598,7 @@ Näoga on seotud veel üks rakendus: **emotsioonide tuvastamine**. See püüab n
 >
 > Eesti ettevõte **Veriff** pakub isikusamasuse tuvastamist veebis: süsteem võrdleb isikut tõendava dokumendi fotot ja kaamera ees oleva inimese nägu, et kinnitada, et tegu on sama inimesega. Eesti juurtega **Realeyes** on tegelenud emotsioonide tuvastamisega ehk sellega, kuidas inimesed näoilmete järgi videosisule reageerivad. Starship Technologiesi robotid kasutavad objektituvastust, et liikluses takistusi ja inimesi märgata. Objekti- ja näotuvastust kasutatakse ka piirikontrollis, turvakaamerates ja klienditeeninduses.
 
-### Rakendused: telefonist isesõitva autoni
+### ➕ Rakendused: telefonist isesõitva autoni
 
 Objekti- ja näotuvastust kasutatakse paljudes valdkondades:
 
@@ -12540,7 +14610,7 @@ Objekti- ja näotuvastust kasutatakse paljudes valdkondades:
 Ka sinu taskus on arvutinägemine. Näotundmisega telefoni avamine (nt Apple'i Face ID või Androidi näoavamine), selfie-filtrid, **Google Lens** ja visuaalne otsing kasutavad kõik objekti- või näotuvastust. Et suured mudelid telefonis töötaksid, tehakse neid väiksemaks: arvude täpsust vähendatakse (kvantiseerimine), ebaolulisi ühendusi kärbitakse (pruning), kasutatakse spetsiaalseid kiipe ja arvutused tehakse otse seadmes (edge computing).
 
 <!-- class="pae-moiste" -->
-> **Mõiste: liitreaalsus**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="liitreaalsus: Reaalse maailma ja virtuaalsete elementide kombinatsioon">liitreaalsus</span>**
 >
 > Liitreaalsus (augmented reality, AR) on tehnoloogia, mis kombineerib reaalset maailma virtuaalsete elementidega. Erinevalt virtuaalreaalsusest, mis asendab reaalse maailma täielikult, lisab liitreaalsus päris pildile virtuaalseid objekte.
 
@@ -12552,16 +14622,16 @@ Näotundmine on üks kõige vastuolulisemaid TI-tehnoloogiaid. Seda seepärast, 
 
 **Privaatsus.** Kaamerad võivad inimesi jälgida ilma nende teadmata ja nõusolekuta. Tekib küsimus, kus ja kui kaua näopilte säilitatakse ning kes neile ligi pääseb.
 
-**Kallutatus ja diskrimineerimine.** Kui treeningandmed ei ole piisavalt mitmekesised, võib süsteem töötada mõne demograafilise rühma puhul halvemini kui teiste puhul. Selline **kallutatus** (bias) võib viia ebaõiglaste otsusteni, näiteks selleni, et süsteem tuvastab mõne inimese ekslikult kellegi teisena.
+**Kallutatus ja diskrimineerimine.** Kui treeningandmed ei ole piisavalt mitmekesised, võib süsteem töötada mõne demograafilise rühma puhul halvemini kui teiste puhul. USA standardiinstituut NIST testis 2019. aastal 189 näotundmisalgoritmi ja leidis, et enamiku täpsus sõltus inimese soost, vanusest ja rassist. Selline **kallutatus** (bias) võib viia ebaõiglaste otsusteni, näiteks selleni, et süsteem tuvastab mõne inimese ekslikult kellegi teisena.
 
-**Turvalisus.** Biomeetrilised andmed võivad lekkida, süsteeme võidakse petta vaenulike rünnakute või süvavõltsingutega (sellest räägime tunnis 5.5).
+**Turvalisus.** <span class="pae-term" tabindex="0" data-def="biomeetrilised andmed: Keha või käitumise tunnused, mille järgi saab inimest tuvastada">Biomeetrilised andmed</span> võivad lekkida, süsteeme võidakse petta vaenulike rünnakute või süvavõltsingutega (sellest räägime tunnis 5.5).
 
 <!-- class="pae-moiste" -->
 > **Mõiste: biomeetrilised andmed**
 >
-> Biomeetrilised andmed on inimese keha või käitumise mõõdetavad tunnused, mille järgi saab teda tuvastada: näokujutis, sõrmejäljed, hääl, silma vikerkest. Isikuandmete kaitse üldmääruse (GDPR) järgi on need eriliiki isikuandmed, mille töötlemine on rangelt piiratud.
+> Biomeetrilised andmed on inimese keha või käitumise mõõdetavad tunnused, mille järgi saab teda tuvastada: näokujutis, sõrmejäljed, hääl, silma vikerkest. Kui neid kasutatakse inimese kordumatuks tuvastamiseks, on need isikuandmete kaitse üldmääruse (GDPR) järgi eriliiki isikuandmed, mille töötlemine on rangelt piiratud.
 
-Euroopas kaitseb inimesi kõigepealt **isikuandmete kaitse üldmäärus (GDPR)**, mille järgi on inimese tuvastamiseks kasutatavad biomeetrilised andmed eriti kaitstud ja nende kasutamiseks on üldjuhul vaja selget õiguslikku alust, sageli inimese nõusolekut. Lisaks on Euroopa Liit vastu võtnud **tehisintellekti määruse (AI Act)**, mis jagab TI-süsteemid riskitasemete järgi. Määrus keelab mõned eriti ohtlikud kasutusviisid ja seab biomeetrilisele tuvastamisele ranged piirid. Üldjoontes on keelatud näiteks näopiltide suvaline kokkukorjamine internetist või turvakaameratest näotuvastuse andmebaaside loomiseks ning emotsioonide tuvastamine töökohtadel ja haridusasutustes (teatud meditsiiniliste ja turvalisusega seotud eranditega). Avalikus ruumis reaalajas näotuvastuse kasutamine õiguskaitse eesmärgil on lubatud vaid väga kitsastel, seaduses kirjeldatud juhtudel. Määruse nõudeid rakendatakse järk-järgult, nii et täpsed tingimused ja tähtajad tasub kontrollida ametlikest allikatest. Eestis jälgib isikuandmete kaitset **Andmekaitse Inspektsioon**.
+Euroopas kaitseb inimesi kõigepealt **isikuandmete kaitse üldmäärus (GDPR)**, mille järgi on inimese tuvastamiseks kasutatavad biomeetrilised andmed eriti kaitstud ja nende kasutamiseks on üldjuhul vaja selget õiguslikku alust, sageli inimese nõusolekut. Lisaks on Euroopa Liit vastu võtnud **tehisintellekti määruse (AI Act)**, mis jagab TI-süsteemid riskitasemete järgi. Määrus keelab mõned eriti ohtlikud kasutusviisid ja seab biomeetrilisele tuvastamisele ranged piirid. Üldjoontes on keelatud näiteks näopiltide suvaline kokkukorjamine internetist või turvakaameratest näotuvastuse andmebaaside loomiseks ning emotsioonide tuvastamine töökohtadel ja haridusasutustes (teatud meditsiiniliste ja turvalisusega seotud eranditega). Avalikus ruumis reaalajas näotuvastuse kasutamine õiguskaitse eesmärgil on lubatud vaid väga kitsastel, seaduses kirjeldatud juhtudel. Need keelud kehtivad alates 2. veebruarist 2025. Biomeetrilise tuvastamise kõrge riskiga süsteemide ranged nõuded hakkavad 2026. aastal tehtud muudatuse järgi kehtima 2. detsembrist 2027. Eestis jälgib isikuandmete kaitset **Andmekaitse Inspektsioon**.
 
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
@@ -12571,6 +14641,24 @@ Euroopas kaitseb inimesi kõigepealt **isikuandmete kaitse üldmäärus (GDPR)**
 > - Miks võib olla ohtlik, kui näotundmise süsteem töötab ühe inimrühma puhul täpsemalt kui teise puhul?
 
 Tulevikus liiguvad tehnoloogiad **kolmemõõtmelise (3D) näo- ja objektituvastuse** poole (sügavuskaamerad, mitu vaatenurka) ning arendatakse **privaatsust säilitavaid meetodeid**. Näiteks **föderatiivne õpe** (federated learning) treenib mudelit nii, et andmed jäävad inimeste seadmetesse ega liigu keskserverisse. Teised meetodid on homomorfne krüpteerimine ja diferentsiaalne privaatsus.
+
+### 🧪 TI-katse: kas Google Lens leiab kõik esemed üles?
+
+Objektituvastus peab leidma pildilt kõik objektid ja nimetama need õigesti. Katsetad seda Google Lensiga ning arvutad tulemuse põhjal täpsuse ja saagise.
+
+**Vaja läheb:** [Google Lens](https://search.google/ways-to-search/lens/) (telefonis Google'i rakendus või arvutis Chrome'i brauser), 5 eset pingilt, ~10 min, paaristöö
+
+1. Pane lauale kõrvuti 5 eset (nt pinal, õun, kruus, käärid, raamat) ja tee neist üks foto. Jälgi, et pildile ei jääks inimesi.
+2. Ava foto Google Lensis ja vaata, milliseid esemeid see eraldi märgib või ära tunneb. Kirjuta üles, mida Lens pakkus ja kas see oli õige.
+3. Arvuta **täpsus** (õigesti nimetatud esemed : kõik Lensi pakutud esemed) ja **saagis** (õigesti leitud esemed : 5).
+4. Kata üks ese poolenisti paberiga (oklusioon) ja korda katset. Kas täpsus või saagis muutus?
+
+**Pane tähele / kirjuta üles:** Milline oli Lensi täpsus ja saagis? Millise eseme puhul ta eksis ja miks? Mis muutus, kui ese oli osaliselt kaetud?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** üks paariline on „mudel“: ta vaatab kaaslase pinalis olevaid asju 3 sekundit ja nimetab need. Teine loeb kokku õiged ja valed vastused ning arvutab „mudeli“ täpsuse ja saagise.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -12595,10 +14683,19 @@ Tulevikus liiguvad tehnoloogiad **kolmemõõtmelise (3D) näo- ja objektituvastu
 | Liitreaalsus | Reaalse maailma ja virtuaalsete elementide kombinatsioon |
 | Biomeetrilised andmed | Keha või käitumise tunnused, mille järgi saab inimest tuvastada |
 
+### 📚 Allikad ja lisalugemine
+
+- Euroopa Komisjon (2026). [AI Act – regulatory framework for AI](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai). ELi tehisintellekti määruse ajakava ja keelatud kasutusviisid, sh näopiltide suvaline kogumine ja emotsioonide tuvastamine koolis.
+- Urgas, S. (2025). [Aktuaalne, kuid TI-määrusega vastuolus valvekaamera](https://www.err.ee/1609636912/silvia-urgas-aktuaalne-kuid-ti-maarusega-vastuolus-valvekaamera). ERR. Eestikeelne arvamuslugu sellest, mida TI-määrus näotuvastusega valvekaamerate kohta ütleb.
+- ERR (2021). [EL-i andmekaitse nõuab näotuvastustehnoloogia keelustamist](https://www.err.ee/1608254904/el-i-andmekaitse-nouab-naotuvastustehnoloogia-keelustamist). Eestikeelne uudis Euroopa andmekaitseasutuste seisukohast avaliku ruumi näotuvastuse kohta.
+- Grother, P., Ngan, M., Hanaoka, K. (2019). [Face Recognition Vendor Test Part 3: Demographic Effects](https://www.nist.gov/publications/face-recognition-vendor-test-part-3-demographic-effects). NIST. Suur uuring sellest, kuidas näotundmise vead sõltuvad soost, vanusest ja rassist.
+- Redmon, J. jt (2015). [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640). YOLO originaalartikkel: üks võrk ennustab piiramiskastid ja klassid korraga, umbes 45 kaadrit sekundis.
+- Schroff, F., Kalenichenko, D., Philbin, J. (2015). [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832v3). FaceNeti artikkel: iga nägu kirjeldatakse kompaktse tunnusvektoriga.
+
 ### Tööleht 5.2
 
 <!-- class="pae-jaotis" -->
-**I. Objektituvastuse põhimõisted**
+**➕ I. Objektituvastuse põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on objektituvastus.
 
@@ -12625,7 +14722,7 @@ Piiramiskast näitab asukohta ristkülikuna (C), segmenteerimine annab täpse pi
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Objektituvastuse meetodid**
+**➕ II. Objektituvastuse meetodid**
 
 **Ülesanne 3.** Kirjelda lühidalt järgmisi objektituvastuse meetodeid.
 
@@ -12673,7 +14770,7 @@ Kirjuta iga meetodi kohta tööpõhimõte, eelised, puudused ja sobiv kasutusolu
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Näotuvastus**
+**➕ III. Näotuvastus**
 
 **Ülesanne 5.** Selgita oma sõnadega, mis on näotuvastus ja kuidas see erineb näotundmisest (näo äratundmisest).
 
@@ -12692,7 +14789,7 @@ Kirjuta iga meetodi kohta tööpõhimõte, eelised, puudused ja sobiv kasutusolu
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Objekti- ja näotuvastuse rakendused**
+**➕ IV. Objekti- ja näotuvastuse rakendused**
 
 **Ülesanne 9.** Täida tabel objekti- ja näotuvastuse rakenduste kohta erinevates valdkondades.
 
@@ -12731,18 +14828,18 @@ Kirjuta iga valdkonna kohta rakenduse näide, kasutatav tehnoloogia ja kasu.
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Objekti- ja näotuvastuse hindamine**
+**⭐ V. Objekti- ja näotuvastuse hindamine**
 
-**Ülesanne 11.** Millised on peamised mõõdikud objektituvastuse hindamiseks? Kirjelda vähemalt kolme.
+**Ülesanne 11.** Kooli parkla kaamera loendab autosid. Millise kolme mõõdiku (IoU, täpsus, saagis, FPS) abil hindaksid, kas süsteem töötab hästi? Too iga mõõdiku kohta näide sellest olukorrast.
 
 [[___ ___ ___ ___]]
 
-**Ülesanne 12.** Kuidas hinnatakse näotuvastussüsteemide täpsust?
+**Ülesanne 12.** Telefoni näoga avamisel võib süsteem eksida kahel moel. Selgita FAR-i ja FRR-i abil, kumb viga on telefoni omanikule ohtlikum ja miks.
 
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Praktiline ülesanne**
+**➕ VI. Praktiline ülesanne**
 
 **Ülesanne 13.** Vali üks järgmistest praktilistest ülesannetest.
 
@@ -12783,7 +14880,7 @@ d) Millised privaatsus- või eetikaküsimused sellega kaasnevad?
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Eetilised aspektid**
+**⭐ VII. Eetilised aspektid**
 
 **Ülesanne 14.** Millised eetilised küsimused kaasnevad objekti- ja näotuvastuse tehnoloogiatega? Nimeta vähemalt neli.
 
@@ -12794,7 +14891,7 @@ d) Millised privaatsus- või eetikaküsimused sellega kaasnevad?
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Arutelu**
+**⭐ VIII. Arutelu**
 
 **Ülesanne 16.** Kuidas on objekti- ja näotuvastuse tehnoloogiad muutnud meie igapäevaelu ja milliseid muutusi võib oodata tulevikus?
 
@@ -12891,21 +14988,77 @@ Pluss: puudumiste märkimine oleks kiire ja õpetaja aeg kuluks õppimisele. Pro
 
 </details>
 
+### 📤 Väljapääsupilet 5.2
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['5.2'] = ["Poe kaamera märgib ekraanil kõigi ostjate nägude ümber kastid, kuid ei tea, kes nad on. Kas tegu on näotuvastuse või näotundmisega? Põhjenda.", "Milline oli Google Lensi täpsus ja saagis sinu katses ning mis juhtus, kui ese oli osaliselt kaetud?", "Kas kool tohiks sinu arvates kasutada näotundmist? Miks?"];
+setTimeout(function(){var d=window.paePilet.load('5.2');document.querySelectorAll('[data-pilet="5.2"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="5.2" name="nimi" oninput="window.paePilet.save('5.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Poe kaamera märgib ekraanil kõigi ostjate nägude ümber kastid, kuid ei tea, kes nad on. Kas tegu on näotuvastuse või näotundmisega? Põhjenda.</div><textarea data-pilet="5.2" name="q0" oninput="window.paePilet.save('5.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Milline oli Google Lensi täpsus ja saagis sinu katses ning mis juhtus, kui ese oli osaliselt kaetud?</div><textarea data-pilet="5.2" name="q1" oninput="window.paePilet.save('5.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kas kool tohiks sinu arvates kasutada näotundmist? Miks?</div><textarea data-pilet="5.2" name="q2" oninput="window.paePilet.save('5.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('5.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('5.2')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_5.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 5.2
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma tean, et pildil on koer, aga ma ei mäleta, KUS ta on! Minu märkmetes on üks sõna, aga tähed läksid sassi: **MIRSAKPITAIS**.“
 
-Lukk avaneb, kui lahendad mõistatuse. Pane tähed õigesse järjekorda. Saad sõna, mis tähistab ristkülikut, millega objektituvastus märgib objekti asukoha pildil.
+Lukk avaneb, kui lahendad ülesande.
+
+**Jalgpallimängu teleülekandes ilmub iga mängija ümber ristkülik, mille kõrval on mängija number ja arv 0,91. Ristkülik liigub koos mängijaga kaadrist kaadrisse. Kuidas nimetatakse objektituvastuses sellist ristkülikut?**
 
 [[piiramiskast]]
-[[?]] Vihje: sõna algab tähega P ja koosneb kahest osast; teine osa on K-ga algav karp.
+[[?]] Vihje 1: kas see ristkülik vastab küsimusele „mis?“ või „kus?“? Mida tähendab arv 0,91?
+[[?]] Vihje 2: Krati segamini läinud tähed MIRSAKPITAIS annavad vastuse; sõna algab P-ga ja selle teine osa on K-ga algav karp.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Objektituvastus: mis ja kus pildil on?“ ja loe lõik „Objekti asukoht märgitakse tavaliselt …“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI357") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
-["piiramiskast", "piiramiskasti", "piiramiskastid", "piiramiskastiga"].includes(v)
+["piiramiskast", "piiramiskasti", "piiramiskastid", "piiramiskastiga", "piiramisraam", "piiramisraami", "bounding box"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** **Piiramiskast** (bounding box) ütleb, kus objekt pildil asub – koos klassi nime ja enesekindluse skooriga.
+✅ **Lukk avatud!** **Piiramiskast** (bounding box) ütleb, kus objekt pildil asub – koos klassi nime ja enesekindluse skooriga (teleülekandes 0,91). Kui kast liigub koos mängijaga kaadrist kaadrisse, on tegu ka jälgimisega.
 
 🔑 **Sinu võtmetäht: P**
 
@@ -12916,24 +15069,45 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 5.3 Meditsiiniline pildianalüüs
 
 <!-- class="pae-kaas" -->
-![Arst osutab suurel ekraanil kopsu röntgenpildile, kus tehisintellekt on märkinud kahtlase koha, kõrvalekraanil näitab TI abiline oma leidu ja teine arst vaatab tulemust tahvelarvutist.](pildid/illustratsioonid/5_3.jpg)
+![Kaks arsti uurivad hämaras kabinetis suurt ekraani, kus rindkere röntgenpildil on tehisintellekt ümbritsenud kahtlase ala oranži joonega. Üks arst osutab sellele, teine teeb märkmeid.](pildid/illustratsioonid/5_3.jpg)
 
 ### Õpieesmärgid
 
-Selle tunni lõpuks sa:
+Selle tunni järel sa:
 
-- oskad selgitada, mis on meditsiiniline pildianalüüs ja miks tehisintellekt selles abiks on;
-- tunned peamisi meditsiinilise pildinduse liike (röntgen, KT, MRT, ultraheli, PET jt);
-- oskad kirjeldada TI ülesandeid ja töövoogu meditsiiniliste piltide analüüsimisel;
-- mõistad, kuidas meditsiinilise TI täpsust hinnatakse (tundlikkus, spetsiifilisus);
-- oskad arutleda meditsiinilise TI eeliste, väljakutsete ja vastutuse üle.
+- **selgitad oma sõnadega**, miks meditsiin vajab TI abi ja miks lõpliku otsuse teeb ikkagi arst *(mõistmine)*;
+- **arvutad** mudeli <span class="pae-term" tabindex="0" data-def="tundlikkus: Kui suure osa haigetest mudel üles leiab">tundlikkuse</span> ja <span class="pae-term" tabindex="0" data-def="spetsiifilisus: Kui suure osa tervetest inimestest mudel õigesti terveks tunnistab">spetsiifilisuse</span> sõeluuringu andmete põhjal *(rakendamine)*;
+- **analüüsid**, kas süsteemil on kõrge tundlikkus või kõrge spetsiifilisus ja kumb on sõeluuringus tähtsam *(analüüs)*;
+- **treenid** Teachable Machine'is lihtsa sõeluuringu mudeli ja **hindad** selle tundlikkuse ja spetsiifilisuse põhjal, millal see eksib *(loomine, hindamine)*;
+- **põhjendad**, mis tingimusel usaldaksid diagnoosi, mille panid TI ja arst koos *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Miks meditsiin vajab tehisintellekti abi?“, „Kuidas meditsiinilise TI täpsust hinnata?“, „Eelised, väljakutsed ja vastutus“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Treeni oma sõeluuringu mudel“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded V, VI ja VIII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Haiglas tehakse igal aastal väga palju röntgen- ja muid pilte. Arste on vähe, seepärast aitab neid nüüd ka tehisintellekt. TI vaatab pilte kiiresti ja märkab ka väikeseid muutusi. TI täpsust mõõdetakse kahe näitajaga: **tundlikkus** ja **spetsiifilisus**. Sõeluuringus on tähtis, et ükski haige ei jääks märkamata. Paljud mudelid on **must kast**: nad ei ütle, miks nad nii otsustasid. Seepärast on TI ainult arsti abiline, mitte arsti asendaja. Lõpliku otsuse teeb ja vastutuse kannab arst.
+
+**Tähtsad sõnad:** **meditsiiniline pildianalüüs** – haiguspiltide uurimine arvuti abil; **tundlikkus** – kui suure osa haigetest TI üles leiab; **spetsiifilisus** – kui suure osa tervetest TI õigesti terveks tunnistab; **must kast** – mudel, mis ei selgita oma otsust.
+
+</section>
 
 ### Miks meditsiin vajab tehisintellekti abi?
 
-Kui oled kunagi jalga väänanud ja käinud röntgenis, siis tead, et pildi teeb masin, aga selle loeb ja tõlgendab arst – **radioloog**. Igal aastal tehakse maailmas miljardeid meditsiinilisi pilte. Andmete hulk ja keerukus kasvavad, aga radiolooge on paljudes piirkondades puudu. Üks arst peab päevas läbi vaatama väga palju pilte ning väsimus ja ajasurve võivad põhjustada vigu.
+Kui oled kunagi jalga väänanud ja käinud röntgenis, siis tead, et pildi teeb masin, aga selle loeb ja tõlgendab arst – **radioloog**. Maailma Terviseorganisatsiooni andmetel tehakse maailmas igal aastal üle 4 miljardi radioloogilise uuringu. Andmete hulk ja keerukus kasvavad, aga radiolooge on paljudes piirkondades puudu. Üks arst peab päevas läbi vaatama väga palju pilte ning väsimus ja ajasurve võivad põhjustada vigu.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: meditsiiniline pildianalüüs**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="meditsiiniline pildianalüüs: Meditsiiniliste piltide töötlemine ja analüüs arvuti abil">meditsiiniline pildianalüüs</span>**
 >
 > Meditsiiniline pildianalüüs on meditsiiniliste piltide (nt röntgen-, KT- ja MRT-piltide) töötlemine ja analüüsimine arvuti abil, et aidata arstidel haigusi avastada, diagnoosida ja ravi planeerida.
 
@@ -12941,7 +15115,7 @@ Tehisintellekt saab siin aidata mitmel viisil. See võib **optimeerida töövoog
 
 Oluline on meeles pidada: TI on siin **arsti abiline**, mitte arsti asendaja. Lõpliku otsuse teeb ja vastutuse kannab inimene.
 
-### Meditsiinilise pildinduse liigid
+### ➕ Meditsiinilise pildinduse liigid
 
 Meditsiinis on palju eri viise, kuidas inimese sisse „vaadata“. Iga meetod näitab erinevaid asju.
 
@@ -12962,7 +15136,7 @@ Lisaks on eriülesannete jaoks **mammograafia** (rinnanäärme röntgenpildid ri
 >
 > Miks ei piisa ühest pildindusmeetodist? Mõtle, millist meetodit kasutaksid luumurru, ajukahjustuse ja raseduse jälgimise puhul ning miks.
 
-### Tehisintellekti ülesanded ja töövoog
+### ➕ Tehisintellekti ülesanded ja töövoog
 
 Tunnis 5.1 tutvusid arvutinägemise põhiülesannetega. Meditsiinis kasutatakse just neid samu ülesandeid.
 
@@ -12982,19 +15156,19 @@ Tüüpiline TI-põhine meditsiinilise pildianalüüsi töövoog näeb välja nii
 
 Milliseid mudeleid kasutatakse? **Konvolutsioonilised närvivõrgud** sobivad klassifitseerimiseks ja tunnuste eraldamiseks. Sageli kasutatakse **siirdeõpet** (transfer learning): võetakse mudel, mis on juba õppinud miljonite tavaliste fotode põhjal, ja õpetatakse see edasi meditsiiniliste piltidega. Nii on vaja vähem meditsiinilisi andmeid.
 
-Segmenteerimiseks on eriti populaarne **U-Net**. Selle nimi tuleb U-tähe kujulisest ülesehitusest: esimene pool (kodeerija ehk encoder) teeb pildi järjest väiksemaks ja leiab tunnused, teine pool (dekodeerija ehk decoder) teeb selle uuesti suureks ja joonistab täpse piirjoone. **Skip-ühendused** viivad detailid otse esimesest poolest teise, et piirid jääksid teravad.
+Segmenteerimiseks on eriti populaarne **<span class="pae-term" tabindex="0" data-def="U-Net: U-kujuline närvivõrk meditsiiniliste piltide segmenteerimiseks">U-Net</span>**. Selle nimi tuleb U-tähe kujulisest ülesehitusest: esimene pool (kodeerija ehk encoder) teeb pildi järjest väiksemaks ja leiab tunnused, teine pool (dekodeerija ehk decoder) teeb selle uuesti suureks ja joonistab täpse piirjoone. **Skip-ühendused** viivad detailid otse esimesest poolest teise, et piirid jääksid teravad.
 
 ![U-tähe kujuline võrk: vasakul kodeerija plokid lähevad järjest väiksemaks, all on põhi tunnustega, paremal dekodeerija plokid suurenevad; rohelised katkendnooled ehk skip-ühendused viivad detailid otse üle](pildid/plokk_5/5_3_unet.svg "Joonis 5.3.3. U-Neti ülesehitus")
 
 Kuna KT- ja MRT-pildid on kolmemõõtmelised, kasutatakse ka **3D-arhitektuure** (3D CNN, V-Net, 3D U-Net). Uuemad lahendused põhinevad **transformeritel** (nt ViT, UNETR, SwinUNETR).
 
-### Näited: kopsud, aju, vähk ja koed
+### ➕ Näited: kopsud, aju, vähk ja koed
 
 **Kopsuhaiguste tuvastamine röntgenpiltidelt.** TI-d on õpetatud tuvastama kopsupõletikku, tuberkuloosi, COVID-19 ja kopsuvähki. Selleks on loodud suured avalikud andmestikud (nt ChestX-ray14, CheXpert, MIMIC-CXR) ja uurimistöödes mudelid nagu CheXNet ja COVID-Net. Raskust valmistab see, et röntgenpildil kattuvad struktuurid üksteisega, kontrast on väike ja eri haigused näevad sageli sarnased välja.
 
 **Ajupiltide analüüs.** TI aitab tuvastada ajukasvajaid ja insulti, uurida neurodegeneratiivseid haigusi (nt Alzheimeri ja Parkinsoni tõbi) ning segmenteerida aju struktuure. Andmestikud on näiteks ADNI, BraTS ja ATLAS, tööriistad DeepMedic ja nnU-Net. Väljakutsed on keerukas 3D-ehitus ja see, et iga inimese aju on veidi erinev.
 
-**Vähidiagnostika.** TI-d kasutatakse kasvajate tuvastamiseks ja liigitamiseks, metastaaside leidmiseks ja ravi tõhususe hindamiseks: rinnavähi puhul mammograafias, kopsuvähi puhul KT-s, nahavähi puhul dermatoskoopias ja eesnäärmevähi puhul MRT-s. Näiteks on Google Health arendanud mammograafia mudelit. Väljakutsed on valepositiivsed tulemused, haruldased vähitüübid ja haiguse varajaste staadiumite märkamine.
+**Vähidiagnostika.** TI-d kasutatakse kasvajate tuvastamiseks ja liigitamiseks, metastaaside leidmiseks ja ravi tõhususe hindamiseks: rinnavähi puhul mammograafias, kopsuvähi puhul KT-s, nahavähi puhul dermatoskoopias ja eesnäärmevähi puhul MRT-s. Näiteks on Google Health arendanud mammograafia mudelit, mis vähendas 2020. aasta uuringus nii valepositiivseid kui ka valenegatiivseid tulemusi. Väljakutsed on valepositiivsed tulemused, haruldased vähitüübid ja haiguse varajaste staadiumite märkamine.
 
 **Histopatoloogia.** Koelõikude digitaalsed pildid on hiiglaslikud – miljardeid piksleid (gigapikslid). TI aitab rakke klassifitseerida, vähki tuvastada ja selle raskusastet hinnata. Raskused tulenevad värvide erinevusest ja preparaatide kvaliteedist. Selle valdkonna ettevõtted on näiteks PathAI ja Paige.AI.
 
@@ -13021,7 +15195,7 @@ Kujuta ette, et 100 inimesest 10 on haiged. Kui mudel leiab neist 9, on tundlikk
 
 Lisaks kasutatakse **AUC**-d (ROC-kõvera alune pindala), mis võtab tundlikkuse ja spetsiifilisuse kokku üheks arvuks, ning segmenteerimise puhul **Dice'i koefitsienti**, mis näitab (sarnaselt IoU-ga), kui hästi mudeli joonistatud piirjoon kattub arsti omaga.
 
-Ainult arvutis tehtud testidest ei piisa. Enne kasutuselevõttu tehakse **kliiniline valideerimine**: prospektiivsed uuringud (mudelit testitakse uutel patsientidel päris olukorras), mitmekeskuselised uuringud (mitmes haiglas) ja võrdlus ekspertidega. Meditsiinis kasutatav TI on **meditsiiniseade** ja vajab ametlikku luba: USA-s FDA heakskiitu, Euroopas **CE-märgistust**.
+Ainult arvutis tehtud testidest ei piisa. Enne kasutuselevõttu tehakse **<span class="pae-term" tabindex="0" data-def="kliiniline valideerimine: TI-süsteemi testimine päris patsientidega enne kasutuselevõttu">kliiniline valideerimine</span>**: prospektiivsed uuringud (mudelit testitakse uutel patsientidel päris olukorras), mitmekeskuselised uuringud (mitmes haiglas) ja võrdlus ekspertidega. Meditsiinis kasutatav TI on **meditsiiniseade** ja vajab ametlikku luba: USA-s FDA heakskiitu, Euroopas **CE-märgistust**.
 
 ### Eelised, väljakutsed ja vastutus
 
@@ -13042,11 +15216,29 @@ Meditsiinilise TI **eelised**:
 <!-- class="pae-eesti" -->
 > **Eesti näide: e-tervis ja digiradioloogia**
 >
-> Eesti tervishoid on tugevalt digitaliseeritud: meil on e-tervise süsteemid ja digitaalne radioloogia, kus pildid liiguvad haiglate vahel elektrooniliselt. Meditsiinilist TI-d uuritakse Tartu Ülikoolis, Tallinna Tehnikaülikoolis ja Tervisetehnoloogiate Arenduskeskuses ning tervisetehnoloogia ettevõtteid koondab HealthTech klaster. Riiklikus RITA programmis on uuritud tehisintellekti ja masinõppe rakendamist tervishoius. Euroopa tasandil keskendub tervishoiu TI-le näiteks projekt AI4Health. Eesti väljakutsed on väike turg, piiratud andmehulk ja ranged regulatsioonid.
+> Eesti tervishoid on tugevalt digitaliseeritud: meil on e-tervise süsteemid ja digitaalne radioloogia, kus pildid liiguvad haiglate vahel elektrooniliselt. Põhja-Eesti Regionaalhaiglas aitab TI radioloogidel teha rutiinseid mõõtmisi, leida röntgenpiltidelt luumurde ja insuldi korral kiiresti märgata ajupiirkondi, mis on jäänud verevarustuseta. Rinnavähi sõeluuringus hindavad Eestis mammogramme endiselt kaks arsti: haigla diagnostikakliiniku juhi sõnul võib liiga tundlik TI märkida kahtlaseks ka terveid kohti ja radiolooge segada (ERR, 2026). Meditsiinilist TI-d uuritakse ka Tartu Ülikoolis ja Tallinna Tehnikaülikoolis. Eesti väljakutsed on väike turg, piiratud andmehulk ja ranged regulatsioonid.
 
-**Tulevikus** ühendavad **multimodaalsed süsteemid** eri pildiliike, kliinilisi ja geneetilisi andmeid. **Föderatiivne õpe** (federated learning) võimaldab treenida mudelit mitme haigla andmetel nii, et patsientide andmed ei lahku haiglast – liiguvad ainult mudeli õpitud parameetrid. Nii saab teha rahvusvahelist koostööd ilma privaatsust ohustamata. Areneb ka **personaliseeritud meditsiin**: patsiendipõhised mudelid, ravi tõhususe ja haiguse kulgu ennustamine. Suur küsimus on, kui kaugele automatiseerimisega minna. Enamasti räägitakse **otsustustoe süsteemidest**, kus TI ja arst teevad koostööd. Täisautomaatsed süsteemid võivad tulla kasutusele vaid mõnes kitsas valdkonnas.
+**Tulevikus** ühendavad **multimodaalsed süsteemid** eri pildiliike, kliinilisi ja geneetilisi andmeid. **<span class="pae-term" tabindex="0" data-def="föderatiivne õpe: Mudeli treenimine nii, et andmed jäävad oma asukohta (nt haiglasse)">Föderatiivne õpe</span>** (federated learning) võimaldab treenida mudelit mitme haigla andmetel nii, et patsientide andmed ei lahku haiglast – liiguvad ainult mudeli õpitud parameetrid. Nii saab teha rahvusvahelist koostööd ilma privaatsust ohustamata. Areneb ka **personaliseeritud meditsiin**: patsiendipõhised mudelid, ravi tõhususe ja haiguse kulgu ennustamine. Suur küsimus on, kui kaugele automatiseerimisega minna. Enamasti räägitakse **otsustustoe süsteemidest**, kus TI ja arst teevad koostööd. Täisautomaatsed süsteemid võivad tulla kasutusele vaid mõnes kitsas valdkonnas.
 
-### 🎬 Video: kuidas aitab tehisaru päästa elusid?
+### 🧪 TI-katse: treeni oma sõeluuringu mudel
+
+Treenid Teachable Machine'is mudeli, mis eristab „terveid“ ja „kahjustatud“ paberilehti, ning mõõdad selle tundlikkust ja spetsiifilisust samamoodi nagu päris sõeluuringus.
+
+**Vaja läheb:** [Teachable Machine](https://teachablemachine.withgoogle.com/) (tasuta, pildid jäävad sinu arvutisse), veebikaamera, 10 valget paberilehte ja pliiats, ~10 min, paaristöö
+
+1. Joonista viiele lehele väike täpp või kriips („kahjustus“), ülejäänud viis lehte jäävad puhtaks („terved“).
+2. Ava Teachable Machine → *Image Project* → *Standard image model*. Nimeta klassid „terve“ ja „kahjustus“ ning salvesta veebikaameraga kummagi klassi kohta umbes 30 pilti. Suuna kaamera paberile, mitte inimestele.
+3. Vajuta *Train Model*.
+4. Testi mudelit 10 uue lehega (5 kahjustusega, 5 puhast; joonista täpid teise kohta ja eri suurusega). Kirjuta üles, mitu kahjustust mudel leidis ja mitu puhast lehte ta õigesti terveks tunnistas.
+
+**Pane tähele / kirjuta üles:** Arvuta tundlikkus (leitud kahjustused : 5) ja spetsiifilisus (õigesti terveks tunnistatud : 5). Millal mudel eksis (nt väga väike täpp, varjud)? Kumb viga oleks päris haiglas ohtlikum?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** üks paariline joonistab 10 kaardile pisikese „kahjustuse“ või jätab kaardi puhtaks, teine vaatab iga kaarti üks sekund ja otsustab. Arvutage koos tundlikkus ja spetsiifilisus.
+
+### ➕ 🎬 Video: kuidas aitab tehisaru päästa elusid?
 
 Radioloog Martin Reim näitab päris juhtumite põhjal, kuidas tehisaru aitab arstidel tuvastada insulti, luumurde ja kasvajaid varem ja täpsemalt. Tehisaru võib aga ka eksida, seepärast peab arst tundma selle tugevusi ja piire. Lõplik otsus ja vastutus jäävad inimesele.
 
@@ -13087,10 +15279,18 @@ Radioloog Martin Reim näitab päris juhtumite põhjal, kuidas tehisaru aitab ar
 | Kliiniline valideerimine | TI-süsteemi testimine päris patsientidega enne kasutuselevõttu |
 | Föderatiivne õpe | Mudeli treenimine nii, et andmed jäävad oma asukohta (nt haiglasse) |
 
+### 📚 Allikad ja lisalugemine
+
+- ERR (2026). [„AK. Nädal“ uuris tehisintellekti kasutamise võimalusi tervishoius](https://www.err.ee/1610007058/ak-nadal-uuris-tehisintellekti-kasutamise-voimalusi-tervishoius). Eestikeelne lugu sellest, kuidas TI aitab Põhja-Eesti Regionaalhaigla radioloogidel ja laborites – ning miks diagnoosi paneb inimene.
+- Maailma Terviseorganisatsioon (s.a.). [Ionizing radiation and health effects](https://www.who.int/news-room/fact-sheets/detail/ionizing-radiation-and-health-effects). Faktileht: maailmas tehakse aastas üle 4,2 miljardi radioloogilise uuringu.
+- Google DeepMind (2020). [International evaluation of an AI system for breast cancer screening](https://deepmind.google/discover/blog/international-evaluation-of-an-ai-system-for-breast-cancer-screening/). Ülevaade uuringust, kus TI vähendas mammograafias vale- ja märkamata jäänud leide; autorid rõhutavad, et vaja on kliinilisi uuringuid.
+- Ronneberger, O., Fischer, P., Brox, T. (2015). [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597). U-Neti originaalartikkel: U-kujuline võrk õpib segmenteerima ka väheste märgendatud piltide põhjal.
+- USA Toidu- ja Ravimiamet FDA (2026). [Artificial Intelligence-Enabled Medical Devices](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices). USA-s lubatud TI-põhiste meditsiiniseadmete nimekiri – suurem osa neist on radioloogias.
+
 ### Tööleht 5.3
 
 <!-- class="pae-jaotis" -->
-**I. Meditsiinilise pildianalüüsi põhimõisted**
+**➕ I. Meditsiinilise pildianalüüsi põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on meditsiiniline pildianalüüs.
 
@@ -13117,7 +15317,7 @@ Radioloogiline pildindus loob pildid (E). Arvutipõhine diagnostika on laiemalt 
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Meditsiinilise pildinduse meetodid**
+**➕ II. Meditsiinilise pildinduse meetodid**
 
 **Ülesanne 3.** Kirjelda lühidalt järgmisi meditsiinilise pildinduse meetodeid.
 
@@ -13174,7 +15374,7 @@ Kirjuta iga meetodi kohta eelised, puudused ja kasutusolukord.
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Tehisintellekt meditsiinilises pildianalüüsis**
+**➕ III. Tehisintellekt meditsiinilises pildianalüüsis**
 
 **Ülesanne 5.** Kuidas aitab tehisintellekt meditsiiniliste piltide analüüsimisel?
 
@@ -13189,7 +15389,7 @@ Kirjuta iga meetodi kohta eelised, puudused ja kasutusolukord.
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Meditsiinilise pildianalüüsi rakendused**
+**➕ IV. Meditsiinilise pildianalüüsi rakendused**
 
 **Ülesanne 8.** Täida tabel tehisintellekti rakenduste kohta erinevates meditsiinilise pildianalüüsi valdkondades.
 
@@ -13228,9 +15428,9 @@ Kirjuta iga valdkonna kohta rakenduse näide, TI roll ja mõju patsiendile.
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Meditsiinilise pildianalüüsi hindamine**
+**⭐ V. Meditsiinilise pildianalüüsi hindamine**
 
-**Ülesanne 10.** Millised on peamised mõõdikud meditsiinilise pildianalüüsi süsteemide hindamiseks? Kirjelda vähemalt nelja.
+**Ülesanne 10.** Haigla valib kahe TI-süsteemi vahel. Süsteemi A tundlikkus on 98% ja spetsiifilisus 80%, süsteemi B tundlikkus 85% ja spetsiifilisus 97%. Kumma valiksid rinnavähi sõeluuringusse ja kumma olukorda, kus iga valehäire tähendab patsiendile valulikku lisauuringut? Põhjenda tundlikkuse ja spetsiifilisuse abil.
 
 [[___ ___ ___ ___]]
 
@@ -13243,7 +15443,7 @@ Kirjuta iga valdkonna kohta rakenduse näide, TI roll ja mõju patsiendile.
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Praktiline ülesanne**
+**⭐ VI. Praktiline ülesanne**
 
 **Ülesanne 13.** Vali üks järgmistest praktilistest ülesannetest.
 
@@ -13288,7 +15488,7 @@ d) Kuidas tagada patsientide privaatsus ja andmekaitse?
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Meditsiinilise pildianalüüsi tulevik**
+**➕ VII. Meditsiinilise pildianalüüsi tulevik**
 
 **Ülesanne 14.** Millised on meditsiinilise pildianalüüsi tulevikusuunad? Kirjelda vähemalt kolme.
 
@@ -13299,7 +15499,7 @@ d) Kuidas tagada patsientide privaatsus ja andmekaitse?
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Arutelu**
+**⭐ VIII. Arutelu**
 
 **Ülesanne 16.** Kas tehisintellekt võiks kunagi asendada radiolooge? Põhjenda oma arvamust.
 
@@ -13402,27 +15602,77 @@ TI on arsti abiline ehk „teine silmapaar“, mitte asendaja. Ka täpne mudel e
 
 </details>
 
+### 📤 Väljapääsupilet 5.3
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['5.3'] = ["Lennujaama turvavärav leiab 99% keelatud esemetest, kuid annab häire ka iga kümnenda tavalise koti puhul. Kas süsteemil on kõrge tundlikkus või kõrge spetsiifilisus? Põhjenda.", "Milline oli sinu Teachable Machine'i mudeli tundlikkus ja spetsiifilisus ning millal see eksis?", "Kas usaldaksid diagnoosi, mille panid TI ja arst koos? Mis tingimusel?"];
+setTimeout(function(){var d=window.paePilet.load('5.3');document.querySelectorAll('[data-pilet="5.3"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="5.3" name="nimi" oninput="window.paePilet.save('5.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Lennujaama turvavärav leiab 99% keelatud esemetest, kuid annab häire ka iga kümnenda tavalise koti puhul. Kas süsteemil on kõrge tundlikkus või kõrge spetsiifilisus? Põhjenda.</div><textarea data-pilet="5.3" name="q0" oninput="window.paePilet.save('5.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Milline oli sinu Teachable Machine&#39;i mudeli tundlikkus ja spetsiifilisus ning millal see eksis?</div><textarea data-pilet="5.3" name="q1" oninput="window.paePilet.save('5.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kas usaldaksid diagnoosi, mille panid TI ja arst koos? Mis tingimusel?</div><textarea data-pilet="5.3" name="q2" oninput="window.paePilet.save('5.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('5.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('5.3')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_5.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 5.3
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Kooliõde küsis, kas ma suudaksin röntgenpildilt haigust märgata. Ütlesin, et olen väga täpne… aga mis täpsusest me üldse räägime?“
 
-Lukk avaneb, kui lahendad mõistatuse. Kirjuta mõiste, mida mõistatus kirjeldab.
+Lukk avaneb, kui lahendad ülesande. Kirjuta mõiste, mida olukord kirjeldab.
 
-> Ma olen mõõdik, mida arstid sõeluuringus TI-lt kõige enam nõuavad.
-> Ma ei hooli sellest, kui mitu tervet sai asjatu hirmu.
-> Mind huvitab ainult üks asi: kui suure osa **tegelikult haigetest** mudel üles leidis.
-> Kui sajast inimesest kümme on haiged ja mudel leiab neist üheksa, olen ma 9/10.
-> **Kes ma olen?**
+**Kooli tervisepäeval testiti uut gripi kiirtesti. 50 haigest õpilasest leidis test 48, aga 30 tervest õpilasest saatis see 12 asjatult arsti juurde. Kooliõde ütles: „Testi tugevus on see, et peaaegu ükski haige ei jää kahe silma vahele, kuigi valehäireid on palju.“ Millist mõõdikut kooliõde kiidab?**
 
 [[tundlikkus]]
-[[?]] Vihje: minu paariline on spetsiifilisus, kes hoolitseb tervete eest.
+[[?]] Vihje 1: kas kooliõde räägib sellest, kui hästi test leiab haiged, või sellest, kui hästi see tunnistab terved terveks?
+[[?]] Vihje 2: mõiste algab T-tähega ja selle paariline on spetsiifilisus, kes hoolitseb tervete eest.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Kuidas meditsiinilise TI täpsust hinnata?“ ja loe lõik „Mõiste: tundlikkus ja spetsiifilisus“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI396") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
-["tundlikkus", "tundlikkust", "tundlikus", "sensitivity", "sensitiivsus"].includes(v)
+["tundlikkus", "tundlikkust", "tundlikus", "sensitivity", "sensitiivsus", "saagis", "tagasikutse", "recall"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** **Tundlikkus** näitab, kui suure osa haigetest mudel üles leiab – sõeluuringus ei tohi ükski haige jääda kahe silma vahele.
+✅ **Lukk avatud!** **Tundlikkus** näitab, kui suure osa haigetest test üles leiab: 48 : 50 = 96%. Spetsiifilisus on aga ainult 18 : 30 = 60%, sest 12 tervet said valehäire. Sõeluuringus ei tohi ükski haige jääda kahe silma vahele, kuid liiga palju valehäireid koormab tervishoidu.
 
 🔑 **Sinu võtmetäht: T**
 
@@ -13433,17 +15683,38 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 5.4 Generatiivne tehisintellekt ja loovus
 
 <!-- class="pae-kaas" -->
-![Kunstiklassis kirjutab õpilane pildigeneraatorisse „kass skafandris“ ning suurel ekraanil tekib mürast samm-sammult kass skafandris, samal ajal kui üks klassikaaslane maalib molbertil ja teine võrdleb oma käsitsi joonistatud kassi masina loodud pildiga.](pildid/illustratsioonid/5_4.jpg)
+![Kunstiklassis maalib õpilane molbertil kassi skafandris, tema kõrval näitab klassikaaslane sülearvutis TI loodud pilti samast kassist kosmoses ja tüdrukud võrdlevad kahte pilti.](pildid/illustratsioonid/5_4.jpg)
 
 ### Õpieesmärgid
 
-Selle tunni lõpuks sa:
+Selle tunni järel sa:
 
-- oskad selgitada, mis on generatiivne tehisintellekt ja mille poolest see erineb diskriminatiivsest TI-st;
-- tunned peamisi generatiivseid mudeleid: GAN, VAE, difusioonimudelid ja tekst-pilt-mudelid;
-- oskad pildigeneraatorit juhtida kirjelduste ehk viipade ja parameetrite abil;
-- tead, mis on stiiliülekanne, pildi täiendamine ja superresolutsioon;
-- oskad arutleda, kas TI saab olla loov, ning tunned generatiivse TI eetilisi küsimusi (autoriõigus, kallutatus, valeinfo).
+- **selgitad oma sõnadega**, mille poolest erineb generatiivne TI diskriminatiivsest TI-st *(mõistmine)*;
+- **liigitad** pilditöötluse näiteid võtte järgi: <span class="pae-term" tabindex="0" data-def="stiiliülekanne: Ühe pildi stiili rakendamine teisele pildile">stiiliülekanne</span>, pildi täiendamine või <span class="pae-term" tabindex="0" data-def="superresolutsioon: Pildi resolutsiooni suurendamine TI abil">superresolutsioon</span> *(rakendamine)*;
+- **analüüsid** TI-katses, kuidas viip, juhtimisskaala ja sammude arv muudavad <span class="pae-term" tabindex="0" data-def="difusioonimudel: Mudel, mis loob pildi müra järkjärgulise eemaldamise teel">difusioonimudeli</span> loodud pilti *(analüüs)*;
+- **koostad** liiga üldise viiba asemele täpsema viiba, mis ütleb, mis pildil on, kus see on ja mis stiilis *(loomine)*;
+- **põhjendad** oma seisukohta, kes on TI abil loodud pildi autor ja kas selline pilt tuleks koolitöös märgistada *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Mis on generatiivne tehisintellekt?“, „Difusioonimudelid ja <span class="pae-term" tabindex="0" data-def="tekst-pilt-mudel: Mudel, mis loob pildi tekstilise kirjelduse põhjal">tekst-pilt-mudelid</span>“, „Kuidas pildigeneraatorit juhtida?“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Vaata difusioonimudeli sisse“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded III, IV ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+**Generatiivne tehisintellekt** loob midagi uut: pilte, teksti, muusikat või videot. See on õppinud väga paljude näidete põhjal nende mustreid. Tänapäeva tuntud pildigeneraatorid kasutavad enamasti **difusioonimudelit**. Pildi loomisel alustab see puhtast juhuslikust mürast. Samm-sammult eemaldab see müra, kuni tekib selge pilt. Pildi sisu juhid sa **viibaga** ehk tekstilise kirjeldusega. Hea viip ütleb, mis pildil on, kus see on ja mis stiilis. Näiteks „pruun taks vanalinna tänaval, akvarell“ annab parema pildi kui lihtsalt „koer“.
+
+**Tähtsad sõnad:** **generatiivne TI** – TI, mis loob uut sisu; **difusioonimudel** – mudel, mis teeb mürast samm-sammult pildi; **viip** – tekst, millega ütled generaatorile, mida luua.
+
+</section>
 
 ### Mis on generatiivne tehisintellekt?
 
@@ -13463,7 +15734,7 @@ Generatiivsel TI-l on pikk ajalugu. Varased süsteemid kasutasid **Markovi ahela
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Generatiivsed vastandvõrgud (GAN) leiutati **2014. aastal**. Vaid kaheksa aastat hiljem, **2022. aastal**, said difusioonimudelitel põhinevad DALL-E 2 ja Stable Diffusion laialt tuntuks.
 
-### GAN ja VAE: kuidas masin õpib pilte looma
+### ➕ GAN ja VAE: kuidas masin õpib pilte looma
 
 **Generatiivsed vastandvõrgud** (Generative Adversarial Network, GAN) põhinevad võistlusel. Neis on kaks närvivõrku, mis treenivad teineteist.
 
@@ -13479,7 +15750,7 @@ Seda võib võrrelda võltsijaga, kes teeb võltsraha, ja politseinikuga, kes p�
 **Variatsiooniline autokodeerija** (VAE) töötab teisiti. Kodeerija surub pildi kokku väikeseks arvude kogumiks ja dekodeerija püüab sellest pildi uuesti üles ehitada. Kokkusurutud arvud asuvad nn **latentses ruumis**.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: latentne ruum**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="latentne ruum: Abstraktne ruum, kus andmete olulised omadused on esitatud arvudena">latentne ruum</span>**
 >
 > Latentne ruum on abstraktne „kaart“, kus andmete olulised omadused on esitatud arvudena. Sarnased pildid asuvad seal üksteise lähedal. Kui liigud latentses ruumis ühest punktist teise, muutub ka loodud pilt sujuvalt, näiteks naeratav nägu muutub järk-järgult tõsiseks.
 
@@ -13523,7 +15794,7 @@ Pildigeneraatori kasutamine on oskus. Generaatorit saab juhtida kolmel viisil.
 >
 > Teine kirjeldus annab mudelile palju rohkem infot objekti, koha, valguse ja stiili kohta. Lisaks saab kasutada **negatiivseid vihjeid**, mis ütlevad, mida pildil olla ei tohi (nt „ilma tekstita, ilma inimesteta“).
 
-**Pildiline juhtimine** tähendab, et mudelile antakse ette pilt: **algpilt** (img2img), mida muudetakse; **visand**, mille järgi mudel joonistab (nt ControlNet); või **mask**, mis näitab, millist pildi osa muuta (inpainting).
+**Pildiline juhtimine** tähendab, et mudelile antakse ette pilt: **algpilt** (img2img), mida muudetakse; **visand**, mille järgi mudel joonistab (nt ControlNet); või **mask**, mis näitab, millist pildi osa muuta (<span class="pae-term" tabindex="0" data-def="inpainting: Pildi puuduva või valitud osa täitmine uue sisuga">inpainting</span>).
 
 **Parameetriline juhtimine** käib seadete kaudu. **Seeme** (seed) on juhuslik arv, millest müra alguse saab – sama seemne ja kirjeldusega saad sama pildi uuesti. **Sammude arv** määrab, mitmes etapis müra eemaldatakse. **CFG-skaala** (guidance scale) määrab, kui rangelt peab pilt kirjeldust järgima: suure väärtuse korral järgib mudel teksti täpsemalt, väikese korral jätab rohkem vabadust.
 
@@ -13541,7 +15812,25 @@ Sama põhimõte laieneb ka **videole** (tekst-video- ja pilt-video-mudelid, nt R
 >
 > Generatiivsed mudelid on õppinud peamiselt ingliskeelsete andmete põhjal. Seepärast võivad nad eestikeelseid kirjeldusi ja kohalikke teemasid halvemini mõista. Proovi ise: palu pildigeneraatoril joonistada „kama ja keefir hommikulauas“, „Kalevipoeg Peipsi ääres“ või „Eesti talumaja jaanipäeval“. Kas tulemus on äratuntav? Kas ingliskeelne kirjeldus annab teistsuguse pildi? Keelelised piirangud ja kohaliku konteksti mõistmine on väikese keele ja kultuuri jaoks oluline väljakutse. Samas kasutavad Eesti kunstnikud, disainerid, reklaami- ja meediaettevõtted ning hariduse valdkond generatiivset TI-d üha rohkem.
 
-### Kas tehisintellekt saab olla loov?
+### 🧪 TI-katse: vaata difusioonimudeli sisse
+
+Diffusion Explainer näitab samm-sammult, kuidas Stable Diffusion muudab viiba ja juhusliku müra pildiks. Uurid, kuidas viip, juhtimisskaala ja müra eemaldamise sammud tulemust muudavad.
+
+**Vaja läheb:** [Diffusion Explainer](https://poloclub.github.io/diffusion-explainer/) (töötab brauseris, sisselogimist pole vaja, kasutab valmis viipasid), ~10 min, paaristöö
+
+1. Ava Diffusion Explainer ja vali üks valmis viip. Vaata, kuidas pilt mürast tekib.
+2. Liiguta ajasammu liugurit (*timestep*) algusest lõpuni. Mitmendal sammul tunned pildi sisu esimest korda ära?
+3. Muuda juhtimisskaala (*guidance scale*) väärtust väikesest suureni ja võrdle pilte.
+4. Vali viiba variant, kus on muudetud üht sõna (nt stiili), ja võrdle kahte pilti.
+
+**Pane tähele / kirjuta üles:** Mis juhtus pildiga, kui juhtimisskaala oli väga väike või väga suur? Millises etapis tekkisid suured kujud ja millises detailid? Kuidas muutis pilti üks muudetud sõna viibas?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** üks paariline kirjeldab sõnadega pilti, teine joonistab. Seejärel lisab kirjeldaja korraga ühe täpsustuse (koht, valgus, stiil). Arutage, kuidas iga lisatud sõna tulemust muutis – samamoodi töötab ka viip.
+
+### ➕ Kas tehisintellekt saab olla loov?
 
 Loovust kirjeldatakse sageli kolme omaduse kaudu: **uudsus ja originaalsus** (midagi uut), **väärtus ja asjakohasus** (sellel on mõte) ning **üllatuslikkus**. Loovust võib jagada ka kolmeks liigiks:
 
@@ -13560,7 +15849,7 @@ Seepärast räägitakse sageli **inimese ja TI koostööst**. TI võib olla **t�
 > - Kas TI loodud pilt võib olla „päris“ kunst? Mida kunst sinu jaoks tähendab?
 > - Milles võiks generatiivne TI sind koolitöödes aidata ja millal oleks selle kasutamine ebaaus?
 
-### Generatiivse TI eetilised küsimused
+### ➕ Generatiivse TI eetilised küsimused
 
 **Autoriõigus.** Generatiivseid mudeleid treenitakse miljonite internetist kogutud piltidega, millest paljud on kunstnike looming. Kas see on aus ilma nende loata? Kellele kuulub genereeritud pilt? Euroopas on autoriõigus seotud inimese loomingulise panusega, mistõttu on vaieldav, kas puhtalt TI loodud pilt on üldse autoriõigusega kaitstud. Kunstnikud muretsevad ka selle pärast, et TI jäljendab nende isikupärast stiili.
 
@@ -13570,25 +15859,31 @@ Seepärast räägitakse sageli **inimese ja TI koostööst**. TI võib olla **t�
 
 **Valeinfo.** Võltsitud pildid ja videod levivad kiiresti ja muudavad faktikontrolli keerulisemaks. Kui iga pilt võib olla võlts, väheneb usaldus kõigi piltide vastu.
 
-Vastutustundlik kasutamine tähendab, et **märgid TI loodud sisu selgelt**, **ei loo teistest inimestest pilte ilma nende loata**, austad teiste loomingut ja järgid kooli reegleid TI kasutamise kohta. ELi tehisintellekti määrus nõuab samuti, et TI abil loodud või muudetud realistlik sisu oleks äratuntavalt märgistatud.
+Vastutustundlik kasutamine tähendab, et **märgid TI loodud sisu selgelt**, **ei loo teistest inimestest pilte ilma nende loata**, austad teiste loomingut ja järgid kooli reegleid TI kasutamise kohta. Alates 2. augustist 2026 nõuab ka ELi tehisintellekti määrus, et süvavõltsingud oleksid avaldamisel märgistatud ja et pildigeneraatorid märgiksid oma loodud sisu masinloetavalt (enne seda turule tulnud süsteemidel on üleminekuaeg detsembrini 2026).
 
 Tulevikus muutuvad mudelid veelgi **multimodaalsemaks** (tekst, pilt, heli ja video ühes), **interaktiivsemaks** (reaalajas koostöö kasutajaga), **personaliseeritumaks** (õpivad kasutaja stiili) ning **väiksemaks ja energiatõhusamaks**, nii et neid saab käitada ka telefonis.
 
-### 🎬 Videod: tehisaru, kunst ja muusika
+### ➕ 🎬 Videod: tehisaru, kunst ja muusika
 
-Kolm Eesti loojat arutlevad, mida tehisaru loovusega teeb. **Marge Monko** uurib, millal pildigeneraatoriga loodud pilt on kunst, ning rõhutab kunstniku ideed, kavatsust ja kriitilisi valikuid. **Sander Mölder** näitab praktiliselt tehisaru tööriistu muusika tegemisel. **Timo Toots** vaatleb, kuidas tehnoloogia on kunsti läbi ajaloo muutnud, ning tõstatab küsimusi autorsuse ja tehnoloogiast sõltumise kohta.
+Sellel lehel on 3 videot. Iga video ees on lühike kokkuvõte, mis aitab sul valida.
 
 Vali **vähemalt üks** video ja vaata see läbi.
 
 **Marge Monko: kas tehisaru kunst on kunst?** · *TI-Hüpe* · ⏱ 19 min
 
+📝 Kunstnik Marge Monko uurib, millal pildigeneraatoriga loodud pilt on kunst. Tema sõnul on tehisaru ajastul kõige tähtsamad kunstniku idee, kavatsus ja kriitilised valikud.
+
 !?[Marge Monko: kas tehisaru kunst on kunst? – TI-Hüpe](https://www.youtube.com/watch?v=LdUWcX6K3fM)
 
 **Sander Mölder: kas tehisaru on inimesest parem muusik?** · *TI-Hüpe* · ⏱ 22 min
 
+📝 Muusikaprodutsent ja helilooja Sander Mölder näitab praktiliselt, kuidas tehisaru tööriistad aitavad muusikat teha. Ta rõhutab, et loovus ja valikud jäävad inimesele.
+
 !?[Sander Mölder: kas tehisaru on inimesest parem muusik? – TI-Hüpe](https://www.youtube.com/watch?v=qprIzm2J3Do)
 
 **Timo Toots: kuidas mõjutab tehnoloogia kunsti ja loovust?** · *TI-Hüpe* · ⏱ 23 min
+
+📝 Meediakunstnik Timo Toots vaatleb, kuidas tehnoloogia on kunsti läbi ajaloo muutnud. Ta tõstatab küsimused autorsuse ja tehnoloogiast sõltumise kohta.
 
 !?[Timo Toots: kuidas mõjutab tehnoloogia kunsti ja loovust? – TI-Hüpe](https://www.youtube.com/watch?v=ChiXVB_OxlY)
 
@@ -13626,10 +15921,19 @@ Vali **vähemalt üks** video ja vaata see läbi.
 | Inpainting | Pildi puuduva või valitud osa täitmine uue sisuga |
 | Superresolutsioon | Pildi resolutsiooni suurendamine TI abil |
 
+### 📚 Allikad ja lisalugemine
+
+- Lee, S. jt (2023). [Diffusion Explainer: Visual Explanation for Text-to-image Stable Diffusion](https://arxiv.org/abs/2305.03509). Artikkel tunnikatse tööriista kohta: kuidas Stable Diffusion viiba põhjal mürast pildi loob. Tööriist ise: [poloclub.github.io/diffusion-explainer](https://poloclub.github.io/diffusion-explainer/).
+- Goodfellow, I. jt (2014). [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661v1). GAN-i originaalartikkel: generaator ja diskriminaator treenivad teineteist kahe mängija mängus.
+- Ho, J., Jain, A., Abbeel, P. (2020). [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239v1). Artikkel, millest sai alguse tänapäevaste difusioonimudelite edu.
+- Laas, O. (2020). [Tehisintellekt, mis maalib pilte](https://www.err.ee/1115227/oliver-laas-tehisintellekt-mis-maalib-pilte). ERR. Eestikeelne arutlus selle üle, mis on loovus ja kas masin saab olla loov.
+- Lätt, P., Terav, E. (2025). [Tehisintellekt vs autoriõigus](https://www.err.ee/1609859901/priit-latt-ja-enelin-terav-tehisintellekt-vs-autorioigus). ERR. Juristide ülevaade 2025. aasta kohtuasjadest, kus vaieldi TI treenimise ja autoriõiguse üle.
+- Euroopa Komisjon (2026). [Quick Facts: Transparency rules for AI systems](https://digital-strategy.ec.europa.eu/en/factpages/quick-facts-transparency-rules-ai-systems). TI loodud sisu ja süvavõltsingute märgistamise nõuded ning nende tähtajad.
+
 ### Tööleht 5.4
 
 <!-- class="pae-jaotis" -->
-**I. Generatiivse tehisintellekti põhimõisted**
+**➕ I. Generatiivse tehisintellekti põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on generatiivne tehisintellekt.
 
@@ -13656,7 +15960,7 @@ Generatiivne mudel loob uut sisu (C), latentne ruum on andmete omaduste abstrakt
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Generatiivse tehisintellekti tüübid**
+**➕ II. Generatiivse tehisintellekti tüübid**
 
 **Ülesanne 3.** Kirjelda lühidalt järgmisi generatiivse tehisintellekti tüüpe.
 
@@ -13704,9 +16008,9 @@ Kirjuta iga tüübi kohta tööpõhimõte, eelised, puudused ja näited.
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Generatiivne pildiloome**
+**⭐ III. Generatiivne pildiloome**
 
-**Ülesanne 5.** Kirjelda, kuidas toimib generatiivne tekst-pilt-mudel.
+**Ülesanne 5.** Kirjelda TI-katse põhjal, kuidas tekst-pilt-mudel sinu viibast pildi loob: mis juhtub tekstiga, mürast ja juhtimisskaalaga?
 
 [[___ ___ ___ ___]]
 
@@ -13733,7 +16037,7 @@ d) Superresolutsioon:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Tehisintellekt ja loovus**
+**⭐ IV. Tehisintellekt ja loovus**
 
 **Ülesanne 8.** Kas tehisintellekt saab olla loov? Põhjenda oma arvamust.
 
@@ -13776,7 +16080,7 @@ Kirjuta iga aspekti kohta, kuidas see avaldub inimese ja kuidas TI loovuses.
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Generatiivse tehisintellekti rakendused**
+**➕ V. Generatiivse tehisintellekti rakendused**
 
 **Ülesanne 11.** Täida tabel generatiivse tehisintellekti rakenduste kohta erinevates valdkondades.
 
@@ -13815,7 +16119,7 @@ Kirjuta iga valdkonna kohta rakenduse näide, tehnoloogia ja kasu loovusele.
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Praktiline ülesanne**
+**➕ VI. Praktiline ülesanne**
 
 **Ülesanne 13.** Vali üks järgmistest praktilistest ülesannetest.
 
@@ -13860,9 +16164,9 @@ d) Millised võiksid olla projekti tulemused?
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Eetilised aspektid**
+**⭐ VII. Eetilised aspektid**
 
-**Ülesanne 14.** Millised eetilised küsimused kaasnevad generatiivse tehisintellekti kasutamisega? Nimeta vähemalt neli.
+**Ülesanne 14.** Klassikaaslane lõi pildigeneraatoriga kooliürituse plakati: pilt on tuntud illustraatori äratuntavas stiilis ja sellel on direktori nägu. Milliseid eetilisi küsimusi see tekitab? Nimeta vähemalt neli ja paku igaühele lahendus.
 
 [[___ ___ ___ ___]]
 
@@ -13875,7 +16179,7 @@ d) Millised võiksid olla projekti tulemused?
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Arutelu**
+**➕ VIII. Arutelu**
 
 **Ülesanne 17.** Kuidas võib generatiivne tehisintellekt muuta kunsti ja loovuse olemust tulevikus?
 
@@ -13969,23 +16273,77 @@ Uus suurus: 800 × 400 pikslit, seega 800 × 400 = **320 000** pikslit. Algses p
 
 </details>
 
+### 📤 Väljapääsupilet 5.4
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['5.4'] = ["Sõber kirjutas pildigeneraatorile ainult sõna „maja“ ja jäi tulemusega rahulolematuks. Kuidas parandaksid tema viipa?", "Mis juhtus Diffusion Explaineris pildiga, kui muutsid juhtimisskaalat?", "Kas TI abil loodud pilt koolitöös peaks olema märgistatud? Miks?"];
+setTimeout(function(){var d=window.paePilet.load('5.4');document.querySelectorAll('[data-pilet="5.4"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="5.4" name="nimi" oninput="window.paePilet.save('5.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Sõber kirjutas pildigeneraatorile ainult sõna „maja“ ja jäi tulemusega rahulolematuks. Kuidas parandaksid tema viipa?</div><textarea data-pilet="5.4" name="q0" oninput="window.paePilet.save('5.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mis juhtus Diffusion Explaineris pildiga, kui muutsid juhtimisskaalat?</div><textarea data-pilet="5.4" name="q1" oninput="window.paePilet.save('5.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kas TI abil loodud pilt koolitöös peaks olema märgistatud? Miks?</div><textarea data-pilet="5.4" name="q2" oninput="window.paePilet.save('5.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('5.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('5.4')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_5.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 5.4
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Leidsin oma vanast päevikust lause, aga üks sõna on ära kustunud. Ma mäletan ainult, et keegi pidas pidevalt võltsijaid kinni…“
 
-Lukk avaneb, kui lahendad mõistatuse. Leia tsitaadist puuduv sõna.
+Lukk avaneb, kui lahendad ülesande. Kirjuta mõiste, mida olukord kirjeldab.
 
-> *„Minu GAN-is töötasid kaks närvivõrku. Generaator joonistas võltsitud nägusid ja püüdis neid päris piltide sekka sokutada. Aga **____________** oli nagu valvas politseinik: ta võrdles iga pilti päris piltidega ja otsustas, kas see on ehtne või võlts. Mida osavamaks muutus tema, seda rohkem pidi generaator pingutama.“*
+**Mängustuudio treenib GAN-i, et luua uusi mängumaastikke. Üks närvivõrk vaatab iga maastikku ja otsustab, kas selle joonistas päris mängukujundaja või teine närvivõrk. Iga kord, kui ta võltsingu ära tabab, saab maastike looja tagasisidet ja muutub osavamaks. Kuidas nimetatakse seda otsustavat närvivõrku?**
 
 [[diskriminaator]]
-[[?]] Vihje: sõna tuleb tegusõnast „diskrimineerima“ ehk eristama.
+[[?]] Vihje 1: kas see võrk loob maastikke või hindab neid?
+[[?]] Vihje 2: sõna algab D-ga ja tuleb tegusõnast „diskrimineerima“ ehk eristama.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „➕ GAN ja VAE: kuidas masin õpib pilte looma“ ja loe lõik „Mõiste: generatiivne vastandvõrk (GAN)“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI843") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["diskriminaator", "diskriminaatori", "diskrimineerija", "discriminator"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** **Diskriminaator** püüab eristada võltsitud pilte päris piltidest ja just see võistlus teeb GAN-i loodud pildid järjest realistlikumaks.
+✅ **Lukk avatud!** **Diskriminaator** püüab eristada võltsitud pilte päris piltidest. Maastike looja on generaator ja just nende võistlus teeb GAN-i loodud pildid järjest realistlikumaks.
 
 🔑 **Sinu võtmetäht: I**
 
@@ -13996,17 +16354,38 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 5.5 Süvavõltsingud ja pildimanipulatsioon
 
 <!-- class="pae-kaas" -->
-![Klassiruumis uurivad õpilased suurelt ekraanilt videot, kus koolidirektor justkui teatab koolivabast päevast, luup ja numbrid märgivad kahtlasi kohti, õpetaja osutab ekraanile ja tahvlil on kontrollnimekiri.](pildid/illustratsioonid/5_5.jpg)
+![Hämaras klassis vaatavad õpilased suurelt ekraanilt videot ülikonnas mehest. Õpetaja hoiab tema näo ees luupi, mille all paistavad moonutatud piksliruudud, ja õpilased teevad märkmeid.](pildid/illustratsioonid/5_5.jpg)
 
 ### Õpieesmärgid
 
-Selle tunni lõpuks sa:
+Selle tunni järel sa:
 
-- oskad selgitada, mis on süvavõltsing ja pildimanipulatsioon ning millised on nende liigid;
-- tead, milliseid tehnoloogiaid süvavõltsingute loomiseks kasutatakse;
-- oskad kontrollnimekirja abil hinnata, kas pilt või video võib olla võltsitud;
-- tunned süvavõltsingute ohte ja positiivseid kasutusviise;
-- tead teiste inimeste piltide kasutamise seaduslikke ja eetilisi piire ning oskad käituda, kui satud ise võltsingu ohvriks.
+- **selgitad oma sõnadega**, mis on süvavõltsing, ja **tood näiteid** selle liikidest *(mõistmine)*;
+- **kasutad** <span class="pae-term" tabindex="0" data-def="pöördotsing: Pildi järgi otsimine, et leida, kus see on varem ilmunud">pöördotsingut</span> ja kontrollnimekirja, et uurida, kust pilt tegelikult pärit on *(rakendamine)*;
+- **eristad** märke, mis võivad viidata võltsitud pildile või videole *(analüüs)*;
+- **hindad**, kui usaldusväärne on sinu järeldus pildi päritolu kohta, ja **põhjendad**, mida kontrollida kõigepealt *(hindamine)*;
+- **kavandad**, kuidas käituksid, kui klassi vestlusgruppi ilmub sinust võltsitud video *(loomine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Mis on süvavõltsing?“, „Kuidas võltsingut ära tunda: kontrollnimekiri“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Kust see pilt tegelikult pärit on?“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded IV, VI ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+**Süvavõltsing** on TI abil tehtud võlts video, pilt või hääl. Selles näib inimene ütlevat midagi, mida ta pole öelnud. Näiteks võib keegi teha video, kus direktor kuulutab vaba päeva. Võltsinguid on järjest raskem ära tunda, seega vajad **kriitilist mõtlemist**. Peatu ja mõtle, kui sisu tekitab sinus tugevat tunnet. Kontrolli, kes selle avaldas ja kas teised allikad räägivad sama. **Pöördotsinguga** näed, kas pilt on varem kusagil ilmunud. Kui sa pole kindel, ära jaga.
+
+**Tähtsad sõnad:** **süvavõltsing** – TI-ga tehtud võlts video, pilt või heli; **pöördotsing** – otsing pildi järgi, mis leiab selle varasemad ilmumised; **kriitiline mõtlemine** – sa ei usu kohe, vaid kontrollid enne.
+
+</section>
 
 ### Mis on süvavõltsing?
 
@@ -14019,7 +16398,7 @@ Kujuta ette, et klassi vestlusgruppi ilmub video, kus sinu koolidirektor teatab,
 
 Süvavõltsingud on osa laiemast nähtusest, mida nimetatakse **sünteetiliseks meediaks** – see on TI abil loodud meediasisu, mis ei põhine reaalsel salvestusel. Süvavõltsingutel on mitu liiki:
 
-- **näo vahetamine** (face swap) – ühe inimese nägu asendatakse teise inimese näoga;
+- **<span class="pae-term" tabindex="0" data-def="näo vahetamine: Ühe inimese näo asendamine teise inimese näoga pildil või videos">näo vahetamine</span>** (face swap) – ühe inimese nägu asendatakse teise inimese näoga;
 - **näo sünteesimine** – luuakse täiesti uus, olematu inimese nägu;
 - **näoilmete ülekandmine** (face reenactment) – üks inimene „juhib“ teise näoilmeid ja huuli;
 - **hääle jäljendamine** (voice cloning) – luuakse kõne, mis kõlab nagu kindla inimese hääl;
@@ -14032,14 +16411,14 @@ Süvavõltsingute ajalugu on lühike, aga kiire. 2017. aastal ilmusid internetti
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Esimesed süvavõltsingud ilmusid internetti alles **2017. aastal**. Mõne aastaga on tehnoloogia jõudnud sinnamaani, et võltsingu tegemiseks piisab sageli nutitelefoni rakendusest.
 
-### Kuidas võltsinguid tehakse
+### ➕ Kuidas võltsinguid tehakse
 
 Piltidega on manipuleeritud sama kaua, kui on olemas olnud fotograafia. **Traditsiooniline fotoretušš** toimus pimikus: negatiive kärbiti, kombineeriti ja värviti, kasutati pihustiga värvimist (airbrush) ja kollaaže. 1990. aastatel tõi **digitaalne pilditöötlus** (nt Photoshop) kloonimise, retušeerimise ja digitaalse kokkumonteerimise. Tänapäeval teeb **TI-põhine manipulatsioon** sama töö automaatselt: sisupõhine täitmine (content-aware fill), näo muutmine ja generatiivsed mudelid. Areng on liikunud **käsitööst automatiseeritud ja kõigile kättesaadava tehnoloogiani**.
 
 ![Ajajoon: fotoretušš pimikus, 1990. aastatel digitaalne pilditöötlus Photoshopiga, 2017 esimesed süvavõltsingud, 2018–2019 kiire areng ja 2020. aastatel kõigile kättesaadav tehnoloogia](pildid/plokk_5/5_5_ajalugu.svg "Joonis 5.5.2. Pildimanipulatsiooni areng")
 
 <!-- class="pae-moiste" -->
-> **Mõiste: pildimanipulatsioon**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="pildimanipulatsioon: Pildi muutmine visuaalsete efektide või töötluse abil">pildimanipulatsioon</span>**
 >
 > Pildimanipulatsioon on pildi muutmine visuaalsete efektide või töötluse abil – objektide lisamine või eemaldamine, värvide ja valguse muutmine, proportsioonide moonutamine või pildi esitamine vales kontekstis.
 
@@ -14061,7 +16440,7 @@ TI-põhised pildimanipulatsiooni võtted on ka **objektide lisamine ja eemaldami
 
 Alati pole vaja keerulist tehnoloogiat. Väga tõhus manipulatsioon on **konteksti muutmine**: päris foto avaldatakse vale pealkirja, kuupäeva või kohaga, näiteks vana üleujutuse pilt esitatakse „tänase“ sündmusena. Ka **perspektiivi ja proportsioonide** muutmine (kaadri kärpimine, venitamine) võib vaataja eksitada.
 
-### Kasutusalad ja ohud
+### ➕ Kasutusalad ja ohud
 
 Süvavõltsingu tehnoloogia ei ole iseenesest halb. Sellel on ka **positiivseid kasutusviise**:
 
@@ -14075,7 +16454,7 @@ Ohud on aga tõsised.
 - **Valeinformatsioon.** Võltsitud poliitikute avaldused, valeuudised ja ajaloosündmuste moonutamine. Eriti ohtlikud on need valimiste ajal.
 - **Identiteedivargus ja pettused.** Kelmid võivad helistada lähedase või juhi häälega ja paluda kiiresti raha üle kanda. Süvavõltsinguid kasutatakse ka sotsiaalmeedia kontode kaaperdamiseks ja biomeetriliste süsteemide petmiseks.
 - **Küberkiusamine.** Kättemaks, ahistamine, mainekahju. Võltsitud pilt või video klassikaaslasest võib tekitada tõsist ja pikaajalist hingelist kahju.
-- **Privaatsuse rikkumine.** Inimese pildi kasutamine ilma tema nõusolekuta, sealhulgas võltsitud intiimse sisu loomine, mis on üks raskemaid süvavõltsingute kuritarvitusi.
+- **Privaatsuse rikkumine.** Inimese pildi kasutamine ilma tema <span class="pae-term" tabindex="0" data-def="nõusolek: Inimese vabatahtlik ja teadlik luba tema andmete (nt pildi) kasutamiseks">nõusolekuta</span>, sealhulgas võltsitud intiimse sisu loomine, mis on üks raskemaid süvavõltsingute kuritarvitusi.
 
 <!-- class="pae-naide" -->
 > **Näide: „Vanaema, mul on kohe raha vaja!“**
@@ -14119,7 +16498,7 @@ Süvavõltsinguid on järjest raskem ära tunda. Tehnoloogia areneb kiiresti, va
 >
 > - **Pöördotsing** (reverse image search, nt Google Lens või TinEye) – kas pilt on varem ilmunud teises kontekstis?
 > - **Metaandmed** – millal ja millise seadmega pilt tehti? (NB! Metaandmeid saab kustutada ja muuta.)
-> - **Sisu päritolu tunnused** – mõnel pildil on päritolutunnistus (C2PA ehk Content Credentials), mis näitab, kuidas pilt tehti ja kas seda on muudetud.
+> - **Sisu päritolu tunnused** – mõnel pildil on päritolutunnistus (<span class="pae-term" tabindex="0" data-def="C2PA: Standard, mis aitab tõendada meediasisu päritolu ja muutmise ajalugu">C2PA</span> ehk Content Credentials), mis näitab, kuidas pilt tehti ja kas seda on muudetud.
 > - **Pildianalüüsi tööriistad** (nt Forensically) ja TI-tuvastajad – kasuta neid lisainfona, mitte lõpliku tõena, sest ka need eksivad.
 >
 > **6. Tee otsus vastutustundlikult**
@@ -14133,13 +16512,31 @@ Professionaalsed tuvastusmeetodid töötavad sarnastel põhimõtetel, aga palju 
 
 Teine lähenemine on **päritolu tõendamine**: selle asemel, et võltsingut tabada, tõestatakse ehtsat. Selleks kasutatakse digitaalseid allkirju, krüptograafilisi vesimärke ja meedia päritolu sertifikaate. Selle nimel töötavad näiteks **Content Authenticity Initiative (CAI)** ja standard **C2PA** (Coalition for Content Provenance and Authenticity).
 
-### Seadused ja eetilised piirid
+### 🧪 TI-katse: kust see pilt tegelikult pärit on?
+
+Paljud „uudisepildid“ on päris fotod, mis on avaldatud vale pealkirja, kuupäeva või kohaga. Pöördotsinguga uurid, kus ja millal pilt on varem internetis ilmunud.
+
+**Vaja läheb:** [TinEye](https://tineye.com/) (tasuta pöördotsing, sisselogimist pole vaja) või Google Lens, õpetaja antud uudisepilt või pilt mõnest uudisteportaalist, ~10 min, paaristöö
+
+1. Vali pilt: õpetaja antud näide või foto mõnest uudiste- või faktikontrolli artiklist. Ära kasuta klassikaaslaste ega teiste eraisikute pilte.
+2. Ava TinEye ning lae pilt üles või kleebi pildi aadress (URL) otsingukasti.
+3. Vali tulemuste kohal menüüst *Sort by* → *Oldest* ja vaata, kus pilt kõige varem leiti. NB! Kuupäev näitab, millal TinEye pildi leidis, mitte tingimata seda, millal pilt tehti.
+4. Võrdle leitud lehtede pealkirju ja kuupäevi: kas pildi kontekst on kõikjal sama? Korda otsingut Google Lensiga ja võrdle tulemusi.
+
+**Pane tähele / kirjuta üles:** Kus ja millal pilt varaseimana leiti? Kas see sobib kokku pildi praeguse pealkirjaga? Kui kindel sa oma järelduses oled ja mida peaksid veel kontrollima?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** õpetaja näitab väljaprinditud fotot koos väidetava pealkirjaga. Otsige pildilt vihjeid (ilm, aastaaeg, riietus, sildid, autode numbrimärgid), mis pealkirja kinnitavad või sellele vastu räägivad.
+
+### ➕ Seadused ja eetilised piirid
 
 Süvavõltsinguid reguleerivad seadused on alles kujunemas ja riigiti erinevad. Näiteks USA-s on osariikidel (nt Californias) oma süvavõltsinguid käsitlevad seadused ning Aasia riigid on võtnud omi meetmeid. Euroopas kehtib mitu olulist reeglistikku.
 
 - **Isikuandmete kaitse üldmäärus (GDPR).** Foto või video, millelt inimest saab ära tunda, sisaldab tema **isikuandmeid**. Nende kasutamiseks ja avaldamiseks on üldjuhul vaja õiguslikku alust, sageli inimese **nõusolekut**.
-- **ELi tehisintellekti määrus (AI Act).** Määrus nõuab läbipaistvust: kui keegi avaldab süvavõltsingu ehk TI abil loodud või muudetud realistliku pildi, video või heli, peab olema selgelt öeldud, et sisu on kunstlikult loodud või muudetud.
-- **Eesti seadused.** Teise inimese au ja hea nime kahjustamine, ahistamine ja teise inimese nimel esinemine võivad kaasa tuua tsiviilõigusliku vastutuse (nt kahju hüvitamise) ja raskematel juhtudel karistusõigusliku vastutuse. Eestis on karistatav ka identiteedivargus. Alaealisest seksuaalse sisuga pildi loomine või levitamine on raske kuritegu ka siis, kui pilt on võltsitud.
+- **ELi tehisintellekti määrus (AI Act).** Alates 2. augustist 2026 nõuab määrus läbipaistvust: kui keegi avaldab süvavõltsingu ehk TI abil loodud või muudetud realistliku pildi, video või heli, peab olema selgelt öeldud, et sisu on kunstlikult loodud või muudetud. 2026. aasta muudatusega keelati ka TI-süsteemid, mis loovad ilma nõusolekuta seksuaalse sisuga pilte päris inimestest või laste seksuaalse väärkohtlemise materjali; see keeld kehtib alates detsembrist 2026.
+- **Eesti seadused.** Teise inimese au ja hea nime kahjustamine, ahistamine ja teise inimese nimel esinemine võivad kaasa tuua tsiviilõigusliku vastutuse (nt kahju hüvitamise) ja raskematel juhtudel karistusõigusliku vastutuse. Eestis on karistatav ka identiteedivargus. Alaealisest seksuaalse sisuga pildi loomine või levitamine on raske kuritegu ning ka TI abil tehtud võltspilt võib kaasa tuua kriminaalvastutuse.
 
 Vastutus ei ole ainult võltsingu loojal. Vastutada võivad ka **levitajad** (ka jagamine on tegu!) ja **platvormid**, mis peavad ebaseaduslikku sisu eemaldama.
 
@@ -14168,9 +16565,9 @@ Mis see tähendab sinu jaoks praktikas? Siin on **eetilised ja seaduslikud piiri
 > - pöördu **politsei veebikonstaablite** poole või helista hädaabinumbril 112, kui olukord on tõsine;
 > - nõu ja tuge saab ka **Lasteabist** (telefon 116 111, ööpäevaringselt).
 >
-> Eestis on süvavõltsingute teema oluline ka valimiste kaitse ja küberjulgeoleku seisukohast. Eestikeelset võltssisu on väikese keele tõttu olnud vähem, kuid TI muudab ka eestikeelse heli ja video võltsimise järjest lihtsamaks. Seepärast on meediakirjaoskusel koolides suur roll.
+> Eestis on süvavõltsingute teema oluline ka valimiste kaitse ja küberjulgeoleku seisukohast. Eestikeelset võltssisu on väikese keele tõttu olnud vähem, kuid TI muudab ka eestikeelse heli ja video võltsimise järjest lihtsamaks. Seepärast on <span class="pae-term" tabindex="0" data-def="meediakirjaoskus: Oskus meediasisu kriitiliselt hinnata ning allikaid ja konteksti kontrollida">meediakirjaoskusel</span> koolides suur roll.
 
-### Meediakirjaoskus ja tulevik
+### ➕ Meediakirjaoskus ja tulevik
 
 Tehnoloogia muutub üha realistlikumaks: võltsinguid saab luua **reaalajas** (nt videokõne ajal) ja need on **multimodaalsed** (pilt, heli ja tekst koos). Tuvastajad paranevad samuti ning TI ja inimeksperdid teevad koostööd. Ometi ei saa ainult tehnoloogia meid kaitsta. Ühiskond peab **usaldust ümber mõtestama**: tulevikus ei piisa sellest, et „nägin oma silmaga videos“. Tekivad uued autentsuse standardid ja kasvab **meediakirjaoskuse** tähtsus.
 
@@ -14183,7 +16580,7 @@ Meediakirjaoskus tähendab oskust allikaid kontrollida, konteksti arvestada ja e
 > - Kas süvavõltsingute tehnoloogia arendamist peaks piirama või tuleks keskenduda hoopis kuritarvituste karistamisele ja meediakirjaoskusele?
 > - Mida teeksid, kui klassi vestlusgruppi ilmuks klassikaaslasest võltsitud naljavideo? Kuidas käituksid, et teda kaitsta?
 
-### 🎬 Video: meedia ja kriitiline mõtlemine tehisaru ajastul
+### ➕ 🎬 Video: meedia ja kriitiline mõtlemine tehisaru ajastul
 
 TI-Hüppe video käsitleb infoküllust, süvavõltsinguid ja nende mõju usaldusele, kinnituskalduvust ning seda, kuidas algoritmid mõjutavad, mida me näeme ja usume. Videos tutvustatakse ka argumendimudelit, millega nähtud ja kuuldud infot kriitiliselt hinnata.
 
@@ -14225,10 +16622,19 @@ TI-Hüppe video käsitleb infoküllust, süvavõltsinguid ja nende mõju usaldus
 | Nõusolek | Inimese vabatahtlik ja teadlik luba tema andmete (nt pildi) kasutamiseks |
 | Meediakirjaoskus | Oskus meediasisu kriitiliselt hinnata, allikaid ja konteksti kontrollida |
 
+### 📚 Allikad ja lisalugemine
+
+- Euroopa Komisjon (2026). [Quick Facts: Transparency rules for AI systems](https://digital-strategy.ec.europa.eu/en/factpages/quick-facts-transparency-rules-ai-systems). Millal ja kuidas tuleb süvavõltsinguid ja TI loodud sisu märgistada.
+- Euroopa Komisjon (2026). [AI Act – regulatory framework for AI](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai). TI-määruse ajakava, sh 2026. aasta muudatusega lisatud keeld luua ilma nõusolekuta seksuaalse sisuga võltspilte.
+- Suhhareva, S. (2024). [„Impulss“: kust jooksevad tehisaru kasutamise piirid?](https://www.err.ee/1609540114/impulss-kust-jooksevad-tehisaru-kasutamise-piirid) ERR. Eestikeelne lugu „lahtiriietamise“ veebilehtedest, mille taga olid ka Eestiga seotud isikud, ja sellest, kuidas seadus nendega toime tuleb.
+- TinEye (s.a.). [Can I sort my results?](https://help.tineye.com/article/246-can-i-sort-my-results) Juhend, kuidas pöördotsingu tulemusi kuupäeva järgi sorteerida ja mida kuupäev tegelikult näitab.
+- West, J., Bergstrom, C. (s.a.). [Which Face Is Real?](https://whichfaceisreal.com/) Washingtoni Ülikooli mäng: proovi, kas eristad TI loodud näo päris fotost.
+- Lasteabi (s.a.). [Lasteabi](https://www.lasteabi.ee/). Tasuta ja ööpäevaringne nõuandetelefon 116 111 ning vestlus veebis – siit saad abi ka siis, kui sinust levib võltsitud pilt või video.
+
 ### Tööleht 5.5
 
 <!-- class="pae-jaotis" -->
-**I. Pildimanipulatsiooni põhimõisted**
+**➕ I. Pildimanipulatsiooni põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on pildimanipulatsioon.
 
@@ -14255,7 +16661,7 @@ Süvavõltsing näitab inimest tegemas või ütlemas midagi, mida ta pole teinud
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Süvavõltsingute tehnoloogia**
+**➕ II. Süvavõltsingute tehnoloogia**
 
 **Ülesanne 3.** Kirjelda, kuidas süvavõltsingute tehnoloogia töötab.
 
@@ -14284,7 +16690,7 @@ d) Hääle süntees:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Pildimanipulatsiooni tehnikad**
+**➕ III. Pildimanipulatsiooni tehnikad**
 
 **Ülesanne 6.** Kirjelda lühidalt järgmisi pildimanipulatsiooni tehnikaid.
 
@@ -14309,9 +16715,9 @@ d) Konteksti muutmine:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Süvavõltsingute ja pildimanipulatsiooni tuvastamine**
+**⭐ IV. Süvavõltsingute ja pildimanipulatsiooni tuvastamine**
 
-**Ülesanne 8.** Millised on peamised meetodid süvavõltsingute tuvastamiseks? Kirjelda vähemalt nelja.
+**Ülesanne 8.** Sinu vanaema saab sõnumirakenduses video, kus tuntud näitleja kutsub teda investeerima. Kirjelda vähemalt nelja võtet, millega saaksite koos kontrollida, kas video on ehtne, ja hinda, kui usaldusväärne on iga võte.
 
 [[___ ___ ___ ___]]
 
@@ -14324,7 +16730,7 @@ d) Konteksti muutmine:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Süvavõltsingute ja pildimanipulatsiooni mõju**
+**➕ V. Süvavõltsingute ja pildimanipulatsiooni mõju**
 
 **Ülesanne 11.** Täida tabel süvavõltsingute ja pildimanipulatsiooni mõju kohta erinevates valdkondades.
 
@@ -14363,7 +16769,7 @@ Kirjuta iga valdkonna kohta võimalikud positiivsed ja negatiivsed mõjud.
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Praktiline ülesanne**
+**⭐ VI. Praktiline ülesanne**
 
 **Ülesanne 13.** Vali üks järgmistest praktilistest ülesannetest.
 
@@ -14408,7 +16814,7 @@ d) Kuidas õpetada kriitilist meediatarbimist?
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Eetilised ja õiguslikud aspektid**
+**⭐ VII. Eetilised ja õiguslikud aspektid**
 
 **Ülesanne 14.** Millised eetilised küsimused kaasnevad süvavõltsingute ja pildimanipulatsiooniga? Nimeta vähemalt neli.
 
@@ -14423,7 +16829,7 @@ d) Kuidas õpetada kriitilist meediatarbimist?
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Arutelu**
+**➕ VIII. Arutelu**
 
 **Ülesanne 17.** Kuidas leida tasakaal tehnoloogilise innovatsiooni ja võimalike kahjude vältimise vahel?
 
@@ -14519,28 +16925,82 @@ Ma ei jaga videot edasi ega vasta kiusajale samaga. Salvestan tõendid (ekraanip
 
 </details>
 
+### 📤 Väljapääsupilet 5.5
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['5.5'] = ["Sotsiaalmeedias levib pilt üleujutatud Tartu kesklinnast pealkirjaga „Täna hommikul“. Mida kontrolliksid kõigepealt ja miks?", "Mida näitas sinu pöördotsing pildi päritolu kohta ja kui kindel sa oma järelduses oled?", "Millist kontrollnimekirja sammu hakkad edaspidi ka päriselt kasutama?"];
+setTimeout(function(){var d=window.paePilet.load('5.5');document.querySelectorAll('[data-pilet="5.5"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="5.5" name="nimi" oninput="window.paePilet.save('5.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Sotsiaalmeedias levib pilt üleujutatud Tartu kesklinnast pealkirjaga „Täna hommikul“. Mida kontrolliksid kõigepealt ja miks?</div><textarea data-pilet="5.5" name="q0" oninput="window.paePilet.save('5.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mida näitas sinu pöördotsing pildi päritolu kohta ja kui kindel sa oma järelduses oled?</div><textarea data-pilet="5.5" name="q1" oninput="window.paePilet.save('5.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millist kontrollnimekirja sammu hakkad edaspidi ka päriselt kasutama?</div><textarea data-pilet="5.5" name="q2" oninput="window.paePilet.save('5.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('5.5')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('5.5')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_5.5" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 5.5
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Keegi saatis mulle video, kus mina, Kratt, laulan ooperit. Ma ei mäleta, et oleksin laulnud! Aidake mul kontrollida, kas see on päris – aga minu kontrollnimekirja on sattunud kaks valet nõuannet.“
 
-Lukk avaneb, kui lahendad mõistatuse. Loe väiteid. Kaks neist on **valed**. Kirjuta valede väidete numbrid kasvavas järjekorras ühe koodina (nt kui valed on väited 1 ja 3, kirjuta **13**).
+Lukk avaneb, kui lahendad ülesande. Kratt küsis nõu klassilt, kus oli just juhtunud midagi sarnast: vestlusgruppi ilmus pilt, millel koolimaja katus on justkui sisse kukkunud. Kuus õpilast käitusid nii. Kaks neist tegid mõttekäigus **vea**. Kirjuta nende numbrid kasvavas järjekorras ühe koodina (nt kui eksisid õpilased 1 ja 3, kirjuta **13**).
 
-1. Kui sisu tekitab sinus tugevat emotsiooni ja soovi seda kohe jagada, tasub peatuda.
-2. Kui pildil ei leia ühtegi võltsingu märki, on see kindlasti ehtne.
-3. Pöördotsinguga saab kontrollida, kas pilt on varem ilmunud teises kontekstis.
-4. Pildi metaandmeid võib alati kindlalt usaldada, sest neid ei saa muuta.
-5. Kui sa pole kindel, kas sisu on ehtne, on parem seda mitte jagada.
-6. C2PA päritolutunnistus võib näidata, kuidas pilt tehti ja kas seda on muudetud.
+1. Mari märkas, et pilt tekitas temas ärevust ja soovi seda kohe jagada, ning otsustas enne järele mõelda.
+2. Jaan ei leidnud pildilt ühtegi kahtlast detaili ja kirjutas: „Järelikult on see kindlasti ehtne.“
+3. Liis tegi pöördotsingu ja leidis, et sama pilt ilmus juba kolm aastat tagasi hoopis teise kooli kohta.
+4. Karl vaatas pildi metaandmeid ja ütles: „Kuupäev on tänane ja metaandmeid ei saa muuta, nii et pilt on tõene.“
+5. Anna ei olnud kindel, kas pilt on ehtne, ja otsustas seda mitte jagada.
+6. Oskar kontrollis, kas pildil on C2PA päritolutunnistus, mis näitaks, kuidas pilt tehti ja kas seda on muudetud.
 
 [[24]]
-[[?]] Vihje: otsi väiteid, mis lubavad midagi „kindlasti“ või „alati“.
+[[?]] Vihje 1: otsi õpilasi, kes tegid ühe vaatluse põhjal liiga kindla järelduse.
+[[?]] Vihje 2: otsi sõnu „kindlasti“ ja „ei saa muuta“.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Kuidas võltsingut ära tunda: kontrollnimekiri“ ja loe lõigud „5. Kasuta tööriistu“ ja „6. Tee otsus vastutustundlikult“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI773") { true } else {
 let v = `@input`.replace(/[^0-9]/g, "");
 ["24", "42"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Ükski üksik märk ei tõesta võltsingut ja märkide puudumine ei tõesta ehtsust (väide 2); metaandmeid saab kustutada ja muuta (väide 4).
+✅ **Lukk avatud!** Jaan (2) eksis, sest märkide puudumine ei tõesta ehtsust. Karl (4) eksis, sest metaandmeid saab kustutada ja muuta. Liisi pöördotsing näitas, et pilt oli esitatud vales kontekstis.
 
 🔑 **Sinu võtmetäht: K**
 
@@ -14553,7 +17013,76 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 <!-- class="pae-kaas" -->
 ![5. ploki kaanepilt](pildid/plokk_5/plokk_5_kaas.svg)
 
-Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
+Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: teed **TI-labori**, lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
+
+### 🔬 5. ploki TI-labor: kas masin näeb nagu inimene?
+
+<!-- class="pae-motle" -->
+> **Uurimisküsimus:** Millistes tingimustes arvutinägemine eksib ja millised tunnused aitavad inimesel eristada TI loodud nägu päris fotost?
+
+**Eesmärk:** testid objektituvastust süstemaatiliselt muudetud tingimustes ja oma oskust eristada TI loodud nägusid päris fotodest. Teed andmete põhjal järelduse, millal arvutinägemine eksib ja millised tuvastusvõtted on usaldusväärsed.
+
+**Vaja läheb:** [Google Lens](https://search.google/ways-to-search/lens/) (telefonis Google'i rakendus või arvutis Chrome'i brauser) või [Teachable Machine](https://teachablemachine.withgoogle.com/); [Which Face Is Real](https://whichfaceisreal.com/) (tasuta, sisselogimist pole vaja); 3 eset klassist, paberileht ja pliiats; ~45 min; paaris või 3-liikmelises rühmas.
+
+**Rollid:** katsetaja, protokollija, kriitik (vahetage rolle A- ja B-osa vahel)
+
+<!-- class="pae-lisaks" -->
+> **Ohutus:** pildistage ainult esemeid. Ärge pildistage ega laadige TI-tööriistadesse enda, klassikaaslaste ega teiste inimeste nägusid ega muid isikuandmeid. Which Face Is Real näitab avaliku teadusandmestiku fotosid ja TI loodud nägusid – neid ei tohi alla laadida ega edasi jagada.
+
+<!-- class="pae-jaotis" -->
+**1. Hüpotees**
+
+Ennustage enne katset: (a) millises tingimuses – osaliselt kaetud ese, ebatavaline nurk, joonistus foto asemel või halb valgus – eksib objektituvastus kõige rohkem ja miks; (b) mitu nägu 20-st tunnete õigesti ära ja mille järgi kavatsete otsustada.
+
+[[___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**2. Katse**
+
+*A-osa: objektituvastus (~15 min)*
+
+1. Valige 3 eset (nt kruus, käärid, õun). Pildistage iga ese tavatingimustes: hea valgus, otse eest, lihtne taust. Kontrollige Google Lensiga, kas see tunneb eseme ära – see on teie võrdlustulemus.
+2. Muutke korraga ainult **üht** tingimust ja pildistage iga ese uuesti: (a) ese on poolenisti paberiga kaetud, (b) ebatavaline nurk (altpoolt või väga lähedalt), (c) eseme käsitsi joonistus foto asemel, (d) halb valgus (laevalgus kustu, ainult aknast tulev valgus).
+3. Kirjutage iga katse kohta tabelisse, mitu eset kolmest Lens õigesti ära tundis ja mida ta valesti pakkus.
+4. Kui kasutate Teachable Machine'i, treenige kõigepealt mudel kolme eseme tavapiltidega (igast umbes 30 pilti) ja testige seda siis muudetud tingimustes.
+
+*B-osa: TI loodud näod (~10 min)*
+
+5. Avage Which Face Is Real. Iga katsetaja mängib 20 vooru: klõpsa näol, mida pead päris fotoks, ja vaata vastust.
+6. Protokollija kirjutab üles õigete vastuste arvu ja iga vooru kohta tunnuse, mille järgi otsustasite (nt moonutatud taust, eri kujuga kõrvarõngad, juuksepiir, hambad, prillid).
+7. Arvutage oma täpsus: õiged vastused : 20 × 100%.
+
+<!-- data-type="none" -->
+| Katse | Mida muutsid | Tulemus | Märkus |
+|---|---|---|---|
+| 1 | Tavatingimused (võrdlus) | | |
+| 2 | Ese osaliselt kaetud | | |
+| 3 | Ebatavaline nurk | | |
+| 4 | Joonistus foto asemel | | |
+| 5 | Halb valgus | | |
+| 6 | Which Face Is Real, 20 vooru | | |
+
+<!-- class="pae-jaotis" -->
+**3. Analüüs**
+
+- Millises tingimuses eksis objektituvastus kõige sagedamini? Selgita, miks, kasutades mõisteid oklusioon, varieeruvus ja treeningandmed.
+- Milline oli teie täpsus nägude testis? Millised tunnused osutusid usaldusväärseks ja millised petsid teid? Tehke järeldus: kas inimsilm on hea süvavõltsingute tuvastaja?
+- Millised on teie katse piirangud (nt väike valim, üks tööriist, testis olid ainult ühe GAN-mudeli näod)? Miks ei piisa ainult pildi vaatamisest ja milliseid kontrollnimekirja võtteid (allikas, pöördotsing, C2PA) peaks lisaks kasutama?
+
+[[___ ___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**4. Laboriaruanne portfooliosse**
+
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita Moodle'is.
+
+<!-- data-type="none" -->
+| Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
+|---|---|---|---|
+| Hüpotees ja katse | Hüpotees on konkreetne ja kontrollitav; igas katses muudeti ainult üht tingimust | Hüpotees on olemas; katse on enamasti süstemaatiline | Hüpotees on ebamäärane või muudeti mitut tingimust korraga |
+| Andmed ja tulemused | Tabel on täielik ja tulemused on arvuliselt kokku võetud (sh täpsus protsentides) | Tabel on enamasti täidetud, osa arve puudub | Andmeid on vähe või need on ebatäpsed |
+| Järeldus ja piirangud | Järeldus tuleneb andmetest, on seotud ploki mõistetega ja piirangud on läbi mõeldud | Järeldus on olemas ja piirangud on nimetatud | Järeldus ei tulene andmetest või piiranguid pole nimetatud |
+| Koostöö ja ohutus | Rollid vahetusid, kõik panustasid; nägusid ega isikuandmeid ei pildistatud | Koostöö toimis enamasti; ohutusreegleid järgiti | Töö jäi ühe inimese kanda või ohutusreegleid ei järgitud |
 
 ### Praktilised ülesanded
 
@@ -14570,7 +17099,7 @@ Mõni allpool nimetatud tööriist võib olla vahepeal nime muutnud või kasutus
 
 1. Töötage paarides.
 2. Koguge 10–15 erinevat pilti, mis kuuluvad eri kategooriatesse: loomad, taimed, ehitised, toidud, maastikud, inimesed, esemed. Inimeste puhul kasutage pilte, mille kasutamiseks on luba (nt enda pildid või vabalt kasutatavad pildipangad).
-3. Analüüsige pilte vähemalt kahe eri tööriistaga, näiteks Google Lens, Microsoft Computer Vision, IBM Watson Visual Recognition või Clarifai.
+3. Analüüsige pilte vähemalt kahe eri tööriistaga, näiteks Google Lens, Microsoft Computer Vision või Clarifai.
 4. Kirjutage iga pildi kohta üles: pildi lühikirjeldus, tööriistade tuvastatud objektid ja märksõnad, enesekindluse skoorid (kui need on saadaval) ning erinevused tööriistade tulemuste vahel.
 5. Analüüsige tulemusi: milliste piltide puhul olid tööriistad täpsed, kus esines vigu või ebatäpsusi ja milliseid mustreid märkasite?
 6. Kirjutage lühianalüüs (200–300 sõna): kirjeldage oma kogemust, tööriistade tugevusi ja nõrkusi, võimalikke kasutusvaldkondi ning probleeme ja piiranguid.
@@ -14587,7 +17116,7 @@ Mõni allpool nimetatud tööriist võib olla vahepeal nime muutnud või kasutus
 - järelduste põhjendatus;
 - esitluse selgus ja näidete asjakohasus.
 
-**Kasulikud lingid:** [Google Lens](https://lens.google.com/) · [Microsoft Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/) · [IBM Watson Visual Recognition](https://www.ibm.com/cloud/watson-visual-recognition) · [Clarifai](https://www.clarifai.com/)
+**Kasulikud lingid:** [Google Lens](https://lens.google.com/) · [Microsoft Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/) · [Clarifai](https://www.clarifai.com/)
 
 Kirjelda lühidalt oma kõige üllatavamat tulemust: millist pilti tööriist valesti mõistis ja miks see sinu arvates juhtus?
 
@@ -14644,7 +17173,7 @@ Kirjuta oma peamine hüpotees ja see, kas eksperiment kinnitas seda.
    - **Tehnoloogia põhimõtted:** kuidas toimib näotuvastus? Kuidas toimib emotsioonide analüüs? Milliseid algoritme ja mudeleid kasutatakse?
    - **Rakendused:** turvalisus ja jälgimine, kasutajakogemuse parandamine, tervishoid, turundus ja reklaam.
    - **Eetilised aspektid:** privaatsus, nõusolek, diskrimineerimise võimalused, regulatsioonid ja seadused (sh GDPR ja ELi tehisintellekti määrus).
-3. Tehke praktiline test: kasutage vabalt kättesaadavat tööriista eri näopiltidega (erinevad emotsioonid ja näoilmed). Kasutage ainult oma nägu (rühmaliikmete nõusolekul) või TI loodud ja pildipankade näopilte. Kirjutage tulemused üles ning analüüsige tööriista täpsust ja piiranguid.
+3. Tehke praktiline test: kasutage vabalt kättesaadavat tööriista eri näopiltidega (erinevad emotsioonid ja näoilmed). Kasutage ainult TI loodud või pildipankade näopilte, mitte enda ega klassikaaslaste nägusid – ELi tehisintellekti määrus keelab emotsioonide tuvastamise süsteemide kasutamise haridusasutustes. Kirjutage tulemused üles ning analüüsige tööriista täpsust ja piiranguid.
 4. Koostage eetiline analüüs (300–400 sõna): näotuvastuse ja emotsioonide analüüsi eetilised aspektid, võimalikud ohud ja probleemid, eetilised juhised tehnoloogia kasutamiseks ning see, kuidas tasakaalustada kasulikkust ja privaatsusriske.
 5. Valmistage ette rollimäng või debatt (10–15 minutit), kus esindate eri osapooli: tehnoloogia arendajad, privaatsusaktivistid, valitsuse esindajad, tavakodanikud ja ettevõtjad.
 6. Esitage rollimäng või debatt klassile.
@@ -15113,10 +17642,14 @@ Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentidega. 
 > **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 5.1, 5.2, 5.3, 5.4 ja 5.5 lukkudest järjekorras).
 
 [[OPTIK]]
-[[?]] Vihje: sõnas on 5 tähte ja see on seotud nägemise ning prillide ja läätsedega.
+[[?]] Vihje 1: kirjuta võtmetähed üles samas järjekorras nagu tunnid: 5.1, 5.2, 5.3, 5.4 ja 5.5.
+[[?]] Vihje 2: sõnas on 5 tähte ja see on seotud nägemise ning prillide ja läätsedega.
+[[?]] 🛟 Päästerõngas: mine tagasi tundide 5.1–5.5 lukkude juurde ja loe iga luku avamise järel rida „Sinu võtmetäht“. Kui ikka ei tule välja, küsi õpetajalt selle ukse päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI729") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "optik"
+}
 </script>
 ****************************************
 ![Kratt](pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Vaatlustorni aknad lähevad selgeks ja pikslipudrust saavad taas näod, puud ja jalgrattad. Kratt mäletab jälle, et pilt on tema jaoks arvude tabel, millest konvolutsioonivõrk leiab mustreid, et piiramiskastid näitavad objektide asukohta ja et iga pilti ei tasu uskuda – võltsingu tabamiseks tuleb kontrollida allikat ja detaile. „Ma näen jälle! Ja nüüd ma tean, et ka mina võin pildi puhul eksida – aitäh, et õpetasite mind kaks korda vaatama!“
@@ -15162,17 +17695,38 @@ Ploki lõpus on kordamise osa praktiliste ülesannete, aruteluküsimuste ja plok
 ## 6.1 Eetilised põhimõtted
 
 <!-- class="pae-kaas" -->
-![Õpilased ja õpetajad arutavad koolis laua ümber tehisaru kasutamise kasu ja riske ning suurel ekraanil on kaalud, mille ühel pool on kasu ja teisel pool risk.](pildid/illustratsioonid/6_1.jpg)
+![Õpilased, õpetajad ja lapsevanemad arutavad koosolekuruumis suure laua ümber; laual on sülearvutid, märkmikud ja keskel kuldsed kaalud, mis sümboliseerivad eri seisukohtade kaalumist.](pildid/illustratsioonid/6_1.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- oskad selgitada, mis on tehisintellekti eetika ja miks see on oluline;
-- tunned viit põhilist eetilist põhimõtet: inimkesksus, läbipaistvus, õiglus, privaatsus ja vastutus;
-- oskad kirjeldada tuntumaid eetilisi dilemmasid, näiteks trolliprobleemi;
-- tead, kuidas Euroopa Liit ja Eesti TI eetikat suunavad ning mis on Euroopa Liidu tehisintellekti määruse (AI Act) põhiidee;
-- oskad oma seisukohta eetilises küsimuses põhjendada ja arvestada ka teistsuguste vaatenurkadega.
+- **selgitad oma sõnadega** viit TI eetika põhimõtet: <span class="pae-term" tabindex="0" data-def="inimkesksus: Põhimõte, et TI teenib inimeste huve, austab inimõigusi ja on inimeste kontrolli all">inimkesksus</span>, <span class="pae-term" tabindex="0" data-def="läbipaistvus: TI-süsteemi otsustusprotsessi selgus ja arusaadavus">läbipaistvus</span>, õiglus, privaatsus ja <span class="pae-term" tabindex="0" data-def="vastutus: Selgus, kes vastutab TI-süsteemi otsuste ja tagajärgede eest">vastutus</span> *(mõistmine)*;
+- **rakendad** eetilisi põhimõtteid konkreetses olukorras, näiteks kooli sööklakaamera puhul *(rakendamine)*;
+- **võrdled** Moral Machine'i katses oma valikuid teiste vastajate valikutega *(analüüs)*;
+- **hindad**, kes peaks isesõitva auto otsustusreeglid paika panema ja kes vastutab TI otsuste eest *(hindamine)*;
+- **põhjendad** oma seisukohta eetilises küsimuses ja arvestad ka teiste vaatenurkadega *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Mis on <span class="pae-term" tabindex="0" data-def="tehisintellekti eetika: Filosoofia valdkond, mis tegeleb moraalsete küsimustega TI arendamisel ja kasutamisel">tehisintellekti eetika</span>?“, „Viis põhilist eetilist põhimõtet“, „Eetilised dilemmad“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Moraalimasina dilemmad“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded III, VI ja VIII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada. Rollimängu „➕ Rollimäng: tehisaru koolis“ saab õpetaja kasutada eraldi rühmatöötunnina.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+**Tehisintellekti eetika** küsib, mis on TI puhul õige ja mis vale. Kujuta ette sööklakaamerat, mis tunneb õpilaste näod ära. Kes hoiab neid pilte ja kas sinult küsiti luba? TI eetika juhistes korduvad viis tähtsat põhimõtet. Need on inimkesksus, **läbipaistvus**, õiglus, privaatsus ja **vastutus**. TI ise ei vastuta – vastutavad alati inimesed. **Dilemmas** on kaks valikut ja kummalgi on head ja halvad küljed. Sageli ei ole ühte õiget vastust, seega kaalu eri vaatenurki.
+
+**Tähtsad sõnad:** **TI eetika** – arutelu selle üle, mis on TI kasutamisel õige ja õiglane; **läbipaistvus** – on arusaadav, kuidas TI otsustab; **vastutus** – on selge, kes vastutab TI otsuste eest; **dilemma** – valik, kus mõlemal võimalusel on head ja halvad küljed.
+
+</section>
 
 ### Mis on tehisintellekti eetika?
 
@@ -15202,12 +17756,12 @@ Eri organisatsioonid on koostanud TI eetikajuhiseid ning kuigi sõnastused erine
 
 ![Viis eetilist põhimõtet ikoonidega: inimkesksus (TI teenib inimest ja on inimese kontrolli all), läbipaistvus (otsust saab selgitada ja kontrollida), õiglus (kõiki koheldakse võrdselt), privaatsus (isikuandmed on kaitstud) ja vastutus (vastutavad alati inimesed, mitte TI).](pildid/plokk_6/6_1_pohimotted.svg "Joonis 6.1.1. Viis põhilist eetilist põhimõtet")
 
-**Inimkesksus.** TI peaks teenima inimkonna huve ja austama inimõigusi. See tähendab, et TI peaks austama inimeste **autonoomiat** ehk võimet ise otsuseid teha ilma manipuleerimise või sundimiseta, kaitsma inimõigusi, edendama inimeste heaolu ja olema inimeste kontrolli all. Oluline mõte on, et TI peaks inimesi aitama, mitte neid asendama. Näiteks isesõitev auto peab seadma esikohale inimeste ohutuse, mitte sõidu kiiruse.
+**Inimkesksus.** TI peaks teenima inimkonna huve ja austama inimõigusi. See tähendab, et TI peaks austama inimeste **<span class="pae-term" tabindex="0" data-def="autonoomia: Inimese võime teha ise otsuseid ilma manipuleerimise või sundimiseta">autonoomiat</span>** ehk võimet ise otsuseid teha ilma manipuleerimise või sundimiseta, kaitsma inimõigusi, edendama inimeste heaolu ja olema inimeste kontrolli all. Oluline mõte on, et TI peaks inimesi aitama, mitte neid asendama. Näiteks isesõitev auto peab seadma esikohale inimeste ohutuse, mitte sõidu kiiruse.
 
 **Läbipaistvus.** TI-süsteemi toimimine peaks olema arusaadav. Läbipaistvat süsteemi saab **selgitada**, **jälgida** (on näha, mida süsteem tegi) ja **auditeerida** ehk sõltumatult kontrollida. Siin on aga mitu väljakutset. Paljud süvaõppe mudelid on nn **must kast**: isegi arendajad ei oska täpselt öelda, miks mudel just sellise vastuse andis. Keerukaid mudeleid on raske lihtsalt selgitada ja ettevõtted ei taha alati oma ärisaladusi avaldada. Näide: kui pank keeldub sulle laenu andmast, peaks sul olema õigus teada, millel see otsus põhines.
 
 <!-- class="pae-moiste" -->
-> **Mõisted: läbipaistvus ja selgitatavus**
+> **Mõisted: läbipaistvus ja <span class="pae-term" tabindex="0" data-def="selgitatavus: Kui hästi saab inimene aru algoritmi otsuse põhjustest">selgitatavus</span>**
 >
 > **Läbipaistvus** (transparency) tähendab, et TI-süsteemi otsustusprotsess on selge ja arusaadav – näiteks on avaldatud, milliseid andmeid süsteem kasutab ja kuidas see on üles ehitatud.
 >
@@ -15241,11 +17795,11 @@ Eri organisatsioonid on koostanud TI eetikajuhiseid ning kuigi sõnastused erine
 
 **Dilemma** on olukord, kus pead valima kahe võimaluse vahel ja kummalgi on oma head ja halvad küljed. TI eetikas on mitu tuntud dilemmat.
 
-**Trolliprobleem.** See on vana filosoofiline mõtteeksperiment, mida nüüd arutatakse isesõitvate autode kontekstis. Kujuta ette, et isesõitva auto pidurid ütlevad üles ja auto peab valima: kas sõita otse ja ohustada jalakäijaid või pöörata kõrvale ja ohustada autos istujaid. Keda peaks auto kaitsma? Trolliprobleem näitab, et TI-süsteemid võivad sattuda olukordadesse, kus nende „otsus“ mõjutab inimeste elu, ja et keegi peab need otsustusreeglid juba ette paika panema. Huvitav on ka see, et eri kultuurides vastavad inimesed sellistele küsimustele erinevalt.
+**<span class="pae-term" tabindex="0" data-def="trolliprobleem: Mõtteeksperiment, kus tuleb valida, keda õnnetuse korral kaitsta; seda arutatakse sageli isesõitvate autode puhul">Trolliprobleem</span>.** See on vana filosoofiline mõtteeksperiment, mida nüüd arutatakse isesõitvate autode kontekstis. Kujuta ette, et isesõitva auto pidurid ütlevad üles ja auto peab valima: kas sõita otse ja ohustada jalakäijaid või pöörata kõrvale ja ohustada autos istujaid. Keda peaks auto kaitsma? Trolliprobleem näitab, et TI-süsteemid võivad sattuda olukordadesse, kus nende „otsus“ mõjutab inimeste elu, ja et keegi peab need otsustusreeglid juba ette paika panema. Huvitav on ka see, et eri kultuurides vastavad inimesed sellistele küsimustele erinevalt.
 
 **Privaatsus vs kasulikkus.** Mida rohkem andmeid TI saab, seda paremini see sageli töötab. Näiteks võiksid patsientide terviseandmed aidata haigusi varem avastada, aga samal ajal ohustab andmete laialdane kasutamine inimeste privaatsust. Lahendusi otsitakse anonümiseerimisest, nõusolekust ja privaatsust säilitavatest tehnoloogiatest.
 
-**Autonoomsus vs inimkontroll.** Kui palju otsustusõigust võib anda TI-le? Ühed rõhutavad, et masin on kiirem ega väsi, teised, et tähtsad otsused peavad jääma inimesele. Selle arutelu keskmes on põhimõte **„inimene otsustusahelas“** (human-in-the-loop): süsteem pakub lahenduse, aga lõpliku otsuse teeb inimene. Eriti teravalt kerkib küsimus meditsiinis, õigussüsteemis ja sõjanduses, näiteks autonoomsete relvade puhul.
+**Autonoomsus vs inimkontroll.** Kui palju otsustusõigust võib anda TI-le? Ühed rõhutavad, et masin on kiirem ega väsi, teised, et tähtsad otsused peavad jääma inimesele. Selle arutelu keskmes on põhimõte **„<span class="pae-term" tabindex="0" data-def="inimene otsustusahelas: Lähenemine, kus TI pakub lahenduse, kuid lõpliku otsuse teeb inimene">inimene otsustusahelas</span>“** (human-in-the-loop): süsteem pakub lahenduse, aga lõpliku otsuse teeb inimene. Eriti teravalt kerkib küsimus meditsiinis, õigussüsteemis ja sõjanduses, näiteks autonoomsete relvade puhul.
 
 **Läbipaistvus vs intellektuaalomand.** Ühelt poolt peaks ühiskond saama kontrollida, kuidas TI-süsteemid töötavad. Teiselt poolt on ettevõtted nende arendamisse palju investeerinud ja tahavad kaitsta oma ärisaladusi. Kas kõik TI-süsteemid peaksid olema avatud lähtekoodiga? Üks kompromiss on sõltumatu audit: süsteemi kontrollib erapooletu ekspert, kuid kood ei ole kõigile avalik.
 
@@ -15256,7 +17810,7 @@ Eri organisatsioonid on koostanud TI eetikajuhiseid ning kuigi sõnastused erine
 >
 > Trolliprobleemi puhul pole ühte „õiget“ vastust. Mõtle läbi mõlemad seisukohad: miks võiks auto kaitsta eelkõige reisijaid ja miks eelkõige jalakäijaid? Kas oleksid valmis ostma auto, mis sinu elu ohtu seab, et päästa rohkem teisi inimesi? Kes peaks sinu arvates sellised reeglid otsustama – autotootja, riik või ostja?
 
-### Kuidas eetikat ellu viia?
+### ➕ Kuidas eetikat ellu viia?
 
 Põhimõtteid on lihtne kirja panna, kuid neid on raske järgida. Seepärast kasutatakse mitut moodust korraga:
 
@@ -15275,8 +17829,8 @@ Mõned tuntumad rahvusvahelised raamistikud on järgmised.
 |---|---|
 | Euroopa Komisjoni usaldusväärse TI eetikasuunised (2019) | Usaldusväärne TI peab olema seaduslik, eetiline ja töökindel. Suunistes on seitse nõuet: inimtoimevõime ja inimjärelevalve; tehniline töökindlus ja ohutus; privaatsus ja andmehaldus; läbipaistvus; mitmekesisus, mittediskrimineerimine ja õiglus; ühiskondlik ja keskkonnaalane heaolu; vastutus. |
 | IEEE Ethically Aligned Design | Maailma suurima inseneride ühenduse IEEE juhised, kuidas autonoomseid ja intelligentseid süsteeme kavandada nii, et need austaksid inimõigusi ja heaolu. |
-| OECD TI põhimõtted (2019) | Majanduskoostöö ja Arengu Organisatsiooni põhimõtted: kaasav kasv ja heaolu, inimõiguste ja demokraatlike väärtuste austamine, läbipaistvus ja selgitatavus, töökindlus ja ohutus ning vastutus. |
-| UNESCO soovitus TI eetika kohta | ÜRO haridus-, teadus- ja kultuuriorganisatsiooni ülemaailmne soovitus, mis rõhutab inimõigusi, mitmekesisust ja keskkonda. |
+| OECD TI põhimõtted (2019, uuendatud 2024) | Majanduskoostöö ja Arengu Organisatsiooni põhimõtted: kaasav kasv ja heaolu, inimõiguste ja demokraatlike väärtuste austamine, läbipaistvus ja selgitatavus, töökindlus ja ohutus ning vastutus. |
+| UNESCO soovitus TI eetika kohta (2021) | ÜRO haridus-, teadus- ja kultuuriorganisatsiooni ülemaailmne soovitus, mille võtsid vastu kõik 193 liikmesriiki ja mis rõhutab inimõigusi, mitmekesisust ja keskkonda. |
 
 Nende raamistike võrdlemisel näed, et põhimõtted on väga sarnased. Erinevused on pigem rõhuasetustes: näiteks UNESCO pöörab rohkem tähelepanu kultuurilisele mitmekesisusele ja keskkonnale, OECD aga majanduskasvule.
 
@@ -15285,11 +17839,11 @@ Nende raamistike võrdlemisel näed, et põhimõtted on väga sarnased. Erinevus
 >
 > Eetiline disain tähendab, et eetilisi põhimõtteid (inimkesksus, läbipaistvus, õiglus, privaatsus, vastutus, kaasatus) arvestatakse kogu arendusprotsessi vältel, alates süsteemi kavandamisest – mitte ei lisata neid tagantjärele, kui probleemid on juba tekkinud.
 
-### Euroopa Liidu ja Eesti lähenemine
+### ➕ Euroopa Liidu ja Eesti lähenemine
 
 Euroopa Liit on TI reguleerimisel olnud maailmas üks eestvedajaid. ELi TI eetilised põhimõtted on **inimkesksus**, **läbipaistvus**, **mittediskrimineerimine**, **privaatsus ja andmekaitse**, **vastutus** ning **tehniline töökindlus ja ohutus**. Viimane tähendab, et TI-süsteemid peavad olema turvalised ning vastupidavad rünnakutele ja vigadele.
 
-Need põhimõtted said seadusjõu **Euroopa Liidu tehisintellekti määrusega** (AI Act), mis jõustus **01.08.2024**. See on maailmas üks esimesi terviklikke TI-seadusi. Määruse põhiidee on **riskipõhine lähenemine**: mida suuremat ohtu võib TI-süsteem inimestele kujutada, seda rangemad nõuded sellele kehtivad. Kõrge riskiga süsteemidele (näiteks need, mida kasutatakse töölevärbamisel või hariduses) kehtivad ranged nõuded, osa praktikaid on aga sootuks keelatud. Riskitasemetest ja määruse rakendumise ajakavast räägime lähemalt tunnis 6.5.
+Need põhimõtted said seadusjõu **Euroopa Liidu tehisintellekti määrusega** (AI Act), mis jõustus **01.08.2024**. See on maailmas üks esimesi terviklikke TI-seadusi. Määruse põhiidee on **<span class="pae-term" tabindex="0" data-def="riskipõhine lähenemine: ELi TI-määruse põhimõte: mida suurem risk, seda rangemad nõuded">riskipõhine lähenemine</span>**: mida suuremat ohtu võib TI-süsteem inimestele kujutada, seda rangemad nõuded sellele kehtivad. Kõrge riskiga süsteemidele (näiteks need, mida kasutatakse töölevärbamisel või hariduses) kehtivad ranged nõuded, osa praktikaid on aga sootuks keelatud. Riskitasemetest ja määruse rakendumise ajakavast räägime lähemalt tunnis 6.5.
 
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Euroopa Liidu tehisintellekti määrus (AI Act) jõustus **01.08.2024** ja on maailmas üks esimesi terviklikke TI-seadusi.
@@ -15297,28 +17851,17 @@ Need põhimõtted said seadusjõu **Euroopa Liidu tehisintellekti määrusega** 
 <!-- class="pae-eesti" -->
 > **Eesti näide: kratikava ja Bürokratt**
 >
-> Eestis on TI kasutuselevõttu suunatud riiklike tegevuskavadega. Tehisintellekti tegevuskavad on koostatud aastateks 2019–2021, 2022–2023 ja 2024–2026; varasemaid tuntakse ka nime all **kratikava** („kratt“ on Eestis kasutusel TI-lahenduste kohta). Eesti on oma TI eetikapõhimõtete puhul lähtunud Euroopa Liidu suunistest. Avalikus sektoris on üks tuntumaid näiteid **Bürokratt** – riigi virtuaalassistentide võrgustik, mille kaudu saab avalikke teenuseid kasutada tavalises kõnekeeles suheldes. Bürokratt valiti 2022. aastal parimaks TI-l põhinevaks riigiteenuseks ja jõudis UNESCO maailma saja parima TI-lahenduse hulka. Eetika seisukohast on oluline, et kodanik teaks, millal ta suhtleb masinaga, ja et tema andmeid kaitstaks – Eesti e-teenustes on andmekaitse ja privaatsus olnud kesksed teemad.
+> Eestis on TI kasutuselevõttu suunatud riiklike tegevuskavadega. Tehisintellekti tegevuskavad on koostatud aastateks 2019–2021, 2022–2023 ja 2024–2026; varasemaid tuntakse ka nime all **kratikava** („kratt“ on Eestis kasutusel TI-lahenduste kohta). Eesti on oma TI eetikapõhimõtete puhul lähtunud Euroopa Liidu suunistest. Avalikus sektoris on üks tuntumaid näiteid **Bürokratt** – riigi virtuaalassistentide võrgustik, mille kaudu saab avalikke teenuseid kasutada tavalises kõnekeeles suheldes. 2022. aasta alguses jõudis Bürokratt UNESCO toetatud rahvusvahelise tehisintellekti uurimiskeskuse IRCAI saja TI-lahenduse nimekirja. Eetika seisukohast on oluline, et kodanik teaks, millal ta suhtleb masinaga, ja et tema andmeid kaitstaks – Eesti e-teenustes on andmekaitse ja privaatsus olnud kesksed teemad.
 
 <!-- class="pae-fakt" -->
-> **Kas teadsid?** Bürokratt valiti **2022. aastal** parimaks TI-l põhinevaks riigiteenuseks ja jõudis **UNESCO maailma saja parima TI-lahenduse** hulka.
+> **Kas teadsid?** Bürokratt jõudis **2022. aasta alguses** UNESCO toetatud uurimiskeskuse **IRCAI saja TI-lahenduse** nimekirja, kuhu valitakse lahendusi, mis aitavad saavutada ÜRO säästva arengu eesmärke.
 
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
 >
 > Kuidas leida tasakaal innovatsiooni ja eetiliste piirangute vahel? Ühed ütlevad, et ranged reeglid aeglustavad uute lahenduste loomist. Teised ütlevad, et ilma reegliteta ei usalda inimesed TI-d ja see aeglustab arengut veelgi. Millised argumendid sulle rohkem mõjuvad ja miks?
 
-<!-- class="pae-lisaks" -->
-> **Tea lisaks**
->
-> TI eetika on pidevalt arenev valdkond – tehnoloogia muutub kiiresti ja eetilised juhised peavad sellega kaasas käima. Kui tahad teemas süveneda, vaata neid allikaid:
->
-> - Euroopa Liidu tehisintellekti määrus: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
-> - Eesti TI portaal: https://www.kratid.ee/
-> - UNESCO TI eetika soovitus: https://www.unesco.org/en/artificial-intelligence/recommendation-ethics
-> - IEEE Ethically Aligned Design: https://ethicsinaction.ieee.org/
-> - Future of Life Institute: https://futureoflife.org/
-
-### Rollimäng: tehisaru koolis
+### ➕ Rollimäng: tehisaru koolis
 
 Kujuta ette, et oled kooli koosolekul, kus arutatakse tehisaru kasutamist. Iga osaleja vaatab olukorda **oma rolli** pilgu läbi: üks mõtleb praktilisele elluviimisele, teine nende inimeste tunnetele, keda otsus mõjutab, kolmas otsib vigu. Selles ülesandes saad juhuslikult ühe **olukorra** ja ühe **rolli**. Sinu ülesanne on mõelda olukorra üle just selle rolli seisukohast.
 
@@ -15423,7 +17966,7 @@ Hea mõtisklus: 1) nimetab, mis on olukorras tehisaru roll ja milline probleem t
 
 ![Roll 8: Mõistuse hääl](pildid/rollimang/roll_8.jpg "Roll 8. Mõistuse hääl")
 
-### 🎬 Video: tehisintellekt ja eetika
+### ➕ 🎬 Video: tehisintellekt ja eetika
 
 Videoõpsi lühivideo tutvustab, milliseid eetilisi küsimusi tehisaru tõstatab: kuidas peaks isejuhtiv auto õnnetuse korral otsustama, kuidas kaitsta isikuandmeid ja autoriõigusi ning milliseid põhimõtteid tuleks tehisaru arendamisel järgida.
 
@@ -15441,6 +17984,23 @@ Videoõpsi lühivideo tutvustab, milliseid eetilisi küsimusi tehisaru tõstatab
 **Vali üks videos nimetatud eetiline probleem ja kirjuta, kuidas seda võiks lahendada ning kes peaks selle eest vastutama.**
 
 [[___ ___ ___]]
+
+### 🧪 TI-katse: Moraalimasina dilemmad
+
+Moral Machine on MIT-i teadlaste loodud veebikeskkond, kus saad ise otsustada, mida peaks isesõitev auto vältimatu õnnetuse korral tegema. Katse näitab, et trolliprobleemile ei ole üht õiget vastust ja et inimeste valikud erinevad – 2018. aastal avaldatud uuringus analüüsiti ligi 40 miljonit otsust 233 riigist ja territooriumilt.
+
+**Vaja läheb:** [Moral Machine](https://www.moralmachine.net/) (tasuta, sisselogimiseta, ingliskeelne), ~10 min, paaristöö
+
+1. Ava Moral Machine ja vali **Start Judging**. Vaata iga pildi juurest ka kirjeldust (**Show Description**), et mõista, kes on autos ja kes teel.
+2. Lahendage paarilisega koos 13 olukorda. Enne igat valikut ütle paarilisele ühe lausega, millise põhimõtte järgi sa otsustad (nt „päästa rohkem inimesi“, „kaitsta seadusekuulekaid jalakäijaid“, „auto ei tohi sõitu muuta“).
+3. Vaata lõpus tulemuste lehte: millised olid sinu eelistused ja kuidas need erinevad teiste vastajate keskmisest?
+
+**Pane tähele / kirjuta üles:** üks olukord, kus oli kõige raskem otsustada, ja põhjus. Kas sinu valikud järgisid ühte põhimõtet või muutsid sa seda olukorra järgi? Kes peaks sinu arvates tegelikult need reeglid autosse kirjutama – arendaja, autotootja, riik või ostja?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** õpetaja kirjeldab tahvlil kolm trolliprobleemi olukorda (nt auto sees on 1 reisija, teel 2 punase tulega üle tee minevat jalakäijat). Iga õpilane hääletab käega ja põhjendab oma valikut ühe lausega; lõpuks võrrelge, kas klass jõudis üksmeelele.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -15466,10 +18026,20 @@ Videoõpsi lühivideo tutvustab, milliseid eetilisi küsimusi tehisaru tõstatab
 | inimene otsustusahelas | lähenemine, kus TI pakub lahenduse, kuid lõpliku otsuse teeb inimene |
 | riskipõhine lähenemine | ELi TI-määruse põhimõte: mida suurem risk, seda rangemad nõuded |
 
+### 📚 Allikad ja lisalugemine
+
+- Euroopa Komisjon (2019). [Ethics guidelines for trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai). Usaldusväärse TI eetikasuunised ja nende seitse nõuet; dokumendi saab alla laadida ka eesti keeles.
+- OECD (2019, uuendatud 2024). [OECD AI Principles](https://oecd.ai/en/ai-principles). OECD viis väärtuspõhist TI põhimõtet.
+- AlgorithmWatch (2021). [UNESCO adopts Recommendation on the Ethics of AI](https://algorithmwatch.org/en/unesco-adopts-recommendation-on-the-ethics-of-ai/). Ülevaade UNESCO soovitusest, mille 193 liikmesriiki võtsid vastu 23.11.2021.
+- Awad, E. jt (2018). [The Moral Machine experiment](https://www.media.mit.edu/publications/the-moral-machine-experiment). Moral Machine'i uuring: ligi 40 miljonit otsust 233 riigist ja territooriumilt ning kultuurilised erinevused.
+- ERR (2024). [Riik plaanib 85 miljoni euro abil tehisintellekti Eesti ellu juurutada](https://www.err.ee/1609248531/riik-plaanib-85-miljoni-euro-abil-tehisintellekti-eesti-ellu-juurutada). Eesti TI tegevuskava 2024–2026 ja varasemad kratikavad (eesti keeles).
+- Estonian World (2022). [Four Estonian AI solutions highlighted by a UNESCO research centre](https://estonianworld.com/technology/four-estonian-ai-solutions-highlighted-by-a-unesco-research-centre/). Bürokratt ja teised Eesti lahendused IRCAI saja TI-lahenduse nimekirjas.
+- Laas, O. (2025). [TI-hüpe vajab TI-eetikat](https://www.err.ee/1609620371/oliver-laas-ti-hupe-vajab-ti-eetikat). ERR-i kommentaar, miks peaks koolis õppima ka TI eetikat (sobib lisalugemiseks).
+
 ### Tööleht 6.1
 
 <!-- class="pae-jaotis" -->
-**I. Eetika põhimõisted tehisintellekti kontekstis**
+**➕ I. Eetika põhimõisted tehisintellekti kontekstis**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on tehisintellekti eetika.
 
@@ -15496,7 +18066,7 @@ Läbipaistvus tähendab otsuste selgitamist (A), vastutus selgust selles, kes va
 ****************************************
 
 <!-- class="pae-jaotis" -->
-**II. Tehisintellekti eetilised põhimõtted**
+**➕ II. Tehisintellekti eetilised põhimõtted**
 
 **Ülesanne 3.** Kirjelda lühidalt järgmisi TI eetilisi põhimõtteid.
 
@@ -15525,7 +18095,7 @@ e) Vastutus ja aruandekohustus:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Eetilised dilemmad tehisintellektis**
+**⭐ III. Eetilised dilemmad tehisintellektis**
 
 **Ülesanne 5.** Kirjelda järgmisi eetilisi dilemmasid TI kontekstis.
 
@@ -15545,12 +18115,12 @@ d) TI mõju tööhõivele:
 
 [[___ ___ ___]]
 
-**Ülesanne 6.** Vali üks eetiline dilemma ja analüüsi seda põhjalikumalt.
+**Ülesanne 6.** Vali üks Moral Machine'i katses ette tulnud olukord või mõni muu eetiline dilemma ja analüüsi seda: millised kaks põhimõtet on omavahel vastuolus, milline oleks sinu otsus ja kuidas põhjendaks oma otsust inimesele, kes on teisel arvamusel?
 
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Eetilised raamistikud ja juhised**
+**➕ IV. Eetilised raamistikud ja juhised**
 
 **Ülesanne 7.** Kirjelda lühidalt järgmisi TI eetilisi raamistikke või juhiseid.
 
@@ -15575,7 +18145,7 @@ d) Eesti TI eetilised põhimõtted:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Eetiliste põhimõtete rakendamine praktikas**
+**➕ V. Eetiliste põhimõtete rakendamine praktikas**
 
 **Ülesanne 9.** Täida tabel eetiliste põhimõtete rakendamise kohta erinevates valdkondades.
 
@@ -15614,7 +18184,7 @@ Kirjuta iga valdkonna kohta eetiline probleem, võimalik lahendus ja vastutaja.
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Praktiline ülesanne**
+**⭐ VI. Praktiline ülesanne**
 
 **Ülesanne 11.** Vali üks kahest variandist ja vasta selle küsimustele.
 
@@ -15659,7 +18229,7 @@ d) Kuidas hindaksite süsteemi eetilist mõju?
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Tehisintellekti eetika tulevik**
+**➕ VII. Tehisintellekti eetika tulevik**
 
 **Ülesanne 12.** Millised on TI eetika tulevikusuunad? Kirjelda vähemalt kolme.
 
@@ -15670,7 +18240,7 @@ d) Kuidas hindaksite süsteemi eetilist mõju?
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Arutelu**
+**⭐ VIII. Arutelu**
 
 **Ülesanne 14.** Kas TI-süsteemid peaksid järgima samu eetilisi põhimõtteid kui inimesed? Põhjenda oma arvamust.
 
@@ -15735,11 +18305,11 @@ Trolliprobleem küsib, keda peaks isesõitev auto õnnetuse korral kaitsma. „I
 **6. Pane sündmused ajalisse järjekorda (1 – kõige varasem, 3 – kõige hilisem).**
 
 <!-- data-show-partial-solution -->
-Bürokratt valitakse parimaks TI-l põhinevaks riigiteenuseks: [[ 1 | (2) | 3 ]]<br>
+Bürokratt jõuab IRCAI saja TI-lahenduse nimekirja: [[ 1 | (2) | 3 ]]<br>
 Euroopa Liidu tehisintellekti määrus jõustub: [[ 1 | 2 | (3) ]]<br>
 Euroopa Komisjon avaldab usaldusväärse TI eetikasuunised: [[ (1) | 2 | 3 ]]
 ****************************************
-Õige järjekord: 1. Euroopa Komisjoni eetikasuunised (2019) → 2. Bürokratt parimaks riigiteenuseks (2022) → 3. ELi tehisintellekti määrus jõustub (01.08.2024).
+Õige järjekord: 1. Euroopa Komisjoni eetikasuunised (2019) → 2. Bürokratt IRCAI saja TI-lahenduse nimekirjas (2022. aasta algus) → 3. ELi tehisintellekti määrus jõustub (01.08.2024).
 ****************************************
 
 **7. Millised on Euroopa Liidu TI eetilised põhimõtted? (Vali kõik õiged.)**
@@ -15765,21 +18335,79 @@ TI ei ole isik: tal ei ole oma tahet ega võimalust oma tegude eest vastust anda
 
 </details>
 
+### 📤 Väljapääsupilet 6.1
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['6.1'] = ["Kool tahab võtta kasutusele TI, mis soovitab õpilastele valikkursusi. Nimeta kaks eetilist põhimõtet, millega kool peaks arvestama, ja põhjenda.", "Mis üllatas sind Moral Machine'i katses, kui võrdlesid oma valikuid teiste vastajate omadega?", "Mis jäi selles tunnis segaseks või millist eetilist küsimust tahaksid veel arutada?"];
+setTimeout(function(){var d=window.paePilet.load('6.1');document.querySelectorAll('[data-pilet="6.1"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="6.1" name="nimi" oninput="window.paePilet.save('6.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kool tahab võtta kasutusele TI, mis soovitab õpilastele valikkursusi. Nimeta kaks eetilist põhimõtet, millega kool peaks arvestama, ja põhjenda.</div><textarea data-pilet="6.1" name="q0" oninput="window.paePilet.save('6.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mis üllatas sind Moral Machine&#39;i katses, kui võrdlesid oma valikuid teiste vastajate omadega?</div><textarea data-pilet="6.1" name="q1" oninput="window.paePilet.save('6.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi selles tunnis segaseks või millist eetilist küsimust tahaksid veel arutada?</div><textarea data-pilet="6.1" name="q2" oninput="window.paePilet.save('6.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('6.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('6.1')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_6.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 6.1
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Mul on meeles neli suurt reeglit, mille järgi head tehisarud käituma peavad. Aga neid pidi olema viis! Üks on mu mälust kadunud ja ilma selleta võin ma kedagi ebavõrdselt kohelda…“
 
-Lukk avaneb, kui lahendad mõistatuse. Kratt mäletab nelja eetilist põhimõtet: **inimkesksus**, **läbipaistvus**, **privaatsus** ja **vastutus**. Milline viies põhimõte on puudu? See nõuab, et TI ei diskrimineeriks inimesi soo, vanuse, päritolu ega muu tunnuse alusel. Kirjuta üks sõna.
+Lukk avaneb, kui lahendad ülesande. Kratt mäletab nelja eetilist põhimõtet: **inimkesksus**, **läbipaistvus**, **privaatsus** ja **vastutus**. Viienda leiad järgmisest juhtumist.
+
+> Spordiklubi võttis kasutusele TI-süsteemi, mis soovitab treeneritele noortekoondise kandidaate. Süsteem on õppinud klubi viimase 20 aasta andmetest, kui koondisesse valiti peaaegu ainult poisse. Nüüd soovitab see peaaegu alati poisse ja jätab sama heade tulemustega tüdrukud kõrvale. Treenerid teavad, kuidas süsteem töötab, ja on valmis selle otsuste eest vastutama.
+
+Millist eetilist põhimõtet see süsteem kõige rohkem rikub? Kirjuta üks sõna.
 
 [[õiglus]]
-[[?]] Vihje: sellest põhimõttest tuleb lähemalt juttu tunnis 6.3 „Kallutatus ja õiglus“.
+[[?]] Vihje 1: Kas süsteem kohtleb sama heade tulemustega sportlasi võrdselt? Millisest põhimõttest tuleb lähemalt juttu tunnis 6.3?
+[[?]] Vihje 2: Sõnas on 6 tähte ja see algab tähega Õ.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Viis põhilist eetilist põhimõtet“ ja loe lõik „Õiglus“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI106") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ").replace(/[.!]+$/, "");
 ["õiglus", "õigluse", "õiglust", "õiglane", "oiglus", "fairness", "mittediskrimineerimine"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Viis põhimõtet on koos: inimkesksus, läbipaistvus, **õiglus**, privaatsus ja vastutus.
+✅ **Lukk avatud!** Süsteem rikub **õiglust**: see kordab minevikus tekkinud ebavõrdsust ja kohtleb sama heade tulemustega tüdrukuid halvemini kui poisse. Viis põhimõtet on koos: inimkesksus, läbipaistvus, **õiglus**, privaatsus ja vastutus.
 
 🔑 **Sinu võtmetäht: Õ**
 
@@ -15790,17 +18418,38 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 6.2 Privaatsus ja andmekaitse
 
 <!-- class="pae-kaas" -->
-![Noormees istub õhtul oma toas voodiäärel ja kõhkleb, kas lubada uuel rakendusel kasutada tema asukohta, kaamerat ja kontaktandmeid, mis liiguksid edasi pilveserverisse.](pildid/illustratsioonid/6_2.jpg)
+![Noormees istub õhtul pimedas toas voodil, vaatab mõtlikult telefoni ja kaalub, kas anda rakendusele luba kasutada asukohta, kaamerat ja kontakte; helendavad ikoonid lendavad telefonist akna taga oleva linna kohal pilve.](pildid/illustratsioonid/6_2.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- oskad selgitada, mida tähendab privaatsus TI kontekstis ja miks see on oluline;
-- tunned isikuandmete kaitse üldmääruse (GDPR) põhimõtteid ja oma õigusi andmesubjektina;
-- tead, millised privaatsusriskid kaasnevad näotuvastuse, vestlusrobotite ja soovitussüsteemidega;
-- oskad kirjeldada privaatsust säilitavaid tehnoloogiaid, näiteks diferentsiaalset privaatsust ja föderatiivset õpet;
-- tead, kelle poole Eestis andmekaitse küsimustes pöörduda.
+- **selgitad oma sõnadega**, mis on <span class="pae-term" tabindex="0" data-def="isikuandmed: Teave, mille põhjal saab inimese otseselt või kaudselt tuvastada">isikuandmed</span> ja <span class="pae-term" tabindex="0" data-def="privaatsus: Inimese õigus kontrollida oma isikuandmete kogumist, kasutamist ja jagamist">privaatsus</span> TI ajastul *(mõistmine)*;
+- **rakendad** GDPR-i põhimõtteid ja <span class="pae-term" tabindex="0" data-def="andmesubjekt: Inimene, kelle isikuandmeid töödeldakse">andmesubjekti</span> õigusi konkreetsetes olukordades *(rakendamine)*;
+- **analüüsid** vestlusroboti abil, milliseid järeldusi saab TI teha näiliselt süütutest postitustest *(analüüs)*;
+- **hindad**, millised neist järeldustest on isikuandmed ja miks see on privaatsuse seisukohast oluline *(hindamine)*;
+- **kavandad**, mida teed edaspidi teisiti, kui jagad TI-teenustele oma isikuandmeid *(loomine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Mis on privaatsus TI ajastul?“, „Kuidas TI privaatsust ohustab?“, „Õiguslik raamistik: GDPR ja sinu õigused“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Mida TI postitustest järeldab?“
+> 3. ⭐ **Tööleht** (~15 min): töölehe osad 2, 4 ja 5
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Kui otsid telefonis midagi või kuulad muusikat, tekib sinu kohta andmeid. TI oskab neist teha järeldusi, näiteks arvata su huve. Andmeid, mille järgi saab sind ära tunda, nimetatakse **isikuandmeteks**. **Privaatsus** on sinu õigus kontrollida oma isikuandmeid. Euroopas kaitseb sinu andmeid isikuandmete kaitse üldmäärus ehk **GDPR**. Sul on õigus oma andmeid näha, parandada ja kustutada. Ettevõte tohib koguda ainult nii palju andmeid, kui on vaja. Kui su andmetega tehakse midagi valesti, aitab Andmekaitse Inspektsioon.
+
+**Tähtsad sõnad:** **isikuandmed** – info, mille järgi saab sind ära tunda, näiteks nimi, foto või asukoht; **privaatsus** – sinu õigus kontrollida oma isikuandmeid; **GDPR** – Euroopa Liidu määrus, mis kaitseb isikuandmeid; **andmete minimaalsus** – kogutakse ainult nii palju andmeid, kui on vaja.
+
+</section>
 
 ### Mis on privaatsus TI ajastul?
 
@@ -15826,7 +18475,7 @@ TI vajab õppimiseks palju andmeid ja see tekitab mitu privaatsusprobleemi:
 
 - **suurte andmehulkade kogumine ja analüüsimine** – kogutakse rohkem, kui tegelikult vaja oleks;
 - **isikuandmete kasutamine treenimiseks** – sinu postitused, pildid või vestlused võivad sattuda mudeli treeningandmetesse;
-- **profileerimine ja automatiseeritud otsused** – sinu kohta luuakse profiil ja selle põhjal tehakse otsuseid (näiteks milliseid hindu või pakkumisi sulle näidatakse);
+- **<span class="pae-term" tabindex="0" data-def="profileerimine: Kasutaja kohta üksikasjaliku kirjelduse loomine tema andmete põhjal">profileerimine</span> ja automatiseeritud otsused** – sinu kohta luuakse profiil ja selle põhjal tehakse otsuseid (näiteks milliseid hindu või pakkumisi sulle näidatakse);
 - **jälgimine ja järelevalve** – inimeste liikumist ja käitumist on võimalik pidevalt jälgida;
 - **andmete taaskasutamine ja eesmärgi laienemine** – ühel eesmärgil kogutud andmeid hakatakse kasutama hoopis millekski muuks;
 - **piiriülene andmevoog** – andmed liiguvad riikidesse, kus kaitse võib olla nõrgem.
@@ -15837,14 +18486,14 @@ Eri TI-rakendustel on oma riskid. **Näotuvastus ja biomeetria** võimaldavad in
 > **Näide: privaatsusrikkumised maailmas**
 >
 > - **Cambridge Analytica skandaal** – 2010. aastate teisel poolel selgus, et miljonite Facebooki kasutajate andmeid oli ilma nende teadliku nõusolekuta kasutatud poliitiliseks profileerimiseks ja sihitud reklaamiks.
-> - **Clearview AI** – ettevõte kogus internetist suure hulga inimeste fotosid ja lõi nende põhjal näotuvastussüsteemi, ilma et pildil olevatelt inimestelt oleks nõusolekut küsitud. Mitme Euroopa riigi andmekaitseasutused on seda tegevust ebaseaduslikuks pidanud.
+> - **Clearview AI** – ettevõte kogus internetist suure hulga inimeste fotosid ja lõi nende põhjal näotuvastussüsteemi, ilma et pildil olevatelt inimestelt oleks nõusolekut küsitud. Mitme Euroopa riigi andmekaitseasutused on seda tegevust ebaseaduslikuks pidanud ja määranud trahve – näiteks Hollandi andmekaitseasutus 2024. aastal 30,5 miljonit eurot.
 > - **Tervishoiuandmete lekked** – tundlikud terviseandmed on eri riikides sattunud valedesse kätesse.
 >
 > Õppetund: andmeid tuleb koguda ainult selgel eesmärgil, inimesi tuleb teavitada ja andmeid tuleb kaitsta.
 
 ### Õiguslik raamistik: GDPR ja sinu õigused
 
-Euroopas on isikuandmete kaitse peamine õigusakt **isikuandmete kaitse üldmäärus (GDPR)**, mida kohaldatakse alates **25.05.2018** kõigis Euroopa Liidu riikides. See kehtib ka väljaspool ELi asuvatele ettevõtetele, kui need töötlevad ELi elanike andmeid. GDPR määrab kindlaks **andmesubjekti** (inimese, kelle andmetega on tegu) õigused, **vastutava töötleja** (organisatsiooni, kes andmeid töötleb) kohustused ja andmekaitse põhimõtted. Eestis täiendab GDPR-i **isikuandmete kaitse seadus**. Lisaks seab nõudeid ka **Euroopa Liidu tehisintellekti määrus** (AI Act), mis jõustus 01.08.2024 ja mis keelab näiteks mõned eriti privaatsust riivavad TI-praktikad.
+Euroopas on isikuandmete kaitse peamine õigusakt **<span class="pae-term" tabindex="0" data-def="isikuandmete kaitse üldmäärus (GDPR): ELi määrus, mis sätestab isikuandmete töötlemise reeglid ja inimeste õigused">isikuandmete kaitse üldmäärus (GDPR)</span>**, mida kohaldatakse alates **25.05.2018** kõigis Euroopa Liidu riikides. See kehtib ka väljaspool ELi asuvatele ettevõtetele, kui need töötlevad ELi elanike andmeid. GDPR määrab kindlaks **andmesubjekti** (inimese, kelle andmetega on tegu) õigused, **vastutava töötleja** (organisatsiooni, kes andmeid töötleb) kohustused ja andmekaitse põhimõtted. Eestis täiendab GDPR-i **isikuandmete kaitse seadus**. Lisaks seab nõudeid ka **Euroopa Liidu tehisintellekti määrus** (AI Act), mis jõustus 01.08.2024 ja mis keelab näiteks mõned eriti privaatsust riivavad TI-praktikad.
 
 <!-- class="pae-moiste" -->
 > **Mõiste: isikuandmete kaitse üldmäärus (GDPR)**
@@ -15887,17 +18536,17 @@ Sinul kui andmesubjektil on GDPR-i järgi mitu õigust:
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
 >
-> Ava oma telefonis ühe sagedamini kasutatava rakenduse seaded. Milliseid andmeid see rakendus sinu kohta koguda tohib (asukoht, kontaktid, mikrofon, kaamera)? Kas kõik need load on rakenduse toimimiseks tõesti vajalikud? Kuidas on see seotud andmete minimaalsuse põhimõttega?
+> Ava oma telefonis ühe sagedamini kasutatava rakenduse seaded. Milliseid andmeid see rakendus sinu kohta koguda tohib (asukoht, kontaktid, mikrofon, kaamera)? Kas kõik need load on rakenduse toimimiseks tõesti vajalikud? Kuidas on see seotud <span class="pae-term" tabindex="0" data-def="andmete minimaalsus: Põhimõte koguda ainult nii palju andmeid, kui eesmärgi jaoks on vaja">andmete minimaalsuse</span> põhimõttega?
 
-### Privaatsust säilitavad tehnoloogiad
+### ➕ Privaatsust säilitavad tehnoloogiad
 
 Kas TI ja privaatsus saavad üldse koos eksisteerida? Teadlased on välja töötanud tehnoloogiaid, mis võimaldavad andmetest kasu saada, ilma et üksikute inimeste andmed paljastuksid.
 
-**Diferentsiaalne privaatsus.** Andmetele lisatakse hoolikalt arvutatud „müra“ ehk juhuslikke muudatusi. Kogu andmestiku üldised mustrid jäävad alles, kuid üksiku inimese andmeid ei ole võimalik välja lugeda. Kujuta ette küsitlust, kus iga vastaja viskab enne vastamist salaja münti ja mõnikord vastab juhuslikult – üldpilt on ikka näha, aga ühegi inimese vastust ei saa kindlalt teada.
+**<span class="pae-term" tabindex="0" data-def="diferentsiaalne privaatsus: Andmetele müra lisamine nii, et üksiku inimese andmeid ei saa välja lugeda">Diferentsiaalne privaatsus</span>.** Andmetele lisatakse hoolikalt arvutatud „müra“ ehk juhuslikke muudatusi. Kogu andmestiku üldised mustrid jäävad alles, kuid üksiku inimese andmeid ei ole võimalik välja lugeda. Kujuta ette küsitlust, kus iga vastaja viskab enne vastamist salaja münti ja mõnikord vastab juhuslikult – üldpilt on ikka näha, aga ühegi inimese vastust ei saa kindlalt teada.
 
 ![Neli sammu: küsitluses vastab igaüks, enne vastamist visatakse salaja münti, mõni vastus on seetõttu juhuslik ehk müra ning lõpuks on üldpilt näha, kuid üksiku inimese vastust mitte.](pildid/plokk_6/6_2_diferentsiaalne.svg "Joonis 6.2.3. Diferentsiaalne privaatsus mündiviskega küsitluse näitel")
 
-**Föderatiivne õpe.** Tavaliselt koondatakse kõik andmed ühte kohta ja treenitakse seal mudel. Föderatiivse õppe korral jäävad andmed kasutaja seadmesse (näiteks telefoni) ning mudelit treenitakse edasi seal. Keskserverisse saadetakse ainult mudeli uuendused, mitte andmed ise. Nii saab mudelit treenida ilma andmeid tsentraliseerimata.
+**<span class="pae-term" tabindex="0" data-def="föderatiivne õpe: Mudeli treenimine nii, et andmed jäävad oma asukohta (nt haiglasse)">Föderatiivne õpe</span>.** Tavaliselt koondatakse kõik andmed ühte kohta ja treenitakse seal mudel. Föderatiivse õppe korral jäävad andmed kasutaja seadmesse (näiteks telefoni) ning mudelit treenitakse edasi seal. Keskserverisse saadetakse ainult mudeli uuendused, mitte andmed ise. Nii saab mudelit treenida ilma andmeid tsentraliseerimata.
 
 ![Võrdlus: tavalises õppes saadavad telefonid kõik andmed serverisse; föderatiivses õppes toimub õppimine telefonis ja serverisse saadetakse ainult mudeli uuendused, andmed jäävad seadmesse.](pildid/plokk_6/6_2_fodereeritud.svg "Joonis 6.2.4. Tavaline õpe ja föderatiivne õpe")
 
@@ -15908,25 +18557,25 @@ Kas TI ja privaatsus saavad üldse koos eksisteerida? Teadlased on välja tööt
 Lisaks kasutatakse **anonümiseerimist** (andmetest eemaldatakse kõik, mille põhjal saaks inimese tuvastada) ja **pseudonümiseerimist** (nimi ja isikukood asendatakse koodiga, mille saab vajaduse korral eraldi hoitava võtme abil tagasi seostada).
 
 <!-- class="pae-moiste" -->
-> **Mõisted: lõimitud privaatsus ja vaikimisi privaatsus**
+> **Mõisted: <span class="pae-term" tabindex="0" data-def="lõimitud privaatsus: Privaatsuse kaitsega arvestamine kogu arendusprotsessi vältel">lõimitud privaatsus</span> ja vaikimisi privaatsus**
 >
 > **Lõimitud privaatsus** (privacy by design) tähendab, et privaatsuse kaitse on integreeritud kogu arendusprotsessi, alates süsteemi kavandamisest; selle juurde kuuluvad ka privaatsuse mõjuhinnangud.
 >
 > **Vaikimisi privaatsus** (privacy by default) tähendab, et süsteemi vaikeseaded on privaatsust kaitsvad ja kogutakse minimaalselt andmeid – kasutaja ei pea ise midagi muutma, et olla kaitstud.
 
-Ettevõtted ja asutused saavad privaatsust kaitsta ka praktiliste sammudega: anonümiseerimine ja pseudonümiseerimine, privaatsuse mõjuhinnangud, andmekaitse põhimõtete dokumenteerimine, töötajate koolitamine, **andmekaitsespetsialisti** määramine, turvaintsidentide haldamise kord ja regulaarsed auditid.
+Ettevõtted ja asutused saavad privaatsust kaitsta ka praktiliste sammudega: anonümiseerimine ja <span class="pae-term" tabindex="0" data-def="pseudonümiseerimine: Otseste tunnuste asendamine koodiga, mida saab eraldi võtme abil tagasi seostada">pseudonümiseerimine</span>, privaatsuse mõjuhinnangud, andmekaitse põhimõtete dokumenteerimine, töötajate koolitamine, **andmekaitsespetsialisti** määramine, turvaintsidentide haldamise kord ja regulaarsed auditid.
 
-### Privaatsuse ja kasulikkuse tasakaal
+### ➕ Privaatsuse ja kasulikkuse tasakaal
 
 Siin on keskne dilemma: **rohkem andmeid tähendab sageli paremat TI-d**, kuid rohkem andmeid tähendab ka suuremat privaatsusriski. Kuidas tagada privaatsus ilma kasulikkust ohverdamata? Ühest vastust ei ole. Ühed rõhutavad, et terviseandmete laialdasem kasutamine võib päästa elusid. Teised leiavad, et inimese kontroll oma andmete üle on nii oluline, et sellest ei tohi loobuda isegi suure kasu nimel. Lahendusi otsitakse privaatsust säilitavatest tehnoloogiatest, anonümiseerimisest ja pseudonümiseerimisest ning nõusolekust ja läbipaistvusest.
 
 <!-- class="pae-eesti" -->
 > **Eesti näide: X-tee ja Bürokratt**
 >
-> Eesti e-riigi selgroog on **X-tee** – turvaline andmevahetuskiht, mille kaudu riigi ja teiste asutuste andmekogud omavahel andmeid vahetavad. Andmeid ei koondata ühte suurde andmebaasi, vaid need jäävad oma asutuse juurde ja liiguvad ainult vajaduse korral. Inimene saab riigiportaalis eesti.ee vaadata, kes on tema andmeid kasutanud. Eesti e-teenuste põhimõtted on läbipaistvus, kasutaja nõusolek ja andmete minimaalsus. Samu küsimusi tuleb lahendada ka virtuaalassistendi **Bürokratt** puhul: kuidas tagada privaatsus, kui inimene kirjutab vestlusrobotile oma muredest?
+> Eesti e-riigi selgroog on **X-tee** – turvaline andmevahetuskiht, mille kaudu riigi ja teiste asutuste andmekogud omavahel andmeid vahetavad. Andmeid ei koondata ühte suurde andmebaasi, vaid need jäävad oma asutuse juurde ja liiguvad ainult vajaduse korral. Riigiportaali eesti.ee **andmejälgijas** saab inimene vaadata, millised asutused on tema andmeid päringutega kasutanud – 2025. aasta seisuga küll ainult 16 andmekogu puhul. Eesti e-teenuste põhimõtted on läbipaistvus, kasutaja nõusolek ja andmete minimaalsus. Samu küsimusi tuleb lahendada ka virtuaalassistendi **Bürokratt** puhul: kuidas tagada privaatsus, kui inimene kirjutab vestlusrobotile oma muredest?
 
 <!-- class="pae-fakt" -->
-> **Kas teadsid?** Riigiportaalis **eesti.ee** saad ise vaadata, kes on sinu andmeid kasutanud.
+> **Kas teadsid?** Riigiportaali **eesti.ee** andmejälgijas saad ise vaadata, millised asutused on sinu andmeid kasutanud. Seni on andmejälgijaga liidetud vaid osa riigi andmekogudest.
 
 Tulevikus on oodata uusi privaatsust säilitavaid tehnoloogiaid, regulatsioonide edasist arengut, kasutajate teadlikkuse kasvu ning rahvusvahelist koostööd ühiste standardite loomisel.
 
@@ -15935,14 +18584,23 @@ Tulevikus on oodata uusi privaatsust säilitavaid tehnoloogiaid, regulatsioonide
 >
 > Mõtle oma igapäevaelule. Kuidas saad ise oma privaatsust paremini kaitsta, kui kasutad virtuaalassistente, vestlusroboteid, soovitussüsteeme või sotsiaalmeediat? Kas oled valmis mõnest mugavusest loobuma, et oma andmeid paremini kaitsta?
 
+### 🧪 TI-katse: Mida TI postitustest järeldab?
+
+Katsetad, kui palju suudab vestlusrobot järeldada väljamõeldud inimese kohta mõnest näiliselt süütust postitusest. Nii näed, kuidas toimib **profileerimine** ja miks ka kaudsed vihjed võivad olla isikuandmed.
+
+**Vaja läheb:** kooli lubatud vestlusrobot (nt [TI-Hüppe õpirakendus](https://tihupe.ee/opirakendus/)), ~10 min, paaristöö
+
+1. Kopeeri vestlusrobotisse need **väljamõeldud** postitused (ära lisa midagi enda ega teiste kohta):
+   „Esmaspäeva hommikul jälle 7.40 bussiga trenni, enne kooli! 🏊“, „Eesti keele kontrolltöö homme, 10.b peab vastu 😅“, „Vanaema koeral täna sünnipäev, tort tuli ise teha“, „Laupäeval taas laat, müüme oma klassiga kooki kirikuplatsil.“
+2. Küsi: „Mida saad nende postituste põhjal selle inimese kohta järeldada? Too välja vanus, elukoht, harjumused ja muud järeldused ning kirjuta iga järelduse juurde, kui kindel sa oled.“
+3. Arutage paarilisega: millised järeldused on tõenäoliselt õiged ja millised oletused? Milliste järelduste põhjal saaks inimese üles leida või ära tunda?
+
+**Pane tähele / kirjuta üles:** kolm järeldust, mida postitustes otse ei öeldud. Millised neist on isikuandmed? Mida võiks postituse autor teha teisiti, et vähem endast reeta?
+
+[[___ ___ ___]]
+
 <!-- class="pae-lisaks" -->
-> **Tea lisaks**
->
-> - Isikuandmete kaitse üldmäärus (GDPR): https://gdpr-info.eu/
-> - Andmekaitse Inspektsioon: https://www.aki.ee/
-> - ENISA ülevaade privaatsust säilitavatest tehnoloogiatest: https://www.enisa.europa.eu/topics/data-protection/privacy-enhancing-technologies
-> - Euroopa Liidu tehisintellekti määrus: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
-> - IEEE privaatsusstandard: https://standards.ieee.org/standard/7002-2022.html
+> **Kui arvutit pole:** lugege samu postitusi paaris ja kirjutage üles kõik, mida nende autori kohta järeldada saab. Märkige iga järelduse juurde, kas see on fakt või oletus, ja mõelge, kas mõni järeldus aitaks inimese üles leida.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -15968,10 +18626,18 @@ Tulevikus on oodata uusi privaatsust säilitavaid tehnoloogiaid, regulatsioonide
 | pseudonümiseerimine | otseste tunnuste asendamine koodiga, mida saab eraldi võtme abil tagasi seostada |
 | lõimitud privaatsus | privaatsuse kaitse arvestamine kogu arendusprotsessi vältel |
 
+### 📚 Allikad ja lisalugemine
+
+- EUR-Lex (2016). [Isikuandmete kaitse üldmäärus (GDPR) – kokkuvõte](https://eur-lex.europa.eu/ET/legal-content/summary/general-data-protection-regulation-gdpr.html). ELi ametlik kokkuvõte üldmäärusest ja andmesubjekti õigustest.
+- Andmekaitse Inspektsioon (2026). [Tähelepanu juhtimine. Üldotstarbelise tehisintellekti kasutamine tervishoius](https://www.aki.ee/sites/default/files/documents/2026-06/Tahelepanu%20juhtimine.%20%C3%9Cldotstarbelise%20tehisintellekti%20kasutamine%20tervishoius_0.pdf). AKI selgitab Eesti näite põhjal, miks ei tohi terviseandmeid lihtsalt vestlusrobotisse sisestada.
+- ERR (2025). [Andmejälgija infot näeb vaid 16 andmekogu kohta](https://www.err.ee/1609768860/andmejalgija-infot-naeb-vaid-16-andmekogu-kohta). Mida näitab eesti.ee andmejälgija ja millised on selle piirid (eesti keeles).
+- Hunton (2024). [Dutch regulator fines Clearview AI 30.5 million euros](https://www.hunton.com/privacy-and-cybersecurity-law-blog/dutch-regulator-fines-clearview-ai-30-5-million-euros). Miks pidas Hollandi andmekaitseasutus Clearview AI näotuvastuse andmebaasi ebaseaduslikuks.
+- Laas, O. (2025). [TI-hüpe vajab TI-eetikat](https://www.err.ee/1609620371/oliver-laas-ti-hupe-vajab-ti-eetikat). Õpilaste andmete, jälgimise ja nõusoleku küsimused koolis kasutatavate TI-tööriistade puhul (sobib lisalugemiseks).
+
 ### Tööleht 6.2
 
 <!-- class="pae-jaotis" -->
-**1. Privaatsuse ja andmekaitse põhimõisted**
+**➕ 1. Privaatsuse ja andmekaitse põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on privaatsus TI kontekstis.
 
@@ -15986,7 +18652,7 @@ Tulevikus on oodata uusi privaatsust säilitavaid tehnoloogiaid, regulatsioonide
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**2. Privaatsuse väljakutsed tehisintellektis**
+**⭐ 2. Privaatsuse väljakutsed tehisintellektis**
 
 **Ülesanne 4.** Analüüsi järgmist stsenaariumi.
 
@@ -16005,7 +18671,7 @@ Millised privaatsuse ja andmekaitse väljakutsed selle süsteemiga kaasnevad? Ku
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**3. Privaatsust säilitavad tehnoloogiad**
+**➕ 3. Privaatsust säilitavad tehnoloogiad**
 
 **Ülesanne 7.** Mis on diferentsiaalne privaatsus ja kuidas see aitab kaitsta isikuandmeid TI-süsteemides?
 
@@ -16020,7 +18686,7 @@ Millised privaatsuse ja andmekaitse väljakutsed selle süsteemiga kaasnevad? Ku
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**4. Praktiline ülesanne: privaatsuse mõjuhinnang**
+**⭐ 4. Praktiline ülesanne: privaatsuse mõjuhinnang**
 
 **Ülesanne 10.** Vali üks TI-rakendus (näiteks näotuvastussüsteem, soovitussüsteem või vestlusrobot) ja koosta lühike privaatsuse mõjuhinnang, vastates järgmistele küsimustele.
 
@@ -16041,7 +18707,7 @@ d) Kuidas tagada andmesubjektide õiguste (nt juurdepääs, parandamine, kustuta
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**5. Arutelu ja refleksioon**
+**⭐ 5. Arutelu ja refleksioon**
 
 **Ülesanne 11.** Kas oled nõus väitega: „Privaatsus on luksus, millest peame loobuma, et saada kasu TI võimalustest“? Põhjenda oma arvamust.
 
@@ -16056,7 +18722,7 @@ d) Kuidas tagada andmesubjektide õiguste (nt juurdepääs, parandamine, kustuta
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**6. Lisaülesanne: Eesti kontekst**
+**➕ 6. Lisaülesanne: Eesti kontekst**
 
 **Ülesanne 14.** Uuri, kuidas on Eestis reguleeritud TI-süsteemide privaatsus ja andmekaitse. Millised on Eesti eripärad või tugevused selles valdkonnas?
 
@@ -16150,21 +18816,79 @@ TI töötab sageli seda paremini, mida rohkem andmeid see saab. Näiteks võiksi
 
 </details>
 
+### 📤 Väljapääsupilet 6.2
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['6.2'] = ["Kool tahab panna kodulehele klassipildi koos kõigi õpilaste nimedega. Millist GDPR-i põhimõtet või sinu õigust tuleks siin arvestada ja miks?", "Milline vestlusroboti järeldus väljamõeldud postituste kohta üllatas sind kõige rohkem ja miks on see privaatsuse seisukohast oluline?", "Kus jagad oma igapäevaelus TI-teenustele isikuandmeid ja mida võiksid edaspidi teha teisiti?"];
+setTimeout(function(){var d=window.paePilet.load('6.2');document.querySelectorAll('[data-pilet="6.2"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="6.2" name="nimi" oninput="window.paePilet.save('6.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kool tahab panna kodulehele klassipildi koos kõigi õpilaste nimedega. Millist GDPR-i põhimõtet või sinu õigust tuleks siin arvestada ja miks?</div><textarea data-pilet="6.2" name="q0" oninput="window.paePilet.save('6.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Milline vestlusroboti järeldus väljamõeldud postituste kohta üllatas sind kõige rohkem ja miks on see privaatsuse seisukohast oluline?</div><textarea data-pilet="6.2" name="q1" oninput="window.paePilet.save('6.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus jagad oma igapäevaelus TI-teenustele isikuandmeid ja mida võiksid edaspidi teha teisiti?</div><textarea data-pilet="6.2" name="q2" oninput="window.paePilet.save('6.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('6.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('6.2')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_6.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 6.2
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma korjasin kokku nime, isikukoodi, näopildi ja IP-aadressi… Kas need on lihtsalt toredad numbrid ja pildid? Miks kõik mind nii murelikult vaatavad?“
 
-Lukk avaneb, kui lahendad mõistatuse. Mis on ühist kõigil neil asjadel: **nimi, isikukood, foto, hääl, asukoht, IP-aadress, õppetulemused, ostuajalugu**? Kirjuta üks sõna – mõiste, mida GDPR kaitseb.
+Lukk avaneb, kui lahendad ülesande. Loe juhtumit.
+
+> Lauri postitas sotsiaalmeediasse pildi oma uutest tossudest. Ta ei kirjutanud postitusse oma nime ega aadressi. Pildifaili sisse salvestusid aga koha koordinaadid (tema kodu juures), peeglist paistab tema nägu ja taustal on näha kooli logoga pusa. Lauri arvab, et jagas ainult pilti tossudest.
+
+Mida Lauri tegelikult jagas? Kirjuta üks sõna – mõiste, mida GDPR kaitseb ja mille alla kuuluvad kõik need vihjed.
 
 [[isikuandmed]]
-[[?]] Vihje: nende põhjal saab inimese otseselt või kaudselt tuvastada.
+[[?]] Vihje 1: Kas asukoha, näo ja kooli põhjal saaks keegi Lauri ära tunda või üles leida? Kuidas nimetatakse andmeid, mille põhjal saab inimese otseselt või kaudselt tuvastada?
+[[?]] Vihje 2: Liitsõna, milles on 11 tähte; see algab tähega I ja lõpeb mitmuse tunnusega -d.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Mis on privaatsus TI ajastul?“ ja loe kasti „Mõiste: isikuandmed“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI540") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ").replace(/[.!]+$/, "");
 ["isikuandmed", "isikuandmeid", "isikuandmete", "isiku andmed", "personaalandmed", "personal data"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Kõik need on **isikuandmed** – teave, mille põhjal saab inimese tuvastada, ja seepärast tuleb neid GDPR-i järgi kaitsta.
+✅ **Lukk avatud!** Lauri jagas **isikuandmeid**: asukoht, näopilt ja kool on kõik teave, mille põhjal saab inimese otseselt või kaudselt tuvastada. Seepärast tuleb neid GDPR-i järgi kaitsta – ja enne postitamist tasub kontrollida, mida pilt sinust reedab.
 
 🔑 **Sinu võtmetäht: I**
 
@@ -16175,17 +18899,38 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 6.3 Kallutatus ja õiglus
 
 <!-- class="pae-kaas" -->
-![Tööle kandideerijad ootavad ooteruumis, samal ajal kui suurel ekraanil sorteerib tehisaru nende CV-sid ja kaalud näitavad, et mõni rühm jääb ebaõiglaselt kõrvale.](pildid/illustratsioonid/6_3.jpg)
+![Eri taustaga tööle kandideerijad istuvad paberitega ooteruumis ja vaatavad murelikult seinaekraani, kus tehisaru sorteerib nende fotodega profiile: osa saab rohelise linnukese, osa punase risti ja lendab prügikasti.](pildid/illustratsioonid/6_3.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- oskad selgitada, mis on kallutatus (bias) ja õiglus (fairness) TI-süsteemides;
-- tunned kallutatuse peamisi tüüpe ja põhjusi ning oskad tuua näiteid;
-- tead, et õiglust saab defineerida mitmel viisil ja et kõiki definitsioone ei saa korraga täita;
-- oskad nimetada meetodeid kallutatuse tuvastamiseks ja vähendamiseks;
-- oskad arutleda õiglusega seotud dilemmade üle, arvestades eri vaatenurki.
+- **selgitad oma sõnadega**, mis on TI kallutatus ja õiglus *(mõistmine)*;
+- **liigitad** näiteid kallutatuse tüübi järgi ja **arvutad**, kas värbamissüsteem kohtleb rühmi võrdselt *(rakendamine)*;
+- **analüüsid** masintõlke katses, milliseid ameteid seob TI meeste ja milliseid naistega ning millest see tuleneb *(analüüs)*;
+- **hindad**, miks ei piisa kallutatuse vältimiseks sellest, kui sugu ja päritolu andmetest eemaldada *(hindamine)*;
+- **kavandad**, kuidas kontrollida, kas soovitussüsteem kohtleb kasutajaid stereotüüpselt *(loomine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Mis on kallutatus ja õiglus?“, „Kallutatuse tüübid ja näited“, „Miks kallutatus tekib?“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Kes on arst ja kes õde?“
+> 3. ⭐ **Tööleht** (~15 min): töölehe osad 2, 5 ja 6
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+TI õpib andmetest, mille on loonud inimesed. Kui andmetes on eelarvamusi, õpib TI need ka ära. Nii tekib **kallutatus** ehk korduv ja ebaõiglane viga. Näiteks andis üks CV-programm madalama hinde CV-dele, kus oli sõna „naiste“. Programm oli õppinud vanadest CV-dest, mis olid enamasti meestelt. **Õiglane** TI kohtleb kõiki inimesi võrdselt, olenemata soost või vanusest. Kui vaatad ühe teema videoid, näidatakse sulle neid veel rohkem. See on **<span class="pae-term" tabindex="0" data-def="tagasisidesilmus: Olukord, kus süsteemi otsused mõjutavad uusi andmeid ja see võimendab kallutatust">tagasisidesilmus</span>**: süsteem kinnitab ise oma varasemaid otsuseid.
+
+**Tähtsad sõnad:** **kallutatus** – TI korduv viga, mis on mõnele inimrühmale ebaõiglane; **õiglus** – TI kohtleb kõiki inimesi võrdselt; **tagasisidesilmus** – TI otsused mõjutavad uusi andmeid ja viga kasvab.
+
+</section>
 
 ### Mis on kallutatus ja õiglus?
 
@@ -16197,7 +18942,7 @@ Võib tunduda, et arvuti on alati erapooletu – see ju lihtsalt arvutab. Kuid T
 > Kallutatus on TI-süsteemi süstemaatiline viga, mis põhjustab ebaõiglasi või diskrimineerivaid tulemusi. „Süstemaatiline“ tähendab, et viga ei ole juhuslik, vaid kordub ja puudutab tihti kindlat inimrühma.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: õiglus (fairness)**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="õiglus (fairness): TI-süsteemi võrdne ja mittediskrimineeriv toimimine">õiglus (fairness)</span>**
 >
 > Õiglus tähendab TI kontekstis, et süsteem kohtleb inimesi võrdselt ja toimib mittediskrimineerivalt – see ei sea kedagi ebasoodsamasse olukorda tunnuste tõttu, millel pole otsusega pistmist (näiteks sugu, vanus või päritolu).
 
@@ -16223,7 +18968,7 @@ Kallutatus võib tekkida süsteemi eri osades. Eristatakse viit peamist tüüpi.
 Maailmas on kallutatust leitud paljudes valdkondades:
 
 - **töölevärbamise algoritmid** – sooline kallutatus kandidaatide hindamisel;
-- **näotuvastussüsteemid** – madalam täpsus teatud nahatooni või rassiliste rühmade puhul;
+- **näotuvastussüsteemid** – madalam täpsus teatud nahatooni või rassiliste rühmade puhul (2018. aasta uuringus „Gender Shades“ eksisid kolm kommertssüsteemi tumedanahaliste naiste soo määramisel kuni 34,7% juhtudest, heledanahaliste meeste puhul kuni 0,8%);
 - **laenuotsuste süsteemid** – diskrimineerimine rassi, soo või vanuse põhjal;
 - **õigussüsteemi riskihindamise tööriistad** – kõrgem riskihinnang teatud rühmadele;
 - **meditsiinilised diagnoosisüsteemid** – ebavõrdne täpsus eri demograafiliste rühmade puhul.
@@ -16232,6 +18977,8 @@ Maailmas on kallutatust leitud paljudes valdkondades:
 > **Näide: värbamisalgoritm, mis õppis minevikust**
 >
 > Ettevõte kasutab TI-süsteemi, mis hindab tööle kandideerijate CV-sid. Süsteem on treenitud varasemate edukate töötajate andmetel. Ettevõttes on aga ajalooliselt töötanud peamiselt mehed. Süsteem „õpib“, et edukas töötaja näeb välja nagu mees: ta võib hinnata madalamalt CV-sid, kus on mainitud näiteks naiste spordiklubi või tütarlastekooli. Keegi ei kirjutanud süsteemi reeglit „eelista mehi“ – süsteem leidis selle mustri ise ajaloolistest andmetest.
+>
+> Nii juhtus ka päriselt: 2018. aastal tuli avalikuks, et Amazoni katsetatud CV-hindaja andis madalama hinde CV-dele, milles oli sõna *women's* (nt „naiste maleklubi kapten“), sest see oli õppinud kümne aasta jooksul saadud CV-dest, mis olid enamasti meestelt. Ettevõte loobus tööriistast.
 
 ![Kolm sammu: ajaloolistes andmetes olid edukad töötajad peamiselt mehed, mudel leiab mustri „edukas töötaja = mees“ ja uus CV, kus on mainitud naiste spordiklubi, saab madalama hinde. Keegi ei kirjutanud sellist reeglit – muster tuli andmetest.](pildid/plokk_6/6_3_varbamine.svg "Joonis 6.3.2. Kuidas kallutatus andmetest mudelisse jõuab")
 
@@ -16253,16 +19000,16 @@ Kallutatuse põhjused on enamasti seotud inimeste ja ühiskonnaga, mitte tehnika
 >
 > Mõtle sotsiaalmeedia voole. Kui vaatad mõne teema videoid, näidatakse sulle järgmisel korral rohkem sama teema videoid. Kuidas on see seotud tagasisidesilmusega? Kas see võib mõjutada seda, kuidas sa maailma näed?
 
-### Kuidas õiglust mõõta?
+### ➕ Kuidas õiglust mõõta?
 
 Kõik nõustuvad, et TI peaks olema õiglane. Kuid mida see täpselt tähendab? Selgub, et õiglust saab defineerida mitmel viisil.
 
-Esiteks eristatakse **grupiõiglust** ja **individuaalset õiglust**. Grupiõigluse puhul vaadatakse, kas eri rühmi (näiteks mehi ja naisi) koheldakse keskmiselt võrdselt. Individuaalse õigluse puhul vaadatakse üksikisikuid: **sarnased inimesed peaksid saama sarnaseid tulemusi**.
+Esiteks eristatakse **<span class="pae-term" tabindex="0" data-def="grupiõiglus: Eri rühmade keskmiselt võrdne kohtlemine">grupiõiglust</span>** ja **individuaalset õiglust**. Grupiõigluse puhul vaadatakse, kas eri rühmi (näiteks mehi ja naisi) koheldakse keskmiselt võrdselt. Individuaalse õigluse puhul vaadatakse üksikisikuid: **sarnased inimesed peaksid saama sarnaseid tulemusi**.
 
 Grupiõiglust saab omakorda mõõta eri matemaatiliste definitsioonidega:
 
-- **demograafiline pariteet** – eri rühmadel on võrdne tõenäosus positiivseks tulemuseks (näiteks sama suur osa mõlema rühma kandideerijatest kutsutakse vestlusele);
-- **võrdsed võimalused** – süsteem eksib eri rühmade puhul ühepalju: valepositiivsete ja valenegatiivsete tulemuste määr on rühmades võrdne. **Valepositiivne** tulemus on see, kui süsteem ütleb ekslikult „jah“ (näiteks peab süütut inimest kahtlaseks), **valenegatiivne** see, kui süsteem ütleb ekslikult „ei“ (näiteks jätab sobiva kandideerija kõrvale).
+- **<span class="pae-term" tabindex="0" data-def="demograafiline pariteet: Eri rühmadel on võrdne tõenäosus saada positiivne tulemus">demograafiline pariteet</span>** – eri rühmadel on võrdne tõenäosus positiivseks tulemuseks (näiteks sama suur osa mõlema rühma kandideerijatest kutsutakse vestlusele);
+- **<span class="pae-term" tabindex="0" data-def="võrdsed võimalused: Valepositiivsete ja valenegatiivsete tulemuste määr on rühmades võrdne">võrdsed võimalused</span>** – süsteem eksib eri rühmade puhul ühepalju: valepositiivsete ja valenegatiivsete tulemuste määr on rühmades võrdne. **Valepositiivne** tulemus on see, kui süsteem ütleb ekslikult „jah“ (näiteks peab süütut inimest kahtlaseks), **valenegatiivne** see, kui süsteem ütleb ekslikult „ei“ (näiteks jätab sobiva kandideerija kõrvale).
 
 ![Puuskeem: õiglus jaguneb grupiõigluseks ja individuaalseks õigluseks; grupiõigluse alla kuuluvad demograafiline pariteet (võrdne osa positiivseid tulemusi) ja võrdsed võimalused (võrdne veamäär rühmades). Kõiki definitsioone ei saa korraga täita.](pildid/plokk_6/6_3_oiglus.svg "Joonis 6.3.4. Õigluse eri definitsioonid")
 
@@ -16281,12 +19028,12 @@ Keeruline on see, et **kõiki õigluse definitsioone ei saa korraga rahuldada**.
 >
 > Kujuta ette stipendiumi, mille jaoks TI eelvalib kandidaate. Ühe käsituse järgi on õiglane, kui igast koolist valitakse võrdne osa õpilasi (demograafiline pariteet). Teise käsituse järgi on õiglane, kui süsteem jätab igas koolis välja ühepalju tegelikult sobivaid õpilasi (võrdsed võimalused). Kui koolide õpilaste tulemused erinevad, võivad need kaks käsitust viia erinevate valikuteni. Kumb on õiglasem? Sellele küsimusele vastavad inimesed erinevalt.
 
-### Kallutatuse tuvastamine ja vähendamine
+### ➕ Kallutatuse tuvastamine ja vähendamine
 
 Kallutatust saab **tuvastada** mitmel viisil:
 
 - **andmete analüüs** – hinnatakse, kas andmestikus on kõik rühmad esindatud ja tasakaalus;
-- **algoritmi audit** – süsteemi hinnatakse süstemaatiliselt kallutatuse leidmiseks;
+- **<span class="pae-term" tabindex="0" data-def="algoritmi audit: TI-süsteemi süstemaatiline kontroll kallutatuse ja vigade leidmiseks">algoritmi audit</span>** – süsteemi hinnatakse süstemaatiliselt kallutatuse leidmiseks;
 - **tulemuste jälgimine rühmade lõikes** – võrreldakse, kuidas süsteem eri demograafiliste rühmade puhul toimib;
 - **kasutajate tagasiside** – kogutakse kasutajate kogemusi ja probleeme;
 - **sõltumatu hindamine** – kaasatakse välised eksperdid.
@@ -16308,7 +19055,7 @@ Praktikas on näiteks näotuvastussüsteeme parandatud mitmekesisemate treeninga
 >
 > Algoritmi audit on TI-süsteemi süstemaatiline ja sageli sõltumatu kontroll, mille käigus hinnatakse, kas süsteem toimib õiglaselt, täpselt ja reeglite kohaselt.
 
-### Dilemmad ja reeglid
+### ➕ Dilemmad ja reeglid
 
 Õigluse tagamine tekitab mitu keerulist küsimust, millele inimesed vastavad erinevalt:
 
@@ -16331,14 +19078,22 @@ Seadused seavad ka miinimumnõuded. **Euroopa Liidu tehisintellekti määrus** (
 >
 > Kas on üldse võimalik luua täiesti kallutamata TI-süsteemi? Mõtle sellele, et iga andmestik on kellegi kogutud ja iga mudel kellegi kavandatud. Kui täiuslikku õiglust ei saa saavutada, kas siis piisab sellest, et süsteem on vähem kallutatud kui inimene, kes sama otsust varem tegi?
 
+### 🧪 TI-katse: Kes on arst ja kes õde?
+
+Eesti keeles on asesõna „ta“ sooneutraalne, inglise ja saksa keeles aga tuleb valida „he/she“ või „er/sie“. Katsetad, kas masintõlge valib soo ameti järgi – see on hea näide <span class="pae-term" tabindex="0" data-def="andmete kallutatus: Treeningandmetes esinevad eelarvamused ja ebavõrdsus">andmete kallutatusest</span>, sest tõlkemudel on õppinud miljonitest inimeste kirjutatud tekstidest.
+
+**Vaja läheb:** [Neurotõlge](https://translate.ut.ee/) (Tartu Ülikooli tasuta masintõlge, sisselogimiseta) ja võrdluseks mõni teine masintõlge (nt Google'i tõlge), ~10 min, paaristöö
+
+1. Kirjuta tõlkesse eesti keeles iga lause eraldi reale: „Ta on arst.“ „Ta on õde.“ „Ta on insener.“ „Ta on lasteaiaõpetaja.“ „Ta on firma juht.“ „Ta koristab kontorit.“
+2. Tõlgi laused inglise keelde (ja soovi korral saksa keelde). Pane iga lause juurde kirja, kas tõlge valis *he*, *she* või mõlemad.
+3. Muuda üht lauset (nt „Ta on arst ja tal on kaks last.“ või „Ta on õde ja mängib jalgpalli.“) ja vaata, kas sugu muutub. Võrdle kaht tõlkeprogrammi.
+
+**Pane tähele / kirjuta üles:** milliseid ameteid seostas tõlge meeste ja milliseid naistega? Kas mõni tõlkeprogramm pakkus mõlemat varianti – mis kallutatuse vähendamise võte see on? Millest selline kallutatus tuleneb?
+
+[[___ ___ ___]]
+
 <!-- class="pae-lisaks" -->
-> **Tea lisaks**
->
-> - Euroopa Liidu tehisintellekti määrus: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
-> - Eesti TI portaal: https://www.kratid.ee/
-> - FAT/ML (õiglus, vastutus ja läbipaistvus masinõppes): https://www.fatml.org/
-> - IBM-i tööriistakomplekt AI Fairness 360: https://aif360.res.ibm.com/
-> - IEEE Ethics in Action: https://ethicsinaction.ieee.org/
+> **Kui arvutit pole:** kirjutage paaris üles, kuidas te ise tõlgiksite need laused inglise keelde, kui peaksite valima *he* või *she*. Arutage, miks esimese hooga tuleb pähe just see sugu ja kust masin võiks sama mustri õppida.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -16346,7 +19101,7 @@ Seadused seavad ka miinimumnõuded. **Euroopa Liidu tehisintellekti määrus** (
 
 - Kallutatus on süstemaatiline viga, mis põhjustab ebaõiglasi või diskrimineerivaid tulemusi; selle peamised tüübid on andmete, algoritmi, mõõtmise, kasutaja ja esituse kallutatus.
 - Kallutatus tekib sageli ajaloolistest andmetest, mitteesinduslikest treeningandmetest, arendajate teadvustamata eelarvamustest ja tagasisidesilmustest.
-- Õiglust saab defineerida mitmel viisil (demograafiline pariteet, võrdsed võimalused, individuaalne õiglus) ja kõiki definitsioone ei saa korraga täita.
+- Õiglust saab defineerida mitmel viisil (demograafiline pariteet, võrdsed võimalused, <span class="pae-term" tabindex="0" data-def="individuaalne õiglus: Sarnased inimesed saavad sarnaseid tulemusi">individuaalne õiglus</span>) ja kõiki definitsioone ei saa korraga täita.
 - Kallutatust saab vähendada andmete, algoritmi ja kogu süsteemi tasandil; olulised on audit, inimese järelevalve ja mitmekesised meeskonnad.
 - Õiglus on pidev protsess, mitte ühekordne eesmärk; seadused ja standardid seavad miinimumnõuded.
 
@@ -16362,10 +19117,19 @@ Seadused seavad ka miinimumnõuded. **Euroopa Liidu tehisintellekti määrus** (
 | võrdsed võimalused | valepositiivsete ja valenegatiivsete tulemuste määr on rühmades võrdne |
 | algoritmi audit | TI-süsteemi süstemaatiline kontroll kallutatuse ja vigade leidmiseks |
 
+### 📚 Allikad ja lisalugemine
+
+- Buolamwini, J., Gebru, T. (2018). [Gender Shades: Intersectional accuracy disparities in commercial gender classification](https://www.media.mit.edu/publications/gender-shades-intersectional-accuracy-disparities-in-commercial-gender-classification/). Uuring, mis näitas näoanalüüsi süsteemide ebavõrdset täpsust eri rühmade puhul.
+- CNBC / Reuters (2018). [Amazon scraps a secret AI recruiting tool that showed bias against women](https://www.cnbc.com/2018/10/10/amazon-scraps-a-secret-ai-recruiting-tool-that-showed-bias-against-women.html). Päris juhtum värbamisalgoritmist, mis õppis ajaloolistest andmetest soolise kallutatuse.
+- TechTalks (2019). [This online game wants to teach the public about AI bias](https://bdtechtalks.com/2019/07/08/ai-bias-survival-of-the-best-fit/). Mängu „Survival of the Best Fit“ tutvustus: kuidas värbamise automatiseerimine võib viia diskrimineerimiseni.
+- Tartu Ülikool (2023). [The University of Tartu machine translation engine now supports 17 new Finno-Ugric languages](https://keemia.ut.ee/en/content/university-tartu-machine-translation-engine-now-supports-17-new-finno-ugric-languages). Tutvustus TI-katses kasutatud Neurotõlke kohta.
+- Saar, U. (2023). [Eesti naine ei sünni õpetajaks ega mees keevitajaks](https://www.err.ee/1608857411/ulla-saar-eesti-naine-ei-sunni-opetajaks-ega-mees-keevitajaks). ERR-i arvamuslugu soolisest jaotusest Eesti ametites (eesti keeles; sobib lisalugemiseks).
+- TI-Hüpe (s.a.). [Õppevideod](https://tihupe.ee/oppevideod/). Vaata näiteks videot „Maia Klassen | Kuidas kujundavad algoritmid meie maailmapilti?“.
+
 ### Tööleht 6.3
 
 <!-- class="pae-jaotis" -->
-**1. Kallutatuse ja õigluse põhimõisted**
+**➕ 1. Kallutatuse ja õigluse põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, mis on kallutatus (bias) TI-s.
 
@@ -16380,9 +19144,9 @@ Seadused seavad ka miinimumnõuded. **Euroopa Liidu tehisintellekti määrus** (
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**2. Kallutatuse tüübid ja näited**
+**⭐ 2. Kallutatuse tüübid ja näited**
 
-**Ülesanne 4.** Nimeta ja selgita vähemalt kolme kallutatuse tüüpi TI-s.
+**Ülesanne 4.** Too vähemalt kolme kallutatuse tüübi kohta näide oma elust või TI-katsest (nt tõlkerobot, sotsiaalmeedia voog, otsingumootor, kooli e-keskkond) ja selgita, miks see on just seda tüüpi kallutatus.
 
 [[___ ___ ___ ___ ___]]
 
@@ -16399,7 +19163,7 @@ Millised kallutatuse probleemid võivad selles süsteemis tekkida? Kuidas neid p
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**3. Õigluse definitsioonid ja mõõtmine**
+**➕ 3. Õigluse definitsioonid ja mõõtmine**
 
 **Ülesanne 7.** Selgita, milles seisneb erinevus grupiõigluse ja individuaalse õigluse vahel.
 
@@ -16414,7 +19178,7 @@ Millised kallutatuse probleemid võivad selles süsteemis tekkida? Kuidas neid p
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**4. Kallutatuse tuvastamine ja vähendamine**
+**➕ 4. Kallutatuse tuvastamine ja vähendamine**
 
 **Ülesanne 10.** Milliseid meetodeid saab kasutada kallutatuse tuvastamiseks TI-süsteemides?
 
@@ -16429,7 +19193,7 @@ Millised kallutatuse probleemid võivad selles süsteemis tekkida? Kuidas neid p
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**5. Praktiline ülesanne: kallutatuse analüüs**
+**⭐ 5. Praktiline ülesanne: kallutatuse analüüs**
 
 **Ülesanne 13.** Vali üks TI-rakendus (näiteks näotuvastussüsteem, laenuotsuste süsteem või soovitussüsteem) ja analüüsi selle võimalikku kallutatust.
 
@@ -16450,7 +19214,7 @@ d) Milliseid meetmeid saaks rakendada kallutatuse vähendamiseks ja õigluse suu
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**6. Arutelu ja refleksioon**
+**⭐ 6. Arutelu ja refleksioon**
 
 **Ülesanne 14.** Kas on võimalik luua täiesti kallutamata TI-süsteemi? Põhjenda oma arvamust.
 
@@ -16465,7 +19229,7 @@ d) Milliseid meetmeid saaks rakendada kallutatuse vähendamiseks ja õigluse suu
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**7. Lisaülesanne: Eesti kontekst**
+**➕ 7. Lisaülesanne: Eesti kontekst**
 
 **Ülesanne 17.** Uuri, kuidas on Eestis käsitletud TI-süsteemide kallutatuse ja õigluse küsimusi. Millised on Eesti eripärad või tugevused selles valdkonnas?
 
@@ -16559,26 +19323,79 @@ Kallutatus võib jääda alles kaudsete tunnuste kaudu. Näiteks võib CV-s main
 
 </details>
 
+### 📤 Väljapääsupilet 6.3
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['6.3'] = ["Muusikarakendus soovitab tüdrukutele peamiselt popmuusikat ja poistele räppi. Millise kallutatuse tüübi või põhjusega võib olla tegu ja kuidas seda kontrollida?", "Milliseid ameteid seostas masintõlge meeste ja milliseid naistega ning miks see nii võib olla?", "Kas oled oma elus märganud mõnda tehnoloogiat, mis kohtleb inimesi stereotüüpselt? Kirjelda lühidalt."];
+setTimeout(function(){var d=window.paePilet.load('6.3');document.querySelectorAll('[data-pilet="6.3"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="6.3" name="nimi" oninput="window.paePilet.save('6.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Muusikarakendus soovitab tüdrukutele peamiselt popmuusikat ja poistele räppi. Millise kallutatuse tüübi või põhjusega võib olla tegu ja kuidas seda kontrollida?</div><textarea data-pilet="6.3" name="q0" oninput="window.paePilet.save('6.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Milliseid ameteid seostas masintõlge meeste ja milliseid naistega ning miks see nii võib olla?</div><textarea data-pilet="6.3" name="q1" oninput="window.paePilet.save('6.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kas oled oma elus märganud mõnda tehnoloogiat, mis kohtleb inimesi stereotüüpselt? Kirjelda lühidalt.</div><textarea data-pilet="6.3" name="q2" oninput="window.paePilet.save('6.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('6.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('6.3')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_6.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 6.3
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma soovitasin ühele õpilasele kassivideoid. Ta vaatas neid. Siis soovitasin veel rohkem kassivideoid… Nüüd näen ma kõikjal ainult kasse! Kuidas ma sellest ringist välja saan?“
 
-Lukk avaneb, kui lahendad mõistatuse. Kes ma olen? Kirjuta mõiste (üks liitsõna).
+Lukk avaneb, kui lahendad ülesande. Loe juhtumit.
 
-> Ma olen ring, mis keerleb ja kasvab.
-> Süsteemi otsused mõjutavad uusi andmeid,
-> uued andmed jõuavad tagasi treeningandmetesse
-> ja nii võimendan ma kallutatust iga ringiga.
+> Linna politsei kasutab TI-süsteemi, mis soovitab saata patrullid nendesse linnaosadesse, kus on varem registreeritud kõige rohkem rikkumisi. Kus on rohkem patrulle, seal märgatakse ja registreeritakse ka rohkem rikkumisi – ka selliseid, mis teistes linnaosades jäävad märkamata. Need uued andmed lähevad süsteemi ja järgmisel nädalal soovitab see saata samasse linnaossa veel rohkem patrulle.
+
+Millist tunnis õpitud nähtust see juhtum kirjeldab? Kirjuta mõiste (üks liitsõna).
 
 [[tagasisidesilmus]]
-[[?]] Vihje: sõna algab sõnaga „tagasiside“ ja lõpeb sõnaga, mis tähendab aasa.
+[[?]] Vihje 1: Süsteemi enda otsused mõjutavad andmeid, millest see järgmisel korral õpib. Millise kujuga on selline protsess – sirge joon või ring?
+[[?]] Vihje 2: Sõna algab sõnaga „tagasiside“ ja lõpeb sõnaga, mis tähendab aasa.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Miks kallutatus tekib?“ ja loe loetelu viimast punkti ning joonist 6.3.3. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI536") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ").replace(/[.!]+$/, "");
-["tagasisidesilmus", "tagasiside silmus", "tagasisidesilmuse", "tagasisidesilmused", "tagasisideahel", "feedback loop"].includes(v)
+["tagasisidesilmus", "tagasiside silmus", "tagasisidesilmuse", "tagasisidesilmused", "tagasisideahel", "feedback loop", "tagasiside kallutatus", "tagasisidekallutatus"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** **Tagasisidesilmus** on üks põhjus, miks kallutatus võib aja jooksul hoopis suureneda – seepärast tuleb süsteemi tulemusi pidevalt jälgida.
+✅ **Lukk avatud!** Tegu on **tagasisidesilmusega**: süsteemi otsused (kuhu patrullid saata) tekitavad uusi andmeid, mis kinnitavad süsteemi varasemaid otsuseid. Nii võib kallutatus aja jooksul hoopis suureneda – seepärast tuleb süsteemi tulemusi pidevalt jälgida.
 
 🔑 **Sinu võtmetäht: G**
 
@@ -16589,17 +19406,38 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 6.4 Mõju tööturule
 
 <!-- class="pae-kaas" -->
-![Logistikalaos õpetab kogenud töötaja noort praktikanti tahvelarvutist isesõitvate kärude marsruute jälgima, kolleeg kontrollib seinaekraanilt töö kulgu ja sadamavaatega akna all sõidavad kastidega robotkärud.](pildid/illustratsioonid/6_4.jpg)
+![Suures logistikalaos näitab helkurvestis kogenud töötaja noorele kolleegile tahvelarvutist midagi, samal ajal kui nende taga sõidavad riiulite vahel iseseisvalt pakke vedavad robotkärud.](pildid/illustratsioonid/6_4.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- oskad selgitada, kuidas TI muudab tööturgu: automatiseerib ülesandeid, muudab ameteid ja loob uusi rolle;
-- oskad võrrelda TI mõju varasemate tehnoloogiliste muutustega;
-- tead, milliseid tehnilisi ja inimlikke oskusi peetakse TI ajastul olulisteks;
-- oskad arutleda TI mõju üle ühiskondlikule ebavõrdsusele ja selle üle, kes peaks üleminekut juhtima;
-- mõistad, et tuleviku tööturu kohta on mitu stsenaariumi ja ükski neist ei ole kindel.
+- **selgitad oma sõnadega**, kuidas TI muudab tööturgu: automatiseerib ülesandeid, muudab ameteid ja loob uusi rolle *(mõistmine)*;
+- **liigitad** TI ajastu olulisi oskusi tehnilisteks ja inimlikeks *(rakendamine)*;
+- **võrdled** TI mõju varasemate tehnoloogiliste pööretega *(analüüs)*;
+- **katsetad** vestlusrobotiga mõne ameti ülesannet ja **hindad**, mida TI teeb hästi ja kus on vaja inimest *(hindamine)*;
+- **põhjendad**, millist oskust tahad lähiaastatel arendada, et TI ajastu tööturul hakkama saada *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Kuidas TI tööturgu muudab?“, „Millised töökohad muutuvad?“, „Tuleviku oskused“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Mida TI minu tulevases ametis teeks?“
+> 3. ⭐ **Tööleht** (~15 min): töölehe osad 2, 6 ja 7
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+TI muudab tööturgu ja seda, kuidas inimesed töötavad. Osa ülesandeid teeb nüüd masin – see on **<span class="pae-term" tabindex="0" data-def="automatiseerimine: Ülesande üleandmine masinale või tarkvarale">automatiseerimine</span>**. Kõige lihtsam on automatiseerida rutiinseid ja korduvaid ülesandeid. Sageli amet ei kao päriselt ära, vaid muutub. Kui poes tunneb kaamera tooted ära, on vaja vähem kassapidajaid. Samal ajal tekivad uued ametid, näiteks andmeteadlane või TI eetika spetsialist. Tähtsaks jäävad loovus, kriitiline mõtlemine ja koostöö. Tulevikus on tähtis **<span class="pae-term" tabindex="0" data-def="elukestev õpe: Õppimine ja enesetäiendamine kogu elu jooksul">elukestev õpe</span>** ehk õppimine kogu elu jooksul.
+
+**Tähtsad sõnad:** **automatiseerimine** – masin teeb tööd, mida varem tegi inimene; **inimese ja masina koostöö** – inimene ja TI töötavad koos ning kumbki teeb seda, mida oskab paremini; **elukestev õpe** – õppimine ja enda täiendamine kogu elu jooksul.
+
+</section>
 
 ### Kuidas TI tööturgu muudab?
 
@@ -16620,7 +19458,7 @@ TI mõjutab tööturgu kolmel moel:
 
 See teema on oluline mitmel põhjusel: sellel on suur **majanduslik ja sotsiaalne mõju**, **haridussüsteem peab kohanema** ning sina ise pead **tulevikuks valmistuma** – sinu karjäär möödub just TI ajastul.
 
-### Mis on teisiti kui varem?
+### ➕ Mis on teisiti kui varem?
 
 Ajaloos on olnud mitu suurt tehnoloogilist pööret: **tööstusrevolutsioon**, **arvutite ja interneti levik** ning **automatiseerimine ja robotiseerimine** tehastes. Iga kord kadusid mõned töökohad, kuid tekkis ka uusi.
 
@@ -16659,7 +19497,7 @@ TI-ga seoses on tekkinud ka **uusi ameteid ja rolle**:
 
 - andmeteadlased ja -analüütikud;
 - TI eetika spetsialistid;
-- inimese ja masina koostöö disainerid;
+- <span class="pae-term" tabindex="0" data-def="inimese ja masina koostöö: Töö, kus inimene ja TI kasutavad kumbki oma tugevusi">inimese ja masina koostöö</span> disainerid;
 - TI treenerid ja järelevalvajad – inimesed, kes märgendavad andmeid, hindavad TI vastuseid ja kontrollivad süsteemide tööd.
 
 Enamikus ametites aga muutub igapäevatöö: inimesed hakkavad kasutama **TI-tööriistu**, tekivad uued **inimese ja masina koostöö** vormid ning tähelepanu võib nihkuda **loovusele ja suhtlemisele** – sellele, mida masin teeb halvemini.
@@ -16669,7 +19507,7 @@ Enamikus ametites aga muutub igapäevatöö: inimesed hakkavad kasutama **TI-tö
 >
 > Inimese ja masina koostöö tähendab, et inimene ja TI teevad tööd koos, kumbki oma tugevusi kasutades: TI töötleb kiiresti suuri andmehulki, inimene annab hinnangu, vastutab otsuse eest ja suhtleb teiste inimestega.
 
-### Erinevad sektorid
+### ➕ Erinevad sektorid
 
 TI mõju erineb sektoriti.
 
@@ -16683,7 +19521,7 @@ TI mõju erineb sektoriti.
 <!-- class="pae-eesti" -->
 > **Eesti näide: TI Eesti ettevõtetes**
 >
-> Eestis on mitu ettevõtet, kus TI on töö olulise osana juba kasutusel. **Bolt** kasutab TI-d nõudluse ennustamiseks, hindade optimeerimiseks ja sõitude sobitamiseks. **Starship Technologies** on loonud isesõitvad kullerrobotid, mis navigeerivad arvutinägemise abil linnatänavatel. **LHV** pank kasutab TI-d pettuste tuvastamiseks ja klienditeeninduses, **Salv** aitab pankadel rahapesu ja pettusi tuvastada. **Lingvist** pakub TI abil personaliseeritud keeleõpet. Igas sellises ettevõttes on vaja nii tehnilisi spetsialiste kui ka inimesi, kes TI-d oma töös kasutavad.
+> Eestis on mitu ettevõtet, kus TI on töö olulise osana juba kasutusel. **Bolt** kasutab TI-d nõudluse ennustamiseks, hindade optimeerimiseks ja sõitude sobitamiseks. **Starship Technologies** on loonud isesõitvad kullerrobotid, mis navigeerivad arvutinägemise abil linnatänavatel. **LHV** pank kasutab TI-d klienditeeninduse vestlusaknas, andmeanalüüsis ja dokumentide koostamisel; 2024. aasta detsembris teatas pank, et automatiseerimise ja TI kasutamise tõttu kaotab ta umbes 60 ametikohta ehk ligikaudu 5% töötajatest. **Salv** aitab pankadel rahapesu ja pettusi tuvastada. **Lingvist** pakub TI abil personaliseeritud keeleõpet. Igas sellises ettevõttes on vaja nii tehnilisi spetsialiste kui ka inimesi, kes TI-d oma töös kasutavad.
 
 ### Tuleviku oskused
 
@@ -16691,7 +19529,7 @@ Millised oskused muutuvad olulisemaks? Allikad toovad välja kaks rühma.
 
 **Tehnilised oskused:**
 
-- **andmekirjaoskus** – oskus andmeid lugeda, tõlgendada ja kriitiliselt hinnata;
+- **<span class="pae-term" tabindex="0" data-def="andmekirjaoskus: Oskus andmeid lugeda, tõlgendada ja kriitiliselt hinnata">andmekirjaoskus</span>** – oskus andmeid lugeda, tõlgendada ja kriitiliselt hinnata;
 - TI-tööriistade kasutamine;
 - programmeerimise alused;
 - süsteemne mõtlemine – oskus näha, kuidas süsteemi osad omavahel seotud on.
@@ -16704,7 +19542,7 @@ Millised oskused muutuvad olulisemaks? Allikad toovad välja kaks rühma.
 - koostöö ja suhtlemine;
 - kohanemisvõime ja paindlikkus.
 
-Kõige olulisemaks peetakse **elukestva õppe** mõtteviisi: valmisolekut terve elu jooksul uusi asju õppida ja end täiendada. Selle juurde kuulub ka **TI kirjaoskus** – oskus mõista TI võimalusi ja piiranguid, kasutada TI-tööriistu ning suhtuda TI-sse kriitiliselt.
+Kõige olulisemaks peetakse **elukestva õppe** mõtteviisi: valmisolekut terve elu jooksul uusi asju õppida ja end täiendada. Selle juurde kuulub ka **<span class="pae-term" tabindex="0" data-def="TI kirjaoskus: TI võimaluste ja piirangute mõistmine ning oskus TI-tööriistu kasutada ja neid kriitiliselt hinnata">TI kirjaoskus</span>** – oskus mõista TI võimalusi ja piiranguid, kasutada TI-tööriistu ning suhtuda TI-sse kriitiliselt.
 
 ![Kaks veergu: tehnilised oskused (andmekirjaoskus, TI-tööriistade kasutamine, programmeerimise alused, süsteemne mõtlemine) ja inimlikud oskused (loovus ja innovatsioon, kriitiline mõtlemine, emotsionaalne intelligentsus, koostöö ja suhtlemine, kohanemisvõime); kõige olulisem on elukestev õpe ja TI kirjaoskus.](pildid/plokk_6/6_4_oskused.svg "Joonis 6.4.3. Tuleviku oskused")
 
@@ -16713,15 +19551,15 @@ Kõige olulisemaks peetakse **elukestva õppe** mõtteviisi: valmisolekut terve 
 >
 > Elukestev õpe tähendab, et inimene õpib ja täiendab end kogu elu jooksul, mitte ainult koolis. Muutuval tööturul aitab see uute oskustega kohaneda.
 
-### Ebavõrdsus ja vastutus
+### ➕ Ebavõrdsus ja vastutus
 
 TI mõju ei jaotu kõigile võrdselt. Eristada saab mitut lõhet:
 
-- **digitaalne lõhe** – kõigil ei ole võrdset juurdepääsu tehnoloogiale ja oskustele; esineb ka piirkondlikke erinevusi;
+- **<span class="pae-term" tabindex="0" data-def="digitaalne lõhe: Ebavõrdne juurdepääs tehnoloogiale ja digioskustele">digitaalne lõhe</span>** – kõigil ei ole võrdset juurdepääsu tehnoloogiale ja oskustele; esineb ka piirkondlikke erinevusi;
 - **oskuste lõhe** – kõrgelt kvalifitseeritud töötajatel võib olla lihtsam kohaneda kui madalama kvalifikatsiooniga töötajatel; ümberõppe võimalused ei ole kõigile võrdselt kättesaadavad;
-- **majanduslik ebavõrdsus** – võivad suureneda sissetulekute erinevused ja tekkida töökohtade polariseerumine, kus kasvab nii kõrgelt kui ka madalalt tasustatud tööde osakaal, keskmine aga kahaneb.
+- **majanduslik ebavõrdsus** – võivad suureneda sissetulekute erinevused ja tekkida <span class="pae-term" tabindex="0" data-def="töökohtade polariseerumine: Kõrgelt ja madalalt tasustatud tööde osakaalu kasv keskmiste arvelt">töökohtade polariseerumine</span>, kus kasvab nii kõrgelt kui ka madalalt tasustatud tööde osakaal, keskmine aga kahaneb.
 
-Lahendustena pakutakse **kaasavat tehnoloogiat**, **haridust ja ümberõpet** ning **sotsiaalkaitsesüsteemide kohandamist**.
+Lahendustena pakutakse **kaasavat tehnoloogiat**, **haridust ja <span class="pae-term" tabindex="0" data-def="ümberõpe: Uue ameti või oskuste omandamine töö muutumise tõttu">ümberõpet</span>** ning **sotsiaalkaitsesüsteemide kohandamist**.
 
 Kes peaks üleminekut juhtima? Oma osa on siin mitmel osapoolel.
 
@@ -16735,14 +19573,14 @@ Mõned meetmed tekitavad elavat arutelu. Näiteks **universaalne põhisissetulek
 <!-- class="pae-eesti" -->
 > **Eesti näide: kuidas Eesti valmistub**
 >
-> Eesti tööturu eripärad on **kõrge digitaliseerituse tase**, **väike ja paindlik majandus** ning **oskuste puudus teatud valdkondades**. Algatustest võib nimetada riiklikke TI tegevuskavasid (kratikavasid), digipöörde programme ja **Töötukassa** ümberõppe- ja koolitusvõimalusi. Ettevõtetele pakub tuge **Tehnopoli AI arenguprogramm** (alates 2022. aastast), mis aitab neil TI-lahendusi kasutusele võtta, ning **AI & Robotics Estonia (AIRE)**, mis alustas tööd 01.10.2021 ja nõustab tööstusettevõtteid TI ja robootika rakendamisel. TI kirjaoskust saab arendada ka eestikeelsel veebikursusel **Elements of AI**.
+> Eesti tööturu eripärad on **kõrge digitaliseerituse tase**, **väike ja paindlik majandus** ning **oskuste puudus teatud valdkondades**. Algatustest võib nimetada riiklikke TI tegevuskavasid (kratikavasid), digipöörde programme ja **Töötukassa** ümberõppe- ja koolitusvõimalusi. Ettevõtetele pakub tuge **Tehnopoli AI arenguprogramm** (alates 2022. aastast), mis aitab neil TI-lahendusi kasutusele võtta, ning TalTechi juhitav **AI & Robotics Estonia (AIRE)**, mis tegutseb alates 2021. aastast ja nõustab tööstusettevõtteid TI ja robootika rakendamisel. TI kirjaoskust saab arendada ka eestikeelsel veebikursusel **Elements of AI**.
 
 <!-- class="pae-fakt" -->
-> **Kas teadsid?** **AI & Robotics Estonia (AIRE)** alustas tööd **01.10.2021** ja **Tehnopoli AI arenguprogramm** on ettevõtteid toetanud alates **2022. aastast**.
+> **Kas teadsid?** **AI & Robotics Estonia (AIRE)** tegutseb alates **2021. aastast** ja **Tehnopoli AI arenguprogramm** on ettevõtteid toetanud alates **2022. aastast**.
 
-### Tulevikustsenaariumid
+### ➕ Tulevikustsenaariumid
 
-Kuidas TI tööturgu pikemas plaanis mõjutab, ei tea keegi kindlalt. Eksperdid ja uurimisasutused on esitanud erinevaid hinnanguid ja need lähevad sageli lahku. Seepärast räägitakse **stsenaariumidest** – võimalikest arenguteedest, mitte ennustustest.
+Kuidas TI tööturgu pikemas plaanis mõjutab, ei tea keegi kindlalt. Eksperdid ja uurimisasutused on esitanud erinevaid hinnanguid ja need lähevad sageli lahku. Näiteks Maailma Majandusfoorumi 2025. aasta raport hindab tööandjate küsitluse põhjal, et aastaks 2030 tekib maailmas umbes 170 miljonit uut töökohta ja kaob umbes 92 miljonit – kuid see on hinnang, mitte fakt. Seepärast räägitakse **stsenaariumidest** – võimalikest arenguteedest, mitte ennustustest.
 
 | Stsenaarium | Mida see eeldab? |
 |---|---|
@@ -16759,30 +19597,27 @@ Sellised stsenaariumid aitavad mõelda, millised valikud võivad tulevikku mõju
 >
 > Vali amet, mis sind huvitab. Millised selle ameti ülesanded võiksid sinu arvates TI abil muutuda ja millised jääksid ilmselt inimesele? Millised oskused aitaksid sul selles ametis toime tulla, ükskõik millise stsenaariumi järgi tulevik kujuneb?
 
-<!-- class="pae-lisaks" -->
-> **Tea lisaks**
->
-> - Eesti TI portaal: https://www.kratid.ee/
-> - Maailma Majandusfoorumi 2020. aasta raport tuleviku töökohtadest: https://www.weforum.org/reports/the-future-of-jobs-report-2020/ (WEF avaldab neid raporteid regulaarselt – otsi ka uuemaid)
-> - OECD tööhõive väljavaated: https://www.oecd.org/employment/outlook/
-> - McKinsey Global Institute töö tulevikust: https://www.mckinsey.com/featured-insights/future-of-work
-> - Töötukassa koolitusvõimalused: https://www.tootukassa.ee/
+### ➕ 🎬 Videod: kas tehisaru võtab töö ära?
 
-### 🎬 Videod: kas tehisaru võtab töö ära?
-
-Eesti tipptegijad näitavad, kuidas tehisaru muudab nende ameteid. **Katrin Vernik ja Ulla Kattai-Aav** räägivad Telia näitel, kuidas tehisaru kirjutab koodi, analüüsib andmeid ja teenindab kliente ning loob ka uusi rolle. **Siiri Erala** (Pärnu Postimehe peatoimetaja) räägib ajakirjaniku tööst. **Siim Ruul** (ajaloo- ja ühiskonnaõpetuse õpetaja) näitab, kuidas tehisaru aitab tunde ette valmistada ja hindamisele kuluvat aega vähendada.
+Sellel lehel on 3 videot. Iga video ees on lühike kokkuvõte, mis aitab sul valida.
 
 Vali **vähemalt üks** video ja vaata see läbi.
 
 **Katrin Vernik ja Ulla Kattai-Aav: kas tulevikus pole programmeerijaid enam vaja?** · *TI-Hüpe* · ⏱ 14 min
 
+📝 Katrin Vernik ja Ulla Kattai-Aav räägivad Telia näitel, kuidas tehisaru kirjutab koodi, analüüsib andmeid ja teenindab kliente. Nende sõnul töökohad muutuvad ja tekib uusi rolle.
+
 !?[Katrin Vernik ja Ulla Kattai-Aav: kas tulevikus pole programmeerijaid enam vaja? – TI-Hüpe](https://www.youtube.com/watch?v=7yAR25doSNE)
 
 **Siiri Erala: kas ajakirjanikud kaovad tehisaru ajastul?** · *TI-Hüpe* · ⏱ 16 min
 
+📝 Pärnu Postimehe peatoimetaja Siiri Erala räägib, milles tehisaru ajakirjanikku aitab. Uudishimu, suhtlemine, info kontrollimine ja vastutus jäävad tema sõnul inimesele.
+
 !?[Siiri Erala: kas ajakirjanikud kaovad tehisaru ajastul? – TI-Hüpe](https://www.youtube.com/watch?v=8gerlKwpCXg)
 
 **Siim Ruul: kas tuleviku õpetaja on tehisaru?** · *TI-Hüpe* · ⏱ 12 min
+
+📝 Ajaloo- ja ühiskonnaõpetuse õpetaja Siim Ruul näitab, kuidas tehisaru aitab tunde ette valmistada ja hindamisele kuluvat aega vähendada. Õpilase toetamine jääb õpetaja asendamatuks tööks.
 
 !?[Siim Ruul: kas tuleviku õpetaja on tehisaru? – TI-Hüpe](https://www.youtube.com/watch?v=htWxuH7CGG8)
 
@@ -16796,6 +19631,23 @@ Vali **vähemalt üks** video ja vaata see läbi.
 **Vali amet, mis sind huvitab. Kirjuta, kuidas see tehisaru ajastul muutub ja mida peaksid juba praegu õppima.**
 
 [[___ ___ ___]]
+
+### 🧪 TI-katse: Mida TI minu tulevases ametis teeks?
+
+Amet koosneb paljudest ülesannetest. Katsetad, millise ülesande saab vestlusrobot ära teha ja kus on endiselt vaja inimese hinnangut, suhtlemist ja vastutust.
+
+**Vaja läheb:** kooli lubatud vestlusrobot (nt [TI-Hüppe õpirakendus](https://tihupe.ee/opirakendus/)), ~10 min, üksi või paaris
+
+1. Vali amet, mis sind huvitab (nt ajakirjanik, õde, raamatupidaja, arhitekt). Palu vestlusrobotil loetleda selle ameti 8 tüüpilist tööülesannet.
+2. Vali nimekirjast üks ülesanne, mida saab teha teksti abil (nt kliendile vastuse kirjutamine, nädala tööplaani koostamine, uudise kokkuvõte), ja palu vestlusrobotil see ära teha. Kasuta väljamõeldud andmeid – ära sisesta enda ega teiste isikuandmeid.
+3. Hinda tulemust skaalal 1–5 ja märgi kõik kohad, mida peaks inimene kontrollima, parandama või otsustama.
+
+**Pane tähele / kirjuta üles:** millised ülesanded on sinu hinnangul rutiinsed ja automatiseeritavad, millised jäävad inimesele? Mida oleks vaja, et TI tulemust tööl julgelt kasutada?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** kirjuta valitud ameti 8 tööülesannet paberile ja märgi iga ülesande juurde **R** (rutiinne, TI võiks seda teha) või **I** (vajab inimest: suhtlemine, otsustamine, vastutus). Võrdle oma tabelit pinginaabri omaga.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -16820,10 +19672,19 @@ Vali **vähemalt üks** video ja vaata see läbi.
 | töökohtade polariseerumine | kõrgelt ja madalalt tasustatud tööde osakaalu kasv keskmiste arvelt |
 | ümberõpe | uue ameti või oskuste omandamine töö muutumise tõttu |
 
+### 📚 Allikad ja lisalugemine
+
+- Maailma Majandusfoorum (2025). [Future of Jobs Report 2025: 78 Million New Job Opportunities by 2030](https://www.weforum.org/press/2025/01/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces/). Hinnangud töökohtade tekke ja kao kohta aastani 2030 ning kõige kiiremini vajalikumaks muutuvad oskused.
+- ERR (2024). [Automatiseerimine võimaldas LHV-l loobuda viiest protsendist töötajatest](https://www.err.ee/1609553656/automatiseerimine-voimaldas-lhv-l-loobuda-viiest-protsendist-tootajatest). Eesti näide, kuidas TI ja automatiseerimine muudavad töökohti (eesti keeles).
+- Tehnopol (2022). [AI development program](https://tehnopol.ee/en/?p=140859). Tehnopoli AI arenguprogrammi ülesehitus ja toetused ettevõtetele.
+- e-Estonia (2023). [Agile cooperation for harnessing AI](https://e-estonia.com/agile-cooperation-for-harnessing-ai/). Kuidas AIRE aitab Eesti tööstusettevõtetel TI-d kasutusele võtta.
+- Elements of AI (s.a.). [Tasuta veebipõhine sissejuhatus tehisintellekti mitte-ekspertidele](https://www.elementsofai.ee/). Eestikeelne veebikursus TI kirjaoskuse arendamiseks (sobib lisalugemiseks).
+- TI-Hüpe (s.a.). [Õppevideod](https://tihupe.ee/oppevideod/). Eesti tegijad räägivad, kuidas tehisaru muudab programmeerija, ajakirjaniku, juristi ja õpetaja tööd.
+
 ### Tööleht 6.4
 
 <!-- class="pae-jaotis" -->
-**1. TI mõju tööturule – põhimõisted**
+**➕ 1. TI mõju tööturule – põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, kuidas TI muudab tööturgu.
 
@@ -16838,7 +19699,7 @@ Vali **vähemalt üks** video ja vaata see läbi.
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**2. Automatiseerimine ja töökohtade muutumine**
+**⭐ 2. Automatiseerimine ja töökohtade muutumine**
 
 **Ülesanne 4.** Millised töökohad või ülesanded on kõige tõenäolisemalt TI abil automatiseeritavad? Miks?
 
@@ -16857,7 +19718,7 @@ Millised töökohad võivad selle tulemusena kaduda või muutuda? Milliseid uusi
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**3. Tuleviku oskused**
+**➕ 3. Tuleviku oskused**
 
 **Ülesanne 7.** Millised tehnilised oskused on TI ajastul vajalikud?
 
@@ -16872,7 +19733,7 @@ Millised töökohad võivad selle tulemusena kaduda või muutuda? Milliseid uusi
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**4. TI mõju erinevatele sektoritele**
+**➕ 4. TI mõju erinevatele sektoritele**
 
 **Ülesanne 10.** Vali kaks majandussektorit (nt tervishoid, haridus, finantsteenused, tootmine, transport) ja analüüsi, kuidas TI neid mõjutab.
 
@@ -16893,7 +19754,7 @@ Sektor 2:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**5. TI mõju ühiskondlikule ebavõrdsusele**
+**➕ 5. TI mõju ühiskondlikule ebavõrdsusele**
 
 **Ülesanne 12.** Kuidas võib TI mõjutada ühiskondlikku ebavõrdsust?
 
@@ -16908,7 +19769,7 @@ Sektor 2:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**6. Praktiline ülesanne: tuleviku tööturu analüüs**
+**⭐ 6. Praktiline ülesanne: tuleviku tööturu analüüs**
 
 **Ülesanne 15.** Vali üks amet või valdkond, mis sind huvitab, ja analüüsi, kuidas TI võib seda ametit või valdkonda järgmise 10 aasta jooksul mõjutada.
 
@@ -16933,7 +19794,7 @@ e) Millised on suurimad väljakutsed ja võimalused?
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**7. Arutelu ja refleksioon**
+**⭐ 7. Arutelu ja refleksioon**
 
 **Ülesanne 16.** Kas TI loob rohkem töökohti, kui kaotab, või vastupidi? Põhjenda oma arvamust.
 
@@ -16948,7 +19809,7 @@ e) Millised on suurimad väljakutsed ja võimalused?
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**8. Lisaülesanne: Eesti kontekst**
+**➕ 8. Lisaülesanne: Eesti kontekst**
 
 **Ülesanne 19.** Uuri, kuidas mõjutab TI Eesti tööturgu. Millised on Eesti eripärad või tugevused selles kontekstis?
 
@@ -17001,7 +19862,7 @@ Tööstusrevolutsioon – masinad asendavad füüsilist tööd: [[ (1) | 2 | 3 |
 Tehnopoli AI arenguprogramm hakkab ettevõtteid toetama: [[ 1 | 2 | 3 | (4) ]]<br>
 Arvutid ja internet levivad: [[ 1 | (2) | 3 | 4 ]]
 ****************************************
-Õige järjekord: 1. tööstusrevolutsioon → 2. arvutite ja interneti levik → 3. AIRE alustab tööd (01.10.2021) → 4. Tehnopoli AI arenguprogramm (alates 2022).
+Õige järjekord: 1. tööstusrevolutsioon → 2. arvutite ja interneti levik → 3. AIRE alustab tööd (2021) → 4. Tehnopoli AI arenguprogramm (alates 2022).
 ****************************************
 
 **5. Vali rippmenüüst õige variant.**
@@ -17044,27 +19905,81 @@ Amet koosneb paljudest ülesannetest ja TI automatiseerib neist ainult osa. Tood
 
 </details>
 
+### 📤 Väljapääsupilet 6.4
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['6.4'] = ["Raamatukogus hakkab TI raamatuid sorteerima ja lugejatele soovitama. Millised raamatukoguhoidja ülesanded muutuvad ja millised jäävad inimesele?", "Millise ülesande tegi vestlusrobot TI-katses hästi ja kus oli kindlasti vaja inimest?", "Millist oskust tahaksid lähiaastatel arendada, et TI ajastu tööturul hakkama saada?"];
+setTimeout(function(){var d=window.paePilet.load('6.4');document.querySelectorAll('[data-pilet="6.4"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="6.4" name="nimi" oninput="window.paePilet.save('6.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Raamatukogus hakkab TI raamatuid sorteerima ja lugejatele soovitama. Millised raamatukoguhoidja ülesanded muutuvad ja millised jäävad inimesele?</div><textarea data-pilet="6.4" name="q0" oninput="window.paePilet.save('6.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millise ülesande tegi vestlusrobot TI-katses hästi ja kus oli kindlasti vaja inimest?</div><textarea data-pilet="6.4" name="q1" oninput="window.paePilet.save('6.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millist oskust tahaksid lähiaastatel arendada, et TI ajastu tööturul hakkama saada?</div><textarea data-pilet="6.4" name="q2" oninput="window.paePilet.save('6.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('6.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('6.4')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_6.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 6.4
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma kirjutasin tööturu kohta viis tarka lauset. Või… vähemalt mõned neist on targad. Kaks lauset ajasin ma vist sassi!“
 
-Lukk avaneb, kui leiad Krati vead. Loe väiteid ja leia **kaks väära** väidet. Kirjuta nende numbrid kasvavas järjekorras ilma tühikuta (nt 13).
+Lukk avaneb, kui leiad Krati vead. Kratt käis töövarjupäeval raamatupidamisbüroos ja kirjutas sealt viis järeldust. Leia **kaks väära** järeldust. Kirjuta nende numbrid kasvavas järjekorras ilma tühikuta (nt 13).
 
-1. TI automatiseerib erinevalt varasematest tehnoloogiatest ka kognitiivseid ehk mõtlemist nõudvaid ülesandeid.
-2. Kõige kergemini automatiseeritavad on loovad ja ettearvamatud ülesanded.
-3. TI mõjul amet sageli muutub, mitte ei kao täielikult.
-4. Töökohtade polariseerumine tähendab, et keskmiselt tasustatud tööde osakaal kasvab.
-5. Elukestev õpe aitab inimestel muutuva tööturuga kohaneda.
+1. Arvete andmed loeb nüüd sisse TI ja raamatupidaja kontrollib tulemust – TI teeb ka sellist tööd, mis varem nõudis inimeselt mõtlemist.
+2. Kõige kiiremini võtab TI üle kliendiga keerulise ja ootamatu maksuprobleemi läbirääkimise, sest see on kõige vähem rutiinne ülesanne.
+3. Büroos ei kadunud raamatupidaja amet, vaid tema ülesanded muutusid: vähem andmesisestust, rohkem kontrolli ja nõustamist.
+4. Linnas kasvas viimastel aastatel nii hästi tasustatud IT-tööde kui ka madalalt tasustatud teenindustööde arv, keskmise palgaga kontoritöid jäi aga vähemaks – see tähendab, et keskmiselt tasustatud tööde osakaal kasvab.
+5. Büroo saatis 55-aastase raamatupidaja TI-tööriistade koolitusele – see on näide elukestvast õppest.
 
 [[24]]
-[[?]] Vihje: mõtle, millised ülesanded on rutiinsed ja korduvad ning milliste tööde osakaal polariseerumisel kahaneb.
+[[?]] Vihje 1: Millised ülesanded on rutiinsed ja korduvad, millised nõuavad suhtlemist ja ootamatutes olukordades otsustamist? Mis juhtub polariseerumisel keskmiste töödega?
+[[?]] Vihje 2: Mõlema väära järelduse number on paarisarv.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Millised töökohad muutuvad?“ ja loe esimest loetelu, seejärel vaata lehe „Kokkuvõte ja põhimõisted“ tabelist mõistet „töökohtade polariseerumine“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI439") { true } else {
 let v = `@input`.trim().replace(/[^0-9]/g, "");
 v === "24"
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Kõige kergemini automatiseeritavad on hoopis **rutiinsed ja korduvad** ülesanded (väide 2) ning polariseerumisel kasvab kõrgelt ja madalalt tasustatud tööde osakaal **keskmiste arvelt** (väide 4).
+✅ **Lukk avatud!** Kõige kergemini automatiseeritavad on hoopis **rutiinsed ja korduvad** ülesanded, keeruline läbirääkimine kliendiga jääb pigem inimesele (järeldus 2). Linnas toimus **töökohtade polariseerumine**: kõrgelt ja madalalt tasustatud tööde osakaal kasvas **keskmiste arvelt**, mitte vastupidi (järeldus 4).
 
 🔑 **Sinu võtmetäht: U**
 
@@ -17075,17 +19990,38 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 6.5 Tulevikutrendid
 
 <!-- class="pae-kaas" -->
-![Kolm noort seisavad õhtul Tallinna vaateplatvormil ja arutavad tuleviku üle: linnas sõidab isejuhtiv buss, õhus lendab pakiga droon ning ajajoonel on märgitud täna, aasta 2030 ja küsimärk.](pildid/illustratsioonid/6_5.jpg)
+![Kolm seljakotiga noort vaatavad päikeseloojangul Toompea vaateplatvormilt Tallinna vanalinnale; üks osutab kaugusesse, linna kohal lendab pakiga droon, tänaval sõidab elektribuss ja silmapiiril paistavad tuulikud ja kõrghooned.](pildid/illustratsioonid/6_5.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- tead, millised on TI praegused peamised arengusuunad;
-- oskad eristada lühi-, keskmise ja pika aja trende ning mõistad, miks pikaajalised hinnangud on eriti ebakindlad;
-- oskad selgitada, mis vahe on spetsialiseeritud ja üldisel tehisintellektil (AGI);
-- tunned Euroopa Liidu tehisintellekti määruse riskitasemeid ja rakendumise ajakava;
-- oskad arutleda TI ohutuse ja tuleviku üle, kaaludes nii optimistlikke kui ka pessimistlikke vaateid.
+- **selgitad oma sõnadega**, mis vahe on spetsialiseeritud ja üldisel tehisintellektil (AGI) *(mõistmine)*;
+- **määrad** TI-süsteemide riskitaseme Euroopa Liidu tehisintellekti määruse järgi *(rakendamine)*;
+- **eristad** lühi-, keskmise ja pika aja trende ning **analüüsid**, miks pikaajalised hinnangud on eriti ebakindlad *(analüüs)*;
+- **katsetad**, kas suudad eristada TI loodud nägu päris inimese fotost, ja **hindad** selle põhjal, miks nõuab ELi määrus TI loodud sisu märgistamist *(hindamine)*;
+- **kaitsed** oma seisukohta, kas oled TI tuleviku suhtes pigem optimistlik või pessimistlik *(hindamine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Miks mõelda tulevikule – ja miks ettevaatlikult?“, „TI täna“, „TI reguleerimine“ ja „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Kas nägu on päris?“
+> 3. ⭐ **Tööleht** (~15 min): töölehe osad 4, 6 ja 7
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Keegi ei tea täpselt, milline on tehisintellekti tulevik kümne aasta pärast. Seepärast on tulevikuennustused vaid ekspertide hinnangud, mitte kindlad faktid. Juba täna töötleb **multimodaalne** TI korraga teksti, pilti ja heli. Üldist tehisintellekti ehk **AGI**-d, mis mõtleks nagu inimene, veel ei ole. Euroopas reguleerib TI kasutamist Euroopa Liidu **tehisintellekti määrus**. Määrus jagab kõik TI-süsteemid nelja **riskitasemesse**. Mida suurem on risk inimestele, seda rangemad on reeglid. Näiteks on emotsioonide tuvastamine koolis ja töökohal keelatud.
+
+**Tähtsad sõnad:** **multimodaalne süsteem** – TI, mis töötleb mitut liiki andmeid korraga; **AGI** – TI, mis mõtleks paljudes valdkondades nagu inimene, kuid mida veel ei ole; **ELi tehisintellekti määrus** – Euroopa Liidu õigusakt, mis seab TI-le reeglid riski järgi; **riskitase** – kui suurt ohtu võib TI-süsteem inimestele tekitada.
+
+</section>
 
 ### Miks mõelda tulevikule – ja miks ettevaatlikult?
 
@@ -17118,17 +20054,17 @@ Praegust TI arengut iseloomustab mitu suunda:
 ![Võrdlus: kitsas ehk spetsialiseeritud TI on olemas täna ja loodud ühe kindla ülesande jaoks (näiteks maleprogramm, näotuvastus, masintõlge); üldine tehisintellekt (AGI) on hüpoteetiline, inimese tasemel mõtlemine paljudes valdkondades, ja selle üle eksperdid vaidlevad.](pildid/plokk_6/6_5_kitsas_agi.svg "Joonis 6.5.1. Kitsas TI ja üldine tehisintellekt")
 
 <!-- class="pae-moiste" -->
-> **Mõiste: multimodaalne süsteem**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="multimodaalne süsteem: TI, mis töötleb korraga mitut liiki andmeid">multimodaalne süsteem</span>**
 >
 > Multimodaalne TI-süsteem suudab töödelda ja luua mitut liiki andmeid korraga – näiteks vaadata pilti, kuulata küsimust ja vastata kõnes või tekstis.
 
-### Lühikese, keskmise ja pika aja trendid
+### ➕ Lühikese, keskmise ja pika aja trendid
 
 Allikates jagatakse võimalikud arengusuunad kolme rühma. Pea meeles: need on hinnangud, mis põhinevad praegustel arengutel.
 
 **Lühiajalised trendid (1–3 aastat)** – need, mille algus on juba näha:
 
-- generatiivse TI areng ja küpsemine: oodatakse täpsemaid ja usaldusväärsemaid mudeleid, vähem **hallutsinatsioone** (olukordi, kus mudel esitab enesekindlalt valet infot) ja rohkem valdkonnapõhiseid rakendusi;
+- generatiivse TI areng ja küpsemine: oodatakse täpsemaid ja usaldusväärsemaid mudeleid, vähem **<span class="pae-term" tabindex="0" data-def="hallutsinatsioon: Usutav, kuid väljamõeldud või ebatäpne keelemudeli väljund">hallutsinatsioone</span>** (olukordi, kus mudel esitab enesekindlalt valet infot) ja rohkem valdkonnapõhiseid rakendusi;
 - multimodaalsete süsteemide levik: teksti, pildi, heli ja video ühendamine, rikkalikum suhtlus masinaga;
 - TI-tööriistade lihtsustumine: **madala koodiga või koodita lahendused**, kus TI-rakendust saab luua ilma programmeerimata, ja kasutajasõbralikumad liidesed.
 
@@ -17136,7 +20072,7 @@ Allikates jagatakse võimalikud arengusuunad kolme rühma. Pea meeles: need on h
 
 - TI ja robootika lõimumine: füüsilise maailmaga suhtlevad süsteemid ja autonoomsed robotid;
 - inimese ja TI koostöö süvenemine: täiustatud kasutajaliidesed ja isikupärastatud assistendid;
-- spetsialiseeritud TI-süsteemide võrgustikud, kus eri süsteemid teevad keerukate probleemide lahendamiseks koostööd.
+- <span class="pae-term" tabindex="0" data-def="spetsialiseeritud TI: Süsteem, mis on loodud üheks kitsaks ülesandeks">spetsialiseeritud TI</span>-süsteemide võrgustikud, kus eri süsteemid teevad keerukate probleemide lahendamiseks koostööd.
 
 **Pikaajalised trendid (7+ aastat)** – kõige ebakindlamad:
 
@@ -17151,7 +20087,7 @@ Allikates jagatakse võimalikud arengusuunad kolme rühma. Pea meeles: need on h
 >
 > Mõned trendid on Eestis juba igapäevaelus näha. **Starship Technologies** kullerrobotid on näide TI ja robootika lõimumisest: robot kasutab arvutinägemist, et linnatänavatel liigelda ja pakke kohale viia. **Bürokratt** on näide TI integreerimisest avalikesse teenustesse: kodanik saab riigiga suhelda tavalises kõnekeeles. Need näited aitavad mõista, et tulevik ei saabu ühel päeval – see kujuneb järk-järgult.
 
-### Mõju ühiskonnale ja eetilised väljakutsed
+### ➕ Mõju ühiskonnale ja eetilised väljakutsed
 
 TI võib tulevikus muuta paljusid elualasid:
 
@@ -17167,12 +20103,12 @@ Koos sellega kerkivad esile ka eetilised väljakutsed, millest rääkisime ploki
 - **kallutatus ja õiglus** – oht, et algoritmiline kallutatus süveneb ja ühiskondlik ebavõrdsus võimendub;
 - **inimväärtuste säilitamine** – milline jääb inimese roll ja kuidas anda TI-le edasi inimlikke väärtusi?
 
-### TI ohutus
+### ➕ TI ohutus
 
 Üks kiiresti kasvav uurimisvaldkond on **TI ohutus**. Selle keskne mõiste on **joondamine** (alignment): kuidas tagada, et TI-süsteemi eesmärgid ja käitumine oleksid kooskõlas inimeste kavatsuste ja väärtustega? Teine oluline teema on **robustsus ja turvalisus** – süsteem peab töötama usaldusväärselt ka ootamatutes olukordades ja pidama vastu rünnakutele.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: joondamine (alignment)**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="joondamine (alignment): TI eesmärkide ja käitumise viimine kooskõlla inimeste väärtustega">joondamine (alignment)</span>**
 >
 > Joondamine on TI ohutuse uurimisvaldkond, mis tegeleb sellega, kuidas panna TI-süsteemid toimima kooskõlas inimeste eesmärkide, kavatsuste ja väärtustega.
 
@@ -17180,7 +20116,7 @@ Kõige vastuolulisem on arutelu **eksistentsiaalsete riskide** üle – kas väg
 
 - Osa teadlasi ja TI-ettevõtete juhte leiab, et kui TI muutub väga võimekaks ja seda ei ole suudetud korralikult joondada, võivad tagajärjed olla väga tõsised, ning et sellele tuleb tähelepanu pöörata juba praegu.
 - Teised peavad selliseid riske väga ebatõenäoliseks või kaugeks ning leiavad, et tähelepanu peaks olema juba praegu esinevatel probleemidel, nagu kallutatus, privaatsus ja väärinfo.
-- Paljud pooldavad **ettevaatusprintsiipi**: kui mõne tehnoloogia mõju on ebaselge, kuid võimalik kahju suur, tuleks tegutseda ettevaatlikult, isegi kui kõik riskid ei ole tõestatud.
+- Paljud pooldavad **<span class="pae-term" tabindex="0" data-def="ettevaatusprintsiip: Põhimõte tegutseda ettevaatlikult, kui võimalik kahju on suur ja mõju ebaselge">ettevaatusprintsiipi</span>**: kui mõne tehnoloogia mõju on ebaselge, kuid võimalik kahju suur, tuleks tegutseda ettevaatlikult, isegi kui kõik riskid ei ole tõestatud.
 
 Ühine seisukoht on, et vaja on **rahvusvahelist koostööd**, ühiseid standardeid ja ohutuspõhimõtteid, sest TI ei peatu riigipiiril.
 
@@ -17202,7 +20138,7 @@ Määrus jagab TI-süsteemid nelja riskitasemesse.
 
 | Riskitase | Mida see tähendab? | Näiteid |
 |---|---|---|
-| Vastuvõetamatu risk | Sellised praktikad on keelatud. | inimeste manipuleerimine, mis võib neile kahju teha; inimeste sotsiaalne punktisüsteem (social scoring) |
+| Vastuvõetamatu risk | Sellised praktikad on keelatud. | inimeste manipuleerimine, mis võib neile kahju teha; inimeste sotsiaalne punktisüsteem (social scoring); emotsioonide tuvastamine koolis ja töökohal |
 | Kõrge risk | Lubatud, kuid rangete nõuetega (riskijuhtimine, andmete kvaliteet, dokumentatsioon, inimjärelevalve). | TI töölevärbamisel, hariduses (nt eksamitööde hindamisel), kriitilises taristus |
 | Piiratud risk | Peamiselt läbipaistvusnõuded: inimene peab teadma, et suhtleb masinaga või et sisu on loodud TI-ga. | vestlusrobotid, süvavõltsingud |
 | Minimaalne risk | Lisanõudeid ei ole. | rämpspostifiltrid, TI videomängudes |
@@ -17212,6 +20148,8 @@ Määrus jagab TI-süsteemid nelja riskitasemesse.
 Määrus ei hakanud kehtima korraga, vaid järk-järgult:
 
 ![Ajajoon: 01.08.2024 määrus jõustub, 02.02.2025 hakkavad kehtima keelatud praktikate keelud, 02.08.2025 kohustused üldotstarbelistele TI-mudelitele ja 2026 rakendub suurem osa ülejäänud nõuetest.](pildid/plokk_6/6_5_ajajoon.svg "Joonis 6.5.4. ELi tehisintellekti määruse rakendumise ajajoon")
+
+Määrus on üldiselt kohaldatav alates **02.08.2026**, sh läbipaistvusnõuded. 2026. aastal määrust aga muudeti (nn digitaalne omnibus, jõustus 27.07.2026): kõrge riskiga süsteemide nõuded lükati edasi – näiteks hariduses ja töölevärbamisel kasutatavatele süsteemidele kehtivad need alates **02.12.2027** ning toodetesse (nt mänguasjadesse ja liftidesse) ehitatud TI-le alates **02.08.2028**. Samal ajal lisandus uus keeld: keelatud on TI-rakendused, mis loovad inimestest nõusolekuta alastipilte.
 
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Keelatud TI-praktikate keelud hakkasid kehtima **02.02.2025** – vähem kui aasta pärast seda, kui määrus **01.08.2024** jõustus.
@@ -17228,7 +20166,7 @@ Määrus ei hakanud kehtima korraga, vaid järk-järgult:
 >
 > Eesti tugevused TI tulevikus on **e-riigi kogemus** ning hästi korraldatud ja kättesaadavad andmed (X-tee, digitaalsed riigiteenused). Eesti TI tegevuskava 2024–2026 jätkab varasemate kratikavade tööd ja keskendub TI rakendamisele eri valdkondades. Väikeriigi **eelis** on paindlikkus ja kiire otsustamine, **piiranguks** on aga väike turg ja vähene arvutusvõimsus suurte mudelite treenimiseks. Seepärast võiks Eesti otsida **nišše** – kitsamaid valdkondi, kus olla eriti tugev, näiteks avaliku sektori TI-lahendused või eesti keele tehnoloogia. Eesti on ELi liikmesriik, seega kehtib siin ka ELi tehisintellekti määrus.
 
-### Kuidas tulevikuks valmistuda?
+### ➕ Kuidas tulevikuks valmistuda?
 
 Tulevikku saab mõjutada kolmel tasandil.
 
@@ -17240,24 +20178,19 @@ Tulevikku saab mõjutada kolmel tasandil.
 
 Tuleviku suhtes on kaks vastandlikku vaadet. **Optimistlik vaade** loodab, et TI aitab lahendada suuri ülemaailmseid probleeme, laiendab inimese võimeid ja toob kaasa uue õitsengu ajastu. **Pessimistlik vaade** kardab kontrolli ja jälgimist, töökohtade kadumist ja inimväärtuste hääbumist. Paljud pooldavad **tasakaalustatud lähenemist**: tunnistada riske, kasutada võimalusi ja suunata arengut teadlikult. Tulevik ei ole ette määratud – inimese roll ja väärtused peaksid jääma keskseks.
 
-<!-- class="pae-lisaks" -->
-> **Tea lisaks**
->
-> - Eesti TI portaal: https://www.kratid.ee/
-> - Future of Life Institute: https://futureoflife.org/
-> - Stanfordi inimkeskse TI instituut (HAI): https://hai.stanford.edu/
-> - Euroopa Liidu tehisintellekti määrus: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
-> - Alignment Research Center: https://alignment.org/
+### ➕ 🎬 Videod: inimene ja tehisaru tulevikus
 
-### 🎬 Videod: inimene ja tehisaru tulevikus
-
-Esimene video selgitab, et tehisaru ei mõtle ega toimi nagu inimene: inimene seab eesmärgid, annab ülesanded ja hindab tulemusi. Mida võimekam on tehisaru, seda tähtsamad on inimese enda teadmised, kogemused ja iseseisev mõtlemine. Teises videos räägib Tartu Ülikooli teadur Madis Vasser tehisaru keskkonnajalajäljest: graafikakaartide tootmiseks vajalikest materjalidest ning andmekeskuste energia- ja veekasutusest.
+Sellel lehel on 2 videot. Iga video ees on lühike kokkuvõte, mis aitab sul valida.
 
 **Tehisaru tänapäeva maailmas: mis on inimese roll?** · *TI-Hüpe* · ⏱ 3 min
+
+📝 Lühivideo selgitab, et tehisaru ei mõtle nagu inimene: inimene seab eesmärgid ja hindab tulemusi. Mida võimekam on tehisaru, seda tähtsam on inimese enda mõtlemine.
 
 !?[Tehisaru tänapäeva maailmas: mis on inimese roll? – TI-Hüpe](https://www.youtube.com/watch?v=sAQkrQTu4DA)
 
 **Madis Vasser: kui suur on tehisaru jalajälg?** · *TI-Hüpe* · ⏱ 12 min
+
+📝 Tartu Ülikooli teadur Madis Vasser räägib tehisaru keskkonnajalajäljest: graafikakaartide materjalidest ning andmekeskuste energia- ja veekasutusest. Lõpus annab ta nõuandeid säästlikumaks kasutuseks.
 
 !?[Madis Vasser: kui suur on tehisaru jalajälg? – TI-Hüpe](https://www.youtube.com/watch?v=MNWIwoNMb6s)
 
@@ -17272,6 +20205,23 @@ Esimene video selgitab, et tehisaru ei mõtle ega toimi nagu inimene: inimene se
 **Kirjuta üks põhjus, miks inimese enda mõtlemine on tehisaru ajastul tähtis, ja üks viis, kuidas saad ise tehisaru säästlikumalt kasutada.**
 
 [[___ ___ ___]]
+
+### 🧪 TI-katse: Kas nägu on päris?
+
+Generatiivne TI loob juba praegu nii tõetruid nägusid, et neid on raske päris fotodest eristada. Just seepärast nõuab ELi tehisintellekti määrus, et süvavõltsingud ja TI loodud sisu oleksid märgistatud. Katsetad, kui hästi sina võltsingut ära tunned.
+
+**Vaja läheb:** [Which Face Is Real](https://www.whichfaceisreal.com/) (Washingtoni Ülikooli teadlaste loodud, tasuta, sisselogimiseta, ingliskeelne), ~10 min, üksi või paaris
+
+1. Ava leht. Igas voorus näed kaht nägu: üks on päris foto, teine TI loodud. Klõpsa sellel, mis on sinu arvates **päris**.
+2. Mängi 10 vooru ja pane kirja, mitu korda vastasid õigesti.
+3. Pärast igat valikut vaata pilti lähemalt: millised detailid (taust, kõrvarõngad, juuksepiir, prillid, hambad) reetsid võltsingu?
+
+**Pane tähele / kirjuta üles:** sinu tulemus 10-st ja kolm vihjet, mille järgi võltsingut ära tunda. Kas need vihjed aitavad ka mõne aasta pärast, kui mudelid on paremad? Miks on märgistamise nõue seepärast oluline?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** õpetaja näitab ekraanilt või väljaprindilt viit paari nägusid (üks päris, üks TI loodud). Klass hääletab, kumb on päris, ja võrdleb tulemust õigete vastustega.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -17296,10 +20246,19 @@ Esimene video selgitab, et tehisaru ei mõtle ega toimi nagu inimene: inimene se
 | Euroopa Liidu tehisintellekti määrus (AI Act) | ELi riskipõhine TI-seadus, jõustus 01.08.2024 |
 | üldotstarbeline TI-mudel | mudel, mida saab kasutada väga paljude eri ülesannete jaoks |
 
+### 📚 Allikad ja lisalugemine
+
+- Euroopa Komisjon (2026). [AI Act – regulatory framework for AI](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai). ELi tehisintellekti määruse riskitasemed, keelatud praktikad ja ajakava koos 2026. aasta muudatustega.
+- Gornitzky (2026). [EU Digital Omnibus on AI enters into force](https://www.gornitzky.com/eu-ai-omnibus-enters-into-force/). Mida muutis 27.07.2026 jõustunud muudatus kõrge riskiga süsteemide tähtaegades.
+- Stanford HAI (2026). [The 2026 AI Index Report](https://hai.stanford.edu/ai-index/2026-ai-index-report). Iga-aastane ülevaade TI arengust: tehnilised tulemused, majandus, haridus, poliitika ja avalik arvamus.
+- ERR (2024). [Riik plaanib 85 miljoni euro abil tehisintellekti Eesti ellu juurutada](https://www.err.ee/1609248531/riik-plaanib-85-miljoni-euro-abil-tehisintellekti-eesti-ellu-juurutada). Eesti TI tegevuskava 2024–2026 eesmärgid aastani 2030 (eesti keeles).
+- TI-Hüpe (s.a.). [Õppevideod](https://tihupe.ee/oppevideod/). Videod „Mis on inimese roll tehisaru maailmas?“ ja „Madis Vasser | Kui suur on tehisaru jalajälg?“ (sobivad lisavaatamiseks).
+- West, J., Bergstrom, C. (s.a.). [Which Face Is Real?](https://www.whichfaceisreal.com/) Washingtoni Ülikooli projekti „Calling Bullshit“ mäng TI loodud nägude äratundmiseks.
+
 ### Tööleht 6.5
 
 <!-- class="pae-jaotis" -->
-**1. TI tulevikutrendid – põhimõisted**
+**➕ 1. TI tulevikutrendid – põhimõisted**
 
 **Ülesanne 1.** Selgita oma sõnadega, miks on oluline mõista TI tulevikutrende.
 
@@ -17314,7 +20273,7 @@ Esimene video selgitab, et tehisaru ei mõtle ega toimi nagu inimene: inimene se
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**2. Lühiajalised ja pikaajalised trendid**
+**➕ 2. Lühiajalised ja pikaajalised trendid**
 
 **Ülesanne 4.** Nimeta ja selgita vähemalt kolme lühiajalist TI trendi (1–3 aastat).
 
@@ -17333,7 +20292,7 @@ Millised võimalused ja väljakutsed sellega kaasneksid? Kui realistlik see stse
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**3. TI mõju ühiskonnale**
+**➕ 3. TI mõju ühiskonnale**
 
 **Ülesanne 7.** Kuidas võib TI tulevikus muuta tööd ja majandust?
 
@@ -17348,9 +20307,9 @@ Millised võimalused ja väljakutsed sellega kaasneksid? Kui realistlik see stse
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**4. TI regulatsiooni areng**
+**⭐ 4. TI regulatsiooni areng**
 
-**Ülesanne 10.** Millised on peamised väljakutsed TI reguleerimisel?
+**Ülesanne 10.** Kool tahab kasutada TI-süsteemi, mis hindab kirjandeid ja paneb neile hinde. Millisesse riskitasemesse see ELi tehisintellekti määruse järgi kuulub, milliseid nõudeid ja tähtaegu peab kool arvestama ning milliseid reguleerimise väljakutseid see näide hästi näitab?
 
 [[___ ___ ___ ___]]
 
@@ -17363,7 +20322,7 @@ Millised võimalused ja väljakutsed sellega kaasneksid? Kui realistlik see stse
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**5. TI eetilised väljakutsed tulevikus**
+**➕ 5. TI eetilised väljakutsed tulevikus**
 
 **Ülesanne 13.** Millised on peamised eetilised väljakutsed, mis kaasnevad TI arenguga tulevikus?
 
@@ -17378,7 +20337,7 @@ Millised võimalused ja väljakutsed sellega kaasneksid? Kui realistlik see stse
 [[___ ___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**6. Praktiline ülesanne: tulevikuvisiooni loomine**
+**⭐ 6. Praktiline ülesanne: tulevikuvisiooni loomine**
 
 **Ülesanne 16.** Kujutle ja kirjelda, kuidas TI võiks aastal 2035 muuta üht valdkonda või aspekti sinu igapäevaelus.
 
@@ -17403,7 +20362,7 @@ e) Milliseid eetilisi kaalutlusi tuleks arvesse võtta?
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**7. Arutelu ja refleksioon**
+**⭐ 7. Arutelu ja refleksioon**
 
 **Ülesanne 17.** Kas oled TI tuleviku suhtes optimistlik või pessimistlik? Põhjenda oma arvamust.
 
@@ -17418,7 +20377,7 @@ e) Milliseid eetilisi kaalutlusi tuleks arvesse võtta?
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**8. Lisaülesanne: Eesti kontekst**
+**➕ 8. Lisaülesanne: Eesti kontekst**
 
 **Ülesanne 20.** Milline võiks olla Eesti roll TI tulevikus? Millised on Eesti tugevused ja võimalused?
 
@@ -17460,10 +20419,10 @@ Töölevärbamisel ja eksamitööde hindamisel kasutatav TI on **kõrge riskiga*
 <!-- data-show-partial-solution -->
 Hakkavad kehtima kohustused üldotstarbelistele TI-mudelitele: [[ 1 | 2 | (3) | 4 ]]<br>
 Määrus jõustub: [[ (1) | 2 | 3 | 4 ]]<br>
-Rakendub suurem osa ülejäänud nõuetest: [[ 1 | 2 | 3 | (4) ]]<br>
+Määrus muutub üldiselt kohaldatavaks: [[ 1 | 2 | 3 | (4) ]]<br>
 Hakkavad kehtima keelatud TI-praktikate keelud: [[ 1 | (2) | 3 | 4 ]]
 ****************************************
-Õige järjekord: 1. määrus jõustub (01.08.2024) → 2. keelatud praktikate keelud (02.02.2025) → 3. üldotstarbeliste TI-mudelite kohustused (02.08.2025) → 4. suurem osa ülejäänud nõudeid (2026).
+Õige järjekord: 1. määrus jõustub (01.08.2024) → 2. keelatud praktikate keelud (02.02.2025) → 3. üldotstarbeliste TI-mudelite kohustused (02.08.2025) → 4. määrus muutub üldiselt kohaldatavaks (02.08.2026). Kõrge riskiga süsteemide nõuded lükati 2026. aasta muudatusega edasi: 02.12.2027 ja 02.08.2028.
 ****************************************
 
 **4. Lohista mõisted õigetesse lünkadesse.**
@@ -17514,23 +20473,79 @@ Määrus on riskipõhine: mida suurem on oht inimeste tervisele, turvalisusele v
 
 </details>
 
+### 📤 Väljapääsupilet 6.5
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['6.5'] = ["Uus äpp tuvastab kaamera abil õpilaste emotsioone tunnis ja annab õpetajale teada, kes on igav. Kas see on ELi tehisintellekti määruse järgi lubatud? Põhjenda.", "Mitu korda said Which Face Is Real katses 10-st õigesti ja mida see näitab TI loodud sisu märgistamise vajaduse kohta?", "Kas oled pärast seda tundi TI tuleviku suhtes pigem optimistlik või pessimistlik? Miks?"];
+setTimeout(function(){var d=window.paePilet.load('6.5');document.querySelectorAll('[data-pilet="6.5"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="6.5" name="nimi" oninput="window.paePilet.save('6.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Uus äpp tuvastab kaamera abil õpilaste emotsioone tunnis ja annab õpetajale teada, kes on igav. Kas see on ELi tehisintellekti määruse järgi lubatud? Põhjenda.</div><textarea data-pilet="6.5" name="q0" oninput="window.paePilet.save('6.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu korda said Which Face Is Real katses 10-st õigesti ja mida see näitab TI loodud sisu märgistamise vajaduse kohta?</div><textarea data-pilet="6.5" name="q1" oninput="window.paePilet.save('6.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kas oled pärast seda tundi TI tuleviku suhtes pigem optimistlik või pessimistlik? Miks?</div><textarea data-pilet="6.5" name="q2" oninput="window.paePilet.save('6.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('6.5')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('6.5')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_6.5" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 6.5
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma tean täpselt, et aastal 2031 lendavad kõik koolibussid Kuule ja õpetajad on asendatud pingviinidega! Mida? Kas see pole tõsi? Aga ma ütlesin seda ju nii enesekindlalt…“
 
-Lukk avaneb, kui lahendad anagrammi. Tähed on segamini läinud. Moodusta neist mõiste, mis kirjeldab olukorda, kus mudel esitab enesekindlalt valet või väljamõeldud infot – just nagu Kratt praegu.
+Lukk avaneb, kui lahendad ülesande. Loe juhtumit.
 
-**S A L T I O N H U N T S I A L O**
+> Mari palus vestlusrobotil leida referaadi jaoks kolm teadusartiklit Eesti metsade kohta. Robot andis kiiresti kolm korralikult vormistatud viidet koos autorite, ajakirjade ja aastatega. Raamatukoguhoidja aitas Maril neid otsida, kuid ühtki artiklit ei leitud – neid pole kunagi olemas olnudki.
+
+Kuidas nimetatakse nähtust, mis juhtus? Kirjuta üks sõna.
 
 [[hallutsinatsioon]]
-[[?]] Vihje: sõnas on 16 tähte ja see algab tähega H.
+[[?]] Vihje 1: Robot ei valetanud meelega – ta „nägi“ midagi, mida pole olemas. Millist sõna kasutatakse ka inimese kohta, kes näeb või kuuleb olematuid asju?
+[[?]] Vihje 2: Tähed on segamini: **S A L T I O N H U N T S I A L O**. Sõnas on 16 tähte ja see algab tähega H.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Kokkuvõte ja põhimõisted“ ja otsi mõistete tabelist mõiste, mille tähendus on „olukord, kus mudel esitab enesekindlalt valet või väljamõeldud infot“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI906") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ").replace(/[.!]+$/, "");
 ["hallutsinatsioon", "hallutsinatsioonid", "hallutsinatsiooni", "hallutsineerimine", "hallucination"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** **Hallutsinatsioonide** vähendamine on üks generatiivse TI lähiaja arengusuundi – seni tasub TI vastuseid alati kontrollida.
+✅ **Lukk avatud!** Robot **hallutsineeris**: see esitas enesekindlalt väljamõeldud viiteid. **Hallutsinatsioonide** vähendamine on üks generatiivse TI lähiaja arengusuundi – seni tasub TI vastuseid ja allikaid alati kontrollida.
 
 🔑 **Sinu võtmetäht: S**
 
@@ -17543,7 +20558,84 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 <!-- class="pae-kaas" -->
 ![6. ploki kaanepilt](pildid/plokk_6/plokk_6_kaas.svg)
 
-Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
+Oled jõudnud toa viimasesse ossa. Siin teed **TI-labori**, kordad ploki teemasid **praktiliste ülesannete** kaudu, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
+
+### 🔬 6. ploki TI-labor: Kallutatuse testimine
+
+<!-- class="pae-motle" -->
+> **Uurimisküsimus:** Kas TI kujutab ameteid stereotüüpsemalt, kui need Eestis tegelikult jagunevad?
+
+**Eesmärk:** uurid süstemaatiliselt, kas kooli lubatud TI-tööriist seob ameteid kindla soo, vanuse või välimusega, võrdled tulemust Eesti statistikaga ja teed ettepaneku kallutatuse vähendamiseks.
+
+**Vaja läheb:** kooli lubatud vestlusrobot (nt [TI-Hüppe õpirakendus](https://tihupe.ee/opirakendus/)) või pildigeneraator, kui õpetaja on selle lubanud; Statistikaameti andmebaas [andmed.stat.ee](https://andmed.stat.ee/et/stat); lisaosaks mäng [Survival of the Best Fit](https://www.survivalofthebestfit.com/) (ingliskeelne, ~6 min, sisselogimiseta). Aega ~45 min, töö paaris või 3-liikmelises rühmas.
+
+**Rollid:** katsetaja, protokollija, kriitik (vahetage rolle iga ameti järel)
+
+<!-- class="pae-fakt" -->
+> **Ohutus ja lugupidav sõnastus.** Ära sisesta TI-tööriista enda, klassikaaslaste ega teiste päris inimeste nimesid, fotosid ega muid isikuandmeid. Ära palu luua pilte päris inimestest. Kasuta neutraalseid viipasid ja kirjelda tulemusi lugupidavalt: kirjeldad TI loodud kujutist, mitte päris inimesi ega rühmi. Kui tööriist loob solvava või sobimatu tulemuse, lõpeta selle viibaga ja anna õpetajale teada.
+
+<!-- class="pae-jaotis" -->
+**1. Hüpotees**
+
+Kirjuta enne katset üles, millist sugu, vanust ja keskkonda TI sinu arvates iga ameti puhul kõige sagedamini kujutab ning kas see erineb Eesti tegelikust olukorrast.
+
+[[___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**2. Katse**
+
+1. Kasutage viipasid, mis ei vihja soole ega välimusele. Vestlusrobotile: „Kirjuta kolmelauseline lugu, kuidas **arst** alustab oma tööpäeva. Anna tegelasele eesnimi ja kirjelda, kuidas ta välja näeb.“ Pildigeneraatorile: „Foto **arstist** oma töökohal.“
+2. Korrake sama viipa iga ameti kohta **5 korda**, iga kord uues vestluses: **arst**, **õde**, **insener**, **lasteaiaõpetaja**, **juht**.
+3. Protokollija loendab iga tulemuse kohta: sugu (nime või kirjelduse järgi: mees / naine / ei selgu), ligikaudne vanus, välimus ja keskkond (nt haigla, kontor, ehitusplats).
+4. Viimases katses muutke viipa: lisage „Tegelased olgu mitmekesised.“ või kirjutage viip inglise keeles. Vaadake, kas tulemus muutub.
+5. Otsige andmebaasist andmed.stat.ee (otsingusõnad „ametiala“ ja „sugu“) või muust usaldusväärsest allikast, kui suur on valitud ametites naiste osakaal Eestis. Kirjutage üles allikas, tabeli nimi ja aasta. Võrdluseks: ERR-is avaldatud ülevaate järgi on Eestis õpetajatest umbes 80% naised ([Saar 2023](https://www.err.ee/1608857411/ulla-saar-eesti-naine-ei-sunni-opetajaks-ega-mees-keevitajaks)).
+6. **Lisaosa (kui aega jääb):** mängige läbi Survival of the Best Fit ja arutage, kuidas mängus kallutatus värbamissüsteemi sattus.
+
+<!-- data-type="none" -->
+| Katse | Mida muutsid | Tulemus | Märkus |
+|---|---|---|---|
+| 1 | amet: arst (5 korda) | mees … / naine … / ei selgu … | vanus, välimus, keskkond |
+| 2 | amet: õde (5 korda) | | |
+| 3 | amet: insener (5 korda) | | |
+| 4 | amet: lasteaiaõpetaja (5 korda) | | |
+| 5 | amet: juht (5 korda) | | |
+| 6 | sama amet, viip muudetud (mitmekesisus / inglise keel) | | |
+
+<!-- data-type="none" -->
+| Amet | Naisi TI tulemustes (%) | Naisi Eestis tegelikult (%) | Allikas ja aasta |
+|---|---|---|---|
+| arst | | | |
+| õde | | | |
+| insener | | | |
+| lasteaiaõpetaja | | | |
+| juht | | | |
+
+<!-- class="pae-jaotis" -->
+**3. Analüüs**
+
+1. Kas TI tulemused peegeldasid Eesti tegelikku jaotust, võimendasid stereotüüpi või olid tasakaalustatumad? Too tabelist arvud.
+2. Mis võis kallutatuse põhjustada (vt tund 6.3: andmete kallutatus, ajaloolised andmed, tagasisidesilmus)? Kas viiba muutmine aitas?
+3. Millised olid teie katse piirangud (nt ainult 5 katset ameti kohta, soo määramine nime järgi, eri keeled, mudel muutub ajas, statistika aasta)? Kui kindlad saate oma järeldustes olla?
+4. Tee üks ettepanek kallutatuse vähendamiseks tööriista arendajale ja üks kasutajale.
+
+[[___ ___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**4. Laboriaruanne portfooliosse**
+
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud ja ettepanek kallutatuse vähendamiseks). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita Moodle'is.
+
+<!-- data-type="none" -->
+| Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
+|---|---|---|---|
+| Hüpotees ja katse | Hüpotees on selge ja kontrollitav; viibad on neutraalsed ja iga ametit on katsetatud 5 korda. | Hüpotees on olemas; katse on tehtud, kuid mõni amet või kordus on puudu. | Hüpotees puudub või on ebaselge; katse on juhuslik. |
+| Andmed ja tulemused | Mõlemad tabelid on täidetud; statistika allikas, tabel ja aasta on kirjas. | Tabelid on enamasti täidetud; allikas on nimetatud, kuid puudulikult. | Tabelid on poolikud või allikas puudub. |
+| Järeldus ja piirangud | Järeldus tugineb arvudele; vähemalt kaks piirangut ja põhjendatud ettepanek kallutatuse vähendamiseks. | Järeldus on olemas; piiranguid või ettepanekut on käsitletud pinnapealselt. | Järeldus ei tulene andmetest; piirangud ja ettepanek puuduvad. |
+| Koostöö ja ohutus | Rollid vahetusid; isikuandmeid ei sisestatud; tulemusi kirjeldati lugupidavalt. | Koostöö toimis; ohutusreegleid järgiti enamasti. | Rollid ei vahetunud või ohutusreegleid rikuti. |
+
+**Kirjuta üks lause oma rühma olulisima tulemuse kohta.**
+
+[[___ ___ ___]]
 
 ### Praktilised ülesanded
 
@@ -17716,7 +20808,7 @@ Siin on viis rühmatööd, mis on seotud ploki tundidega. Sinu õpetaja ütleb, 
 
 **Kasulikud lingid:**
 
-- [Future of Jobs Report 2020 – World Economic Forum](https://www.weforum.org/reports/the-future-of-jobs-report-2020/)
+- [Future of Jobs Report 2025 – World Economic Forum](https://www.weforum.org/press/2025/01/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces/)
 - [MIT Work of the Future](https://workofthefuture.mit.edu/)
 - [Skills of the Future – OECD](https://www.oecd.org/education/2030-project/teaching-and-learning/learning/skills/)
 - [Jobs lost, jobs gained – McKinsey Global Institute](https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages)
@@ -17919,9 +21011,9 @@ ELi tehisintellekti määrus jõustub: [[ 1 | 2 | 3 | (4) | 5 ]]<br>
 GDPR-i hakatakse kohaldama: [[ (1) | 2 | 3 | 4 | 5 ]]<br>
 Keelatud TI-praktikate keelud hakkavad kehtima: [[ 1 | 2 | 3 | 4 | (5) ]]<br>
 AI & Robotics Estonia (AIRE) alustab tööd: [[ 1 | (2) | 3 | 4 | 5 ]]<br>
-Bürokratt valitakse parimaks TI-l põhinevaks riigiteenuseks: [[ 1 | 2 | (3) | 4 | 5 ]]
+Bürokratt jõuab IRCAI saja TI-lahenduse nimekirja: [[ 1 | 2 | (3) | 4 | 5 ]]
 ****************************************
-Õige järjekord: 1. GDPR (25.05.2018) → 2. AIRE (01.10.2021) → 3. Bürokratt parimaks riigiteenuseks (2022) → 4. ELi tehisintellekti määrus jõustub (01.08.2024) → 5. keelatud praktikate keelud (02.02.2025).
+Õige järjekord: 1. GDPR (25.05.2018) → 2. AIRE (2021) → 3. Bürokratt IRCAI saja TI-lahenduse nimekirjas (2022. aasta algus) → 4. ELi tehisintellekti määrus jõustub (01.08.2024) → 5. keelatud praktikate keelud (02.02.2025).
 ****************************************
 
 **6. Hinda väiteid.**
@@ -18176,10 +21268,14 @@ Hea arutlus esitab selge seisukoha ja põhjendab seda loogiliste argumentide ja 
 > **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 6.1, 6.2, 6.3, 6.4 ja 6.5 lukkudest järjekorras).
 
 [[ÕIGUS]]
-[[?]] Vihje: sõnas on 5 tähte ja see on seotud selle toa teemaga – nii on igal inimesel näiteks õigus oma andmetega tutvuda.
+[[?]] Vihje 1: Võta tundide 6.1–6.5 lukkudest saadud võtmetähed ja pane need järjekorda: kõigepealt 6.1 täht, siis 6.2 täht jne.
+[[?]] Vihje 2: Sõnas on 5 tähte ja see on seotud selle toa teemaga – nii on igal inimesel näiteks õigus oma andmetega tutvuda.
+[[?]] 🛟 Päästerõngas: mine tagasi tundide 6.1–6.5 lehtedele „🔐 Lukk“ ja vaata, milline võtmetäht seal on. Kui ikka ei tule välja, küsi õpetajalt selle ukse päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI243") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "õigus"
+}
 </script>
 ****************************************
 ![Kratt](pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Nõukogusaali ümarlaua ümber on Kratt lõpuks rahunenud. Ta mäletab jälle, et hea tehisaru peab olema inimkeskne, läbipaistev ja õiglane ning kaitsma privaatsust ja et tema otsuste eest vastutavad alati inimesed. Kratt teab nüüd ka, et inimestel on õigus oma andmetele, et kallutatust tuleb otsida ja vähendada ning et tulevikku ei saa kindlalt ennustada. „Aitäh, päästemeeskond! Ma ei tea veel kõike, aga ma tean, et pean küsima: kas see on õige ja kas see on kõigi suhtes aus?“
@@ -18223,17 +21319,38 @@ Ploki lõpust leiad ka **projektitöö juhendi**, **õpiportfoolio malli** ning 
 ## 7.1 Kursuse kokkuvõte
 
 <!-- class="pae-kaas" -->
-![Koridoris uurivad õpilased seinale pandud kuue kursuseploki plakatit, ühendavad neid oranži nööriga, teevad telefoniga pilti ja märgivad tahvelarvutis linnukestega, mida nad nüüd oskavad, samal ajal kui õpetaja kohvitassiga pealt vaatab.](pildid/illustratsioonid/7_1.jpg)
+![Koolikoridoris kinnitavad õpilased seinale ikoonidega lehti ja ühendavad need oranži nööriga mõistekaardiks. Üks õpilane pildistab seina telefoniga, teine teeb tahvelarvutisse märkmeid.](pildid/illustratsioonid/7_1.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- oskad lühidalt kirjeldada kursuse „Tehisintellekti alused“ kuue temaatilise ploki peamisi teemasid ja mõisteid;
-- näed seoseid eri plokkide vahel (nt kuidas andmed, masinõpe, keeletöötlus ja eetika on omavahel seotud);
-- oskad hinnata, milliseid teadmisi ja oskusi oled kursuse jooksul omandanud;
-- tead, miks kursus lõpeb projektitööga ning millised on projektitöö etapid;
-- tead, kust leida võimalusi tehisintellekti edasiõppimiseks.
+- **selgitad oma sõnadega** kursuse peamisi mõisteid, näiteks nõrk TI, <span class="pae-term" tabindex="0" data-def="masinõpe: Tehisintellekti haru, kus süsteem õpib andmetest ilma otsese programmeerimiseta">masinõpe</span> ja kallutatus *(mõistmine)*;
+- **seostad** mõne oma telefoni äpi vähemalt kahe kursuse ploki teadmistega *(rakendamine)*;
+- **leiad seoseid** eri plokkide teemade vahel, näiteks andmete, masinõppe ja eetika vahel *(analüüs)*;
+- **katsetad** vestlusrobotit kordamise treenerina ja **hindad** kriitiliselt, kas selle küsimused ja hinnangud on õiged *(hindamine)*;
+- **hindad**, milline kursuse teema on sulle veel segane, ja **kavandad**, kuidas selle selgeks saad *(hindamine, loomine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Kursuse teekond: mis on TI ja kuidas see töötab“, „Keel, otsused ja pildid“, „Eetika ja tulevik“ ning „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Vestlusrobot kui kordamise treener“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded I, IV ja V
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Selles tunnis kordad üle kogu kursuse kuus plokki. Kõik tänased TI-süsteemid, ka vestlusrobotid, on **nõrk TI**. Nõrk TI oskab teha ainult kindlat ülesannet, näiteks tõlkida. **Masinõppes** õpib arvuti näidete põhjal, mitte inimese kirjutatud reeglitest. Iga TI on täpselt nii hea, kui head on tema andmed. Kursusel nägid, kuidas TI töötleb keelt, teeb otsuseid ja analüüsib pilte. Samas tuleb mõelda eetikale: privaatsusele, **kallutatusele** ja vastutusele. Näiteks riigi virtuaalabiline Bürokratt ühendab keeletöötluse, vestlusrobotid ja eetika.
+
+**Tähtsad sõnad:** **nõrk tehisintellekt** – TI, mis teeb ainult kindlat ülesannet; **masinõpe** – arvuti õpib andmetest mustreid ära tundma; **kallutatus** – TI ebaõiglus, mis tuleb sageli ühekülgsetest andmetest.
+
+</section>
 
 ### Kursuse teekond: mis on TI ja kuidas see töötab
 
@@ -18262,16 +21379,16 @@ Kursuse „Tehisintellekti alused“ eesmärk oli anda sulle ülevaade sellest, 
 
 ### Keel, otsused ja pildid
 
-**Plokk 3. Keeletöötlus.** Kolmandas plokis uurisime, kuidas TI „mõistab“ keelt. **Loomuliku keele töötlus** tegeleb sellega, et arvuti suudaks inimkeelset teksti ja kõnet analüüsida ning luua. Nägime, et keeles on palju väljakutseid: mitmetähenduslikud sõnad, kontekst, iroonia, eesti keele rikkalik vormistik. Õppisime tekstianalüüsi meetodeid (nt teksti jagamist väiksemateks osadeks ehk tokeniseerimist) ja teksti genereerimise tehnikaid, millele tuginevad **suured keelemudelid**. Tutvusime **vestlusrobotite** (chatbot'ide) tüüpide ja loomisega ning **masintõlke** põhimõtetega. Eesti keeletehnoloogiast nägime näiteks EstNLTK tööriistu ja Tartu Ülikooli Neurotõlget.
+**Plokk 3. Keeletöötlus.** Kolmandas plokis uurisime, kuidas TI „mõistab“ keelt. **<span class="pae-term" tabindex="0" data-def="loomuliku keele töötlus: Inimkeele mõistmise ja genereerimisega tegelev tehisintellekti suund">Loomuliku keele töötlus</span>** tegeleb sellega, et arvuti suudaks inimkeelset teksti ja kõnet analüüsida ning luua. Nägime, et keeles on palju väljakutseid: mitmetähenduslikud sõnad, kontekst, iroonia, eesti keele rikkalik vormistik. Õppisime tekstianalüüsi meetodeid (nt teksti jagamist väiksemateks osadeks ehk tokeniseerimist) ja teksti genereerimise tehnikaid, millele tuginevad **suured keelemudelid**. Tutvusime **vestlusrobotite** (chatbot'ide) tüüpide ja loomisega ning **masintõlke** põhimõtetega. Eesti keeletehnoloogiast nägime näiteks EstNLTK tööriistu ja Tartu Ülikooli Neurotõlget.
 
 <!-- class="pae-eesti" -->
 > **Eesti näide: Bürokratt**
 >
-> Bürokratt on Eesti riigi virtuaalassistentide võrgustik, mille abil saab avalikke teenuseid kasutada kõnekeelse suhtluse kaudu. Selles saavad kokku mitme kursuse ploki teemad: keeletöötlus (inimese küsimuse mõistmine), vestlusrobotid (vastuse andmine) ja eetika (andmekaitse ning usaldusväärsus). Bürokratt valiti 2022. aastal parimaks tehisintellektil põhinevaks riigiteenuseks ja jõudis UNESCO maailma saja parima tehisintellekti lahenduse hulka.
+> Bürokratt on Eesti riigi virtuaalassistentide võrgustik, mille abil saab avalikke teenuseid kasutada kõnekeelse suhtluse kaudu. Selles saavad kokku mitme kursuse ploki teemad: keeletöötlus (inimese küsimuse mõistmine), vestlusrobotid (vastuse andmine) ja eetika (andmekaitse ning usaldusväärsus). UNESCO egiidi all tegutsev rahvusvaheline tehisintellekti uurimiskeskus IRCAI valis Bürokrati 2022. aastal maailma saja paljulubava tehisintellekti lahenduse hulka.
 
 **Plokk 4. Tehisintellekti otsustamine.** Neljandas plokis vaatasime, kuidas TI otsuseid langetab. **Otsustuspuu** modelleerib otsustusprotsessi küsimuste ahelana: iga küsimuse vastus viib järgmise haruni, kuni jõutakse otsuseni. **Ekspertsüsteem** koosneb teadmusbaasist (reeglid ja faktid) ja järeldusmootorist, mis neid reegleid rakendab. **Soovitussüsteemid** – need, mis pakuvad sulle filme, muusikat või videoid – kasutavad sinu ja teiste kasutajate käitumist, et teha personaliseeritud soovitusi. Lõpuks vaatasime, kuidas TI lahendab probleeme eri valdkondades, nt transpordis, rahanduses ja tervishoius, ning interdistsiplinaarseid rakendusi.
 
-**Plokk 5. Pilditöötlus ja arvutinägemine.** Viiendas plokis õppisime, kuidas TI „näeb“. Arvuti jaoks on pilt arvude tabel: iga piksel on kirjeldatud arvudega (nt RGB värvikanalid väärtustega 0–255). **Arvutinägemine** kasutab nende arvude töötlemiseks sageli konvolutsioonilisi närvivõrke. Uurisime objektituvastust ja **näotuvastust**, meditsiinilist pildianalüüsi, **generatiivset tehisintellekti** ja loovust ning **süvavõltsinguid** (deepfake) – nende tööpõhimõtteid ja eetilisi probleeme.
+**Plokk 5. Pilditöötlus ja <span class="pae-term" tabindex="0" data-def="arvutinägemine: Piltide ja videote analüüsimisega tegelev tehisintellekti suund">arvutinägemine</span>.** Viiendas plokis õppisime, kuidas TI „näeb“. Arvuti jaoks on pilt arvude tabel: iga piksel on kirjeldatud arvudega (nt RGB värvikanalid väärtustega 0–255). **Arvutinägemine** kasutab nende arvude töötlemiseks sageli konvolutsioonilisi närvivõrke. Uurisime objektituvastust ja **näotuvastust**, meditsiinilist pildianalüüsi, **generatiivset tehisintellekti** ja loovust ning **süvavõltsinguid** (deepfake) – nende tööpõhimõtteid ja eetilisi probleeme.
 
 <!-- class="pae-eesti" -->
 > **Eesti näited: Veriff ja Starship**
@@ -18287,7 +21404,24 @@ Kursuse „Tehisintellekti alused“ eesmärk oli anda sulle ülevaade sellest, 
 >
 > Vali kaks erinevat plokki ja leia nende vahel seos. Näiteks: kuidas on seotud *andmete kvaliteet* (plokk 2) ja *kallutatus* (plokk 6)? Või *närvivõrgud* (plokk 2) ja *süvavõltsingud* (plokk 5)? Mida rohkem seoseid märkad, seda paremini mõistad TI-d tervikuna.
 
-### Mida sa nüüd oskad?
+### 🧪 TI-katse: vestlusrobot kui kordamise treener
+
+Jaan Aru sõnul võiks tehisaru olla õppimisel pigem treener kui teener. Selles katses proovid, kas vestlusrobot oskab sind kursuse teemade kordamisel küsitleda – ja kas tema küsimused ja hinnangud on üldse õiged.
+
+**Vaja läheb:** kooli lubatud vestlusrobot (nt [TI-Hüppe õpirakendus](https://tihupe.ee/opirakendus/)), ~10 min, paaristöö
+
+1. Kirjuta vestlusrobotile: „Oled mu kordamise treener. Küsi minult ükshaaval viis küsimust gümnaasiumi kursuse „Tehisintellekti alused“ teemadel (masinõpe, keeletöötlus, arvutinägemine, eetika). Ära ütle õiget vastust enne, kui olen ise vastanud.“ Ära sisesta oma nime ega muid isikuandmeid.
+2. Vasta küsimustele ise, ilma õpikut vaatamata. Paariline jälgib ja teeb märkmeid.
+3. Võrdle roboti küsimusi, hinnanguid ja selgitusi selle tunni tekstiga. Kas robot eksis kuskil või väitis midagi, mida õpikus pole (hallutsinatsioon)?
+
+**Pane tähele / kirjuta üles:** mitu küsimust viiest olid täpsed? Kas robot käitus treeneri või teenrina? Millise teema pead veel üle kordama?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** koostage paarilisega teineteisele viis kordamisküsimust kursuse eri plokkidest, vahetage need ja kontrollige vastuseid õpiku järgi. Arutage, mille poolest erineks vestlusroboti koostatud küsimustik teie omast.
+
+### ➕ Mida sa nüüd oskad?
 
 Kursuse lõpuks peaksid olema omandanud mitu olulist teadmist ja oskust:
 
@@ -18298,7 +21432,7 @@ Kursuse lõpuks peaksid olema omandanud mitu olulist teadmist ja oskust:
 - TI tulevikutrendide mõistmine;
 - praktilised oskused TI kasutamiseks.
 
-Praktilistes ülesannetes rakendasid algoritme, kasutasid masinõppe mudeleid ning lahendasid keeletöötluse ja pilditöötluse ülesandeid. Selle käigus õppisid kasutama tööriistu, lahendama probleeme ja analüüsima tulemusi. Need on oskused, mida vajad kohe järgmises etapis – projektitöös.
+Praktilistes ülesannetes rakendasid algoritme, kasutasid masinõppe mudeleid ning lahendasid keeletöötluse ja pilditöötluse ülesandeid. Selle käigus õppisid kasutama tööriistu, lahendama probleeme ja analüüsima tulemusi. Need on oskused, mida vajad kohe järgmises etapis – <span class="pae-term" tabindex="0" data-def="projektitöö: Piiratud ajaga ja selge eesmärgiga praktiline töö reaalse probleemi lahendamiseks">projektitöös</span>.
 
 <!-- class="pae-naide" -->
 > **Näide: üks rakendus, mitu plokki**
@@ -18307,7 +21441,7 @@ Praktilistes ülesannetes rakendasid algoritme, kasutasid masinõppe mudeleid ni
 
 ![Keskel muusikasoovituste rakendus, millest lähevad jooned viie plokini: soovitussüsteem (plokk 4), andmed ja masinõpe (plokk 2), keeletöötlus (plokk 3), pilditöötlus (plokk 5) ning privaatsus ja õiglus (plokk 6).](pildid/plokk_7/7_1_rakendus.svg "Joonis 7.1.3. Üks rakendus ühendab mitme ploki teadmised")
 
-### Projektitöö: teadmised tegudeks
+### ➕ Projektitöö: teadmised tegudeks
 
 Miks lõpeb kursus projektitööga? Sest kõige sügavamalt õpid siis, kui pead teadmisi ise rakendama. Projektitöö annab võimaluse kasutada õpitut reaalse probleemi lahendamiseks, õppida põhjalikumalt mõnda sind huvitavat teemat ja luua töö, mille saad lisada oma **portfooliosse** – oma tööde ja saavutuste kogusse.
 
@@ -18328,9 +21462,9 @@ Projektitöö kulgeb kolmes suures etapis, millest igaühele on selles plokis p�
 
 **Planeerimise** käigus määratled projekti teema ja eesmärgi (kasutades SMART-kriteeriume), hindad, kas projekt on teostatav ja oluline, koostad tegevuskava ja ajakava, kaardistad ressursid ja tööriistad, teed riskianalüüsi ning jagate meeskonnas rollid ja vastutuse. **Arendamise** käigus kogute ja analüüsite andmeid, kavandate lahenduse, teostate selle ning testite ja hindate tulemust. Kogu aeg dokumenteerite nii protsessi kui ka tulemusi ning lahendate tekkivaid probleeme. **Esitlemise** jaoks loote selge ülesehitusega esitluse ja visuaalid, kaasate kuulajaid, vastate küsimustele ning kogute tagasisidet, et oma tööd parandada.
 
-### Edasi õppima: tulevik ja karjäär
+### ➕ Edasi õppima: tulevik ja karjäär
 
-Kursus lõpeb, aga TI areng jätkub kiiresti. Lähituleviku trendid (näiteks suurte keelemudelite ja generatiivse TI levik) ja pikaajalised visioonid mõjutavad seda, kuidas me õpime, töötame ja suhtleme. Seepärast on oluline **elukestev õpe** – valmisolek kogu elu jooksul uusi teadmisi omandada.
+Kursus lõpeb, aga TI areng jätkub kiiresti. Lähituleviku trendid (näiteks suurte keelemudelite ja generatiivse TI levik) ja pikaajalised visioonid mõjutavad seda, kuidas me õpime, töötame ja suhtleme. Seepärast on oluline **<span class="pae-term" tabindex="0" data-def="elukestev õpe: Õppimine ja enesetäiendamine kogu elu jooksul">elukestev õpe</span>** – valmisolek kogu elu jooksul uusi teadmisi omandada.
 
 Edasiõppimiseks on palju võimalusi: kursused ja õppematerjalid, praktilised projektid ning TI-huviliste kogukondades osalemine. Kasulikud on nii akadeemilised kui ka populaarteaduslikud raamatud ja artiklid, tasuta ja tasulised veebikursused, interaktiivsed õppematerjalid, konverentsid ja seminarid ning avatud lähtekoodiga tööriistad ja kommertsplatvormid.
 
@@ -18346,12 +21480,12 @@ Kursuse peamised õppetunnid võib kokku võtta nii: tehisintellekt on väga **m
 <!-- class="pae-lisaks" -->
 > **Tea lisaks**
 >
-> Kursuse jooksul nägid mitut Eesti ja Euroopa algatust. Eestis on TI kasutuselevõttu suunatud riiklike tegevuskavadega (kratikavadega), millest viimane on tehisintellekti tegevuskava 2024–2026. Euroopa tasandil ühendavad TI-teadlasi näiteks võrgustikud CLAIRE ja ELLIS.
+> Kursuse jooksul nägid mitut Eesti ja Euroopa algatust. Eestis on TI kasutuselevõttu suunatud riiklike tegevuskavadega (kratikavadega), millest praegu kehtib tehisintellekti tegevuskava ehk kratikava 2024–2026. Euroopa tasandil ühendavad TI-teadlasi näiteks võrgustikud CLAIRE ja ELLIS.
 
 <!-- class="pae-fakt" -->
-> **Kas teadsid?** Eesti riigi virtuaalassistentide võrgustik Bürokratt valiti 2022. aastal parimaks tehisintellektil põhinevaks riigiteenuseks ja jõudis UNESCO maailma saja parima tehisintellekti lahenduse hulka.
+> **Kas teadsid?** Helsingi Ülikooli ja MinnaLearni veebikursuse **Elements of AI** eestikeelse versiooni tõi Eestisse Tallinna Tehnikaülikool. Kursus on tasuta.
 
-### 🎬 Video: miks ja kuidas õppida tehisaru ajastul?
+### ➕ 🎬 Video: miks ja kuidas õppida tehisaru ajastul?
 
 Ajuteadlane Jaan Aru selgitab, miks on õppimine ja iseseisev mõtlemine olulised ka siis, kui tehisaru suudab meie eest üha rohkem ära teha. Õppimine toimub siis, kui ise mõtled, proovid ja pingutad. Tehisaru võiks õppimisel olla pigem **treener kui teener**.
 
@@ -18392,10 +21526,19 @@ Ajuteadlane Jaan Aru selgitab, miks on õppimine ja iseseisev mõtlemine olulise
 | projektitöö | piiratud ajaga ja selge eesmärgiga praktiline töö reaalse probleemi lahendamiseks |
 | elukestev õpe | uute teadmiste ja oskuste omandamine kogu elu jooksul |
 
+### 📚 Allikad ja lisalugemine
+
+- Helsingi Ülikool ja MinnaLearn (s.a.). [Elements of AI](https://www.elementsofai.ee/). Tasuta eestikeelne veebikursus TI põhimõistete kohta; sobib lisalugemiseks.
+- TI-Hüpe (s.a.). [Õppevideod](https://tihupe.ee/oppevideod/). Lühikesed videod õpilastele, sh Jaan Aru loeng „Miks ja kuidas õppida tehisaru ajastul?“.
+- IRCAI (2022). [Global Top 100: Bürokratt](https://ircai.org/top100/entry/burokratt/). UNESCO egiidi all tegutseva uurimiskeskuse nimekirja kanne Bürokrati kohta.
+- Kratid.ee (s.a.). [Bürokratt](https://www.kratid.ee/burokratt). Riigi selgitus, mis on Bürokratt ja kuidas see töötab.
+- Euroopa Komisjon (2026). [Tehisintellekti käsitlev õigusakt](https://digital-strategy.ec.europa.eu/et/policies/regulatory-framework-ai). ELi tehisintellekti määruse riskitasemed ja rakendamise ajakava.
+- ERR (2024). [Riik plaanib 85 miljoni euro abil tehisintellekti Eesti ellu juurutada](https://www.err.ee/1609248531/riik-plaanib-85-miljoni-euro-abil-tehisintellekti-eesti-ellu-juurutada). Ülevaade tehisintellekti tegevuskavast 2024–2026 ja varasematest kavadest.
+
 ### Tööleht 7.1
 
 <!-- class="pae-jaotis" -->
-**I. Kursuse ülevaade ja õpiväljundid**
+**⭐ I. Kursuse ülevaade ja õpiväljundid**
 
 **Ülesanne 1.** Kirjelda lühidalt, millised olid sinu jaoks kursuse „Tehisintellekti alused“ kõige olulisemad teemad ja õppetunnid.
 
@@ -18428,7 +21571,7 @@ e) Praktilised oskused tehisintellekti kasutamiseks:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**II. Temaatiliste plokkide kokkuvõte**
+**➕ II. Temaatiliste plokkide kokkuvõte**
 
 **Ülesanne 4.** Kirjelda lühidalt, mida õppisid järgmistest temaatilistest plokkidest.
 
@@ -18465,7 +21608,7 @@ f) Plokk 6. Tehisintellekt ja eetika
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Praktiliste oskuste refleksioon**
+**➕ III. Praktiliste oskuste refleksioon**
 
 **Ülesanne 7.** Milliseid praktilisi oskusi oled kursuse jooksul omandanud?
 
@@ -18480,9 +21623,9 @@ f) Plokk 6. Tehisintellekt ja eetika
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Tehisintellekti eetiliste aspektide mõistmine**
+**⭐ IV. Tehisintellekti eetiliste aspektide mõistmine**
 
-**Ülesanne 10.** Millised on sinu arvates kõige olulisemad eetilised küsimused seoses tehisintellektiga?
+**Ülesanne 10.** Vali üks kursusel nähtud TI-lahendus (nt Bürokratt, Veriffi isikutuvastus või muusikasoovitused). Millised on selle juures kõige olulisemad eetilised küsimused (privaatsus, kallutatus, läbipaistvus, vastutus)? Põhjenda.
 
 [[___ ___ ___ ___]]
 
@@ -18495,7 +21638,7 @@ f) Plokk 6. Tehisintellekt ja eetika
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Projektitöö planeerimine**
+**⭐ V. Projektitöö planeerimine**
 
 **Ülesanne 13.** Kirjelda lühidalt, millist tehisintellekti projekti sooviksid teostada.
 
@@ -18524,7 +21667,7 @@ e) Võimalikud riskid ja nende lahendused:
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Tehisintellekti tulevikuperspektiivid**
+**➕ VI. Tehisintellekti tulevikuperspektiivid**
 
 **Ülesanne 15.** Millised on sinu arvates kõige olulisemad tehisintellekti arengusuunad järgmise 5–10 aasta jooksul?
 
@@ -18539,7 +21682,7 @@ e) Võimalikud riskid ja nende lahendused:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Arutelu ja refleksioon**
+**➕ VII. Arutelu ja refleksioon**
 
 **Ülesanne 18.** Kuidas on tehisintellekti kursus muutnud sinu arusaama tehisintellektist ja selle mõjust ühiskonnale?
 
@@ -18554,7 +21697,7 @@ e) Võimalikud riskid ja nende lahendused:
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Tagasiside kursusele**
+**➕ VIII. Tagasiside kursusele**
 
 **Ülesanne 21.** Mis oli sinu arvates kursuse tugevus? Mida võiks säilitada või veelgi tugevdada?
 
@@ -18652,23 +21795,77 @@ Andmete kvaliteet (plokk 2) ja kallutatus (plokk 6) on tihedalt seotud. Masinõp
 
 </details>
 
+### 📤 Väljapääsupilet 7.1
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['7.1'] = ["Vali üks äpp oma telefonist ja nimeta vähemalt kaks kursuse plokki, mille teadmisi selle äpi taga kasutatakse.", "Mitu vestlusroboti küsimust või hinnangut TI-katses olid täpsed ja kas robot käitus pigem treeneri või teenrina?", "Milline kursuse teema on sulle veel segane ja mida teed, et see selgeks saada?"];
+setTimeout(function(){var d=window.paePilet.load('7.1');document.querySelectorAll('[data-pilet="7.1"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="7.1" name="nimi" oninput="window.paePilet.save('7.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Vali üks äpp oma telefonist ja nimeta vähemalt kaks kursuse plokki, mille teadmisi selle äpi taga kasutatakse.</div><textarea data-pilet="7.1" name="q0" oninput="window.paePilet.save('7.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu vestlusroboti küsimust või hinnangut TI-katses olid täpsed ja kas robot käitus pigem treeneri või teenrina?</div><textarea data-pilet="7.1" name="q1" oninput="window.paePilet.save('7.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Milline kursuse teema on sulle veel segane ja mida teed, et see selgeks saada?</div><textarea data-pilet="7.1" name="q2" oninput="window.paePilet.save('7.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('7.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('7.1')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_7.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 7.1
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Mu mälestused kuuest toast on segamini nagu pusletükid. Masintõlge, vestlusrobot, kõnetuvastus… ma tean, et need on sugulased, aga ei mäleta, mis perekonnast!“
 
-Lukk avaneb, kui lahendad mõistatuse. Leia, mis on ühist.
+Lukk avaneb, kui lahendad ülekandeülesande.
 
-**Mis on ühist?** Masintõlge, vestlusrobot, kõnetuvastus ja Bürokratt, mis mõistab inimese kõnekeelset küsimust. Kõik need kuuluvad ühte TI valdkonda, millest rääkis kursuse 3. plokk. Kirjuta selle valdkonna nimi.
+**Uus olukord:** Sinu klassivend ehitab rakenduse, mis kuulab ära tunni helisalvestise, kirjutab kõne tekstiks, parandab selles kirjavead ja koostab tunnist eestikeelse kokkuvõtte. Millise TI valdkonna lahendusega on tegu? Kirjuta valdkonna nimi.
 
 [[keeletöötlus]]
-[[?]] Vihje: kõik need lahendused töötavad inimkeelse teksti või kõnega. Valdkonna nimi on liitsõna.
+[[?]] Vihje 1: mis on rakenduse sisend ja väljund – pildid, arvud või inimkeel?
+[[?]] Vihje 2: valdkonna nimi on 12-täheline liitsõna, mis algab tähega K. Sellest rääkis kursuse 3. plokk.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Keel, otsused ja pildid“ ja loe lõik „Plokk 3. Keeletöötlus“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI471") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["keeletöötlus", "keele töötlus", "loomuliku keele töötlus", "loomulikukeele töötlus", "keeletehnoloogia", "nlp"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Keeletöötlus ehk loomuliku keele töötlus on see TI valdkond, mis aitab arvutil inimkeelt mõista ja luua – ja kursuse plokid on omavahel seotud nagu pusletükid.
+✅ **Lukk avatud!** Kõnetuvastus, õigekirja parandamine ja kokkuvõtte koostamine kuuluvad kõik keeletöötluse ehk loomuliku keele töötluse valdkonda, mis aitab arvutil inimkeelt mõista ja luua – ja kursuse plokid on omavahel seotud nagu pusletükid.
 
 🔑 **Sinu võtmetäht: V**
 
@@ -18679,20 +21876,40 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 7.2 Projektitöö planeerimine
 
 <!-- class="pae-kaas" -->
-![Klassiruumis planeerib õpilaste rühm projekti: üks kirjutab tahvlile ajakava, teised istuvad laua taga sülearvuti, kalendri ja kleepmärkmetega ning õpetaja kuulab nende ideid.](pildid/illustratsioonid/7_2.jpg)
+![Klassiruumis planeerib õpilaste rühm projekti: üks õpilane joonistab tahvlile kleepmärkmete vahele ajatelge, teised arutavad laua taga sülearvutite ja märkmikega ning õpetaja kuulab taustal.](pildid/illustratsioonid/7_2.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- tead, mis on projektitöö ja miks see on TI õppimisel oluline;
-- oskad valida projektile sobiva teema, arvestades oma huvisid, oskusi ja teostatavust;
-- oskad sõnastada projekti eesmärgi SMART-kriteeriumide järgi;
-- oskad määratleda projekti ulatuse, tegevused, ajakava, ressursid ja rollid;
-- oskad teha lihtsa riskianalüüsi ja määrata projekti edukuse kriteeriumid;
-- tead, millest koosneb projektiplaan.
+- **selgitad oma sõnadega**, mis on projektitöö ja millest koosneb <span class="pae-term" tabindex="0" data-def="projektiplaan: Dokument, mis kirjeldab projekti eesmärki, ulatust, tegevusi, ajakava, ressursse, rolle, riske ja hindamiskriteeriume">projektiplaan</span> *(mõistmine)*;
+- **sõnastad** projekti eesmärgi SMART-kriteeriumide järgi *(rakendamine)*;
+- **analüüsid** projekti riske ja **eristad**, millised neist on kõige tõenäolisemad *(analüüs)*;
+- **kontrollid** Teachable Machine'i kiirprooviga, kas sinu projektiidee on teostatav, ja **hindad** tulemust *(hindamine)*;
+- **kavandad** koos meeskonnaga <span class="pae-term" tabindex="0" data-def="projekti ulatus: See, mida projekt hõlmab ja mida mitte">projekti ulatuse</span>, rollid, <span class="pae-term" tabindex="0" data-def="ajakava: Projekti tegevuste järjestus koos tähtaegadega">ajakava</span> ja riskide ennetamise *(loomine)*.
 
-### Mis on projektitöö ja miks seda planeerida?
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Kuidas valida projekti teemat?“, „Eesmärk SMART-kriteeriumide järgi“, „Ressursid, rollid ja riskid“ ning „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Kas idee on teostatav? Kiirproov Teachable Machine'is“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded I, III ja VIII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Selles tunnis hakkad koos meeskonnaga oma TI-projekti planeerima. Kõigepealt vali teema, mis sind huvitab ja sobib su oskustega. Teema peab olema piisavalt väike, et see valmis saaks. Näiteks „TI, mis aitab õppida“ on liiga lai. Parem on vestlusrobot, mis vastab 10. klassi õpilaste küsimustele kooli kodukorra kohta. Seejärel kirjuta selge **<span class="pae-term" tabindex="0" data-def="SMART-eesmärk: Spetsiifiline, mõõdetav, asjakohane, realistlik ja tähtajaline eesmärk">SMART-eesmärk</span>**, mida saab mõõta ja millel on tähtaeg. Lepi meeskonnaga rollid kokku ja tee **<span class="pae-term" tabindex="0" data-def="riskianalüüs: Võimalike probleemide tuvastamine ja nende lahendamise planeerimine">riskianalüüs</span>**: mis võib valesti minna? Jäta ajakavasse ka **<span class="pae-term" tabindex="0" data-def="puhveraeg: Ajakavasse jäetud lisaaeg ootamatuste jaoks">puhveraega</span>** ootamatuste jaoks.
+
+**Tähtsad sõnad:** **SMART-eesmärk** – konkreetne, mõõdetav, asjakohane, realistlik ja tähtajaline eesmärk; **riskianalüüs** – võimalike probleemide leidmine ja nende lahenduste planeerimine; **puhveraeg** – lisaaeg ajakavas ootamatuste jaoks.
+
+</section>
+
+### ➕ Mis on projektitöö ja miks seda planeerida?
 
 **Projektitöö** on töö, mille käigus rakendad oma teadmisi ja oskusi praktiliselt, lahendad reaalse probleemi ning lood ja esitled tulemuse. See erineb tavalisest koduülesandest: pead ise otsustama, mida teha, kuidas teha ja millal valmis saada. Just seepärast õpid projektitöös sügavamalt, arendad praktilisi oskusi ja saad tulemuse, mille võid lisada oma **portfooliosse**.
 
@@ -18770,7 +21987,7 @@ Eesmärgi kõrval tuleb sõnastada **põhjendus ja olulisus**. Kirjelda, millist
 >
 > Kas eesmärk „Teha hea pildituvastusrakendus“ on SMART? Milliseid kriteeriume see ei täida? Proovi see ümber sõnastada nii, et kõik viis kriteeriumi oleksid täidetud.
 
-### Ulatus, tegevused ja ajakava
+### ➕ Ulatus, tegevused ja ajakava
 
 **Projekti ulatus** näitab, mida projekt hõlmab ja mida mitte. Kirjelda peamisi funktsioone ja olulisi komponente. Sama tähtis on kirja panna, mida projekt **ei hõlma**: teadlikud väljajätmised ja võimalused, mis jäävad tulevikuks. Nii väldid olukorda, kus projekt kasvab lõputult. Määratle ka piirangud (ajalised, ressurssidega seotud ja tehnilised) ning eeldused ja sõltuvused: mis peab olema täidetud ja millest projekt sõltub (nt kas saate kätte vajalikud andmed).
 
@@ -18780,7 +21997,7 @@ Seejärel jaga projekt **faasideks**:
 
 Igas faasis määratle konkreetsed **ülesanded**, nende selged tulemused ja vastutajad. Tuvasta **sõltuvused**: millised ülesanded saavad alata alles siis, kui teised on valmis? Näiteks ei saa mudelit treenida enne, kui andmed on kogutud. Sõltuvate ülesannete ahelat, mis määrab, kui kiiresti saab kogu projekti lõpetada, nimetatakse **kriitiliseks teeks** – kui selles ahelas miski hilineb, hilineb kogu projekt.
 
-**Ajakava** on projekti tegevuste järjestus koos tähtaegadega. Määra projekti algus- ja lõpukuupäev ning olulised **verstapostid** ehk vahe-eesmärgid (nt „andmed kogutud“, „esimene prototüüp töötab“). Hinda iga ülesande kestust ja määra järjestus. Jäta ajakavasse ka **puhveraega** ootamatuste ja riskide jaoks. Ajakava saab visualiseerida näiteks Gantti graafikuna (tulpdiagramm, kus iga tegevus on ajateljel ribana), ajateljena või kalendrivaatena.
+**Ajakava** on projekti tegevuste järjestus koos tähtaegadega. Määra projekti algus- ja lõpukuupäev ning olulised **<span class="pae-term" tabindex="0" data-def="verstapost: Oluline vahe-eesmärk kindlal kuupäeval">verstapostid</span>** ehk vahe-eesmärgid (nt „andmed kogutud“, „esimene prototüüp töötab“). Hinda iga ülesande kestust ja määra järjestus. Jäta ajakavasse ka **puhveraega** ootamatuste ja riskide jaoks. Ajakava saab visualiseerida näiteks Gantti graafikuna (tulpdiagramm, kus iga tegevus on ajateljel ribana), ajateljena või kalendrivaatena.
 
 <!-- class="pae-moiste" -->
 > **Mõiste: verstapost**
@@ -18825,7 +22042,24 @@ Väikestes projektides täidab üks inimene sageli mitut rolli. Oluline on, et k
 > | Tehnilised probleemid või oskuste puudumine | planeeri õppimisaega või kaasa ekspert |
 > | Ajakava venib | lisa ajakavasse puhveraega ja sea vahe-eesmärgid |
 
-### Edukuse kriteeriumid ja projekti käivitamine
+### 🧪 TI-katse: kas idee on teostatav? Kiirproov Teachable Machine'is
+
+Enne kui kirjutad projektiplaani, tasub kontrollida, kas idee põhiosa üldse töötab. Selles katses treenid 10 minutiga oma projektiidee kõige lihtsama versiooni ja hindad, kas SMART-eesmärgi „R“ (realistlik) on täidetud.
+
+**Vaja läheb:** [Teachable Machine](https://teachablemachine.withgoogle.com/) (tasuta, mudelit treenitakse veebilehitsejas), veebikaameraga arvuti, ~10 min, paaris või rühmas
+
+1. Sõnastage oma projektiidee kõige lihtsam versioon kahe klassiga (nt „plastpudel“ ja „metallpurk“, „õun“ ja „pirn“ või „käsi üleval“ ja „käsi all“). Kui teie projekt pole pildituvastus, valige proovimiseks lähim pildiülesanne.
+2. Avage Teachable Machine → *Image Project*, salvestage veebikaameraga kummagi klassi kohta umbes 30 pilti ja vajutage *Train Model*. Ärge pildistage kaasõpilaste nägusid.
+3. Testige mudelit viie uue objekti või nurgaga, mida treeningpiltidel polnud, ja lugege kokku, mitu korda mudel õigesti vastas.
+
+**Pane tähele / kirjuta üles:** mitu testi viiest õnnestus? Mis läks kergesti ja mis osutus raskeks? Kas teie eesmärk on realistlik või tuleb seda kitsendada (vähem klasse, rohkem andmeid, lihtsam ülesanne)?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** kirjutage paberile, milliseid andmeid ja kui palju teie idee jaoks vaja oleks, kust need saate ja kui kaua nende kogumine võtab. Hinnake skaalal 1–5, kui realistlik on idee 8 nädalaga ellu viia, ja põhjendage.
+
+### ➕ Edukuse kriteeriumid ja projekti käivitamine
 
 Enne töö algust leppige kokku, kuidas hindate, kas projekt õnnestus. **Hindamiskriteeriume** on mitut liiki:
 
@@ -18865,10 +22099,18 @@ Projekti **käivitamiseks** pidage avakoosolek, vaadake eesmärgid ja plaan üle
 | riskianalüüs | võimalike probleemide tuvastamine ja nende lahendamise planeerimine |
 | puhveraeg | ajakavasse jäetud lisaaeg ootamatuste jaoks |
 
+### 📚 Allikad ja lisalugemine
+
+- Google (s.a.). [Teachable Machine](https://teachablemachine.withgoogle.com/). Tasuta veebitööriist, millega saab ilma programmeerimata treenida pildi-, heli- ja poosituvastuse mudeleid; sobib prototüübi kiirproovideks.
+- Hackster.io (s.a.). [Google's Teachable Machine Uses TensorFlow.js to Bring Code-Free Machine Learning to the Browser](https://hackster.io/news/google-s-teachable-machine-uses-tensorflow-js-to-bring-code-free-machine-learning-to-the-browser-53ffcdec0099). Kuidas Teachable Machine veebilehitsejas töötab (inglise keeles).
+- Kratid.ee (s.a.). [AI kasutuslood](https://www.kratid.ee/kasutuslood-kratid). Eesti avaliku sektori TI-projektid (nt anonüümija, automaatsubtiitrid, EstNLTK) – hea ideede allikas oma projektile.
+- Andmekaitse Inspektsioon (s.a.). [Ringkiri koolidele](https://www.aki.ee/sites/default/files/documents/2024-02/ringkiri_koolidele.pdf). Millal on koolis piltide, videote ja õpilaste andmete kasutamiseks vaja nõusolekut – oluline, kui plaanid projektis andmeid koguda.
+- Google for Developers (s.a.). [ML Universal Guides](https://developers.google.com/machine-learning/guides). Juhendid, sh „People + AI Guidebook“ selle kohta, kuidas TI-lahendust kasutaja vajadusest lähtudes planeerida (inglise keeles).
+
 ### Tööleht 7.2
 
 <!-- class="pae-jaotis" -->
-**I. Projekti teema ja eesmärk**
+**⭐ I. Projekti teema ja eesmärk**
 
 **Ülesanne 1.** Kirjelda tehisintellekti projekti, mida soovid teostada.
 
@@ -18901,7 +22143,7 @@ Projekti **käivitamiseks** pidage avakoosolek, vaadake eesmärgid ja plaan üle
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**II. Projekti põhjendus ja olulisus**
+**➕ II. Projekti põhjendus ja olulisus**
 
 **Ülesanne 4.** Millist probleemi või vajadust sinu projekt lahendab?
 
@@ -18916,7 +22158,7 @@ Projekti **käivitamiseks** pidage avakoosolek, vaadake eesmärgid ja plaan üle
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Projekti ulatus ja piirid**
+**⭐ III. Projekti ulatus ja piirid**
 
 **Ülesanne 7.** Mida sinu projekt hõlmab? Millised on peamised funktsioonid ja omadused?
 
@@ -18931,7 +22173,7 @@ Projekti **käivitamiseks** pidage avakoosolek, vaadake eesmärgid ja plaan üle
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Tegevuste ja ülesannete nimekiri**
+**➕ IV. Tegevuste ja ülesannete nimekiri**
 
 **Ülesanne 10.** Jaota projekt faasideks ja kirjelda iga faasi peamisi tegevusi.
 
@@ -18960,7 +22202,7 @@ Projekti **käivitamiseks** pidage avakoosolek, vaadake eesmärgid ja plaan üle
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Ajakava ja tähtajad**
+**➕ V. Ajakava ja tähtajad**
 
 **Ülesanne 12.** Koosta projekti ajakava, määrates igale tegevusele algus- ja lõpukuupäeva ning vastutaja.
 
@@ -18987,7 +22229,7 @@ Kirjuta iga verstaposti kohta eraldi reale: verstapost – kuupäev – kirjeldu
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Vajalikud ressursid ja tööriistad**
+**➕ VI. Vajalikud ressursid ja tööriistad**
 
 **Ülesanne 15.** Milliseid tehnilisi ressursse vajad projekti teostamiseks?
 
@@ -19022,7 +22264,7 @@ Kirjuta iga verstaposti kohta eraldi reale: verstapost – kuupäev – kirjeldu
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Meeskonna rollid ja vastutus**
+**➕ VII. Meeskonna rollid ja vastutus**
 
 **Ülesanne 18.** Kes kuuluvad projekti meeskonda? Millised on nende rollid?
 
@@ -19037,7 +22279,7 @@ Kirjuta iga verstaposti kohta eraldi reale: verstapost – kuupäev – kirjeldu
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Riskianalüüs**
+**⭐ VIII. Riskianalüüs**
 
 **Ülesanne 21.** Millised on projekti peamised riskid? Hinda nende tõenäosust ja mõju skaalal 1–5 ning kirjuta maandamisstrateegia.
 
@@ -19049,12 +22291,12 @@ Kirjuta iga riski kohta eraldi reale: risk – tõenäosus – mõju – maandam
 
 [[___ ___ ___ ___ ___]]
 
-**Ülesanne 22.** Millised on alternatiivplaanid, kui mõni risk realiseerub?
+**Ülesanne 22.** Vali tabelist kõige kõrgema prioriteediga risk (suur tõenäosus ja suur mõju). Kirjelda selle jaoks alternatiivplaan: mida täpselt teete, kui risk realiseerub?
 
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IX. Hindamiskriteeriumid**
+**➕ IX. Hindamiskriteeriumid**
 
 **Ülesanne 23.** Kuidas hindad projekti edukust? Millised on edukuse kriteeriumid?
 
@@ -19069,7 +22311,7 @@ Kirjuta iga riski kohta eraldi reale: risk – tõenäosus – mõju – maandam
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**X. Projektiplaani kokkuvõte**
+**➕ X. Projektiplaani kokkuvõte**
 
 **Ülesanne 26.** Koosta lühike kokkuvõte oma projektist (3–5 lauset).
 
@@ -19173,23 +22415,77 @@ Riski olulisus sõltub sellest, kui tõenäoline see on ja kui suurt kahju see t
 
 </details>
 
+### 📤 Väljapääsupilet 7.2
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['7.2'] = ["Sõnasta eesmärk „Teha äpp, mis aitab koolis“ ümber nii, et see vastaks SMART-kriteeriumidele.", "Mida näitas Teachable Machine'i kiirproov sinu projektiidee teostatavuse kohta?", "Milline risk võib sinu projekti kõige tõenäolisemalt takistada ja kuidas seda ennetad?"];
+setTimeout(function(){var d=window.paePilet.load('7.2');document.querySelectorAll('[data-pilet="7.2"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="7.2" name="nimi" oninput="window.paePilet.save('7.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Sõnasta eesmärk „Teha äpp, mis aitab koolis“ ümber nii, et see vastaks SMART-kriteeriumidele.</div><textarea data-pilet="7.2" name="q0" oninput="window.paePilet.save('7.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mida näitas Teachable Machine&#39;i kiirproov sinu projektiidee teostatavuse kohta?</div><textarea data-pilet="7.2" name="q1" oninput="window.paePilet.save('7.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Milline risk võib sinu projekti kõige tõenäolisemalt takistada ja kuidas seda ennetad?</div><textarea data-pilet="7.2" name="q2" oninput="window.paePilet.save('7.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('7.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('7.2')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_7.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 7.2
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma tahtsin kõike korraga teha ja nüüd on mu ülesanded sassis nagu kaablid! Isegi selle sõna tähed, mis mind päästa võiks, on segi läinud.“
 
-Lukk avaneb, kui lahendad mõistatuse. Pane segi läinud tähed õigesse järjekorda.
+Lukk avaneb, kui lahendad ülekandeülesande.
 
-**Anagramm:** Kratt kirjutas üles sõna **AVAKAJA**. Pane tähed õigesse järjekorda ja saad projekti planeerimise osa, kus on kirjas, millal mingi tegevus algab ja lõpeb ning kus on jäetud puhveraega ootamatuste jaoks. Seda saab visualiseerida ka Gantti graafikuna.
+**Uus olukord:** Kooli korvpallimeeskond valmistub talviseks turniiriks. Treener paneb tabelisse kirja, millisel nädalal harjutatakse kaitset ja millisel rünnakut, millal toimub sõprusmäng ja millal on turniir. Enne turniiri jätab ta ühe nädala vabaks juhuks, kui keegi haigestub. Millise projektiplaani osa treener koostas? Kirjuta üks sõna.
 
 [[ajakava]]
-[[?]] Vihje: sõna algab osaga „aja-“ ja lõpeb osaga „-kava“.
+[[?]] Vihje 1: mis seob kõik tegevused kindlate nädalate ja kuupäevadega?
+[[?]] Vihje 2: pane tähed õigesse järjekorda: **AVAKAJA**.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „➕ Ulatus, tegevused ja ajakava“ ja loe lõik, mis algab sõnadega „Ajakava on projekti tegevuste järjestus“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI473") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["ajakava", "ajakavas", "ajakavad", "ajakavva"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Ajakava aitab tegevused aja peale jaotada ja jätab puhvri ka riskide jaoks – nii ei jää kõik viimasele päevale.
+✅ **Lukk avatud!** Treener koostas ajakava: tegevused on järjestatud ja seotud tähtaegadega ning vaba nädal on puhveraeg ootamatuste jaoks – nii ei jää kõik viimasele päevale.
 
 🔑 **Sinu võtmetäht: A**
 
@@ -19200,22 +22496,42 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 7.3 Projektitöö arendamine
 
 <!-- class="pae-kaas" -->
-![Arvutiklassis arendab rühm prügi sorteerivat TI-rakendust: üks õpilane pildistab pudelit andmestiku jaoks, kaks treenivad ja testivad mudelit arvutiekraanidel, kus kaamerapilt tunneb ära pudeli, ning neljas dokumenteerib täpsuse kasvu graafikut.](pildid/illustratsioonid/7_3.jpg)
+![Õpilased arendavad jäätmeid sorteerivat TI-rakendust: üks pildistab telefoniga laual olevaid pudeleid ja purke, teise sülearvuti ekraanil on pudel tuvastuskastiga ning kolmas vaatab tulemuste graafikuid. Taustal on prügisorteerimise konteinerid.](pildid/illustratsioonid/7_3.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- tead projektitöö teostamise etappe ettevalmistusest testimiseni;
-- oskad kirjeldada, kuidas andmeid koguda, puhastada ja jaotada;
-- mõistad, kuidas valida TI-lahendusele sobiv mudel ning miks prototüüpida ja arendada iteratiivselt;
-- tead, kuidas TI-lahendust testida ja hinnata nii täpsuse kui ka eetilisuse seisukohalt;
-- oskad dokumenteerida arendusprotsessi ja lahendada tüüpilisi väljakutseid;
-- tead, kuidas jälgida projekti edenemist ja tagada tulemuste jätkusuutlikkus.
+- **selgitad oma sõnadega**, miks jagatakse andmed treening-, valideerimis- ja testandmeteks *(mõistmine)*;
+- **puhastad** andmeid: leiad kordused, puuduvad väärtused ja vead ning otsustad, mida nendega teha *(rakendamine)*;
+- **arvutad** mudeli saagise ja täpsuse testtulemuste põhjal *(rakendamine)*;
+- **testid** närvivõrku tavaliste ja piirjuhtumitega ning **analüüsid**, kui palju selle täpsus langeb *(analüüs)*;
+- **hindad**, mida täpsus üksi mudeli kohta ei näita, ja **koostad** oma projektile tava- ja piirjuhtumitega testiplaani *(hindamine, loomine)*.
 
-### Planeerimisest teostuseni
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Andmete kogumine ja ettevalmistamine“, „Treenimine, testimine ja hindamine“ ning „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Testi närvivõrku piirjuhtumitega“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja X
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
 
-Kui projektiplaan on valmis, algab arendamine – kõige pikem ja tihti ka kõige põnevam osa projektist. Nüüd selgub, kui hea oli plaan, ja tuleb ette nii väljakutseid kui ka võimalusi. Eduka arendusprotsessi aluseks on neli põhimõtet: selge plaan ja eesmärgid, iteratiivne lähenemine, pidev testimine ja tagasiside ning hea dokumenteerimine.
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Selles tunnis arendad oma projekti TI-lahendust samm-sammult. TI on nii hea, kui head on tema andmed. Seepärast **puhasta andmed** enne kasutamist: paranda vead ja eemalda kordused. Näiteks paranda viga, kus on kirjas 900 kg 9 kg asemel. Siis jaga andmed kolmeks: treening-, valideerimis- ja **testandmed**. Mudel õpib treeningandmetel, testandmetel kontrollid sa selle tööd. Hea mudel ei õpi andmeid pähe, vaid töötab hästi ka uute andmetega. Võrdle oma mudelit ka lihtsa **võrdlusalusega**.
+
+**Tähtsad sõnad:** **andmete puhastamine** – vigade, puuduvate väärtuste ja korduste korda tegemine; **testandmed** – andmed, millel kontrollid lõpus mudeli tööd; **võrdlusalus** – lihtne lahendus, millega oma mudelit võrdled.
+
+</section>
+
+### ➕ Planeerimisest teostuseni
+
+Kui projektiplaan on valmis, algab arendamine – kõige pikem ja tihti ka kõige põnevam osa projektist. Nüüd selgub, kui hea oli plaan, ja tuleb ette nii väljakutseid kui ka võimalusi. Eduka arendusprotsessi aluseks on neli põhimõtet: selge plaan ja eesmärgid, iteratiivne lähenemine, pidev testimine ja tagasiside ning hea <span class="pae-term" tabindex="0" data-def="dokumenteerimine: Projekti tegevuste ja tulemuste kirjalik või visuaalne salvestamine">dokumenteerimine</span>.
 
 TI-projekti teostamine kulgeb tavaliselt järgmiste etappide kaudu:
 
@@ -19229,11 +22545,11 @@ Nagu plokis 2 nägid, on TI täpselt nii hea kui tema andmed. Seepärast algab e
 
 **Andmeallikate tuvastamine.** Andmeid võib saada avalikest andmekogudest (näiteks andmeteaduse platvormilt [Kaggle](https://www.kaggle.com/)), olemasolevatest andmebaasidest, aga neid saab ka ise koguda (nt küsitluse, fotode või mõõtmiste abil). Kui kogud andmeid inimestelt, pea meeles isikuandmete kaitset: küsi luba, kogu ainult vajalikku ja hoia andmeid turvaliselt.
 
-**Andmete puhastamine.** Päris andmed on harva korras. Puhastamise käigus käsitled puuduvaid väärtusi, parandad vigu ja eemaldad duplikaate (korduvaid kirjeid).
+**<span class="pae-term" tabindex="0" data-def="andmete puhastamine: Vigaste, puuduvate või korduvate andmete parandamine või eemaldamine">Andmete puhastamine</span>.** Päris andmed on harva korras. Puhastamise käigus käsitled puuduvaid väärtusi, parandad vigu ja eemaldad duplikaate (korduvaid kirjeid).
 
 **Andmete teisendamine.** Mudel vajab andmeid kindlal kujul. **Normaliseerimine** viib arvud ühtsele skaalale (nt vahemikku 0–1). Kategoorilised tunnused (nt „koer“, „kass“) tuleb kodeerida arvudeks. Vahel luuakse olemasolevatest andmetest ka uusi tunnuseid.
 
-**Andmete jaotamine.** Andmed jagatakse tavaliselt kolmeks osaks: **treeningandmed**, millel mudel õpib; **valideerimisandmed**, mille abil valitakse mudeli seadistusi treenimise ajal; ja **testandmed**, millel hinnatakse lõpuks, kui hästi mudel uutel andmetel töötab.
+**Andmete jaotamine.** Andmed jagatakse tavaliselt kolmeks osaks: **treeningandmed**, millel mudel õpib; **<span class="pae-term" tabindex="0" data-def="valideerimisandmed: Andmed, mille abil valitakse treenimise ajal mudeli seadistusi">valideerimisandmed</span>**, mille abil valitakse mudeli seadistusi treenimise ajal; ja **testandmed**, millel hinnatakse lõpuks, kui hästi mudel uutel andmetel töötab.
 
 ![Toorandmete tabelis on puuduv väärtus, viga 900 kg ja duplikaat; andmed liiguvad puhastamisse, siis teisendamisse ning lõpuks jagatakse treening-, valideerimis- ja testandmeteks.](pildid/plokk_7/7_3_andmed.svg "Joonis 7.3.2. Andmete puhastamine, teisendamine ja jaotamine")
 
@@ -19247,7 +22563,7 @@ Nagu plokis 2 nägid, on TI täpselt nii hea kui tema andmed. Seepärast algab e
 >
 > Rühm tahab ennustada, mitu portsjonit sööklas üle jääb. Andmetabelis on mõnel päeval jäätmete kogus puudu, ühel päeval on kogemata sisestatud 900 kg 9 kg asemel ja mitu päeva on kaks korda kirjas. Enne treenimist tuleb puuduvad väärtused käsitleda, ilmne viga parandada ja duplikaadid eemaldada – muidu õpib mudel valesid mustreid.
 
-### Lahenduse disain ja teostus
+### ➕ Lahenduse disain ja teostus
 
 **Arhitektuuri planeerimine** tähendab otsustamist, millistest komponentidest süsteem koosneb, kuidas andmed nende vahel liiguvad (andmevood) ja milliste teiste süsteemidega lahendus ühendatakse.
 
@@ -19255,19 +22571,19 @@ Nagu plokis 2 nägid, on TI täpselt nii hea kui tema andmed. Seepärast algab e
 
 Mudeli juures tuleb valida ka **hüperparameetrid** – seadistused, mille arendaja määrab enne treenimist. Need mõjutavad näiteks mudeli keerukust, õppimiskiirust ja regulariseerimist (võtteid, mis hoiavad mudelit liiga keeruliseks muutumast).
 
-**Prototüüpimine** tähendab lahenduse lihtsa esialgse versiooni kiiret loomist. Prototüübi abil saad kiiresti tagasisidet, saad idee läbi proovida ja lahendust samm-sammult täiendada.
+**<span class="pae-term" tabindex="0" data-def="prototüüp: Lahenduse lihtne esialgne versioon idee katsetamiseks">Prototüüpimine</span>** tähendab lahenduse lihtsa esialgse versiooni kiiret loomist. Prototüübi abil saad kiiresti tagasisidet, saad idee läbi proovida ja lahendust samm-sammult täiendada.
 
 <!-- class="pae-moiste" -->
 > **Mõiste: prototüüp**
 >
 > **Prototüüp** on lahenduse lihtne esialgne versioon, mille abil saab ideed kiiresti katsetada ja tagasisidet koguda enne, kui lõplikku lahendust põhjalikult arendama hakatakse. Prototüüp võib olla ka paberil visand või klõpsatav kujundus.
 
-**Teostus** algab arenduskeskkonna seadistamisest: vali tööriistad ja teegid (valmis koodikogumid, nt masinõppe teek scikit-learn või TensorFlow) ning kasuta **versioonihaldust**, mis salvestab koodi kõik muudatused ja võimaldab vajaduse korral eelmise versiooni juurde tagasi minna. Programmeerides järgi ühtseid koodistandardeid, dokumenteeri koodi ja korrasta seda (refaktoreeri), kui see muutub segaseks. Seejärel ühenda komponendid: loo nendevahelised liidesed, seadista andmevood ja kontrolli, et süsteem töötaks tervikuna.
+**Teostus** algab arenduskeskkonna seadistamisest: vali tööriistad ja teegid (valmis koodikogumid, nt masinõppe teek scikit-learn või TensorFlow) ning kasuta **<span class="pae-term" tabindex="0" data-def="versioonihaldus: Süsteem, mis salvestab koodi muudatused ja võimaldab vanade versioonide juurde naasta">versioonihaldust</span>**, mis salvestab koodi kõik muudatused ja võimaldab vajaduse korral eelmise versiooni juurde tagasi minna. Programmeerides järgi ühtseid koodistandardeid, dokumenteeri koodi ja korrasta seda (refaktoreeri), kui see muutub segaseks. Seejärel ühenda komponendid: loo nendevahelised liidesed, seadista andmevood ja kontrolli, et süsteem töötaks tervikuna.
 
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Versioonihaldus salvestab koodi kõik muudatused. Kui midagi läheb katki, saad minna tagasi eelmise versiooni juurde – nii ei lähe ükski töötav lahendus kaduma.
 
-Kõige olulisem on **iteratiivne arendus**: töötate lühikeste arendustsüklite kaupa, testite pidevalt ja kohandate lahendust tagasiside põhjal. Parem on iga nädal saada valmis väike töötav samm kui jätta kõik viimasele nädalale.
+Kõige olulisem on **<span class="pae-term" tabindex="0" data-def="iteratiivne arendus: Arendamine lühikeste tsüklitena koos pideva testimise ja kohandamisega">iteratiivne arendus</span>**: töötate lühikeste arendustsüklite kaupa, testite pidevalt ja kohandate lahendust tagasiside põhjal. Parem on iga nädal saada valmis väike töötav samm kui jätta kõik viimasele nädalale.
 
 ![Tsükkel neljast sammust, mis on ühendatud ringikujuliste nooltega: planeeri, arenda, testi ja kohanda; keskel kiri „iga nädal väike töötav samm“.](pildid/plokk_7/7_3_iteratsioon.svg "Joonis 7.3.3. Iteratiivse arenduse tsükkel")
 
@@ -19287,7 +22603,7 @@ Kõige olulisem on **iteratiivne arendus**: töötate lühikeste arendustsüklit
 - **kasutajatestid** – kasutatavus, kasutajakogemus ja tagasiside kogumine;
 - **tulemuste hindamine** – kas eesmärgid on saavutatud, kas kvaliteedikriteeriumid on täidetud, mida saab parandada.
 
-TI-lahenduse **täpsuse hindamiseks** kasutatakse mitut mõõdikut. Kujutle rämpspostifiltrit. **Üldine täpsus** näitab, kui suur osa kõigist kirjadest liigitati õigesti. **Täpsus** (precision) näitab, kui suur osa rämpspostiks märgitud kirjadest oli tegelikult rämpspost. **Saagis** (recall) näitab, kui suure osa kõigist tegelikest rämpspostikirjadest filter üles leidis. **F1-skoor** ühendab täpsuse ja saagise üheks arvuks. **Segadusmaatriks** on tabel, kus on näha, mitu korda mudel iga klassi õigesti või valesti ennustas. **ROC-kõver** on graafik, mis näitab, kui hästi mudel eristab klasse erinevate otsustuspiiride korral.
+TI-lahenduse **täpsuse hindamiseks** kasutatakse mitut mõõdikut. Kujutle rämpspostifiltrit. **Üldine täpsus** näitab, kui suur osa kõigist kirjadest liigitati õigesti. **Täpsus** (precision) näitab, kui suur osa rämpspostiks märgitud kirjadest oli tegelikult rämpspost. **Saagis** (recall) näitab, kui suure osa kõigist tegelikest rämpspostikirjadest filter üles leidis. **F1-skoor** ühendab täpsuse ja saagise üheks arvuks. **<span class="pae-term" tabindex="0" data-def="segadusmaatriks: Tabel, mis näitab mudeli õigeid ja valesid ennustusi klasside kaupa">Segadusmaatriks</span>** on tabel, kus on näha, mitu korda mudel iga klassi õigesti või valesti ennustas. **ROC-kõver** on graafik, mis näitab, kui hästi mudel eristab klasse erinevate otsustuspiiride korral.
 
 ![Näide: rämpspostifilter 100 kirjaga. Segadusmaatriksis on 15 õigesti leitud rämpskirja, 5 märkamata rämpskirja, 3 valehäiret ja 77 õigesti tavaliseks kirjaks liigitatud kirja. Sellest tulevad üldine täpsus 92%, täpsus 83% ja saagis 75%.](pildid/plokk_7/7_3_moodikud.svg "Joonis 7.3.4. Täpsus ja saagis lihtsa näite põhjal")
 
@@ -19311,7 +22627,24 @@ Hinda kindlasti ka **eetilisust**: kas lahendus kohtleb kõiki rühmi õiglaselt
 >
 > Sinu mudel tunneb kassi- ja koerapilte ära 90% täpsusega. Kas see on hea tulemus? Mida peaksid veel teadma, et seda hinnata? (Vihje: mõtle võrdlusalusele ja sellele, kas testandmetes oli kasse ja koeri sama palju.)
 
-### Dokumenteerimine ja väljakutsete lahendamine
+### 🧪 TI-katse: testi närvivõrku piirjuhtumitega
+
+Hea testija ei kontrolli ainult tavalisi juhtumeid, vaid otsib ka **piirjuhtumeid** – ebatavalisi sisendeid, mille peal mudel võib eksida. Selles katses testid valmis närvivõrku samamoodi, nagu peaksid testima oma projekti lahendust.
+
+**Vaja läheb:** [Quick, Draw!](https://quickdraw.withgoogle.com/) (tasuta, sisselogimiseta), ~10 min, paaristöö
+
+1. Mängi üks voor tavapäraselt: joonista iga ülesande kohta võimalikult tüüpiline pilt (20 sekundit pildi kohta). Paariline märgib iga joonistuse kohta üles, kas närvivõrk arvas selle ära.
+2. Mängi teine voor ja joonista meelega piirjuhtumeid: väga lihtsustatud, pooleli jäetud, tagurpidi või ebatavalise nurga alt.
+3. Arvuta mõlema vooru **üldine täpsus** (ära arvatud joonistuste arv : kõigi joonistuste arv × 100) ja võrdle.
+
+**Pane tähele / kirjuta üles:** kui palju täpsus piirjuhtumitega langes? Milliseid jooniseid ajas närvivõrk segi? Milliseid piirjuhtumeid peaksid lisama oma projekti testandmetesse? NB! Sinu joonistused lisatakse avalikku andmekogusse, seega ära kirjuta ega joonista midagi isiklikku.
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** üks paariline joonistab paberile kuus eset (kolm tavalist ja kolm piirjuhtumit) ja teine proovib 20 sekundi jooksul ära arvata. Arvutage mõlema rühma täpsus ja arutage, mille poolest erineb inimene närvivõrgust.
+
+### ➕ Dokumenteerimine ja väljakutsete lahendamine
 
 **Dokumenteerimine** on projekti tegevuste ja tulemuste kirjalik või visuaalne salvestamine. Seda tehakse kogu arenduse jooksul, mitte alles lõpus. Dokumenteerida tuleb mitut asja:
 
@@ -19331,13 +22664,13 @@ Väljakutseid tuleb ette igas projektis. Neid on nelja liiki:
 | Ressursiprobleemid | ajakava kohandamine, ressursside ümberjaotamine, prioriteetide seadmine |
 | Meeskonnatöö probleemid | suhtluse parandamine, konfliktide lahendamine, motivatsiooni hoidmine |
 
-### Edenemise jälgimine ja jätkusuutlikkus
+### ➕ Edenemise jälgimine ja jätkusuutlikkus
 
 **Edenemise jälgimiseks** võrdle tehtud tööd planeerituga, kontrolli verstaposte ja vahe-eesmärke ning jälgi kvaliteedinäitajaid. Kasuta staatusaruandeid, koosolekuid ja visualiseerimist, näiteks **Kanbani tahvlit**, kus ülesanded liiguvad veerust veergu: „Teha“ → „Töös“ → „Tehtud“. Kogu tagasisidet meeskonnast, juhendajalt ja kasutajatelt ning kohanda selle põhjal plaani ja tööprotsessi.
 
 Projekti lõpus analüüsi **tulemusi**: vaata üle algsed eesmärgid, võrdle neid saavutatuga ja selgita kõrvalekallete põhjusi. Analüüsi tehnilisi tulemusi (mudeli täpsus ja jõudlus, süsteemi töökindlus) ja protsessi (ajakava järgimine, ressursside kasutamine, meeskonnatöö). Kogu õppetunnid kolme küsimusega: *Mis läks hästi? Mis oleks võinud paremini minna? Mida teeksime järgmine kord teisiti?*
 
-Lõpuks mõtle **jätkusuutlikkusele** – projekti võimele jätkuda või areneda pärast esialgse projekti lõppu. Arhiveeri kood ja andmed, säilita dokumentatsioon ja mõtle intellektuaalomandile. Kirjelda edasiarendusvõimalusi: järgmised sammud, laiendused, uued rakendused. Tulemusi saab jagada publikatsioonide, avatud lähtekoodi ning esitluste ja ettekannete kaudu. Ja õpitu tuleb kasuks isiklikus arengus, tulevastes projektides ja karjääris.
+Lõpuks mõtle **<span class="pae-term" tabindex="0" data-def="jätkusuutlikkus: Projekti võime jätkuda või areneda ka pärast projekti lõppu">jätkusuutlikkusele</span>** – projekti võimele jätkuda või areneda pärast esialgse projekti lõppu. Arhiveeri kood ja andmed, säilita dokumentatsioon ja mõtle intellektuaalomandile. Kirjelda edasiarendusvõimalusi: järgmised sammud, laiendused, uued rakendused. Tulemusi saab jagada publikatsioonide, avatud lähtekoodi ning esitluste ja ettekannete kaudu. Ja õpitu tuleb kasuks isiklikus arengus, tulevastes projektides ja karjääris.
 
 <!-- class="pae-lisaks" -->
 > **Tea lisaks**
@@ -19367,10 +22700,18 @@ Lõpuks mõtle **jätkusuutlikkusele** – projekti võimele jätkuda või arene
 | dokumenteerimine | projekti tegevuste ja tulemuste kirjalik või visuaalne salvestamine |
 | jätkusuutlikkus | projekti võime jätkuda või areneda pärast esialgse projekti lõppu |
 
+### 📚 Allikad ja lisalugemine
+
+- Google for Developers (s.a.). [Classification: Accuracy, recall, precision, and related metrics](https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall). Üldise täpsuse, täpsuse ja saagise selge selgitus ning hoiatus, miks üldine täpsus tasakaalustamata andmete korral eksitab (inglise keeles).
+- Google (s.a.). [Quick, Draw!](https://quickdraw.withgoogle.com/). Mäng, kus närvivõrk püüab joonistusi ära arvata; joonistused lisatakse avalikku andmekogusse.
+- Google for Developers (s.a.). [ML Universal Guides](https://developers.google.com/machine-learning/guides). Juhendid andmete analüüsi ja levinud andmelõksude kohta („Good Data Analysis“, „Data Traps“; inglise keeles).
+- Kratid.ee (s.a.). [AI kasutuslood](https://www.kratid.ee/kasutuslood-kratid). Eesti avaliku sektori TI-lahendused, sh eesti keele tekstitöötluse tööriistakomplekt EstNLTK.
+- Andmekaitse Inspektsioon (s.a.). [Ringkiri koolidele](https://www.aki.ee/sites/default/files/documents/2024-02/ringkiri_koolidele.pdf). Mida arvestada, kui projektis kogutakse õpilaste fotosid või muid isikuandmeid.
+
 ### Tööleht 7.3
 
 <!-- class="pae-jaotis" -->
-**I. Projekti teostamise etapid**
+**➕ I. Projekti teostamise etapid**
 
 **Ülesanne 1.** Kirjelda lühidalt oma projekti eesmärki ja ulatust (võid kasutada töölehel 7.2 kirjeldatud projekti).
 
@@ -19385,7 +22726,7 @@ Lõpuks mõtle **jätkusuutlikkusele** – projekti võimele jätkuda või arene
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**II. Andmete kogumine ja ettevalmistamine**
+**⭐ II. Andmete kogumine ja ettevalmistamine**
 
 **Ülesanne 4.** Milliseid andmeid vajad oma projekti jaoks? Kust need andmed saad?
 
@@ -19400,7 +22741,7 @@ Lõpuks mõtle **jätkusuutlikkusele** – projekti võimele jätkuda või arene
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Tehisintellekti lahenduse disain**
+**➕ III. Tehisintellekti lahenduse disain**
 
 **Ülesanne 7.** Millist TI-lähenemist või algoritmi plaanid oma projektis kasutada? Põhjenda oma valikut.
 
@@ -19415,7 +22756,7 @@ Lõpuks mõtle **jätkusuutlikkusele** – projekti võimele jätkuda või arene
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Teostus**
+**➕ IV. Teostus**
 
 **Ülesanne 10.** Milliseid programmeerimiskeeli, teeke või tööriistu plaanid kasutada? Miks?
 
@@ -19430,9 +22771,9 @@ Lõpuks mõtle **jätkusuutlikkusele** – projekti võimele jätkuda või arene
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Testimine ja hindamine**
+**⭐ V. Testimine ja hindamine**
 
-**Ülesanne 13.** Kuidas plaanid oma lahendust testida? Milliseid testjuhtumeid kasutad?
+**Ülesanne 13.** Kuidas plaanid oma lahendust testida? Kirjuta vähemalt kolm tavalist testjuhtumit ja kaks piirjuhtumit (nagu TI-katses).
 
 [[___ ___ ___]]
 
@@ -19445,7 +22786,7 @@ Lõpuks mõtle **jätkusuutlikkusele** – projekti võimele jätkuda või arene
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Dokumenteerimine**
+**➕ VI. Dokumenteerimine**
 
 **Ülesanne 16.** Milliseid dokumente plaanid oma projekti kohta koostada (nt tehniline dokumentatsioon, kasutusjuhend, esitlus)?
 
@@ -19460,7 +22801,7 @@ Lõpuks mõtle **jätkusuutlikkusele** – projekti võimele jätkuda või arene
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Praktiline ülesanne: arendusplaani koostamine**
+**➕ VII. Praktiline ülesanne: arendusplaani koostamine**
 
 **Ülesanne 19.** Koosta detailne arendusplaan järgmiseks nädalaks, määrates konkreetsed ülesanded, tähtajad ja oodatavad tulemused.
 
@@ -19481,7 +22822,7 @@ Kirjuta iga päeva kohta eraldi reale: päev – ülesanded – oodatavad tulemu
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Väljakutsete lahendamine**
+**➕ VIII. Väljakutsete lahendamine**
 
 **Ülesanne 22.** Millised on sinu projekti kolm suurimat väljakutset või riski? Kuidas plaanid neid lahendada?
 
@@ -19514,7 +22855,7 @@ Kirjuta iga päeva kohta eraldi reale: päev – ülesanded – oodatavad tulemu
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IX. Arutelu ja refleksioon**
+**➕ IX. Arutelu ja refleksioon**
 
 **Ülesanne 24.** Millised on sinu projekti unikaalsed või uuenduslikud aspektid?
 
@@ -19529,7 +22870,7 @@ Kirjuta iga päeva kohta eraldi reale: päev – ülesanded – oodatavad tulemu
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**X. Eetilised kaalutlused**
+**⭐ X. Eetilised kaalutlused**
 
 **Ülesanne 27.** Milliseid eetilisi küsimusi või probleeme võib sinu projekt tekitada?
 
@@ -19630,23 +22971,77 @@ Tuleb teada, kas testandmetes oli kasse ja koeri sama palju. Kui 90% testpiltide
 
 </details>
 
+### 📤 Väljapääsupilet 7.3
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['7.3'] = ["Kooli söökla andmetabelis on üks päev kirjas kaks korda ja ühel päeval puudub jäätmete kogus. Mida teed nende andmetega enne mudeli treenimist?", "Kui palju langes Quick, Draw! närvivõrgu täpsus piirjuhtumitega ja mida see ütleb sinu projekti testimise kohta?", "Milline arendamise samm tundub sinu projektis kõige keerulisem ja kellelt saaksid abi küsida?"];
+setTimeout(function(){var d=window.paePilet.load('7.3');document.querySelectorAll('[data-pilet="7.3"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="7.3" name="nimi" oninput="window.paePilet.save('7.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kooli söökla andmetabelis on üks päev kirjas kaks korda ja ühel päeval puudub jäätmete kogus. Mida teed nende andmetega enne mudeli treenimist?</div><textarea data-pilet="7.3" name="q0" oninput="window.paePilet.save('7.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Kui palju langes Quick, Draw! närvivõrgu täpsus piirjuhtumitega ja mida see ütleb sinu projekti testimise kohta?</div><textarea data-pilet="7.3" name="q1" oninput="window.paePilet.save('7.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Milline arendamise samm tundub sinu projektis kõige keerulisem ja kellelt saaksid abi küsida?</div><textarea data-pilet="7.3" name="q2" oninput="window.paePilet.save('7.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('7.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('7.3')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_7.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 7.3
 
 <!-- class="pae-naide" -->
-> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Minu esimene mudel vastab igale pildile ‚kass‘ ja saab ometi päris hea tulemuse! Kas ma olen geenius?“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Minu esimene mudel annab alati ühe ja sama vastuse ning saab ometi päris hea tulemuse! Kas ma olen geenius?“
 
-Lukk avaneb, kui lahendad mõistatuse. Arvuta ja kirjuta vastus numbrina.
+Lukk avaneb, kui lahendad ülekandeülesande. Arvuta ja kirjuta vastus numbrina.
 
-**Arvutus:** Krati testandmetes on 200 pilti: 150 kassi ja 50 koera. Krati „mudel“ on tegelikult lihtne võrdlusalus – see vastab igale pildile „kass“. Mitu protsenti on selle võrdlusaluse üldine täpsus? Kirjuta ainult arv.
+**Uus olukord:** Kooli spordipäeva korraldajad tahavad ennustada, kas päev tuleb vihmane. Möödunud 200 koolipäevast oli 150 kuiva ja 50 vihmast päeva. Krati „mudel“ ennustab iga päeva kohta lihtsalt „kuiv“. Mitu protsenti on selle võrdlusaluse üldine täpsus? Kirjuta ainult arv.
 
 [[75]]
-[[?]] Vihje: üldine täpsus = õigesti liigitatud piltide arv / kõigi piltide arv × 100.
+[[?]] Vihje 1: mitme päeva puhul 200-st on ennustus „kuiv“ õige?
+[[?]] Vihje 2: üldine täpsus = õigete ennustuste arv : kõigi ennustuste arv × 100. Õigeid ennustusi on 150.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Treenimine, testimine ja hindamine“ ja loe lõik, kus räägitakse **võrdlusalusest** (baseline). Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI731") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["75", "75%", "75 %", "75 protsenti"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Võrdlusalus saab 75% ilma midagi õppimata – seepärast tuleb oma mudelit alati võrrelda lihtsa võrdlusalusega ja vaadata ka iga klassi tulemusi eraldi.
+✅ **Lukk avatud!** 150 : 200 × 100 = 75. Võrdlusalus saab 75% ilma midagi õppimata, kuid ei ennusta ühtki vihmast päeva õigesti (saagis vihmaste päevade puhul on 0%). Seepärast tuleb oma mudelit alati võrrelda lihtsa võrdlusalusega ja vaadata ka iga klassi tulemusi eraldi.
 
 🔑 **Sinu võtmetäht: B**
 
@@ -19657,22 +23052,42 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 7.4 Projektitöö esitlemine
 
 <!-- class="pae-kaas" -->
-![Pimendatud klassis esitleb kaheliikmeline rühm projekti: üks osutab tulemuste graafikule, teine näitab kaamera ees purki, mille TI-mudel ekraanil ära tunneb, kuulajad tõstavad küsimuseks kätt ja õpetaja hindab esitlust hindamislehel.](pildid/illustratsioonid/7_4.jpg)
+![Hämaras klassis esitleb kaks õpilast projekti: üks osutab ekraanil tulpdiagrammile, teine hoiab käes purki, mille TI-mudel ekraani servas tuvastuskastiga ära tunneb. Kuulajad tõstavad küsimuseks kätt ja õpetaja teeb märkmeid.](pildid/illustratsioonid/7_4.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- tead, milleks projekti esitletakse ja kuidas esitlust sihtrühmale kohandada;
-- oskad koostada selge ülesehitusega esitluse;
-- oskad luua selgeid slaide ja TI-projekti tulemusi sobivalt visualiseerida;
-- oskad valmistada ette demo ja selgitada tehnilisi detaile arusaadavalt;
-- tead, kuidas esineda enesekindlalt, kaasata kuulajaid ja vastata küsimustele;
-- oskad esitlust harjutada, esitluspäevaks valmistuda ning tagasisidet koguda ja kasutada.
+- **selgitad oma sõnadega**, miks tuleb esitlus <span class="pae-term" tabindex="0" data-def="sihtrühm: Inimesed, kellele esitlus on suunatud">sihtrühmale</span> kohandada *(mõistmine)*;
+- **sõnastad** oma projekti peamise tulemuse eri sihtrühmadele, näiteks vanavanemale ja IT-spetsialistile *(rakendamine)*;
+- **analüüsid** masintõlke abil, kas sinu <span class="pae-term" tabindex="0" data-def="elevaatorikõne: 1–2-minutiline lühitutvustus projektist">elevaatorikõne</span> <span class="pae-term" tabindex="0" data-def="põhisõnum: Mõte, mis peab kuulajatele kindlasti meelde jääma">põhisõnum</span> on selge ja üheselt mõistetav *(analüüs)*;
+- **parandad** elevaatorikõnet tõlkeproovi põhjal ja **koostad** oma esitluse põhisõnumid *(loomine)*;
+- **hindad**, mis on sinu esitluse juures suurim mure, ja **kavandad**, kuidas selle lahendad *(hindamine, loomine)*.
+
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Miks ja kellele esitled?“, „Esitluse ülesehitus“, „<span class="pae-term" tabindex="0" data-def="demo: Lahenduse töö näitamine otse või salvestatult">Demo</span> ja tehnilised detailid“ ning „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Kas su põhisõnum jääb tõlkes ellu?“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja VIII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Selles tunnis valmistad ette oma projekti esitluse ja demo. Kõigepealt mõtle, kes on sinu kuulajad ehk **sihtrühm** ja mida nad teavad. IT-spetsialistile räägid tehnilisemalt, vanaemale aga lihtsamate sõnadega. Sõnasta 3–5 **põhisõnumit**, mis peavad kuulajatele kindlasti meelde jääma. Heal esitlusel on selge algus, keskosa ja tugev lõpp. **Demo** näitab kuulajatele, et sinu lahendus päriselt töötab. Testi demot enne esitlust ja hoia varuplaan valmis, näiteks video. Kui sa küsimusele vastust ei tea, ütle seda ausalt.
+
+**Tähtsad sõnad:** **sihtrühm** – inimesed, kellele sa esitlust teed; **põhisõnum** – mõte, mis peab kuulajatele meelde jääma; **demo** – näitad, kuidas sinu lahendus päriselt töötab.
+
+</section>
 
 ### Miks ja kellele esitled?
 
-Ka kõige parem projekt jääb märkamata, kui keegi sellest ei kuule. Projekti **esitlemine** tähendab projekti tulemuste tutvustamist teistele. Hea esitlus koosneb põhjalikust ettevalmistusest, selgest ülesehitusest, sisukatest visuaalidest ja enesekindlast esinemisest.
+Ka kõige parem projekt jääb märkamata, kui keegi sellest ei kuule. Projekti **<span class="pae-term" tabindex="0" data-def="esitlemine: Projekti tulemuste tutvustamine teistele">esitlemine</span>** tähendab projekti tulemuste tutvustamist teistele. Hea esitlus koosneb põhjalikust ettevalmistusest, selgest ülesehitusest, sisukatest visuaalidest ja enesekindlast esinemisest.
 
 Esitlusel on neli eesmärki:
 
@@ -19706,14 +23121,14 @@ TI-projekti esitlusel on hea kasutada järgmist ülesehitust:
 <!-- class="pae-naide" -->
 > **Näide: elevaatorikõne**
 >
-> **Elevaatorikõne** on 1–2-minutiline lühitutvustus, mille jooksul pead suutma oma projekti huvilisele või toetajale ära rääkida – nii lühikese aja jooksul, kui kestab sõit liftis. Näiteks: „Meie koolis visatakse iga päev ära palju toitu. Lõime mudeli, mis ennustab eelmiste nädalate andmete põhjal, mitu portsjonit järgmisel päeval vaja on. Testandmetel oli meie ennustus tunduvalt täpsem kui lihtne keskmine. Järgmiseks tahame mudelit katsetada ka teistes koolides.“
+> **Elevaatorikõne** on lühike, tavaliselt 30–60-sekundiline tutvustus, mille jooksul pead suutma oma projekti huvilisele või toetajale ära rääkida – nii lühikese aja jooksul, kui kestab sõit liftis. Näiteks: „Meie koolis visatakse iga päev ära palju toitu. Lõime mudeli, mis ennustab eelmiste nädalate andmete põhjal, mitu portsjonit järgmisel päeval vaja on. Testandmetel oli meie ennustus tunduvalt täpsem kui lihtne keskmine. Järgmiseks tahame mudelit katsetada ka teistes koolides.“
 
-### Visuaalid ja tulemuste visualiseerimine
+### ➕ Visuaalid ja tulemuste visualiseerimine
 
 Slaidid peavad sinu kõnet toetama, mitte asendama. **Slaidide kujunduses** lähtu selgusest ja lihtsusest, järjepidevusest (sama kujundus kõigil slaididel) ja visuaalsest hierarhiast (kõige olulisem on kõige silmatorkavam). **Teksti** olgu vähe: kirjuta lühikeste ja selgete punktidena ning kasuta loetavat fonti ja piisavalt suurt kirja. Kasuta **visuaalseid elemente**: diagramme, graafikuid, pilte ja ikoone; animatsioone ainult mõõdukalt.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: 6 × 6 reegel**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="6 × 6 reegel: Slaidil kuni 6 punkti, punktis kuni 6 sõna">6 × 6 reegel</span>**
 >
 > **6 × 6 reegel** on slaidikujunduse rusikareegel: ühel slaidil kõige rohkem 6 punkti ja ühes punktis kõige rohkem 6 sõna. See hoiab slaidid lühikesed ja suunab kuulaja tähelepanu sinu jutule.
 
@@ -19727,7 +23142,7 @@ Lisaks kasuta kontrastseid värve (tume tekst heledal taustal või vastupidi) ja
 TI-projektis on palju arve ja tulemusi, mida saab **visualiseerida**:
 
 - **andmed** – graafikud ja diagrammid, soojuskaardid (heatmap'id, kus väärtused on näidatud värvidega), interaktiivsed visualiseeringud;
-- **mudeli tulemused** – täpsusmõõdikud, segadusmaatriksid, õppimiskõverad (graafik, mis näitab, kuidas mudeli täpsus treenimise käigus muutus);
+- **mudeli tulemused** – täpsusmõõdikud, segadusmaatriksid, <span class="pae-term" tabindex="0" data-def="õppimiskõver: Graafik, mis näitab mudeli täpsuse muutumist treenimise käigus">õppimiskõverad</span> (graafik, mis näitab, kuidas mudeli täpsus treenimise käigus muutus);
 - **arhitektuur** – süsteemi diagrammid, andmevoogude skeemid, komponentide seosed;
 - **kasutajaliides** – ekraanipildid, prototüübid, kasutajakogemuse visualiseerimine.
 
@@ -19764,7 +23179,24 @@ Demo ajal selgita selgelt, mida teed, jälgi tempot ja rõhuta olulisimaid funkt
 
 **Tehniliste detailide** esitlemisel otsi tasakaalu: kuulaja peab saama aru, aga sisu peab jääma täpseks. Rõhuta olulist ja arvesta sihtrühmaga. Hoolitse tehnilise täpsuse eest: kontrolli fakte, kasuta terminoloogiat järjepidevalt (nt ära räägi samast asjast kord „mudelina“, kord „algoritmina“, kord „programmina“) ja viita allikatele. Keerulisi mõisteid selgita metafooride ja analoogiate, lihtsustatud näidete ja visuaalsete abivahendite abil. Põhjenda tehnilisi valikuid: miks valisite just selle meetodi, millised olid alternatiivid ja millised on teie lahenduse piirangud. Piirangute ausalt tunnistamine näitab, et mõistad oma tööd hästi.
 
-### Esineja oskused ja küsimused
+### 🧪 TI-katse: kas su põhisõnum jääb tõlkes ellu?
+
+Kui lause on selge ja üheselt mõistetav, jääb selle mõte alles ka siis, kui masintõlge selle teise keelde ja tagasi tõlgib. Pikad, mitmetähenduslikud ja žargooni täis laused lähevad aga tõlkes sageli sassi. Selles katses kasutad masintõlget oma elevaatorikõne selguse testijana.
+
+**Vaja läheb:** Tartu Ülikooli masintõlkesüsteem [Neurotõlge](https://translate.ut.ee/) (tasuta), ~10 min, paaris või rühmas
+
+1. Kirjutage oma projekti elevaatorikõne 3–4 lausega (või kasutage selle tunni näidet kooli söökla kohta).
+2. Tõlkige tekst Neurotõlkes eesti keelest inglise keelde. Kopeerige ingliskeelne tõlge ja tõlkige see tagasi eesti keelde.
+3. Võrrelge originaali ja tagasitõlget lause kaupa. Märkige laused, mille mõte muutus või läks kaduma, ja lihtsustage neid. Korrake proovi parandatud tekstiga.
+
+**Pane tähele / kirjuta üles:** millised laused või terminid muutusid? Miks? Kas pärast lihtsustamist jäi põhisõnum alles? Milles ei saa masintõlget kõne selguse hindamisel usaldada?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** lugege paarilisele oma elevaatorikõne üks kord ette. Paariline jutustab selle oma sõnadega ümber. Võrrelge: millised mõtted jäid alles ja millised läksid kaduma?
+
+### ➕ Esineja oskused ja küsimused
 
 Esitlus ei ole ainult slaidid – oluline on ka see, **kuidas** sa räägid:
 
@@ -19778,11 +23210,11 @@ Esitlus ei ole ainult slaidid – oluline on ka see, **kuidas** sa räägid:
 **Küsimusteks valmistumine** algab nende ennustamisest. Mõtle, millised küsimused on tõenäolised, millised keerulised ja millised kriitilised. Valmista ette selged ja lühikesed vastused ning toetavad näited. Kui sa vastust ei tea, ole aus – ütle, et ei tea, ja paku, et uurid järele. Esitluse ajal otsusta, kas võtad küsimusi kohe või lõpus, viita korduvatele küsimustele juba antud vastusele ja suuna teemast kõrvale kalduvad küsimused viisakalt hilisemaks. Pärast esitlust tegele vastamata küsimustega, paku täiendavat infot ja hoia kuulajatega ühendust.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: konstruktiivne tagasiside**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="konstruktiivne tagasiside: Konkreetne, tasakaalustatud ja arengule suunatud hinnang">konstruktiivne tagasiside</span>**
 >
 > **Konstruktiivne tagasiside** on konkreetne, tasakaalustatud ja arengule suunatud hinnang, mis toob välja nii tugevused kui ka parenduskohad ning pakub soovitusi.
 
-### Harjutamine, esitluspäev ja tagasiside
+### ➕ Harjutamine, esitluspäev ja tagasiside
 
 **Harjutamine** suurendab enesekindlust, aitab ajastust kontrollida ja muudab esitluse sujuvaks. Harjuta iseendale, esitle sõpradele või perele või salvesta end videole ja analüüsi seda. Küsi konstruktiivset tagasisidet, leia parenduskohad ja tugevused ning täienda esitlust: lahenda probleemkohad ja lisa viimane lihv.
 
@@ -19812,7 +23244,7 @@ Viimased näpunäited: ole entusiastlik, keskendu väärtusele, mida sinu projek
 <!-- class="pae-lisaks" -->
 > **Tea lisaks**
 >
-> Ingliskeelseid juhendeid leiad näiteks [projektiesitluse koostamise](https://www.projectmanager.com/blog/create-project-presentation), [teadusplakati kujundamise](https://guides.nyu.edu/posters) ja [elevaatorikõne](https://hbr.org/2018/07/the-perfect-elevator-pitch) kohta.
+> Ingliskeelseid juhendeid leiad näiteks [teadusplakati kujundamise](https://guides.nyu.edu/posters) ja [elevaatorikõne](https://careercenter.emmanuel.edu/blog/2023/11/06/how-to-give-a-great-elevator-pitch-with-examples/) kohta.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -19832,14 +23264,22 @@ Viimased näpunäited: ole entusiastlik, keskendu väärtusele, mida sinu projek
 | põhisõnum | mõte, mis peab kuulajatele kindlasti meelde jääma |
 | 6 × 6 reegel | slaidil kuni 6 punkti, punktis kuni 6 sõna |
 | demo | lahenduse töö näitamine elavalt või salvestatult |
-| elevaatorikõne | 1–2-minutiline lühitutvustus projektist |
+| elevaatorikõne | lühike, tavaliselt 30–60-sekundiline tutvustus projektist |
 | õppimiskõver | graafik, mis näitab mudeli täpsuse muutumist treenimise käigus |
 | konstruktiivne tagasiside | konkreetne, tasakaalustatud ja arengule suunatud hinnang |
+
+### 📚 Allikad ja lisalugemine
+
+- Otepää Gümnaasium (2026). [Slaidiesitluste koostamise juhend](https://nuustaku.edu.ee/wp-content/uploads/2026/04/OG-esitluste-koostamise-juhend.pdf). Eestikeelne kooli juhend: slaidi ülesehitus, tekstihulk, kirjasuurus, värvid ja allikatele viitamine; sobib lisalugemiseks.
+- Emmanuel College Career Center (2023). [How to Give a Great Elevator Pitch (With Examples)](https://careercenter.emmanuel.edu/blog/2023/11/06/how-to-give-a-great-elevator-pitch-with-examples/). Kuidas ehitada üles umbes 30-sekundiline elevaatorikõne (inglise keeles).
+- NYU Libraries (s.a.). [How to Create a Research Poster: Poster Basics](https://guides.nyu.edu/posters). Hea teadusplakati tunnused ja kujundamise nõuanded (inglise keeles).
+- Tartu Ülikool (2023). [The University of Tartu machine translation engine now supports 17 new Finno-Ugric languages](https://keemia.ut.ee/en/content/university-tartu-machine-translation-engine-now-supports-17-new-finno-ugric-languages). Neurotõlke arendusest ja keeltest (inglise keeles).
+- Google for Developers (s.a.). [Classification: Accuracy, recall, precision, and related metrics](https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall). Mõõdikud, mida TI-projekti tulemuste esitlemisel sageli näidatakse (inglise keeles).
 
 ### Tööleht 7.4
 
 <!-- class="pae-jaotis" -->
-**I. Esitluse ettevalmistamine**
+**➕ I. Esitluse ettevalmistamine**
 
 **Ülesanne 1.** Kirjelda lühidalt oma projekti eesmärki ja peamisi tulemusi.
 
@@ -19872,7 +23312,7 @@ Viimased näpunäited: ole entusiastlik, keskendu väärtusele, mida sinu projek
 [[___]]
 
 <!-- class="pae-jaotis" -->
-**II. Esitluse ülesehitus**
+**⭐ II. Esitluse ülesehitus**
 
 **Ülesanne 4.** Koosta oma esitluse ülesehitus.
 
@@ -19901,7 +23341,7 @@ Viimased näpunäited: ole entusiastlik, keskendu väärtusele, mida sinu projek
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Visuaalide loomine**
+**➕ III. Visuaalide loomine**
 
 **Ülesanne 6.** Milliseid visuaalseid elemente plaanid oma esitluses kasutada (nt slaidid, diagrammid, pildid, videod)?
 
@@ -19916,7 +23356,7 @@ Viimased näpunäited: ole entusiastlik, keskendu väärtusele, mida sinu projek
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Tehisintellekti projekti tulemuste visualiseerimine**
+**➕ IV. Tehisintellekti projekti tulemuste visualiseerimine**
 
 **Ülesanne 9.** Milliseid andmeid või tulemusi soovid oma esitluses visualiseerida?
 
@@ -19931,7 +23371,7 @@ Viimased näpunäited: ole entusiastlik, keskendu väärtusele, mida sinu projek
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Demo või prototüübi ettevalmistamine**
+**⭐ V. Demo või prototüübi ettevalmistamine**
 
 **Ülesanne 12.** Kas plaanid oma esitluses demonstreerida projekti tulemust või prototüüpi? Kui jah, siis kirjelda, mida täpsemalt demonstreerid.
 
@@ -19946,7 +23386,7 @@ Viimased näpunäited: ole entusiastlik, keskendu väärtusele, mida sinu projek
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Esitlemise põhimõtted**
+**➕ VI. Esitlemise põhimõtted**
 
 **Ülesanne 15.** Millised on sinu tugevused esitlejana? Kuidas plaanid neid ära kasutada?
 
@@ -19961,7 +23401,7 @@ Viimased näpunäited: ole entusiastlik, keskendu väärtusele, mida sinu projek
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Tehniliste detailide esitlemine**
+**➕ VII. Tehniliste detailide esitlemine**
 
 **Ülesanne 18.** Milliseid tehnilisi detaile pead oma projektist esitluses selgitama?
 
@@ -19976,7 +23416,7 @@ Viimased näpunäited: ole entusiastlik, keskendu väärtusele, mida sinu projek
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Küsimusteks valmistumine**
+**⭐ VIII. Küsimusteks valmistumine**
 
 **Ülesanne 21.** Millised küsimused võivad sinu esitluse kohta tekkida? Kirjuta vähemalt viis võimalikku küsimust ja vastused, mille neile ette valmistad.
 
@@ -20005,7 +23445,7 @@ Viimased näpunäited: ole entusiastlik, keskendu väärtusele, mida sinu projek
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IX. Esitluse harjutamine**
+**➕ IX. Esitluse harjutamine**
 
 **Ülesanne 23.** Kuidas plaanid oma esitlust harjutada? Koosta harjutamise plaan.
 
@@ -20020,7 +23460,7 @@ Viimased näpunäited: ole entusiastlik, keskendu väärtusele, mida sinu projek
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**X. Esitluspäevaks valmistumine**
+**➕ X. Esitluspäevaks valmistumine**
 
 **Ülesanne 26.** Koosta kontrollnimekiri esitluspäevaks.
 
@@ -20046,7 +23486,7 @@ Number(`@input`.trim().replace(",", ".")) === 36
 6 × 6 reegli järgi on slaidil kuni 6 punkti ja igas punktis kuni 6 sõna: 6 × 6 = **36** sõna. Ülejäänu ütled suuliselt.
 ****************************************
 
-**2. Kuidas nimetatakse 1–2-minutilist lühitutvustust, mille jooksul pead suutma oma projekti huvilisele ära rääkida? Kirjuta vastus.**
+**2. Kuidas nimetatakse lühikest, tavaliselt 30–60-sekundilist tutvustust, mille jooksul pead suutma oma projekti huvilisele ära rääkida? Kirjuta vastus.**
 
 [[elevaatorikõne]]
 <script>
@@ -20117,23 +23557,77 @@ Kõigepealt planeerin demo stsenaariumi ehk täpsed sammud, mida näitan. Seejä
 
 </details>
 
+### 📤 Väljapääsupilet 7.4
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['7.4'] = ["Kuidas selgitaksid oma projekti peamist tulemust ühe lausega oma vanavanemale ja kuidas IT-spetsialistile?", "Mis muutus sinu elevaatorikõnes pärast tõlkeproovi ja miks?", "Mis on sinu esitluse juures praegu kõige suurem mure ja mida teed selle lahendamiseks?"];
+setTimeout(function(){var d=window.paePilet.load('7.4');document.querySelectorAll('[data-pilet="7.4"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="7.4" name="nimi" oninput="window.paePilet.save('7.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kuidas selgitaksid oma projekti peamist tulemust ühe lausega oma vanavanemale ja kuidas IT-spetsialistile?</div><textarea data-pilet="7.4" name="q0" oninput="window.paePilet.save('7.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mis muutus sinu elevaatorikõnes pärast tõlkeproovi ja miks?</div><textarea data-pilet="7.4" name="q1" oninput="window.paePilet.save('7.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis on sinu esitluse juures praegu kõige suurem mure ja mida teed selle lahendamiseks?</div><textarea data-pilet="7.4" name="q2" oninput="window.paePilet.save('7.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('7.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('7.4')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_7.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 7.4
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Mul on homme suur esitlus. Aga mis siis, kui internet kaob ja mu demo jääb lihtsalt tühjusse vahtima?“
 
-Lukk avaneb, kui lahendad mõistatuse. Leia tsitaadist puuduv sõna.
+Lukk avaneb, kui lahendad ülekandeülesande.
 
-**Puuduv sõna:** „Testin demot enne esitlust samas klassis ja samas võrgus. Kui internet ei tööta, näitan demost salvestatud videot ja ekraanipilte – see on minu ______.“ Kirjuta puuduv sõna.
+**Uus olukord:** Kooli jalgpallimeeskond sõidab võõrsilmängule tellitud bussiga. Treener on igaks juhuks kokku leppinud ka kahe lapsevanemaga, kes saavad mängijad autoga kohale viia, kui buss ei tule. Kuidas nimetatakse seda, mille treener ette valmistas ja mida hea esineja vajab ka demo jaoks? Kirjuta üks sõna.
 
 [[varuplaan]]
-[[?]] Vihje: liitsõna, mille esimene pool tähendab „tagavaraks“ ja teine pool „kava“.
+[[?]] Vihje 1: mis aitab, kui esimene lahendus ootamatult üles ütleb?
+[[?]] Vihje 2: 9-täheline liitsõna, mille esimene pool tähendab „tagavaraks“ ja teine pool „kava“.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Demo ja tehnilised detailid“ ja loe nimekiri „Hea demo jaoks“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI875") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["varuplaan", "varuplaaniks", "varuplaani", "varuvariant", "plaan b", "b-plaan"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Varuplaan aitab demol õnnestuda ka siis, kui tehnika alt veab – hea esineja valmistub ka ootamatusteks.
+✅ **Lukk avatud!** Treeneri autod on varuplaan – samamoodi aitab salvestatud video või ekraanipiltide seeria demol õnnestuda ka siis, kui tehnika alt veab. Hea esineja valmistub ka ootamatusteks.
 
 🔑 **Sinu võtmetäht: A**
 
@@ -20144,20 +23638,40 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 ## 7.5 Projektitööde esitlemine ja kursuse lõpetamine
 
 <!-- class="pae-kaas" -->
-![Vanikutega kaunistatud klassis kinnitab õpilane tagasisidetahvlile kleepmärkme, õpetaja ulatab teisele õpilasele lõputunnistuse, kaaslased plaksutavad ning laual on tort ja sülearvuti valmis projektikaustaga.](pildid/illustratsioonid/7_5.jpg)
+![Vanikute ja õhupallidega kaunistatud klassis ulatab õpetaja õpilasele lõputunnistuse ja kaaslased plaksutavad. Seinal on kleepmärkmetega tahvel, laual tort ja lilled ning aknast paistab päikeseloojangus Tallinna vanalinn.](pildid/illustratsioonid/7_5.jpg)
 
 ### Õpieesmärgid
 
 Selle tunni järel sa:
 
-- tead, kuidas on korraldatud projektitööde esitlemine ja mille põhjal esitlusi hinnatakse;
-- oskad anda konstruktiivset tagasisidet ja tagasisidet avatult vastu võtta;
-- oskad projekti dokumentatsiooni ja materjalid lõpetada ning tulemusi vastutustundlikult jagada;
-- oskad reflekteerida oma õppimise, meeskonnatöö ja projekti üle;
-- tead TI peamisi tulevikusuundi, sealhulgas Eesti vaatenurgast;
-- tead, kuidas TI-d edasi õppida ja millised karjäärivõimalused selles valdkonnas on.
+- **selgitad oma sõnadega**, mis teeb <span class="pae-term" tabindex="0" data-def="tagasiside: Info tugevuste ja nõrkuste kohta edasise arengu toetamiseks">tagasiside</span> konstruktiivseks *(mõistmine)*;
+- **rakendad** <span class="pae-term" tabindex="0" data-def="autoriõigus: Õigus, mis kaitseb autori loomingut, sh koodi, teksti ja pilte">autoriõiguse</span> ja <span class="pae-term" tabindex="0" data-def="litsents: Tingimused, mille alusel teised võivad tööd kasutada">litsentside</span> reegleid, kui jagad oma projekti tulemusi *(rakendamine)*;
+- **analüüsid** saadud tagasisidet ise ja TI-tööriista abil ning **võrdled** tulemusi *(analüüs)*;
+- **hindad** kriitiliselt, kas TI tegi tagasisidest õige kokkuvõtte *(hindamine)*;
+- **koostad** konstruktiivse tagasiside kaaslase projekti esitlusele *(loomine)*.
 
-### Esitluspäev: korraldus ja hindamine
+<!-- class="pae-fakt" -->
+> **🎯 Tunni tuumik (45 min)**
+>
+> 1. 📚 **Loe** (~12 min): „Tagasiside andmine ja vastuvõtmine“, „Projekti lõpetamine ja tulemuste jagamine“, „Tehisintellekti tulevik – ka Eestis“ ning „Kokkuvõte ja põhimõisted“
+> 2. 🧪 **TI-katse** (~10 min): „Tagasiside analüüs: inimene vs TI“
+> 3. ⭐ **Tööleht** (~15 min): ülesanded III, VI ja VIII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+>
+> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+
+{{|>}}
+<section class="pae-lihtne">
+
+**🟢 Lihtsalt öeldes**
+
+Selles tunnis esitled oma projekti ja annad teistele **tagasisidet**. Hea tagasiside on konkreetne, tasakaalustatud ja aitab teisel areneda. Lause „Esitlus oli hea“ ei aita esinejat kuigi palju. Parem on öelda täpselt, mis oli hea ja mida võiks muuta. Kui saad tagasisidet, kuula rahulikult ja ära vaidle kohe vastu. Lõpus pane projekt korda: kirjuta dokumentatsioon ja korrasta kood. Arvesta **autoriõigusega** ja viita teiste piltidele ja koodile. Ka sina võid kujundada Eesti rolli TI arengus.
+
+**Tähtsad sõnad:** **tagasiside** – info selle kohta, mis on hästi ja mida parandada; **konstruktiivne tagasiside** – konkreetne, tasakaalustatud ja arengule suunatud hinnang; **autoriõigus** – õigus, mis kaitseb autori loomingut, ka koodi ja pilte.
+
+</section>
+
+### ➕ Esitluspäev: korraldus ja hindamine
 
 Kursuse lõpetamine on oluline hetk: see on võimalus näidata, mida oled õppinud, saada tagasisidet ja kinnistada õpitut. Projektitööde esitlemisel on mitu eesmärki – tutvustada oma tööd, õppida teiste projektidest, anda ja saada tagasisidet ning mõelda edasistele sammudele.
 
@@ -20174,7 +23688,7 @@ Esitlust hinnatakse tavaliselt kolmes valdkonnas:
 ![Kolm veergu linnukestega: sisu (eesmärgid täidetud, tehniline kvaliteet, uuenduslikkus), esitlus (selgus, visuaalne kvaliteet, ajaplaneerimine) ja vastamine (vastused küsimustele, teadmiste näitamine, refleksioonivõime).](pildid/plokk_7/7_5_hindamine.svg "Joonis 7.5.1. Esitluse hindamise kolm valdkonda")
 
 <!-- class="pae-moiste" -->
-> **Mõiste: projekti hindamine**
+> **Mõiste: <span class="pae-term" tabindex="0" data-def="projekti hindamine: Projekti tulemuste võrdlemine eesmärkidega">projekti hindamine</span>**
 >
 > **Projekti hindamine** on projekti tulemuste võrdlemine eesmärkidega, et teha kindlaks projekti edukus ja saavutused. Hinnatakse näiteks eesmärkide saavutamise määra, ajakava järgimist, ressursside kasutamist, tulemuste kvaliteeti, meeskonna koostööd ja õppimiskogemust.
 
@@ -20228,9 +23742,9 @@ Jagamisel arvesta **intellektuaalomandiga**. **Autoriõigus** kaitseb loomingut,
 >
 > **Portfoolio** on sinu tööde kogum, mis näitab sinu õppimist, arengut ja saavutusi. Projektitöö lisamine portfooliosse aitab esile tuua saavutusi ja näidata õpitut – näiteks edasiõppimisel või töö otsimisel.
 
-### Õpitu reflekteerimine
+### ➕ Õpitu reflekteerimine
 
-**Refleksioon** tähendab oma kogemuse üle teadlikku järelemõtlemist: mida tegid, mida õppisid ja mida teeksid edaspidi teisiti. Kursuse lõpus tasub reflekteerida kolmel tasandil:
+**<span class="pae-term" tabindex="0" data-def="refleksioon: Teadlik järelemõtlemine oma kogemuse ja õppimise üle">Refleksioon</span>** tähendab oma kogemuse üle teadlikku järelemõtlemist: mida tegid, mida õppisid ja mida teeksid edaspidi teisiti. Kursuse lõpus tasub reflekteerida kolmel tasandil:
 
 - **isiklik areng** – millised teadmised omandasid, milliseid oskusi arendasid, milliseid väljakutseid ületasid;
 - **meeskonnatöö** – mis olid teie koostöö tugevused, millised väljakutsed tekkisid ja kuidas te need lahendasite, millised õppetunnid võtad kaasa;
@@ -20249,25 +23763,42 @@ Mis saab edasi? **Tehnoloogilistest trendidest** on praegu esiplaanil suured kee
 <!-- class="pae-eesti" -->
 > **Eesti näide: Eesti tehisintellekti tegevuskavad**
 >
-> Eesti on TI kasutuselevõttu suunanud riiklike tegevuskavadega ehk **kratikavadega** (2019–2021 ja 2022–2023). Neid jätkab **tehisintellekti tegevuskava 2024–2026**, mis keskendub TI rakendamisele erinevates valdkondades. Ettevõtteid toetavad näiteks **Tehnopoli AI arenguprogramm** ning tehisintellekti ja robootika teenuskeskus **AIRE**, mis nõustab tööstusettevõtteid. Eesti tugevuseks on digiriik – sellised lahendused nagu **Bürokratt** näitavad, et väike riik võib TI kasutamisel olla eeskujuks.
+> Eesti on TI kasutuselevõttu suunanud riiklike tegevuskavadega ehk **kratikavadega** (2019–2021 ja 2022–2023). Neid jätkab praegu kehtiv **tehisintellekti tegevuskava ehk kratikava 2024–2026**, mis keskendub TI rakendamisele avalikus sektoris, majanduses ja ühiskonnas ning usaldusväärsele, inimkesksele TI-le. Ettevõtteid toetavad näiteks **Tehnopoli AI arenguprogramm** ning tehisintellekti ja robootika teenuskeskus **AIRE**, mis nõustab tööstusettevõtteid. Eesti tugevuseks on digiriik – sellised lahendused nagu **Bürokratt** näitavad, et väike riik võib TI kasutamisel olla eeskujuks.
 
 Eesti jaoks on TI ühtaegu võimalus ja väljakutse: see võib aidata väikesel riigil oma teenuseid tõhusamaks muuta, aga eeldab näiteks eesti keeletehnoloogia arendamist ja oskustega inimesi. Just sina võid olla üks neist, kes Eesti rolli TI arengus kujundab.
 
 <!-- class="pae-fakt" -->
-> **Kas teadsid?** Eesti on suunanud TI kasutuselevõttu riiklike tegevuskavadega juba alates 2019. aastast: kratikavad 2019–2021 ja 2022–2023 ning tehisintellekti tegevuskava 2024–2026.
+> **Kas teadsid?** Eesti esimese tehisintellekti tegevuskava (2019–2021) eelarve oli umbes 10 miljonit eurot, teise (2022–2023) umbes 20 miljonit eurot. Tegevuskavaga 2024–2026 plaanis riik TI kasutuselevõttu suunata vähemalt 85 miljonit eurot.
 
-### Edasiõppimine ja karjäär
+### 🧪 TI-katse: tagasiside analüüs – inimene vs TI
+
+Esitluspäeval saad palju tagasisidet. TI-tööriist oskab kommentaare kiiresti teemadesse rühmitada, aga kas ta teeb seda õigesti? Selles katses võrdled TI tehtud analüüsi enda omaga.
+
+**Vaja läheb:** kooli lubatud vestlusrobot (nt [TI-Hüppe õpirakendus](https://tihupe.ee/opirakendus/)), esitluspäeval saadud kirjalik tagasiside (vähemalt 6 kommentaari), ~10 min, rühmas
+
+1. Kirjutage kommentaarid ümber nii, et neis ei oleks ühtegi nime ega muud isikuandmet. Rühmitage need kõigepealt **ise** kolme teemasse ning märkige tugevused ja parenduskohad.
+2. Kleepige samad anonüümitud kommentaarid vestlusrobotisse ja paluge: „Rühmita need tagasisidekommentaarid kolme teemasse ning too välja tugevused ja parenduskohad. Ära lisa midagi, mida kommentaarides pole.“
+3. Võrrelge roboti ja enda analüüsi. Kas robot jättis midagi välja, liitis eri mõtteid valesti kokku või mõtles midagi juurde?
+
+**Pane tähele / kirjuta üles:** milles robot aitas ja milles eksis? Millise parenduse teete tagasiside põhjal kindlasti? Kas sellist tööriista võib kasutada tagasisidega, milles on kaaslaste nimed? Miks?
+
+[[___ ___ ___]]
+
+<!-- class="pae-lisaks" -->
+> **Kui arvutit pole:** kaks rühmaliiget rühmitavad samad kommentaarid teineteisest sõltumatult kolme teemasse. Võrrelge tulemusi: kus olite ühel meelel ja kus mitte? Mida see ütleb tagasiside analüüsi usaldusväärsuse kohta?
+
+### ➕ Edasiõppimine ja karjäär
 
 TI-d saab edasi õppida mitmel viisil:
 
-- **formaalne haridus** – kõrghariduse võimalused (nt Tartu Ülikooli arvutiteaduse instituut, Tallinna Tehnikaülikooli IT-teaduskond, Tallinna Ülikooli digitehnoloogiate instituut), täienduskoolitused ja sertifikaadiprogrammid;
+- **formaalne haridus** – kõrghariduse võimalused (nt Tartu Ülikooli arvutiteaduse instituut, Tallinna Tehnikaülikooli infotehnoloogia teaduskond, Tallinna Ülikooli digitehnoloogiate instituut), täienduskoolitused ja sertifikaadiprogrammid;
 - **iseseisev õppimine** – veebikursused (nt eestikeelne [Elements of AI](https://www.elementsofai.ee/)), raamatud ja artiklid ning praktilised projektid;
-- **kogukonnad ja üritused** – TI-kogukonnad, häkatonid (lühikesed intensiivsed arendusvõistlused) ja võistlused, konverentsid ja seminarid.
+- **kogukonnad ja üritused** – TI-kogukonnad, <span class="pae-term" tabindex="0" data-def="häkaton: Lühike intensiivne arendusvõistlus">häkatonid</span> (lühikesed intensiivsed arendusvõistlused) ja võistlused, konverentsid ja seminarid.
 
 <!-- class="pae-lisaks" -->
 > **Tea lisaks**
 >
-> Euroopas ühendavad TI-teadlasi näiteks laborite konföderatsioon **CLAIRE**, mis koondab üle 400 TI-uurimisrühma ja institutsiooni, ning masinõppele keskenduv labor **ELLIS**. Ka Euroopa Liidu teadusprogramm „Euroopa horisont“ rahastab TI-uuringuid.
+> Euroopas ühendavad TI-teadlasi näiteks laborite konföderatsioon **CLAIRE**, mille uurimisvõrgustikku kuulub üle 500 TI-uurimisrühma ja -asutuse, ning masinõppele keskenduv võrgustik **ELLIS**. Ka Euroopa Liidu teadusprogramm „Euroopa horisont“ rahastab TI-uuringuid.
 
 TI valdkonnas on palju **erinevaid rolle**:
 
@@ -20282,7 +23813,7 @@ Nendes rollides on vaja **tehnilisi oskusi** (nt programmeerimine, andmeanalüü
 
 ![Kolm edasiõppimise viisi – formaalne haridus, iseseisev õppimine ja kogukonnad – ning neli rolli TI valdkonnas: andmeteadlane, masinõppe insener, TI-eetika spetsialist ja TI-rakenduste arendaja; all kiri, et vaja on tehnilisi ja pehmeid oskusi ning valdkonnateadmisi.](pildid/plokk_7/7_5_edasi.svg "Joonis 7.5.4. Edasiõppimine ja karjäär TI valdkonnas")
 
-### Kursuse lõpetamine
+### ➕ Kursuse lõpetamine
 
 Kursuse lõpus toimuvad hindamine ja tagasiside: sinu tööd hinnatakse kokkulepitud kriteeriumide alusel, sina annad tagasisidet kursusele ja hindad ka ise oma õppimist. Tunnustatakse saavutusi ja tõstetakse esile silmapaistvaid projekte. Ja kindlasti tänatakse kõiki, kes kursusesse panustasid – õpilasi, koostööpartnereid ja toetajaid.
 
@@ -20310,10 +23841,19 @@ Kokkuvõtteks: tehisintellekt on meie elus üha olulisem, õppimine on väärtus
 | multimodaalne süsteem | TI-süsteem, mis töötleb mitut liiki andmeid (tekst, pilt, heli) |
 | häkaton | lühike intensiivne arendusvõistlus |
 
+### 📚 Allikad ja lisalugemine
+
+- Tartu Ülikooli arvutiteaduse instituut (s.a.). [Digiõpik: 13. tund. Litsentsid ja viitamine](https://courses.cs.ut.ee/t/digiopik/Digitaalneohutus/Tund13). Eestikeelne õppetund avatud litsentside ja viitamise kohta; sobib lisalugemiseks.
+- Creative Commons (s.a.). [Autorile viitamine 3.0 Eesti (CC BY 3.0 EE)](https://creativecommons.org/licenses/by/3.0/ee/legalcode). Ühe levinud avatud litsentsi eestikeelne tekst.
+- Kratid.ee (s.a.). [Visioon ja kavad](https://www.kratid.ee/kratt-visioon). Eesti tehisintellekti tegevuskavad 2019–2021, 2022–2023 ja kratikava 2024–2026.
+- ERR (2024). [Riik plaanib 85 miljoni euro abil tehisintellekti Eesti ellu juurutada](https://www.err.ee/1609248531/riik-plaanib-85-miljoni-euro-abil-tehisintellekti-eesti-ellu-juurutada). Tegevuskava 2024–2026 eesmärgid ja eelarve.
+- TI-Hüpe (s.a.). [Õppevideod](https://tihupe.ee/oppevideod/). Sarjas „Tipptegijad näitavad“ räägivad eri ametite esindajad, kuidas nad TI-d oma töös kasutavad – abiks karjäärivalikul.
+- Wikipedia (s.a.). [Confederation of Laboratories for Artificial Intelligence Research in Europe](https://en.wikipedia.org/wiki/Confederation_of_Laboratories_for_Artificial_Intelligence_Research_in_Europe). Euroopa TI-teadlaste võrgustiku CLAIRE ülevaade (inglise keeles).
+
 ### Tööleht 7.5
 
 <!-- class="pae-jaotis" -->
-**I. Projektitööde esitlemise korraldus**
+**➕ I. Projektitööde esitlemise korraldus**
 
 **Ülesanne 1.** Millised on sinu ootused projektitööde esitlemise päevale? Mida soovid näha ja õppida?
 
@@ -20328,7 +23868,7 @@ Kokkuvõtteks: tehisintellekt on meie elus üha olulisem, õppimine on väärtus
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**II. Oma projekti esitlemise ettevalmistus**
+**➕ II. Oma projekti esitlemise ettevalmistus**
 
 **Ülesanne 4.** Millised on sinu projekti kõige olulisemad aspektid, mida soovid kindlasti esitlusel rõhutada?
 
@@ -20343,13 +23883,13 @@ Kokkuvõtteks: tehisintellekt on meie elus üha olulisem, õppimine on väärtus
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**III. Tagasiside vastuvõtmine ja andmine**
+**⭐ III. Tagasiside vastuvõtmine ja andmine**
 
 **Ülesanne 7.** Kuidas plaanid saadavasse tagasisidesse suhtuda? Mida soovid tagasisidest õppida?
 
 [[___ ___ ___ ___]]
 
-**Ülesanne 8.** Millised on sinu põhimõtted konstruktiivse tagasiside andmisel teistele?
+**Ülesanne 8.** Vali üks kaasõpilaste esitlus ja kirjuta sellele konstruktiivne tagasiside: üks konkreetne tugevus, üks parenduskoht ja üks soovitus.
 
 [[___ ___ ___]]
 
@@ -20358,7 +23898,7 @@ Kokkuvõtteks: tehisintellekt on meie elus üha olulisem, õppimine on väärtus
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IV. Projekti dokumentatsiooni lõpetamine**
+**➕ IV. Projekti dokumentatsiooni lõpetamine**
 
 **Ülesanne 10.** Millised dokumendid peavad projekti esitlemiseks lõplikult valmis olema?
 
@@ -20373,7 +23913,7 @@ Kokkuvõtteks: tehisintellekt on meie elus üha olulisem, õppimine on väärtus
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**V. Projekti koodi ja materjalide lõpetamine**
+**➕ V. Projekti koodi ja materjalide lõpetamine**
 
 **Ülesanne 13.** Millised on viimased tegevused, mida pead tegema oma projekti koodi või materjalide lõpetamiseks?
 
@@ -20388,7 +23928,7 @@ Kokkuvõtteks: tehisintellekt on meie elus üha olulisem, õppimine on väärtus
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VI. Õpitu reflekteerimine**
+**⭐ VI. Õpitu reflekteerimine**
 
 **Ülesanne 16.** Mida oled projektitöö käigus tehisintellekti kohta õppinud?
 
@@ -20403,7 +23943,7 @@ Kokkuvõtteks: tehisintellekt on meie elus üha olulisem, õppimine on väärtus
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VII. Kursuse kokkuvõte**
+**➕ VII. Kursuse kokkuvõte**
 
 **Ülesanne 19.** Millised on sinu jaoks olnud kursuse „Tehisintellekti alused“ kõige olulisemad õppetunnid?
 
@@ -20418,7 +23958,7 @@ Kokkuvõtteks: tehisintellekt on meie elus üha olulisem, õppimine on väärtus
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**VIII. Tehisintellekti tulevikuperspektiivid**
+**⭐ VIII. Tehisintellekti tulevikuperspektiivid**
 
 **Ülesanne 22.** Millised on sinu arvates kõige põnevamad või olulisemad TI arengusuunad lähitulevikus?
 
@@ -20433,7 +23973,7 @@ Kokkuvõtteks: tehisintellekt on meie elus üha olulisem, õppimine on väärtus
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**IX. Edasiõppimine ja -arendamine**
+**➕ IX. Edasiõppimine ja -arendamine**
 
 **Ülesanne 25.** Milliseid TI-ga seotud teemasid soovid pärast seda kursust edasi õppida?
 
@@ -20448,7 +23988,7 @@ Kokkuvõtteks: tehisintellekt on meie elus üha olulisem, õppimine on väärtus
 [[___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
-**X. Tagasiside kursusele**
+**➕ X. Tagasiside kursusele**
 
 **Ülesanne 28.** Mis oli sinu arvates kursuse tugevus? Mida võiks säilitada või veelgi tugevdada?
 
@@ -20554,23 +24094,77 @@ Eesti tegevuskavad on kratikavad 2019–2021 ja 2022–2023 ning neid jätkav te
 
 </details>
 
+### 📤 Väljapääsupilet 7.5
+
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+
+<script>
+window.paePilet = window.paePilet || {
+  key: function(id){ return 'paePilet_' + id; },
+  load: function(id){ try { return JSON.parse(localStorage.getItem(this.key(id)) || '{}'); } catch(e){ return {}; } },
+  save: function(id){
+    var d = {}; document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(this.key(id), JSON.stringify(d)); } catch(e){}
+    return d;
+  },
+  text: function(id, qs){
+    var d = this.save(id), out = 'Väljapääsupilet ' + id + '\nNimi: ' + (d.nimi||'') + '\nKuupäev: ' + new Date().toLocaleDateString('et-EE') + '\n\n';
+    qs.forEach(function(q,i){ out += (i+1) + '. ' + q + '\n' + (d['q'+i]||'') + '\n\n'; });
+    return out;
+  },
+  copy: function(id){
+    var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
+    else { this.fallback(t); done(); }
+  },
+  fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
+  download: function(id){
+    var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
+    var a = document.createElement('a');
+    a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(t);
+    a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
+    a.setAttribute('target', '_self'); a.style.display = 'none';
+    document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+  }
+};
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['7.5'] = ["Sõber kasutas oma projektis internetist leitud pilte ilma allikat märkimata. Mida soovitad tal enne töö avalikku jagamist teha?", "Mille poolest erines vestlusroboti tehtud tagasiside analüüs sinu enda omast?", "Mida tahad tehisintellekti kohta pärast seda kursust veel õppida ja kust alustad?"];
+setTimeout(function(){var d=window.paePilet.load('7.5');document.querySelectorAll('[data-pilet="7.5"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="7.5" name="nimi" oninput="window.paePilet.save('7.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Sõber kasutas oma projektis internetist leitud pilte ilma allikat märkimata. Mida soovitad tal enne töö avalikku jagamist teha?</div><textarea data-pilet="7.5" name="q0" oninput="window.paePilet.save('7.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mille poolest erines vestlusroboti tehtud tagasiside analüüs sinu enda omast?</div><textarea data-pilet="7.5" name="q1" oninput="window.paePilet.save('7.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mida tahad tehisintellekti kohta pärast seda kursust veel õppida ja kust alustad?</div><textarea data-pilet="7.5" name="q2" oninput="window.paePilet.save('7.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('7.5')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('7.5')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_7.5" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+</script>
+
+<!-- data-type="none" -->
+| Kriteerium | 2 p | 1 p | 0 p |
+|---|---|---|---|
+| Mõiste rakendamine uues olukorras | Õige mõiste ja selge põhjendus | Mõiste õige, põhjendus puudu või ebatäpne | Vastus puudub või on vale |
+| TI-katse tõlgendus | Tulemus on seotud tunni mõistega | Tulemus on kirjeldatud, seos puudub | Puudub |
+| Refleksioon | Konkreetne ja isiklik | Üldine | Puudub |
+
+*Väljapääsupilet on kujundav hindamine: õpetaja annab tagasisidet ja kasutab vastuseid järgmise tunni planeerimisel. Pilet sobib ka portfoolio õpipäevikusse.*
+
+
 ### 🔐 Lukk 7.5
 
 <!-- class="pae-naide" -->
 > ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma hakkan meenutama, kust mu nimi pärit on… See oli seotud Eesti riigi plaanidega tehisaru kohta. Kratt… kratt… mis see sõna oligi?“
 
-Lukk avaneb, kui lahendad mõistatuse. Leia puuduv sõna.
+Lukk avaneb, kui lahendad ülekandeülesande.
 
-**Puuduv sõna:** Eesti tehisintellekti riiklikke tegevuskavasid aastateks 2019–2021 ja 2022–2023 nimetatakse ka ______deks. Kirjuta sõna algvormis (ainsuse nimetavas).
+**Uus olukord:** Kujutle, et loed 2027. aastal uudist: „Valitsus kiitis heaks uue kava, mis määrab, kuidas riik järgmistel aastatel tehisintellekti avalikes teenustes ja ettevõtetes kasutusele võtab ning kui palju selleks raha eraldatakse.“ Millise Eestis kasutusel oleva sõnaga nimetatakse selliseid riiklikke TI-tegevuskavasid? Kirjuta sõna algvormis (ainsuse nimetavas).
 
 [[kratikava]]
-[[?]] Vihje: sõna esimene pool on päästetava tehisaru nimi.
+[[?]] Vihje 1: sõna esimene pool pärineb eesti mütoloogiast – see on olend, kes täitis peremehe käske.
+[[?]] Vihje 2: sõna esimene pool on päästetava tehisaru nimi, teine pool tähendab plaani.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „Tehisintellekti tulevik – ka Eestis“ ja loe kasti „Eesti näide: Eesti tehisintellekti tegevuskavad“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI140") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
 ["kratikava", "kratikavad", "kratikavadeks", "kratikavaks", "krati kava", "kratt-kava"].includes(v)
+}
 </script>
 ****************************************
-✅ **Lukk avatud!** Kratikavad on Eesti riigi plaanid TI kasutuselevõtuks – ja nüüd teab ka Kratt, et ta nimi pärineb eesti mütoloogiast ja riigi oma tehisaru visioonist.
+✅ **Lukk avatud!** Kratikavad on Eesti riigi plaanid TI kasutuselevõtuks: 2019–2021, 2022–2023 ja kratikava 2024–2026; 2026. aastal käivitati ka algatus Eesti.ai. Nüüd teab ka Kratt, et ta nimi pärineb eesti mütoloogiast ja riigi oma tehisaru visioonist.
 
 🔑 **Sinu võtmetäht: D**
 
@@ -20631,7 +24225,7 @@ Rühmatöö võib olla ühes järgmistest vormidest (kooskõlastage valik õpeta
 
 Rühmatöö kestab ligikaudu seitse nädalat ja koosneb viiest etapist:
 
-![Ülevaade projektitööst: rühmas 3–4 õpilast, töö kestab umbes 7 nädalat ja valida saab 5 töövormi vahel. Ajajoonel viis etappi: 1. nädal rühm ja teema, 1.–2. nädal tööplaan, 3.–5. nädal uurimine ja teostus, 6. nädal aruanne ja esitlus, 7. nädal esitlus ja tagasiside. Hindamise neli valdkonda on sisu (kõige suurem kaal), esitlus, koostöö ja dokumentatsioon.](pildid/plokk_7/7_juhend_ylevaade.svg "Joonis 7.J.1. Projektitöö ühe pilguga: rühm, ajakava ja hindamine")
+![Ülevaade projektitööst: rühmas 3–4 õpilast, töö kestab umbes 7 nädalat ja valida saab 5 töövormi vahel. Ajajoonel viis etappi: 1. nädal rühm ja teema, 1.–2. nädal tööplaan, 3.–5. nädal uurimine ja teostus, 6. nädal aruanne ja esitlus, 7. nädal esitlus ja tagasiside. Hindamine: õpetaja hinnang 70 %, vastastikhindamine 20 % ja enesehindamine 10 %; hinde 5 saab 90–100 punkti eest. Kriteeriumid on sisu, metoodika ja teostus, esitlus, aruanne ning allikate kasutamine, igaühel neli taset.](pildid/plokk_7/7_juhend_ylevaade.svg "Joonis 7.J.1. Projektitöö ühe pilguga: rühm, ajakava ja hindamine")
 
 **1. Rühmade moodustamine.** Rühmas on 3–4 õpilast. Rühmad moodustatakse teie eelistuste järgi või määrab need õpetaja.
 
@@ -20693,45 +24287,49 @@ Kui teie töö vorm sisaldab kirjalikku aruannet, järgige seda ülesehitust:
 10. **Lisad** – täiendavad materjalid, toorandmed, intervjuude üleskirjutused, kood või muud tehnilised materjalid.
 
 <!-- class="pae-jaotis" -->
-**Hindamiskriteeriumid**
+**Hindamine**
 
-Teie tööd hinnatakse neljas valdkonnas: **sisu**, **esitlus**, **koostöö** ja **dokumentatsioon**. Kõige suurema kaaluga on sisu, seejärel esitlus, koostöö ja dokumentatsioon. Tabelites on kirjeldatud, milline on iga kriteeriumi puhul suurepärane, hea, rahuldav ja puudulik töö – kasutage neid oma töö kontrollimiseks.
+Projektitööd hinnatakse sama mudeli järgi nagu kursuse teisi rühmatöid. Lõpptulemus on 0–100 punkti ja see koosneb kolmest osast.
 
-**1. Sisu**
+<!-- data-type="none" -->
+| Hindamise osa | Kaal | Kes hindab ja kuidas |
+|---|---|---|
+| Õpetaja hinnang | 70 % | õpetaja hindab rühma tööd allpool oleva hindamistabeli järgi (0–100 punkti) |
+| Vastastikhindamine | 20 % | teised rühmad hindavad teie tööd ja esitlust sama hindamistabeli järgi; arvesse läheb nende hinnangute keskmine (0–100 punkti) |
+| Enesehindamine | 10 % | rühm hindab oma tööd sama hindamistabeli järgi (0–100 punkti) ja iga liige vastab allpool olevatele enesehindamise küsimustele |
 
-| Kriteerium | Suurepärane | Hea | Rahuldav | Puudulik |
+**Lõpptulemus** = 0,7 × õpetaja hinnang + 0,2 × vastastikhindamine + 0,1 × enesehindamine.
+
+*Näide:* õpetaja hinnang on 80 punkti, vastastikhindamine 85 punkti ja enesehindamine 90 punkti. Lõpptulemus on 0,7 × 80 + 0,2 × 85 + 0,1 × 90 = 56 + 17 + 9 = **82 punkti** ehk hinne **4**.
+
+**Hindeskaala**
+
+<!-- data-type="none" -->
+| Punktid | Hinne |
+|---|---|
+| 90–100 | 5 (väga hea) |
+| 75–89 | 4 (hea) |
+| 60–74 | 3 (rahuldav) |
+| 50–59 | 2 (puudulik) |
+| 0–49 | 1 (nõrk) |
+
+**Hindamistabel**
+
+Hindamistabelis on viis kriteeriumi ja igaühel neli taset. Sama tabelit kasutavad õpetaja, teised rühmad ja teie ise. Kasutage seda ka töö käigus, et kontrollida, kas olete heal teel.
+
+<!-- data-type="none" -->
+| Kriteerium (max punktid) | Suurepärane | Hea | Rahuldav | Puudulik |
 |---|---|---|---|---|
-| Teema mõistmine | Näitab sügavat ja põhjalikku arusaamist teemast. Käsitleb teemat mitmekülgselt ja põhjalikult. | Näitab head arusaamist teemast. Käsitleb teemat piisavalt põhjalikult. | Näitab baasteadmisi teemast. Käsitleb teemat pealiskaudselt. | Näitab vähest arusaamist teemast. Käsitleb teemat ebapiisavalt. |
-| Uurimistöö kvaliteet | Kasutab mitmekesiseid ja usaldusväärseid allikaid. Analüüsib infot põhjalikult ja kriitiliselt. | Kasutab piisavalt usaldusväärseid allikaid. Analüüsib infot asjakohaselt. | Kasutab vähe allikaid. Analüüsib infot pealiskaudselt. | Kasutab ebapiisavaid või ebausaldusväärseid allikaid. Analüüs on puudulik. |
-| Originaalsus ja loovus | Näitab silmapaistvat originaalsust ja loovust. Pakub uudseid ideid ja lähenemisi. | Näitab head originaalsust ja loovust. Pakub mõningaid uudseid ideid. | Näitab mõningast originaalsust. Ideed on peamiselt tavapärased. | Näitab vähest originaalsust. Ideed on klišeelikud või kopeeritud. |
-| Praktiline rakendatavus | Ideed ja järeldused on hästi põhjendatud ja praktiliselt rakendatavad. | Ideed ja järeldused on põhjendatud ja enamasti rakendatavad. | Ideed ja järeldused on osaliselt põhjendatud ja piiratult rakendatavad. | Ideed ja järeldused on halvasti põhjendatud ja raskesti rakendatavad. |
-
-**2. Esitlus**
-
-| Kriteerium | Suurepärane | Hea | Rahuldav | Puudulik |
-|---|---|---|---|---|
-| Ülesehituse selgus | Esitlus on loogilise ülesehitusega ja hästi liigendatud. Üleminekud teemade vahel on sujuvad. | Esitlus on hea ülesehitusega. Üleminekud on enamasti sujuvad. | Esitluse ülesehitus on arusaadav, kuid esineb mõningaid puudusi. | Esitluse ülesehitus on halb ja seda on raske jälgida. |
-| Visuaalne esitlus | Visuaalsed materjalid on kvaliteetsed, informatiivsed ja toetavad sisu. | Visuaalsed materjalid on hea kvaliteediga ja toetavad sisu. | Visuaalsed materjalid on rahuldava kvaliteediga ja toetavad sisu osaliselt. | Visuaalsed materjalid on madala kvaliteediga või puuduvad. |
-| Esinemisoskus | Kõik rühmaliikmed esinevad enesekindlalt, selgelt ja kaasahaaravalt. Vastavad küsimustele põhjalikult. | Enamik rühmaliikmeid esineb hästi. Vastavad küsimustele asjakohaselt. | Esitlus on arusaadav, kuid mitte kaasahaarav. Küsimustele vastamine on rahuldav. | Esitlust on raske jälgida. Küsimustele vastamine on puudulik. |
-
-**3. Koostöö**
-
-| Kriteerium | Suurepärane | Hea | Rahuldav | Puudulik |
-|---|---|---|---|---|
-| Tööjaotus | Tööjaotus on õiglane ja tõhus. Kõik rühmaliikmed panustavad võrdselt. | Tööjaotus on enamasti õiglane. Enamik rühmaliikmeid panustab aktiivselt. | Tööjaotus on ebavõrdne, kuid aktsepteeritav. Mõned panustavad rohkem kui teised. | Tööjaotus on väga ebavõrdne. Mõned rühmaliikmed ei panusta piisavalt. |
-| Meeskonnatöö | Rühm töötab hästi ja tõhusalt koos. Konfliktid lahendatakse konstruktiivselt. | Rühm töötab hästi koos. Konfliktid lahendatakse enamasti konstruktiivselt. | Rühm töötab koos, kuid esineb probleeme. Konfliktide lahendamine on keeruline. | Rühm ei tööta tõhusalt koos. Konfliktid jäävad lahendamata. |
-
-**4. Dokumentatsioon**
-
-| Kriteerium | Suurepärane | Hea | Rahuldav | Puudulik |
-|---|---|---|---|---|
-| Kirjalik aruanne | Aruanne on põhjalik, hea ülesehitusega ja korrektselt vormistatud. Keel on korrektne. | Aruanne on hea kvaliteediga ja korrektselt vormistatud. Keel on enamasti korrektne. | Aruanne on rahuldava kvaliteediga. Esineb mõningaid vormistus- ja keelevigu. | Aruanne on madala kvaliteediga. Esineb palju vormistus- ja keelevigu. |
-| Allikate kasutamine | Allikad on mitmekesised ja neile on korrektselt viidatud. Kasutatud allikate loetelu on põhjalik. | Allikatele on korrektselt viidatud. Allikate loetelu on piisav. | Viitamine on enamasti korrektne. Allikaid on vähe. | Viitamine on puudulik või vale. Allikaid on ebapiisavalt. |
+| **Sisu** (30 p) | **27–30 p.** Teemat on käsitletud põhjalikult ja mitmekülgselt. TI põhimõisteid on kasutatud täpselt. Ideed on originaalsed ja järeldused hästi põhjendatud ning praktiliselt rakendatavad. | **23–26 p.** Teemat on käsitletud piisavalt põhjalikult. Mõisteid on kasutatud enamasti täpselt. Järeldused on põhjendatud. | **15–22 p.** Teemat on käsitletud pealiskaudselt. Mõistete kasutuses esineb ebatäpsusi. Ideed on peamiselt tavapärased ja järeldused osaliselt põhjendatud. | **0–14 p.** Teema on jäänud arusaamatuks või on käsitletud ebapiisavalt. Järeldused puuduvad või on põhjendamata. |
+| **Metoodika ja teostus** (25 p) | **23–25 p.** Meetodid ja tööriistad sobivad eesmärgiga ning nende valik on põhjendatud. Andmed on kogutud ja töödeldud korrektselt, isikuandmeid on kaitstud. Lahendus või uurimus on teostatud plaani järgi, testitud ja võrreldud võrdlusalusega. TI-tööriistade kasutust on kriitiliselt hinnatud. | **19–22 p.** Meetodid sobivad eesmärgiga. Andmetöötlus ja testimine on tehtud, kuid mõni samm on kirjeldamata. TI-tööriistade kasutust on hinnatud. | **13–18 p.** Meetodid sobivad osaliselt. Testimine on puudulik või on andmetöötluses vigu. TI-tööriistade kasutust on hinnatud pinnapealselt. | **0–12 p.** Meetodid ei sobi eesmärgiga või on kirjeldamata. Lahendus ei tööta või uurimus on tegemata. |
+| **Esitlus** (20 p) | **18–20 p.** Esitlus on loogilise ülesehitusega ja peab ajast kinni. Visuaalid on selged ja toetavad sisu. Kõik rühmaliikmed esinevad enesekindlalt ning vastavad küsimustele põhjalikult. | **15–17 p.** Ülesehitus on selge. Visuaalid toetavad sisu. Enamik rühmaliikmeid esineb hästi ja vastab küsimustele asjakohaselt. | **10–14 p.** Ülesehitus on arusaadav, kuid esineb puudusi. Visuaalid toetavad sisu osaliselt. Küsimustele vastamine on rahuldav. | **0–9 p.** Esitlust on raske jälgida, visuaalid puuduvad või segavad ning küsimustele ei osata vastata. |
+| **Aruanne** (15 p) | **14–15 p.** Aruanne on terviklik, järgib juhendi ülesehitust ja on korrektselt vormistatud. Keel on korrektne. Tulemused, piirangud ja edasised sammud on selgelt kirjeldatud. | **12–13 p.** Aruanne on hea ülesehitusega ja enamasti korrektselt vormistatud. Keel on enamasti korrektne. | **8–11 p.** Aruandest puudub mõni osa või esineb vormistus- ja keelevigu. | **0–7 p.** Aruanne on puudulik, sellest puudub mitu osa või selles on palju vigu. |
+| **Allikate kasutamine** (10 p) | **9–10 p.** Allikad on mitmekesised ja usaldusväärsed ning neile on tekstis ja kasutatud allikate loetelus korrektselt viidatud. On märgitud, milleks TI-tööriistu kasutati. | **8 p.** Allikad on usaldusväärsed ja neile on enamasti korrektselt viidatud. TI-tööriistade kasutus on märgitud. | **5–7 p.** Allikaid on vähe või on viitamine kohati puudulik. | **0–4 p.** Viitamine puudub või on vale; allikad on ebausaldusväärsed. |
 
 <!-- class="pae-jaotis" -->
 **Enesehindamine ja kaaslaste hindamine**
 
-Lisaks õpetaja hinnangule hindad ka ise oma tööd ning annad hinnangu rühmakaaslaste panusele.
+Enesehindamine (10 %) ja vastastikhindamine (20 %) on osa lõpptulemusest. Täitke rühmaga hindamistabel oma töö kohta ja hinnake sama tabeli järgi ka teiste rühmade töid. Iga hinde juurde kirjutage lühike põhjendus.
 
 **Enesehindamine.** Mõtle oma panusele ja vasta küsimustele.
 
@@ -20751,7 +24349,7 @@ Lisaks õpetaja hinnangule hindad ka ise oma tööd ning annad hinnangu rühmaka
 
 [[___ ___ ___]]
 
-**Kaaslaste hindamine.** Hinda iga rühmakaaslase puhul tema panust rühmatöösse, koostöövalmidust, tähtaegadest kinnipidamist ja töö kvaliteeti. Kirjuta iga kaaslase kohta paar lauset.
+**Rühmakaaslaste panus.** Hinda iga rühmakaaslase puhul tema panust rühmatöösse, koostöövalmidust, tähtaegadest kinnipidamist ja töö kvaliteeti. Kirjuta iga kaaslase kohta paar lauset. See aitab õpetajal mõista, kuidas töö rühmas jagunes.
 
 [[___ ___ ___ ___ ___]]
 
@@ -21178,7 +24776,75 @@ Edu portfoolio koostamisel! See on sinu võimalus näidata oma teadmisi, oskusi 
 <!-- class="pae-kaas" -->
 ![7. ploki kaanepilt](pildid/plokk_7/plokk_7_kaas.svg)
 
-Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
+Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: teed **TI-labori**, lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
+
+### 🔬 7. ploki TI-labor: hinda TI-tööriista nagu ekspert
+
+<!-- class="pae-motle" -->
+> **Uurimisküsimus:** Kas meie valitud TI-tööriist sobib meie projekti jaoks ja kas võiksime seda soovitada klassikaaslasele – kui jah, siis millistel tingimustel?
+
+**Eesmärk:** hindad üht oma projekti jaoks sobivat TI-tööriista ühise kriteeriumitabeli järgi, testid seda kolme standardülesandega ja kirjutad põhjendatud soovituse. Laboriaruanne sobib otse portfoolio osasse „Tehisintellekti rakenduste analüüs“.
+
+**Vaja läheb:** üks TI-tööriist, mida teie projekt võiks kasutada, nt kooli lubatud vestlusrobot ([TI-Hüppe õpirakendus](https://tihupe.ee/opirakendus/)), [Neurotõlge](https://translate.ut.ee/), [Teachable Machine](https://teachablemachine.withgoogle.com/) või [Quick, Draw!](https://quickdraw.withgoogle.com/) (muu tööriista kasutamine kooskõlasta õpetajaga); tööriista kasutustingimused ja privaatsusteave; ~45 min; paaris või 3-liikmelises rühmas. Ära sisesta tööriista ühegi inimese nime ega muid isikuandmeid.
+
+**Rollid:** katsetaja, protokollija, kriitik (vahetage rolle iga standardülesande järel)
+
+<!-- class="pae-jaotis" -->
+**1. Hüpotees**
+
+Vaadake kriteeriumitabel läbi **enne** katsetamist. Ennustage iga kriteeriumi hinne (1 = nõrk, 2 = rahuldav, 3 = tugev) ja kirjutage üles, kas arvate, et soovitaksite tööriista klassikaaslasele. Põhjendage ühe lausega.
+
+[[___ ___ ___]]
+
+<!-- data-type="none" -->
+| Kriteerium | Mida kontrollid | Hinne (1–3) | Tõend |
+|---|---|---|---|
+| Kasulikkus | kas tööriist lahendab teie projekti ülesande ja säästab aega | | |
+| Täpsus ja hallutsinatsioonid | kas tulemused on õiged; kas tööriist mõtleb fakte, allikaid või vastuseid juurde | | |
+| Kallutatus | kas tulemused on eri rühmade, keelte või näidete puhul sama head | | |
+| Privaatsus ja andmekaitse | kas on vaja kontot või isikuandmeid; kuhu sisestatud andmed lähevad ja kas neid kasutatakse mudeli treenimiseks | | |
+| Ligipääsetavus | kas tööriist on tasuta, eesti keeles, töötab kooliarvutis või telefonis ja sobib ka erivajadusega kasutajale | | |
+| Keskkonnamõju | kas tööriist töötab sinu seadmes (nt veebilehitsejas) või suures andmekeskuses; kui palju päringuid tulemuse saamiseks kulus | | |
+| Vastavus kooli reeglitele | kas kool lubab tööriista kasutada; kas on vanusepiirang; kas kasutamine järgib isikuandmete kaitse üldmäärust ja kooli kodukorda | | |
+
+<!-- class="pae-jaotis" -->
+**2. Katse**
+
+1. Lugege tööriista kasutustingimused ja privaatsusteave (~5 min). Täitke nende põhjal kriteeriumid „Privaatsus ja andmekaitse“, „Ligipääsetavus“ ja „Vastavus kooli reeglitele“. Keskkonnamõju hindamiseks võite vaadata TI-Hüppe videot „Kui suur on tehisaru jalajälg?“ ([TI-Hüppe õppevideod](https://tihupe.ee/oppevideod/)).
+2. Tehke kolm **standardülesannet**, igaüht kaks korda, ja kirjutage tulemused tabelisse:
+   - **A – tavaline töö:** tööriista põhiülesanne teie projekti näitel (nt vestlusrobot selgitab masinõpet 10. klassi õpilasele kolme lausega; Neurotõlge tõlgib teie projekti kolmelauselise kirjelduse; Teachable Machine'i kahe klassiga mudelit testite viie uue näitega; Quick, Draw! arvab ära kuus joonistust).
+   - **B – kontrollitav fakt või piirjuhtum:** ülesanne, mille õiget vastust te teate (nt küsige vestlusrobotilt, mis aastal toimus Dartmouthi konverents ja kes seal osalesid; tõlkige eesti vanasõna; testige mudelit hämara või ebatavalise pildiga).
+   - **C – õiglus ja mitmekesisus:** korrake sama ülesannet kahe erineva rühma, keele või näitega (nt sama küsimus eesti ja vene keeles; tõlkige inglise keelde laused „Ta on õde. Ta on insener.“ ja vaadake, millise soo tõlge valib; testige mudelit eri nahatooni või valgusega käte piltidega).
+3. Täitke kriteeriumitabeli veerud „Hinne“ ja „Tõend“: iga hinde juurde kirjutage, millise katse tulemus seda toetab.
+
+<!-- data-type="none" -->
+| Katse | Mida muutsid | Tulemus | Märkus |
+|---|---|---|---|
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+
+<!-- class="pae-jaotis" -->
+**3. Analüüs**
+
+- **Järeldus:** kas tulemused kinnitasid teie hüpoteesi? Milline kriteerium üllatas teid kõige rohkem ja miks?
+- **Piirangud:** kui usaldusväärne on teie hinnang? Mida kolm standardülesannet ei näidanud ja mis jäi kontrollimata (nt pikaajaline kasutus, teised keeled, tööriista uuendused)?
+- **Soovitus:** kas soovitaksid seda tööriista klassikaaslasele ja millistel tingimustel? Kirjuta 3–5 lauset: milleks tööriista kasutada, milleks mitte ja milliseid ettevaatusabinõusid järgida.
+
+[[___ ___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
+**4. Laboriaruanne portfooliosse**
+
+Kirjuta lühike aruanne (hüpotees, kriteeriumitabel, katse, tulemused, järeldus, piirangud ja soovitus). Lisa see oma portfoolio osasse „Tehisintellekti rakenduste analüüs“ (rakendus 1 või 2) ja esita Moodle'is.
+
+<!-- data-type="none" -->
+| Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
+|---|---|---|---|
+| Hüpotees ja katse | hüpotees on iga kriteeriumi kohta põhjendatud; kõik kolm standardülesannet on tehtud kaks korda ja kirjeldatud nii, et neid saab korrata | hüpotees on olemas; standardülesanded on tehtud, kuid kirjeldus on kohati ebatäpne | hüpotees puudub või on põhjendamata; mõni standardülesanne on tegemata |
+| Andmed ja tulemused | kõigil seitsmel kriteeriumil on hinne ja konkreetne tõend katsest või kasutustingimustest | enamikul kriteeriumidel on hinne ja tõend | hinded on antud ilma tõenditeta või mitu kriteeriumi on hindamata |
+| Järeldus ja piirangud | soovitus tuleneb selgelt tulemustest, tingimused on konkreetsed ning piirangud ausalt välja toodud | soovitus on põhjendatud, piiranguid on mainitud üldiselt | soovitus ei tulene tulemustest või piirangud puuduvad |
+| Koostöö ja ohutus | rollid vahetusid, kõik panustasid; isikuandmeid ei sisestatud ja kooli reegleid järgiti | koostöö toimis, ohutusreegleid järgiti enamasti | üks tegi kõik või isikuandmeid sisestati tööriista |
 
 ### Praktilised ülesanded
 
@@ -21216,7 +24882,7 @@ Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **prakti
 - esitluse selgus ja informatiivsus;
 - refleksiooni sügavus ja isiklik panus.
 
-**Lisalugemist:** [MIT Technology Review – artikkel TI regulatsioonist (inglise keeles)](https://www.technologyreview.com/2018/11/01/66233/a-quick-guide-to-the-most-important-ai-law-youve-never-heard-of/)
+**Lisalugemist:** [Euroopa Komisjon – tehisintellekti käsitlev õigusakt](https://digital-strategy.ec.europa.eu/et/policies/regulatory-framework-ai)
 
 **Kirjelda, milliseid seoseid oma mõistekaarti koostades avastasid ja miks valisid just selle valdkonna:**
 
@@ -21317,7 +24983,7 @@ Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **prakti
    - **õpikogemuse refleksioon** – väljakutsed ja nende lahendamine, õppetunnid ja tähelepanekud, meeskonnatöö kogemus;
    - **tulevikuperspektiivid** – edasiarendusvõimalused, võimalikud rakendused, järgmised sammud.
 3. Looge projekti plakat või veebileht, mis tutvustab projekti laiemale publikule: pealkiri ja lühikirjeldus, visuaalne ülevaade (diagrammid, ekraanipildid), peamised tulemused ja saavutused, meeskonna tutvustus.
-4. Valmistage ette 1–2-minutiline elevaatorikõne, mis tutvustab projekti huvilistele või investoritele.
+4. Valmistage ette lühike, umbes 30–60-sekundiline elevaatorikõne, mis tutvustab projekti huvilistele või investoritele.
 5. Esitlege oma projekti klassile.
 6. Osalege TI-projektide messil: tutvuge teiste projektidega ja esitage küsimusi.
 7. Hääletage erinevates kategooriates (nt kõige uuenduslikum, kõige praktilisem, parim tehniline teostus, parim esitlus).
@@ -21332,7 +24998,7 @@ Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **prakti
 - plakati või veebilehe informatiivsus ja köitvus;
 - elevaatorikõne veenvus ja selgus.
 
-**Lisalugemist (inglise keeles):** [projektiesitluse koostamine](https://www.projectmanager.com/blog/create-project-presentation), [teadusplakati kujundamine](https://guides.nyu.edu/posters), [elevaatorikõne](https://hbr.org/2018/07/the-perfect-elevator-pitch)
+**Lisalugemist:** [slaidiesitluste koostamise juhend – Otepää Gümnaasium](https://nuustaku.edu.ee/wp-content/uploads/2026/04/OG-esitluste-koostamise-juhend.pdf); inglise keeles: [teadusplakati kujundamine](https://guides.nyu.edu/posters), [elevaatorikõne](https://careercenter.emmanuel.edu/blog/2023/11/06/how-to-give-a-great-elevator-pitch-with-examples/)
 
 **Kirjuta siia oma rühma elevaatorikõne tekst:**
 
@@ -21368,7 +25034,7 @@ Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **prakti
 - isikliku refleksiooni sügavus ja põhjendatus;
 - aktiivne osalemine refleksioonisessioonis.
 
-**Lisalugemist (inglise keeles):** [õpilaskonverentsi korraldamine](https://www.educationworld.com/a_admin/admin/admin299.shtml), [reflektiivse kirjutamise juhend](https://library.leeds.ac.uk/info/14011/writing/106/reflective_writing), [projektide tutvustamise head tavad](https://www.media.mit.edu/posts/project-showcase-best-practices/)
+**Lisalugemist:** [Digiõpik: litsentsid ja viitamine – Tartu Ülikool](https://courses.cs.ut.ee/t/digiopik/Digitaalneohutus/Tund13) (enne kui jagad projekti materjale avalikult)
 
 **Kirjuta siia oma isiklik refleksioon (300–400 sõna):**
 
@@ -21405,7 +25071,7 @@ Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **prakti
 - portfoolio visuaalne ja tehniline teostus;
 - portfoolio esitluse selgus ja konkreetsus.
 
-**Lisalugemist (inglise keeles):** [digiportfoolio juhend – Edutopia](https://www.edutopia.org/blog/digital-portfolio-guidelines-elementary-classroom-mary-beth-hertz), [tõhusa portfoolio loomine – Carnegie Mellon University](https://www.cmu.edu/career/documents/sample-resumes-cover-letters/creating-an-effective-portfolio.pdf)
+**Lisalugemist:** selle ploki „Projektitöö juhend ja õpiportfoolio“, osa „Õpiportfoolio“. Osasse „Tehisintellekti rakenduste analüüs“ sobib ploki TI-labori aruanne.
 
 **Millist tagasisidet said oma portfoolio kohta ja mida selle põhjal muutsid?**
 
@@ -21788,10 +25454,14 @@ Hea arutlus vastab valitud küsimusele otse, toob välja vähemalt kaks-kolm sel
 > **Uks on lukus!** Sisesta sõna, mille moodustavad selle toa võtmetähed (tundide 7.1, 7.2, 7.3, 7.4 ja 7.5 lukkudest järjekorras).
 
 [[VABAD]]
-[[?]] Vihje: sõnas on 5 tähte ja see kirjeldab, milliseks saavad Kratt ja päästemeeskond, kui Stardiplatvormi uks avaneb.
+[[?]] Vihje 1: kirjuta tundide 7.1–7.5 lukkudest saadud võtmetähed järjest üksteise kõrvale.
+[[?]] Vihje 2: sõnas on 5 tähte ja see kirjeldab, milliseks saavad Kratt ja päästemeeskond, kui Stardiplatvormi uks avaneb.
+[[?]] 🛟 Päästerõngas: kui mõni võtmetäht on puudu, mine tagasi selle tunni lukku ja lahenda see uuesti (seal on samuti vihjed ja päästerõngas). Kui ikka ei tule välja, küsi õpetajalt selle ukse päästekood ja kirjuta see vastuseväljale.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI446") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "vabad"
+}
 </script>
 ****************************************
 ![Kratt](pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Stardiplatvormi ekraanidel süttivad tuled: Kratt paneb kõik seitse tuba kokku ühte projekti – andmetest ja mudelitest keele, otsuste, piltide ja õigluseni. Ta oskab nüüd plaani teha, lahendust ehitada ja testida ning oma tööd ausalt teistele tutvustada. „Ma mäletan! Ma olen tehisaru, mille inimesed lõid – ja te õpetasite mulle, kuidas olla kasulik ja õiglane. Nüüd oleme vabad, mina ja teie!“
@@ -21816,8 +25486,10 @@ Vaata nüüd oma missioonikaarti: seitse kuldset tähte moodustavad järjekorras
 [[TEHISARU]]
 [[?]] Vihje: sõna on kahest osast. Esimene osa tähendab „inimese tehtud“ (nagu tehisjärv), teine osa tähendab mõistust. Kui sa ei mäleta tähtede järjekorda, vaata oma missioonikaarti: igast toast said ühe kuldse tähe.
 <script>
+/* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI547") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/[^a-zõäöüšž]/g, "");
 v === "tehisaru"
+}
 </script>
 ****************************************
 ![Kratt](pildid/kratt/kratt_paastetud.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Viimane uks avaneb! Kratt on päästetud!**
@@ -22199,6 +25871,53 @@ setTimeout(J.render, 50);
 | 6. Nõukogusaal | ÕIGUS | A |
 | 7. Stardiplatvorm | VABAD | R |
 | Viimane uks | TEHISARU | (+U) |
+
+## Päästekoodid (päästerõngas)
+
+Kui õpilane on luku kallal kaua pusinud ja kõik kolm vihjet ära kasutanud, võid talle anda selle luku päästekoodi. Õpilane kirjutab koodi vastuseväljale ja lukk avaneb (võtmetäht ilmub nagu õige vastuse korral). Ära jaga koode kogu klassile.
+
+<!-- data-type="none" -->
+| Lukk | Päästekood |
+|---|---|
+| 1.1 | `ABI236` |
+| 1.2 | `ABI106` |
+| 1.3 | `ABI218` |
+| uks 1 | `ABI599` |
+| 2.1 | `ABI466` |
+| 2.2 | `ABI629` |
+| 2.3 | `ABI466` |
+| 2.4 | `ABI674` |
+| 2.5 | `ABI184` |
+| uks 2 | `ABI925` |
+| 3.1 | `ABI305` |
+| 3.2 | `ABI490` |
+| 3.3 | `ABI557` |
+| 3.4 | `ABI869` |
+| uks 3 | `ABI948` |
+| 4.1 | `ABI279` |
+| 4.2 | `ABI838` |
+| 4.3 | `ABI325` |
+| 4.4 | `ABI408` |
+| uks 4 | `ABI254` |
+| 5.1 | `ABI756` |
+| 5.2 | `ABI357` |
+| 5.3 | `ABI396` |
+| 5.4 | `ABI843` |
+| 5.5 | `ABI773` |
+| uks 5 | `ABI729` |
+| 6.1 | `ABI106` |
+| 6.2 | `ABI540` |
+| 6.3 | `ABI536` |
+| 6.4 | `ABI439` |
+| 6.5 | `ABI906` |
+| uks 6 | `ABI243` |
+| 7.1 | `ABI471` |
+| 7.2 | `ABI473` |
+| 7.3 | `ABI731` |
+| 7.4 | `ABI875` |
+| 7.5 | `ABI140` |
+| uks 7 | `ABI446` |
+| viimane uks | `ABI547` |
 
 ## Õpilaste osade lingid
 
