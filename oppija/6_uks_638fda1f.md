@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.2.1
+version:  2.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -281,6 +281,9 @@ Oled jõudnud toa viimasesse ossa. Siin teed **TI-labori**, kordad ploki teemasi
 
 ### 🔬 6. ploki TI-labor: Kallutatuse testimine
 
+<!-- class="pae-lisaks" -->
+> 🗓️ **Laborid on valikulised.** Kursuse jooksul teeb klass **2–3 laborit**, mille valib õpetaja. Labor asendab ühe sama ploki teematunni tunnitöö: selle tunni tekst loetakse kodus ja tunnis tehakse labor. Teisi laboreid saab teha rikastamiseks või projekti osana.
+
 <!-- class="pae-motle" -->
 > **Uurimisküsimus:** Kas TI kujutab ameteid stereotüüpsemalt, kui need Eestis tegelikult jagunevad?
 
@@ -366,7 +369,7 @@ Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud, eeti
 
 [[___ ___ ___]]
 
-### Praktilised ülesanded
+### ➕ Praktilised ülesanded
 
 Siin on viis rühmatööd, mis on seotud ploki tundidega. Sinu õpetaja ütleb, milliseid neist teete.
 
@@ -518,7 +521,7 @@ Siin on viis rühmatööd, mis on seotud ploki tundidega. Sinu õpetaja ütleb, 
 2. Uurige TI mõju tööturule:
    - **üldised trendid** – automatiseerimise mõju eri sektorite töökohtadele, TI tõttu tekkinud uued ametid, oskused, mis muutuvad olulisemaks;
    - **valdkondlik analüüs** – valige üks valdkond (nt tervishoid, haridus, transport, tootmine, teenindus), analüüsige TI mõju sellele ja kirjeldage võimalikke muutusi järgmise 5–10 aasta jooksul. Pidage meeles, et need on hinnangud, mitte kindlad faktid – tooge välja ka see, kui allikad on eri meelt.
-3. Intervjueerige vähemalt kaht inimest, kelle tööd TI juba mõjutab. Küsige nende kogemuste, väljakutsete ja kohanemisviiside kohta ning pange tulemused kirja.
+3. Intervjueerige vähemalt kaht täiskasvanut, kelle tööd TI juba mõjutab. Küsige enne nõusolekut, selgitage, milleks vastuseid kasutate, ja küsige ainult tööga seotud kogemuste, väljakutsete ja kohanemisviiside kohta. Ärge salvestage intervjuud ega pange kirja nime ega tööandjat (kasutage nt „IT-spetsialist, 35“); kustutage märkmed pärast töö lõppu. Intervjuu asemel võite kasutada ka avalikult avaldatud intervjuusid.
 4. Koostage oma valdkonna „tuleviku töötaja profiil“: vajalikud tehnilised oskused, vajalikud pehmed oskused, haridus- ja koolitusvajadused, karjäärivõimalused.
 5. Kavandage klassile interaktiivne töötuba (15–20 minutit): tutvustage analüüsi tulemusi, viige läbi praktiline harjutus, mis näitab tuleviku tööturu vajadusi, ja kaasake klassikaaslased arutellu.
 6. Koostage soovituste dokument (1–2 lehekülge), mis on suunatud õpilastele (kuidas tuleviku tööturuks valmistuda), haridusasutustele (kuidas õppekavu kohandada), tööandjatele (kuidas toetada töötajate ümberõpet) ja poliitikakujundajatele (milliseid meetmeid kaaluda).

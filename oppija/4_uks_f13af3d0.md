@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.2.1
+version:  2.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -281,6 +281,9 @@ Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **prakti
 
 ### 🔬 4. ploki TI-labor: Kuidas algoritm minu eest otsustab?
 
+<!-- class="pae-lisaks" -->
+> 🗓️ **Laborid on valikulised.** Kursuse jooksul teeb klass **2–3 laborit**, mille valib õpetaja. Labor asendab ühe sama ploki teematunni tunnitöö: selle tunni tekst loetakse kodus ja tunnis tehakse labor. Teisi laboreid saab teha rikastamiseks või projekti osana.
+
 <!-- class="pae-motle" -->
 > **Uurimisküsimus:** Kui täpselt suudab meie endi koostatud otsustuspuu uusi näiteid liigitada ja kui kiiresti hakkab soovitusalgoritm meile pakkuma ainult ühe teema sisu?
 
@@ -360,7 +363,7 @@ Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud, eeti
 | Eetiline analüüs | Vastused on seotud mõlema katseosaga (puu tunnused, soovituste muutus); on nimetatud, kes võiks kannatada, ja tehtud konkreetne ettepanek arendajale | Eetikaküsimustele on vastatud, kuid käsitletud on ainult üht katseosa või vastused on üldsõnalised | Eetikaküsimustele on vastamata või vastused ei ole katsega seotud |
 | Koostöö ja ohutus | Rollid vahetusid; keegi ei loginud sisse ega kasutanud isikuandmeid | Rollid ei vahetunud, kuid ohutusreegleid järgiti | Ohutusreegleid rikuti (nt logiti oma kontoga sisse) |
 
-### Praktilised ülesanded
+### ➕ Praktilised ülesanded
 
 <!-- class="pae-jaotis" -->
 **Ülesanne 1. Otsustuspuu loomine ja rakendamine**

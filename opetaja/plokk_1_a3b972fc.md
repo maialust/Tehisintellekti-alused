@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.2.1
+version:  2.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -341,12 +341,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Tehisintellekti põhisuunad“, „Tehisintellekt ja inimene“, „Tehisintellekt sinu ümber: lühike ülevaade“, „Videod: mis see tehisaru on?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** <span class="pae-term" tabindex="0" data-def="tehisintellekt (TI): Arvutiteaduse haru, mis loob inimmõistuse funktsioone jäljendavaid süsteeme">tehisintellekt (TI)</span>, nõrk TI, tugev TI. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Mis on tehisintellekt?“, „Nõrk, tugev ja superintelligentsus“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Tehisintellekti põhisuunad“. Soovi korral ka „Tehisintellekt ja inimene“, „Tehisintellekt sinu ümber: lühike ülevaade“, „Videod: mis see tehisaru on?“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Mis on tehisintellekt?“, „Nõrk, tugev ja superintelligentsus“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas masin tunneb su joonistuse ära?“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded I, III ja VI
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded I, III ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -366,7 +370,7 @@ Tehisintellekt ehk TI loob masinaid, mis jäljendavad inimese mõtlemist. Need m
 Võib-olla oled täna juba mitu korda tehisintellekti kasutanud, isegi seda märkamata. Telefon tunneb ära sinu näo, YouTube soovitab järgmise video, tõlkerakendus muudab inglise keele teksti eesti keelde ja vestlusrobot vastab sinu küsimusele. Kõigi nende taga on tehisintellekt. Aga mis see täpselt on?
 
 <!-- class="pae-moiste" -->
-> **Mõiste: <span class="pae-term" tabindex="0" data-def="tehisintellekt (TI): Arvutiteaduse haru, mis loob inimmõistuse funktsioone jäljendavaid süsteeme">tehisintellekt (TI)</span>**
+> **Mõiste: tehisintellekt (TI)**
 >
 > Tehisintellekt (inglise keeles *artificial intelligence*, AI) on arvutiteaduse haru, mis tegeleb selliste masinate ja süsteemide loomisega, mis suudavad jäljendada inimmõistuse kognitiivseid ehk tunnetuslikke funktsioone – näiteks õppida, arutleda, mõista keelt ja tunda ära mustreid. Lühidalt: tehisintellekt lahendab probleeme viisil, mis tavaliselt nõuab inimese intelligentsust.
 
@@ -731,6 +735,9 @@ Katsetad, kuidas närvivõrk tunneb ära kiiruga tehtud joonistusi. Nii näed, m
 
 ### Tööleht 1.1
 
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
+
 <!-- class="pae-jaotis" -->
 **⭐ I. Mõisted ja definitsioonid**
 
@@ -965,7 +972,7 @@ Kalkulaator täidab alati samu jäigalt ette antud samme: ta ei õpi midagi juur
 ### 📤 Väljapääsupilet 1.1
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -989,6 +996,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -1002,7 +1014,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['1.1'] = ["Sinu telefoni fotogalerii oskab pildid ise rühmitada (koerad, toit, rand). Kas see on tehisintellekt ja kui jah, siis mis liiki? Põhjenda ühe lausega.", "Mitu sinu joonistust tundis Quick, Draw! ära ja mida näitas katse selle kohta, kuidas närvivõrk õpib?", "Mis jäi tänases tunnis segaseks või mille kohta tahaksid rohkem teada?"];
 setTimeout(function(){var d=window.paePilet.load('1.1');document.querySelectorAll('[data-pilet="1.1"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="1.1" name="nimi" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Sinu telefoni fotogalerii oskab pildid ise rühmitada (koerad, toit, rand). Kas see on tehisintellekt ja kui jah, siis mis liiki? Põhjenda ühe lausega.</div><textarea data-pilet="1.1" name="q0" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu sinu joonistust tundis Quick, Draw! ära ja mida näitas katse selle kohta, kuidas närvivõrk õpib?</div><textarea data-pilet="1.1" name="q1" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi tänases tunnis segaseks või mille kohta tahaksid rohkem teada?</div><textarea data-pilet="1.1" name="q2" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('1.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('1.1')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_1.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="1.1" name="nimi" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Sinu telefoni fotogalerii oskab pildid ise rühmitada (koerad, toit, rand). Kas see on tehisintellekt ja kui jah, siis mis liiki? Põhjenda ühe lausega.</div><textarea data-pilet="1.1" name="q0" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu sinu joonistust tundis Quick, Draw! ära ja mida näitas katse selle kohta, kuidas närvivõrk õpib?</div><textarea data-pilet="1.1" name="q1" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi tänases tunnis segaseks või mille kohta tahaksid rohkem teada?</div><textarea data-pilet="1.1" name="q2" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('1.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('1.1')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('1.1')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_1.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -1061,12 +1073,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Juured: unistus mõtlevast masinast“, „Teine revolutsioon: masinõpe (1980–2010)“, „Miks just nüüd? Viis kasvu tegurit“, „Tehisintellekti ajaloo õppetunnid ja tulevik“, „Video: <span class="pae-term" tabindex="0" data-def="„kibe õppetund“ (The Bitter Lesson): Rich Suttoni (2019) tähelepanek, et pikas plaanis võidavad üldised meetodid, mis kasutavad arvutusvõimsust (õppimine, otsing), käsitsi kirjutatud inimteadmiste üle">„Kibe õppetund“ (The Bitter Lesson)</span>“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** <span class="pae-term" tabindex="0" data-def="Turingi test: Alan Turingi pakutud katse: kas inimene suudab vestluse põhjal eristada masinat inimesest">Turingi test</span>, TI talv, generatiivne TI. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe ja vaata** (~13 min): „Esimene revolutsioon: <span class="pae-term" tabindex="0" data-def="sümboolne tehisintellekt: Reeglitel ja loogikal põhinev lähenemine tehisintellektile">sümboolne tehisintellekt</span> (1950–1980)“, „Kolmas revolutsioon: <span class="pae-term" tabindex="0" data-def="süvaõpe: Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke">süvaõpe</span> ja generatiivne tehisintellekt (2010–…)“ ja „Kokkuvõte ja põhimõisted“ ning 3-minutiline video „Kust tuli tehisaru?“, mis annab ülevaate kogu ajaloost
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Juured: unistus mõtlevast masinast“. Soovi korral ka „Teine revolutsioon: masinõpe (1980–2010)“, „Miks just nüüd? Viis kasvu tegurit“, „Tehisintellekti ajaloo õppetunnid ja tulevik“, „Video: „Kibe õppetund“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe ja vaata** (~10 min): „Esimene revolutsioon: <span class="pae-term" tabindex="0" data-def="sümboolne tehisintellekt: Reeglitel ja loogikal põhinev lähenemine tehisintellektile">sümboolne tehisintellekt</span> (1950–1980)“, „Kolmas revolutsioon: <span class="pae-term" tabindex="0" data-def="süvaõpe: Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke">süvaõpe</span> ja generatiivne tehisintellekt (2010–…)“ ja „Kokkuvõte ja põhimõisted“ ning 3-minutiline video „Kust tuli tehisaru?“, mis annab ülevaate kogu ajaloost
 > 2. 🧪 **TI-katse** (~10 min): „Pildi-Turingi test“
-> 3. ⭐ **Tööleht** (~14 min): ülesanded III, V ja VII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded III, V ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -1103,7 +1119,7 @@ Tehisintellekti tänapäevast ajalugu võib jagada kolmeks suureks revolutsiooni
 **1950. aastal** avaldas Alan Turing artikli „Computing Machinery and Intelligence“ ja pakkus välja masina intelligentsuse hindamise meetodi.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: <span class="pae-term" tabindex="0" data-def="Turingi test: Alan Turingi pakutud katse: kas inimene suudab vestluse põhjal eristada masinat inimesest">Turingi test</span>**
+> **Mõiste: Turingi test**
 >
 > Turingi test on Alan Turingi pakutud katse, mis kontrollib, kas masin suudab jäljendada inimese mõtlemist nii hästi, et inimene ei suuda eristada, kas ta suhtleb inimese või masinaga. Küsitleja esitab kirjalikke küsimusi nii inimesele kui ka arvutile. Kui küsitleja ei suuda vastuste põhjal öelda, kumb on kumb, on masin testi läbinud.
 
@@ -1356,6 +1372,9 @@ Turingi testis püüab inimene vestluse põhjal eristada masinat inimesest. Proo
 
 ### Tööleht 1.2
 
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
+
 <!-- class="pae-jaotis" -->
 **➕ I. Tehisintellekti ajaloo olulised sündmused**
 
@@ -1515,7 +1534,7 @@ Valitud teema:
 
 [[___]]
 
-**Ülesanne 13.** Intervjuu: küsitle vanemat sugulast või tuttavat, kuidas ta on oma elu jooksul tehisintellekti arengut kogenud. Kirjuta lühike kokkuvõte.
+**Ülesanne 13.** Intervjuu: küsitle vanemat sugulast või tuttavat, kuidas ta on oma elu jooksul tehisintellekti arengut kogenud. Küsi enne luba, ära salvesta intervjuud ja ära kirjuta kokkuvõttesse tema nime (piisab nt „vanaema, 70“). Kirjuta lühike kokkuvõte.
 
 [[___ ___ ___ ___ ___]]
 
@@ -1624,7 +1643,7 @@ Mõlemad talved tekkisid, sest lubati rohkem, kui tehnoloogia suutis pakkuda. Es
 ### 📤 Väljapääsupilet 1.2
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -1648,6 +1667,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -1661,7 +1685,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['1.2'] = ["Praegu räägitakse tehisaru buumist. Too üks märk, mis võiks viidata lähenevale tehisintellekti talvele, ja üks, mis räägib selle vastu.", "Mitu nägu 10-st tundsid pildi-Turingi testis õigesti ära ja mida näitab sinu tulemus generatiivse tehisintellekti arengu kohta?", "Milline tänase tunni ajaloosündmus üllatas sind kõige rohkem ja miks?"];
 setTimeout(function(){var d=window.paePilet.load('1.2');document.querySelectorAll('[data-pilet="1.2"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="1.2" name="nimi" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Praegu räägitakse tehisaru buumist. Too üks märk, mis võiks viidata lähenevale tehisintellekti talvele, ja üks, mis räägib selle vastu.</div><textarea data-pilet="1.2" name="q0" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu nägu 10-st tundsid pildi-Turingi testis õigesti ära ja mida näitab sinu tulemus generatiivse tehisintellekti arengu kohta?</div><textarea data-pilet="1.2" name="q1" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Milline tänase tunni ajaloosündmus üllatas sind kõige rohkem ja miks?</div><textarea data-pilet="1.2" name="q2" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('1.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('1.2')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_1.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="1.2" name="nimi" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Praegu räägitakse tehisaru buumist. Too üks märk, mis võiks viidata lähenevale tehisintellekti talvele, ja üks, mis räägib selle vastu.</div><textarea data-pilet="1.2" name="q0" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu nägu 10-st tundsid pildi-Turingi testis õigesti ära ja mida näitab sinu tulemus generatiivse tehisintellekti arengu kohta?</div><textarea data-pilet="1.2" name="q1" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Milline tänase tunni ajaloosündmus üllatas sind kõige rohkem ja miks?</div><textarea data-pilet="1.2" name="q2" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('1.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('1.2')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('1.2')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_1.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -1720,12 +1744,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Tehisintellekt tervishoius ja teaduses“, „Tehisintellekt transpordis“, „Tehisintellekt hariduses, äris ja tööstuses“, „Video: tehisintellekt ärimaailmas“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** soovitussüsteem, <span class="pae-term" tabindex="0" data-def="filtrimull: Olukord, kus algoritm näitab kasutajale ainult tema eelistustega sarnast sisu">filtrimull</span>, kallutatus. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Tehisintellekt igapäevaelus“, „Loov tehisintellekt ja avalik sektor“, „Eelised, piirangud ja mõju tööturule“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Tehisintellekt tervishoius ja teaduses“. Soovi korral ka „Tehisintellekt transpordis“, „Tehisintellekt hariduses, äris ja tööstuses“, „Video: tehisintellekt ärimaailmas“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Tehisintellekt igapäevaelus“, „Loov tehisintellekt ja avalik sektor“, „Eelised, piirangud ja mõju tööturule“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kus masintõlge komistab?“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded II, IV ja VI
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded II, IV ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -1734,7 +1762,7 @@ Selle tunni järel sa:
 
 **🟢 Lihtsalt öeldes**
 
-TI on juba peaaegu igas eluvaldkonnas ja ka sinu telefonis. Igapäevaselt kasutad häälassistenti, näotuvastust ja masintõlget. Soovitussüsteem pakub sulle videoid ja muusikat, mis võiksid sulle meeldida. Kui näed ainult sarnast sisu, oled <span class="pae-term" tabindex="0" data-def="filtrimull: Olukord, kus algoritm näitab kasutajale ainult tema eelistustega sarnast sisu">filtrimullis</span>. Generatiivne TI kirjutab tekste ja loob pilte, aga võib fakte välja mõelda. Eestis aitab riigi vestlusrobotite võrgustik Bürokratt inimestel infot leida. TI võib olla ka kallutatud ja kohelda inimesi ebaõiglaselt. TI muudab tööd: rutiinne töö automatiseerub ja loovus muutub tähtsamaks.
+TI on juba peaaegu igas eluvaldkonnas ja ka sinu telefonis. Igapäevaselt kasutad häälassistenti, näotuvastust ja masintõlget. Soovitussüsteem pakub sulle videoid ja muusikat, mis võiksid sulle meeldida. Kui näed ainult sarnast sisu, oled filtrimullis. Generatiivne TI kirjutab tekste ja loob pilte, aga võib fakte välja mõelda. Eestis aitab riigi vestlusrobotite võrgustik Bürokratt inimestel infot leida. TI võib olla ka kallutatud ja kohelda inimesi ebaõiglaselt. TI muudab tööd: rutiinne töö automatiseerub ja loovus muutub tähtsamaks.
 
 **Tähtsad sõnad:** **soovitussüsteem** – programm, mis pakub sisu sinu varasemate valikute järgi; **filtrimull** – olukord, kus näed ainult sarnast sisu; **kallutatus** – TI teeb ebaõiglasi otsuseid, sest andmetes on eelarvamusi.
 
@@ -1770,7 +1798,10 @@ Enamik suuri platvorme kasutab **hübriidsüsteeme**, mis ühendavad mõlemad p�
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
 >
-> Ava oma lemmikplatvormi (YouTube, TikTok, Spotify) avaleht. Mis sa arvad, miks algoritm soovitab sulle just neid asju? Kas oled märganud, et sinu voog on muutunud ühekülgseks? Mida saaksid teha, et filtrimullist välja pääseda?
+> Ava mõne platvormi (YouTube, Spotify) avaleht ilma sisse logimata või kujutle väljamõeldud kasutajat, kes vaatab ainult jalgpallivideoid. Mis sa arvad, miks algoritm soovitab just neid asju? Kuidas võib selline voog muutuda ühekülgseks? Mida saaks teha, et filtrimullist välja pääseda?
+
+<!-- class="pae-lisaks" -->
+> **Sinu valik:** sa ei pea jagama midagi isiklikku. Võid kasutada väljamõeldud näidet, kirjutada üldistatult või olla arutelus vaatleja rollis – õpieesmärk on sama.
 
 Igapäevaeluga on seotud ka **sotsiaalmeedia filtrid**, mis personaliseerivad ja modereerivad sisu, **näotuvastus** telefoni avamisel ning **masintõlge** (Google Translate, DeepL).
 
@@ -1949,6 +1980,9 @@ Masintõlge on üks igapäevasemaid tehisintellekti rakendusi. Katsetad Tartu Ü
 - Invest in Estonia (2024). [Bolt and Starship partner up to launch robot grocery delivery in Tallinn](https://investinestonia.com/bolt-and-starship-partner-up-to-launch-robot-grocery-delivery-in-tallinn/). Kullerrobotid Tallinna tänavatel (inglise keeles).
 
 ### Tööleht 1.3
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Tehisintellekti rakenduste kaardistamine**
@@ -2178,7 +2212,7 @@ Kallutatus tähendab, et tehisintellekti süsteem teeb süstemaatiliselt ebaõig
 ### 📤 Väljapääsupilet 1.3
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -2202,6 +2236,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -2215,7 +2254,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['1.3'] = ["Kooli söökla tahab hakata tehisaru abil ennustama, mitu portsjonit igaks päevaks valmistada. Too üks kasu ja üks risk.", "Millise lause tõlkis Neurotõlge kõige halvemini ja miks see sinu arvates juhtus?", "Kus kohtasid sa viimase päeva jooksul tehisaru rakendust, mida varem ei märganud?"];
 setTimeout(function(){var d=window.paePilet.load('1.3');document.querySelectorAll('[data-pilet="1.3"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="1.3" name="nimi" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kooli söökla tahab hakata tehisaru abil ennustama, mitu portsjonit igaks päevaks valmistada. Too üks kasu ja üks risk.</div><textarea data-pilet="1.3" name="q0" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millise lause tõlkis Neurotõlge kõige halvemini ja miks see sinu arvates juhtus?</div><textarea data-pilet="1.3" name="q1" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus kohtasid sa viimase päeva jooksul tehisaru rakendust, mida varem ei märganud?</div><textarea data-pilet="1.3" name="q2" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('1.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('1.3')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_1.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="1.3" name="nimi" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Kooli söökla tahab hakata tehisaru abil ennustama, mitu portsjonit igaks päevaks valmistada. Too üks kasu ja üks risk.</div><textarea data-pilet="1.3" name="q0" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millise lause tõlkis Neurotõlge kõige halvemini ja miks see sinu arvates juhtus?</div><textarea data-pilet="1.3" name="q1" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus kohtasid sa viimase päeva jooksul tehisaru rakendust, mida varem ei märganud?</div><textarea data-pilet="1.3" name="q2" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('1.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('1.3')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('1.3')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_1.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -2264,6 +2303,9 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 Oled jõudnud toa viimasesse ossa. Siin teed **TI-labori**, kordad ploki teemasid: lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
 
 ### 🔬 1. ploki TI-labor: TI-detektiiv – kas see on tehisaru?
+
+<!-- class="pae-lisaks" -->
+> 🗓️ **Laborid on valikulised.** Kursuse jooksul teeb klass **2–3 laborit**, mille valib õpetaja. Labor asendab ühe sama ploki teematunni tunnitöö: selle tunni tekst loetakse kodus ja tunnis tehakse labor. Teisi laboreid saab teha rikastamiseks või projekti osana.
 
 <!-- class="pae-motle" -->
 > **Uurimisküsimus:** Mille poolest erineb reeglite järgi töötav vestlusprogramm tänapäevasest keelemudelil põhinevast vestlusrobotist ja mis teeb süsteemist „tehisaru“?
@@ -2332,7 +2374,7 @@ Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud, eeti
 | Eetiline analüüs | Vastused on seotud katsega (sisestatud tekstid, keelte erinevus, hallutsinatsiooni test); on nimetatud, kes võiks kannatada, ja tehtud konkreetne ettepanek | Eetikaküsimustele on vastatud, kuid osa vastuseid on üldsõnalised | Eetikaküsimustele on vastamata või vastused ei ole katsega seotud |
 | Koostöö ja ohutus | Rollid vahetusid ja kõik osalesid; kasutati kooli lubatud tööriista ja isikuandmeid ei sisestatud | Koostöö toimis osaliselt; ohutusnõudeid järgiti | Koostöö ei toiminud või ohutusnõudeid rikuti |
 
-### Praktilised ülesanded
+### ➕ Praktilised ülesanded
 
 <!-- class="pae-jaotis" -->
 **Ülesanne 1. Tehisintellekti rakenduste kaardistamine**

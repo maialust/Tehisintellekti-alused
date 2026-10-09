@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.2.1
+version:  2.3.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -332,7 +332,7 @@ Iga **tund** on üles ehitatud ühtemoodi:
 
 Töölehe ülesanded, mille ees on **➕**, on **lisaülesanded**. Tee neid, kui jõuad, või kui tahad teemat rohkem uurida.
 
-Iga **ploki** lõpus on **🔬 TI-labor** (uurimuslik katse rühmas), praktilised ülesanded, aruteluküsimused ja ploki enesekontrolltest.
+Iga **ploki** lõpus on **🔬 TI-labor** (uurimuslik katse rühmas), praktilised ülesanded, aruteluküsimused ja ploki enesekontrolltest. Laboreid teeb klass kursuse jooksul 2–3 (valib õpetaja), ülejäänud laborid ja praktilised ülesanded on vabatahtlikud.
 
 ### 🛡️ Tööriistade ohutuskaart
 
@@ -375,10 +375,12 @@ Iga **ploki** lõpus on **🔬 TI-labor** (uurimuslik katse rühmas), praktilise
 | Mida teed | Milleks see on | Kuhu esitad |
 |---|---|---|
 | 📤 **Väljapääsupiletid** (iga tund) | Kujundav hindamine: õpetaja annab tagasisidet ja näeb, mis vajab kordamist. | Google Classroom: kopeeri vastused või laadi fail alla |
-| 🔬 **TI-laborid** (iga plokk) | Laboriaruanne näitab, kas oskad katsetada, järeldusi teha ja piiranguid hinnata. | Google Classroom ja portfoolio |
+| 🔬 **TI-laborid** (2–3 õpetaja valitud laborit) | Laboriaruanne näitab, kas oskad katsetada, järeldusi teha ja piiranguid hinnata. | Google Classroom ja portfoolio |
 | 🧠 **Ploki enesekontrolltestid** | Kontrollid põhimõistete mõistmist. | Õpikus, õpetaja soovil Google Formsi testina |
 | 📁 **Portfoolio** | Õpipäevik (iga ploki kohta üks sissekanne), tööde näidised, TI-rakenduste analüüs, eetiline arutelu ja refleksioon. | Google Classroom kursuse lõpus |
 | 🚀 **Projektitöö (rühmatöö)** | Rakendad kõike õpitut. Hinne: õpetaja hinnang 70 %, vastastikhindamine 20 %, enesehindamine 10 %. | Esitlus ja aruanne |
+
+**Töölehe tuumikülesannete hindamine (2–1–0 p):** mõiste täpsus · tõend (katsetulemus, näide või allikas) · põhjendus.
 
 **Väljapääsupileti hindamine (kujundav):**
 
@@ -531,12 +533,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Tehisintellekti põhisuunad“, „Tehisintellekt ja inimene“, „Tehisintellekt sinu ümber: lühike ülevaade“, „Videod: mis see tehisaru on?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** <span class="pae-term" tabindex="0" data-def="tehisintellekt (TI): Arvutiteaduse haru, mis loob inimmõistuse funktsioone jäljendavaid süsteeme">tehisintellekt (TI)</span>, nõrk TI, tugev TI. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Mis on tehisintellekt?“, „Nõrk, tugev ja superintelligentsus“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Tehisintellekti põhisuunad“. Soovi korral ka „Tehisintellekt ja inimene“, „Tehisintellekt sinu ümber: lühike ülevaade“, „Videod: mis see tehisaru on?“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Mis on tehisintellekt?“, „Nõrk, tugev ja superintelligentsus“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas masin tunneb su joonistuse ära?“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded I, III ja VI
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded I, III ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -556,7 +562,7 @@ Tehisintellekt ehk TI loob masinaid, mis jäljendavad inimese mõtlemist. Need m
 Võib-olla oled täna juba mitu korda tehisintellekti kasutanud, isegi seda märkamata. Telefon tunneb ära sinu näo, YouTube soovitab järgmise video, tõlkerakendus muudab inglise keele teksti eesti keelde ja vestlusrobot vastab sinu küsimusele. Kõigi nende taga on tehisintellekt. Aga mis see täpselt on?
 
 <!-- class="pae-moiste" -->
-> **Mõiste: <span class="pae-term" tabindex="0" data-def="tehisintellekt (TI): Arvutiteaduse haru, mis loob inimmõistuse funktsioone jäljendavaid süsteeme">tehisintellekt (TI)</span>**
+> **Mõiste: tehisintellekt (TI)**
 >
 > Tehisintellekt (inglise keeles *artificial intelligence*, AI) on arvutiteaduse haru, mis tegeleb selliste masinate ja süsteemide loomisega, mis suudavad jäljendada inimmõistuse kognitiivseid ehk tunnetuslikke funktsioone – näiteks õppida, arutleda, mõista keelt ja tunda ära mustreid. Lühidalt: tehisintellekt lahendab probleeme viisil, mis tavaliselt nõuab inimese intelligentsust.
 
@@ -921,6 +927,9 @@ Katsetad, kuidas närvivõrk tunneb ära kiiruga tehtud joonistusi. Nii näed, m
 
 ### Tööleht 1.1
 
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
+
 <!-- class="pae-jaotis" -->
 **⭐ I. Mõisted ja definitsioonid**
 
@@ -1155,7 +1164,7 @@ Kalkulaator täidab alati samu jäigalt ette antud samme: ta ei õpi midagi juur
 ### 📤 Väljapääsupilet 1.1
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -1179,6 +1188,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -1192,7 +1206,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['1.1'] = ["Sinu telefoni fotogalerii oskab pildid ise rühmitada (koerad, toit, rand). Kas see on tehisintellekt ja kui jah, siis mis liiki? Põhjenda ühe lausega.", "Mitu sinu joonistust tundis Quick, Draw! ära ja mida näitas katse selle kohta, kuidas närvivõrk õpib?", "Mis jäi tänases tunnis segaseks või mille kohta tahaksid rohkem teada?"];
 setTimeout(function(){var d=window.paePilet.load('1.1');document.querySelectorAll('[data-pilet="1.1"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="1.1" name="nimi" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Sinu telefoni fotogalerii oskab pildid ise rühmitada (koerad, toit, rand). Kas see on tehisintellekt ja kui jah, siis mis liiki? Põhjenda ühe lausega.</div><textarea data-pilet="1.1" name="q0" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu sinu joonistust tundis Quick, Draw! ära ja mida näitas katse selle kohta, kuidas närvivõrk õpib?</div><textarea data-pilet="1.1" name="q1" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi tänases tunnis segaseks või mille kohta tahaksid rohkem teada?</div><textarea data-pilet="1.1" name="q2" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('1.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('1.1')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_1.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="1.1" name="nimi" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Sinu telefoni fotogalerii oskab pildid ise rühmitada (koerad, toit, rand). Kas see on tehisintellekt ja kui jah, siis mis liiki? Põhjenda ühe lausega.</div><textarea data-pilet="1.1" name="q0" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu sinu joonistust tundis Quick, Draw! ära ja mida näitas katse selle kohta, kuidas närvivõrk õpib?</div><textarea data-pilet="1.1" name="q1" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi tänases tunnis segaseks või mille kohta tahaksid rohkem teada?</div><textarea data-pilet="1.1" name="q2" oninput="window.paePilet.save('1.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('1.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('1.1')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('1.1')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_1.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -1251,12 +1265,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Juured: unistus mõtlevast masinast“, „Teine revolutsioon: masinõpe (1980–2010)“, „Miks just nüüd? Viis kasvu tegurit“, „Tehisintellekti ajaloo õppetunnid ja tulevik“, „Video: <span class="pae-term" tabindex="0" data-def="„kibe õppetund“ (The Bitter Lesson): Rich Suttoni (2019) tähelepanek, et pikas plaanis võidavad üldised meetodid, mis kasutavad arvutusvõimsust (õppimine, otsing), käsitsi kirjutatud inimteadmiste üle">„Kibe õppetund“ (The Bitter Lesson)</span>“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** <span class="pae-term" tabindex="0" data-def="Turingi test: Alan Turingi pakutud katse: kas inimene suudab vestluse põhjal eristada masinat inimesest">Turingi test</span>, TI talv, generatiivne TI. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe ja vaata** (~13 min): „Esimene revolutsioon: <span class="pae-term" tabindex="0" data-def="sümboolne tehisintellekt: Reeglitel ja loogikal põhinev lähenemine tehisintellektile">sümboolne tehisintellekt</span> (1950–1980)“, „Kolmas revolutsioon: <span class="pae-term" tabindex="0" data-def="süvaõpe: Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke">süvaõpe</span> ja generatiivne tehisintellekt (2010–…)“ ja „Kokkuvõte ja põhimõisted“ ning 3-minutiline video „Kust tuli tehisaru?“, mis annab ülevaate kogu ajaloost
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Juured: unistus mõtlevast masinast“. Soovi korral ka „Teine revolutsioon: masinõpe (1980–2010)“, „Miks just nüüd? Viis kasvu tegurit“, „Tehisintellekti ajaloo õppetunnid ja tulevik“, „Video: „Kibe õppetund“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe ja vaata** (~10 min): „Esimene revolutsioon: <span class="pae-term" tabindex="0" data-def="sümboolne tehisintellekt: Reeglitel ja loogikal põhinev lähenemine tehisintellektile">sümboolne tehisintellekt</span> (1950–1980)“, „Kolmas revolutsioon: <span class="pae-term" tabindex="0" data-def="süvaõpe: Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke">süvaõpe</span> ja generatiivne tehisintellekt (2010–…)“ ja „Kokkuvõte ja põhimõisted“ ning 3-minutiline video „Kust tuli tehisaru?“, mis annab ülevaate kogu ajaloost
 > 2. 🧪 **TI-katse** (~10 min): „Pildi-Turingi test“
-> 3. ⭐ **Tööleht** (~14 min): ülesanded III, V ja VII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded III, V ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -1293,7 +1311,7 @@ Tehisintellekti tänapäevast ajalugu võib jagada kolmeks suureks revolutsiooni
 **1950. aastal** avaldas Alan Turing artikli „Computing Machinery and Intelligence“ ja pakkus välja masina intelligentsuse hindamise meetodi.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: <span class="pae-term" tabindex="0" data-def="Turingi test: Alan Turingi pakutud katse: kas inimene suudab vestluse põhjal eristada masinat inimesest">Turingi test</span>**
+> **Mõiste: Turingi test**
 >
 > Turingi test on Alan Turingi pakutud katse, mis kontrollib, kas masin suudab jäljendada inimese mõtlemist nii hästi, et inimene ei suuda eristada, kas ta suhtleb inimese või masinaga. Küsitleja esitab kirjalikke küsimusi nii inimesele kui ka arvutile. Kui küsitleja ei suuda vastuste põhjal öelda, kumb on kumb, on masin testi läbinud.
 
@@ -1546,6 +1564,9 @@ Turingi testis püüab inimene vestluse põhjal eristada masinat inimesest. Proo
 
 ### Tööleht 1.2
 
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
+
 <!-- class="pae-jaotis" -->
 **➕ I. Tehisintellekti ajaloo olulised sündmused**
 
@@ -1705,7 +1726,7 @@ Valitud teema:
 
 [[___]]
 
-**Ülesanne 13.** Intervjuu: küsitle vanemat sugulast või tuttavat, kuidas ta on oma elu jooksul tehisintellekti arengut kogenud. Kirjuta lühike kokkuvõte.
+**Ülesanne 13.** Intervjuu: küsitle vanemat sugulast või tuttavat, kuidas ta on oma elu jooksul tehisintellekti arengut kogenud. Küsi enne luba, ära salvesta intervjuud ja ära kirjuta kokkuvõttesse tema nime (piisab nt „vanaema, 70“). Kirjuta lühike kokkuvõte.
 
 [[___ ___ ___ ___ ___]]
 
@@ -1814,7 +1835,7 @@ Mõlemad talved tekkisid, sest lubati rohkem, kui tehnoloogia suutis pakkuda. Es
 ### 📤 Väljapääsupilet 1.2
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -1838,6 +1859,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -1851,7 +1877,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['1.2'] = ["Praegu räägitakse tehisaru buumist. Too üks märk, mis võiks viidata lähenevale tehisintellekti talvele, ja üks, mis räägib selle vastu.", "Mitu nägu 10-st tundsid pildi-Turingi testis õigesti ära ja mida näitab sinu tulemus generatiivse tehisintellekti arengu kohta?", "Milline tänase tunni ajaloosündmus üllatas sind kõige rohkem ja miks?"];
 setTimeout(function(){var d=window.paePilet.load('1.2');document.querySelectorAll('[data-pilet="1.2"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="1.2" name="nimi" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Praegu räägitakse tehisaru buumist. Too üks märk, mis võiks viidata lähenevale tehisintellekti talvele, ja üks, mis räägib selle vastu.</div><textarea data-pilet="1.2" name="q0" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu nägu 10-st tundsid pildi-Turingi testis õigesti ära ja mida näitab sinu tulemus generatiivse tehisintellekti arengu kohta?</div><textarea data-pilet="1.2" name="q1" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Milline tänase tunni ajaloosündmus üllatas sind kõige rohkem ja miks?</div><textarea data-pilet="1.2" name="q2" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('1.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('1.2')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_1.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="1.2" name="nimi" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Praegu räägitakse tehisaru buumist. Too üks märk, mis võiks viidata lähenevale tehisintellekti talvele, ja üks, mis räägib selle vastu.</div><textarea data-pilet="1.2" name="q0" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu nägu 10-st tundsid pildi-Turingi testis õigesti ära ja mida näitab sinu tulemus generatiivse tehisintellekti arengu kohta?</div><textarea data-pilet="1.2" name="q1" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Milline tänase tunni ajaloosündmus üllatas sind kõige rohkem ja miks?</div><textarea data-pilet="1.2" name="q2" oninput="window.paePilet.save('1.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('1.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('1.2')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('1.2')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_1.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -1910,12 +1936,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Tehisintellekt tervishoius ja teaduses“, „Tehisintellekt transpordis“, „Tehisintellekt hariduses, äris ja tööstuses“, „Video: tehisintellekt ärimaailmas“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** soovitussüsteem, <span class="pae-term" tabindex="0" data-def="filtrimull: Olukord, kus algoritm näitab kasutajale ainult tema eelistustega sarnast sisu">filtrimull</span>, kallutatus. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Tehisintellekt igapäevaelus“, „Loov tehisintellekt ja avalik sektor“, „Eelised, piirangud ja mõju tööturule“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Tehisintellekt tervishoius ja teaduses“. Soovi korral ka „Tehisintellekt transpordis“, „Tehisintellekt hariduses, äris ja tööstuses“, „Video: tehisintellekt ärimaailmas“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Tehisintellekt igapäevaelus“, „Loov tehisintellekt ja avalik sektor“, „Eelised, piirangud ja mõju tööturule“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kus masintõlge komistab?“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded II, IV ja VI
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded II, IV ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -1924,7 +1954,7 @@ Selle tunni järel sa:
 
 **🟢 Lihtsalt öeldes**
 
-TI on juba peaaegu igas eluvaldkonnas ja ka sinu telefonis. Igapäevaselt kasutad häälassistenti, näotuvastust ja masintõlget. Soovitussüsteem pakub sulle videoid ja muusikat, mis võiksid sulle meeldida. Kui näed ainult sarnast sisu, oled <span class="pae-term" tabindex="0" data-def="filtrimull: Olukord, kus algoritm näitab kasutajale ainult tema eelistustega sarnast sisu">filtrimullis</span>. Generatiivne TI kirjutab tekste ja loob pilte, aga võib fakte välja mõelda. Eestis aitab riigi vestlusrobotite võrgustik Bürokratt inimestel infot leida. TI võib olla ka kallutatud ja kohelda inimesi ebaõiglaselt. TI muudab tööd: rutiinne töö automatiseerub ja loovus muutub tähtsamaks.
+TI on juba peaaegu igas eluvaldkonnas ja ka sinu telefonis. Igapäevaselt kasutad häälassistenti, näotuvastust ja masintõlget. Soovitussüsteem pakub sulle videoid ja muusikat, mis võiksid sulle meeldida. Kui näed ainult sarnast sisu, oled filtrimullis. Generatiivne TI kirjutab tekste ja loob pilte, aga võib fakte välja mõelda. Eestis aitab riigi vestlusrobotite võrgustik Bürokratt inimestel infot leida. TI võib olla ka kallutatud ja kohelda inimesi ebaõiglaselt. TI muudab tööd: rutiinne töö automatiseerub ja loovus muutub tähtsamaks.
 
 **Tähtsad sõnad:** **soovitussüsteem** – programm, mis pakub sisu sinu varasemate valikute järgi; **filtrimull** – olukord, kus näed ainult sarnast sisu; **kallutatus** – TI teeb ebaõiglasi otsuseid, sest andmetes on eelarvamusi.
 
@@ -1960,7 +1990,10 @@ Enamik suuri platvorme kasutab **hübriidsüsteeme**, mis ühendavad mõlemad p�
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
 >
-> Ava oma lemmikplatvormi (YouTube, TikTok, Spotify) avaleht. Mis sa arvad, miks algoritm soovitab sulle just neid asju? Kas oled märganud, et sinu voog on muutunud ühekülgseks? Mida saaksid teha, et filtrimullist välja pääseda?
+> Ava mõne platvormi (YouTube, Spotify) avaleht ilma sisse logimata või kujutle väljamõeldud kasutajat, kes vaatab ainult jalgpallivideoid. Mis sa arvad, miks algoritm soovitab just neid asju? Kuidas võib selline voog muutuda ühekülgseks? Mida saaks teha, et filtrimullist välja pääseda?
+
+<!-- class="pae-lisaks" -->
+> **Sinu valik:** sa ei pea jagama midagi isiklikku. Võid kasutada väljamõeldud näidet, kirjutada üldistatult või olla arutelus vaatleja rollis – õpieesmärk on sama.
 
 Igapäevaeluga on seotud ka **sotsiaalmeedia filtrid**, mis personaliseerivad ja modereerivad sisu, **näotuvastus** telefoni avamisel ning **masintõlge** (Google Translate, DeepL).
 
@@ -2139,6 +2172,9 @@ Masintõlge on üks igapäevasemaid tehisintellekti rakendusi. Katsetad Tartu Ü
 - Invest in Estonia (2024). [Bolt and Starship partner up to launch robot grocery delivery in Tallinn](https://investinestonia.com/bolt-and-starship-partner-up-to-launch-robot-grocery-delivery-in-tallinn/). Kullerrobotid Tallinna tänavatel (inglise keeles).
 
 ### Tööleht 1.3
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Tehisintellekti rakenduste kaardistamine**
@@ -2368,7 +2404,7 @@ Kallutatus tähendab, et tehisintellekti süsteem teeb süstemaatiliselt ebaõig
 ### 📤 Väljapääsupilet 1.3
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -2392,6 +2428,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -2405,7 +2446,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['1.3'] = ["Kooli söökla tahab hakata tehisaru abil ennustama, mitu portsjonit igaks päevaks valmistada. Too üks kasu ja üks risk.", "Millise lause tõlkis Neurotõlge kõige halvemini ja miks see sinu arvates juhtus?", "Kus kohtasid sa viimase päeva jooksul tehisaru rakendust, mida varem ei märganud?"];
 setTimeout(function(){var d=window.paePilet.load('1.3');document.querySelectorAll('[data-pilet="1.3"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="1.3" name="nimi" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kooli söökla tahab hakata tehisaru abil ennustama, mitu portsjonit igaks päevaks valmistada. Too üks kasu ja üks risk.</div><textarea data-pilet="1.3" name="q0" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millise lause tõlkis Neurotõlge kõige halvemini ja miks see sinu arvates juhtus?</div><textarea data-pilet="1.3" name="q1" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus kohtasid sa viimase päeva jooksul tehisaru rakendust, mida varem ei märganud?</div><textarea data-pilet="1.3" name="q2" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('1.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('1.3')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_1.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="1.3" name="nimi" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Kooli söökla tahab hakata tehisaru abil ennustama, mitu portsjonit igaks päevaks valmistada. Too üks kasu ja üks risk.</div><textarea data-pilet="1.3" name="q0" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millise lause tõlkis Neurotõlge kõige halvemini ja miks see sinu arvates juhtus?</div><textarea data-pilet="1.3" name="q1" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus kohtasid sa viimase päeva jooksul tehisaru rakendust, mida varem ei märganud?</div><textarea data-pilet="1.3" name="q2" oninput="window.paePilet.save('1.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('1.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('1.3')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('1.3')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_1.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -2454,6 +2495,9 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 Oled jõudnud toa viimasesse ossa. Siin teed **TI-labori**, kordad ploki teemasid: lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
 
 ### 🔬 1. ploki TI-labor: TI-detektiiv – kas see on tehisaru?
+
+<!-- class="pae-lisaks" -->
+> 🗓️ **Laborid on valikulised.** Kursuse jooksul teeb klass **2–3 laborit**, mille valib õpetaja. Labor asendab ühe sama ploki teematunni tunnitöö: selle tunni tekst loetakse kodus ja tunnis tehakse labor. Teisi laboreid saab teha rikastamiseks või projekti osana.
 
 <!-- class="pae-motle" -->
 > **Uurimisküsimus:** Mille poolest erineb reeglite järgi töötav vestlusprogramm tänapäevasest keelemudelil põhinevast vestlusrobotist ja mis teeb süsteemist „tehisaru“?
@@ -2522,7 +2566,7 @@ Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud, eeti
 | Eetiline analüüs | Vastused on seotud katsega (sisestatud tekstid, keelte erinevus, hallutsinatsiooni test); on nimetatud, kes võiks kannatada, ja tehtud konkreetne ettepanek | Eetikaküsimustele on vastatud, kuid osa vastuseid on üldsõnalised | Eetikaküsimustele on vastamata või vastused ei ole katsega seotud |
 | Koostöö ja ohutus | Rollid vahetusid ja kõik osalesid; kasutati kooli lubatud tööriista ja isikuandmeid ei sisestatud | Koostöö toimis osaliselt; ohutusnõudeid järgiti | Koostöö ei toiminud või ohutusnõudeid rikuti |
 
-### Praktilised ülesanded
+### ➕ Praktilised ülesanded
 
 <!-- class="pae-jaotis" -->
 **Ülesanne 1. Tehisintellekti rakenduste kaardistamine**
@@ -3135,12 +3179,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Kui hea on algoritm?“, „Algoritmid ja inimene – ning algoritmid Eestis“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** algoritm, pseudokood, vooskeem, otsingualgoritm. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Mis on algoritm?“, „Kuidas algoritme kirja panna“, „Algoritmide tüübid tehisintellektis“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Kui hea on algoritm?“. Soovi korral ka „Algoritmid ja inimene – ning algoritmid Eestis“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Mis on algoritm?“, „Kuidas algoritme kirja panna“, „Algoritmide tüübid tehisintellektis“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kuidas leiab navigeerija tee?“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja VI
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded II, V ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -3389,6 +3437,9 @@ Navigatsioonirakendus otsib sulle teed otsingualgoritmiga. Katsetad, kuidas „p
 - Encyclopaedia Britannica (vaadatud 2026). [al-Khwarizmi](https://www.britannica.com/biography/al-Khwarizmi). Matemaatik (u 780–850), kelle nime ladinakeelsest kujust on tulnud sõna „algoritm“.
 
 ### Tööleht 2.1
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Algoritmide mõistmine**
@@ -3673,7 +3724,7 @@ Juhis ei ole määratud ehk täpne: „veidi“ ja „kuni on valmis“ ei ütle
 ### 📤 Väljapääsupilet 2.1
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -3697,6 +3748,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -3710,7 +3766,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.1'] = ["Kooli söökla tahab algoritmi, mis otsustab, kas homseks tellida rohkem suppi. Nimeta selle algoritmi sisend, üks tingimus ja väljund.", "Kumb algoritm vaatas TI-katses läbi vähem ruute, laiutiotsing või A-täht, ja miks?", "Kus kohtasid täna väljaspool kooli mõnda algoritmi, mis sinu eest midagi otsustas?"];
 setTimeout(function(){var d=window.paePilet.load('2.1');document.querySelectorAll('[data-pilet="2.1"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="2.1" name="nimi" oninput="window.paePilet.save('2.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kooli söökla tahab algoritmi, mis otsustab, kas homseks tellida rohkem suppi. Nimeta selle algoritmi sisend, üks tingimus ja väljund.</div><textarea data-pilet="2.1" name="q0" oninput="window.paePilet.save('2.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Kumb algoritm vaatas TI-katses läbi vähem ruute, laiutiotsing või A-täht, ja miks?</div><textarea data-pilet="2.1" name="q1" oninput="window.paePilet.save('2.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus kohtasid täna väljaspool kooli mõnda algoritmi, mis sinu eest midagi otsustas?</div><textarea data-pilet="2.1" name="q2" oninput="window.paePilet.save('2.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('2.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('2.1')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_2.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="2.1" name="nimi" oninput="window.paePilet.save('2.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Kooli söökla tahab algoritmi, mis otsustab, kas homseks tellida rohkem suppi. Nimeta selle algoritmi sisend, üks tingimus ja väljund.</div><textarea data-pilet="2.1" name="q0" oninput="window.paePilet.save('2.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Kumb algoritm vaatas TI-katses läbi vähem ruute, laiutiotsing või A-täht, ja miks?</div><textarea data-pilet="2.1" name="q1" oninput="window.paePilet.save('2.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus kohtasid täna väljaspool kooli mõnda algoritmi, mis sinu eest midagi otsustas?</div><textarea data-pilet="2.1" name="q2" oninput="window.paePilet.save('2.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('2.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('2.1')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('2.1')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_2.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -3779,12 +3835,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Andmetüübid ja andmete kogumine“, „<span class="pae-term" tabindex="0" data-def="suurandmed: Väga suured, kiiresti muutuvad ja mitmekesised andmehulgad (5V)">Suurandmed</span> ja andmekaitse“, „Andmed Eestis“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** andmestik, treeningandmed, testandmed, kallutatus. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Miks andmed on nii olulised?“, „Andmete ettevalmistamine ja jagamine“, „Andmete kvaliteet ja kallutatus“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Andmetüübid ja andmete kogumine“. Soovi korral ka „<span class="pae-term" tabindex="0" data-def="suurandmed: Väga suured, kiiresti muutuvad ja mitmekesised andmehulgad (5V)">Suurandmed</span> ja andmekaitse“, „Andmed Eestis“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Miks andmed on nii olulised?“, „Andmete ettevalmistamine ja jagamine“, „Andmete kvaliteet ja kallutatus“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Mida õpib TI miljonitest joonistustest?“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded III, V ja VII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded III, V ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -4027,6 +4087,9 @@ Quick, Draw! on mäng, kus närvivõrk püüab ära arvata, mida sa joonistad. M
 
 ### Tööleht 2.2
 
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
+
 <!-- class="pae-jaotis" -->
 **➕ I. Andmete roll tehisintellektis**
 
@@ -4213,6 +4276,8 @@ Selgita iga omaduse kohta lühidalt, mida see tähendab.
 
 **Ülesanne 12.** Mõtle välja lihtne küsitlus (3–5 küsimust), mille abil saaks koguda andmeid mõne TI-rakenduse jaoks.
 
+> Küsitlust ei pea päriselt läbi viima – piisab kavandist. Koosta küsimused nii, et need ei küsiks nime ega muid isikuandmeid ning ei puudutaks tundlikke teemasid (tervis, pere, rahaasjad). Kui küsitlus viiakse õpetaja loal läbi, on vastamine vabatahtlik ja anonüümne ning vastused kustutatakse pärast ülesannet.
+
 **a) Tehisintellekti rakenduse eesmärk:**
 
 [[___]]
@@ -4337,7 +4402,7 @@ Põhimõte tähendab, et mudel on ainult nii hea kui andmed, millest ta õpib. K
 ### 📤 Väljapääsupilet 2.2
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -4361,6 +4426,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -4374,7 +4444,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.2'] = ["Kooli raamatukogu tahab ennustada, milliseid raamatuid laenutatakse, aga kogub andmeid ainult e-raamatute kohta. Millist andmekvaliteedi probleemi sa siin näed?", "Mida näitasid Quick, Draw! joonistused andmete mitmekesisuse ja müra kohta?", "Mis jäi andmete jagamise (treening-, valideerimis- ja testandmed) juures segaseks?"];
 setTimeout(function(){var d=window.paePilet.load('2.2');document.querySelectorAll('[data-pilet="2.2"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="2.2" name="nimi" oninput="window.paePilet.save('2.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kooli raamatukogu tahab ennustada, milliseid raamatuid laenutatakse, aga kogub andmeid ainult e-raamatute kohta. Millist andmekvaliteedi probleemi sa siin näed?</div><textarea data-pilet="2.2" name="q0" oninput="window.paePilet.save('2.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mida näitasid Quick, Draw! joonistused andmete mitmekesisuse ja müra kohta?</div><textarea data-pilet="2.2" name="q1" oninput="window.paePilet.save('2.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi andmete jagamise (treening-, valideerimis- ja testandmed) juures segaseks?</div><textarea data-pilet="2.2" name="q2" oninput="window.paePilet.save('2.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('2.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('2.2')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_2.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="2.2" name="nimi" oninput="window.paePilet.save('2.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Kooli raamatukogu tahab ennustada, milliseid raamatuid laenutatakse, aga kogub andmeid ainult e-raamatute kohta. Millist andmekvaliteedi probleemi sa siin näed?</div><textarea data-pilet="2.2" name="q0" oninput="window.paePilet.save('2.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mida näitasid Quick, Draw! joonistused andmete mitmekesisuse ja müra kohta?</div><textarea data-pilet="2.2" name="q1" oninput="window.paePilet.save('2.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi andmete jagamise (treening-, valideerimis- ja testandmed) juures segaseks?</div><textarea data-pilet="2.2" name="q2" oninput="window.paePilet.save('2.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('2.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('2.2')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('2.2')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_2.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -4432,12 +4502,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „<span class="pae-term" tabindex="0" data-def="juhendamata õpe: Mustrite otsimine märgendamata andmetest">Juhendamata õpe</span> ja stiimulõpe“, „Masinõppe protsess“, „Masinõpe Eestis ja maailmas“, „Video: kuidas tehisaru töötab?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** masinõpe, mudel, <span class="pae-term" tabindex="0" data-def="juhendatud õpe: Õppimine märgendatud andmetest, kus õige vastus on teada">juhendatud õpe</span>, <span class="pae-term" tabindex="0" data-def="ülesobitamine: Mudel õpib treeningandmed pähe ega üldista uutele andmetele">ülesobitamine</span>. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Mis on masinõpe?“, „<span class="pae-term" tabindex="0" data-def="juhendatud õpe: Õppimine märgendatud andmetest, kus õige vastus on teada">Juhendatud õpe</span>“, „<span class="pae-term" tabindex="0" data-def="ülesobitamine: Mudel õpib treeningandmed pähe ega üldista uutele andmetele">Ülesobitamine</span> ja <span class="pae-term" tabindex="0" data-def="alasobitamine: Mudel on liiga lihtne ega taba andmete seaduspärasusi">alasobitamine</span>“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „<span class="pae-term" tabindex="0" data-def="juhendamata õpe: Mustrite otsimine märgendamata andmetest">Juhendamata õpe</span> ja stiimulõpe“. Soovi korral ka „Masinõppe protsess“, „Masinõpe Eestis ja maailmas“, „Video: kuidas tehisaru töötab?“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Mis on masinõpe?“, „Juhendatud õpe“, „Ülesobitamine ja <span class="pae-term" tabindex="0" data-def="alasobitamine: Mudel on liiga lihtne ega taba andmete seaduspärasusi">alasobitamine</span>“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Treeni helituvastaja ja proovi seda petta“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja VI
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded II, V ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -4674,6 +4748,9 @@ Treenid mõne minutiga mudeli, mis eristab kahte heli. Siis uurid, kas mudel tun
 
 **Vaja läheb:** Teachable Machine'i heliprojekt ([teachablemachine.withgoogle.com](https://teachablemachine.withgoogle.com/) → **Get Started** → **Audio Project**), mikrofoniga arvuti, ~10 min, paaristöö
 
+<!-- class="pae-lisaks" -->
+> **Mikrofoni reegel:** ära salvesta kõnet ega kellegi häält – kasuta ainult helisid (plaksutus, näpuklõps, koputus lauale, vile vms). Helid töödeldakse ainult brauseris: ära salvesta projekti ega helifaile oma arvutisse ega pilve ja ära jaga neid. Pärast katset sulge vaheleht. Õpetaja kontrollib, et reeglit järgitakse. Kui sa ei soovi mikrofoni kasutada, tee allpool kirjeldatud paberil helisimulatsioon või jälgi õpetaja demonstratsiooni.
+
 1. Ava heliprojekt ja luba brauseril mikrofoni kasutada. Salvesta klassi **Background Noise** jaoks 20 sekundit klassi taustahelisid (see on nõutav).
 2. Nimeta kaks klassi, nt „plaksutus“ ja „näpuklõps“. Salvesta kummagi jaoks minimaalne arv näiteid (8), kõik sama inimese tehtud ja samas kohas. Vajuta **Train Model**.
 3. Testi eelvaates (*Preview*): kõigepealt sina, siis paariline, siis kaugemalt ja vaiksemalt. Lisa seejärel kummassegi klassi paarilise tehtud näiteid, treeni uuesti ja testi samamoodi.
@@ -4683,7 +4760,7 @@ Treenid mõne minutiga mudeli, mis eristab kahte heli. Siis uurid, kas mudel tun
 [[___ ___ ___]]
 
 <!-- class="pae-lisaks" -->
-> **Kui arvutit pole:** Üks õpilane „treenib“ end silmad kinni kahte heli ära tundma, kuulates neid ainult ühe klassikaaslase esituses. Seejärel teevad sama heli teised õpilased ja „mudel“ arvab. Arutage, mitu korda ta eksis ja miks.
+> **Kui arvutit pole või mikrofoni ei kasutata:** Üks õpilane „treenib“ end silmad kinni kahte heli ära tundma, kuulates neid ainult ühe klassikaaslase esituses. Seejärel teevad sama heli teised õpilased ja „mudel“ arvab. Arutage, mitu korda ta eksis ja miks.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -4719,6 +4796,9 @@ Treenid mõne minutiga mudeli, mis eristab kahte heli. Siis uurid, kas mudel tun
 - MinnaLearn ja Helsingi Ülikool (vaadatud 2026). [Elements of AI](https://www.elementsofai.ee/). Tasuta eestikeelne kursus, mis sobib masinõppe põhimõtete iseseisvaks kordamiseks.
 
 ### Tööleht 2.3
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Masinõppe põhimõisted**
@@ -5042,7 +5122,7 @@ Mudel vastab õigesti 990 juhul 1000-st, sest tavalisi tehinguid on palju rohkem
 ### 📤 Väljapääsupilet 2.3
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -5066,6 +5146,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -5079,7 +5164,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.3'] = ["Spordirakendus õppis ära tundma kätekõverdusi ainult ühe treeneri videotest ja eksib nüüd teiste inimeste puhul. Kas see on üle- või alasobitamine ja kuidas seda parandada?", "Mida näitas sinu helimudeli test paarilise helidega mudeli üldistusvõime kohta?", "Millises igapäevases rakenduses kasutatakse sinu arvates juhendatud õpet?"];
 setTimeout(function(){var d=window.paePilet.load('2.3');document.querySelectorAll('[data-pilet="2.3"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="2.3" name="nimi" oninput="window.paePilet.save('2.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Spordirakendus õppis ära tundma kätekõverdusi ainult ühe treeneri videotest ja eksib nüüd teiste inimeste puhul. Kas see on üle- või alasobitamine ja kuidas seda parandada?</div><textarea data-pilet="2.3" name="q0" oninput="window.paePilet.save('2.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mida näitas sinu helimudeli test paarilise helidega mudeli üldistusvõime kohta?</div><textarea data-pilet="2.3" name="q1" oninput="window.paePilet.save('2.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millises igapäevases rakenduses kasutatakse sinu arvates juhendatud õpet?</div><textarea data-pilet="2.3" name="q2" oninput="window.paePilet.save('2.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('2.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('2.3')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_2.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="2.3" name="nimi" oninput="window.paePilet.save('2.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Spordirakendus õppis ära tundma kätekõverdusi ainult ühe treeneri videotest ja eksib nüüd teiste inimeste puhul. Kas see on üle- või alasobitamine ja kuidas seda parandada?</div><textarea data-pilet="2.3" name="q0" oninput="window.paePilet.save('2.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mida näitas sinu helimudeli test paarilise helidega mudeli üldistusvõime kohta?</div><textarea data-pilet="2.3" name="q1" oninput="window.paePilet.save('2.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millises igapäevases rakenduses kasutatakse sinu arvates juhendatud õpet?</div><textarea data-pilet="2.3" name="q2" oninput="window.paePilet.save('2.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('2.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('2.3')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('2.3')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_2.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -5137,12 +5222,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Kuidas <span class="pae-term" tabindex="0" data-def="närvivõrk: Omavahel ühendatud tehisneuronitest koosnev arvutusmudel">närvivõrk</span> õpib: viga, <span class="pae-term" tabindex="0" data-def="tagasilevi: Algoritm, mis arvutab, kuidas muuta kaalusid vea vähendamiseks">tagasilevi</span> ja <span class="pae-term" tabindex="0" data-def="gradientlaskumine: Kaalude järkjärguline muutmine vea vähenemise suunas">gradientlaskumine</span>“, „<span class="pae-term" tabindex="0" data-def="süvaõpe: Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke">Süvaõpe</span> ja selle arhitektuurid“, „Läbimurded, väljakutsed ja süvaõpe Eestis“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** <span class="pae-term" tabindex="0" data-def="närvivõrk: Omavahel ühendatud tehisneuronitest koosnev arvutusmudel">närvivõrk</span>, kaal, aktivatsioonifunktsioon, kiht. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Mis on tehisnärvivõrk?“, „Tehisneuron: kaalud, nihe ja aktivatsioon“, „Kihid: neuronitest võrguks“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Kuidas närvivõrk õpib: viga, <span class="pae-term" tabindex="0" data-def="tagasilevi: Algoritm, mis arvutab, kuidas muuta kaalusid vea vähendamiseks">tagasilevi</span> ja <span class="pae-term" tabindex="0" data-def="gradientlaskumine: Kaalude järkjärguline muutmine vea vähenemise suunas">gradientlaskumine</span>“. Soovi korral ka „<span class="pae-term" tabindex="0" data-def="süvaõpe: Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke">Süvaõpe</span> ja selle arhitektuurid“, „Läbimurded, väljakutsed ja süvaõpe Eestis“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Mis on tehisnärvivõrk?“, „Tehisneuron: kaalud, nihe ja aktivatsioon“, „Kihid: neuronitest võrguks“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Närvivõrk õpib punkte eristama“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja VI
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded II, V ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -5419,6 +5508,9 @@ Närvivõrgu õppimist saab vaadata otse brauseris. Katsetad, kuidas peidetud ki
 - Vaswani, A. jt (2017). [Attention Is All You Need](https://arxiv.org/abs/1706.03762). Teadusartikkel, milles tutvustati transformeri arhitektuuri (edasijõudnutele).
 
 ### Tööleht 2.4
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Närvivõrkude põhimõisted**
@@ -5749,7 +5841,7 @@ Gradientlaskumine on nagu udus mäelt alla orgu minek: kaugele ei näe, aga jalg
 ### 📤 Väljapääsupilet 2.4
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -5773,6 +5865,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -5786,7 +5883,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.4'] = ["Telefoni neuron otsustab, kas lülitada ekraan öörežiimi. Nimeta kaks sisendit ja selgita, kas nende kaal võiks olla positiivne või negatiivne.", "Mida muutis TensorFlow Playgroundis peidetud kihtide lisamine või õppimiskiiruse suurendamine?", "Mis jäi kaalude, nihke või aktivatsioonifunktsiooni juures kõige segasemaks?"];
 setTimeout(function(){var d=window.paePilet.load('2.4');document.querySelectorAll('[data-pilet="2.4"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="2.4" name="nimi" oninput="window.paePilet.save('2.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Telefoni neuron otsustab, kas lülitada ekraan öörežiimi. Nimeta kaks sisendit ja selgita, kas nende kaal võiks olla positiivne või negatiivne.</div><textarea data-pilet="2.4" name="q0" oninput="window.paePilet.save('2.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mida muutis TensorFlow Playgroundis peidetud kihtide lisamine või õppimiskiiruse suurendamine?</div><textarea data-pilet="2.4" name="q1" oninput="window.paePilet.save('2.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi kaalude, nihke või aktivatsioonifunktsiooni juures kõige segasemaks?</div><textarea data-pilet="2.4" name="q2" oninput="window.paePilet.save('2.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('2.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('2.4')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_2.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="2.4" name="nimi" oninput="window.paePilet.save('2.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Telefoni neuron otsustab, kas lülitada ekraan öörežiimi. Nimeta kaks sisendit ja selgita, kas nende kaal võiks olla positiivne või negatiivne.</div><textarea data-pilet="2.4" name="q0" oninput="window.paePilet.save('2.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mida muutis TensorFlow Playgroundis peidetud kihtide lisamine või õppimiskiiruse suurendamine?</div><textarea data-pilet="2.4" name="q1" oninput="window.paePilet.save('2.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi kaalude, nihke või aktivatsioonifunktsiooni juures kõige segasemaks?</div><textarea data-pilet="2.4" name="q2" oninput="window.paePilet.save('2.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('2.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('2.4')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('2.4')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_2.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -5852,12 +5949,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Tehisintellekt hariduses“, „Transport, tootmine ja põllumajandus“, „Rahandus ja meelelahutus“, „Videod: tehisaru teaduses“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** arvutinägemine, automatiseerimine, tehisintellekti määrus (AI Act). Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Tehisintellekt tervishoius ja teaduses“, „Avalik sektor ja tehisintellekt Eestis“, „Mõju tööturule ja eetilised küsimused“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Tehisintellekt hariduses“. Soovi korral ka „Transport, tootmine ja põllumajandus“, „Rahandus ja meelelahutus“, „Videod: tehisaru teaduses“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Tehisintellekt tervishoius ja teaduses“, „Avalik sektor ja tehisintellekt Eestis“, „Mõju tööturule ja eetilised küsimused“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas masintõlge saab eesti keelest aru?“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded II, IV ja VI
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded II, IV ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -6117,6 +6218,9 @@ Masintõlge on üks keeletöötluse rakendusi, mida kasutad iga päev. Tartu Ül
 - Hallismaa, M. (2026). [TI-hüppe juht: õpilased ütlevad, et meie mudel on tüütu, ent potentsiaalikas](https://www.err.ee/1610050489/ti-huppe-juht-opilased-utlevad-et-meie-mudel-on-tuutu-ent-potentsiaalikas). ERR. Intervjuu Eesti koolide TI-programmi ja õpirakenduse kohta – sobib lisalugemiseks.
 
 ### Tööleht 2.5
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Tehisintellekti rakenduste kaardistamine**
@@ -6417,7 +6521,7 @@ Radioloogi töös vaatab TI-süsteem röntgenipildid kiiresti läbi ja märgib k
 ### 📤 Väljapääsupilet 2.5
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -6441,6 +6545,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -6454,7 +6563,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.5'] = ["Linnaraamatukogu tahab panna kodulehele vestlusroboti. Nimeta üks kasu ja üks eetiline risk, millega peaks arvestama.", "Millise lause tõlkis Neurotõlge TI-katses kõige halvemini ja mis oli selle põhjus sinu arvates?", "Millist TI-rakendust kasutad ise kõige sagedamini ja mida see sinu kohta teab?"];
 setTimeout(function(){var d=window.paePilet.load('2.5');document.querySelectorAll('[data-pilet="2.5"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="2.5" name="nimi" oninput="window.paePilet.save('2.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Linnaraamatukogu tahab panna kodulehele vestlusroboti. Nimeta üks kasu ja üks eetiline risk, millega peaks arvestama.</div><textarea data-pilet="2.5" name="q0" oninput="window.paePilet.save('2.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millise lause tõlkis Neurotõlge TI-katses kõige halvemini ja mis oli selle põhjus sinu arvates?</div><textarea data-pilet="2.5" name="q1" oninput="window.paePilet.save('2.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millist TI-rakendust kasutad ise kõige sagedamini ja mida see sinu kohta teab?</div><textarea data-pilet="2.5" name="q2" oninput="window.paePilet.save('2.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('2.5')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('2.5')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_2.5" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="2.5" name="nimi" oninput="window.paePilet.save('2.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Linnaraamatukogu tahab panna kodulehele vestlusroboti. Nimeta üks kasu ja üks eetiline risk, millega peaks arvestama.</div><textarea data-pilet="2.5" name="q0" oninput="window.paePilet.save('2.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millise lause tõlkis Neurotõlge TI-katses kõige halvemini ja mis oli selle põhjus sinu arvates?</div><textarea data-pilet="2.5" name="q1" oninput="window.paePilet.save('2.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millist TI-rakendust kasutad ise kõige sagedamini ja mida see sinu kohta teab?</div><textarea data-pilet="2.5" name="q2" oninput="window.paePilet.save('2.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('2.5')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('2.5')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('2.5')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_2.5" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -6513,6 +6622,9 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 Oled jõudnud toa viimasesse ossa. Siin teed **TI-labori**, kordad ploki teemasid **praktiliste ülesannete** abil, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
 
 ### 🔬 2. ploki TI-labor: treeni oma klassifitseerija
+
+<!-- class="pae-lisaks" -->
+> 🗓️ **Laborid on valikulised.** Kursuse jooksul teeb klass **2–3 laborit**, mille valib õpetaja. Labor asendab ühe sama ploki teematunni tunnitöö: selle tunni tekst loetakse kodus ja tunnis tehakse labor. Teisi laboreid saab teha rikastamiseks või projekti osana.
 
 <!-- class="pae-motle" -->
 > **Uurimisküsimus:** Kuidas mõjutavad treeningpiltide hulk ja mitmekesisus (taust, valgus, nurk) seda, kui täpselt pildiklassifitseerija tunneb ära uusi, varem nägemata pilte?
@@ -6582,7 +6694,7 @@ Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud, eeti
 | Eetiline analüüs | Vastused on seotud katse andmetega (ühekülgsed või tasakaalustamata klassid); on nimetatud, kes võiks kannatada, ja tehtud konkreetne ettepanek | Eetikaküsimustele on vastatud, kuid seos katsega on nõrk | Eetikaküsimustele on vastamata või vastused ei ole katsega seotud |
 | Koostöö ja ohutus | Rollid vahetusid, kõik panustasid ja pildistati ainult esemeid | Rollid olid jaotatud, kuid ei vahetunud | Töö tegi peamiselt üks liige või pildistati inimesi ilma loata |
 
-### Praktilised ülesanded
+### ➕ Praktilised ülesanded
 
 <!-- class="pae-jaotis" -->
 **Ülesanne 1. Algoritmi visualiseerimine ja rakendamine**
@@ -6624,14 +6736,16 @@ Kirjelda oma rühma algoritmi ja testimise tulemusi. Mis töötas hästi, mida m
 **Sammud:**
 
 1. Moodustage 3–4-liikmelised rühmad.
-2. Valige üks teema andmete kogumiseks:
-   - klassi õpilaste uneharjumused;
-   - kooli või klassi õpilaste meediatarbimise harjumused;
+2. Valige üks teema andmete kogumiseks. Eelistage **avaandmeid või sünteetilisi (väljamõeldud) andmeid**:
+   - noorte uneharjumused või meediatarbimine Statistikaameti avaandmete põhjal ([andmed.stat.ee](https://andmed.stat.ee/)) või õpetaja antud väljamõeldud andmestiku põhjal;
    - kohalike poodide hinnad mingis tootekategoorias;
    - viimase nädala ilmaandmed;
-   - kooli või klassi õpilaste hobid ja vaba aja tegevused.
-3. Koostage lühike küsimustik või andmete kogumise plaan.
+   - väljamõeldud „klassi“ hobid ja vaba aja tegevused, mille andmestiku loote ise (nt 20 väljamõeldud vastajat).
+3. Koostage lühike andmete kogumise plaan. Kui kogute siiski andmeid oma klassist, järgige reegleid allolevas kastis.
 4. Koguge vähemalt 20 andmepunkti.
+
+<!-- class="pae-lisaks" -->
+> **Andmekaitse, kui kogute andmeid klassikaaslastelt:** osalemine on **vabatahtlik** ja keegi ei pea põhjendama, miks ta ei vasta; küsimustik on **anonüümne** (ei küsita nimesid, e-posti ega muud, mille järgi vastaja ära tunneb); küsige **ainult seda, mida ülesanne vajab**, ja vältige tundlikke teemasid (tervis, pere, rahaasjad); andmeid näeb ainult teie rühm ja õpetaja ning need **kustutatakse pärast ülesande lõppu**. Klassile esitlete ainult koondtulemusi.
 5. Puhastage ja korrastage andmed: eemaldage ebatäpsed või puuduvad andmed, ühtlustage andmevormingud ja vajadusel jagage andmed kategooriatesse.
 6. Analüüsige andmeid: arvutage keskmine, mediaan ja mood, looge vähemalt kaks eri tüüpi diagrammi ning otsige mustreid või trende.
 7. Kirjutage lühianalüüs (200–300 sõna), kus kirjeldate andmete kogumise protsessi, esitate peamised leiud, arutlete, kuidas teie andmeid saaks kasutada tehisintellekti treenimiseks, ning toote välja andmete võimalikud probleemid või kallutatuse.
@@ -6639,7 +6753,7 @@ Kirjelda oma rühma algoritmi ja testimise tulemusi. Mis töötas hästi, mida m
 
 **Mida jälgitakse:**
 
-- andmete kogumise meetodi sobivus;
+- andmete kogumise meetodi sobivus ja andmekaitse reeglite järgimine;
 - andmete puhastamise ja korrastamise põhjalikkus;
 - analüüsi sügavus ja korrektsus;
 - diagrammide kvaliteet ja informatiivsus;
@@ -7209,12 +7323,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Keeletöötluse lühiajalugu“, „Kuidas tekst muudetakse arvudeks“, „Keeletöötlus eesti keeles ja valdkonna väljakutsed“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** loomuliku keele töötlus, token, keelemudel, <span class="pae-term" tabindex="0" data-def="tähelepanumehhanism: Meetod, mis aitab mudelil keskenduda olulistele sõnadele ja nende seostele">tähelepanumehhanism</span>. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Mis on loomuliku keele töötlus?“, „Kuidas arvuti teksti „loeb“: keeletöötluse põhiülesanded“, „Keelemudelid ja <span class="pae-term" tabindex="0" data-def="transformer: 2017. aastal tutvustatud närvivõrgu arhitektuur, suurte keelemudelite alus">transformerid</span>“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Keeletöötluse lühiajalugu“. Soovi korral ka „Kuidas tekst muudetakse arvudeks“, „Keeletöötlus eesti keeles ja valdkonna väljakutsed“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Mis on loomuliku keele töötlus?“, „Kuidas arvuti teksti „loeb“: keeletöötluse põhiülesanded“, „Keelemudelid ja <span class="pae-term" tabindex="0" data-def="transformer: 2017. aastal tutvustatud närvivõrgu arhitektuur, suurte keelemudelite alus">transformerid</span>“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Mitmeks tokeniks lause jaguneb?“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded II, VI ja VII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded II, VI ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -7223,7 +7341,7 @@ Selle tunni järel sa:
 
 **🟢 Lihtsalt öeldes**
 
-Loomuliku keele töötlus aitab arvutil inimkeelt mõista ja luua. Inimkeel on arvutile raske, sest tähendus sõltub kontekstist. Sõnal võib olla mitu tähendust: „tee“ võib olla jook või liiklusmaa. Kõigepealt jagab arvuti teksti väikesteks osadeks ehk tokeniteks. Keelemudel ennustab, milline sõna tuleb tõenäoliselt järgmisena. Nii töötab ka sinu telefoni klaviatuur, mis pakub järgmist sõna. Tänapäeva suured keelemudelid põhinevad transformeril ja <span class="pae-term" tabindex="0" data-def="tähelepanumehhanism: Meetod, mis aitab mudelil keskenduda olulistele sõnadele ja nende seostele">tähelepanumehhanismil</span>. Keelemudel leiab tekstist mustreid, aga ei mõista maailma nagu sina.
+Loomuliku keele töötlus aitab arvutil inimkeelt mõista ja luua. Inimkeel on arvutile raske, sest tähendus sõltub kontekstist. Sõnal võib olla mitu tähendust: „tee“ võib olla jook või liiklusmaa. Kõigepealt jagab arvuti teksti väikesteks osadeks ehk tokeniteks. Keelemudel ennustab, milline sõna tuleb tõenäoliselt järgmisena. Nii töötab ka sinu telefoni klaviatuur, mis pakub järgmist sõna. Tänapäeva suured keelemudelid põhinevad transformeril ja tähelepanumehhanismil. Keelemudel leiab tekstist mustreid, aga ei mõista maailma nagu sina.
 
 **Tähtsad sõnad:** **loomuliku keele töötlus** – TI haru, mis töötleb inimkeelt; **token** – teksti väike osa, näiteks sõna või sõnaosa; **keelemudel** – mudel, mis ennustab järgmist sõna; **tähelepanumehhanism** – meetod, mis aitab mudelil leida lausest tähtsad sõnad.
 
@@ -7464,6 +7582,9 @@ Suur keelemudel ei loe teksti sõnade, vaid tokenite kaupa. Uuri tokeniseerija a
 - Tanvir, H., Kittask, C., Eiche, S., Sirts, K. (2020). [EstBERT: A Pretrained Language-Specific BERT for Estonian](https://arxiv.org/abs/2011.04784). Tartu Ülikooli teadlaste artikkel eesti keele BERT-mudelist (inglise keeles).
 
 ### Tööleht 3.1
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Loomuliku keele töötluse põhimõisted**
@@ -7772,7 +7893,7 @@ Eesti keelt räägib vaid umbes miljon inimest, seega on eestikeelset teksti, mi
 ### 📤 Väljapääsupilet 3.1
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -7796,6 +7917,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -7809,7 +7935,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['3.1'] = ["Telefoni klaviatuur pakub pärast sõnu „Palju õnne“ järgmiseks sõnaks „sünnipäevaks“. Millist tunnis õpitud mõistet see näitab ja kuidas see töötab?", "Miks jagunes eestikeelne lause TI-katses rohkemateks tokeniteks kui ingliskeelne?", "Mis jäi tänases tunnis sinu jaoks kõige segasemaks?"];
 setTimeout(function(){var d=window.paePilet.load('3.1');document.querySelectorAll('[data-pilet="3.1"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="3.1" name="nimi" oninput="window.paePilet.save('3.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Telefoni klaviatuur pakub pärast sõnu „Palju õnne“ järgmiseks sõnaks „sünnipäevaks“. Millist tunnis õpitud mõistet see näitab ja kuidas see töötab?</div><textarea data-pilet="3.1" name="q0" oninput="window.paePilet.save('3.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Miks jagunes eestikeelne lause TI-katses rohkemateks tokeniteks kui ingliskeelne?</div><textarea data-pilet="3.1" name="q1" oninput="window.paePilet.save('3.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi tänases tunnis sinu jaoks kõige segasemaks?</div><textarea data-pilet="3.1" name="q2" oninput="window.paePilet.save('3.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('3.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('3.1')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_3.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="3.1" name="nimi" oninput="window.paePilet.save('3.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Telefoni klaviatuur pakub pärast sõnu „Palju õnne“ järgmiseks sõnaks „sünnipäevaks“. Millist tunnis õpitud mõistet see näitab ja kuidas see töötab?</div><textarea data-pilet="3.1" name="q0" oninput="window.paePilet.save('3.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Miks jagunes eestikeelne lause TI-katses rohkemateks tokeniteks kui ingliskeelne?</div><textarea data-pilet="3.1" name="q1" oninput="window.paePilet.save('3.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi tänases tunnis sinu jaoks kõige segasemaks?</div><textarea data-pilet="3.1" name="q2" oninput="window.paePilet.save('3.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('3.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('3.1')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('3.1')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_3.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -7865,12 +7991,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Teksti analüüs ja <span class="pae-term" tabindex="0" data-def="teksti klassifitseerimine: Teksti liigitamine etteantud kategooriatesse">teksti klassifitseerimine</span>“, „Teksti kokkuvõtete tegemine“, „Genereerimise juhtimine: parameetrid ja juhised“, „Video: miks ei saa tehisarust head kirjanikku?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** meelestatuse analüüs, nimeüksus, hallutsinatsioon. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Meelestatuse analüüs ja nimeüksuste tuvastamine“, „Kuidas masin teksti loob“, „Väljakutsed, eetika ja eesti keel“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Teksti analüüs ja <span class="pae-term" tabindex="0" data-def="teksti klassifitseerimine: Teksti liigitamine etteantud kategooriatesse">teksti klassifitseerimine</span>“. Soovi korral ka „Teksti kokkuvõtete tegemine“, „Genereerimise juhtimine: parameetrid ja juhised“, „Video: miks ei saa tehisarust head kirjanikku?“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Meelestatuse analüüs ja nimeüksuste tuvastamine“, „Kuidas masin teksti loob“, „Väljakutsed, eetika ja eesti keel“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas masin tabab sarkasmi?“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded IV, VI ja VII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded IV, VI ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -8139,6 +8269,9 @@ Võrdled kaht meelestatuse analüüsi viisi: lihtsat leksikonipõhist arvutust j
 - Jurafsky, D., Martin, J. H. (2026). [Speech and Language Processing, 3. väljaande mustand](https://web.stanford.edu/~jurafsky/slp3/). Tasuta veebiõpik, mille 23. peatükk käsitleb meelestatuse leksikone (inglise keeles, edasijõudnutele).
 
 ### Tööleht 3.2
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Teksti analüüsi põhimõisted**
@@ -8440,7 +8573,7 @@ Sarkasm pöörab sõnade otsese tähenduse vastupidiseks: lauses võivad olla po
 ### 📤 Väljapääsupilet 3.2
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -8464,6 +8597,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -8477,7 +8615,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['3.2'] = ["E-poe tagasisides on kirjas „Imeline, juba kolmas kord sel kuul tuleb pakk katki!“ Kuidas hindaks seda leksikonipõhine meetod ja kuidas inimene? Miks?", "Kas vestlusrobot tabas TI-katses sarkasmi? Mida see sinu arvates näitab?", "Millal on TI kasutamine koolitöös sinu arvates aus abivahend ja millal mitte?"];
 setTimeout(function(){var d=window.paePilet.load('3.2');document.querySelectorAll('[data-pilet="3.2"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="3.2" name="nimi" oninput="window.paePilet.save('3.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. E-poe tagasisides on kirjas „Imeline, juba kolmas kord sel kuul tuleb pakk katki!“ Kuidas hindaks seda leksikonipõhine meetod ja kuidas inimene? Miks?</div><textarea data-pilet="3.2" name="q0" oninput="window.paePilet.save('3.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Kas vestlusrobot tabas TI-katses sarkasmi? Mida see sinu arvates näitab?</div><textarea data-pilet="3.2" name="q1" oninput="window.paePilet.save('3.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millal on TI kasutamine koolitöös sinu arvates aus abivahend ja millal mitte?</div><textarea data-pilet="3.2" name="q2" oninput="window.paePilet.save('3.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('3.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('3.2')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_3.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="3.2" name="nimi" oninput="window.paePilet.save('3.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. E-poe tagasisides on kirjas „Imeline, juba kolmas kord sel kuul tuleb pakk katki!“ Kuidas hindaks seda leksikonipõhine meetod ja kuidas inimene? Miks?</div><textarea data-pilet="3.2" name="q0" oninput="window.paePilet.save('3.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Kas vestlusrobot tabas TI-katses sarkasmi? Mida see sinu arvates näitab?</div><textarea data-pilet="3.2" name="q1" oninput="window.paePilet.save('3.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millal on TI kasutamine koolitöös sinu arvates aus abivahend ja millal mitte?</div><textarea data-pilet="3.2" name="q2" oninput="window.paePilet.save('3.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('3.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('3.2')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('3.2')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_3.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -8533,12 +8671,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Mis on vestlusagent ja vestlusrobot?“, „Vestlusrobotite ajalugu“, „Rakendused, disain ja hindamine“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** vestlusrobot, <span class="pae-term" tabindex="0" data-def="kavatsuse tuvastamine: Kasutaja soovi ehk kavatsuse äratundmine">kavatsuse tuvastamine</span>, <span class="pae-term" tabindex="0" data-def="faktikontroll: Väite tõesuse kontrollimine usaldusväärsetest ja sõltumatutest allikatest">faktikontroll</span>. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Vestlusrobotite tüübid“, „Kuidas vestlusrobot töötab“, „Kuidas vestlusroboti vastuseid kriitiliselt kontrollida“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Mis on vestlusagent ja vestlusrobot?“. Soovi korral ka „Vestlusrobotite ajalugu“, „Rakendused, disain ja hindamine“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Vestlusrobotite tüübid“, „Kuidas vestlusrobot töötab“, „Kuidas vestlusroboti vastuseid kriitiliselt kontrollida“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Vestle ELIZAga“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded II, III ja VI
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded II, III ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -8615,7 +8757,7 @@ Vestlusroboti tööd saab jagada kolmeks põhiosaks.
 ![Vestlusroboti töö kolm osa näite „Kas Tartu raamatukogu on laupäeval lahti?“ põhjal: keele mõistmine (NLU) tuvastab kavatsuse ja üksused, dialoogi haldamine jälgib konteksti ja kasutab teadmusbaasi, vastuse loomine (NLG) koostab vastuse „Jah, laupäeval on raamatukogu avatud kella 10–16.“](pildid/plokk_3/3_3_ulesehitus.svg "Joonis 3.3.3. Kuidas vestlusrobot töötab: NLU, dialoogi haldamine ja NLG")
 
 <!-- class="pae-moiste" -->
-> **Mõiste: <span class="pae-term" tabindex="0" data-def="kavatsuse tuvastamine: Kasutaja soovi ehk kavatsuse äratundmine">kavatsuse tuvastamine</span>**
+> **Mõiste: kavatsuse tuvastamine**
 >
 > Kavatsuse tuvastamine (inglise keeles *intent recognition*) on vestlusroboti võime aru saada, **mida kasutaja tahab**. Laused „Mis kell te kinni panete?“, „Kaua te lahti olete?“ ja „Kas saan õhtul tulla?“ on erineva sõnastusega, kuid nende kavatsus on sama: küsida lahtiolekuaega.
 
@@ -8662,7 +8804,7 @@ Vestlusroboteid kasutatakse paljudes valdkondades:
 Vestlusrobot kirjutab ladusalt ja enesekindlalt – ka siis, kui ta eksib. Meenuta, mida õppisid tunnis 3.2: keelemudel ennustab **tõenäolist** teksti, mitte ei kontrolli, kas see on **tõene**. Seepärast on vestlusroboti vastus hea **algus**, mitte lõplik tõde.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: <span class="pae-term" tabindex="0" data-def="faktikontroll: Väite tõesuse kontrollimine usaldusväärsetest ja sõltumatutest allikatest">faktikontroll</span>**
+> **Mõiste: faktikontroll**
 >
 > Faktikontroll on väite tõesuse kontrollimine usaldusväärsetest ja sõltumatutest allikatest. Vestlusroboti puhul tähendab see, et kontrollid olulised väited, numbrid, nimed ja viited üle, enne kui neid kasutad või edasi jagad.
 
@@ -8713,12 +8855,15 @@ ELIZA (1966) on <span class="pae-term" tabindex="0" data-def="reeglipõhine vest
 **Vaja läheb:** ELIZA veebiversioon [mass:werk ELIZA](https://www.masswerk.at/elizabot/eliza.html) (inglise keeles, sisselogimist pole vaja), ~10 min, paaristöö
 
 1. Ava leht ja vajuta lingile *open ELIZA terminal*.
-2. Kirjuta ELIZA-le inglise keeles 3–4 lauset koolist või tunnetest (nt „I am tired of homework.“). Ära kirjuta enda ega teiste isikuandmeid.
+2. Kirjuta ELIZA-le inglise keeles 3–4 neutraalset või väljamõeldud lauset (nt „I am tired of homework.“, „My cat likes rain.“ või väljamõeldud tegelase nimel). Ära kirjuta oma päris tundeid ega muresid ning enda ega teiste isikuandmeid.
 3. Otsi mustrit: milliseid sinu sõnu ELIZA vastuses kordab? Muuda sama lauset veidi ja vaata, kas vastus muutub.
 4. Esita küsimus, mis nõuab teadmisi maailmast (nt „What is the capital of Estonia?“), ja vaata, mis juhtub.
 5. Arutage paarilisega: mis tüüpi vestlusrobot on ELIZA ja mille poolest erineb sellest tänapäeva generatiivne vestlusrobot?
 
 **Pane tähele / kirjuta üles:** üks ELIZA reegel, mille avastasite (märksõna → vastus), üks olukord, kus vastus ei sobinud, ja kas tekkis ELIZA-efekt.
+
+<!-- class="pae-lisaks" -->
+> **Sinu valik:** sa ei pea jagama midagi isiklikku. Võid kasutada väljamõeldud näidet, kirjutada üldistatult või olla arutelus vaatleja rollis – õpieesmärk on sama.
 
 [[___ ___ ___]]
 
@@ -8759,6 +8904,9 @@ ELIZA (1966) on <span class="pae-term" tabindex="0" data-def="reeglipõhine vest
 - Willemson, J. (2026). [Tehisintellekt, haridus ja tõde](https://www.err.ee/1609915982/jan-willemson-tehisintellekt-haridus-ja-tode). ERR-i arvamuslugu sellest, miks tuleb vestlusroboti vastuseid sõltumatutest allikatest kontrollida. Sobib lisalugemiseks.
 
 ### Tööleht 3.3
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Vestlusrobotite põhimõisted**
@@ -9073,7 +9221,7 @@ Sobiks reeglipõhine või otsingupõhine vestlusrobot, sest küsimused on korduv
 ### 📤 Väljapääsupilet 3.3
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -9097,6 +9245,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -9110,7 +9263,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['3.3'] = ["Spordiklubi kodulehe robot vastab alati sama lausega, kui küsimuses on sõna „treeningaeg“, aga muudele küsimustele ütleb „Ei saanud aru“. Mis tüüpi vestlusrobot see on ja miks?", "Mis juhtus TI-katses, kui küsisid ELIZA-lt midagi, mis nõuab teadmisi maailmast? Mida see näitab?", "Millal sa viimati kontrollisid vestlusroboti või otsingumootori vastust ja kuidas sa seda tegid?"];
 setTimeout(function(){var d=window.paePilet.load('3.3');document.querySelectorAll('[data-pilet="3.3"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="3.3" name="nimi" oninput="window.paePilet.save('3.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Spordiklubi kodulehe robot vastab alati sama lausega, kui küsimuses on sõna „treeningaeg“, aga muudele küsimustele ütleb „Ei saanud aru“. Mis tüüpi vestlusrobot see on ja miks?</div><textarea data-pilet="3.3" name="q0" oninput="window.paePilet.save('3.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mis juhtus TI-katses, kui küsisid ELIZA-lt midagi, mis nõuab teadmisi maailmast? Mida see näitab?</div><textarea data-pilet="3.3" name="q1" oninput="window.paePilet.save('3.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millal sa viimati kontrollisid vestlusroboti või otsingumootori vastust ja kuidas sa seda tegid?</div><textarea data-pilet="3.3" name="q2" oninput="window.paePilet.save('3.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('3.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('3.3')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_3.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="3.3" name="nimi" oninput="window.paePilet.save('3.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Spordiklubi kodulehe robot vastab alati sama lausega, kui küsimuses on sõna „treeningaeg“, aga muudele küsimustele ütleb „Ei saanud aru“. Mis tüüpi vestlusrobot see on ja miks?</div><textarea data-pilet="3.3" name="q0" oninput="window.paePilet.save('3.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mis juhtus TI-katses, kui küsisid ELIZA-lt midagi, mis nõuab teadmisi maailmast? Mida see näitab?</div><textarea data-pilet="3.3" name="q1" oninput="window.paePilet.save('3.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millal sa viimati kontrollisid vestlusroboti või otsingumootori vastust ja kuidas sa seda tegid?</div><textarea data-pilet="3.3" name="q2" oninput="window.paePilet.save('3.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('3.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('3.3')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('3.3')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_3.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -9172,12 +9325,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Masintõlge eesti keele jaoks“, „<span class="pae-term" tabindex="0" data-def="kõnetuvastus: Kõne teisendamine tekstiks">Kõnetuvastus</span> ja <span class="pae-term" tabindex="0" data-def="kõnesüntees: Teksti teisendamine kõneks">kõnesüntees</span>“, „Muud <span class="pae-term" tabindex="0" data-def="keeletehnoloogia: Inimkeelt töötlevate tehnoloogiate üldnimetus">keeletehnoloogiad</span>, rakendused ja tulevik“, „Video: tehisaru ja eesti keel“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** masintõlge, <span class="pae-term" tabindex="0" data-def="lähtekeel, sihtkeel: Keel, millest tõlgitakse, ja keel, millesse tõlgitakse">lähtekeel, sihtkeel</span>, <span class="pae-term" tabindex="0" data-def="BLEU: Automaatne mõõdik, mis võrdleb masintõlget inimtõlkega">BLEU</span>. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Mis on masintõlge ja miks see on raske?“, „Masintõlke ajalugu ja lähenemised“, „Kuidas närvivõrk tõlgib ja kuidas tõlget hinnata“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Masintõlge eesti keele jaoks“. Soovi korral ka „<span class="pae-term" tabindex="0" data-def="kõnetuvastus: Kõne teisendamine tekstiks">Kõnetuvastus</span> ja <span class="pae-term" tabindex="0" data-def="kõnesüntees: Teksti teisendamine kõneks">kõnesüntees</span>“, „Muud <span class="pae-term" tabindex="0" data-def="keeletehnoloogia: Inimkeelt töötlevate tehnoloogiate üldnimetus">keeletehnoloogiad</span>, rakendused ja tulevik“, „Video: tehisaru ja eesti keel“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Mis on masintõlge ja miks see on raske?“, „Masintõlke ajalugu ja lähenemised“, „Kuidas närvivõrk tõlgib ja kuidas tõlget hinnata“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Tõlkemootori proovikivid“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded II, III ja VI
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded II, III ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -9186,7 +9343,7 @@ Selle tunni järel sa:
 
 **🟢 Lihtsalt öeldes**
 
-Masintõlge tõlgib teksti või kõne arvuti abil teise keelde. Hea tõlge ei ole lihtsalt sõnade asendamine teise keele sõnadega. Keeled on erineva ehitusega ja sõnadel on mitu tähendust. Näiteks väljendit „tal on kõik kodus“ ei saa sõna-sõnalt tõlkida. Varem kasutati masintõlkes reegleid ja statistikat, nüüd närvivõrke. Närvivõrgu tõlge on parem, aga see on „must kast“. Tõlke kvaliteeti hinnatakse näiteks <span class="pae-term" tabindex="0" data-def="BLEU: Automaatne mõõdik, mis võrdleb masintõlget inimtõlkega">BLEU</span> mõõdikuga ja inimeste hinnangutega. Ravimi infolehe või lepingu tõlge peab olema väga täpne.
+Masintõlge tõlgib teksti või kõne arvuti abil teise keelde. Hea tõlge ei ole lihtsalt sõnade asendamine teise keele sõnadega. Keeled on erineva ehitusega ja sõnadel on mitu tähendust. Näiteks väljendit „tal on kõik kodus“ ei saa sõna-sõnalt tõlkida. Varem kasutati masintõlkes reegleid ja statistikat, nüüd närvivõrke. Närvivõrgu tõlge on parem, aga see on „must kast“. Tõlke kvaliteeti hinnatakse näiteks BLEU mõõdikuga ja inimeste hinnangutega. Ravimi infolehe või lepingu tõlge peab olema väga täpne.
 
 **Tähtsad sõnad:** **masintõlge** – automaatne tõlkimine arvuti abil; **lähtekeel** – keel, millest tõlgitakse; **sihtkeel** – keel, millesse tõlgitakse; **BLEU** – mõõdik, mis võrdleb masintõlget inimese tõlkega.
 
@@ -9416,6 +9573,9 @@ Pane masintõlge proovile lausetega, mis on teadaolevalt rasked: sooneutraalne �
 
 ### Tööleht 3.4
 
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
+
 <!-- class="pae-jaotis" -->
 **➕ I. Masintõlke põhimõisted**
 
@@ -9602,6 +9762,9 @@ Kirjuta iga keeletehnoloogia kohta kirjeldus ja rakendused.
 
 **Variant B: keeletehnoloogia kasutamine.** Vali üks keeletehnoloogia rakendus (nt kõnetuvastus, kõnesüntees, grammatikakontroll) ja testi seda eesti keelega.
 
+<!-- class="pae-lisaks" -->
+> **Kõnetuvastuse reegel:** ära salvesta ega laadi üles kellegi teise häält. Kui testid kõnetuvastust, loe ette ainult neutraalset näiteteksti (mitte isiklikku infot), kasuta tööriista otse brauseris ega salvesta ega jaga helifaile. Kui sa ei soovi oma häält kasutada, vali kõnesüntees või grammatikakontroll – need ei vaja mikrofoni.
+
 **a) Valitud keeletehnoloogia ja rakendus:**
 
 [[___]]
@@ -9727,7 +9890,7 @@ BLEU võrdleb masintõlget inimtõlkega ja loeb, kui palju on neil ühiseid sõn
 ### 📤 Väljapääsupilet 3.4
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -9751,6 +9914,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -9764,7 +9932,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['3.4'] = ["Turist tõlgib apteegis masintõlkega ravimi infolehe. Kumba tõlke kvaliteedi kriteeriumi – adekvaatsust või ladusust – peab ta siin eriti kontrollima ja miks?", "Kas Neurotõlge valis TI-katses lausete „Tema on arst. Tema on õde.“ tõlkes soo? Mida see näitab treeningandmete kohta?", "Kus oled ise viimati masintõlget kasutanud ja kas usaldasid tulemust?"];
 setTimeout(function(){var d=window.paePilet.load('3.4');document.querySelectorAll('[data-pilet="3.4"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="3.4" name="nimi" oninput="window.paePilet.save('3.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Turist tõlgib apteegis masintõlkega ravimi infolehe. Kumba tõlke kvaliteedi kriteeriumi – adekvaatsust või ladusust – peab ta siin eriti kontrollima ja miks?</div><textarea data-pilet="3.4" name="q0" oninput="window.paePilet.save('3.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Kas Neurotõlge valis TI-katses lausete „Tema on arst. Tema on õde.“ tõlkes soo? Mida see näitab treeningandmete kohta?</div><textarea data-pilet="3.4" name="q1" oninput="window.paePilet.save('3.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus oled ise viimati masintõlget kasutanud ja kas usaldasid tulemust?</div><textarea data-pilet="3.4" name="q2" oninput="window.paePilet.save('3.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('3.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('3.4')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_3.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="3.4" name="nimi" oninput="window.paePilet.save('3.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Turist tõlgib apteegis masintõlkega ravimi infolehe. Kumba tõlke kvaliteedi kriteeriumi – adekvaatsust või ladusust – peab ta siin eriti kontrollima ja miks?</div><textarea data-pilet="3.4" name="q0" oninput="window.paePilet.save('3.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Kas Neurotõlge valis TI-katses lausete „Tema on arst. Tema on õde.“ tõlkes soo? Mida see näitab treeningandmete kohta?</div><textarea data-pilet="3.4" name="q1" oninput="window.paePilet.save('3.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus oled ise viimati masintõlget kasutanud ja kas usaldasid tulemust?</div><textarea data-pilet="3.4" name="q2" oninput="window.paePilet.save('3.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('3.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('3.4')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('3.4')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_3.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -9811,6 +9979,9 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: teed **TI-labori**, lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
 
 ### 🔬 3. ploki TI-labor: viipade võrdlemine
+
+<!-- class="pae-lisaks" -->
+> 🗓️ **Laborid on valikulised.** Kursuse jooksul teeb klass **2–3 laborit**, mille valib õpetaja. Labor asendab ühe sama ploki teematunni tunnitöö: selle tunni tekst loetakse kodus ja tunnis tehakse labor. Teisi laboreid saab teha rikastamiseks või projekti osana.
 
 <!-- class="pae-motle" -->
 > **Uurimisküsimus:** Kuidas mõjutab viiba täpsus (roll, sihtrühm, vorming ja näited) vestlusroboti vastuse kvaliteeti?
@@ -9899,7 +10070,7 @@ Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud, eeti
 | Eetiline analüüs | Vastused on seotud katsega (viiba sisu, vastuste sobivus eri õppijatele, vastutus vigade eest); ettepanek on konkreetne | Eetikaküsimustele on vastatud, kuid osa vastuseid on üldsõnalised | Eetikaküsimustele on vastamata või vastused ei ole katsega seotud |
 | Koostöö ja ohutus | Rollid vahetusid ja kõik osalesid; isikuandmeid ei sisestatud | Rollid ei vahetunud alati; isikuandmeid ei sisestatud | Töö jäi ühe inimese kanda või sisestati isikuandmeid |
 
-### Praktilised ülesanded
+### ➕ Praktilised ülesanded
 
 Selles osas on viis praktilist ülesannet. Õpetaja ütleb, milliseid neist teete. Kõigi ülesannete puhul kehtib reegel: **ära sisesta vestlusrobotitesse ega veebitööriistadesse isikuandmeid** (oma ega teiste nimesid, isikukoode, aadresse, paroole ega muud tundlikku infot).
 
@@ -10552,12 +10723,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Mis on <span class="pae-term" tabindex="0" data-def="probleemilahendus: Protsess, mille käigus TI leiab lahenduse püstitatud probleemile, otsides teed algolekust eesmärgini">probleemilahendus</span> tehisintellektis?“, „<span class="pae-term" tabindex="0" data-def="olekuruum: Kõigi võimalike olekute kogum; sõlmed on olekud, kaared üleminekud">Olekuruum</span> ja otsingustrateegiad“, „<span class="pae-term" tabindex="0" data-def="A\* algoritm: Informeeritud otsing, mis valib teed valemi f(n) = g(n) + h(n) põhjal">A\* algoritm</span> ja mängupuud“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** otsustuspuu, juuretipp, leht, <span class="pae-term" tabindex="0" data-def="juhuslik mets: Ansamblimeetod, mis kombineerib paljude otsustuspuude ennustused">juhuslik mets</span>. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Otsustuspuu ülesehitus“, „Kuidas otsustuspuu andmetest õpib?“, „Otsustuspuude tugevused, piirangud ja vastutus“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Mis on <span class="pae-term" tabindex="0" data-def="probleemilahendus: Protsess, mille käigus TI leiab lahenduse püstitatud probleemile, otsides teed algolekust eesmärgini">probleemilahendus</span> tehisintellektis?“. Soovi korral ka „<span class="pae-term" tabindex="0" data-def="olekuruum: Kõigi võimalike olekute kogum; sõlmed on olekud, kaared üleminekud">Olekuruum</span> ja otsingustrateegiad“, „<span class="pae-term" tabindex="0" data-def="A\* algoritm: Informeeritud otsing, mis valib teed valemi f(n) = g(n) + h(n) põhjal">A\* algoritm</span> ja mängupuud“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Otsustuspuu ülesehitus“, „Kuidas otsustuspuu andmetest õpib?“, „Otsustuspuude tugevused, piirangud ja vastutus“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kuidas otsustuspuu õpib ja ülesobitub“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded III, V ja VII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded III, V ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -10566,7 +10741,7 @@ Selle tunni järel sa:
 
 **🟢 Lihtsalt öeldes**
 
-Otsustuspuu aitab otsust teha, näiteks kas võtta vihmavari kaasa. Puu algab ülevalt juuretipust, kus on esimene küsimus. Vastad igale küsimusele ja liigud mööda haru allapoole. Lõpuks jõuad lehte, kus on lõplik otsus. Masinõppes ehitab arvuti sellise puu ise andmete põhjal. Otsustuspuu otsust on lihtne selgitada, see on „valge kast“. Liiga suur puu võib andmed pähe õppida ehk ülesobituda. <span class="pae-term" tabindex="0" data-def="juhuslik mets: Ansamblimeetod, mis kombineerib paljude otsustuspuude ennustused">Juhuslik mets</span> ühendab palju puid ja on tavaliselt täpsem kui üks puu.
+Otsustuspuu aitab otsust teha, näiteks kas võtta vihmavari kaasa. Puu algab ülevalt juuretipust, kus on esimene küsimus. Vastad igale küsimusele ja liigud mööda haru allapoole. Lõpuks jõuad lehte, kus on lõplik otsus. Masinõppes ehitab arvuti sellise puu ise andmete põhjal. Otsustuspuu otsust on lihtne selgitada, see on „valge kast“. Liiga suur puu võib andmed pähe õppida ehk ülesobituda. Juhuslik mets ühendab palju puid ja on tavaliselt täpsem kui üks puu.
 
 **Tähtsad sõnad:** **otsustuspuu** – mudel, mis jõuab küsimuste abil otsuseni; **juuretipp** – puu esimene ja kõige tähtsam küsimus; **leht** – puu lõpp, kus on otsus; **juhuslik mets** – palju otsustuspuid, mis otsustavad koos.
 
@@ -10846,6 +11021,9 @@ Vaatad interaktiivset näidet, kus arvuti ehitab andmetest otsustuspuu, mis eris
 - Euroopa Liit (2016). [Isikuandmete kaitse üldmäärus, artikkel 22](https://gdpr-text.com/et/read/article-22). Eestikeelne tekst: õigus, et sinu kohta ei tehtaks otsust üksnes automatiseeritud töötluse põhjal.
 
 ### Tööleht 4.1
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Probleemilahenduse põhimõisted tehisintellektis**
@@ -11184,7 +11362,7 @@ Liiga sügav puu kipub ülesobituma ehk õpib treeningandmed pähe ja töötab u
 ### 📤 Väljapääsupilet 4.1
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -11208,6 +11386,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -11221,7 +11404,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['4.1'] = ["Koostasid otsustuspuu, mis ennustab, kas klassikaaslane tuleb trenni. Miks võib puu uutel päevadel eksida, kuigi treeningandmetel oli see 100% täpne?", "Mis juhtus TI-katses puu täpsusega treening- ja testandmetel, kui puu muutus sügavamaks?", "Kus oled oma elus kohanud algoritmi, mis teeb sinu kohta otsuse? Kas saaksid teada, miks otsus tehti?"];
 setTimeout(function(){var d=window.paePilet.load('4.1');document.querySelectorAll('[data-pilet="4.1"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="4.1" name="nimi" oninput="window.paePilet.save('4.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Koostasid otsustuspuu, mis ennustab, kas klassikaaslane tuleb trenni. Miks võib puu uutel päevadel eksida, kuigi treeningandmetel oli see 100% täpne?</div><textarea data-pilet="4.1" name="q0" oninput="window.paePilet.save('4.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mis juhtus TI-katses puu täpsusega treening- ja testandmetel, kui puu muutus sügavamaks?</div><textarea data-pilet="4.1" name="q1" oninput="window.paePilet.save('4.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus oled oma elus kohanud algoritmi, mis teeb sinu kohta otsuse? Kas saaksid teada, miks otsus tehti?</div><textarea data-pilet="4.1" name="q2" oninput="window.paePilet.save('4.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('4.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('4.1')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_4.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="4.1" name="nimi" oninput="window.paePilet.save('4.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Koostasid otsustuspuu, mis ennustab, kas klassikaaslane tuleb trenni. Miks võib puu uutel päevadel eksida, kuigi treeningandmetel oli see 100% täpne?</div><textarea data-pilet="4.1" name="q0" oninput="window.paePilet.save('4.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mis juhtus TI-katses puu täpsusega treening- ja testandmetel, kui puu muutus sügavamaks?</div><textarea data-pilet="4.1" name="q1" oninput="window.paePilet.save('4.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus oled oma elus kohanud algoritmi, mis teeb sinu kohta otsuse? Kas saaksid teada, miks otsus tehti?</div><textarea data-pilet="4.1" name="q2" oninput="window.paePilet.save('4.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('4.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('4.1')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('4.1')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_4.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -11279,12 +11462,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Ekspertsüsteemi ülesehitus“, „<span class="pae-term" tabindex="0" data-def="reeglimootor: Tarkvara, mis rakendab reegleid andmetele">Reeglimootorid</span> ja rakendused“, „Ekspertsüsteemid, masinõpe ja tulevik“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** ekspertsüsteem, <span class="pae-term" tabindex="0" data-def="reeglistik: „KUI …, SIIS …“-tüüpi reeglite kogum, mis määrab süsteemi käitumise">reeglistik</span>, <span class="pae-term" tabindex="0" data-def="edasisuunaline aheldamine: Järeldamine faktidest järeldusteni (andmepõhine)">edasisuunaline aheldamine</span>, <span class="pae-term" tabindex="0" data-def="tagasisuunaline aheldamine: Järeldamine hüpoteesist tõendite suunas (eesmärgipõhine)">tagasisuunaline aheldamine</span>. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Mis on ekspertsüsteem?“, „Teadmiste esitamine ja <span class="pae-term" tabindex="0" data-def="reeglistik: „KUI …, SIIS …“-tüüpi reeglite kogum, mis määrab süsteemi käitumise">reeglistikud</span>“, „Kuidas ekspertsüsteem järeldusi teeb?“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Ekspertsüsteemi ülesehitus“. Soovi korral ka „<span class="pae-term" tabindex="0" data-def="reeglimootor: Tarkvara, mis rakendab reegleid andmetele">Reeglimootorid</span> ja rakendused“, „Ekspertsüsteemid, masinõpe ja tulevik“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Mis on ekspertsüsteem?“, „Teadmiste esitamine ja reeglistikud“, „Kuidas ekspertsüsteem järeldusi teeb?“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kuidas küsimusi esitav süsteem järeldab“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded III, VI ja VII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded III, VI ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -11293,7 +11480,7 @@ Selle tunni järel sa:
 
 **🟢 Lihtsalt öeldes**
 
-Ekspertsüsteem jäljendab inimeksperdi teadmisi ja otsuseid ühes kitsas valdkonnas. Teadmised panevad süsteemi sisse inimesed, arvuti ei õpi neid andmetest. Teadmised kirjutatakse reeglitena, näiteks „KUI loomal on suled, SIIS loom on lind“. Reeglite kogumit nimetatakse reeglistikuks. <span class="pae-term" tabindex="0" data-def="edasisuunaline aheldamine: Järeldamine faktidest järeldusteni (andmepõhine)">Edasisuunaline aheldamine</span> alustab faktidest ja jõuab järelduseni. <span class="pae-term" tabindex="0" data-def="tagasisuunaline aheldamine: Järeldamine hüpoteesist tõendite suunas (eesmärgipõhine)">Tagasisuunaline aheldamine</span> alustab oletusest ja otsib sellele tõendeid. Ekspertsüsteemi otsust on lihtne selgitada, sest reeglid on näha. Kuid süsteem ei oska ise midagi juurde õppida, uued reeglid kirjutab inimene.
+Ekspertsüsteem jäljendab inimeksperdi teadmisi ja otsuseid ühes kitsas valdkonnas. Teadmised panevad süsteemi sisse inimesed, arvuti ei õpi neid andmetest. Teadmised kirjutatakse reeglitena, näiteks „KUI loomal on suled, SIIS loom on lind“. Reeglite kogumit nimetatakse reeglistikuks. Edasisuunaline aheldamine alustab faktidest ja jõuab järelduseni. Tagasisuunaline aheldamine alustab oletusest ja otsib sellele tõendeid. Ekspertsüsteemi otsust on lihtne selgitada, sest reeglid on näha. Kuid süsteem ei oska ise midagi juurde õppida, uued reeglid kirjutab inimene.
 
 **Tähtsad sõnad:** **ekspertsüsteem** – süsteem, mis kasutab eksperdi teadmisi; **reeglistik** – „KUI …, SIIS …“ reeglite kogum; **edasisuunaline aheldamine** – järeldamine faktidest järelduseni; **tagasisuunaline aheldamine** – oletuse kontrollimine tõendite abil.
 
@@ -11515,6 +11702,9 @@ Mängid arvamismängu, mis püüab küsimuste abil ära arvata, millisele tegela
 - PyPI (2019). [Experta – Expert Systems for Python](https://pypi.org/project/experta). Programmeerijale: Pythoni teek, millega saab ise lihtsa reeglipõhise ekspertsüsteemi kirjutada.
 
 ### Tööleht 4.2
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Ekspertsüsteemide põhimõisted**
@@ -11857,7 +12047,7 @@ KUI õpilane on puudunud kolm päeva järjest JA puudumine pole põhjendatud, SI
 ### 📤 Väljapääsupilet 4.2
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -11881,6 +12071,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -11894,7 +12089,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['4.2'] = ["Kirjuta üks KUI … SIIS … reegel, mille järgi kooli e-päevik võiks õpetajale teate saata, ja nimeta selle tingimus ja järeldus.", "Kas Akinatori küsimuste ahel meenutas sinu arvates rohkem edasi- või tagasisuunalist aheldamist? Põhjenda ühe lausega.", "Mis jäi ekspertsüsteemide juures segaseks?"];
 setTimeout(function(){var d=window.paePilet.load('4.2');document.querySelectorAll('[data-pilet="4.2"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="4.2" name="nimi" oninput="window.paePilet.save('4.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kirjuta üks KUI … SIIS … reegel, mille järgi kooli e-päevik võiks õpetajale teate saata, ja nimeta selle tingimus ja järeldus.</div><textarea data-pilet="4.2" name="q0" oninput="window.paePilet.save('4.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Kas Akinatori küsimuste ahel meenutas sinu arvates rohkem edasi- või tagasisuunalist aheldamist? Põhjenda ühe lausega.</div><textarea data-pilet="4.2" name="q1" oninput="window.paePilet.save('4.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi ekspertsüsteemide juures segaseks?</div><textarea data-pilet="4.2" name="q2" oninput="window.paePilet.save('4.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('4.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('4.2')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_4.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="4.2" name="nimi" oninput="window.paePilet.save('4.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Kirjuta üks KUI … SIIS … reegel, mille järgi kooli e-päevik võiks õpetajale teate saata, ja nimeta selle tingimus ja järeldus.</div><textarea data-pilet="4.2" name="q0" oninput="window.paePilet.save('4.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Kas Akinatori küsimuste ahel meenutas sinu arvates rohkem edasi- või tagasisuunalist aheldamist? Põhjenda ühe lausega.</div><textarea data-pilet="4.2" name="q1" oninput="window.paePilet.save('4.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi ekspertsüsteemide juures segaseks?</div><textarea data-pilet="4.2" name="q2" oninput="window.paePilet.save('4.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('4.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('4.2')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('4.2')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_4.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -11961,12 +12156,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Mis on soovitussüsteem?“, „Nutikamad soovitused: süvaõpe, kontekst ja hindamine“, „Soovitussüsteemid igapäevaelus ja Eestis“, „Video: kuidas kujundab tehisaru meie meediaruumi ja suhteid?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** <span class="pae-term" tabindex="0" data-def="sisupõhine filtreerimine: Soovitamine objektide põhjal, mis on omaduste poolest sarnased kasutaja varem eelistatutega">sisupõhine filtreerimine</span>, <span class="pae-term" tabindex="0" data-def="koostööfiltreerimine: Soovitamine selle põhjal, mis meeldis sarnaste eelistustega kasutajatele">koostööfiltreerimine</span>, <span class="pae-term" tabindex="0" data-def="külmkäivituse probleem: Süsteemil pole piisavalt andmeid uue kasutaja või objekti kohta">külmkäivituse probleem</span>, filtrimull. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „<span class="pae-term" tabindex="0" data-def="sisupõhine filtreerimine: Soovitamine objektide põhjal, mis on omaduste poolest sarnased kasutaja varem eelistatutega">Sisupõhine filtreerimine</span>“, „<span class="pae-term" tabindex="0" data-def="koostööfiltreerimine: Soovitamine selle põhjal, mis meeldis sarnaste eelistustega kasutajatele">Koostööfiltreerimine</span>“, „Filtrimull ja teised väljakutsed“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Mis on soovitussüsteem?“. Soovi korral ka „Nutikamad soovitused: süvaõpe, kontekst ja hindamine“, „Soovitussüsteemid igapäevaelus ja Eestis“, „Video: kuidas kujundab tehisaru meie meediaruumi ja suhteid?“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Sisupõhine filtreerimine“, „Koostööfiltreerimine“, „Filtrimull ja teised väljakutsed“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Muusikakaart ja koostööfiltreerimine“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded IV, VI ja VII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded IV, VI ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -11975,7 +12174,7 @@ Selle tunni järel sa:
 
 **🟢 Lihtsalt öeldes**
 
-Soovitussüsteem pakub sulle filme, muusikat või tooteid, mis võiksid meeldida. Sisupõhine filtreerimine soovitab asju, mis sarnanevad sinu varasemate valikutega. Näiteks vaatasid ulmefilmi ja saad soovituseks uue ulmefilmi. Koostööfiltreerimine leiab inimesed, kelle maitse sarnaneb sinu omaga. Kui neile meeldis mingi sari, soovitatakse seda ka sulle. Uue kasutaja kohta pole veel andmeid – see on <span class="pae-term" tabindex="0" data-def="külmkäivituse probleem: Süsteemil pole piisavalt andmeid uue kasutaja või objekti kohta">külmkäivituse probleem</span>. Filtrimullis näed ainult sarnast sisu ja mitmekesisus kaob. Otsi seepärast teadlikult ka teistsugust sisu ja eri vaateid.
+Soovitussüsteem pakub sulle filme, muusikat või tooteid, mis võiksid meeldida. Sisupõhine filtreerimine soovitab asju, mis sarnanevad sinu varasemate valikutega. Näiteks vaatasid ulmefilmi ja saad soovituseks uue ulmefilmi. Koostööfiltreerimine leiab inimesed, kelle maitse sarnaneb sinu omaga. Kui neile meeldis mingi sari, soovitatakse seda ka sulle. Uue kasutaja kohta pole veel andmeid – see on külmkäivituse probleem. Filtrimullis näed ainult sarnast sisu ja mitmekesisus kaob. Otsi seepärast teadlikult ka teistsugust sisu ja eri vaateid.
 
 **Tähtsad sõnad:** **sisupõhine filtreerimine** – soovitus asja omaduste põhjal; **koostööfiltreerimine** – soovitus sarnaste kasutajate eelistuste põhjal; **külmkäivituse probleem** – uue kasutaja või asja kohta pole andmeid; **filtrimull** – näed ainult sarnast sisu.
 
@@ -12111,9 +12310,12 @@ Esialgu tundub see mugav – sa näed ju seda, mis sulle meeldib. Probleem on ag
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
 >
-> - Ava oma lemmikrakenduse (YouTube, TikTok, Instagram, Spotify) avaleht. Mitu erinevat teemat või žanri seal on? Kas oskad ära arvata, millise su varasema tegevuse tõttu iga soovitus sinna ilmus?
-> - Kas sinu ja su sõbra vood on sarnased või väga erinevad? Mida see sinu arvates näitab?
+> - Kujutle väljamõeldud kasutajat, kes vaatab YouTube'is ainult jalgpalli- ja mänguvideoid. Mitu erinevat teemat või žanri tema avalehel tõenäoliselt on? Millise varasema tegevuse tõttu iga soovitus sinna ilmuks?
+> - Kui kahel väljamõeldud kasutajal on täiesti erinevad huvid, kui erinevad on nende vood? Mida see näitab?
 > - Kuidas tasakaalustada soovituste täpsust ja mitmekesisust?
+
+<!-- class="pae-lisaks" -->
+> **Sinu valik:** sa ei pea jagama midagi isiklikku. Võid kasutada väljamõeldud näidet, kirjutada üldistatult või olla arutelus vaatleja rollis – õpieesmärk on sama.
 
 Mida saad sina filtrimulli vastu teha? Otsi teadlikult ka teistsugust sisu ja jälgi eri vaadetega allikaid. Kasuta nuppu „Pole huvitatud“ ja kontrolli, kas rakenduses saab soovitusi lähtestada või vaatamisajalugu kustutada. Loe uudiseid ka otse uudisteportaali avalehelt, mitte ainult sotsiaalmeedia voost. Ja küsi endalt aeg-ajalt: miks mulle seda näidatakse?
 
@@ -12168,7 +12370,7 @@ Meediateadlane Maia Klaassen selgitab, kuidas platvormid kasutavad meie andmeid 
 > 2. Miks on platvormile kasulik hoida sinu tähelepanu võimalikult kaua?
 > 3. Kuidas võivad erinevad infomaailmad suurendada polariseerumist? Seosta see filtrimulliga.
 
-**Vaata oma lemmikrakenduse soovitusi. Kirjuta, mida algoritm sinu kohta „arvab“ ja mida saaksid teha, et oma filtrimullist välja pääseda.**
+**Vali üks väljamõeldud kasutaja (või soovi korral vaata oma lemmikrakenduse soovitusi). Kirjuta, mida algoritm selle kasutaja kohta „arvab“ ja mida saaks teha, et filtrimullist välja pääseda. Oma andmeid ega soovitusi ei pea kellelegi näitama.**
 
 [[___ ___ ___]]
 
@@ -12189,7 +12391,7 @@ Uurid tööriista, mis paigutab artistid kaardile selle järgi, kui tõenäolise
 [[___ ___ ___]]
 
 <!-- class="pae-lisaks" -->
-> **Kui arvutit pole:** Kirjutage paaris tahvlile või paberile anonüümselt 6–8 klassikaaslase kolm lemmikartisti (ilma nimedeta). Otsige, millised artistid esinevad sageli koos samal real, ja soovitage nende põhjal ühele „kasutajale“ uus artist – nii töötab koostööfiltreerimine.
+> **Kui arvutit pole:** Kirjutage paaris tahvlile või paberile 6–8 väljamõeldud „kasutaja“ kolm lemmikartisti (või vabatahtlikult ja anonüümselt klassikaaslaste omad, ilma nimedeta; pärast harjutust kustutage tahvel). Otsige, millised artistid esinevad sageli koos samal real, ja soovitage nende põhjal ühele „kasutajale“ uus artist – nii töötab koostööfiltreerimine.
 
 ### Kokkuvõte ja põhimõisted
 
@@ -12224,6 +12426,9 @@ Uurid tööriista, mis paigutab artistid kaardile selle järgi, kui tõenäolise
 - meedia.ut.ee (2026). [Tööleht „Koletised sinu telefonis“](https://meedia.ut.ee/wp-content/uploads/2026/02/2512_MEDI_TOOLEHT_Koletised_sinu_telefonis.pdf). Eestikeelne meediapädevuse tööleht algoritmidest, filtrimullist ja kajakambrist; sobib lisaülesandeks.
 
 ### Tööleht 4.3
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Soovitussüsteemide põhimõisted**
@@ -12539,7 +12744,7 @@ Esiteks võin teadlikult otsida ja jälgida ka teistsuguste vaadetega allikaid. 
 ### 📤 Väljapääsupilet 4.3
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -12563,6 +12768,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -12576,7 +12786,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['4.3'] = ["Uus õpilane hakkab kasutama kooli raamatukogu soovitusrakendust. Miks ei saa koostööfiltreerimine talle kohe head soovitust anda ja mida rakendus võiks selle asemel teha?", "Millised artistid olid muusikakaardil sinu valitud artistile kõige lähemal ja mida see lähedus tähendab?", "Millises rakenduses tunned, et oled kõige rohkem filtrimullis, ja mida saaksid sellega teha?"];
 setTimeout(function(){var d=window.paePilet.load('4.3');document.querySelectorAll('[data-pilet="4.3"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="4.3" name="nimi" oninput="window.paePilet.save('4.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Uus õpilane hakkab kasutama kooli raamatukogu soovitusrakendust. Miks ei saa koostööfiltreerimine talle kohe head soovitust anda ja mida rakendus võiks selle asemel teha?</div><textarea data-pilet="4.3" name="q0" oninput="window.paePilet.save('4.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millised artistid olid muusikakaardil sinu valitud artistile kõige lähemal ja mida see lähedus tähendab?</div><textarea data-pilet="4.3" name="q1" oninput="window.paePilet.save('4.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millises rakenduses tunned, et oled kõige rohkem filtrimullis, ja mida saaksid sellega teha?</div><textarea data-pilet="4.3" name="q2" oninput="window.paePilet.save('4.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('4.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('4.3')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_4.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="4.3" name="nimi" oninput="window.paePilet.save('4.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Uus õpilane hakkab kasutama kooli raamatukogu soovitusrakendust. Miks ei saa koostööfiltreerimine talle kohe head soovitust anda ja mida rakendus võiks selle asemel teha?</div><textarea data-pilet="4.3" name="q0" oninput="window.paePilet.save('4.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millised artistid olid muusikakaardil sinu valitud artistile kõige lähemal ja mida see lähedus tähendab?</div><textarea data-pilet="4.3" name="q1" oninput="window.paePilet.save('4.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millises rakenduses tunned, et oled kõige rohkem filtrimullis, ja mida saaksid sellega teha?</div><textarea data-pilet="4.3" name="q2" oninput="window.paePilet.save('4.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('4.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('4.3')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('4.3')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_4.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -12640,12 +12850,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Tootmine, energeetika ja põllumajandus“, „Haridus, avalik sektor, teadus ja loovus“, „Tehisintellekt Eestis ja tulevikusuunad“, „Videod: tehisaru hariduses ja õigusvaldkonnas“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** <span class="pae-term" tabindex="0" data-def="anomaaliate tuvastamine: Tavapärasest erinevate juhtumite (nt kahtlaste tehingute) leidmine">anomaaliate tuvastamine</span>, „musta kasti“ probleem, <span class="pae-term" tabindex="0" data-def="inimene otsustusahelas: Lähenemine, kus TI pakub lahenduse, kuid lõpliku otsuse teeb inimene">inimene otsustusahelas</span>. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Ühised põhimõtted ja valdkondade eripära“, „Meditsiin, finants ja transport“, „Kuidas TI-lahendus valmib ja millised on ühised väljakutsed?“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Tootmine, energeetika ja põllumajandus“. Soovi korral ka „Haridus, avalik sektor, teadus ja loovus“, „Tehisintellekt Eestis ja tulevikusuunad“, „Videod: tehisaru hariduses ja õigusvaldkonnas“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Ühised põhimõtted ja valdkondade eripära“, „Meditsiin, finants ja transport“, „Kuidas TI-lahendus valmib ja millised on ühised väljakutsed?“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kvaliteedikontroll Teachable Machine'iga“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded III, V ja VI
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded III, V ja VI
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -12654,7 +12868,7 @@ Selle tunni järel sa:
 
 **🟢 Lihtsalt öeldes**
 
-TI lahendab probleeme paljudes valdkondades sarnaste põhimõtetega. TI õpib andmetest, leiab mustreid, teeb otsuseid ja ennustusi. Meditsiinis aitab TI röntgenipiltidelt haigusi leida. Pangas aitab TI tuvastada pettusi, näiteks Eesti firma Salv tarkvaraga. Transpordis on näited isesõitvad autod ja Eesti Starshipi kullerrobotid. Mõne TI otsust on inimesel raske selgitada – see on „musta kasti“ probleem. Tähtsates otsustes kehtib põhimõte „<span class="pae-term" tabindex="0" data-def="inimene otsustusahelas: Lähenemine, kus TI pakub lahenduse, kuid lõpliku otsuse teeb inimene">inimene otsustusahelas</span>“. TI annab soovituse, aga otsuse teeb ja selle eest vastutab inimene.
+TI lahendab probleeme paljudes valdkondades sarnaste põhimõtetega. TI õpib andmetest, leiab mustreid, teeb otsuseid ja ennustusi. Meditsiinis aitab TI röntgenipiltidelt haigusi leida. Pangas aitab TI tuvastada pettusi, näiteks Eesti firma Salv tarkvaraga. Transpordis on näited isesõitvad autod ja Eesti Starshipi kullerrobotid. Mõne TI otsust on inimesel raske selgitada – see on „musta kasti“ probleem. Tähtsates otsustes kehtib põhimõte „inimene otsustusahelas“. TI annab soovituse, aga otsuse teeb ja selle eest vastutab inimene.
 
 **Tähtsad sõnad:** **anomaaliate tuvastamine** – tavapärasest erineva leidmine, näiteks kahtlase tehingu märkamine; **„musta kasti“ probleem** – TI otsust ei saa inimesele selgitada; **inimene otsustusahelas** – lõpliku otsuse teeb alati inimene.
 
@@ -12857,7 +13071,7 @@ Treenid veebikaamera abil mudeli, mis eristab terveid ja vigaseid esemeid – sa
 **Pea meeles**
 
 - Tehisintellekti probleemilahenduse põhimõtted (andmetest õppimine, mustrite tuvastamine, otsustamine, ennustamine) on universaalsed, kuid rakendused on valdkonnapõhised.
-- Levinud probleemitüübid on klassifitseerimine, ennustamine, optimeerimine, planeerimine ja <span class="pae-term" tabindex="0" data-def="anomaaliate tuvastamine: Tavapärasest erinevate juhtumite (nt kahtlaste tehingute) leidmine">anomaaliate tuvastamine</span>.
+- Levinud probleemitüübid on klassifitseerimine, ennustamine, optimeerimine, planeerimine ja anomaaliate tuvastamine.
 - TI-lahenduse valmimine läbib etapid: andmete eeltöötlus, mudeli valimine, hindamine ja valideerimine, juurutamine ja jälgimine.
 - Valdkondadevahelised väljakutsed on andmete kvaliteet, „musta kasti“ probleem, kallutatus, vastutus ja regulatsioonid; kriitilistes otsustes on oluline põhimõte „inimene otsustusahelas“.
 - Euroopa Liidu tehisintellekti määrus (EL) 2024/1689 reguleerib TI-d riskipõhiselt.
@@ -12886,6 +13100,9 @@ Treenid veebikaamera abil mudeli, mis eristab terveid ja vigaseid esemeid – sa
 - EMBL (2024). [Computational protein design and protein structure prediction win Nobel Prize in Chemistry](https://www.embl.org/news/science-technology/alphafold-wins-nobel-prize-chemistry-2024/). AlphaFold, valgustruktuuride andmebaas ja Nobeli auhind.
 
 ### Tööleht 4.4
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Tehisintellekti probleemilahenduse põhimõtted**
@@ -13185,7 +13402,7 @@ Salv aitab pankadel ja finantsasutustel tuvastada rahapesu ja pettusi. Süsteem 
 ### 📤 Väljapääsupilet 4.4
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -13209,6 +13426,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -13222,7 +13444,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['4.4'] = ["Haigla tahab TI abil röntgenipiltidelt kopsupõletikku leida. Millise probleemitüübiga on tegu ja kes peaks tegema lõpliku otsuse?", "Millal eksis sinu Teachable Machine'i mudel ja mis oli sinu arvates põhjus?", "Millises Eesti valdkonnas võiks TI sinu arvates kõige rohkem kasu tuua ja miks?"];
 setTimeout(function(){var d=window.paePilet.load('4.4');document.querySelectorAll('[data-pilet="4.4"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="4.4" name="nimi" oninput="window.paePilet.save('4.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Haigla tahab TI abil röntgenipiltidelt kopsupõletikku leida. Millise probleemitüübiga on tegu ja kes peaks tegema lõpliku otsuse?</div><textarea data-pilet="4.4" name="q0" oninput="window.paePilet.save('4.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millal eksis sinu Teachable Machine&#39;i mudel ja mis oli sinu arvates põhjus?</div><textarea data-pilet="4.4" name="q1" oninput="window.paePilet.save('4.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millises Eesti valdkonnas võiks TI sinu arvates kõige rohkem kasu tuua ja miks?</div><textarea data-pilet="4.4" name="q2" oninput="window.paePilet.save('4.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('4.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('4.4')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_4.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="4.4" name="nimi" oninput="window.paePilet.save('4.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Haigla tahab TI abil röntgenipiltidelt kopsupõletikku leida. Millise probleemitüübiga on tegu ja kes peaks tegema lõpliku otsuse?</div><textarea data-pilet="4.4" name="q0" oninput="window.paePilet.save('4.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millal eksis sinu Teachable Machine&#39;i mudel ja mis oli sinu arvates põhjus?</div><textarea data-pilet="4.4" name="q1" oninput="window.paePilet.save('4.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millises Eesti valdkonnas võiks TI sinu arvates kõige rohkem kasu tuua ja miks?</div><textarea data-pilet="4.4" name="q2" oninput="window.paePilet.save('4.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('4.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('4.4')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('4.4')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_4.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -13276,6 +13498,9 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
 
 ### 🔬 4. ploki TI-labor: Kuidas algoritm minu eest otsustab?
+
+<!-- class="pae-lisaks" -->
+> 🗓️ **Laborid on valikulised.** Kursuse jooksul teeb klass **2–3 laborit**, mille valib õpetaja. Labor asendab ühe sama ploki teematunni tunnitöö: selle tunni tekst loetakse kodus ja tunnis tehakse labor. Teisi laboreid saab teha rikastamiseks või projekti osana.
 
 <!-- class="pae-motle" -->
 > **Uurimisküsimus:** Kui täpselt suudab meie endi koostatud otsustuspuu uusi näiteid liigitada ja kui kiiresti hakkab soovitusalgoritm meile pakkuma ainult ühe teema sisu?
@@ -13356,7 +13581,7 @@ Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud, eeti
 | Eetiline analüüs | Vastused on seotud mõlema katseosaga (puu tunnused, soovituste muutus); on nimetatud, kes võiks kannatada, ja tehtud konkreetne ettepanek arendajale | Eetikaküsimustele on vastatud, kuid käsitletud on ainult üht katseosa või vastused on üldsõnalised | Eetikaküsimustele on vastamata või vastused ei ole katsega seotud |
 | Koostöö ja ohutus | Rollid vahetusid; keegi ei loginud sisse ega kasutanud isikuandmeid | Rollid ei vahetunud, kuid ohutusreegleid järgiti | Ohutusreegleid rikuti (nt logiti oma kontoga sisse) |
 
-### Praktilised ülesanded
+### ➕ Praktilised ülesanded
 
 <!-- class="pae-jaotis" -->
 **Ülesanne 1. Otsustuspuu loomine ja rakendamine**
@@ -14028,12 +14253,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Pildist tähenduseni: <span class="pae-term" tabindex="0" data-def="eeltöötlus: Pildi ettevalmistamine analüüsiks (suurus, normaliseerimine, müra, kontrast)">eeltöötlus</span>, tunnused ja tõlgendamine“, „Arvutinägemise ülesanded ja rakendused“, „Väljakutsed ja tulevik“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** arvutinägemine, <span class="pae-term" tabindex="0" data-def="piksel: Digitaalse pildi väikseim ühevärviline punkt">piksel</span>, RGB, CNN. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Mis on arvutinägemine?“, „Pilt arvuti silmis: pikslid ja RGB“, „Konvolutsioonilised närvivõrgud (CNN)“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Pildist tähenduseni: <span class="pae-term" tabindex="0" data-def="eeltöötlus: Pildi ettevalmistamine analüüsiks (suurus, normaliseerimine, müra, kontrast)">eeltöötlus</span>, tunnused ja tõlgendamine“. Soovi korral ka „Arvutinägemise ülesanded ja rakendused“, „Väljakutsed ja tulevik“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Mis on arvutinägemine?“, „Pilt arvuti silmis: pikslid ja RGB“, „Konvolutsioonilised närvivõrgud (CNN)“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas närvivõrk tunneb su joonistuse ära?“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded II, VII ja VIII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded II, VII ja VIII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -14042,7 +14271,7 @@ Selle tunni järel sa:
 
 **🟢 Lihtsalt öeldes**
 
-Arvuti ei näe pilti samamoodi nagu sina. Arvuti jaoks on pilt lihtsalt suur tabel, mis on täis arve. Iga väike ühevärviline punkt pildil on **<span class="pae-term" tabindex="0" data-def="piksel: Digitaalse pildi väikseim ühevärviline punkt">piksel</span>**. Värvilise piksli värvi kirjeldab kolm arvu: punane, roheline ja sinine. **Arvutinägemine** aitab arvutil pilte ja videoid mõista. Selleks kasutatakse sageli närvivõrku, mille nimi on **CNN**. CNN õpib tuhandete piltide põhjal ja leiab kõigepealt servi ja jooni. Hiljem tunneb see ära kujundeid ja objekti osi, näiteks kassi silmi.
+Arvuti ei näe pilti samamoodi nagu sina. Arvuti jaoks on pilt lihtsalt suur tabel, mis on täis arve. Iga väike ühevärviline punkt pildil on **piksel**. Värvilise piksli värvi kirjeldab kolm arvu: punane, roheline ja sinine. **Arvutinägemine** aitab arvutil pilte ja videoid mõista. Selleks kasutatakse sageli närvivõrku, mille nimi on **CNN**. CNN õpib tuhandete piltide põhjal ja leiab kõigepealt servi ja jooni. Hiljem tunneb see ära kujundeid ja objekti osi, näiteks kassi silmi.
 
 **Tähtsad sõnad:** **arvutinägemine** – arvuti oskus pilte ja videoid mõista; **piksel** – pildi kõige väiksem ühevärviline punkt; **RGB** – punane, roheline ja sinine, neist kolmest tekib piksli värv; **CNN** – närvivõrk, mis õpib pildilt ise tunnuseid leidma.
 
@@ -14260,6 +14489,9 @@ Tulevikus liigub arvutinägemine **multimodaalsete süsteemide** poole, mis ühe
 - Invest in Estonia (s.a.). [Veriff builds trust on the internet](https://investinestonia.com/veriff-builds-trust-on-the-internet/). Lugu Eesti ettevõttest Veriff, mis võrdleb isikut tõendava dokumendi fotot ja inimese nägu.
 
 ### Tööleht 5.1
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Arvutinägemise põhimõisted**
@@ -14580,7 +14812,7 @@ Traditsioonilistes meetodites (nt Sobeli filter, HOG) pidi inimene ise välja m�
 ### 📤 Väljapääsupilet 5.1
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -14604,6 +14836,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -14617,7 +14854,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['5.1'] = ["Sinu telefoni ekraanipilt on 1000 × 500 pikslit ja värviline. Mitu arvu peab arvuti selle pildi „nägemiseks“ läbi töötlema ja miks just nii palju?", "Millise muudatuse peale Quick, Draw! närvivõrk sinu joonistuse puhul eksis ja mida see ütleb selle kohta, kuidas võrk tunnuseid õpib?", "Kus sinu igapäevaelus arvutinägemine sind juba aitab või jälgib?"];
 setTimeout(function(){var d=window.paePilet.load('5.1');document.querySelectorAll('[data-pilet="5.1"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="5.1" name="nimi" oninput="window.paePilet.save('5.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Sinu telefoni ekraanipilt on 1000 × 500 pikslit ja värviline. Mitu arvu peab arvuti selle pildi „nägemiseks“ läbi töötlema ja miks just nii palju?</div><textarea data-pilet="5.1" name="q0" oninput="window.paePilet.save('5.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millise muudatuse peale Quick, Draw! närvivõrk sinu joonistuse puhul eksis ja mida see ütleb selle kohta, kuidas võrk tunnuseid õpib?</div><textarea data-pilet="5.1" name="q1" oninput="window.paePilet.save('5.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus sinu igapäevaelus arvutinägemine sind juba aitab või jälgib?</div><textarea data-pilet="5.1" name="q2" oninput="window.paePilet.save('5.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('5.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('5.1')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_5.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="5.1" name="nimi" oninput="window.paePilet.save('5.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Sinu telefoni ekraanipilt on 1000 × 500 pikslit ja värviline. Mitu arvu peab arvuti selle pildi „nägemiseks“ läbi töötlema ja miks just nii palju?</div><textarea data-pilet="5.1" name="q0" oninput="window.paePilet.save('5.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millise muudatuse peale Quick, Draw! närvivõrk sinu joonistuse puhul eksis ja mida see ütleb selle kohta, kuidas võrk tunnuseid õpib?</div><textarea data-pilet="5.1" name="q1" oninput="window.paePilet.save('5.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus sinu igapäevaelus arvutinägemine sind juba aitab või jälgib?</div><textarea data-pilet="5.1" name="q2" oninput="window.paePilet.save('5.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('5.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('5.1')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('5.1')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_5.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -14676,12 +14913,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Kuidas objektituvastus töötab: <span class="pae-term" tabindex="0" data-def="YOLO: Kiire ühesammuline objektituvastuse meetod">YOLO</span> ja Faster R-CNN“, „Näotuvastus ja <span class="pae-term" tabindex="0" data-def="näotundmine: Isiku tuvastamine näo põhjal („kelle?“)">näotundmine</span>“, „Rakendused: telefonist isesõitva autoni“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** objektituvastus, <span class="pae-term" tabindex="0" data-def="piiramiskast: Ristkülik, mis näitab objekti asukohta pildil">piiramiskast</span>, <span class="pae-term" tabindex="0" data-def="näotundmine: Isiku tuvastamine näo põhjal („kelle?“)">näotundmine</span>, <span class="pae-term" tabindex="0" data-def="biomeetrilised andmed: Keha või käitumise tunnused, mille järgi saab inimest tuvastada">biomeetrilised andmed</span>. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Objektituvastus: mis ja kus pildil on?“, „Kuidas tuvastuse täpsust hinnata?“, „Eetika ja seadused“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Kuidas objektituvastus töötab: <span class="pae-term" tabindex="0" data-def="YOLO: Kiire ühesammuline objektituvastuse meetod">YOLO</span> ja Faster R-CNN“. Soovi korral ka „Näotuvastus ja näotundmine“, „Rakendused: telefonist isesõitva autoni“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Objektituvastus: mis ja kus pildil on?“, „Kuidas tuvastuse täpsust hinnata?“, „Eetika ja seadused“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas Google Lens leiab kõik esemed üles?“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded V, VII ja VIII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded V, VII ja VIII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -14705,7 +14946,7 @@ Eelmises tunnis nägid, et **klassifitseerimine** vastab küsimusele „Mis on p
 >
 > Objektituvastus (object detection) on pildil olevate objektide leidmine, nende asukoha määramine (lokaliseerimine) ja klassi määramine (klassifitseerimine). See vastab küsimusele „Mis **ja kus** pildil on?“.
 
-Objekti asukoht märgitakse tavaliselt **<span class="pae-term" tabindex="0" data-def="piiramiskast: Ristkülik, mis näitab objekti asukohta pildil">piiramiskastiga</span>** (bounding box, ka piiramisraam). See on ristkülik, mis ümbritseb objekti. Iga kasti juurde lisab mudel klassi nime ja **enesekindluse skoori** ehk selle, kui kindel mudel oma vastuses on.
+Objekti asukoht märgitakse tavaliselt **piiramiskastiga** (bounding box, ka piiramisraam). See on ristkülik, mis ümbritseb objekti. Iga kasti juurde lisab mudel klassi nime ja **enesekindluse skoori** ehk selle, kui kindel mudel oma vastuses on.
 
 ![Lihtsatest kujunditest pilt, kus inimese kujutis, koer ja jalgratas on ümbritsetud värviliste piiramiskastidega; kastide siltidel on klass ja enesekindluse skoor 0,94, 0,78 ja 0,87](pildid/plokk_5/5_2_piiramiskastid.svg "Joonis 5.2.1. Iga kast = asukoht + klass + enesekindluse skoor")
 
@@ -14815,7 +15056,7 @@ Näotundmine on üks kõige vastuolulisemaid TI-tehnoloogiaid. Seda seepärast, 
 
 **Kallutatus ja diskrimineerimine.** Kui treeningandmed ei ole piisavalt mitmekesised, võib süsteem töötada mõne demograafilise rühma puhul halvemini kui teiste puhul. USA standardiinstituut NIST testis 2019. aastal 189 näotundmisalgoritmi ja leidis, et enamiku täpsus sõltus inimese soost, vanusest ja rassist. Selline **kallutatus** (bias) võib viia ebaõiglaste otsusteni, näiteks selleni, et süsteem tuvastab mõne inimese ekslikult kellegi teisena.
 
-**Turvalisus.** <span class="pae-term" tabindex="0" data-def="biomeetrilised andmed: Keha või käitumise tunnused, mille järgi saab inimest tuvastada">Biomeetrilised andmed</span> võivad lekkida, süsteeme võidakse petta vaenulike rünnakute või süvavõltsingutega (sellest räägime tunnis 5.5).
+**Turvalisus.** Biomeetrilised andmed võivad lekkida, süsteeme võidakse petta vaenulike rünnakute või süvavõltsingutega (sellest räägime tunnis 5.5).
 
 <!-- class="pae-moiste" -->
 > **Mõiste: biomeetrilised andmed**
@@ -14886,6 +15127,9 @@ Objektituvastus peab leidma pildilt kõik objektid ja nimetama need õigesti. Ka
 - Schroff, F., Kalenichenko, D., Philbin, J. (2015). [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832v3). FaceNeti artikkel: iga nägu kirjeldatakse kompaktse tunnusvektoriga.
 
 ### Tööleht 5.2
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Objektituvastuse põhimõisted**
@@ -15184,7 +15428,7 @@ Pluss: puudumiste märkimine oleks kiire ja õpetaja aeg kuluks õppimisele. Pro
 ### 📤 Väljapääsupilet 5.2
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -15208,6 +15452,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -15221,7 +15470,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['5.2'] = ["Poe kaamera märgib ekraanil kõigi ostjate nägude ümber kastid, kuid ei tea, kes nad on. Kas tegu on näotuvastuse või näotundmisega? Põhjenda.", "Milline oli Google Lensi täpsus ja saagis sinu katses ning mis juhtus, kui ese oli osaliselt kaetud?", "Kas kool tohiks sinu arvates kasutada näotundmist? Miks?"];
 setTimeout(function(){var d=window.paePilet.load('5.2');document.querySelectorAll('[data-pilet="5.2"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="5.2" name="nimi" oninput="window.paePilet.save('5.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Poe kaamera märgib ekraanil kõigi ostjate nägude ümber kastid, kuid ei tea, kes nad on. Kas tegu on näotuvastuse või näotundmisega? Põhjenda.</div><textarea data-pilet="5.2" name="q0" oninput="window.paePilet.save('5.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Milline oli Google Lensi täpsus ja saagis sinu katses ning mis juhtus, kui ese oli osaliselt kaetud?</div><textarea data-pilet="5.2" name="q1" oninput="window.paePilet.save('5.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kas kool tohiks sinu arvates kasutada näotundmist? Miks?</div><textarea data-pilet="5.2" name="q2" oninput="window.paePilet.save('5.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('5.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('5.2')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_5.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="5.2" name="nimi" oninput="window.paePilet.save('5.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Poe kaamera märgib ekraanil kõigi ostjate nägude ümber kastid, kuid ei tea, kes nad on. Kas tegu on näotuvastuse või näotundmisega? Põhjenda.</div><textarea data-pilet="5.2" name="q0" oninput="window.paePilet.save('5.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Milline oli Google Lensi täpsus ja saagis sinu katses ning mis juhtus, kui ese oli osaliselt kaetud?</div><textarea data-pilet="5.2" name="q1" oninput="window.paePilet.save('5.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kas kool tohiks sinu arvates kasutada näotundmist? Miks?</div><textarea data-pilet="5.2" name="q2" oninput="window.paePilet.save('5.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('5.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('5.2')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('5.2')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_5.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -15280,12 +15529,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Meditsiinilise pildinduse liigid“, „Tehisintellekti ülesanded ja töövoog“, „Näited: kopsud, aju, vähk ja koed“, „Video: kuidas aitab tehisaru päästa elusid?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** <span class="pae-term" tabindex="0" data-def="meditsiiniline pildianalüüs: Meditsiiniliste piltide töötlemine ja analüüs arvuti abil">meditsiiniline pildianalüüs</span>, tundlikkus, spetsiifilisus, must kast. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Miks meditsiin vajab tehisintellekti abi?“, „Kuidas meditsiinilise TI täpsust hinnata?“, „Eelised, väljakutsed ja vastutus“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Meditsiinilise pildinduse liigid“. Soovi korral ka „Tehisintellekti ülesanded ja töövoog“, „Näited: kopsud, aju, vähk ja koed“, „Video: kuidas aitab tehisaru päästa elusid?“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Miks meditsiin vajab tehisintellekti abi?“, „Kuidas meditsiinilise TI täpsust hinnata?“, „Eelised, väljakutsed ja vastutus“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Treeni oma sõeluuringu mudel“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded V, VI ja VIII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded V, VI ja VIII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -15305,7 +15558,7 @@ Haiglas tehakse igal aastal väga palju röntgen- ja muid pilte. Arste on vähe,
 Kui oled kunagi jalga väänanud ja käinud röntgenis, siis tead, et pildi teeb masin, aga selle loeb ja tõlgendab arst – **radioloog**. Maailma Terviseorganisatsiooni andmetel tehakse maailmas igal aastal üle 4 miljardi radioloogilise uuringu. Andmete hulk ja keerukus kasvavad, aga radiolooge on paljudes piirkondades puudu. Üks arst peab päevas läbi vaatama väga palju pilte ning väsimus ja ajasurve võivad põhjustada vigu.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: <span class="pae-term" tabindex="0" data-def="meditsiiniline pildianalüüs: Meditsiiniliste piltide töötlemine ja analüüs arvuti abil">meditsiiniline pildianalüüs</span>**
+> **Mõiste: meditsiiniline pildianalüüs**
 >
 > Meditsiiniline pildianalüüs on meditsiiniliste piltide (nt röntgen-, KT- ja MRT-piltide) töötlemine ja analüüsimine arvuti abil, et aidata arstidel haigusi avastada, diagnoosida ja ravi planeerida.
 
@@ -15488,6 +15741,9 @@ Radioloog Martin Reim näitab päris juhtumite põhjal, kuidas tehisaru aitab ar
 - USA Toidu- ja Ravimiamet FDA (2026). [Artificial Intelligence-Enabled Medical Devices](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices). USA-s lubatud TI-põhiste meditsiiniseadmete nimekiri – suurem osa neist on radioloogias.
 
 ### Tööleht 5.3
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Meditsiinilise pildianalüüsi põhimõisted**
@@ -15805,7 +16061,7 @@ TI on arsti abiline ehk „teine silmapaar“, mitte asendaja. Ka täpne mudel e
 ### 📤 Väljapääsupilet 5.3
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -15829,6 +16085,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -15842,7 +16103,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['5.3'] = ["Lennujaama turvavärav leiab 99% keelatud esemetest, kuid annab häire ka iga kümnenda tavalise koti puhul. Kas süsteemil on kõrge tundlikkus või kõrge spetsiifilisus? Põhjenda.", "Milline oli sinu Teachable Machine'i mudeli tundlikkus ja spetsiifilisus ning millal see eksis?", "Kas usaldaksid diagnoosi, mille panid TI ja arst koos? Mis tingimusel?"];
 setTimeout(function(){var d=window.paePilet.load('5.3');document.querySelectorAll('[data-pilet="5.3"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="5.3" name="nimi" oninput="window.paePilet.save('5.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Lennujaama turvavärav leiab 99% keelatud esemetest, kuid annab häire ka iga kümnenda tavalise koti puhul. Kas süsteemil on kõrge tundlikkus või kõrge spetsiifilisus? Põhjenda.</div><textarea data-pilet="5.3" name="q0" oninput="window.paePilet.save('5.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Milline oli sinu Teachable Machine&#39;i mudeli tundlikkus ja spetsiifilisus ning millal see eksis?</div><textarea data-pilet="5.3" name="q1" oninput="window.paePilet.save('5.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kas usaldaksid diagnoosi, mille panid TI ja arst koos? Mis tingimusel?</div><textarea data-pilet="5.3" name="q2" oninput="window.paePilet.save('5.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('5.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('5.3')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_5.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="5.3" name="nimi" oninput="window.paePilet.save('5.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Lennujaama turvavärav leiab 99% keelatud esemetest, kuid annab häire ka iga kümnenda tavalise koti puhul. Kas süsteemil on kõrge tundlikkus või kõrge spetsiifilisus? Põhjenda.</div><textarea data-pilet="5.3" name="q0" oninput="window.paePilet.save('5.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Milline oli sinu Teachable Machine&#39;i mudeli tundlikkus ja spetsiifilisus ning millal see eksis?</div><textarea data-pilet="5.3" name="q1" oninput="window.paePilet.save('5.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kas usaldaksid diagnoosi, mille panid TI ja arst koos? Mis tingimusel?</div><textarea data-pilet="5.3" name="q2" oninput="window.paePilet.save('5.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('5.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('5.3')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('5.3')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_5.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -15901,12 +16162,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „GAN ja VAE: kuidas masin õpib pilte looma“, „Kas tehisintellekt saab olla loov?“, „Generatiivse TI eetilised küsimused“, „Videod: tehisaru, kunst ja muusika“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** generatiivne TI, difusioonimudel, viip. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Mis on generatiivne tehisintellekt?“, „Difusioonimudelid ja <span class="pae-term" tabindex="0" data-def="tekst-pilt-mudel: Mudel, mis loob pildi tekstilise kirjelduse põhjal">tekst-pilt-mudelid</span>“, „Kuidas pildigeneraatorit juhtida?“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „GAN ja VAE: kuidas masin õpib pilte looma“. Soovi korral ka „Kas tehisintellekt saab olla loov?“, „Generatiivse TI eetilised küsimused“, „Videod: tehisaru, kunst ja muusika“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Mis on generatiivne tehisintellekt?“, „Difusioonimudelid ja <span class="pae-term" tabindex="0" data-def="tekst-pilt-mudel: Mudel, mis loob pildi tekstilise kirjelduse põhjal">tekst-pilt-mudelid</span>“, „Kuidas pildigeneraatorit juhtida?“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Vaata difusioonimudeli sisse“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded III, IV ja VII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded III, IV ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -16138,6 +16403,9 @@ Vali **vähemalt üks** video ja vaata see läbi.
 - Euroopa Komisjon (2026). [Quick Facts: Transparency rules for AI systems](https://digital-strategy.ec.europa.eu/en/factpages/quick-facts-transparency-rules-ai-systems). TI loodud sisu ja süvavõltsingute märgistamise nõuded ning nende tähtajad.
 
 ### Tööleht 5.4
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Generatiivse tehisintellekti põhimõisted**
@@ -16483,7 +16751,7 @@ Uus suurus: 800 × 400 pikslit, seega 800 × 400 = **320 000** pikslit. Algses p
 ### 📤 Väljapääsupilet 5.4
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -16507,6 +16775,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -16520,7 +16793,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['5.4'] = ["Sõber kirjutas pildigeneraatorile ainult sõna „maja“ ja jäi tulemusega rahulolematuks. Kuidas parandaksid tema viipa?", "Mis juhtus Diffusion Explaineris pildiga, kui muutsid juhtimisskaalat?", "Kas TI abil loodud pilt koolitöös peaks olema märgistatud? Miks?"];
 setTimeout(function(){var d=window.paePilet.load('5.4');document.querySelectorAll('[data-pilet="5.4"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="5.4" name="nimi" oninput="window.paePilet.save('5.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Sõber kirjutas pildigeneraatorile ainult sõna „maja“ ja jäi tulemusega rahulolematuks. Kuidas parandaksid tema viipa?</div><textarea data-pilet="5.4" name="q0" oninput="window.paePilet.save('5.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mis juhtus Diffusion Explaineris pildiga, kui muutsid juhtimisskaalat?</div><textarea data-pilet="5.4" name="q1" oninput="window.paePilet.save('5.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kas TI abil loodud pilt koolitöös peaks olema märgistatud? Miks?</div><textarea data-pilet="5.4" name="q2" oninput="window.paePilet.save('5.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('5.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('5.4')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_5.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="5.4" name="nimi" oninput="window.paePilet.save('5.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Sõber kirjutas pildigeneraatorile ainult sõna „maja“ ja jäi tulemusega rahulolematuks. Kuidas parandaksid tema viipa?</div><textarea data-pilet="5.4" name="q0" oninput="window.paePilet.save('5.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mis juhtus Diffusion Explaineris pildiga, kui muutsid juhtimisskaalat?</div><textarea data-pilet="5.4" name="q1" oninput="window.paePilet.save('5.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kas TI abil loodud pilt koolitöös peaks olema märgistatud? Miks?</div><textarea data-pilet="5.4" name="q2" oninput="window.paePilet.save('5.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('5.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('5.4')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('5.4')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_5.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -16579,12 +16852,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Kuidas võltsinguid tehakse“, „Kasutusalad ja ohud“, „Seadused ja eetilised piirid“, „<span class="pae-term" tabindex="0" data-def="meediakirjaoskus: Oskus meediasisu kriitiliselt hinnata ning allikaid ja konteksti kontrollida">Meediakirjaoskus</span> ja tulevik“, „Video: meedia ja kriitiline mõtlemine tehisaru ajastul“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** süvavõltsing, pöördotsing, kriitiline mõtlemine. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Mis on süvavõltsing?“, „Kuidas võltsingut ära tunda: kontrollnimekiri“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Kuidas võltsinguid tehakse“. Soovi korral ka „Kasutusalad ja ohud“, „Seadused ja eetilised piirid“, „<span class="pae-term" tabindex="0" data-def="meediakirjaoskus: Oskus meediasisu kriitiliselt hinnata ning allikaid ja konteksti kontrollida">Meediakirjaoskus</span> ja tulevik“, „Video: meedia ja kriitiline mõtlemine tehisaru ajastul“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Mis on süvavõltsing?“, „Kuidas võltsingut ära tunda: kontrollnimekiri“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kust see pilt tegelikult pärit on?“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded IV, VI ja VII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded IV, VI ja VII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -16792,7 +17069,10 @@ Meediakirjaoskus tähendab oskust allikaid kontrollida, konteksti arvestada ja e
 >
 > - Kuidas peaks ühiskond kohanema maailmaga, kus visuaalset sisu on üha raskem usaldada?
 > - Kas süvavõltsingute tehnoloogia arendamist peaks piirama või tuleks keskenduda hoopis kuritarvituste karistamisele ja meediakirjaoskusele?
-> - Mida teeksid, kui klassi vestlusgruppi ilmuks klassikaaslasest võltsitud naljavideo? Kuidas käituksid, et teda kaitsta?
+> - Kujuta ette väljamõeldud olukorda: ühe kooli klassi vestlusgruppi ilmub õpilasest „Mari“ võltsitud naljavideo. Mida peaksid kaasõpilased tegema, et teda kaitsta? Arutage üldiselt – ära too näiteid päris inimestest ega juhtumitest.
+
+<!-- class="pae-lisaks" -->
+> **Sinu valik:** sa ei pea jagama midagi isiklikku. Võid kasutada väljamõeldud näidet, kirjutada üldistatult või olla arutelus vaatleja rollis – õpieesmärk on sama.
 
 ### 🏠 🎬 Video: meedia ja kriitiline mõtlemine tehisaru ajastul
 
@@ -16846,6 +17126,9 @@ TI-Hüppe video käsitleb infoküllust, süvavõltsinguid ja nende mõju usaldus
 - Lasteabi (s.a.). [Lasteabi](https://www.lasteabi.ee/). Tasuta ja ööpäevaringne nõuandetelefon 116 111 ning vestlus veebis – siit saad abi ka siis, kui sinust levib võltsitud pilt või video.
 
 ### Tööleht 5.5
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Pildimanipulatsiooni põhimõisted**
@@ -17142,7 +17425,7 @@ Ma ei jaga videot edasi ega vasta kiusajale samaga. Salvestan tõendid (ekraanip
 ### 📤 Väljapääsupilet 5.5
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -17166,6 +17449,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -17179,7 +17467,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['5.5'] = ["Sotsiaalmeedias levib pilt üleujutatud Tartu kesklinnast pealkirjaga „Täna hommikul“. Mida kontrolliksid kõigepealt ja miks?", "Mida näitas sinu pöördotsing pildi päritolu kohta ja kui kindel sa oma järelduses oled?", "Millist kontrollnimekirja sammu hakkad edaspidi ka päriselt kasutama?"];
 setTimeout(function(){var d=window.paePilet.load('5.5');document.querySelectorAll('[data-pilet="5.5"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="5.5" name="nimi" oninput="window.paePilet.save('5.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Sotsiaalmeedias levib pilt üleujutatud Tartu kesklinnast pealkirjaga „Täna hommikul“. Mida kontrolliksid kõigepealt ja miks?</div><textarea data-pilet="5.5" name="q0" oninput="window.paePilet.save('5.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mida näitas sinu pöördotsing pildi päritolu kohta ja kui kindel sa oma järelduses oled?</div><textarea data-pilet="5.5" name="q1" oninput="window.paePilet.save('5.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millist kontrollnimekirja sammu hakkad edaspidi ka päriselt kasutama?</div><textarea data-pilet="5.5" name="q2" oninput="window.paePilet.save('5.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('5.5')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('5.5')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_5.5" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="5.5" name="nimi" oninput="window.paePilet.save('5.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Sotsiaalmeedias levib pilt üleujutatud Tartu kesklinnast pealkirjaga „Täna hommikul“. Mida kontrolliksid kõigepealt ja miks?</div><textarea data-pilet="5.5" name="q0" oninput="window.paePilet.save('5.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mida näitas sinu pöördotsing pildi päritolu kohta ja kui kindel sa oma järelduses oled?</div><textarea data-pilet="5.5" name="q1" oninput="window.paePilet.save('5.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millist kontrollnimekirja sammu hakkad edaspidi ka päriselt kasutama?</div><textarea data-pilet="5.5" name="q2" oninput="window.paePilet.save('5.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('5.5')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('5.5')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('5.5')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_5.5" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -17233,6 +17521,9 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: teed **TI-labori**, lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
 
 ### 🔬 5. ploki TI-labor: kas masin näeb nagu inimene?
+
+<!-- class="pae-lisaks" -->
+> 🗓️ **Laborid on valikulised.** Kursuse jooksul teeb klass **2–3 laborit**, mille valib õpetaja. Labor asendab ühe sama ploki teematunni tunnitöö: selle tunni tekst loetakse kodus ja tunnis tehakse labor. Teisi laboreid saab teha rikastamiseks või projekti osana.
 
 <!-- class="pae-motle" -->
 > **Uurimisküsimus:** Millistes tingimustes arvutinägemine eksib ja millised tunnused aitavad inimesel eristada TI loodud nägu päris fotost?
@@ -17311,7 +17602,7 @@ Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud, eeti
 | Eetiline analüüs | Vastused on seotud katse tulemustega (eksimise tingimused, nägude test); on nimetatud, kes võiks kannatada, ja tehtud konkreetne ettepanek | Eetikaküsimustele on vastatud, kuid seos katsega on nõrk | Eetikaküsimustele on vastamata või vastused ei ole katsega seotud |
 | Koostöö ja ohutus | Rollid vahetusid, kõik panustasid; nägusid ega isikuandmeid ei pildistatud | Koostöö toimis enamasti; ohutusreegleid järgiti | Töö jäi ühe inimese kanda või ohutusreegleid ei järgitud |
 
-### Praktilised ülesanded
+### ➕ Praktilised ülesanded
 
 Mõni allpool nimetatud tööriist võib olla vahepeal nime muutnud või kasutusest kadunud. Sel juhul kasuta sarnast tööriista ja kirjuta oma töös, mida kasutasid. Kui töötled pilte, millel on inimesed, küsi neilt alati luba. Ära laadi teiste inimeste pilte TI-tööriistadesse ilma nende nõusolekuta.
 
@@ -17937,12 +18228,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Kuidas eetikat ellu viia?“, „Euroopa Liidu ja Eesti lähenemine“, „Video: tehisintellekt ja eetika“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** TI eetika, läbipaistvus, vastutus, dilemma. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Mis on <span class="pae-term" tabindex="0" data-def="tehisintellekti eetika: Filosoofia valdkond, mis tegeleb moraalsete küsimustega TI arendamisel ja kasutamisel">tehisintellekti eetika</span>?“, „Viis põhilist eetilist põhimõtet“, „Eetilised dilemmad“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Kuidas eetikat ellu viia?“. Soovi korral ka „Euroopa Liidu ja Eesti lähenemine“, „Video: tehisintellekt ja eetika“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Mis on <span class="pae-term" tabindex="0" data-def="tehisintellekti eetika: Filosoofia valdkond, mis tegeleb moraalsete küsimustega TI arendamisel ja kasutamisel">tehisintellekti eetika</span>?“, „Viis põhilist eetilist põhimõtet“, „Eetilised dilemmad“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Moraalimasina dilemmad“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded III, VI ja VIII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded III, VI ja VIII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -18269,6 +18564,9 @@ Moral Machine on MIT-i teadlaste loodud veebikeskkond, kus saad ise otsustada, m
 
 ### Tööleht 6.1
 
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
+
 <!-- class="pae-jaotis" -->
 **➕ I. Eetika põhimõisted tehisintellekti kontekstis**
 
@@ -18569,7 +18867,7 @@ TI ei ole isik: tal ei ole oma tahet ega võimalust oma tegude eest vastust anda
 ### 📤 Väljapääsupilet 6.1
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -18593,6 +18891,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -18606,7 +18909,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['6.1'] = ["Kool tahab võtta kasutusele TI, mis soovitab õpilastele valikkursusi. Nimeta kaks eetilist põhimõtet, millega kool peaks arvestama, ja põhjenda.", "Mis üllatas sind Moral Machine'i katses, kui võrdlesid oma valikuid teiste vastajate omadega?", "Mis jäi selles tunnis segaseks või millist eetilist küsimust tahaksid veel arutada?"];
 setTimeout(function(){var d=window.paePilet.load('6.1');document.querySelectorAll('[data-pilet="6.1"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="6.1" name="nimi" oninput="window.paePilet.save('6.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kool tahab võtta kasutusele TI, mis soovitab õpilastele valikkursusi. Nimeta kaks eetilist põhimõtet, millega kool peaks arvestama, ja põhjenda.</div><textarea data-pilet="6.1" name="q0" oninput="window.paePilet.save('6.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mis üllatas sind Moral Machine&#39;i katses, kui võrdlesid oma valikuid teiste vastajate omadega?</div><textarea data-pilet="6.1" name="q1" oninput="window.paePilet.save('6.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi selles tunnis segaseks või millist eetilist küsimust tahaksid veel arutada?</div><textarea data-pilet="6.1" name="q2" oninput="window.paePilet.save('6.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('6.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('6.1')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_6.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="6.1" name="nimi" oninput="window.paePilet.save('6.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Kool tahab võtta kasutusele TI, mis soovitab õpilastele valikkursusi. Nimeta kaks eetilist põhimõtet, millega kool peaks arvestama, ja põhjenda.</div><textarea data-pilet="6.1" name="q0" oninput="window.paePilet.save('6.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mis üllatas sind Moral Machine&#39;i katses, kui võrdlesid oma valikuid teiste vastajate omadega?</div><textarea data-pilet="6.1" name="q1" oninput="window.paePilet.save('6.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis jäi selles tunnis segaseks või millist eetilist küsimust tahaksid veel arutada?</div><textarea data-pilet="6.1" name="q2" oninput="window.paePilet.save('6.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('6.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('6.1')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('6.1')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_6.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -18667,12 +18970,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Privaatsust säilitavad tehnoloogiad“, „Privaatsuse ja kasulikkuse tasakaal“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** isikuandmed, privaatsus, GDPR, <span class="pae-term" tabindex="0" data-def="andmete minimaalsus: Põhimõte koguda ainult nii palju andmeid, kui eesmärgi jaoks on vaja">andmete minimaalsus</span>. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Mis on privaatsus TI ajastul?“, „Kuidas TI privaatsust ohustab?“, „Õiguslik raamistik: GDPR ja sinu õigused“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Privaatsust säilitavad tehnoloogiad“. Soovi korral ka „Privaatsuse ja kasulikkuse tasakaal“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Mis on privaatsus TI ajastul?“, „Kuidas TI privaatsust ohustab?“, „Õiguslik raamistik: GDPR ja sinu õigused“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Mida TI postitustest järeldab?“
-> 3. ⭐ **Tööleht** (~15 min): töölehe osad 2, 4 ja 5
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): töölehe osad 2, 4 ja 5
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -18772,7 +19079,10 @@ Sinul kui andmesubjektil on GDPR-i järgi mitu õigust:
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
 >
-> Ava oma telefonis ühe sagedamini kasutatava rakenduse seaded. Milliseid andmeid see rakendus sinu kohta koguda tohib (asukoht, kontaktid, mikrofon, kaamera)? Kas kõik need load on rakenduse toimimiseks tõesti vajalikud? Kuidas on see seotud <span class="pae-term" tabindex="0" data-def="andmete minimaalsus: Põhimõte koguda ainult nii palju andmeid, kui eesmärgi jaoks on vaja">andmete minimaalsuse</span> põhimõttega?
+> Vali üks levinud rakendus (nt ilmaäpp, taskulambiäpp või mäng) ja vaata selle rakendusepoe lehelt või õpetaja näidatud seadetest, milliseid andmeid see koguda tohib (asukoht, kontaktid, mikrofon, kaamera). Kas kõik need load on rakenduse toimimiseks tõesti vajalikud? Kuidas on see seotud andmete minimaalsuse põhimõttega? Oma telefoni seadeid ei pea kellelegi näitama.
+
+<!-- class="pae-lisaks" -->
+> **Sinu valik:** sa ei pea jagama midagi isiklikku. Võid kasutada väljamõeldud näidet, kirjutada üldistatult või olla arutelus vaatleja rollis – õpieesmärk on sama.
 
 ### 🏠 Privaatsust säilitavad tehnoloogiad
 
@@ -18818,7 +19128,10 @@ Tulevikus on oodata uusi privaatsust säilitavaid tehnoloogiaid, regulatsioonide
 <!-- class="pae-motle" -->
 > **Mõtle järele!**
 >
-> Mõtle oma igapäevaelule. Kuidas saad ise oma privaatsust paremini kaitsta, kui kasutad virtuaalassistente, vestlusroboteid, soovitussüsteeme või sotsiaalmeediat? Kas oled valmis mõnest mugavusest loobuma, et oma andmeid paremini kaitsta?
+> Mõtle tavalise 10. klassi õpilase igapäevaelule. Kuidas saab ta oma privaatsust paremini kaitsta, kui kasutab virtuaalassistente, vestlusroboteid, soovitussüsteeme või sotsiaalmeediat? Kas oleks mõistlik mõnest mugavusest loobuda, et andmeid paremini kaitsta?
+
+<!-- class="pae-lisaks" -->
+> **Sinu valik:** sa ei pea jagama midagi isiklikku. Võid kasutada väljamõeldud näidet, kirjutada üldistatult või olla arutelus vaatleja rollis – õpieesmärk on sama.
 
 ### 🧪 TI-katse: Mida TI postitustest järeldab?
 
@@ -18873,6 +19186,9 @@ Katsetad, kui palju suudab vestlusrobot järeldada väljamõeldud inimese kohta 
 - Laas, O. (2025). [TI-hüpe vajab TI-eetikat](https://www.err.ee/1609620371/oliver-laas-ti-hupe-vajab-ti-eetikat). Õpilaste andmete, jälgimise ja nõusoleku küsimused koolis kasutatavate TI-tööriistade puhul (sobib lisalugemiseks).
 
 ### Tööleht 6.2
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ 1. Privaatsuse ja andmekaitse põhimõisted**
@@ -18951,7 +19267,7 @@ d) Kuidas tagada andmesubjektide õiguste (nt juurdepääs, parandamine, kustuta
 
 [[___ ___ ___ ___ ___]]
 
-**Ülesanne 12.** Kuidas saaksid sina isiklikult kaitsta oma privaatsust, kui kasutad TI-l põhinevaid teenuseid (nt virtuaalassistendid, soovitussüsteemid, sotsiaalmeedia)?
+**Ülesanne 12.** Kuidas saab noor kaitsta oma privaatsust, kui ta kasutab TI-l põhinevaid teenuseid (nt virtuaalassistendid, soovitussüsteemid, sotsiaalmeedia)? Võid vastata üldistatult – oma kogemusi ei pea jagama.
 
 [[___ ___ ___ ___]]
 
@@ -19057,7 +19373,7 @@ TI töötab sageli seda paremini, mida rohkem andmeid see saab. Näiteks võiksi
 ### 📤 Väljapääsupilet 6.2
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -19081,6 +19397,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -19092,9 +19413,9 @@ window.paePilet = window.paePilet || {
     document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
-window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['6.2'] = ["Kool tahab panna kodulehele klassipildi koos kõigi õpilaste nimedega. Millist GDPR-i põhimõtet või sinu õigust tuleks siin arvestada ja miks?", "Milline vestlusroboti järeldus väljamõeldud postituste kohta üllatas sind kõige rohkem ja miks on see privaatsuse seisukohast oluline?", "Kus jagad oma igapäevaelus TI-teenustele isikuandmeid ja mida võiksid edaspidi teha teisiti?"];
+window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['6.2'] = ["Kool tahab panna kodulehele klassipildi koos kõigi õpilaste nimedega. Millist GDPR-i põhimõtet või sinu õigust tuleks siin arvestada ja miks?", "Milline vestlusroboti järeldus väljamõeldud postituste kohta üllatas sind kõige rohkem ja miks on see privaatsuse seisukohast oluline?", "Kus jagavad noored igapäevaelus TI-teenustele isikuandmeid ja mida võiks edaspidi teha teisiti? Võid vastata üldistatult."];
 setTimeout(function(){var d=window.paePilet.load('6.2');document.querySelectorAll('[data-pilet="6.2"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="6.2" name="nimi" oninput="window.paePilet.save('6.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kool tahab panna kodulehele klassipildi koos kõigi õpilaste nimedega. Millist GDPR-i põhimõtet või sinu õigust tuleks siin arvestada ja miks?</div><textarea data-pilet="6.2" name="q0" oninput="window.paePilet.save('6.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Milline vestlusroboti järeldus väljamõeldud postituste kohta üllatas sind kõige rohkem ja miks on see privaatsuse seisukohast oluline?</div><textarea data-pilet="6.2" name="q1" oninput="window.paePilet.save('6.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus jagad oma igapäevaelus TI-teenustele isikuandmeid ja mida võiksid edaspidi teha teisiti?</div><textarea data-pilet="6.2" name="q2" oninput="window.paePilet.save('6.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('6.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('6.2')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_6.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="6.2" name="nimi" oninput="window.paePilet.save('6.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Kool tahab panna kodulehele klassipildi koos kõigi õpilaste nimedega. Millist GDPR-i põhimõtet või sinu õigust tuleks siin arvestada ja miks?</div><textarea data-pilet="6.2" name="q0" oninput="window.paePilet.save('6.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Milline vestlusroboti järeldus väljamõeldud postituste kohta üllatas sind kõige rohkem ja miks on see privaatsuse seisukohast oluline?</div><textarea data-pilet="6.2" name="q1" oninput="window.paePilet.save('6.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kus jagavad noored igapäevaelus TI-teenustele isikuandmeid ja mida võiks edaspidi teha teisiti? Võid vastata üldistatult.</div><textarea data-pilet="6.2" name="q2" oninput="window.paePilet.save('6.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('6.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('6.2')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('6.2')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_6.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -19155,12 +19476,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Kuidas õiglust mõõta?“, „Kallutatuse tuvastamine ja vähendamine“, „Dilemmad ja reeglid“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** kallutatus, õiglus, <span class="pae-term" tabindex="0" data-def="tagasisidesilmus: Olukord, kus süsteemi otsused mõjutavad uusi andmeid ja see võimendab kallutatust">tagasisidesilmus</span>. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Mis on kallutatus ja õiglus?“, „Kallutatuse tüübid ja näited“, „Miks kallutatus tekib?“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Kuidas õiglust mõõta?“. Soovi korral ka „Kallutatuse tuvastamine ja vähendamine“, „Dilemmad ja reeglid“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Mis on kallutatus ja õiglus?“, „Kallutatuse tüübid ja näited“, „Miks kallutatus tekib?“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kes on arst ja kes õde?“
-> 3. ⭐ **Tööleht** (~15 min): töölehe osad 2, 5 ja 6
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): töölehe osad 2, 5 ja 6
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -19169,7 +19494,7 @@ Selle tunni järel sa:
 
 **🟢 Lihtsalt öeldes**
 
-TI õpib andmetest, mille on loonud inimesed. Kui andmetes on eelarvamusi, õpib TI need ka ära. Nii tekib **kallutatus** ehk korduv ja ebaõiglane viga. Näiteks andis üks CV-programm madalama hinde CV-dele, kus oli sõna „naiste“. Programm oli õppinud vanadest CV-dest, mis olid enamasti meestelt. **Õiglane** TI kohtleb kõiki inimesi võrdselt, olenemata soost või vanusest. Kui vaatad ühe teema videoid, näidatakse sulle neid veel rohkem. See on **<span class="pae-term" tabindex="0" data-def="tagasisidesilmus: Olukord, kus süsteemi otsused mõjutavad uusi andmeid ja see võimendab kallutatust">tagasisidesilmus</span>**: süsteem kinnitab ise oma varasemaid otsuseid.
+TI õpib andmetest, mille on loonud inimesed. Kui andmetes on eelarvamusi, õpib TI need ka ära. Nii tekib **kallutatus** ehk korduv ja ebaõiglane viga. Näiteks andis üks CV-programm madalama hinde CV-dele, kus oli sõna „naiste“. Programm oli õppinud vanadest CV-dest, mis olid enamasti meestelt. **Õiglane** TI kohtleb kõiki inimesi võrdselt, olenemata soost või vanusest. Kui vaatad ühe teema videoid, näidatakse sulle neid veel rohkem. See on **tagasisidesilmus**: süsteem kinnitab ise oma varasemaid otsuseid.
 
 **Tähtsad sõnad:** **kallutatus** – TI korduv viga, mis on mõnele inimrühmale ebaõiglane; **õiglus** – TI kohtleb kõiki inimesi võrdselt; **tagasisidesilmus** – TI otsused mõjutavad uusi andmeid ja viga kasvab.
 
@@ -19373,6 +19698,9 @@ Eesti keeles on asesõna „ta“ sooneutraalne, inglise ja saksa keeles aga tul
 
 ### Tööleht 6.3
 
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
+
 <!-- class="pae-jaotis" -->
 **➕ 1. Kallutatuse ja õigluse põhimõisted**
 
@@ -19571,7 +19899,7 @@ Kallutatus võib jääda alles kaudsete tunnuste kaudu. Näiteks võib CV-s main
 ### 📤 Väljapääsupilet 6.3
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -19595,6 +19923,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -19608,7 +19941,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['6.3'] = ["Muusikarakendus soovitab tüdrukutele peamiselt popmuusikat ja poistele räppi. Millise kallutatuse tüübi või põhjusega võib olla tegu ja kuidas seda kontrollida?", "Milliseid ameteid seostas masintõlge meeste ja milliseid naistega ning miks see nii võib olla?", "Kas oled oma elus märganud mõnda tehnoloogiat, mis kohtleb inimesi stereotüüpselt? Kirjelda lühidalt."];
 setTimeout(function(){var d=window.paePilet.load('6.3');document.querySelectorAll('[data-pilet="6.3"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="6.3" name="nimi" oninput="window.paePilet.save('6.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Muusikarakendus soovitab tüdrukutele peamiselt popmuusikat ja poistele räppi. Millise kallutatuse tüübi või põhjusega võib olla tegu ja kuidas seda kontrollida?</div><textarea data-pilet="6.3" name="q0" oninput="window.paePilet.save('6.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Milliseid ameteid seostas masintõlge meeste ja milliseid naistega ning miks see nii võib olla?</div><textarea data-pilet="6.3" name="q1" oninput="window.paePilet.save('6.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kas oled oma elus märganud mõnda tehnoloogiat, mis kohtleb inimesi stereotüüpselt? Kirjelda lühidalt.</div><textarea data-pilet="6.3" name="q2" oninput="window.paePilet.save('6.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('6.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('6.3')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_6.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="6.3" name="nimi" oninput="window.paePilet.save('6.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Muusikarakendus soovitab tüdrukutele peamiselt popmuusikat ja poistele räppi. Millise kallutatuse tüübi või põhjusega võib olla tegu ja kuidas seda kontrollida?</div><textarea data-pilet="6.3" name="q0" oninput="window.paePilet.save('6.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Milliseid ameteid seostas masintõlge meeste ja milliseid naistega ning miks see nii võib olla?</div><textarea data-pilet="6.3" name="q1" oninput="window.paePilet.save('6.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kas oled oma elus märganud mõnda tehnoloogiat, mis kohtleb inimesi stereotüüpselt? Kirjelda lühidalt.</div><textarea data-pilet="6.3" name="q2" oninput="window.paePilet.save('6.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('6.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('6.3')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('6.3')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_6.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -19669,12 +20002,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Mis on teisiti kui varem?“, „Erinevad sektorid“, „Ebavõrdsus ja vastutus“, „Tulevikustsenaariumid“, „Videod: kas tehisaru võtab töö ära?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** <span class="pae-term" tabindex="0" data-def="automatiseerimine: Ülesande üleandmine masinale või tarkvarale">automatiseerimine</span>, <span class="pae-term" tabindex="0" data-def="inimese ja masina koostöö: Töö, kus inimene ja TI kasutavad kumbki oma tugevusi">inimese ja masina koostöö</span>, <span class="pae-term" tabindex="0" data-def="elukestev õpe: Õppimine ja enesetäiendamine kogu elu jooksul">elukestev õpe</span>. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Kuidas TI tööturgu muudab?“, „Millised töökohad muutuvad?“, „Tuleviku oskused“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Mis on teisiti kui varem?“. Soovi korral ka „Erinevad sektorid“, „Ebavõrdsus ja vastutus“, „Tulevikustsenaariumid“, „Videod: kas tehisaru võtab töö ära?“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Kuidas TI tööturgu muudab?“, „Millised töökohad muutuvad?“, „Tuleviku oskused“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Mida TI minu tulevases ametis teeks?“
-> 3. ⭐ **Tööleht** (~15 min): töölehe osad 2, 6 ja 7
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): töölehe osad 2, 6 ja 7
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -19683,7 +20020,7 @@ Selle tunni järel sa:
 
 **🟢 Lihtsalt öeldes**
 
-TI muudab tööturgu ja seda, kuidas inimesed töötavad. Osa ülesandeid teeb nüüd masin – see on **<span class="pae-term" tabindex="0" data-def="automatiseerimine: Ülesande üleandmine masinale või tarkvarale">automatiseerimine</span>**. Kõige lihtsam on automatiseerida rutiinseid ja korduvaid ülesandeid. Sageli amet ei kao päriselt ära, vaid muutub. Kui poes tunneb kaamera tooted ära, on vaja vähem kassapidajaid. Samal ajal tekivad uued ametid, näiteks andmeteadlane või TI eetika spetsialist. Tähtsaks jäävad loovus, kriitiline mõtlemine ja koostöö. Tulevikus on tähtis **<span class="pae-term" tabindex="0" data-def="elukestev õpe: Õppimine ja enesetäiendamine kogu elu jooksul">elukestev õpe</span>** ehk õppimine kogu elu jooksul.
+TI muudab tööturgu ja seda, kuidas inimesed töötavad. Osa ülesandeid teeb nüüd masin – see on **automatiseerimine**. Kõige lihtsam on automatiseerida rutiinseid ja korduvaid ülesandeid. Sageli amet ei kao päriselt ära, vaid muutub. Kui poes tunneb kaamera tooted ära, on vaja vähem kassapidajaid. Samal ajal tekivad uued ametid, näiteks andmeteadlane või TI eetika spetsialist. Tähtsaks jäävad loovus, kriitiline mõtlemine ja koostöö. Tulevikus on tähtis **elukestev õpe** ehk õppimine kogu elu jooksul.
 
 **Tähtsad sõnad:** **automatiseerimine** – masin teeb tööd, mida varem tegi inimene; **inimese ja masina koostöö** – inimene ja TI töötavad koos ning kumbki teeb seda, mida oskab paremini; **elukestev õpe** – õppimine ja enda täiendamine kogu elu jooksul.
 
@@ -19747,7 +20084,7 @@ TI-ga seoses on tekkinud ka **uusi ameteid ja rolle**:
 
 - andmeteadlased ja -analüütikud;
 - TI eetika spetsialistid;
-- <span class="pae-term" tabindex="0" data-def="inimese ja masina koostöö: Töö, kus inimene ja TI kasutavad kumbki oma tugevusi">inimese ja masina koostöö</span> disainerid;
+- inimese ja masina koostöö disainerid;
 - TI treenerid ja järelevalvajad – inimesed, kes märgendavad andmeid, hindavad TI vastuseid ja kontrollivad süsteemide tööd.
 
 Enamikus ametites aga muutub igapäevatöö: inimesed hakkavad kasutama **TI-tööriistu**, tekivad uued **inimese ja masina koostöö** vormid ning tähelepanu võib nihkuda **loovusele ja suhtlemisele** – sellele, mida masin teeb halvemini.
@@ -19934,6 +20271,9 @@ Amet koosneb paljudest ülesannetest. Katsetad, millise ülesande saab vestlusro
 - TI-Hüpe (s.a.). [Õppevideod](https://tihupe.ee/oppevideod/). Eesti tegijad räägivad, kuidas tehisaru muudab programmeerija, ajakirjaniku, juristi ja õpetaja tööd.
 
 ### Tööleht 6.4
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ 1. TI mõju tööturule – põhimõisted**
@@ -20160,7 +20500,7 @@ Amet koosneb paljudest ülesannetest ja TI automatiseerib neist ainult osa. Tood
 ### 📤 Väljapääsupilet 6.4
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -20184,6 +20524,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -20197,7 +20542,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['6.4'] = ["Raamatukogus hakkab TI raamatuid sorteerima ja lugejatele soovitama. Millised raamatukoguhoidja ülesanded muutuvad ja millised jäävad inimesele?", "Millise ülesande tegi vestlusrobot TI-katses hästi ja kus oli kindlasti vaja inimest?", "Millist oskust tahaksid lähiaastatel arendada, et TI ajastu tööturul hakkama saada?"];
 setTimeout(function(){var d=window.paePilet.load('6.4');document.querySelectorAll('[data-pilet="6.4"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="6.4" name="nimi" oninput="window.paePilet.save('6.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Raamatukogus hakkab TI raamatuid sorteerima ja lugejatele soovitama. Millised raamatukoguhoidja ülesanded muutuvad ja millised jäävad inimesele?</div><textarea data-pilet="6.4" name="q0" oninput="window.paePilet.save('6.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millise ülesande tegi vestlusrobot TI-katses hästi ja kus oli kindlasti vaja inimest?</div><textarea data-pilet="6.4" name="q1" oninput="window.paePilet.save('6.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millist oskust tahaksid lähiaastatel arendada, et TI ajastu tööturul hakkama saada?</div><textarea data-pilet="6.4" name="q2" oninput="window.paePilet.save('6.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('6.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('6.4')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_6.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="6.4" name="nimi" oninput="window.paePilet.save('6.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Raamatukogus hakkab TI raamatuid sorteerima ja lugejatele soovitama. Millised raamatukoguhoidja ülesanded muutuvad ja millised jäävad inimesele?</div><textarea data-pilet="6.4" name="q0" oninput="window.paePilet.save('6.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Millise ülesande tegi vestlusrobot TI-katses hästi ja kus oli kindlasti vaja inimest?</div><textarea data-pilet="6.4" name="q1" oninput="window.paePilet.save('6.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Millist oskust tahaksid lähiaastatel arendada, et TI ajastu tööturul hakkama saada?</div><textarea data-pilet="6.4" name="q2" oninput="window.paePilet.save('6.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('6.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('6.4')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('6.4')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_6.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -20260,12 +20605,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Lühikese, keskmise ja pika aja trendid“, „Mõju ühiskonnale ja eetilised väljakutsed“, „TI ohutus“, „Kuidas tulevikuks valmistuda?“, „Videod: inimene ja tehisaru tulevikus“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** <span class="pae-term" tabindex="0" data-def="multimodaalne süsteem: TI, mis töötleb korraga mitut liiki andmeid">multimodaalne süsteem</span>, AGI, ELi tehisintellekti määrus, riskitase. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Miks mõelda tulevikule – ja miks ettevaatlikult?“, „TI täna“, „TI reguleerimine“ ja „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Lühikese, keskmise ja pika aja trendid“. Soovi korral ka „Mõju ühiskonnale ja eetilised väljakutsed“, „TI ohutus“, „Kuidas tulevikuks valmistuda?“, „Videod: inimene ja tehisaru tulevikus“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Miks mõelda tulevikule – ja miks ettevaatlikult?“, „TI täna“, „TI reguleerimine“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas nägu on päris?“
-> 3. ⭐ **Tööleht** (~15 min): töölehe osad 4, 6 ja 7
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): töölehe osad 4, 6 ja 7
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -20311,7 +20660,7 @@ Praegust TI arengut iseloomustab mitu suunda:
 ![Võrdlus: kitsas ehk spetsialiseeritud TI on olemas täna ja loodud ühe kindla ülesande jaoks (näiteks maleprogramm, näotuvastus, masintõlge); üldine tehisintellekt (AGI) on hüpoteetiline, inimese tasemel mõtlemine paljudes valdkondades, ja selle üle eksperdid vaidlevad.](pildid/plokk_6/6_5_kitsas_agi.svg "Joonis 6.5.1. Kitsas TI ja üldine tehisintellekt")
 
 <!-- class="pae-moiste" -->
-> **Mõiste: <span class="pae-term" tabindex="0" data-def="multimodaalne süsteem: TI, mis töötleb korraga mitut liiki andmeid">multimodaalne süsteem</span>**
+> **Mõiste: multimodaalne süsteem**
 >
 > Multimodaalne TI-süsteem suudab töödelda ja luua mitut liiki andmeid korraga – näiteks vaadata pilti, kuulata küsimust ja vastata kõnes või tekstis.
 
@@ -20515,6 +20864,9 @@ Generatiivne TI loob juba praegu nii tõetruid nägusid, et neid on raske päris
 - West, J., Bergstrom, C. (s.a.). [Which Face Is Real?](https://www.whichfaceisreal.com/) Washingtoni Ülikooli projekti „Calling Bullshit“ mäng TI loodud nägude äratundmiseks.
 
 ### Tööleht 6.5
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ 1. TI tulevikutrendid – põhimõisted**
@@ -20735,7 +21087,7 @@ Määrus on riskipõhine: mida suurem on oht inimeste tervisele, turvalisusele v
 ### 📤 Väljapääsupilet 6.5
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -20759,6 +21111,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -20772,7 +21129,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['6.5'] = ["Uus äpp tuvastab kaamera abil õpilaste emotsioone tunnis ja annab õpetajale teada, kes on igav. Kas see on ELi tehisintellekti määruse järgi lubatud? Põhjenda.", "Mitu korda said Which Face Is Real katses 10-st õigesti ja mida see näitab TI loodud sisu märgistamise vajaduse kohta?", "Kas oled pärast seda tundi TI tuleviku suhtes pigem optimistlik või pessimistlik? Miks?"];
 setTimeout(function(){var d=window.paePilet.load('6.5');document.querySelectorAll('[data-pilet="6.5"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="6.5" name="nimi" oninput="window.paePilet.save('6.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Uus äpp tuvastab kaamera abil õpilaste emotsioone tunnis ja annab õpetajale teada, kes on igav. Kas see on ELi tehisintellekti määruse järgi lubatud? Põhjenda.</div><textarea data-pilet="6.5" name="q0" oninput="window.paePilet.save('6.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu korda said Which Face Is Real katses 10-st õigesti ja mida see näitab TI loodud sisu märgistamise vajaduse kohta?</div><textarea data-pilet="6.5" name="q1" oninput="window.paePilet.save('6.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kas oled pärast seda tundi TI tuleviku suhtes pigem optimistlik või pessimistlik? Miks?</div><textarea data-pilet="6.5" name="q2" oninput="window.paePilet.save('6.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('6.5')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('6.5')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_6.5" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="6.5" name="nimi" oninput="window.paePilet.save('6.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Uus äpp tuvastab kaamera abil õpilaste emotsioone tunnis ja annab õpetajale teada, kes on igav. Kas see on ELi tehisintellekti määruse järgi lubatud? Põhjenda.</div><textarea data-pilet="6.5" name="q0" oninput="window.paePilet.save('6.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu korda said Which Face Is Real katses 10-st õigesti ja mida see näitab TI loodud sisu märgistamise vajaduse kohta?</div><textarea data-pilet="6.5" name="q1" oninput="window.paePilet.save('6.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Kas oled pärast seda tundi TI tuleviku suhtes pigem optimistlik või pessimistlik? Miks?</div><textarea data-pilet="6.5" name="q2" oninput="window.paePilet.save('6.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('6.5')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('6.5')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('6.5')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_6.5" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -20823,6 +21180,9 @@ Kirjuta täht üles – seda on vaja toa ukse avamiseks.
 Oled jõudnud toa viimasesse ossa. Siin teed **TI-labori**, kordad ploki teemasid **praktiliste ülesannete** kaudu, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
 
 ### 🔬 6. ploki TI-labor: Kallutatuse testimine
+
+<!-- class="pae-lisaks" -->
+> 🗓️ **Laborid on valikulised.** Kursuse jooksul teeb klass **2–3 laborit**, mille valib õpetaja. Labor asendab ühe sama ploki teematunni tunnitöö: selle tunni tekst loetakse kodus ja tunnis tehakse labor. Teisi laboreid saab teha rikastamiseks või projekti osana.
 
 <!-- class="pae-motle" -->
 > **Uurimisküsimus:** Kas TI kujutab ameteid stereotüüpsemalt, kui need Eestis tegelikult jagunevad?
@@ -20909,7 +21269,7 @@ Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud, eeti
 
 [[___ ___ ___]]
 
-### Praktilised ülesanded
+### ➕ Praktilised ülesanded
 
 Siin on viis rühmatööd, mis on seotud ploki tundidega. Sinu õpetaja ütleb, milliseid neist teete.
 
@@ -21061,7 +21421,7 @@ Siin on viis rühmatööd, mis on seotud ploki tundidega. Sinu õpetaja ütleb, 
 2. Uurige TI mõju tööturule:
    - **üldised trendid** – automatiseerimise mõju eri sektorite töökohtadele, TI tõttu tekkinud uued ametid, oskused, mis muutuvad olulisemaks;
    - **valdkondlik analüüs** – valige üks valdkond (nt tervishoid, haridus, transport, tootmine, teenindus), analüüsige TI mõju sellele ja kirjeldage võimalikke muutusi järgmise 5–10 aasta jooksul. Pidage meeles, et need on hinnangud, mitte kindlad faktid – tooge välja ka see, kui allikad on eri meelt.
-3. Intervjueerige vähemalt kaht inimest, kelle tööd TI juba mõjutab. Küsige nende kogemuste, väljakutsete ja kohanemisviiside kohta ning pange tulemused kirja.
+3. Intervjueerige vähemalt kaht täiskasvanut, kelle tööd TI juba mõjutab. Küsige enne nõusolekut, selgitage, milleks vastuseid kasutate, ja küsige ainult tööga seotud kogemuste, väljakutsete ja kohanemisviiside kohta. Ärge salvestage intervjuud ega pange kirja nime ega tööandjat (kasutage nt „IT-spetsialist, 35“); kustutage märkmed pärast töö lõppu. Intervjuu asemel võite kasutada ka avalikult avaldatud intervjuusid.
 4. Koostage oma valdkonna „tuleviku töötaja profiil“: vajalikud tehnilised oskused, vajalikud pehmed oskused, haridus- ja koolitusvajadused, karjäärivõimalused.
 5. Kavandage klassile interaktiivne töötuba (15–20 minutit): tutvustage analüüsi tulemusi, viige läbi praktiline harjutus, mis näitab tuleviku tööturu vajadusi, ja kaasake klassikaaslased arutellu.
 6. Koostage soovituste dokument (1–2 lehekülge), mis on suunatud õpilastele (kuidas tuleviku tööturuks valmistuda), haridusasutustele (kuidas õppekavu kohandada), tööandjatele (kuidas toetada töötajate ümberõpet) ja poliitikakujundajatele (milliseid meetmeid kaaluda).
@@ -21606,12 +21966,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Mida sa nüüd oskad?“, „<span class="pae-term" tabindex="0" data-def="projektitöö: Piiratud ajaga ja selge eesmärgiga praktiline töö reaalse probleemi lahendamiseks">Projektitöö</span>: teadmised tegudeks“, „Edasi õppima: tulevik ja karjäär“, „Video: miks ja kuidas õppida tehisaru ajastul?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** nõrk tehisintellekt, masinõpe, kallutatus. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Kursuse teekond: mis on TI ja kuidas see töötab“, „Keel, otsused ja pildid“, „Eetika ja tulevik“ ning „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Mida sa nüüd oskad?“. Soovi korral ka „<span class="pae-term" tabindex="0" data-def="projektitöö: Piiratud ajaga ja selge eesmärgiga praktiline töö reaalse probleemi lahendamiseks">Projektitöö</span>: teadmised tegudeks“, „Edasi õppima: tulevik ja karjäär“, „Video: miks ja kuidas õppida tehisaru ajastul?“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Kursuse teekond: mis on TI ja kuidas see töötab“, „Keel, otsused ja pildid“, „Eetika ja tulevik“ ning „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Vestlusrobot kui kordamise treener“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded I, IV ja V
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded I, IV ja V
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -21812,6 +22176,9 @@ Ajuteadlane Jaan Aru selgitab, miks on õppimine ja iseseisev mõtlemine olulise
 - ERR (2024). [Riik plaanib 85 miljoni euro abil tehisintellekti Eesti ellu juurutada](https://www.err.ee/1609248531/riik-plaanib-85-miljoni-euro-abil-tehisintellekti-eesti-ellu-juurutada). Ülevaade tehisintellekti tegevuskavast 2024–2026 ja varasematest kavadest.
 
 ### Tööleht 7.1
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **⭐ I. Kursuse ülevaade ja õpiväljundid**
@@ -22074,7 +22441,7 @@ Andmete kvaliteet (plokk 2) ja kallutatus (plokk 6) on tihedalt seotud. Masinõp
 ### 📤 Väljapääsupilet 7.1
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -22098,6 +22465,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -22111,7 +22483,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['7.1'] = ["Vali üks äpp oma telefonist ja nimeta vähemalt kaks kursuse plokki, mille teadmisi selle äpi taga kasutatakse.", "Mitu vestlusroboti küsimust või hinnangut TI-katses olid täpsed ja kas robot käitus pigem treeneri või teenrina?", "Milline kursuse teema on sulle veel segane ja mida teed, et see selgeks saada?"];
 setTimeout(function(){var d=window.paePilet.load('7.1');document.querySelectorAll('[data-pilet="7.1"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="7.1" name="nimi" oninput="window.paePilet.save('7.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Vali üks äpp oma telefonist ja nimeta vähemalt kaks kursuse plokki, mille teadmisi selle äpi taga kasutatakse.</div><textarea data-pilet="7.1" name="q0" oninput="window.paePilet.save('7.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu vestlusroboti küsimust või hinnangut TI-katses olid täpsed ja kas robot käitus pigem treeneri või teenrina?</div><textarea data-pilet="7.1" name="q1" oninput="window.paePilet.save('7.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Milline kursuse teema on sulle veel segane ja mida teed, et see selgeks saada?</div><textarea data-pilet="7.1" name="q2" oninput="window.paePilet.save('7.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('7.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('7.1')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_7.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="7.1" name="nimi" oninput="window.paePilet.save('7.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Vali üks äpp oma telefonist ja nimeta vähemalt kaks kursuse plokki, mille teadmisi selle äpi taga kasutatakse.</div><textarea data-pilet="7.1" name="q0" oninput="window.paePilet.save('7.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mitu vestlusroboti küsimust või hinnangut TI-katses olid täpsed ja kas robot käitus pigem treeneri või teenrina?</div><textarea data-pilet="7.1" name="q1" oninput="window.paePilet.save('7.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Milline kursuse teema on sulle veel segane ja mida teed, et see selgeks saada?</div><textarea data-pilet="7.1" name="q2" oninput="window.paePilet.save('7.1')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('7.1')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('7.1')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('7.1')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_7.1" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -22170,12 +22542,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Mis on projektitöö ja miks seda planeerida?“, „Ulatus, tegevused ja ajakava“, „Edukuse kriteeriumid ja projekti käivitamine“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** <span class="pae-term" tabindex="0" data-def="SMART-eesmärk: Spetsiifiline, mõõdetav, asjakohane, realistlik ja tähtajaline eesmärk">SMART-eesmärk</span>, <span class="pae-term" tabindex="0" data-def="riskianalüüs: Võimalike probleemide tuvastamine ja nende lahendamise planeerimine">riskianalüüs</span>, <span class="pae-term" tabindex="0" data-def="puhveraeg: Ajakavasse jäetud lisaaeg ootamatuste jaoks">puhveraeg</span>. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Kuidas valida projekti teemat?“, „Eesmärk SMART-kriteeriumide järgi“, „Ressursid, rollid ja riskid“ ning „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Mis on projektitöö ja miks seda planeerida?“. Soovi korral ka „Ulatus, tegevused ja ajakava“, „Edukuse kriteeriumid ja projekti käivitamine“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Kuidas valida projekti teemat?“, „Eesmärk SMART-kriteeriumide järgi“, „Ressursid, rollid ja riskid“ ning „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas idee on teostatav? Kiirproov Teachable Machine'is“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded I, III ja VIII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded I, III ja VIII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -22184,7 +22560,7 @@ Selle tunni järel sa:
 
 **🟢 Lihtsalt öeldes**
 
-Selles tunnis hakkad koos meeskonnaga oma TI-projekti planeerima. Kõigepealt vali teema, mis sind huvitab ja sobib su oskustega. Teema peab olema piisavalt väike, et see valmis saaks. Näiteks „TI, mis aitab õppida“ on liiga lai. Parem on vestlusrobot, mis vastab 10. klassi õpilaste küsimustele kooli kodukorra kohta. Seejärel kirjuta selge **<span class="pae-term" tabindex="0" data-def="SMART-eesmärk: Spetsiifiline, mõõdetav, asjakohane, realistlik ja tähtajaline eesmärk">SMART-eesmärk</span>**, mida saab mõõta ja millel on tähtaeg. Lepi meeskonnaga rollid kokku ja tee **<span class="pae-term" tabindex="0" data-def="riskianalüüs: Võimalike probleemide tuvastamine ja nende lahendamise planeerimine">riskianalüüs</span>**: mis võib valesti minna? Jäta ajakavasse ka **<span class="pae-term" tabindex="0" data-def="puhveraeg: Ajakavasse jäetud lisaaeg ootamatuste jaoks">puhveraega</span>** ootamatuste jaoks.
+Selles tunnis hakkad koos meeskonnaga oma TI-projekti planeerima. Kõigepealt vali teema, mis sind huvitab ja sobib su oskustega. Teema peab olema piisavalt väike, et see valmis saaks. Näiteks „TI, mis aitab õppida“ on liiga lai. Parem on vestlusrobot, mis vastab 10. klassi õpilaste küsimustele kooli kodukorra kohta. Seejärel kirjuta selge **SMART-eesmärk**, mida saab mõõta ja millel on tähtaeg. Lepi meeskonnaga rollid kokku ja tee **riskianalüüs**: mis võib valesti minna? Jäta ajakavasse ka **puhveraega** ootamatuste jaoks.
 
 **Tähtsad sõnad:** **SMART-eesmärk** – konkreetne, mõõdetav, asjakohane, realistlik ja tähtajaline eesmärk; **riskianalüüs** – võimalike probleemide leidmine ja nende lahenduste planeerimine; **puhveraeg** – lisaaeg ajakavas ootamatuste jaoks.
 
@@ -22391,6 +22767,9 @@ Projekti **käivitamiseks** pidage avakoosolek, vaadake eesmärgid ja plaan üle
 - Google for Developers (s.a.). [ML Universal Guides](https://developers.google.com/machine-learning/guides). Juhendid, sh „People + AI Guidebook“ selle kohta, kuidas TI-lahendust kasutaja vajadusest lähtudes planeerida (inglise keeles).
 
 ### Tööleht 7.2
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **⭐ I. Projekti teema ja eesmärk**
@@ -22701,7 +23080,7 @@ Riski olulisus sõltub sellest, kui tõenäoline see on ja kui suurt kahju see t
 ### 📤 Väljapääsupilet 7.2
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -22725,6 +23104,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -22738,7 +23122,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['7.2'] = ["Sõnasta eesmärk „Teha äpp, mis aitab koolis“ ümber nii, et see vastaks SMART-kriteeriumidele.", "Mida näitas Teachable Machine'i kiirproov sinu projektiidee teostatavuse kohta?", "Milline risk võib sinu projekti kõige tõenäolisemalt takistada ja kuidas seda ennetad?"];
 setTimeout(function(){var d=window.paePilet.load('7.2');document.querySelectorAll('[data-pilet="7.2"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="7.2" name="nimi" oninput="window.paePilet.save('7.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Sõnasta eesmärk „Teha äpp, mis aitab koolis“ ümber nii, et see vastaks SMART-kriteeriumidele.</div><textarea data-pilet="7.2" name="q0" oninput="window.paePilet.save('7.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mida näitas Teachable Machine&#39;i kiirproov sinu projektiidee teostatavuse kohta?</div><textarea data-pilet="7.2" name="q1" oninput="window.paePilet.save('7.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Milline risk võib sinu projekti kõige tõenäolisemalt takistada ja kuidas seda ennetad?</div><textarea data-pilet="7.2" name="q2" oninput="window.paePilet.save('7.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('7.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('7.2')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_7.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="7.2" name="nimi" oninput="window.paePilet.save('7.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Sõnasta eesmärk „Teha äpp, mis aitab koolis“ ümber nii, et see vastaks SMART-kriteeriumidele.</div><textarea data-pilet="7.2" name="q0" oninput="window.paePilet.save('7.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mida näitas Teachable Machine&#39;i kiirproov sinu projektiidee teostatavuse kohta?</div><textarea data-pilet="7.2" name="q1" oninput="window.paePilet.save('7.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Milline risk võib sinu projekti kõige tõenäolisemalt takistada ja kuidas seda ennetad?</div><textarea data-pilet="7.2" name="q2" oninput="window.paePilet.save('7.2')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('7.2')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('7.2')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('7.2')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_7.2" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -22797,12 +23181,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Planeerimisest teostuseni“, „Lahenduse disain ja teostus“, „<span class="pae-term" tabindex="0" data-def="dokumenteerimine: Projekti tegevuste ja tulemuste kirjalik või visuaalne salvestamine">Dokumenteerimine</span> ja väljakutsete lahendamine“, „Edenemise jälgimine ja <span class="pae-term" tabindex="0" data-def="jätkusuutlikkus: Projekti võime jätkuda või areneda ka pärast projekti lõppu">jätkusuutlikkus</span>“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** <span class="pae-term" tabindex="0" data-def="andmete puhastamine: Vigaste, puuduvate või korduvate andmete parandamine või eemaldamine">andmete puhastamine</span>, testandmed, võrdlusalus. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Andmete kogumine ja ettevalmistamine“, „Treenimine, testimine ja hindamine“ ning „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Planeerimisest teostuseni“. Soovi korral ka „Lahenduse disain ja teostus“, „<span class="pae-term" tabindex="0" data-def="dokumenteerimine: Projekti tegevuste ja tulemuste kirjalik või visuaalne salvestamine">Dokumenteerimine</span> ja väljakutsete lahendamine“, „Edenemise jälgimine ja <span class="pae-term" tabindex="0" data-def="jätkusuutlikkus: Projekti võime jätkuda või areneda ka pärast projekti lõppu">jätkusuutlikkus</span>“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Andmete kogumine ja ettevalmistamine“, „Treenimine, testimine ja hindamine“ ning „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Testi närvivõrku piirjuhtumitega“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja X
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded II, V ja X
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -22831,9 +23219,12 @@ Pane tähele noolt, mis viib testimisest tagasi teostusse: arendus ei ole sirgjo
 
 Nagu plokis 2 nägid, on TI täpselt nii hea kui tema andmed. Seepärast algab enamik TI-projekte andmetest.
 
-**Andmeallikate tuvastamine.** Andmeid võib saada avalikest andmekogudest (näiteks andmeteaduse platvormilt [Kaggle](https://www.kaggle.com/)), olemasolevatest andmebaasidest, aga neid saab ka ise koguda (nt küsitluse, fotode või mõõtmiste abil). Kui kogud andmeid inimestelt, pea meeles isikuandmete kaitset: küsi luba, kogu ainult vajalikku ja hoia andmeid turvaliselt.
+**Andmeallikate tuvastamine.** Andmeid võib saada avalikest andmekogudest (näiteks andmeteaduse platvormilt [Kaggle](https://www.kaggle.com/) või Statistikaameti andmebaasist [andmed.stat.ee](https://andmed.stat.ee/)), olemasolevatest andmebaasidest, aga neid saab ka ise koguda (nt küsitluse, fotode või mõõtmiste abil) või luua sünteetiliselt (väljamõeldud andmestik). Eelista avaandmeid, sünteetilisi andmeid ja mõõtmisi, mis ei puuduta inimesi.
 
-**<span class="pae-term" tabindex="0" data-def="andmete puhastamine: Vigaste, puuduvate või korduvate andmete parandamine või eemaldamine">Andmete puhastamine</span>.** Päris andmed on harva korras. Puhastamise käigus käsitled puuduvaid väärtusi, parandad vigu ja eemaldad duplikaate (korduvaid kirjeid).
+<!-- class="pae-lisaks" -->
+> **Andmekaitse kontrollpunkt (kohustuslik).** Enne kui teete kasutajatesti, küsitluse, intervjuu või kogute muul viisil päris inimeste andmeid, täitke projektitöö juhendis olev **andmekaitse kontrollpunkt** ja laske õpetajal see kinnitada. Läbi tuleb mõelda: **nõusolek** (osalemine on vabatahtlik; alla 18-aastaste puhul vajadusel vanema või kooli kooskõlastus), **minimaalsus** (ainult vajalikud andmed, ei nimesid ega tundlikke andmeid), **anonüümimine**, **kus ja kui kaua** andmeid hoitakse, **kes neid näeb**, **millal need kustutatakse** ja **mida avalikustatakse** (ainult koondtulemused). Enne õpetaja kinnitust andmeid ei koguta.
+
+**Andmete puhastamine.** Päris andmed on harva korras. Puhastamise käigus käsitled puuduvaid väärtusi, parandad vigu ja eemaldad duplikaate (korduvaid kirjeid).
 
 **Andmete teisendamine.** Mudel vajab andmeid kindlal kujul. **Normaliseerimine** viib arvud ühtsele skaalale (nt vahemikku 0–1). Kategoorilised tunnused (nt „koer“, „kass“) tuleb kodeerida arvudeks. Vahel luuakse olemasolevatest andmetest ka uusi tunnuseid.
 
@@ -22888,7 +23279,7 @@ Kõige olulisem on **<span class="pae-term" tabindex="0" data-def="iteratiivne a
 
 - **funktsionaalne testimine** – kas lahendus vastab nõuetele, kas selles on vigu, kuidas see käitub piirjuhtumite (ebatavaliste sisendite) korral;
 - **jõudluse testimine** – kiirus, skaleeritavus, ressursikasutus;
-- **kasutajatestid** – kasutatavus, kasutajakogemus ja tagasiside kogumine;
+- **kasutajatestid** – kasutatavus, kasutajakogemus ja tagasiside kogumine (enne kasutajatesti peab andmekaitse kontrollpunkt olema õpetajaga kinnitatud; testijad osalevad vabatahtlikult ja nende nimesid ega pilte tulemustes ei näidata);
 - **tulemuste hindamine** – kas eesmärgid on saavutatud, kas kvaliteedikriteeriumid on täidetud, mida saab parandada.
 
 TI-lahenduse **täpsuse hindamiseks** kasutatakse mitut mõõdikut. Kujutle rämpspostifiltrit. **Üldine täpsus** näitab, kui suur osa kõigist kirjadest liigitati õigesti. **Täpsus** (precision) näitab, kui suur osa rämpspostiks märgitud kirjadest oli tegelikult rämpspost. **Saagis** (recall) näitab, kui suure osa kõigist tegelikest rämpspostikirjadest filter üles leidis. **F1-skoor** ühendab täpsuse ja saagise üheks arvuks. **<span class="pae-term" tabindex="0" data-def="segadusmaatriks: Tabel, mis näitab mudeli õigeid ja valesid ennustusi klasside kaupa">Segadusmaatriks</span>** on tabel, kus on näha, mitu korda mudel iga klassi õigesti või valesti ennustas. **ROC-kõver** on graafik, mis näitab, kui hästi mudel eristab klasse erinevate otsustuspiiride korral.
@@ -22999,6 +23390,9 @@ Lõpuks mõtle **jätkusuutlikkusele** – projekti võimele jätkuda või arene
 - Andmekaitse Inspektsioon (s.a.). [Ringkiri koolidele](https://www.aki.ee/sites/default/files/documents/2024-02/ringkiri_koolidele.pdf). Mida arvestada, kui projektis kogutakse õpilaste fotosid või muid isikuandmeid.
 
 ### Tööleht 7.3
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Projekti teostamise etapid**
@@ -23264,7 +23658,7 @@ Tuleb teada, kas testandmetes oli kasse ja koeri sama palju. Kui 90% testpiltide
 ### 📤 Väljapääsupilet 7.3
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -23288,6 +23682,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -23301,7 +23700,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['7.3'] = ["Kooli söökla andmetabelis on üks päev kirjas kaks korda ja ühel päeval puudub jäätmete kogus. Mida teed nende andmetega enne mudeli treenimist?", "Kui palju langes Quick, Draw! närvivõrgu täpsus piirjuhtumitega ja mida see ütleb sinu projekti testimise kohta?", "Milline arendamise samm tundub sinu projektis kõige keerulisem ja kellelt saaksid abi küsida?"];
 setTimeout(function(){var d=window.paePilet.load('7.3');document.querySelectorAll('[data-pilet="7.3"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="7.3" name="nimi" oninput="window.paePilet.save('7.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kooli söökla andmetabelis on üks päev kirjas kaks korda ja ühel päeval puudub jäätmete kogus. Mida teed nende andmetega enne mudeli treenimist?</div><textarea data-pilet="7.3" name="q0" oninput="window.paePilet.save('7.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Kui palju langes Quick, Draw! närvivõrgu täpsus piirjuhtumitega ja mida see ütleb sinu projekti testimise kohta?</div><textarea data-pilet="7.3" name="q1" oninput="window.paePilet.save('7.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Milline arendamise samm tundub sinu projektis kõige keerulisem ja kellelt saaksid abi küsida?</div><textarea data-pilet="7.3" name="q2" oninput="window.paePilet.save('7.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('7.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('7.3')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_7.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="7.3" name="nimi" oninput="window.paePilet.save('7.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Kooli söökla andmetabelis on üks päev kirjas kaks korda ja ühel päeval puudub jäätmete kogus. Mida teed nende andmetega enne mudeli treenimist?</div><textarea data-pilet="7.3" name="q0" oninput="window.paePilet.save('7.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Kui palju langes Quick, Draw! närvivõrgu täpsus piirjuhtumitega ja mida see ütleb sinu projekti testimise kohta?</div><textarea data-pilet="7.3" name="q1" oninput="window.paePilet.save('7.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Milline arendamise samm tundub sinu projektis kõige keerulisem ja kellelt saaksid abi küsida?</div><textarea data-pilet="7.3" name="q2" oninput="window.paePilet.save('7.3')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('7.3')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('7.3')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('7.3')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_7.3" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -23360,12 +23759,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Visuaalid ja tulemuste visualiseerimine“, „Esineja oskused ja küsimused“, „Harjutamine, esitluspäev ja tagasiside“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** sihtrühm, põhisõnum, <span class="pae-term" tabindex="0" data-def="demo: Lahenduse töö näitamine otse või salvestatult">demo</span>. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Miks ja kellele esitled?“, „Esitluse ülesehitus“, „<span class="pae-term" tabindex="0" data-def="demo: Lahenduse töö näitamine otse või salvestatult">Demo</span> ja tehnilised detailid“ ning „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Visuaalid ja tulemuste visualiseerimine“. Soovi korral ka „Esineja oskused ja küsimused“, „Harjutamine, esitluspäev ja tagasiside“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Miks ja kellele esitled?“, „Esitluse ülesehitus“, „Demo ja tehnilised detailid“ ning „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas su põhisõnum jääb tõlkes ellu?“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja VIII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded II, V ja VIII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -23574,6 +23977,9 @@ Viimased näpunäited: ole entusiastlik, keskendu väärtusele, mida sinu projek
 - Google for Developers (s.a.). [Classification: Accuracy, recall, precision, and related metrics](https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall). Mõõdikud, mida TI-projekti tulemuste esitlemisel sageli näidatakse (inglise keeles).
 
 ### Tööleht 7.4
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Esitluse ettevalmistamine**
@@ -23857,7 +24263,7 @@ Kõigepealt planeerin demo stsenaariumi ehk täpsed sammud, mida näitan. Seejä
 ### 📤 Väljapääsupilet 7.4
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -23881,6 +24287,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -23894,7 +24305,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['7.4'] = ["Kuidas selgitaksid oma projekti peamist tulemust ühe lausega oma vanavanemale ja kuidas IT-spetsialistile?", "Mis muutus sinu elevaatorikõnes pärast tõlkeproovi ja miks?", "Mis on sinu esitluse juures praegu kõige suurem mure ja mida teed selle lahendamiseks?"];
 setTimeout(function(){var d=window.paePilet.load('7.4');document.querySelectorAll('[data-pilet="7.4"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="7.4" name="nimi" oninput="window.paePilet.save('7.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Kuidas selgitaksid oma projekti peamist tulemust ühe lausega oma vanavanemale ja kuidas IT-spetsialistile?</div><textarea data-pilet="7.4" name="q0" oninput="window.paePilet.save('7.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mis muutus sinu elevaatorikõnes pärast tõlkeproovi ja miks?</div><textarea data-pilet="7.4" name="q1" oninput="window.paePilet.save('7.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis on sinu esitluse juures praegu kõige suurem mure ja mida teed selle lahendamiseks?</div><textarea data-pilet="7.4" name="q2" oninput="window.paePilet.save('7.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('7.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('7.4')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_7.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="7.4" name="nimi" oninput="window.paePilet.save('7.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Kuidas selgitaksid oma projekti peamist tulemust ühe lausega oma vanavanemale ja kuidas IT-spetsialistile?</div><textarea data-pilet="7.4" name="q0" oninput="window.paePilet.save('7.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mis muutus sinu elevaatorikõnes pärast tõlkeproovi ja miks?</div><textarea data-pilet="7.4" name="q1" oninput="window.paePilet.save('7.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mis on sinu esitluse juures praegu kõige suurem mure ja mida teed selle lahendamiseks?</div><textarea data-pilet="7.4" name="q2" oninput="window.paePilet.save('7.4')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('7.4')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('7.4')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('7.4')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_7.4" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -23953,12 +24364,16 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Esitluspäev: korraldus ja hindamine“, „Õpitu reflekteerimine“, „Edasiõppimine ja karjäär“, „Kursuse lõpetamine“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🔑 **Tuummõisted:** tagasiside, konstruktiivne tagasiside, autoriõigus. Teised mõisted on süvendamiseks.
 >
-> 1. 📚 **Loe** (~12 min): „Tagasiside andmine ja vastuvõtmine“, „Projekti lõpetamine ja tulemuste jagamine“, „Tehisintellekti tulevik – ka Eestis“ ning „Kokkuvõte ja põhimõisted“
+> 🏠 **Kodus enne tundi** (~10 min): loe või vaata „Esitluspäev: korraldus ja hindamine“. Soovi korral ka „Õpitu reflekteerimine“, „Edasiõppimine ja karjäär“, „Kursuse lõpetamine“. Too tundi kaasa üks uus teadmine või küsimus.
+>
+> 0. 💬 **Tunni algus** (~3 min): jaga paarilisega kodus loetust üht mõtet; vaata õpetaja tagasisidet eelmisele piletile ja paranda vajadusel oma vastust.
+> 1. 📚 **Loe** (~10 min): „Tagasiside andmine ja vastuvõtmine“, „Projekti lõpetamine ja tulemuste jagamine“, „Tehisintellekti tulevik – ka Eestis“ ning „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Tagasiside analüüs: inimene vs TI“
-> 3. ⭐ **Tööleht** (~15 min): ülesanded III, VI ja VIII
-> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
+> 3. ⭐ **Tööleht** (~12 min): ülesanded III, VI ja VIII
+> 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~7 min)
+> 5. ⏱️ **Puhver** (~3 min): üleminekud, küsimused ja tehnilised tõrked. Kui aeg jääb napiks, lahenda lukk kodus.
 >
 > **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
@@ -24016,7 +24431,7 @@ Võrdle kahte tagasisidet. „Esitlus oli hea.“ – see ei aita esinejal midag
 <!-- class="pae-naide" -->
 > **Näide: tagasiside kogumise viisid**
 >
-> Tagasisidet saab koguda küsimustike, intervjuude, vaatluste, arutelude, eksperthinnangute ja kasutajatestide abil. Näiteks võid projektimessil paluda külalistel täita kolme küsimusega veebiküsimustiku: mis meeldis, mis jäi arusaamatuks ja mida soovitaksid.
+> Tagasisidet saab koguda küsimustike, intervjuude, vaatluste, arutelude, eksperthinnangute ja kasutajatestide abil. Näiteks võid projektimessil paluda külalistel täita kolme küsimusega anonüümse veebiküsimustiku: mis meeldis, mis jäi arusaamatuks ja mida soovitaksid. Vastamine on vabatahtlik ja nimesid ega kontakte ei küsita.
 
 ### Projekti lõpetamine ja tulemuste jagamine
 
@@ -24155,6 +24570,9 @@ Kokkuvõtteks: tehisintellekt on meie elus üha olulisem, õppimine on väärtus
 - CAIRNE (s.a.). [About CAIRNE](https://cairne.eu/about/). Euroopa TI-laborite konföderatsiooni ametlik tutvustus: ajalugu, nimevahetus CLAIRE → CAIRNE ja uurimisvõrgustik (inglise keeles).
 
 ### Tööleht 7.5
+
+<!-- class="pae-lisaks" -->
+> **⭐ Tuumikülesannete hindamine (2–1–0 p):** **mõiste täpsus** – kasutad õiget mõistet õiges tähenduses; **tõend** – toetud katsetulemusele, näitele või allikale; **põhjendus** – selgitad, miks see nii on. ➕ ülesanded on vabatahtlikud.
 
 <!-- class="pae-jaotis" -->
 **➕ I. Projektitööde esitlemise korraldus**
@@ -24401,7 +24819,7 @@ Eesti tegevuskavad on kratikavad 2019–2021 ja 2022–2023 ning neid jätkav te
 ### 📤 Väljapääsupilet 7.5
 
 <!-- class="pae-fakt" -->
-> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed. Ühisarvutis vajuta pärast saatmist **Kustuta vastused sellest seadmest**.
 
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
@@ -24425,6 +24843,11 @@ window.paePilet = window.paePilet || {
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
+  clear: function(id){
+    try { localStorage.removeItem(this.key(id)); } catch(e){}
+    document.querySelectorAll('[data-pilet="'+id+'"]').forEach(function(el){ el.value=''; });
+    document.getElementById('piletMsg_'+id).textContent = '🗑️ Vastused on sellest seadmest kustutatud.';
+  },
   fallback: function(t){ var a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy');}catch(e){} a.remove(); },
   download: function(id){
     var t = this.text(id, window.paePiletQ[id]), d = this.load(id);
@@ -24438,7 +24861,7 @@ window.paePilet = window.paePilet || {
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['7.5'] = ["Sõber kasutas oma projektis internetist leitud pilte ilma allikat märkimata. Mida soovitad tal enne töö avalikku jagamist teha?", "Mille poolest erines vestlusroboti tehtud tagasiside analüüs sinu enda omast?", "Mida tahad tehisintellekti kohta pärast seda kursust veel õppida ja kust alustad?"];
 setTimeout(function(){var d=window.paePilet.load('7.5');document.querySelectorAll('[data-pilet="7.5"]').forEach(function(el){if(d[el.name])el.value=d[el.name];});},300);
-"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi</label><br><input data-pilet="7.5" name="nimi" oninput="window.paePilet.save('7.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Ees- ja perekonnanimi"><div style="font-weight:700;margin-top:.4em;">1. Sõber kasutas oma projektis internetist leitud pilte ilma allikat märkimata. Mida soovitad tal enne töö avalikku jagamist teha?</div><textarea data-pilet="7.5" name="q0" oninput="window.paePilet.save('7.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mille poolest erines vestlusroboti tehtud tagasiside analüüs sinu enda omast?</div><textarea data-pilet="7.5" name="q1" oninput="window.paePilet.save('7.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mida tahad tehisintellekti kohta pärast seda kursust veel õppida ja kust alustad?</div><textarea data-pilet="7.5" name="q2" oninput="window.paePilet.save('7.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('7.5')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('7.5')">⬇️ Laadi alla (.txt)</button><div id="piletMsg_7.5" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
+"HTML: " + `<div style="border:2px solid #002959;border-radius:14px;padding:1em 1.2em;background:#F4F7FB;"><label style="font-weight:700;">Nimi (kirjuta ainult siis, kui õpetaja palub)</label><br><input data-pilet="7.5" name="nimi" oninput="window.paePilet.save('7.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;min-height:auto;" placeholder="Võid jätta tühjaks"><div style="font-weight:700;margin-top:.4em;">1. Sõber kasutas oma projektis internetist leitud pilte ilma allikat märkimata. Mida soovitad tal enne töö avalikku jagamist teha?</div><textarea data-pilet="7.5" name="q0" oninput="window.paePilet.save('7.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">2. Mille poolest erines vestlusroboti tehtud tagasiside analüüs sinu enda omast?</div><textarea data-pilet="7.5" name="q1" oninput="window.paePilet.save('7.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><div style="font-weight:700;margin-top:.4em;">3. Mida tahad tehisintellekti kohta pärast seda kursust veel õppida ja kust alustad?</div><textarea data-pilet="7.5" name="q2" oninput="window.paePilet.save('7.5')" style="width:100%;min-height:70px;box-sizing:border-box;padding:.6em;border:2px solid #CCD4DE;border-radius:10px;font:inherit;margin:.3em 0 1em 0;"></textarea><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.copy('7.5')">📋 Kopeeri vastused</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;" onclick="window.paePilet.download('7.5')">⬇️ Laadi alla (.txt)</button><button style="background:#002959;color:#fff;border:3px solid #FF8B48;border-radius:999px;padding:.55em 1.2em;font-weight:700;cursor:pointer;margin:.3em .5em .3em 0;font:inherit;font-weight:700;background:#fff;color:#002959;" onclick="window.paePilet.clear('7.5')">🗑️ Kustuta vastused sellest seadmest</button><div id="piletMsg_7.5" style="margin-top:.5em;font-weight:700;color:#1E7A46;"></div></div>`
 </script>
 
 <!-- data-type="none" -->
@@ -24560,13 +24983,13 @@ Leheküljed on arvestatud ilma tiitellehe, sisukorra, viidete ja lisadeta (kirja
 <!-- class="pae-jaotis" -->
 **Töö käik**
 
-Projektitöö kestab **9 kontakttundi** ja koosneb viiest etapist. Kodus teete väiksemaid osi (nt allikate lugemine, mustandi kirjutamine, esitluse harjutamine) – kokku umbes 4–6 tundi iga õpilase kohta.
+Projektitöö kestab **9 kontakttundi** (kogu 7. plokk) ja koosneb viiest etapist. 1. projektitund on ühtlasi tund 7.1: kordate kursust ja valite projekti raja ning teema. Tunnid 7.2–7.5 toetavad planeerimist, arendamist ja esitlemist; ülejäänud tunnid on rühmatööks. Kodus teete väiksemaid osi (nt allikate lugemine, mustandi kirjutamine, esitluse harjutamine) – kokku umbes 4–6 tundi iga õpilase kohta.
 
 <!-- data-type="none" -->
 | Tund | Etapp | Mida teete | Vahe-eesmärk tunni lõpuks |
 |---|---|---|---|
 | 1. | rühm, rada ja teema | moodustate rühma, jagate rollid, valite raja ja teema | rada, teema ja rollid on kirjas |
-| 2. | tööplaan | koostate tööplaani ja kooskõlastate selle õpetajaga | tööplaan on õpetajaga kooskõlastatud |
+| 2. | tööplaan | koostate tööplaani, täidate vajadusel andmekaitse kontrollpunkti ja kooskõlastate need õpetajaga | tööplaan (ja vajadusel kontrollpunkt) on õpetajaga kooskõlastatud |
 | 3.–4. | uurimine ja teostus I | kogute infot või andmeid, ehitate prototüübi või lahenduse esimese versiooni | esimene mustand, prototüüp või töötav osa on valmis |
 | 5. | vahekontroll | näitate tehtut õpetajale või teisele rühmale ja saate tagasisidet | tagasiside on kirjas ja järgmised sammud on kokku lepitud |
 | 6. | uurimine ja teostus II | parandate tööd tagasiside põhjal, testite või kontrollite tõendeid | tulemused ja piirangud on kirjas |
@@ -24579,11 +25002,14 @@ Projektitöö kestab **9 kontakttundi** ja koosneb viiest etapist. Kodus teete v
 
 **2. Raja, teema ja töövormi valimine ning tööplaani koostamine.** Valige rada, teema ja töövorm ning koostage tööplaan, mis sisaldab teemat ja eesmärke, uurimisküsimusi või projekti kirjeldust, tööjaotust rühmaliikmete vahel, vahe-eesmärke tundide kaupa ja vajalikke ressursse.
 
-**3. Uurimine ja töö teostamine.** Koguge ja analüüsige infot, teostage projekt plaani järgi, täitke töölogi ja konsulteerige õpetajaga. 5. tunnis on vahekontroll.
+**3. Uurimine ja töö teostamine.** Koguge ja analüüsige infot, teostage projekt plaani järgi, täitke töölogi ja konsulteerige õpetajaga. Eelistage avaandmeid või sünteetilisi (väljamõeldud) andmeid. Kui kavandate kasutajatesti, küsitlust, intervjuud või muud päris inimeste andmete kogumist, täitke enne **andmekaitse kontrollpunkt** (vt allpool) – andmeid ei tohi koguda enne, kui õpetaja on selle kinnitanud. 5. tunnis on vahekontroll.
 
 **4. Esitluse ettevalmistamine.** Valmistage ette kirjalik osa või muud materjalid ja esitlus. Hoidke mahud tabeli „Töövormid ja nende maht“ piires.
 
 **5. Esitlus ja tagasiside.** Esitlege oma tööd klassile, kuulake kaasõpilaste ja õpetaja tagasisidet ning kirjutage individuaalne refleksioon.
+
+<!-- class="pae-lisaks" -->
+> **Igaüks osaleb omal moel.** Esitluses peab iga rühmaliige osalema samaväärselt, kuid see ei pea tingimata tähendama suulist esinemist. Kui rääkimine klassi ees on kellelegi raske, võib ta näiteks juhtida slaide või demot, teha oma osa ette salvestatuna (ilma teiste inimeste hääle ja näota) või vastata küsimustele kirjalikult. Leppige see õpetajaga varakult kokku. Hindamistabeli kõrgeim tase ei eelda, et kõik rühmaliikmed räägivad.
 
 <!-- class="pae-jaotis" -->
 **Meie rühma tööplaan**
@@ -24617,6 +25043,34 @@ Täitke koos rühmaga.
 **Vajalikud ressursid:**
 
 [[___ ___]]
+
+<!-- class="pae-jaotis" -->
+**Andmekaitse kontrollpunkt**
+
+Kui teie projektis on **kasutajatest, küsitlus, intervjuu, vaatlus või muu päris inimeste andmete kogumine**, täitke see kontrollpunkt **enne** andmete kogumist. Õpetaja kinnitab kontrollpunkti – ilma tema kinnituseta andmeid ei koguta. Kui kasutate ainult avaandmeid või väljamõeldud andmeid, kirjutage see esimesse lahtrisse ja ülejäänut täitma ei pea.
+
+<!-- data-type="none" -->
+| Küsimus | Mida läbi mõelda |
+|---|---|
+| **Nõusolek** | Kuidas osalejatele selgitatakse, milleks andmeid kogutakse? Kas osalemine on vabatahtlik ja saab igal ajal loobuda? Alla 18-aastaste puhul: kas on vaja vanema või kooli kooskõlastust (küsi õpetajalt)? |
+| **Minimaalsus** | Milliseid andmeid on tõesti vaja? Ärge küsige nime, kontakte ega tundlikke andmeid (tervis, pere, rahaasjad, usk, välimus), kui see pole hädavajalik. |
+| **Anonüümimine** | Kuidas tagate, et vastajat ei saa ära tunda (nt koodid nimede asemel, ainult koondtulemused)? |
+| **Hoidmine** | Kus andmeid hoitakse (nt kooli konto, mitte isiklik pilv või vestlusgrupp) ja kui kaua? |
+| **Juurdepääs** | Kes andmeid näeb (ainult rühm ja õpetaja)? Kas andmeid sisestatakse TI-tööriistadesse? Kui jah, siis ainult anonüümitult. |
+| **Kustutamine** | Millal ja kuidas andmed kustutatakse (hiljemalt projekti lõpus)? Kes selle eest vastutab? |
+| **Avalikustamine** | Mida esitluses, aruandes või portfoolios näidatakse? Avalikuks saavad ainult koondtulemused – mitte nimed, pildid, hääl ega üksikvastused, mille järgi inimese saab ära tunda. |
+
+**Kas kogute päris inimeste andmeid? Kui ei, siis milliseid andmeid kasutate (avaandmed, väljamõeldud andmed)?**
+
+[[___]]
+
+**Meie vastused kontrollpunkti küsimustele (nõusolek, minimaalsus, anonüümimine, hoidmine, juurdepääs, kustutamine, avalikustamine):**
+
+[[___ ___ ___ ___ ___]]
+
+**Õpetaja kinnitus (kuupäev ja märge):**
+
+[[___]]
 
 <!-- class="pae-jaotis" -->
 **Aruande ülesehitus**
@@ -24673,7 +25127,7 @@ Hindamistabelis on viis kriteeriumi ja igaühel neli taset. Kriteeriumid on sõn
 |---|---|---|---|---|
 | **Sisu: probleem, sihtrühm ja järeldused** (30 p) | **27–30 p.** Probleem ja sihtrühm on selgelt kirjeldatud ja põhjendatud. TI põhimõisteid on kasutatud täpselt. Ideed on originaalsed ning järeldused on hästi põhjendatud ja praktiliselt rakendatavad. | **23–26 p.** Probleem ja sihtrühm on kirjeldatud. Mõisteid on kasutatud enamasti täpselt. Järeldused on põhjendatud. | **15–22 p.** Probleem või sihtrühm on jäänud ebamääraseks. Mõistete kasutuses esineb ebatäpsusi. Järeldused on osaliselt põhjendatud. | **0–14 p.** Probleem on jäänud arusaamatuks. Järeldused puuduvad või on põhjendamata. |
 | **Meetod, tõendid ja eetika** (25 p) | **23–25 p.** Meetodi, tööriista või vormi valik on põhjendatud ja sobib eesmärgiga. Tõendid (andmed, testid, allikad või argumendid) on asjakohased ja korrektselt kasutatud. Eetilised riskid ja privaatsus on läbi mõeldud ning isikuandmeid on kaitstud. Piirangud on ausalt välja toodud. TI-tööriistade kasutust on kriitiliselt hinnatud. | **19–22 p.** Meetod sobib eesmärgiga. Tõendid on enamasti asjakohased, kuid mõni samm on kirjeldamata. Eetikat ja piiranguid on käsitletud. | **13–18 p.** Meetod sobib osaliselt. Tõendeid on vähe või neid on kasutatud ebatäpselt. Eetikat ja piiranguid on käsitletud pinnapealselt. | **0–12 p.** Meetod ei sobi eesmärgiga või on kirjeldamata. Tõendid puuduvad. Eetikat ja privaatsust ei ole arvestatud. |
-| **Esitlus** (20 p) | **18–20 p.** Esitlus on loogilise ülesehitusega ja peab ajast kinni. Visuaalid on selged ja toetavad sisu. Kõik rühmaliikmed osalevad enesekindlalt ning vastavad küsimustele põhjalikult. | **15–17 p.** Ülesehitus on selge. Visuaalid toetavad sisu. Enamik rühmaliikmeid osaleb hästi ja vastab küsimustele asjakohaselt. | **10–14 p.** Ülesehitus on arusaadav, kuid esineb puudusi. Visuaalid toetavad sisu osaliselt. Küsimustele vastamine on rahuldav. | **0–9 p.** Esitlust on raske jälgida, visuaalid puuduvad või segavad ning küsimustele ei osata vastata. |
+| **Esitlus** (20 p) | **18–20 p.** Esitlus on loogilise ülesehitusega ja peab ajast kinni. Visuaalid on selged ja toetavad sisu. Kõik rühmaliikmed osalevad samaväärselt (suuliselt või muul kokkulepitud viisil) ning küsimustele vastatakse põhjalikult. | **15–17 p.** Ülesehitus on selge. Visuaalid toetavad sisu. Enamik rühmaliikmeid osaleb hästi (suuliselt või muul kokkulepitud viisil) ja küsimustele vastatakse asjakohaselt. | **10–14 p.** Ülesehitus on arusaadav, kuid esineb puudusi. Visuaalid toetavad sisu osaliselt. Küsimustele vastamine on rahuldav. | **0–9 p.** Esitlust on raske jälgida, visuaalid puuduvad või segavad ning küsimustele ei osata vastata. |
 | **Dokumentatsioon ja refleksioon** (15 p) | **14–15 p.** Kirjalik osa (aruanne, analüüs, saatetekst või dokumentatsioon) on terviklik, töövormi mahu piires ja korrektselt vormistatud. Keel on korrektne. Refleksioon näitab, mida rühm õppis ja mida teeks teisiti. | **12–13 p.** Kirjalik osa on hea ülesehitusega ja enamasti korrektne. Refleksioon on olemas. | **8–11 p.** Kirjalikust osast puudub mõni osa või esineb vormistus- ja keelevigu. Refleksioon on pinnapealne. | **0–7 p.** Kirjalik osa on puudulik või selles on palju vigu. Refleksioon puudub. |
 | **Allikate kasutamine** (10 p) | **9–10 p.** Allikad on mitmekesised ja usaldusväärsed ning neile on tekstis ja kasutatud allikate loetelus korrektselt viidatud. On märgitud, milleks TI-tööriistu kasutati. | **8 p.** Allikad on usaldusväärsed ja neile on enamasti korrektselt viidatud. TI-tööriistade kasutus on märgitud. | **5–7 p.** Allikaid on vähe või on viitamine kohati puudulik. | **0–4 p.** Viitamine puudub või on vale; allikad on ebausaldusväärsed. |
 
@@ -25123,6 +25577,7 @@ Lisa vajaduse korral täiendavad materjalid, mis ei sobi eelmistesse osadesse, n
 - Kasuta teksti liigendamiseks pealkirju ja alapealkirju.
 - Lisa visuaalseid elemente (nt pildid, diagrammid, tabelid).
 - Viita korrektselt kõigile kasutatud allikatele.
+- Kui portfoolio jagatakse või avaldatakse, ära lisa sellesse kaasõpilaste ega teiste inimeste nimesid, fotosid, häält ega isiklikke vastuseid; projekti andmetest näita ainult anonüümseid koondtulemusi.
 
 <!-- class="pae-jaotis" -->
 **Mida portfoolios jälgitakse**
@@ -25164,6 +25619,9 @@ Edu portfoolio koostamisel! See on sinu võimalus näidata oma teadmisi, oskusi 
 Oled jõudnud toa viimasesse ossa. Siin kordad ploki teemasid: teed **TI-labori**, lahendad **praktilisi ülesandeid**, arutled ja teed **ploki enesekontrolltesti**. Lõpus ootab **toa uks** – selle avad võtmetähtedest moodustuva sõnaga.
 
 ### 🔬 7. ploki TI-labor: hinda TI-tööriista nagu ekspert
+
+<!-- class="pae-lisaks" -->
+> 🗓️ **Laborid on valikulised.** Kursuse jooksul teeb klass **2–3 laborit**, mille valib õpetaja. Labor asendab ühe sama ploki teematunni tunnitöö: selle tunni tekst loetakse kodus ja tunnis tehakse labor. Teisi laboreid saab teha rikastamiseks või projekti osana.
 
 <!-- class="pae-motle" -->
 > **Uurimisküsimus:** Kas meie valitud TI-tööriist sobib meie projekti jaoks ja kas võiksime seda soovitada klassikaaslasele – kui jah, siis millistel tingimustel?
@@ -25241,7 +25699,7 @@ Kirjuta lühike aruanne (hüpotees, kriteeriumitabel, katse, tulemused, järeldu
 | Eetiline analüüs | vastused tuginevad privaatsusteabele ja standardülesande C tulemustele; on nimetatud, kes võiks kannatada, kes vastutab ja kuidas riski vähendada | eetikaküsimustele on vastatud, kuid osa vastuseid on üldsõnalised | eetikaküsimustele on vastamata või vastused ei ole katsega seotud |
 | Koostöö ja ohutus | rollid vahetusid, kõik panustasid; isikuandmeid ei sisestatud ja kooli reegleid järgiti | koostöö toimis, ohutusreegleid järgiti enamasti | üks tegi kõik või isikuandmeid sisestati tööriista |
 
-### Praktilised ülesanded
+### ➕ Praktilised ülesanded
 
 <!-- class="pae-jaotis" -->
 **Ülesanne 1. Kursuse kokkuvõttev analüüs**
@@ -25337,11 +25795,11 @@ Kirjuta lühike aruanne (hüpotees, kriteeriumitabel, katse, tulemused, järeldu
 
 1. Jätkake tööd samades 3–4-liikmelistes rühmades.
 2. Arendage edasi eelmises ülesandes planeeritud projekti:
-   - **andmete kogumine ja ettevalmistamine** – koguge vajalikud andmed (olemasolevad andmekogud või ise kogutud andmed), puhastage ja valmistage need ette, analüüsige ja visualiseerige;
+   - **andmete kogumine ja ettevalmistamine** – koguge vajalikud andmed (eelistage avaandmeid või sünteetilisi andmeid; kui kogute päris inimeste andmeid, täitke enne projektitöö juhendi andmekaitse kontrollpunkt ja laske õpetajal see kinnitada), puhastage ja valmistage need ette, analüüsige ja visualiseerige;
    - **TI-komponendi arendamine** – valige sobiv algoritm või mudel, treenige mudel või rakendage algoritm, testige ja hinnake tulemusi;
    - **kasutajaliidese loomine** (kui see on teie projektis vajalik) – kujundage kasutajaliides, teostage põhifunktsioonid ja testige kasutajakogemust.
 3. Dokumenteerige arendusprotsessi: pidage arenduspäevikut, pange kirja olulisemad otsused ja muudatused ning salvestage vahe- ja testitulemused.
-4. Testige projekti: kontrollige selle toimimist, koguge kaasõpilastelt tagasisidet, analüüsige testitulemusi ja tehke vajalikud parandused.
+4. Testige projekti: kontrollige selle toimimist, koguge kaasõpilastelt tagasisidet (vabatahtlik ja anonüümne; kasutajatesti eel peab andmekaitse kontrollpunkt olema kinnitatud), analüüsige testitulemusi ja tehke vajalikud parandused.
 5. Koostage projekti dokumentatsioon (3–5 lk): projekti ülevaade ja eesmärgid, tehnilised andmed, arendusprotsessi kirjeldus, kasutusjuhend, tulemuste analüüs ja järeldused, edasiarendusvõimalused.
 6. Valmistage ette 5–7-minutiline vaheesitlus: näidake projekti praegust seisu, selgitage arendusprotsessi ja tehtud otsuseid, jagage väljakutseid ja õppetunde ning tutvustage järgmisi samme.
 7. Esitlege oma vahetulemusi klassile.
