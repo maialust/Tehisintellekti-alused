@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.1.0
+version:  2.2.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -271,7 +271,7 @@ section.pae-lihtne p { margin:.5em 0; }
 # 🌟 Viimane uks: Krati süda
 
 <!-- class="pae-fakt" -->
-> ![Kratt](../pildid/kratt/kratt_motlik.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> Oled läbinud kõik seitse tuba! Kratt on peaaegu kõik tagasi saanud: ta teab, mis on tehisaru, kuidas ta õpib, kuidas ta keelt mõistab, otsuseid teeb, pilte näeb ja miks on oluline olla õiglane. Ees on viimane uks – **Krati süda**.
+> ![Kratt](../pildid/kratt/kratt_motlik.svg)<!-- style="width: 120px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> Oled läbinud kõik seitse tuba! Kratt on peaaegu kõik tagasi saanud: ta teab, mis on tehisaru, kuidas ta õpib, kuidas ta keelt mõistab, otsuseid teeb, pilte näeb ja miks on oluline olla õiglane. Ees on viimane uks – **Krati süda**.
 >
 > *„Mul on seitse kuldset tähte… R, I, E, A, H, T, S… Need on täiesti segamini! Ja üks täht on veel puudu. Kui saaksin need õigesse järjekorda, teaksin lõpuks, mis ma olen…“*
 
@@ -287,7 +287,7 @@ v === "tehisaru"
 }
 </script>
 ****************************************
-![Kratt](../pildid/kratt/kratt_paastetud.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Viimane uks avaneb! Kratt on päästetud!**
+![Kratt](../pildid/kratt/kratt_paastetud.svg)<!-- style="width: 120px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Viimane uks avaneb! Kratt on päästetud!**
 
 *„TEHISARU! See olen mina! Tehis- tähendab, et inimesed on mind loonud, ja aru, et ma oskan õppida, mustreid leida ja aidata. Aga otsuseid, eetikat ja vastutust jagan ma alati teiega, inimestega. Aitäh, päästemeeskond!“*
 

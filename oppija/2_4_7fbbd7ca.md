@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.1.0
+version:  2.2.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -518,6 +518,8 @@ Tulevikus püütakse luua tõhusamaid mudeleid, mis vajavad vähem andmeid ja en
 
 ### 🧪 TI-katse: närvivõrk õpib punkte eristama
 
+🛡️ *Ohutuskaardi reeglid kehtivad: ära logi sisse, ära sisesta isikuandmeid ega pildista inimesi.*
+
 Närvivõrgu õppimist saab vaadata otse brauseris. Katsetad, kuidas peidetud kihid, neuronite arv ja õppimiskiirus mõjutavad seda, kas võrk suudab sinised ja oranžid punktid teineteisest eraldada.
 
 **Vaja läheb:** TensorFlow Playground ([playground.tensorflow.org](https://playground.tensorflow.org/)), ~10 min, paaristöö
@@ -898,6 +900,9 @@ Gradientlaskumine on nagu udus mäelt alla orgu minek: kaugele ei näe, aga jalg
 
 ### 📤 Väljapääsupilet 2.4
 
+<!-- class="pae-fakt" -->
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
@@ -949,7 +954,7 @@ setTimeout(function(){var d=window.paePilet.load('2.4');document.querySelectorAl
 ### 🔐 Lukk 2.4
 
 <!-- class="pae-naide" -->
-> ![Kratt](../pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Üks mu tehisneuronitest on ärganud, aga ta ei mäleta, kuidas arvutada! Ilma temata ei saa ma otsustada, kas lukk avaneb.“
+> ![Kratt](../pildid/kratt/kratt_segaduses.svg)<!-- style="width: 120px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Üks mu tehisneuronitest on ärganud, aga ta ei mäleta, kuidas arvutada! Ilma temata ei saa ma otsustada, kas lukk avaneb.“
 
 Lukk avaneb, kui lahendad ülesande. Kooli nutika kasvuhoone ventilaatorit juhib üks tehisneuron: mida suurem on neuroni väljund, seda tugevamalt ventilaator puhub. Arvuta tunnis õpitud meetodiga, millise väljundi neuron praegu annab, ja kirjuta see arv lahtrisse.
 

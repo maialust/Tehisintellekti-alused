@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.1.0
+version:  2.2.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -338,9 +338,18 @@ Kirjutage enne katset üles kaks oletust: a) mitu viiest uuest näitest teie ots
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
+**🛡️ Eetika mikrokontroll**
+
+1. Milliseid andmeid koguks YouTube teie kohta, kui oleksite sisse loginud? Mida saaks nende põhjal järeldada teie huvide, harjumuste või isegi meeleolu kohta?
+2. Kas teie otsustuspuu tunnused võisid mõnda näidete rühma ebaõiglaselt liigitada? Mis juhtuks, kui sarnane puu otsustaks inimeste üle (nt kes saab stipendiumi), ja milliseid tunnuseid ei tohiks siis kasutada?
+3. Kes võiks kannatada, kui soovitusalgoritm juhatab kasutaja üha äärmuslikuma või kahjulikuma sisu juurde (nt ohtlikud dieedi- või vandenõuvideod)? Kes vastutab ja mida teeksite teisiti, kui oleksite algoritmi arendaja?
+
+[[___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
 **4. Laboriaruanne portfooliosse**
 
-Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita see Google Classroomis.
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud, eetiline analüüs). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita see Google Classroomis.
 
 <!-- data-type="none" -->
 | Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
@@ -348,6 +357,7 @@ Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lis
 | Hüpotees ja katse | Mõlemad hüpoteesid on kontrollitavad; mõlemad katseosad on tehtud juhendi järgi | Hüpoteesid on olemas; katses on väikesi kõrvalekaldeid | Hüpotees puudub või katse jäi pooleli |
 | Andmed ja tulemused | Tabel on täielik; puu täpsus ja soovituste muutus on õigesti arvutatud ja selgelt esitatud | Enamik andmeid on olemas; arvutustes on väikesi vigu | Andmed on puudulikud või segased |
 | Järeldus ja piirangud | Järeldus tugineb andmetele ja on seotud ülesobitamise ning filtrimulliga; nimetatud on vähemalt kaks piirangut | Järeldus on olemas; nimetatud on üks piirang | Järeldus ei tulene andmetest; piiranguid pole nimetatud |
+| Eetiline analüüs | Vastused on seotud mõlema katseosaga (puu tunnused, soovituste muutus); on nimetatud, kes võiks kannatada, ja tehtud konkreetne ettepanek arendajale | Eetikaküsimustele on vastatud, kuid käsitletud on ainult üht katseosa või vastused on üldsõnalised | Eetikaküsimustele on vastamata või vastused ei ole katsega seotud |
 | Koostöö ja ohutus | Rollid vahetusid; keegi ei loginud sisse ega kasutanud isikuandmeid | Rollid ei vahetunud, kuid ohutusreegleid järgiti | Ohutusreegleid rikuti (nt logiti oma kontoga sisse) |
 
 ### Praktilised ülesanded
@@ -966,7 +976,7 @@ v === "tark"
 }
 </script>
 ****************************************
-![Kratt](../pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Labürindi sildid „JAH“ ja „EI“ süttivad korraga põlema ning moodustavad selge otsustuspuu, mis juhatab väljapääsuni. Kratt mäletab nüüd jälle, kuidas otsida teed olekuruumis, kuidas rakendada „KUI … SIIS …“ reegleid ja kuidas soovitada sisu, ilma et keegi filtrimulli kinni jääks. „Tänan teid!“ hüüab Kratt. „Nüüd ma tean: tark otsus ei ole kiire arvamine, vaid hea küsimuste ahel – ja lõpliku otsuse jätan ma tähtsates asjades ikkagi inimesele.“
+![Kratt](../pildid/kratt/kratt_roomus.svg)<!-- style="width: 120px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Labürindi sildid „JAH“ ja „EI“ süttivad korraga põlema ning moodustavad selge otsustuspuu, mis juhatab väljapääsuni. Kratt mäletab nüüd jälle, kuidas otsida teed olekuruumis, kuidas rakendada „KUI … SIIS …“ reegleid ja kuidas soovitada sisu, ilma et keegi filtrimulli kinni jääks. „Tänan teid!“ hüüab Kratt. „Nüüd ma tean: tark otsus ei ole kiire arvamine, vaid hea küsimuste ahel – ja lõpliku otsuse jätan ma tähtsates asjades ikkagi inimesele.“
 
 🌟 **Kuldne täht: I** – kirjuta see oma missioonikaardile. Kõik seitse kuldset tähte on vaja viimase ukse jaoks.
 

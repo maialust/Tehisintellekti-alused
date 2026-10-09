@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.1.0
+version:  2.2.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -285,7 +285,7 @@ section.pae-lihtne p { margin:.5em 0; }
 ## 🗝️ Missioon: päästa Kratt!
 
 <!-- class="pae-fakt" -->
-> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Häire!** Ühes Arulinna koolis juhib digikooli tehisaru nimega **Kratt**. Täna hommikul läks Krati mälu segi: ta on lukustanud kooli 7 digitaalset tuba ega mäleta enam, mis ta on ja kuidas ta töötab. *„Kes ma olen? Miks ma kõiki neid andmeid mäletan, aga mitte nende tähendust?“*
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 170px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Häire!** Ühes Arulinna koolis juhib digikooli tehisaru nimega **Kratt**. Täna hommikul läks Krati mälu segi: ta on lukustanud kooli 7 digitaalset tuba ega mäleta enam, mis ta on ja kuidas ta töötab. *„Kes ma olen? Miks ma kõiki neid andmeid mäletan, aga mitte nende tähendust?“*
 >
 > **Sina oled päästemeeskonna liige.** Läbi kõik 7 tuba, õpeta Kratile uuesti, mis on tehisaru, ja ava viimane uks!
 
@@ -333,6 +333,34 @@ Iga **tund** on üles ehitatud ühtemoodi:
 Töölehe ülesanded, mille ees on **➕**, on **lisaülesanded**. Tee neid, kui jõuad, või kui tahad teemat rohkem uurida.
 
 Iga **ploki** lõpus on **🔬 TI-labor** (uurimuslik katse rühmas), praktilised ülesanded, aruteluküsimused ja ploki enesekontrolltest.
+
+### 🛡️ Tööriistade ohutuskaart
+
+Õpikus kasutad päris TI-tööriistu. Loe see kaart läbi **enne esimest TI-katset** ja tule siia tagasi, kui pole kindel.
+
+<!-- class="pae-fakt" -->
+> **Viis reeglit igas katses**
+>
+> 1. **Ära loo kontot ega logi sisse**, kui õpetaja pole seda palunud. Kui tööriist nõuab kontot, kasuta kooli kontot või õpetaja demonstratsiooni.
+> 2. **Ära sisesta isikuandmeid:** nime, aadressi, telefoninumbrit, isikukoodi, terviseinfot ega klassikaaslaste andmeid.
+> 3. **Ära pildista ega laadi üles inimesi ega nägusid** – ka mitte enda oma. Kasuta esemeid, joonistusi või pildipanga pilte.
+> 4. **Kõik, mida sisestad, võib minna teenuse serverisse.** Kirjuta ainult seda, mida võiksid näidata kogu klassile.
+> 5. **Kui midagi tundub ebameeldiv või kahtlane, peatu** ja ütle õpetajale.
+
+<!-- data-type="none" -->
+| Tööriist | Konto | Mis teenusesse liigub | Mida mitte teha | Kui arvutit pole |
+|---|---|---|---|---|
+| Kooli lubatud vestlusrobot (nt TI-Hüppe õpirakendus) | kooli konto | sinu küsimused ja vastused | ära kirjuta isikuandmeid ega teiste inimeste kohta | õpetaja näitab ekraanil |
+| Teachable Machine | pole vaja | pildid ja helid töödeldakse brauseris; Google Drive'i salvestamine vajab kontot | ära pildista inimesi; ära salvesta Drive'i | sorteeri pildikaarte paberil |
+| Quick, Draw! | pole vaja | joonistused võivad sattuda avalikku andmestikku | ära joonista midagi isiklikku | arva paariline joonistus ära |
+| Neurotõlge, teised tõlkemootorid | pole vaja | sisestatud tekst | ära tõlgi isiklikke kirju ega dokumente | võrdle valmis tõlkenäiteid õpikus |
+| Google Lens, TinEye | Lens on Google'i teenus | üleslaaditud pilt | ainult esemete ja avalike piltide pildid | õpetaja demonstratsioon |
+| Moral Machine | pole vaja | sinu valikud (kasutatakse uurimistööks) | – | arutle dilemmad paaris läbi |
+| Which Face Is Real, Akinator, Music-Map | pole vaja | sinu klõpsud | Akinatori lehel on reklaamid – ära klõpsa neil | õpetaja demonstratsioon |
+| TensorFlow Playground, R2D3, Diffusion Explainer, PathFinding.js, ELIZA, Tiktokenizer | pole vaja | töötavad peamiselt brauseris | ära sisesta isiklikku teksti | joonista skeem paberile |
+
+<!-- class="pae-lisaks" -->
+> **Õpetajale enne tundi:** kontrolli, et lingid avanevad kooli võrgus, proovi tööriist ise läbi, vaata üle reklaamid ja võimalik sobimatu sisu ning otsusta, kas õpilased töötavad oma seadmes või vaatavad sinu demonstratsiooni. Vestlusrobotite ja pildigeneraatorite puhul järgi kooli reegleid ja teenuse vanusepiiranguid.
 
 ### 🗣️ Keeletugi: lihtne keel, sõnaselgitused ja ettelugemine
 
@@ -436,7 +464,7 @@ Tekstis on olulised kohad tõstetud esile värviliste kastidega.
 ![1. ploki kaanepilt: pealkiri „Sissejuhatus tehisintellekti“ ja kiibi sisse joonistatud närvivõrk](pildid/plokk_1/plokk_1_kaas.svg)
 
 <!-- class="pae-fakt" -->
-> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **🗝️ Tuba 1: Unustatud arhiiv**
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 120px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **🗝️ Tuba 1: Unustatud arhiiv**
 >
 > Kooli digikoridori lõpus sumiseb tolmune server – see on Kratt, ühe Arulinna kooli tehisaru, kes on just üles ärganud. „Tere… kes te olete? Ja kes olen mina? Mu arhiivis on ainult sõnad „tehis…“ ja „intel…“ – mis see üldse tähendab?“ Teie, päästemeeskond, olete sattunud Krati **unustatud arhiivi**, kus on segamini kõik, mida ta enda kohta teadis: mis on tehisintellekt, kust ta pärit on ja milleks teda kasutatakse. Aidake Kratil oma mälu taastada! Selles toas on 3 lukku – iga tunni lõpus üks. Iga avatud lukk annab ühe võtmetähe. Kirjutage tähed üles!
 
@@ -503,7 +531,7 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
-> 🏠 **Kodus enne tundi** (~15–20 min): „Tehisintellekti põhisuunad“, „Tehisintellekt ja inimene“, „Tehisintellekt sinu ümber: lühike ülevaade“, „Mäng: tehisaru sorteerimismäng“, „Videod: mis see tehisaru on?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+> 🏠 **Kodus enne tundi** (~15–20 min): „Tehisintellekti põhisuunad“, „Tehisintellekt ja inimene“, „Tehisintellekt sinu ümber: lühike ülevaade“, „Videod: mis see tehisaru on?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
 >
 > 1. 📚 **Loe** (~12 min): „Mis on tehisintellekt?“, „Nõrk, tugev ja superintelligentsus“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas masin tunneb su joonistuse ära?“
@@ -678,7 +706,7 @@ Tänapäeval on tehisintellekt igal pool. **Virtuaalsed assistendid** (Siri, Ale
 > - TED-i ettekanne **„The incredible inventions of intuitive AI“** (Maurice Conti) näitab, kuidas tehisintellekt aitab disaineritel ja inseneridel.
 > - Raamat **„Superintelligence: Paths, Dangers, Strategies“** (Nick Bostrom) arutleb, mis võib juhtuda, kui tehisintellekt kunagi inimest ületab.
 
-### 🏠 Mäng: tehisaru sorteerimismäng
+### ➕ Mäng: tehisaru sorteerimismäng
 
 Kas tunned ära, millal tehisaru (tehisintellekt) on mängus? Sorteeri 48 tegevust kahte rühma: **tehisaru abil toimuv tegevus** ja **tehisaru abita toimuv tegevus**. Igal kaardil on pilt, tegevuse kirjeldus ja nurgas täht või sümbol. Mäng toimub neljas voorus, igas voorus on 12 kaarti. Pärast iga vooru vajuta **Kontrolli**.
 
@@ -838,6 +866,8 @@ Sellel lehel on 2 videot. Iga video ees on lühike kokkuvõte, mis aitab sul val
 [[___ ___ ___]]
 
 ### 🧪 TI-katse: kas masin tunneb su joonistuse ära?
+
+🛡️ *Ohutuskaardi reeglid kehtivad: ära logi sisse, ära sisesta isikuandmeid ega pildista inimesi.*
 
 Katsetad, kuidas närvivõrk tunneb ära kiiruga tehtud joonistusi. Nii näed, mida tähendab „õppida andmetest“ ja miks ka osav tehisintellekt on nõrk ehk kitsas.
 
@@ -1124,6 +1154,9 @@ Kalkulaator täidab alati samu jäigalt ette antud samme: ta ei õpi midagi juur
 
 ### 📤 Väljapääsupilet 1.1
 
+<!-- class="pae-fakt" -->
+> ⚠️ **Salvesta või saada vastused enne lehe sulgemist!** Vastus ei liigu automaatselt õpetajale ja võib kaduda, kui vahetad seadet, kasutad privaatakent või kustutad brauseri andmed.
+
 Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
@@ -1175,7 +1208,7 @@ setTimeout(function(){var d=window.paePilet.load('1.1');document.querySelectorAl
 ### 🔐 Lukk 1.1
 
 <!-- class="pae-naide" -->
-> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma olen vist kõige targem olend maailmas! Ma oskan… ee… ühte asja. Väga hästi. Aga võileiba teha ma küll ei oska.“
+> ![Kratt](pildid/kratt/kratt_segaduses.svg)<!-- style="width: 120px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> **Kratt:** „Ma olen vist kõige targem olend maailmas! Ma oskan… ee… ühte asja. Väga hästi. Aga võileiba teha ma küll ei oska.“
 
 Lukk avaneb, kui lahendad ülekandeülesande. Loe juhtumit ja kirjuta lahtrisse, mis liiki tehisintellektiga on tegu (üks sõna).
 

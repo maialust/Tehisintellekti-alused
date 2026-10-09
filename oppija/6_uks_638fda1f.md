@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.1.0
+version:  2.2.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -340,9 +340,18 @@ Kirjuta enne katset üles, millist sugu, vanust ja keskkonda TI sinu arvates iga
 [[___ ___ ___ ___]]
 
 <!-- class="pae-jaotis" -->
+**🛡️ Eetika mikrokontroll**
+
+1. Miks ei tohtinud viipadesse panna päris inimeste nimesid ega fotosid? Mis võiks juhtuda, kui keegi palub TI-l luua pildi kindlast klassikaaslasest kindlas ametis?
+2. Kas Eesti statistika on õiglane mõõdupuu? Kui TI peegeldab täpselt praegust jaotust, kas see on õiglane või kinnistab olemasolevat ebavõrdsust? Kes jäi teie katse tulemustes üldse nähtamatuks (nt vanemad inimesed või puudega inimesed)?
+3. Kes võiks kannatada, kui sellist tööriista kasutataks töökuulutuste piltide loomisel, karjäärinõustamises või värbamisel? Kes vastutab ja mida teeksite teisiti?
+
+[[___ ___ ___]]
+
+<!-- class="pae-jaotis" -->
 **4. Laboriaruanne portfooliosse**
 
-Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud ja ettepanek kallutatuse vähendamiseks). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita see Google Classroomis.
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud, eetiline analüüs ja ettepanek kallutatuse vähendamiseks). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita see Google Classroomis.
 
 <!-- data-type="none" -->
 | Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
@@ -350,6 +359,7 @@ Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud ja et
 | Hüpotees ja katse | Hüpotees on selge ja kontrollitav; viibad on neutraalsed ja iga ametit on katsetatud 5 korda. | Hüpotees on olemas; katse on tehtud, kuid mõni amet või kordus on puudu. | Hüpotees puudub või on ebaselge; katse on juhuslik. |
 | Andmed ja tulemused | Mõlemad tabelid on täidetud; statistika allikas, tabel ja aasta on kirjas. | Tabelid on enamasti täidetud; allikas on nimetatud, kuid puudulikult. | Tabelid on poolikud või allikas puudub. |
 | Järeldus ja piirangud | Järeldus tugineb arvudele; vähemalt kaks piirangut ja põhjendatud ettepanek kallutatuse vähendamiseks. | Järeldus on olemas; piiranguid või ettepanekut on käsitletud pinnapealselt. | Järeldus ei tulene andmetest; piirangud ja ettepanek puuduvad. |
+| Eetiline analüüs | Vastused tuginevad katse arvudele; on arutletud, kas statistika on õiglane mõõdupuu, nimetatud, kes võiks kannatada, ja tehtud konkreetne ettepanek. | Eetikaküsimustele on vastatud, kuid osa vastuseid on üldsõnalised. | Eetikaküsimustele on vastamata või vastused ei ole katsega seotud. |
 | Koostöö ja ohutus | Rollid vahetusid; isikuandmeid ei sisestatud; tulemusi kirjeldati lugupidavalt. | Koostöö toimis; ohutusreegleid järgiti enamasti. | Rollid ei vahetunud või ohutusreegleid rikuti. |
 
 **Kirjuta üks lause oma rühma olulisima tulemuse kohta.**
@@ -998,7 +1008,7 @@ v === "õigus"
 }
 </script>
 ****************************************
-![Kratt](../pildid/kratt/kratt_roomus.svg)<!-- style="width: 84px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Nõukogusaali ümarlaua ümber on Kratt lõpuks rahunenud. Ta mäletab jälle, et hea tehisaru peab olema inimkeskne, läbipaistev ja õiglane ning kaitsma privaatsust ja et tema otsuste eest vastutavad alati inimesed. Kratt teab nüüd ka, et inimestel on õigus oma andmetele, et kallutatust tuleb otsida ja vähendada ning et tulevikku ei saa kindlalt ennustada. „Aitäh, päästemeeskond! Ma ei tea veel kõike, aga ma tean, et pean küsima: kas see on õige ja kas see on kõigi suhtes aus?“
+![Kratt](../pildid/kratt/kratt_roomus.svg)<!-- style="width: 120px; float: left; margin: 0 16px 8px 0; border-radius: 0;" --> 🎉 **Uks avaneb!** Nõukogusaali ümarlaua ümber on Kratt lõpuks rahunenud. Ta mäletab jälle, et hea tehisaru peab olema inimkeskne, läbipaistev ja õiglane ning kaitsma privaatsust ja et tema otsuste eest vastutavad alati inimesed. Kratt teab nüüd ka, et inimestel on õigus oma andmetele, et kallutatust tuleb otsida ja vähendada ning et tulevikku ei saa kindlalt ennustada. „Aitäh, päästemeeskond! Ma ei tea veel kõike, aga ma tean, et pean küsima: kas see on õige ja kas see on kõigi suhtes aus?“
 
 🌟 **Kuldne täht: A** – kirjuta see oma missioonikaardile. Kõik 7 kuldset tähte on vaja viimase ukse jaoks.
 
