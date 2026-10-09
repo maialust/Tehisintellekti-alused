@@ -340,7 +340,7 @@ Kirjutage enne katset üles kaks oletust: a) mitu viiest uuest näitest teie ots
 <!-- class="pae-jaotis" -->
 **4. Laboriaruanne portfooliosse**
 
-Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita Moodle'is.
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita see Google Classroomis.
 
 <!-- data-type="none" -->
 | Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |

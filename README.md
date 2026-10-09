@@ -344,10 +344,10 @@ Iga **ploki** lõpus on **🔬 TI-labor** (uurimuslik katse rühmas), praktilise
 <!-- data-type="none" -->
 | Mida teed | Milleks see on | Kuhu esitad |
 |---|---|---|
-| 📤 **Väljapääsupiletid** (iga tund) | Kujundav hindamine: õpetaja annab tagasisidet ja näeb, mis vajab kordamist. | Moodle: kopeeri vastused või laadi fail alla |
-| 🔬 **TI-laborid** (iga plokk) | Laboriaruanne näitab, kas oskad katsetada, järeldusi teha ja piiranguid hinnata. | Moodle ja portfoolio |
-| 🧠 **Ploki enesekontrolltestid** | Kontrollid põhimõistete mõistmist. | Õpikus, õpetaja soovil Moodle'i testina |
-| 📁 **Portfoolio** | Õpipäevik (iga ploki kohta üks sissekanne), tööde näidised, TI-rakenduste analüüs, eetiline arutelu ja refleksioon. | Moodle kursuse lõpus |
+| 📤 **Väljapääsupiletid** (iga tund) | Kujundav hindamine: õpetaja annab tagasisidet ja näeb, mis vajab kordamist. | Google Classroom: kopeeri vastused või laadi fail alla |
+| 🔬 **TI-laborid** (iga plokk) | Laboriaruanne näitab, kas oskad katsetada, järeldusi teha ja piiranguid hinnata. | Google Classroom ja portfoolio |
+| 🧠 **Ploki enesekontrolltestid** | Kontrollid põhimõistete mõistmist. | Õpikus, õpetaja soovil Google Formsi testina |
+| 📁 **Portfoolio** | Õpipäevik (iga ploki kohta üks sissekanne), tööde näidised, TI-rakenduste analüüs, eetiline arutelu ja refleksioon. | Google Classroom kursuse lõpus |
 | 🚀 **Projektitöö (rühmatöö)** | Rakendad kõike õpitut. Hinne: õpetaja hinnang 70 %, vastastikhindamine 20 %, enesehindamine 10 %. | Esitlus ja aruanne |
 
 **Väljapääsupileti hindamine (kujundav):**
@@ -1120,7 +1120,7 @@ Kalkulaator täidab alati samu jäigalt ette antud samme: ta ei õpi midagi juur
 
 ### 📤 Väljapääsupilet 1.1
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -1138,7 +1138,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -1150,7 +1150,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['1.1'] = ["Sinu telefoni fotogalerii oskab pildid ise rühmitada (koerad, toit, rand). Kas see on tehisintellekt ja kui jah, siis mis liiki? Põhjenda ühe lausega.", "Mitu sinu joonistust tundis Quick, Draw! ära ja mida näitas katse selle kohta, kuidas närvivõrk õpib?", "Mis jäi tänases tunnis segaseks või mille kohta tahaksid rohkem teada?"];

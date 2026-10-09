@@ -344,10 +344,10 @@ Iga **ploki** lõpus on **🔬 TI-labor** (uurimuslik katse rühmas), praktilise
 <!-- data-type="none" -->
 | Mida teed | Milleks see on | Kuhu esitad |
 |---|---|---|
-| 📤 **Väljapääsupiletid** (iga tund) | Kujundav hindamine: õpetaja annab tagasisidet ja näeb, mis vajab kordamist. | Moodle: kopeeri vastused või laadi fail alla |
-| 🔬 **TI-laborid** (iga plokk) | Laboriaruanne näitab, kas oskad katsetada, järeldusi teha ja piiranguid hinnata. | Moodle ja portfoolio |
-| 🧠 **Ploki enesekontrolltestid** | Kontrollid põhimõistete mõistmist. | Õpikus, õpetaja soovil Moodle'i testina |
-| 📁 **Portfoolio** | Õpipäevik (iga ploki kohta üks sissekanne), tööde näidised, TI-rakenduste analüüs, eetiline arutelu ja refleksioon. | Moodle kursuse lõpus |
+| 📤 **Väljapääsupiletid** (iga tund) | Kujundav hindamine: õpetaja annab tagasisidet ja näeb, mis vajab kordamist. | Google Classroom: kopeeri vastused või laadi fail alla |
+| 🔬 **TI-laborid** (iga plokk) | Laboriaruanne näitab, kas oskad katsetada, järeldusi teha ja piiranguid hinnata. | Google Classroom ja portfoolio |
+| 🧠 **Ploki enesekontrolltestid** | Kontrollid põhimõistete mõistmist. | Õpikus, õpetaja soovil Google Formsi testina |
+| 📁 **Portfoolio** | Õpipäevik (iga ploki kohta üks sissekanne), tööde näidised, TI-rakenduste analüüs, eetiline arutelu ja refleksioon. | Google Classroom kursuse lõpus |
 | 🚀 **Projektitöö (rühmatöö)** | Rakendad kõike õpitut. Hinne: õpetaja hinnang 70 %, vastastikhindamine 20 %, enesehindamine 10 %. | Esitlus ja aruanne |
 
 **Väljapääsupileti hindamine (kujundav):**
@@ -1120,7 +1120,7 @@ Kalkulaator täidab alati samu jäigalt ette antud samme: ta ei õpi midagi juur
 
 ### 📤 Väljapääsupilet 1.1
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -1138,7 +1138,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -1150,7 +1150,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['1.1'] = ["Sinu telefoni fotogalerii oskab pildid ise rühmitada (koerad, toit, rand). Kas see on tehisintellekt ja kui jah, siis mis liiki? Põhjenda ühe lausega.", "Mitu sinu joonistust tundis Quick, Draw! ära ja mida näitas katse selle kohta, kuidas närvivõrk õpib?", "Mis jäi tänases tunnis segaseks või mille kohta tahaksid rohkem teada?"];
@@ -1772,7 +1772,7 @@ Mõlemad talved tekkisid, sest lubati rohkem, kui tehnoloogia suutis pakkuda. Es
 
 ### 📤 Väljapääsupilet 1.2
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -1790,7 +1790,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -1802,7 +1802,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['1.2'] = ["Praegu räägitakse tehisaru buumist. Too üks märk, mis võiks viidata lähenevale tehisintellekti talvele, ja üks, mis räägib selle vastu.", "Mitu nägu 10-st tundsid pildi-Turingi testis õigesti ära ja mida näitab sinu tulemus generatiivse tehisintellekti arengu kohta?", "Milline tänase tunni ajaloosündmus üllatas sind kõige rohkem ja miks?"];
@@ -2319,7 +2319,7 @@ Kallutatus tähendab, et tehisintellekti süsteem teeb süstemaatiliselt ebaõig
 
 ### 📤 Väljapääsupilet 1.3
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -2337,7 +2337,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -2349,7 +2349,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['1.3'] = ["Kooli söökla tahab hakata tehisaru abil ennustama, mitu portsjonit igaks päevaks valmistada. Too üks kasu ja üks risk.", "Millise lause tõlkis Neurotõlge kõige halvemini ja miks see sinu arvates juhtus?", "Kus kohtasid sa viimase päeva jooksul tehisaru rakendust, mida varem ei märganud?"];
@@ -2451,7 +2451,7 @@ c) Millised on teie katse piirangud? Kas selle põhjal saab teha järelduse kõi
 <!-- class="pae-jaotis" -->
 **4. Laboriaruanne portfooliosse**
 
-Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita Moodle'is.
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita see Google Classroomis.
 
 <!-- data-type="none" -->
 | Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
@@ -3607,7 +3607,7 @@ Juhis ei ole määratud ehk täpne: „veidi“ ja „kuni on valmis“ ei ütle
 
 ### 📤 Väljapääsupilet 2.1
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -3625,7 +3625,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -3637,7 +3637,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.1'] = ["Kooli söökla tahab algoritmi, mis otsustab, kas homseks tellida rohkem suppi. Nimeta selle algoritmi sisend, üks tingimus ja väljund.", "Kumb algoritm vaatas TI-katses läbi vähem ruute, laiutiotsing või A-täht, ja miks?", "Kus kohtasid täna väljaspool kooli mõnda algoritmi, mis sinu eest midagi otsustas?"];
@@ -4264,7 +4264,7 @@ Põhimõte tähendab, et mudel on ainult nii hea kui andmed, millest ta õpib. K
 
 ### 📤 Väljapääsupilet 2.2
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -4282,7 +4282,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -4294,7 +4294,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.2'] = ["Kooli raamatukogu tahab ennustada, milliseid raamatuid laenutatakse, aga kogub andmeid ainult e-raamatute kohta. Millist andmekvaliteedi probleemi sa siin näed?", "Mida näitasid Quick, Draw! joonistused andmete mitmekesisuse ja müra kohta?", "Mis jäi andmete jagamise (treening-, valideerimis- ja testandmed) juures segaseks?"];
@@ -4962,7 +4962,7 @@ Mudel vastab õigesti 990 juhul 1000-st, sest tavalisi tehinguid on palju rohkem
 
 ### 📤 Väljapääsupilet 2.3
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -4980,7 +4980,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -4992,7 +4992,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.3'] = ["Spordirakendus õppis ära tundma kätekõverdusi ainult ühe treeneri videotest ja eksib nüüd teiste inimeste puhul. Kas see on üle- või alasobitamine ja kuidas seda parandada?", "Mida näitas sinu helimudeli test paarilise helidega mudeli üldistusvõime kohta?", "Millises igapäevases rakenduses kasutatakse sinu arvates juhendatud õpet?"];
@@ -5662,7 +5662,7 @@ Gradientlaskumine on nagu udus mäelt alla orgu minek: kaugele ei näe, aga jalg
 
 ### 📤 Väljapääsupilet 2.4
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -5680,7 +5680,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -5692,7 +5692,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.4'] = ["Telefoni neuron otsustab, kas lülitada ekraan öörežiimi. Nimeta kaks sisendit ja selgita, kas nende kaal võiks olla positiivne või negatiivne.", "Mida muutis TensorFlow Playgroundis peidetud kihtide lisamine või õppimiskiiruse suurendamine?", "Mis jäi kaalude, nihke või aktivatsioonifunktsiooni juures kõige segasemaks?"];
@@ -6323,7 +6323,7 @@ Radioloogi töös vaatab TI-süsteem röntgenipildid kiiresti läbi ja märgib k
 
 ### 📤 Väljapääsupilet 2.5
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -6341,7 +6341,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -6353,7 +6353,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.5'] = ["Linnaraamatukogu tahab panna kodulehele vestlusroboti. Nimeta üks kasu ja üks eetiline risk, millega peaks arvestama.", "Millise lause tõlkis Neurotõlge TI-katses kõige halvemini ja mis oli selle põhjus sinu arvates?", "Millist TI-rakendust kasutad ise kõige sagedamini ja mida see sinu kohta teab?"];
@@ -6466,7 +6466,7 @@ Kirjuta enne katset, kuidas mõjutab mudeli täpsust uutel piltidel a) treeningp
 <!-- class="pae-jaotis" -->
 **4. Laboriaruanne portfooliosse**
 
-Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita Moodle'is.
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita see Google Classroomis.
 
 <!-- data-type="none" -->
 | Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
@@ -7661,7 +7661,7 @@ Eesti keelt räägib vaid umbes miljon inimest, seega on eestikeelset teksti, mi
 
 ### 📤 Väljapääsupilet 3.1
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -7679,7 +7679,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -7691,7 +7691,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['3.1'] = ["Telefoni klaviatuur pakub pärast sõnu „Palju õnne“ järgmiseks sõnaks „sünnipäevaks“. Millist tunnis õpitud mõistet see näitab ja kuidas see töötab?", "Miks jagunes eestikeelne lause TI-katses rohkemateks tokeniteks kui ingliskeelne?", "Mis jäi tänases tunnis sinu jaoks kõige segasemaks?"];
@@ -8322,7 +8322,7 @@ Sarkasm pöörab sõnade otsese tähenduse vastupidiseks: lauses võivad olla po
 
 ### 📤 Väljapääsupilet 3.2
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -8340,7 +8340,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -8352,7 +8352,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['3.2'] = ["E-poe tagasisides on kirjas „Imeline, juba kolmas kord sel kuul tuleb pakk katki!“ Kuidas hindaks seda leksikonipõhine meetod ja kuidas inimene? Miks?", "Kas vestlusrobot tabas TI-katses sarkasmi? Mida see sinu arvates näitab?", "Millal on TI kasutamine koolitöös sinu arvates aus abivahend ja millal mitte?"];
@@ -8948,7 +8948,7 @@ Sobiks reeglipõhine või otsingupõhine vestlusrobot, sest küsimused on korduv
 
 ### 📤 Väljapääsupilet 3.3
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -8966,7 +8966,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -8978,7 +8978,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['3.3'] = ["Spordiklubi kodulehe robot vastab alati sama lausega, kui küsimuses on sõna „treeningaeg“, aga muudele küsimustele ütleb „Ei saanud aru“. Mis tüüpi vestlusrobot see on ja miks?", "Mis juhtus TI-katses, kui küsisid ELIZA-lt midagi, mis nõuab teadmisi maailmast? Mida see näitab?", "Millal sa viimati kontrollisid vestlusroboti või otsingumootori vastust ja kuidas sa seda tegid?"];
@@ -9595,7 +9595,7 @@ BLEU võrdleb masintõlget inimtõlkega ja loeb, kui palju on neil ühiseid sõn
 
 ### 📤 Väljapääsupilet 3.4
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -9613,7 +9613,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -9625,7 +9625,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['3.4'] = ["Turist tõlgib apteegis masintõlkega ravimi infolehe. Kumba tõlke kvaliteedi kriteeriumi – adekvaatsust või ladusust – peab ta siin eriti kontrollima ja miks?", "Kas Neurotõlge valis TI-katses lausete „Tema on arst. Tema on õde.“ tõlkes soo? Mida see näitab treeningandmete kohta?", "Kus oled ise viimati masintõlget kasutanud ja kas usaldasid tulemust?"];
@@ -9745,7 +9745,7 @@ Loe kolm viipa läbi enne katset. Milline viip annab sinu arvates parima vastuse
 <!-- class="pae-jaotis" -->
 **4. Laboriaruanne portfooliosse**
 
-Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita Moodle'is.
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita see Google Classroomis.
 
 <!-- data-type="none" -->
 | Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
@@ -11035,7 +11035,7 @@ Liiga sügav puu kipub ülesobituma ehk õpib treeningandmed pähe ja töötab u
 
 ### 📤 Väljapääsupilet 4.1
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -11053,7 +11053,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -11065,7 +11065,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['4.1'] = ["Koostasid otsustuspuu, mis ennustab, kas klassikaaslane tuleb trenni. Miks võib puu uutel päevadel eksida, kuigi treeningandmetel oli see 100% täpne?", "Mis juhtus TI-katses puu täpsusega treening- ja testandmetel, kui puu muutus sügavamaks?", "Kus oled oma elus kohanud algoritmi, mis teeb sinu kohta otsuse? Kas saaksid teada, miks otsus tehti?"];
@@ -11701,7 +11701,7 @@ KUI õpilane on puudunud kolm päeva järjest JA puudumine pole põhjendatud, SI
 
 ### 📤 Väljapääsupilet 4.2
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -11719,7 +11719,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -11731,7 +11731,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['4.2'] = ["Kirjuta üks KUI … SIIS … reegel, mille järgi kooli e-päevik võiks õpetajale teate saata, ja nimeta selle tingimus ja järeldus.", "Kas Akinatori küsimuste ahel meenutas sinu arvates rohkem edasi- või tagasisuunalist aheldamist? Põhjenda ühe lausega.", "Mis jäi ekspertsüsteemide juures segaseks?"];
@@ -12376,7 +12376,7 @@ Esiteks võin teadlikult otsida ja jälgida ka teistsuguste vaadetega allikaid. 
 
 ### 📤 Väljapääsupilet 4.3
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -12394,7 +12394,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -12406,7 +12406,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['4.3'] = ["Uus õpilane hakkab kasutama kooli raamatukogu soovitusrakendust. Miks ei saa koostööfiltreerimine talle kohe head soovitust anda ja mida rakendus võiks selle asemel teha?", "Millised artistid olid muusikakaardil sinu valitud artistile kõige lähemal ja mida see lähedus tähendab?", "Millises rakenduses tunned, et oled kõige rohkem filtrimullis, ja mida saaksid sellega teha?"];
@@ -13015,7 +13015,7 @@ Salv aitab pankadel ja finantsasutustel tuvastada rahapesu ja pettusi. Süsteem 
 
 ### 📤 Väljapääsupilet 4.4
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -13033,7 +13033,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -13045,7 +13045,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['4.4'] = ["Haigla tahab TI abil röntgenipiltidelt kopsupõletikku leida. Millise probleemitüübiga on tegu ja kes peaks tegema lõpliku otsuse?", "Millal eksis sinu Teachable Machine'i mudel ja mis oli sinu arvates põhjus?", "Millises Eesti valdkonnas võiks TI sinu arvates kõige rohkem kasu tuua ja miks?"];
@@ -13164,7 +13164,7 @@ Kirjutage enne katset üles kaks oletust: a) mitu viiest uuest näitest teie ots
 <!-- class="pae-jaotis" -->
 **4. Laboriaruanne portfooliosse**
 
-Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita Moodle'is.
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita see Google Classroomis.
 
 <!-- data-type="none" -->
 | Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
@@ -14393,7 +14393,7 @@ Traditsioonilistes meetodites (nt Sobeli filter, HOG) pidi inimene ise välja m�
 
 ### 📤 Väljapääsupilet 5.1
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -14411,7 +14411,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -14423,7 +14423,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['5.1'] = ["Sinu telefoni ekraanipilt on 1000 × 500 pikslit ja värviline. Mitu arvu peab arvuti selle pildi „nägemiseks“ läbi töötlema ja miks just nii palju?", "Millise muudatuse peale Quick, Draw! närvivõrk sinu joonistuse puhul eksis ja mida see ütleb selle kohta, kuidas võrk tunnuseid õpib?", "Kus sinu igapäevaelus arvutinägemine sind juba aitab või jälgib?"];
@@ -14990,7 +14990,7 @@ Pluss: puudumiste märkimine oleks kiire ja õpetaja aeg kuluks õppimisele. Pro
 
 ### 📤 Väljapääsupilet 5.2
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -15008,7 +15008,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -15020,7 +15020,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['5.2'] = ["Poe kaamera märgib ekraanil kõigi ostjate nägude ümber kastid, kuid ei tea, kes nad on. Kas tegu on näotuvastuse või näotundmisega? Põhjenda.", "Milline oli Google Lensi täpsus ja saagis sinu katses ning mis juhtus, kui ese oli osaliselt kaetud?", "Kas kool tohiks sinu arvates kasutada näotundmist? Miks?"];
@@ -15604,7 +15604,7 @@ TI on arsti abiline ehk „teine silmapaar“, mitte asendaja. Ka täpne mudel e
 
 ### 📤 Väljapääsupilet 5.3
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -15622,7 +15622,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -15634,7 +15634,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['5.3'] = ["Lennujaama turvavärav leiab 99% keelatud esemetest, kuid annab häire ka iga kümnenda tavalise koti puhul. Kas süsteemil on kõrge tundlikkus või kõrge spetsiifilisus? Põhjenda.", "Milline oli sinu Teachable Machine'i mudeli tundlikkus ja spetsiifilisus ning millal see eksis?", "Kas usaldaksid diagnoosi, mille panid TI ja arst koos? Mis tingimusel?"];
@@ -16275,7 +16275,7 @@ Uus suurus: 800 × 400 pikslit, seega 800 × 400 = **320 000** pikslit. Algses p
 
 ### 📤 Väljapääsupilet 5.4
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -16293,7 +16293,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -16305,7 +16305,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['5.4'] = ["Sõber kirjutas pildigeneraatorile ainult sõna „maja“ ja jäi tulemusega rahulolematuks. Kuidas parandaksid tema viipa?", "Mis juhtus Diffusion Explaineris pildiga, kui muutsid juhtimisskaalat?", "Kas TI abil loodud pilt koolitöös peaks olema märgistatud? Miks?"];
@@ -16927,7 +16927,7 @@ Ma ei jaga videot edasi ega vasta kiusajale samaga. Salvestan tõendid (ekraanip
 
 ### 📤 Väljapääsupilet 5.5
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -16945,7 +16945,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -16957,7 +16957,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['5.5'] = ["Sotsiaalmeedias levib pilt üleujutatud Tartu kesklinnast pealkirjaga „Täna hommikul“. Mida kontrolliksid kõigepealt ja miks?", "Mida näitas sinu pöördotsing pildi päritolu kohta ja kui kindel sa oma järelduses oled?", "Millist kontrollnimekirja sammu hakkad edaspidi ka päriselt kasutama?"];
@@ -17074,7 +17074,7 @@ Ennustage enne katset: (a) millises tingimuses – osaliselt kaetud ese, ebatava
 <!-- class="pae-jaotis" -->
 **4. Laboriaruanne portfooliosse**
 
-Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita Moodle'is.
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita see Google Classroomis.
 
 <!-- data-type="none" -->
 | Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
@@ -18337,7 +18337,7 @@ TI ei ole isik: tal ei ole oma tahet ega võimalust oma tegude eest vastust anda
 
 ### 📤 Väljapääsupilet 6.1
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -18355,7 +18355,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -18367,7 +18367,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['6.1'] = ["Kool tahab võtta kasutusele TI, mis soovitab õpilastele valikkursusi. Nimeta kaks eetilist põhimõtet, millega kool peaks arvestama, ja põhjenda.", "Mis üllatas sind Moral Machine'i katses, kui võrdlesid oma valikuid teiste vastajate omadega?", "Mis jäi selles tunnis segaseks või millist eetilist küsimust tahaksid veel arutada?"];
@@ -18818,7 +18818,7 @@ TI töötab sageli seda paremini, mida rohkem andmeid see saab. Näiteks võiksi
 
 ### 📤 Väljapääsupilet 6.2
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -18836,7 +18836,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -18848,7 +18848,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['6.2'] = ["Kool tahab panna kodulehele klassipildi koos kõigi õpilaste nimedega. Millist GDPR-i põhimõtet või sinu õigust tuleks siin arvestada ja miks?", "Milline vestlusroboti järeldus väljamõeldud postituste kohta üllatas sind kõige rohkem ja miks on see privaatsuse seisukohast oluline?", "Kus jagad oma igapäevaelus TI-teenustele isikuandmeid ja mida võiksid edaspidi teha teisiti?"];
@@ -19325,7 +19325,7 @@ Kallutatus võib jääda alles kaudsete tunnuste kaudu. Näiteks võib CV-s main
 
 ### 📤 Väljapääsupilet 6.3
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -19343,7 +19343,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -19355,7 +19355,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['6.3'] = ["Muusikarakendus soovitab tüdrukutele peamiselt popmuusikat ja poistele räppi. Millise kallutatuse tüübi või põhjusega võib olla tegu ja kuidas seda kontrollida?", "Milliseid ameteid seostas masintõlge meeste ja milliseid naistega ning miks see nii võib olla?", "Kas oled oma elus märganud mõnda tehnoloogiat, mis kohtleb inimesi stereotüüpselt? Kirjelda lühidalt."];
@@ -19907,7 +19907,7 @@ Amet koosneb paljudest ülesannetest ja TI automatiseerib neist ainult osa. Tood
 
 ### 📤 Väljapääsupilet 6.4
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -19925,7 +19925,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -19937,7 +19937,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['6.4'] = ["Raamatukogus hakkab TI raamatuid sorteerima ja lugejatele soovitama. Millised raamatukoguhoidja ülesanded muutuvad ja millised jäävad inimesele?", "Millise ülesande tegi vestlusrobot TI-katses hästi ja kus oli kindlasti vaja inimest?", "Millist oskust tahaksid lähiaastatel arendada, et TI ajastu tööturul hakkama saada?"];
@@ -20475,7 +20475,7 @@ Määrus on riskipõhine: mida suurem on oht inimeste tervisele, turvalisusele v
 
 ### 📤 Väljapääsupilet 6.5
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -20493,7 +20493,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -20505,7 +20505,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['6.5'] = ["Uus äpp tuvastab kaamera abil õpilaste emotsioone tunnis ja annab õpetajale teada, kes on igav. Kas see on ELi tehisintellekti määruse järgi lubatud? Põhjenda.", "Mitu korda said Which Face Is Real katses 10-st õigesti ja mida see näitab TI loodud sisu märgistamise vajaduse kohta?", "Kas oled pärast seda tundi TI tuleviku suhtes pigem optimistlik või pessimistlik? Miks?"];
@@ -20623,7 +20623,7 @@ Kirjuta enne katset üles, millist sugu, vanust ja keskkonda TI sinu arvates iga
 <!-- class="pae-jaotis" -->
 **4. Laboriaruanne portfooliosse**
 
-Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud ja ettepanek kallutatuse vähendamiseks). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita Moodle'is.
+Kirjuta lühike aruanne (hüpotees, katse, tulemused, järeldus, piirangud ja ettepanek kallutatuse vähendamiseks). Lisa see oma portfooliosse osasse „Tehisintellekti rakenduste analüüs“ või „Tööde näidised“ ja esita see Google Classroomis.
 
 <!-- data-type="none" -->
 | Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |
@@ -21797,7 +21797,7 @@ Andmete kvaliteet (plokk 2) ja kallutatus (plokk 6) on tihedalt seotud. Masinõp
 
 ### 📤 Väljapääsupilet 7.1
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -21815,7 +21815,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -21827,7 +21827,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['7.1'] = ["Vali üks äpp oma telefonist ja nimeta vähemalt kaks kursuse plokki, mille teadmisi selle äpi taga kasutatakse.", "Mitu vestlusroboti küsimust või hinnangut TI-katses olid täpsed ja kas robot käitus pigem treeneri või teenrina?", "Milline kursuse teema on sulle veel segane ja mida teed, et see selgeks saada?"];
@@ -22417,7 +22417,7 @@ Riski olulisus sõltub sellest, kui tõenäoline see on ja kui suurt kahju see t
 
 ### 📤 Väljapääsupilet 7.2
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -22435,7 +22435,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -22447,7 +22447,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['7.2'] = ["Sõnasta eesmärk „Teha äpp, mis aitab koolis“ ümber nii, et see vastaks SMART-kriteeriumidele.", "Mida näitas Teachable Machine'i kiirproov sinu projektiidee teostatavuse kohta?", "Milline risk võib sinu projekti kõige tõenäolisemalt takistada ja kuidas seda ennetad?"];
@@ -22973,7 +22973,7 @@ Tuleb teada, kas testandmetes oli kasse ja koeri sama palju. Kui 90% testpiltide
 
 ### 📤 Väljapääsupilet 7.3
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -22991,7 +22991,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -23003,7 +23003,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['7.3'] = ["Kooli söökla andmetabelis on üks päev kirjas kaks korda ja ühel päeval puudub jäätmete kogus. Mida teed nende andmetega enne mudeli treenimist?", "Kui palju langes Quick, Draw! närvivõrgu täpsus piirjuhtumitega ja mida see ütleb sinu projekti testimise kohta?", "Milline arendamise samm tundub sinu projektis kõige keerulisem ja kellelt saaksid abi küsida?"];
@@ -23559,7 +23559,7 @@ Kõigepealt planeerin demo stsenaariumi ehk täpsed sammud, mida näitan. Seejä
 
 ### 📤 Väljapääsupilet 7.4
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -23577,7 +23577,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -23589,7 +23589,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['7.4'] = ["Kuidas selgitaksid oma projekti peamist tulemust ühe lausega oma vanavanemale ja kuidas IT-spetsialistile?", "Mis muutus sinu elevaatorikõnes pärast tõlkeproovi ja miks?", "Mis on sinu esitluse juures praegu kõige suurem mure ja mida teed selle lahendamiseks?"];
@@ -24096,7 +24096,7 @@ Eesti tegevuskavad on kratikavad 2019–2021 ja 2022–2023 ning neid jätkav te
 
 ### 📤 Väljapääsupilet 7.5
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -24114,7 +24114,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -24126,7 +24126,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['7.5'] = ["Sõber kasutas oma projektis internetist leitud pilte ilma allikat märkimata. Mida soovitad tal enne töö avalikku jagamist teha?", "Mille poolest erines vestlusroboti tehtud tagasiside analüüs sinu enda omast?", "Mida tahad tehisintellekti kohta pärast seda kursust veel õppida ja kust alustad?"];
@@ -24836,7 +24836,7 @@ Vaadake kriteeriumitabel läbi **enne** katsetamist. Ennustage iga kriteeriumi h
 <!-- class="pae-jaotis" -->
 **4. Laboriaruanne portfooliosse**
 
-Kirjuta lühike aruanne (hüpotees, kriteeriumitabel, katse, tulemused, järeldus, piirangud ja soovitus). Lisa see oma portfoolio osasse „Tehisintellekti rakenduste analüüs“ (rakendus 1 või 2) ja esita Moodle'is.
+Kirjuta lühike aruanne (hüpotees, kriteeriumitabel, katse, tulemused, järeldus, piirangud ja soovitus). Lisa see oma portfoolio osasse „Tehisintellekti rakenduste analüüs“ (rakendus 1 või 2) ja esita see Google Classroomis.
 
 <!-- data-type="none" -->
 | Kriteerium | Suurepärane (3) | Hea (2) | Areneb (1) |

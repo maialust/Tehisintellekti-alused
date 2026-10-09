@@ -896,7 +896,7 @@ Gradientlaskumine on nagu udus mäelt alla orgu minek: kaugele ei näe, aga jalg
 
 ### 📤 Väljapääsupilet 2.4
 
-Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Moodle'is õpetaja näidatud kohta või laadi fail alla ja lisa see ülesande juurde.
+Vasta lühidalt (3–5 min). Vastused jäävad selle brauseri mällu. Kui oled valmis, vajuta **Kopeeri vastused** ja kleebi need Google Classroomi ülesande vastusesse või laadi fail alla ja lisa see ülesande juurde.
 
 <script>
 window.paePilet = window.paePilet || {
@@ -914,7 +914,7 @@ window.paePilet = window.paePilet || {
   },
   copy: function(id){
     var t = this.text(id, window.paePiletQ[id]), msg = document.getElementById('piletMsg_'+id);
-    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Moodle\'isse (Cmd+V / Ctrl+V).'; };
+    var done = function(){ msg.textContent = '✅ Kopeeritud! Kleebi vastused Google Classroomi ülesande vastusesse (Cmd+V / Ctrl+V).'; };
     if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done, function(){ window.paePilet.fallback(t); done(); }); }
     else { this.fallback(t); done(); }
   },
@@ -926,7 +926,7 @@ window.paePilet = window.paePilet || {
     a.setAttribute('download', 'pilet_' + id.replace('.','_') + '_' + (d.nimi||'nimi').replace(/\s+/g,'_') + '.txt');
     a.setAttribute('target', '_self'); a.style.display = 'none';
     document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 500);
-    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Moodle\'is ülesande juurde.';
+    document.getElementById('piletMsg_'+id).textContent = '✅ Fail laaditi alla. Lisa see Google Classroomis ülesande juurde (Lisa → Fail).';
   }
 };
 window.paePiletQ = window.paePiletQ || {}; window.paePiletQ['2.4'] = ["Telefoni neuron otsustab, kas lülitada ekraan öörežiimi. Nimeta kaks sisendit ja selgita, kas nende kaal võiks olla positiivne või negatiivne.", "Mida muutis TensorFlow Playgroundis peidetud kihtide lisamine või õppimiskiiruse suurendamine?", "Mis jäi kaalude, nihke või aktivatsioonifunktsiooni juures kõige segasemaks?"];
