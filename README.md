@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.0.1
+version:  2.1.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -317,7 +317,7 @@ Iga **tund** on üles ehitatud ühtemoodi:
 <!-- data-type="none" -->
 | Osa | Mida seal teed |
 |---|---|
-| 🎯 **Õpieesmärgid ja tunni tuumik** | Näed, mida tunni lõpuks oskad ja mida pead 45 minutiga kindlasti tegema. |
+| 🎯 **Õpieesmärgid ja tunni tuumik** | Näed, mida tunni lõpuks oskad, mida teed kodus enne tundi (🏠) ja mida tunnis kindlasti teed. |
 | 🟢 **Lihtsalt öeldes** | Loed või kuulad tunni sisu lühidalt ja lihtsas keeles. |
 | 📚 **Õppetekst** | Loed teksti, vaatad infograafikuid ja skeeme. |
 | 🧪 **TI-katse** | Proovid tunni teemat päris tehisaru tööriistaga järele. |
@@ -328,7 +328,9 @@ Iga **tund** on üles ehitatud ühtemoodi:
 | 📤 **Väljapääsupilet** | Vastad kolmele küsimusele ja saadad vastused õpetajale. |
 | 🔐 **Lukk** | Rakendad õpitut uues olukorras ja saad võtmetähe. |
 
-Pealkirjad ja ülesanded, mille ees on **➕**, on **lisaülesanded**. Tee neid, kui jõuad, kodus või kui tahad teemat rohkem uurida.
+**Ümberpööratud klassiruum:** lehed, mille pealkirja ees on **🏠**, loed või vaatad **kodus enne tundi** (umbes 15–20 minutit). Too tundi kaasa üks uus teadmine või küsimus. Tunnis jääb nii rohkem aega katsetamiseks, aruteluks ja ülesannete lahendamiseks.
+
+Töölehe ülesanded, mille ees on **➕**, on **lisaülesanded**. Tee neid, kui jõuad, või kui tahad teemat rohkem uurida.
 
 Iga **ploki** lõpus on **🔬 TI-labor** (uurimuslik katse rühmas), praktilised ülesanded, aruteluküsimused ja ploki enesekontrolltest.
 
@@ -501,12 +503,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Tehisintellekti põhisuunad“, „Tehisintellekt ja inimene“, „Tehisintellekt sinu ümber: lühike ülevaade“, „Mäng: tehisaru sorteerimismäng“, „Videod: mis see tehisaru on?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Mis on tehisintellekt?“, „Nõrk, tugev ja superintelligentsus“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas masin tunneb su joonistuse ära?“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded I, III ja VI
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -579,7 +583,7 @@ Vahel jääb mulje, et tänapäeva vestlusrobotid on juba „peaaegu inimesed“
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Kõik praegu kasutusel olevad tehisintellekti süsteemid – ka kõige nutikamad vestlusrobotid – on **nõrk tehisintellekt**. Tugev tehisintellekt eksisteerib seni vaid teoorias ja ulmeteostes.
 
-### ➕ Tehisintellekti põhisuunad
+### 🏠 Tehisintellekti põhisuunad
 
 Tehisintellekt on suur valdkond, mis jaguneb mitmeks suunaks. Igaüks neist tegeleb erinevat liiki probleemidega.
 
@@ -613,7 +617,7 @@ Tehisintellekti ajaloos on olnud kaks suurt lähenemisviisi. **Sümboolne tehisi
 >
 > ![Kolm üksteise sees olevat ovaali: kõige suurem on tehisintellekt, selle sees masinõpe ja kõige sisemine süvaõpe.](pildid/plokk_1/1_1_matrjoska.svg "Joonis 1.1.4. Süvaõpe on masinõppe osa ja masinõpe on tehisintellekti osa")
 
-### ➕ Tehisintellekt ja inimene
+### 🏠 Tehisintellekt ja inimene
 
 Kas tehisintellekt on targem kui inimene? Sellele küsimusele ei ole ühest vastust, sest tehisintellektil ja inimesel on erinevad tugevused ja nõrkused.
 
@@ -642,7 +646,7 @@ Kõige tähtsam järeldus on see, et tehisintellekt ja inimene **täiendavad tei
 > 1. Too näide ülesandest, mida tehisintellekt teeb sinust paremini, ja ülesandest, mida sina teed paremini kui ükski tehisintellekt.
 > 2. Kas sinu arvates võib tehisintellekt kunagi saavutada inimese taseme intelligentsuse? Mis peaks selleks muutuma?
 
-### ➕ Tehisintellekt sinu ümber: lühike ülevaade
+### 🏠 Tehisintellekt sinu ümber: lühike ülevaade
 
 Tehisintellekt ei sündinud üleöö. Juba 1950. aastal avaldas Briti matemaatik **Alan Turing** artikli „Computing Machinery and Intelligence“ ja pakkus välja **<span class="pae-term" tabindex="0" data-def="Turingi test: Alan Turingi pakutud katse: kas inimene suudab vestluse põhjal eristada masinat inimesest">Turingi testi</span>**: kui inimene vestleb kirjalikult nii teise inimese kui ka masinaga ega suuda vastuste põhjal öelda, kumb on kumb, võib masinat pidada intelligentseks. 1956. aastal toimus Dartmouthi konverents, mille taotluses oli **John McCarthy** võtnud kasutusele termini „tehisintellekt“. Sellest ajast saadik on olnud nii suuri lootusi kui ka pettumusi. Mõned verstapostid:
 
@@ -674,7 +678,7 @@ Tänapäeval on tehisintellekt igal pool. **Virtuaalsed assistendid** (Siri, Ale
 > - TED-i ettekanne **„The incredible inventions of intuitive AI“** (Maurice Conti) näitab, kuidas tehisintellekt aitab disaineritel ja inseneridel.
 > - Raamat **„Superintelligence: Paths, Dangers, Strategies“** (Nick Bostrom) arutleb, mis võib juhtuda, kui tehisintellekt kunagi inimest ületab.
 
-### ➕ Mäng: tehisaru sorteerimismäng
+### 🏠 Mäng: tehisaru sorteerimismäng
 
 Kas tunned ära, millal tehisaru (tehisintellekt) on mängus? Sorteeri 48 tegevust kahte rühma: **tehisaru abil toimuv tegevus** ja **tehisaru abita toimuv tegevus**. Igal kaardil on pilt, tegevuse kirjeldus ja nurgas täht või sümbol. Mäng toimub neljas voorus, igas voorus on 12 kaarti. Pärast iga vooru vajuta **Kontrolli**.
 
@@ -805,7 +809,7 @@ Algoritm ei tea „tõde“. See leiab andmetest mustreid ja teeb tõenäosuslik
 
 [[___ ___ ___]]
 
-### ➕ 🎬 Videod: mis see tehisaru on?
+### 🏠 🎬 Videod: mis see tehisaru on?
 
 Sellel lehel on 2 videot. Iga video ees on lühike kokkuvõte, mis aitab sul valida.
 

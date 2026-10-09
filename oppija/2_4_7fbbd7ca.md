@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.0.1
+version:  2.1.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -289,12 +289,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Kuidas <span class="pae-term" tabindex="0" data-def="närvivõrk: Omavahel ühendatud tehisneuronitest koosnev arvutusmudel">närvivõrk</span> õpib: viga, <span class="pae-term" tabindex="0" data-def="tagasilevi: Algoritm, mis arvutab, kuidas muuta kaalusid vea vähendamiseks">tagasilevi</span> ja <span class="pae-term" tabindex="0" data-def="gradientlaskumine: Kaalude järkjärguline muutmine vea vähenemise suunas">gradientlaskumine</span>“, „<span class="pae-term" tabindex="0" data-def="süvaõpe: Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke">Süvaõpe</span> ja selle arhitektuurid“, „Läbimurded, väljakutsed ja süvaõpe Eestis“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Mis on tehisnärvivõrk?“, „Tehisneuron: kaalud, nihe ja aktivatsioon“, „Kihid: neuronitest võrguks“ ja „Kokkuvõte ja põhimõisted“
-> 2. 🧪 **TI-katse** (~10 min): „<span class="pae-term" tabindex="0" data-def="närvivõrk: Omavahel ühendatud tehisneuronitest koosnev arvutusmudel">Närvivõrk</span> õpib punkte eristama“
+> 2. 🧪 **TI-katse** (~10 min): „Närvivõrk õpib punkte eristama“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja VI
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -326,7 +328,7 @@ Närvivõrkude ajalugu on pikk:
 
 - **1943** – Warren McCulloch ja Walter Pitts kirjeldasid esimese tehisneuroni mudeli;
 - **1958** – Frank Rosenblatt lõi **pertseptroni**, lihtsa õppiva närvivõrgu;
-- **1980.–1990. aastad** – levis **<span class="pae-term" tabindex="0" data-def="tagasilevi: Algoritm, mis arvutab, kuidas muuta kaalusid vea vähendamiseks">tagasilevi</span>** algoritm, mis võimaldas treenida mitmekihilisi võrke;
+- **1980.–1990. aastad** – levis **tagasilevi** algoritm, mis võimaldas treenida mitmekihilisi võrke;
 - **2010. aastad** – arvutusvõimsuse kasv ja suured andmehulgad tõid kaasa süvaõppe läbimurde;
 - **2024** – John Hopfield ja Geoffrey Hinton said tehisnärvivõrkudel põhineva masinõppe alusuuringute eest Nobeli füüsikaauhinna.
 
@@ -399,7 +401,7 @@ Närvivõrgus on kahte liiki väärtusi. **Kaalud ja nihked** õpib võrk treeni
 >
 > Kujuta ette närvivõrku, mis peab ennustama, kas õpilane sooritab eksami. Millised oleksid sisendkihi neuronid? Mitu neuronit peaks olema väljundkihis? Mida võiksid peidetud kihid sinu arvates „märgata“?
 
-### ➕ Kuidas närvivõrk õpib: viga, tagasilevi ja gradientlaskumine
+### 🏠 Kuidas närvivõrk õpib: viga, tagasilevi ja gradientlaskumine
 
 Alguses on närvivõrgu kaalud juhuslikud ja võrk „arvab“ täiesti suvaliselt. Treenimise eesmärk on leida sellised kaalud ja nihked, et võrgu vastused oleksid võimalikult õiged. Treenimine käib tsüklina, mida korratakse tuhandeid või miljoneid kordi:
 
@@ -420,7 +422,7 @@ Alguses on närvivõrgu kaalud juhuslikud ja võrk „arvab“ täiesti suvalise
 >
 > Klient kaebab, et supp on liiga soolane. Peakokk ei karista kogu kööki ühtemoodi, vaid uurib ahelat tagurpidi: kes supi serveeris, kes maitsestas, kes puljongi keetis. Kes vea tekkimisele rohkem kaasa aitas, peab oma tegevust rohkem muutma. Nii teeb ka tagasilevi: kaalud, mis vea tekkimises suuremat rolli mängisid, saavad suurema paranduse.
 
-Kuidas aga teada, millises suunas kaalu muuta? Seda teeb **<span class="pae-term" tabindex="0" data-def="gradientlaskumine: Kaalude järkjärguline muutmine vea vähenemise suunas">gradientlaskumine</span>**. Kujuta ette, et seisad paksus udus mäenõlval ja tahad jõuda orgu (kõige väiksema veani). Sa ei näe kaugele, aga tunned jalgadega, kuhu poole maapind langeb. Teed sammu allamäge, tunned uuesti, teed järgmise sammu – ja nii kuni jõuad oru põhja.
+Kuidas aga teada, millises suunas kaalu muuta? Seda teeb **gradientlaskumine**. Kujuta ette, et seisad paksus udus mäenõlval ja tahad jõuda orgu (kõige väiksema veani). Sa ei näe kaugele, aga tunned jalgadega, kuhu poole maapind langeb. Teed sammu allamäge, tunned uuesti, teed järgmise sammu – ja nii kuni jõuad oru põhja.
 
 ![Veakõver, mida mööda pall liigub samm-sammult allamäge: alguses on viga suur, teel on väike lohk ehk lokaalne miinimum ja lõpus oru põhi, kus viga on väikseim.](../pildid/plokk_2/2_4_gradient.svg "Joonis 2.4.6. Gradientlaskumine: samm-sammult väiksema vea poole")
 
@@ -451,10 +453,10 @@ Treenimisel võib tekkida probleeme:
 - **lokaalne miinimum** – gradientlaskumine võib jääda kinni väikesesse „lohku“, mis ei ole kõige sügavam org;
 - **aeglane treenimine** – suurte võrkude treenimine võib kesta päevi või nädalaid; abi on nutikamatest optimeerijatest (nt Adam) ja võimsamast riistvarast.
 
-### ➕ Süvaõpe ja selle arhitektuurid
+### 🏠 Süvaõpe ja selle arhitektuurid
 
 <!-- class="pae-moiste" -->
-> **Mõiste: <span class="pae-term" tabindex="0" data-def="süvaõpe: Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke">süvaõpe</span>**
+> **Mõiste: süvaõpe**
 >
 > **Süvaõpe** (*deep learning*) on masinõppe alamvaldkond, mis kasutab **mitme peidetud kihiga närvivõrke** (süvanärvivõrke). Sõna „süva“ viitab kihtide rohkusele ehk võrgu „sügavusele“, mitte mõtete sügavusele.
 
@@ -475,7 +477,7 @@ Eri ülesannete jaoks on välja töötatud eri tüüpi võrgud ehk **arhitektuur
 
 Transformerite läbimurre algas 2017. aastal teadusartikliga „Attention Is All You Need“ („Tähelepanu on kõik, mida vajad“). Tähelepanumehhanismi saab ette kujutada nii: lauses „Mari pani raamatu kotti, sest **see** oli raske“ peab mudel aru saama, et „see“ viitab raamatule, mitte kotile ega Marile. Tähelepanumehhanism aitab mudelil leida, millised sõnad on omavahel seotud, isegi kui need on lauses kaugel.
 
-### ➕ Läbimurded, väljakutsed ja süvaõpe Eestis
+### 🏠 Läbimurded, väljakutsed ja süvaõpe Eestis
 
 Süvaõpe on toonud kaasa rea läbimurdeid:
 

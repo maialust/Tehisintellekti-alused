@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.0.1
+version:  2.1.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -317,7 +317,7 @@ Iga **tund** on üles ehitatud ühtemoodi:
 <!-- data-type="none" -->
 | Osa | Mida seal teed |
 |---|---|
-| 🎯 **Õpieesmärgid ja tunni tuumik** | Näed, mida tunni lõpuks oskad ja mida pead 45 minutiga kindlasti tegema. |
+| 🎯 **Õpieesmärgid ja tunni tuumik** | Näed, mida tunni lõpuks oskad, mida teed kodus enne tundi (🏠) ja mida tunnis kindlasti teed. |
 | 🟢 **Lihtsalt öeldes** | Loed või kuulad tunni sisu lühidalt ja lihtsas keeles. |
 | 📚 **Õppetekst** | Loed teksti, vaatad infograafikuid ja skeeme. |
 | 🧪 **TI-katse** | Proovid tunni teemat päris tehisaru tööriistaga järele. |
@@ -328,7 +328,9 @@ Iga **tund** on üles ehitatud ühtemoodi:
 | 📤 **Väljapääsupilet** | Vastad kolmele küsimusele ja saadad vastused õpetajale. |
 | 🔐 **Lukk** | Rakendad õpitut uues olukorras ja saad võtmetähe. |
 
-Pealkirjad ja ülesanded, mille ees on **➕**, on **lisaülesanded**. Tee neid, kui jõuad, kodus või kui tahad teemat rohkem uurida.
+**Ümberpööratud klassiruum:** lehed, mille pealkirja ees on **🏠**, loed või vaatad **kodus enne tundi** (umbes 15–20 minutit). Too tundi kaasa üks uus teadmine või küsimus. Tunnis jääb nii rohkem aega katsetamiseks, aruteluks ja ülesannete lahendamiseks.
+
+Töölehe ülesanded, mille ees on **➕**, on **lisaülesanded**. Tee neid, kui jõuad, või kui tahad teemat rohkem uurida.
 
 Iga **ploki** lõpus on **🔬 TI-labor** (uurimuslik katse rühmas), praktilised ülesanded, aruteluküsimused ja ploki enesekontrolltest.
 
@@ -501,12 +503,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Tehisintellekti põhisuunad“, „Tehisintellekt ja inimene“, „Tehisintellekt sinu ümber: lühike ülevaade“, „Mäng: tehisaru sorteerimismäng“, „Videod: mis see tehisaru on?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Mis on tehisintellekt?“, „Nõrk, tugev ja superintelligentsus“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas masin tunneb su joonistuse ära?“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded I, III ja VI
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -579,7 +583,7 @@ Vahel jääb mulje, et tänapäeva vestlusrobotid on juba „peaaegu inimesed“
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Kõik praegu kasutusel olevad tehisintellekti süsteemid – ka kõige nutikamad vestlusrobotid – on **nõrk tehisintellekt**. Tugev tehisintellekt eksisteerib seni vaid teoorias ja ulmeteostes.
 
-### ➕ Tehisintellekti põhisuunad
+### 🏠 Tehisintellekti põhisuunad
 
 Tehisintellekt on suur valdkond, mis jaguneb mitmeks suunaks. Igaüks neist tegeleb erinevat liiki probleemidega.
 
@@ -613,7 +617,7 @@ Tehisintellekti ajaloos on olnud kaks suurt lähenemisviisi. **Sümboolne tehisi
 >
 > ![Kolm üksteise sees olevat ovaali: kõige suurem on tehisintellekt, selle sees masinõpe ja kõige sisemine süvaõpe.](pildid/plokk_1/1_1_matrjoska.svg "Joonis 1.1.4. Süvaõpe on masinõppe osa ja masinõpe on tehisintellekti osa")
 
-### ➕ Tehisintellekt ja inimene
+### 🏠 Tehisintellekt ja inimene
 
 Kas tehisintellekt on targem kui inimene? Sellele küsimusele ei ole ühest vastust, sest tehisintellektil ja inimesel on erinevad tugevused ja nõrkused.
 
@@ -642,7 +646,7 @@ Kõige tähtsam järeldus on see, et tehisintellekt ja inimene **täiendavad tei
 > 1. Too näide ülesandest, mida tehisintellekt teeb sinust paremini, ja ülesandest, mida sina teed paremini kui ükski tehisintellekt.
 > 2. Kas sinu arvates võib tehisintellekt kunagi saavutada inimese taseme intelligentsuse? Mis peaks selleks muutuma?
 
-### ➕ Tehisintellekt sinu ümber: lühike ülevaade
+### 🏠 Tehisintellekt sinu ümber: lühike ülevaade
 
 Tehisintellekt ei sündinud üleöö. Juba 1950. aastal avaldas Briti matemaatik **Alan Turing** artikli „Computing Machinery and Intelligence“ ja pakkus välja **<span class="pae-term" tabindex="0" data-def="Turingi test: Alan Turingi pakutud katse: kas inimene suudab vestluse põhjal eristada masinat inimesest">Turingi testi</span>**: kui inimene vestleb kirjalikult nii teise inimese kui ka masinaga ega suuda vastuste põhjal öelda, kumb on kumb, võib masinat pidada intelligentseks. 1956. aastal toimus Dartmouthi konverents, mille taotluses oli **John McCarthy** võtnud kasutusele termini „tehisintellekt“. Sellest ajast saadik on olnud nii suuri lootusi kui ka pettumusi. Mõned verstapostid:
 
@@ -674,7 +678,7 @@ Tänapäeval on tehisintellekt igal pool. **Virtuaalsed assistendid** (Siri, Ale
 > - TED-i ettekanne **„The incredible inventions of intuitive AI“** (Maurice Conti) näitab, kuidas tehisintellekt aitab disaineritel ja inseneridel.
 > - Raamat **„Superintelligence: Paths, Dangers, Strategies“** (Nick Bostrom) arutleb, mis võib juhtuda, kui tehisintellekt kunagi inimest ületab.
 
-### ➕ Mäng: tehisaru sorteerimismäng
+### 🏠 Mäng: tehisaru sorteerimismäng
 
 Kas tunned ära, millal tehisaru (tehisintellekt) on mängus? Sorteeri 48 tegevust kahte rühma: **tehisaru abil toimuv tegevus** ja **tehisaru abita toimuv tegevus**. Igal kaardil on pilt, tegevuse kirjeldus ja nurgas täht või sümbol. Mäng toimub neljas voorus, igas voorus on 12 kaarti. Pärast iga vooru vajuta **Kontrolli**.
 
@@ -805,7 +809,7 @@ Algoritm ei tea „tõde“. See leiab andmetest mustreid ja teeb tõenäosuslik
 
 [[___ ___ ___]]
 
-### ➕ 🎬 Videod: mis see tehisaru on?
+### 🏠 🎬 Videod: mis see tehisaru on?
 
 Sellel lehel on 2 videot. Iga video ees on lühike kokkuvõte, mis aitab sul valida.
 
@@ -1214,12 +1218,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Juured: unistus mõtlevast masinast“, „Teine revolutsioon: masinõpe (1980–2010)“, „Miks just nüüd? Viis kasvu tegurit“, „Tehisintellekti ajaloo õppetunnid ja tulevik“, „Video: <span class="pae-term" tabindex="0" data-def="„kibe õppetund“ (The Bitter Lesson): Rich Suttoni (2019) tähelepanek, et pikas plaanis võidavad üldised meetodid, mis kasutavad arvutusvõimsust (õppimine, otsing), käsitsi kirjutatud inimteadmiste üle">„Kibe õppetund“ (The Bitter Lesson)</span>“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe ja vaata** (~13 min): „Esimene revolutsioon: <span class="pae-term" tabindex="0" data-def="sümboolne tehisintellekt: Reeglitel ja loogikal põhinev lähenemine tehisintellektile">sümboolne tehisintellekt</span> (1950–1980)“, „Kolmas revolutsioon: <span class="pae-term" tabindex="0" data-def="süvaõpe: Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke">süvaõpe</span> ja generatiivne tehisintellekt (2010–…)“ ja „Kokkuvõte ja põhimõisted“ ning 3-minutiline video „Kust tuli tehisaru?“, mis annab ülevaate kogu ajaloost
 > 2. 🧪 **TI-katse** (~10 min): „Pildi-Turingi test“
 > 3. ⭐ **Tööleht** (~14 min): ülesanded III, V ja VII
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -1232,7 +1238,7 @@ Tehisintellekti ajalugu algas juba 1950. aastatel. Alan Turing pakkus välja tes
 
 </section>
 
-### ➕ Juured: unistus mõtlevast masinast
+### 🏠 Juured: unistus mõtlevast masinast
 
 Tehisintellekti ajalugu ulatub kaugemale kui arvutid ise. See on teekond filosoofilistest ideedest tänapäeva keerukate süsteemideni. Juba ammu enne esimest arvutit küsisid inimesed: mis on mõtlemine ja kas seda saaks kuidagi reeglitesse panna?
 
@@ -1285,7 +1291,7 @@ Peagi selgus aga, et ootused olid liiga suured. Arvutid olid aeglased, algoritmi
 
 1980. aastatel tulid ekspertsüsteemid uuesti esile, seekord **äris**. Näiteks **XCON** aitas konfigureerida arvuteid, teised süsteemid aitasid finantsplaneerimisel ja tootmise optimeerimisel. 1982. aastal käivitas Jaapan suure **„viienda põlvkonna“ arvutiprojekti**. Kuid ekspertsüsteemidel olid tõsised puudused: nende hooldus oli keeruline ja kallis, sest iga uus olukord nõudis uusi käsitsi kirjutatud reegleid; nad ei kohanenud muutustega ja neid oli raske laiendada. Spetsialiseeritud tehisintellekti riistvara ebaõnnestus ja personaalarvutite levik muutis kallid suured süsteemid tarbetuks. Algas **teine tehisintellekti talv (1987–1993)**: ettevõtteid suleti, rahastus vähenes ja paljud teadlased vältisid isegi sõna „tehisintellekt“.
 
-### ➕ Teine revolutsioon: masinõpe (1980–2010)
+### 🏠 Teine revolutsioon: masinõpe (1980–2010)
 
 Teise revolutsiooni põhiidee oli lihtne, kuid murranguline: selle asemel et masinale reegleid ette kirjutada, **las masin õpib ise andmetest**.
 
@@ -1340,7 +1346,7 @@ Teise revolutsiooni põhiidee oli lihtne, kuid murranguline: selle asemel et mas
 
 Generatiivne tehisintellekt muutis tehisintellekti kättesaadavaks igapäevakasutajatele: selle kasutamiseks ei pea olema programmeerija, piisab tavakeelsest küsimusest.
 
-### ➕ Miks just nüüd? Viis kasvu tegurit
+### 🏠 Miks just nüüd? Viis kasvu tegurit
 
 Miks toimus läbimurre just 2010. aastatel, kui paljud ideed (näiteks närvivõrgud) olid olemas juba aastakümneid? Põhjuseks on viie teguri koosmõju:
 
@@ -1359,7 +1365,7 @@ Nende tegurite koosmõju lõi võimendava efekti, mis kiirendas arengut eriti al
 >
 > Eestil on tehisintellekti ja arvutiteaduse alal pikk ajalugu. 1960. aastal asutati Tallinnas **Küberneetika Instituut**, kus tegeleti juba nõukogude ajal arvutiteaduse ja automaatikaga. Pärast taasiseseisvumist 1990. aastatel avanesid uued suunad. 2000. aastatel arenes **keeletehnoloogia** – eesti keele arvutitöötlus ja masintõlge. Alates 2010. aastatest on Eestis sündinud tehisintellekti kasutavaid idufirmasid (Bolt, Veriff, Starship, Lingvist) ja ülikoolides töötavad tehisintellekti uurimisrühmad. Riik on koostanud tehisintellekti tegevuskavu ehk **kratikavasid** (2019–2021, 2022–2023 ja 2024–2026) ning arendab virtuaalassistentide võrgustikku **Bürokratt**.
 
-### ➕ Tehisintellekti ajaloo õppetunnid ja tulevik
+### 🏠 Tehisintellekti ajaloo õppetunnid ja tulevik
 
 Tehisintellekti ajalugu on kulgenud **lainetena**: optimism → pettumus → uued läbimurded. Mõlemad talved said alguse sellest, et lubati rohkem, kui tehnoloogia suutis pakkuda. Ajaloost saab õppida, et:
 
@@ -1398,7 +1404,7 @@ TI-Hüppe lühivideo näitab, et tehisaru areng on kulgenud lainetena: suurtele 
 
 [[___ ___ ___]]
 
-### ➕ 🎬 Video: „Kibe õppetund“ (The Bitter Lesson)
+### 🏠 🎬 Video: „Kibe õppetund“ (The Bitter Lesson)
 
 Tehisintellekti ajaloos kordub üks muster nii sageli, et sellel on oma nimi. Arvutiteadlane **Rich Sutton** kirjutas 2019. aastal lühikese essee „The Bitter Lesson“ („Kibe õppetund“). Vaata Ethan Mollicki videot, mis selgitab seda mõtet laulu kaudu. Video on inglise keeles. Lülita vajaduse korral sisse subtiitrid (**CC**) ja automaatne tõlge.
 
@@ -1499,8 +1505,8 @@ Turingi testis püüab inimene vestluse põhjal eristada masinat inimesest. Proo
 - TI-Hüpe. [Kust tuli tehisaru?](https://tihupe.ee/oppematerjal/kust-tuli-tehisaru/) Video ja õppematerjal 10.–12. klassile sellest, kuidas vaimustuse ja pettumuse lained on tehisaru arengut kujundanud; sobib lisalugemiseks.
 - Vilo, J. (2023). [Tehisintellekt on saanud järgmise vahevõidu](https://www.akadeemia.ee/wp-content/uploads/2023/02/teadlase-pilguga.-jaak-vilo.-18.02.23.pdf). Postimees, rubriik „Teadlase pilguga“ (Eesti Teaduste Akadeemia). Tartu Ülikooli professor selgitab eesti keeles ekspertsüsteemide piire, masinõppe tõusu ja ChatGPT tausta.
 - Computer History Museum. [The 1956 Dartmouth Workshop and its Immediate Consequences](https://computerhistory.org/events/1956-dartmouth-workshop-its-immediate/). Dartmouthi konverentsi taust ja 1955. aasta taotlus, kus esines esimest korda termin *artificial intelligence* (inglise keeles).
-- Wikipedia. [Bitter lesson](https://en.wikipedia.org/wiki/Bitter_lesson). Rich Suttoni 2019. aasta essee „The Bitter Lesson“ kokkuvõte ja viide originaalile (inglise keeles).
-- Wikipedia. [AlphaGo versus Lee Sedol](https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol). 2016. aasta matši käik ja tulemus 4 : 1 (inglise keeles).
+- Sutton, R. (2019). [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html). Rich Suttoni algupärane essee: 70 aasta TI-uuringute põhiõppetund (inglise keeles).
+- Google DeepMind (s.a.). [AlphaGo](https://deepmind.google/research/alphago/). AlphaGo arendajate ülevaade matšidest Fan Hui ja Lee Sedoliga, sh kuulus 37. käik ja Lee Sedoli 78. käik (inglise keeles).
 - Riigi Infosüsteemi Amet. [Krattide visioon ja kavad](https://www.kratid.ee/kratt-visioon). Eesti tehisintellekti tegevuskavad ehk kratikavad 2019–2021, 2022–2023 ja 2024–2026.
 
 ### Tööleht 1.2
@@ -1866,12 +1872,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Tehisintellekt tervishoius ja teaduses“, „Tehisintellekt transpordis“, „Tehisintellekt hariduses, äris ja tööstuses“, „Video: tehisintellekt ärimaailmas“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Tehisintellekt igapäevaelus“, „Loov tehisintellekt ja avalik sektor“, „Eelised, piirangud ja mõju tööturule“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kus masintõlge komistab?“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded II, IV ja VI
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -1918,7 +1926,7 @@ Enamik suuri platvorme kasutab **hübriidsüsteeme**, mis ühendavad mõlemad p�
 
 Igapäevaeluga on seotud ka **sotsiaalmeedia filtrid**, mis personaliseerivad ja modereerivad sisu, **näotuvastus** telefoni avamisel ning **masintõlge** (Google Translate, DeepL).
 
-### ➕ Tehisintellekt tervishoius ja teaduses
+### 🏠 Tehisintellekt tervishoius ja teaduses
 
 Tervishoius aitab tehisintellekt arstidel kiiremini ja täpsemini töötada:
 
@@ -1937,7 +1945,7 @@ Teaduses aitab tehisintellekt töödelda suuri andmehulki, leida neist mustreid 
 >
 > Valgud on elu ehituskivid ja nende ülesanne sõltub nende kolmemõõtmelisest kujust. Valgu kuju kindlakstegemine laboris võis varem võtta aastaid. Google DeepMindi loodud **AlphaFold** ennustab valgu struktuuri selle koostise põhjal. See on aidanud teadlastel kiirendada bioloogia- ja ravimiuuringuid ning on üks tuntumaid näiteid tehisintellekti kasutamisest teaduslikes avastustes: AlphaFoldi loojad Demis Hassabis ja John Jumper said 2024. aastal Nobeli keemiaauhinna. Tehisintellekti kasutatakse ka uute materjalide disainimisel ja kosmose uurimisel.
 
-### ➕ Tehisintellekt transpordis
+### 🏠 Tehisintellekt transpordis
 
 Transpordis on tehisintellekti kõige silmapaistvam rakendus **isejuhtivad ehk isesõitvad sõidukid**: autod, bussid ja droonid, mis liiguvad ilma inimjuhita. Need kasutavad:
 
@@ -1957,7 +1965,7 @@ Tehisintellekt aitab ka **optimeerida liiklusvooge** ja vähendada ummikuid, arv
 >
 > **Bolt** kasutab tehisintellekti nõudluse ennustamiseks, hindade optimeerimiseks ja sõitude sobitamiseks: süsteem püüab ennustada, kus ja millal sõitu vajatakse, ning leida igale tellimusele sobiva juhi. **Starship Technologies** on loonud isesõitvad kullerrobotid, mis navigeerivad arvutinägemise ja tehisintellekti abil kõnniteedel ning toimetavad kohale pakke ja toitu. Neid roboteid võid kohata näiteks Tallinna tänavatel, kus need veavad 2024. aastast ka Bolti kaudu tellitud toidukaupu.
 
-### ➕ Tehisintellekt hariduses, äris ja tööstuses
+### 🏠 Tehisintellekt hariduses, äris ja tööstuses
 
 **Hariduses** saab tehisintellekt kohandada õppimist iga õppija järgi. **<span class="pae-term" tabindex="0" data-def="personaliseeritud õpe: Õppimine, mida tehisintellekt kohandab õppija taseme ja vajaduste järgi">Personaliseeritud õpe</span>** tähendab, et süsteem tuvastab sinu taseme ja pakub sobiva raskusega ülesandeid ning individuaalset tagasisidet. **Intelligentsed tuutorid** vastavad küsimustele ja juhendavad. Tehisintellekt aitab ka **tuvastada õpilünki**, **hinnata** töid automaatselt, **tuvastada plagiaati** ja analüüsida õppimist (**õppimisanalüütika**). Õpetajale saab see vähendada administratiivset tööd, aidata luua õppematerjale ja jälgida õpilaste edenemist. Näited on Duolingo, Khan Academy, Carnegie Learning ja ALEKS; Eestist pärit on keeleõppeäpp **Lingvist**. Eesti gümnaasiumides on kasutusel ka **TI-Hüppe õpirakendus**, mis on loodud õpilast juhendama, mitte valmis vastuseid ette ütlema.
 
@@ -2021,7 +2029,7 @@ Tulevikus võib tehisintellekt muuta haridust, tööd, vaba aega ja isegi inimes
 >
 > Millist ametit tahaksid tulevikus pidada? Millised selle töö osad võiks tehisintellekt üle võtta ja millised jääksid kindlasti inimesele? Milliseid oskusi peaksid seetõttu juba praegu arendama?
 
-### ➕ 🎬 Video: tehisintellekt ärimaailmas
+### 🏠 🎬 Video: tehisintellekt ärimaailmas
 
 Videoõpsi lühivideo näitab, kuidas tehisintellekt muudab ettevõtlust ja tööturgu. Videos tuleb juttu ka Eesti riigi kratist ja sellest, milliste oskustega töötajaid on tulevikus rohkem või vähem vaja.
 
@@ -2535,7 +2543,7 @@ Kirjelda lühidalt oma rühma valdkonda ja kõige huvitavamat leitud rakendust. 
 **Kasulikud lingid:**
 
 - [A Brief History of AI – AITopics](https://aitopics.org/misc/brief-history)
-- [Timeline of Artificial Intelligence – Wikipedia](https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence)
+- Roser, M. (2022). [The brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai). Our World in Data, ülevaade TI arengust koos andmete ja allikaviidetega (inglise keeles).
 - [The History of Artificial Intelligence – Harvard University](https://sitn.hms.harvard.edu/flash/2017/history-artificial-intelligence/)
 
 Milline sündmus teie ajajoonel on sinu arvates kõige olulisem ja miks?
@@ -3074,12 +3082,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Kui hea on algoritm?“, „Algoritmid ja inimene – ning algoritmid Eestis“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Mis on algoritm?“, „Kuidas algoritme kirja panna“, „Algoritmide tüübid tehisintellektis“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kuidas leiab navigeerija tee?“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja VI
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -3195,7 +3205,7 @@ Neist räägime põhjalikumalt tunnis 2.3.
 >
 > **Traditsioonilises algoritmis** kirjutab inimene kõik reeglid ise ette. **Masinõppe algoritm** leiab reeglid ise näidete ehk andmete põhjal. Traditsiooniline algoritm on läbipaistvam, masinõppe algoritm aga kohanemisvõimelisem.
 
-### ➕ Kui hea on algoritm?
+### 🏠 Kui hea on algoritm?
 
 Üht ülesannet saab lahendada mitme eri algoritmiga. Kuidas otsustada, milline on parem? Selleks hinnatakse algoritme mitme kriteeriumi järgi.
 
@@ -3247,7 +3257,7 @@ TI-algoritmidel on veel mõni tüüpiline mure, millega selles plokis kohtud:
 >
 > Millised ülesanded on algoritmile lihtsad, aga inimesele rasked? Ja vastupidi – mis on sulle lihtne, aga arvutile raske? Mõtle näiteks 1000 arvu sorteerimisele, sõbra näoilme tõlgendamisele ja nalja mõistmisele.
 
-### ➕ Algoritmid ja inimene – ning algoritmid Eestis
+### 🏠 Algoritmid ja inimene – ning algoritmid Eestis
 
 Algoritmid ja inimese mõtlemine on mõnes mõttes sarnased: mõlemad töötlevad infot, võivad õppida kogemustest ja teha andmete põhjal järeldusi. Erinevusi on aga rohkem. Inimesed mõistavad paremini konteksti, on loovamad ning kasutavad intuitsiooni ja emotsioone. Algoritmid arvutavad kiiremini, ei väsi ega lähe tujust välja, kuid järgivad rangelt ette antud reegleid. Tehisintellekti eesmärk ei ole tingimata inimese mõtlemise täpne kopeerimine, vaid inimese võimete täiendamine ja laiendamine.
 
@@ -3711,12 +3721,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Andmetüübid ja andmete kogumine“, „<span class="pae-term" tabindex="0" data-def="suurandmed: Väga suured, kiiresti muutuvad ja mitmekesised andmehulgad (5V)">Suurandmed</span> ja andmekaitse“, „Andmed Eestis“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Miks andmed on nii olulised?“, „Andmete ettevalmistamine ja jagamine“, „Andmete kvaliteet ja kallutatus“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Mida õpib TI miljonitest joonistustest?“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded III, V ja VII
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -3753,7 +3765,7 @@ Oluline tähelepanek: **sama algoritm, aga erinevad andmed annavad erinevad tule
 
 Eri TI-valdkonnad vajavad eri andmeid. Masinõppe juhendatud õpe vajab **märgendatud andmeid** (andmeid, millele on lisatud õige vastus), keeletöötlus vajab suuri tekstikogusid ehk korpusi (masintõlke jaoks paralleelkorpusi, kus sama tekst on mitmes keeles), arvutinägemine vajab märgendatud pilte ja videoid ning soovitussüsteemid kasutajate käitumisandmeid.
 
-### ➕ Andmetüübid ja andmete kogumine
+### 🏠 Andmetüübid ja andmete kogumine
 
 TI-süsteemid töötavad mitut tüüpi andmetega ja andmete tüübist sõltub, kuidas neid töödeldakse.
 
@@ -3851,9 +3863,9 @@ Kallutatust on mitut liiki.
 >
 > Kujuta ette, et kool tahab luua TI, mis ennustab, kes õpilastest vajab lisaõpet. Andmed kogutakse ainult nende õpilaste kohta, kes on viimase kahe aasta jooksul ise järeleaitamistundi tulnud. Millist liiki kallutatus siin võib tekkida? Keda see süsteem võib märkamata jätta?
 
-### ➕ Suurandmed ja andmekaitse
+### 🏠 Suurandmed ja andmekaitse
 
-**<span class="pae-term" tabindex="0" data-def="suurandmed: Väga suured, kiiresti muutuvad ja mitmekesised andmehulgad (5V)">Suurandmed</span>** (*Big Data*) on andmehulgad, mis on nii suured, keerukad ja kiiresti muutuvad, et tavalised andmetöötlusvahendid nendega toime ei tule. Suurandmeid kirjeldatakse sageli **viie V** abil:
+**Suurandmed** (*Big Data*) on andmehulgad, mis on nii suured, keerukad ja kiiresti muutuvad, et tavalised andmetöötlusvahendid nendega toime ei tule. Suurandmeid kirjeldatakse sageli **viie V** abil:
 
 | V | Eesti keeles | Tähendus |
 |---|---|---|
@@ -3881,7 +3893,7 @@ Privaatsust aitavad kaitsta ka tehnilised võtted: **anonüümimine** (isikut tu
 
 Lisaks seadustele tuleb arvestada eetiliste küsimustega: kas inimesed on andnud **nõusoleku**, kas andmete kasutamine on **läbipaistev**, kas see on **õiglane** kõigi rühmade suhtes ja kes **vastutab**, kui midagi läheb valesti.
 
-### ➕ Andmed Eestis
+### 🏠 Andmed Eestis
 
 Eesti on tuntud e-riigina, mille teenused põhinevad andmete tõhusal ja turvalisel kasutamisel.
 
@@ -4357,12 +4369,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „<span class="pae-term" tabindex="0" data-def="juhendamata õpe: Mustrite otsimine märgendamata andmetest">Juhendamata õpe</span> ja stiimulõpe“, „Masinõppe protsess“, „Masinõpe Eestis ja maailmas“, „Video: kuidas tehisaru töötab?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Mis on masinõpe?“, „<span class="pae-term" tabindex="0" data-def="juhendatud õpe: Õppimine märgendatud andmetest, kus õige vastus on teada">Juhendatud õpe</span>“, „<span class="pae-term" tabindex="0" data-def="ülesobitamine: Mudel õpib treeningandmed pähe ega üldista uutele andmetele">Ülesobitamine</span> ja <span class="pae-term" tabindex="0" data-def="alasobitamine: Mudel on liiga lihtne ega taba andmete seaduspärasusi">alasobitamine</span>“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Treeni helituvastaja ja proovi seda petta“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja VI
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -4449,9 +4463,9 @@ Kuidas teada saada, kas mudel töötab hästi? Selleks kasutatakse **hindamismõ
 
 Regressiooni puhul mõõdetakse, kui palju ennustused keskmiselt tegelikest väärtustest erinevad.
 
-### ➕ Juhendamata õpe ja stiimulõpe
+### 🏠 Juhendamata õpe ja stiimulõpe
 
-**<span class="pae-term" tabindex="0" data-def="juhendamata õpe: Mustrite otsimine märgendamata andmetest">Juhendamata õpe</span>** (*unsupervised learning*) sarnaneb iseseisva avastamisega. Mudel saab **märgendamata andmed** – keegi ei ütle, mis on õige vastus – ja peab ise leidma andmetes peituvad mustrid ja struktuurid. See on eriti kasulik siis, kui andmeid on palju, aga nende struktuuri kohta teatakse vähe, või siis, kui märgendamine oleks liiga kallis.
+**Juhendamata õpe** (*unsupervised learning*) sarnaneb iseseisva avastamisega. Mudel saab **märgendamata andmed** – keegi ei ütle, mis on õige vastus – ja peab ise leidma andmetes peituvad mustrid ja struktuurid. See on eriti kasulik siis, kui andmeid on palju, aga nende struktuuri kohta teatakse vähe, või siis, kui märgendamine oleks liiga kallis.
 
 Peamised juhendamata õppe ülesanded on:
 
@@ -4491,7 +4505,7 @@ Stiimulõppe üks huvitavamaid probleeme on **uurimise ja ärakasutamise dilemma
 > 2) Kool tahab ennustada, kas õpilane sooritab eksami, ja tal on andmed eelmiste aastate õpilaste kohta koos nende tulemustega.
 > 3) Robot-tolmuimeja peab ise õppima, kuidas korteris kõige kiiremini koristada.
 
-### ➕ Masinõppe protsess
+### 🏠 Masinõppe protsess
 
 Masinõppe projekt ei ole lihtsalt „anna arvutile andmed“. See koosneb mitmest etapist, mida korratakse sageli mitu korda.
 
@@ -4549,7 +4563,7 @@ Võrdle seda kontrolltööks õppimisega. Õpilane, kes õpib pähe ainult õpik
 
 Hea masinõppe mudel leiab nende kahe vahel tasakaalu: see tabab andmetes olulised seaduspärasused, kuid ei õpi pähe juhuslikku müra.
 
-### ➕ Masinõpe Eestis ja maailmas
+### 🏠 Masinõpe Eestis ja maailmas
 
 Masinõpet kasutatakse peaaegu kõikjal: rahanduses pettuste tuvastamiseks ja riskide hindamiseks, tervishoius diagnostikas ja ravimiarenduses, turunduses klientide rühmitamiseks ja soovitusteks, transpordis isesõitvates sõidukites ja logistikas, tootmises kvaliteedikontrolliks ja seadmete rikete ennustamiseks, põllumajanduses saagi ennustamiseks ja taimehaiguste tuvastamiseks ning meelelahutuses soovitussüsteemides ja mängudes.
 
@@ -4569,7 +4583,7 @@ Masinõppel on ka väljakutseid: andmete kvaliteet ja hulk, kallutatus ja õiglu
 >
 > Masinõpet saad ise proovida ilma programmeerimata. **Google'i Teachable Machine** (teachablemachine.withgoogle.com) lubab veebikaamera abil mõne minutiga treenida mudeli, mis tunneb ära sinu žeste või esemeid. **Machine Learning for Kids** (machinelearningforkids.co.uk) pakub lihtsaid projekte, kus saad oma mudelit treenida ja testida. Pane tähele, kuidas mudeli tulemus muutub, kui annad talle vähem, rohkem või ühekülgsemaid näiteid!
 
-### ➕ 🎬 Video: kuidas tehisaru töötab?
+### 🏠 🎬 Video: kuidas tehisaru töötab?
 
 TI-Hüppe video vaatab tehisaru „kapoti alla“. Lihtsate näidetega selgitatakse, kuidas tehisaru õpib treeningandmetest mustreid ja ennustab kõige tõenäolisemat vastust. Sellest tulenevad ka tehisaru piirid: vead, hallutsinatsioonid, keskpärased vastused, kallutatus ja liigne nõustumine kasutajaga.
 
@@ -5055,12 +5069,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Kuidas <span class="pae-term" tabindex="0" data-def="närvivõrk: Omavahel ühendatud tehisneuronitest koosnev arvutusmudel">närvivõrk</span> õpib: viga, <span class="pae-term" tabindex="0" data-def="tagasilevi: Algoritm, mis arvutab, kuidas muuta kaalusid vea vähendamiseks">tagasilevi</span> ja <span class="pae-term" tabindex="0" data-def="gradientlaskumine: Kaalude järkjärguline muutmine vea vähenemise suunas">gradientlaskumine</span>“, „<span class="pae-term" tabindex="0" data-def="süvaõpe: Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke">Süvaõpe</span> ja selle arhitektuurid“, „Läbimurded, väljakutsed ja süvaõpe Eestis“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Mis on tehisnärvivõrk?“, „Tehisneuron: kaalud, nihe ja aktivatsioon“, „Kihid: neuronitest võrguks“ ja „Kokkuvõte ja põhimõisted“
-> 2. 🧪 **TI-katse** (~10 min): „<span class="pae-term" tabindex="0" data-def="närvivõrk: Omavahel ühendatud tehisneuronitest koosnev arvutusmudel">Närvivõrk</span> õpib punkte eristama“
+> 2. 🧪 **TI-katse** (~10 min): „Närvivõrk õpib punkte eristama“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja VI
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -5092,7 +5108,7 @@ Närvivõrkude ajalugu on pikk:
 
 - **1943** – Warren McCulloch ja Walter Pitts kirjeldasid esimese tehisneuroni mudeli;
 - **1958** – Frank Rosenblatt lõi **pertseptroni**, lihtsa õppiva närvivõrgu;
-- **1980.–1990. aastad** – levis **<span class="pae-term" tabindex="0" data-def="tagasilevi: Algoritm, mis arvutab, kuidas muuta kaalusid vea vähendamiseks">tagasilevi</span>** algoritm, mis võimaldas treenida mitmekihilisi võrke;
+- **1980.–1990. aastad** – levis **tagasilevi** algoritm, mis võimaldas treenida mitmekihilisi võrke;
 - **2010. aastad** – arvutusvõimsuse kasv ja suured andmehulgad tõid kaasa süvaõppe läbimurde;
 - **2024** – John Hopfield ja Geoffrey Hinton said tehisnärvivõrkudel põhineva masinõppe alusuuringute eest Nobeli füüsikaauhinna.
 
@@ -5165,7 +5181,7 @@ Närvivõrgus on kahte liiki väärtusi. **Kaalud ja nihked** õpib võrk treeni
 >
 > Kujuta ette närvivõrku, mis peab ennustama, kas õpilane sooritab eksami. Millised oleksid sisendkihi neuronid? Mitu neuronit peaks olema väljundkihis? Mida võiksid peidetud kihid sinu arvates „märgata“?
 
-### ➕ Kuidas närvivõrk õpib: viga, tagasilevi ja gradientlaskumine
+### 🏠 Kuidas närvivõrk õpib: viga, tagasilevi ja gradientlaskumine
 
 Alguses on närvivõrgu kaalud juhuslikud ja võrk „arvab“ täiesti suvaliselt. Treenimise eesmärk on leida sellised kaalud ja nihked, et võrgu vastused oleksid võimalikult õiged. Treenimine käib tsüklina, mida korratakse tuhandeid või miljoneid kordi:
 
@@ -5186,7 +5202,7 @@ Alguses on närvivõrgu kaalud juhuslikud ja võrk „arvab“ täiesti suvalise
 >
 > Klient kaebab, et supp on liiga soolane. Peakokk ei karista kogu kööki ühtemoodi, vaid uurib ahelat tagurpidi: kes supi serveeris, kes maitsestas, kes puljongi keetis. Kes vea tekkimisele rohkem kaasa aitas, peab oma tegevust rohkem muutma. Nii teeb ka tagasilevi: kaalud, mis vea tekkimises suuremat rolli mängisid, saavad suurema paranduse.
 
-Kuidas aga teada, millises suunas kaalu muuta? Seda teeb **<span class="pae-term" tabindex="0" data-def="gradientlaskumine: Kaalude järkjärguline muutmine vea vähenemise suunas">gradientlaskumine</span>**. Kujuta ette, et seisad paksus udus mäenõlval ja tahad jõuda orgu (kõige väiksema veani). Sa ei näe kaugele, aga tunned jalgadega, kuhu poole maapind langeb. Teed sammu allamäge, tunned uuesti, teed järgmise sammu – ja nii kuni jõuad oru põhja.
+Kuidas aga teada, millises suunas kaalu muuta? Seda teeb **gradientlaskumine**. Kujuta ette, et seisad paksus udus mäenõlval ja tahad jõuda orgu (kõige väiksema veani). Sa ei näe kaugele, aga tunned jalgadega, kuhu poole maapind langeb. Teed sammu allamäge, tunned uuesti, teed järgmise sammu – ja nii kuni jõuad oru põhja.
 
 ![Veakõver, mida mööda pall liigub samm-sammult allamäge: alguses on viga suur, teel on väike lohk ehk lokaalne miinimum ja lõpus oru põhi, kus viga on väikseim.](pildid/plokk_2/2_4_gradient.svg "Joonis 2.4.6. Gradientlaskumine: samm-sammult väiksema vea poole")
 
@@ -5217,10 +5233,10 @@ Treenimisel võib tekkida probleeme:
 - **lokaalne miinimum** – gradientlaskumine võib jääda kinni väikesesse „lohku“, mis ei ole kõige sügavam org;
 - **aeglane treenimine** – suurte võrkude treenimine võib kesta päevi või nädalaid; abi on nutikamatest optimeerijatest (nt Adam) ja võimsamast riistvarast.
 
-### ➕ Süvaõpe ja selle arhitektuurid
+### 🏠 Süvaõpe ja selle arhitektuurid
 
 <!-- class="pae-moiste" -->
-> **Mõiste: <span class="pae-term" tabindex="0" data-def="süvaõpe: Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke">süvaõpe</span>**
+> **Mõiste: süvaõpe**
 >
 > **Süvaõpe** (*deep learning*) on masinõppe alamvaldkond, mis kasutab **mitme peidetud kihiga närvivõrke** (süvanärvivõrke). Sõna „süva“ viitab kihtide rohkusele ehk võrgu „sügavusele“, mitte mõtete sügavusele.
 
@@ -5241,7 +5257,7 @@ Eri ülesannete jaoks on välja töötatud eri tüüpi võrgud ehk **arhitektuur
 
 Transformerite läbimurre algas 2017. aastal teadusartikliga „Attention Is All You Need“ („Tähelepanu on kõik, mida vajad“). Tähelepanumehhanismi saab ette kujutada nii: lauses „Mari pani raamatu kotti, sest **see** oli raske“ peab mudel aru saama, et „see“ viitab raamatule, mitte kotile ega Marile. Tähelepanumehhanism aitab mudelil leida, millised sõnad on omavahel seotud, isegi kui need on lauses kaugel.
 
-### ➕ Läbimurded, väljakutsed ja süvaõpe Eestis
+### 🏠 Läbimurded, väljakutsed ja süvaõpe Eestis
 
 Süvaõpe on toonud kaasa rea läbimurdeid:
 
@@ -5763,12 +5779,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Tehisintellekt hariduses“, „Transport, tootmine ja põllumajandus“, „Rahandus ja meelelahutus“, „Videod: tehisaru teaduses“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Tehisintellekt tervishoius ja teaduses“, „Avalik sektor ja tehisintellekt Eestis“, „Mõju tööturule ja eetilised küsimused“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas masintõlge saab eesti keelest aru?“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded II, IV ja VI
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -5816,7 +5834,7 @@ Eelmistes tundides said teada, kuidas TI „kapoti all“ töötab. Nüüd vaata
 >
 > 2026. aasta jaanuaris käivitatud riiklik TI-programm **Eesti.ai** seab üheks esimeseks prioriteediks tervishoiu. Plaanis on, et TI aitab perearstidel ja kiirabil vestlusi üles kirjutada ning kokkuvõtteid koostada, et arstil jääks rohkem aega patsiendi jaoks. Arstid rõhutavad, et terviseandmed on eriti tundlikud ja neid tuleb hoolikalt kaitsta.
 
-### ➕ Tehisintellekt hariduses
+### 🏠 Tehisintellekt hariduses
 
 TI pakub uusi võimalusi nii õpilastele kui ka õpetajatele.
 
@@ -5836,7 +5854,7 @@ TI pakub uusi võimalusi nii õpilastele kui ka õpetajatele.
 >
 > Kui TI hindaks sinu kirjandit, siis mida see sinu arvates märkaks hästi ja mida võiks kahe silma vahele jätta? Millises olukorras sooviksid, et sinu tööd hindaks kindlasti inimene?
 
-### ➕ Transport, tootmine ja põllumajandus
+### 🏠 Transport, tootmine ja põllumajandus
 
 **Transport** muutub TI abil ohutumaks, tõhusamaks ja keskkonnasõbralikumaks.
 
@@ -5858,7 +5876,7 @@ TI pakub uusi võimalusi nii õpilastele kui ka õpetajatele.
 >
 > **AI & Robotics Estonia (AIRE)** on Tallinna Tehnikaülikooli juhitud keskus, mis nõustab koos partneritega Eesti tööstusettevõtteid TI ja robootika kasutuselevõtul. **Bolt** kasutab TI-d nõudluse ennustamiseks, hindade määramiseks ja sõitude sobitamiseks ning **Milrem Robotics** arendab TI abil navigeerivaid autonoomseid sõidukeid ja roboteid. Euroopa Liidu projekt **LEVITATE** uuris automatiseeritud sõidukite mõju liiklusele ja ühiskonnale.
 
-### ➕ Rahandus ja meelelahutus
+### 🏠 Rahandus ja meelelahutus
 
 **Rahandus** on TI kasutuselevõtus olnud üks eesrindlikumaid valdkondi.
 
@@ -5945,7 +5963,7 @@ Euroopa Liit on nendele küsimustele vastuseks võtnud vastu **Euroopa Liidu teh
 >
 > Kui tahad TI põhimõtetest rohkem teada saada, proovi veebikursust **Elements of AI** (elementsofai.ee). See loodi Soomes ja on tõlgitud ka eesti keelde. Eesti TI-algatuste kohta leiad infot portaalist **kratid.ee**.
 
-### ➕ 🎬 Videod: tehisaru teaduses
+### 🏠 🎬 Videod: tehisaru teaduses
 
 Sellel lehel on 2 videot. Iga video ees on lühike kokkuvõte, mis aitab sul valida.
 
@@ -7103,12 +7121,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Keeletöötluse lühiajalugu“, „Kuidas tekst muudetakse arvudeks“, „Keeletöötlus eesti keeles ja valdkonna väljakutsed“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Mis on loomuliku keele töötlus?“, „Kuidas arvuti teksti „loeb“: keeletöötluse põhiülesanded“, „Keelemudelid ja <span class="pae-term" tabindex="0" data-def="transformer: 2017. aastal tutvustatud närvivõrgu arhitektuur, suurte keelemudelite alus">transformerid</span>“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Mitmeks tokeniks lause jaguneb?“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded II, VI ja VII
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -7147,7 +7167,7 @@ Miks on inimkeel arvutile nii raske? Põhjuseid on mitu.
 >
 > Juba ühe tavalise päeva jooksul kasutad mitut keeletöötluse rakendust. Klaviatuur pakub sõnumit kirjutades järgmist sõna ja parandab trükivead. E-posti postkast suunab rämpskirjad eraldi kausta. Tõlkerakendus muudab võõrkeelse menüü arusaadavaks. Häälassistent kuulab, mida sa ütled, ja vastab. Kõigi nende taga on loomuliku keele töötlus.
 
-### ➕ Keeletöötluse lühiajalugu
+### 🏠 Keeletöötluse lühiajalugu
 
 Loomuliku keele töötlus ei ole uus valdkond – sellega on tegeldud juba üle seitsmekümne aasta. Areng on liikunud käsitsi kirjutatud reeglitelt statistikani ning sealt masinõppe ja süvaõppeni.
 
@@ -7193,7 +7213,7 @@ Tüüpilist keeletöötluse töövoogu võib kujutada nii:
 
 ![Kuuest sammust koosnev keeletöötluse töövoog: teksti kogumine ja eeltöötlus, tokeniseerimine, lemmatiseerimine, sõnavektorite loomine, keelemudeli rakendamine ja tulemuste analüüs; näitena jagatakse lause „Mari läks kooli.“ tokeniteks ja „kooli“ taandatakse sõnaks „kool“.](pildid/plokk_3/3_1_toru.svg "Joonis 3.1.2. Tüüpiline keeletöötluse töövoog")
 
-### ➕ Kuidas tekst muudetakse arvudeks
+### 🏠 Kuidas tekst muudetakse arvudeks
 
 Arvuti oskab arvutada ainult arvudega. Seepärast tuleb iga tekst muuta arvuliseks esituseks. Selleks on aja jooksul välja töötatud mitu meetodit.
 
@@ -7268,7 +7288,7 @@ Lisaks neile on loodud palju teisi mudeleid, näiteks Google'i T5, LaMDA, PaLM j
 
 Keeletöötlust kasutatakse paljudes rakendustes. **Masintõlge** (nt Google Translate, DeepL) võimaldab tõlkida isegi reaalajas. **Vestlusrobotid** aitavad klienditeeninduses, töötavad virtuaalsete assistentidena ja õppevahenditena. **Teksti analüüs** hõlmab meelestatuse analüüsi, teemade modelleerimist ja nimeüksuste tuvastamist. **Teksti genereerimist** kasutatakse sisuloomes, kokkuvõtete tegemisel ja loovkirjutamises. Neid rakendusi uurime lähemalt järgmistes tundides.
 
-### ➕ Keeletöötlus eesti keeles ja valdkonna väljakutsed
+### 🏠 Keeletöötlus eesti keeles ja valdkonna väljakutsed
 
 Eesti keel on keeletöötluse jaoks paras pähkel. Põhjusi on kolm.
 
@@ -7752,12 +7772,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Teksti analüüs ja <span class="pae-term" tabindex="0" data-def="teksti klassifitseerimine: Teksti liigitamine etteantud kategooriatesse">teksti klassifitseerimine</span>“, „Teksti kokkuvõtete tegemine“, „Genereerimise juhtimine: parameetrid ja juhised“, „Video: miks ei saa tehisarust head kirjanikku?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Meelestatuse analüüs ja nimeüksuste tuvastamine“, „Kuidas masin teksti loob“, „Väljakutsed, eetika ja eesti keel“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas masin tabab sarkasmi?“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded IV, VI ja VII
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -7770,7 +7792,7 @@ Meelestatuse analüüs näitab, kas tekst on positiivne, negatiivne või neutraa
 
 </section>
 
-### ➕ Teksti analüüs ja teksti klassifitseerimine
+### 🏠 Teksti analüüs ja teksti klassifitseerimine
 
 Iga päev tekib maailmas tohutu hulk teksti: uudised, sotsiaalmeedia postitused, e-kirjad, arvustused, dokumendid. Ükski inimene ei jõua seda kõike läbi lugeda. **Teksti analüüs** aitab suurtest tekstihulkadest automaatselt olulist infot leida ja eraldada.
 
@@ -7785,7 +7807,7 @@ Teksti analüüsi põhiülesanded on:
 | Kokkuvõtete tegemine | Tekstist eraldatakse olulisim ja luuakse lühem versioon | Pika uudise kokkuvõte kolmes lauses |
 
 <!-- class="pae-moiste" -->
-> **Mõiste: <span class="pae-term" tabindex="0" data-def="teksti klassifitseerimine: Teksti liigitamine etteantud kategooriatesse">teksti klassifitseerimine</span>**
+> **Mõiste: teksti klassifitseerimine**
 >
 > Teksti klassifitseerimine on teksti liigitamine etteantud kategooriatesse. Mudel saab sisendiks teksti ja annab väljundiks kategooria, näiteks „rämpspost“ või „tavaline kiri“.
 
@@ -7836,7 +7858,7 @@ Meelestatuse analüüsi rakendatakse toodete ja teenuste tagasiside analüüsimi
 
 Võtame lause: „**Tartu Ülikooli** teadlane **Mari Tamm** esines **12. mail** **Tallinnas**.“ Nimeüksuste tuvastaja märgiks siin organisatsiooni, isiku, kuupäeva ja asukoha. Nimeüksuste tuvastamiseks kasutatakse reeglipõhiseid süsteeme, statistilisi mudeleid (nt CRF) ja süvaõppe mudeleid (nt BiLSTM-CRF ja BERT). Rakendused on infootsing, küsimustele vastamine, teadmiste eraldamine tekstist ja dokumentide indekseerimine. Näiteks saab meditsiinidokumentidest automaatselt üles leida haiguste, ravimite ja protseduuride nimetused.
 
-### ➕ Teksti kokkuvõtete tegemine
+### 🏠 Teksti kokkuvõtete tegemine
 
 Kokkuvõtete tegemine on üks kasulikumaid teksti analüüsi ülesandeid – kujuta ette, et saad saja-leheküljelisest aruandest kätte selle põhisisu ühel lehel. Kokkuvõtteid on kaht tüüpi.
 
@@ -7887,7 +7909,7 @@ Suured keelemudelid suudavad järjest sõnu ennustades säilitada konteksti, koh
 >
 > Kui palud keelemudelil kirjutada „lühike tekst Tallinna vanalinnast“, saad turismibrošüüri stiilis teksti. Kui lisad „…kaheksa-aastasele lapsele, muinasjutu vormis“, muutub nii sõnavara kui ka toon. Kui lisad „…ajalooõpiku stiilis, koos aastaarvudega“, püüab mudel kirjutada faktipõhiselt. Viimasel juhul pead aga eriti hoolikalt kontrollima, kas aastaarvud on õiged – keelemudel võib need ka välja mõelda.
 
-### ➕ Genereerimise juhtimine: parameetrid ja juhised
+### 🏠 Genereerimise juhtimine: parameetrid ja juhised
 
 Genereeritud teksti saab juhtida kahel viisil: tehniliste parameetrite ja kasutaja kirjutatud juhiste abil.
 
@@ -7950,7 +7972,7 @@ Teksti genereerimine on võimas, kuid sellega kaasnevad tõsised ohud.
 
 **Tulevikusuunad.** Tekstitöötlus liigub **multimodaalsete mudelite** poole, mis ühendavad teksti pildi, heli ja videoga. Arendatakse **personaliseeritud genereerimist**, mis õpib kasutaja stiili ja kohandub kontekstiga. Tähtis suund on **faktilisuse parandamine**: teadmiste lõimimine, allikatele viitamine ja faktide kontrollimine. Samuti püütakse luua **eetilisemaid mudeleid**: vähendada kallutatust, suurendada läbipaistvust ja anda kasutajale rohkem kontrolli.
 
-### ➕ 🎬 Video: miks ei saa tehisarust head kirjanikku?
+### 🏠 🎬 Video: miks ei saa tehisarust head kirjanikku?
 
 Kirjanik Kaur Riismaa näitab oma katsetuste põhjal, et tehisaru loob kiiresti veenvat teksti, kuid ka hallutsineerib. Tehisaru koostab olemasoleva põhjal tõenäolisi tekste, mis ei ole tingimata uued ega tõesed. Riismaa sõnul on loomingus olulised inimese enda kogemus, autentsus, katsetamine ja isegi ebaõnnestumine.
 
@@ -8413,12 +8435,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Mis on vestlusagent ja vestlusrobot?“, „Vestlusrobotite ajalugu“, „Rakendused, disain ja hindamine“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Vestlusrobotite tüübid“, „Kuidas vestlusrobot töötab“, „Kuidas vestlusroboti vastuseid kriitiliselt kontrollida“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Vestle ELIZAga“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded II, III ja VI
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -8431,7 +8455,7 @@ Vestlusrobot on programm, mis suhtleb sinuga tavalises keeles. Reeglipõhine rob
 
 </section>
 
-### ➕ Mis on vestlusagent ja vestlusrobot?
+### 🏠 Mis on vestlusagent ja vestlusrobot?
 
 Kui oled kirjutanud e-poe veebilehel nurgas avanevasse aknasse „Kus mu pakk on?“ või küsinud häälassistendilt ilmateadet, oled suhelnud vestlusagendiga.
 
@@ -8444,7 +8468,7 @@ Selles õpikus kasutame sagedamini sõna **vestlusrobot**. Pea meeles, et „rob
 
 Vestlusrobotite areng on läbinud samad etapid nagu keeletöötlus üldiselt: **lihtsad reeglipõhised süsteemid → statistilised mudelid → tehisintellektil põhinevad süsteemid**.
 
-### ➕ Vestlusrobotite ajalugu
+### 🏠 Vestlusrobotite ajalugu
 
 ![Vestlusrobotite ajajoon: ELIZA (1966) matkis psühhoterapeuti, PARRY (1972) paranoilist patsienti, A.L.I.C.E. (1995) arendas mustreid edasi, SmarterChild (2001) töötas AOL-is ja MSN Messengeris, Siri (2011) oli esimene laialdaselt levinud virtuaalne assistent ning 2014. aastast alates tulid Alexa, Google Assistant, ChatGPT jt.](pildid/plokk_3/3_3_ajalugu.svg "Joonis 3.3.1. Vestlusrobotite ajajoon ELIZA-st tänapäevani")
 
@@ -8505,7 +8529,7 @@ Vestlusroboti tööd saab jagada kolmeks põhiosaks.
 
 **Suured keelemudelid vestlusrobotitena.** ChatGPT, Claude, Gemini (varasema nimega Bard) ja teised sarnased vestlusrobotid põhinevad suurtel keelemudelitel. Need on eeltreenitud suurtel tekstikorpustel ja seejärel peenhäälestatud vestlemiseks. Nende tugevused on konteksti mõistmine, pikkade vestluste pidamine, väga mitmekesised teemad ning kohandatav toon ja isikupära. Piirangud on **hallutsinatsioonid** (väljamõeldud faktid), **piiratud kontekstimälu** (väga pika vestluse alguses öeldu võib „ununeda“) ja eetilised küsimused. Selliseid vestlusroboteid arendatakse pidevalt ja uusi versioone ilmub sageli, seega ei ole mõtet õppida pähe, milline neist on parasjagu kõige võimekam – palju olulisem on osata nende vastuseid hinnata.
 
-### ➕ Rakendused, disain ja hindamine
+### 🏠 Rakendused, disain ja hindamine
 
 Vestlusroboteid kasutatakse paljudes valdkondades:
 
@@ -9045,12 +9069,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Masintõlge eesti keele jaoks“, „<span class="pae-term" tabindex="0" data-def="kõnetuvastus: Kõne teisendamine tekstiks">Kõnetuvastus</span> ja <span class="pae-term" tabindex="0" data-def="kõnesüntees: Teksti teisendamine kõneks">kõnesüntees</span>“, „Muud <span class="pae-term" tabindex="0" data-def="keeletehnoloogia: Inimkeelt töötlevate tehnoloogiate üldnimetus">keeletehnoloogiad</span>, rakendused ja tulevik“, „Video: tehisaru ja eesti keel“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Mis on masintõlge ja miks see on raske?“, „Masintõlke ajalugu ja lähenemised“, „Kuidas närvivõrk tõlgib ja kuidas tõlget hinnata“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Tõlkemootori proovikivid“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded II, III ja VI
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -9136,23 +9162,23 @@ Masintõlget kasutatakse veebisaitide tõlkimiseks (ka otse brauseris), äridoku
 >
 > Millistes olukordades usaldad sina masintõlget ja millistes mitte? Kas tõlgiksid masintõlke abil koolikirjandi, sõbrale saadetava sõnumi, arsti juhise või tööpakkumise? Miks just nii?
 
-### ➕ Masintõlge eesti keele jaoks
+### 🏠 Masintõlge eesti keele jaoks
 
 Eesti keele masintõlget raskendavad **piiratud <span class="pae-term" tabindex="0" data-def="paralleelkorpus: Tekstikogu, kus samad tekstid on mitmes keeles">paralleelkorpused</span>** (eesti- ja võõrkeelseid paralleeltekste on vähem kui suurte keelte puhul), **keerukas morfoloogia** ja **vaba sõnajärg**. Kui tõlkesüsteem peab eesti keelde tõlkides valima õige käände ja vormi, on vigade tegemise võimalusi rohkem kui näiteks inglise keelde tõlkides.
 
 <!-- class="pae-eesti" -->
 > **Eesti näide: Neurotõlge**
 >
-> **Neurotõlge** on Tartu Ülikooli <span class="pae-term" tabindex="0" data-def="keeletehnoloogia: Inimkeelt töötlevate tehnoloogiate üldnimetus">keeletehnoloogia</span> töörühma (TartuNLP) loodud närvivõrgupõhine masintõlkesüsteem. See on arendatud spetsiaalselt eesti keelt silmas pidades. 2023. aastal lisandus sellesse 17 väikest soome-ugri keelt, millest enamik jõudis avalikku tõlkemootorisse esimest korda, ning selle tarkvara ja mudelid on avatud lähtekoodiga. Neurotõlge näitab, et ka väikese keele jaoks saab luua kvaliteetseid keeletehnoloogilisi lahendusi, kui teadlased teevad sihipärast tööd ja koguvad selleks vajalikke andmeid.
+> **Neurotõlge** on Tartu Ülikooli keeletehnoloogia töörühma (TartuNLP) loodud närvivõrgupõhine masintõlkesüsteem. See on arendatud spetsiaalselt eesti keelt silmas pidades. 2023. aastal lisandus sellesse 17 väikest soome-ugri keelt, millest enamik jõudis avalikku tõlkemootorisse esimest korda, ning selle tarkvara ja mudelid on avatud lähtekoodiga. Neurotõlge näitab, et ka väikese keele jaoks saab luua kvaliteetseid keeletehnoloogilisi lahendusi, kui teadlased teevad sihipärast tööd ja koguvad selleks vajalikke andmeid.
 
 Lisaks Neurotõlkele toetavad eesti keelt ka rahvusvahelised teenused, näiteks **Google Translate**, **Microsoft Translator** ja **DeepL**. Arengusuunad on suuremad paralleelkorpused, spetsiaalselt eesti keele jaoks loodud mudelid ja **valdkonnapõhised tõlkesüsteemid** (nt meditsiini- või õigustekstide tõlkimiseks), mis tunnevad oma valdkonna sõnavara paremini.
 
-### ➕ Kõnetuvastus ja kõnesüntees
+### 🏠 Kõnetuvastus ja kõnesüntees
 
 Keeletehnoloogia ei piirdu kirjaliku tekstiga. Kaks tähtsat valdkonda töötavad kõnega.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: <span class="pae-term" tabindex="0" data-def="kõnetuvastus: Kõne teisendamine tekstiks">kõnetuvastus</span> ja <span class="pae-term" tabindex="0" data-def="kõnesüntees: Teksti teisendamine kõneks">kõnesüntees</span>**
+> **Mõiste: kõnetuvastus ja kõnesüntees**
 >
 > **Kõnetuvastus** (inglise keeles *speech-to-text*) on kõne helisignaali teisendamine tekstiks. **Kõnesüntees** (inglise keeles *text-to-speech*) on teksti teisendamine kõneks. Need on teineteise vastandprotsessid.
 
@@ -9180,7 +9206,7 @@ Kõnesünteesi kasutatakse ekraanilugejates, navigatsioonisüsteemides, teadaann
 >
 > Kellele on kõnetuvastus ja kõnesüntees eriti olulised? Mõtle inimestele, kellel on nägemis- või kuulmispuue, aga ka vanavanematele, kel on raske nutitelefonis väikest kirja lugeda. Miks on tähtis, et need tehnoloogiad töötaksid hästi just **eesti** keeles?
 
-### ➕ Muud keeletehnoloogiad, rakendused ja tulevik
+### 🏠 Muud keeletehnoloogiad, rakendused ja tulevik
 
 **Keeletehnoloogia** on üldnimetus kõigile tehnoloogiatele, mis töötlevad inimkeelt: masintõlge, kõnetuvastus, kõnesüntees, õigekirja- ja grammatikakontroll, automaatne kokkuvõtete loomine, keeleõppe tehnoloogiad jne.
 
@@ -9211,7 +9237,7 @@ Keeletehnoloogiaid rakendatakse paljudes valdkondades:
 >
 > Väikeste keelte jaoks on keeletehnoloogia ka **keele säilimise küsimus**. Kui inimesed saavad oma nutiseadmetes, tõlkerakendustes ja häälassistentides kasutada ainult suuri keeli, siis väheneb väikese keele kasutusala digimaailmas. Seepärast investeerib Eesti eesti keele tehnoloogiasse – et eesti keelt saaks kasutada kõikjal, ka suheldes tehisintellektiga.
 
-### ➕ 🎬 Video: tehisaru ja eesti keel
+### 🏠 🎬 Video: tehisaru ja eesti keel
 
 TI-Hüppe video selgitab, miks tehisaru oskab mõnda keelt paremini kui teist ja milline roll on treeningandmetel. Et eesti keel ja kultuur püsiksid, peab eesti keel olema uute tehnoloogiatega kasutatav. Selleks on vaja kvaliteetset eestikeelset sisu ja tehisaru kasutamist eesti keeles.
 
@@ -9653,7 +9679,7 @@ Lukk avaneb, kui lahendad ülesande. Linna uutes bussipeatustes on tabloo juures
 [[kõnesüntees]]
 [[?]] Vihje 1: Kas tabloo muudab kõne tekstiks või teksti kõneks?
 [[?]] Vihje 2: Loe Krati märkmikus olevaid sõnu tagurpidi: **SUTSAVUTENÕK** ja **SEETNÜSENÕK**. Sul on vaja seda tehnoloogiat, mis loob kõnet.
-[[?]] 🛟 Päästerõngas: mine tagasi lehele „➕ Kõnetuvastus ja kõnesüntees“ ja loe lõik „Mõiste: kõnetuvastus ja kõnesüntees“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „🏠 Kõnetuvastus ja kõnesüntees“ ja loe lõik „Mõiste: kõnetuvastus ja kõnesüntees“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
 /* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI869") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
@@ -10408,12 +10434,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Mis on <span class="pae-term" tabindex="0" data-def="probleemilahendus: Protsess, mille käigus TI leiab lahenduse püstitatud probleemile, otsides teed algolekust eesmärgini">probleemilahendus</span> tehisintellektis?“, „<span class="pae-term" tabindex="0" data-def="olekuruum: Kõigi võimalike olekute kogum; sõlmed on olekud, kaared üleminekud">Olekuruum</span> ja otsingustrateegiad“, „<span class="pae-term" tabindex="0" data-def="A\* algoritm: Informeeritud otsing, mis valib teed valemi f(n) = g(n) + h(n) põhjal">A\* algoritm</span> ja mängupuud“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Otsustuspuu ülesehitus“, „Kuidas otsustuspuu andmetest õpib?“, „Otsustuspuude tugevused, piirangud ja vastutus“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kuidas otsustuspuu õpib ja ülesobitub“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded III, V ja VII
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -10426,12 +10454,12 @@ Otsustuspuu aitab otsust teha, näiteks kas võtta vihmavari kaasa. Puu algab ü
 
 </section>
 
-### ➕ Mis on probleemilahendus tehisintellektis?
+### 🏠 Mis on probleemilahendus tehisintellektis?
 
 Kui avad hommikul telefonis kaardirakenduse ja küsid, kuidas jõuda kõige kiiremini koolini, lahendab tehisintellekt sinu eest probleemi. Tal on teada, kus sa praegu oled (**algolek**), kuhu sa tahad jõuda (**eesmärk**), ja ta peab leidma tee nende kahe vahel.
 
 <!-- class="pae-moiste" -->
-> **Mõiste: <span class="pae-term" tabindex="0" data-def="probleemilahendus: Protsess, mille käigus TI leiab lahenduse püstitatud probleemile, otsides teed algolekust eesmärgini">probleemilahendus</span> tehisintellektis**
+> **Mõiste: probleemilahendus tehisintellektis**
 >
 > Probleemilahendus on protsess, mille käigus tehisintellekt leiab lahenduse püstitatud probleemile – sageli otsides teed **algolekust eesmärgini**.
 
@@ -10449,9 +10477,9 @@ Kõik probleemid ei ole ühesugused. Tehisintellekti jaoks on oluline vahe, kui 
 
 Hästi defineeritud probleeme lahendab arvuti tavaliselt edukalt, sest ta teab täpselt, mida otsida. Halvasti defineeritud probleemidega – näiteks „kirjuta hea luuletus“ – on palju raskem, sest pole ühest mõõdupuud, mis on „hea“.
 
-### ➕ Olekuruum ja otsingustrateegiad
+### 🏠 Olekuruum ja otsingustrateegiad
 
-Et arvuti saaks probleemi lahendada, tuleb probleem esitada talle arusaadaval kujul. Selleks kasutatakse **<span class="pae-term" tabindex="0" data-def="olekuruum: Kõigi võimalike olekute kogum; sõlmed on olekud, kaared üleminekud">olekuruumi</span>**.
+Et arvuti saaks probleemi lahendada, tuleb probleem esitada talle arusaadaval kujul. Selleks kasutatakse **olekuruumi**.
 
 <!-- class="pae-moiste" -->
 > **Mõiste: olekuruum**
@@ -10514,11 +10542,11 @@ Otsingualgoritme on palju ja need jagunevad mitmesse rühma.
 >
 > Oled kodus võtmed ära kaotanud. **Laiuti otsingu** moodi tegutsedes vaatad esmalt kiirelt üle kõik toad (laud, riiul, diivan igas toas) ja alles siis hakkad kappe ja sahtleid lahti tõstma. **Sügavuti otsingu** moodi tegutsedes lähed esimesse tuppa ja tühjendad seal iga sahtli ja kapi põhjani, enne kui järgmisse tuppa liigud. Kumb viis on parem, sõltub sellest, kus võtmed tegelikult on!
 
-**Informeeritud otsing** kasutab heuristilist infot, et hinnata, milline tee tundub kõige lootustandvam. Siia kuuluvad **parim-esmalt otsing** (*best-first search*), mis laiendab alati kõige paremana näivat olekut, **ahne otsing** (*greedy search*), mis valib iga kord sammu, mis tundub eesmärgile kõige lähemal, ja **<span class="pae-term" tabindex="0" data-def="A\* algoritm: Informeeritud otsing, mis valib teed valemi f(n) = g(n) + h(n) põhjal">A\* algoritm</span>**, millest räägime kohe lähemalt.
+**Informeeritud otsing** kasutab heuristilist infot, et hinnata, milline tee tundub kõige lootustandvam. Siia kuuluvad **parim-esmalt otsing** (*best-first search*), mis laiendab alati kõige paremana näivat olekut, **ahne otsing** (*greedy search*), mis valib iga kord sammu, mis tundub eesmärgile kõige lähemal, ja **A\* algoritm**, millest räägime kohe lähemalt.
 
 **Lokaalse otsingu algoritmid** ei koosta kogu teed, vaid püüavad olemasolevat lahendust järk-järgult paremaks muuta. **Mäkketõus** (*hill climbing*) liigub alati paremuse poole – nagu matkaja, kes astub udus alati sinna, kus maapind tõuseb. Oht on see, et ta jääb mõne väikese künka otsa ega leia kõrgeimat mäge. **Simuleeritud lõõmutamine** (*simulated annealing*) lubab alguses ka vahel halvemaid samme teha, et sellisest lõksust välja pääseda. **Geneetilised algoritmid** jäljendavad looduslikku valikut: paljudest lahendustest jäetakse alles paremad, neid „ristatakse“ ja muudetakse veidi ning nii saadakse uus põlvkond lahendusi.
 
-### ➕ A\* algoritm ja mängupuud
+### 🏠 A\* algoritm ja mängupuud
 
 **A\* algoritm** (hääldatakse „A-täht“) on üks tuntumaid otsingualgoritme. Selle põhimõte on kombineerida juba läbitud tee **kulu** ja **heuristilist hinnangut** sellele, kui palju on veel minna:
 
@@ -10694,7 +10722,7 @@ Vaatad interaktiivset näidet, kus arvuti ehitab andmetest otsustuspuu, mis eris
 - R2D3: S. Yee ja T. Chu (s.a.). [A visual introduction to machine learning, Part I](https://r2d3.us/visual-intro-to-machine-learning-part-1/). Interaktiivne ingliskeelne lugu sellest, kuidas otsustuspuu andmetest õpib; sobib hästi lisalugemiseks.
 - R2D3: S. Yee ja T. Chu (2018). [Model tuning and the bias-variance tradeoff, Part II](https://r2d3.us/visual-intro-to-machine-learning-part-2/). Sama sarja teine osa: ülesobitamine ja see, miks eri andmetel kasvatatud puud erinevad.
 - scikit-learn (2024). [Decision Trees](https://scikit-learn.org/1.4/modules/tree.html). Masinõppeteegi juhend: otsustuspuude eelised ja puudused, ülesobitamine, kärpimine ja CART-algoritm.
-- Wikipedia (s.a.). [AlphaGo versus Lee Sedol](https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol). 2016. aasta märtsis Soulis peetud go-matš, mille AlphaGo võitis 4 : 1.
+- Google DeepMind (s.a.). [AlphaGo](https://deepmind.google/research/alphago/). AlphaGo arendajate ülevaade 2016. aasta matšist Lee Sedoliga, mille AlphaGo võitis 4 : 1 (inglise keeles).
 - Euroopa Liit (2016). [Isikuandmete kaitse üldmäärus, artikkel 22](https://gdpr-text.com/et/read/article-22). Eestikeelne tekst: õigus, et sinu kohta ei tehtaks otsust üksnes automatiseeritud töötluse põhjal.
 
 ### Tööleht 4.1
@@ -11128,12 +11156,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Ekspertsüsteemi ülesehitus“, „<span class="pae-term" tabindex="0" data-def="reeglimootor: Tarkvara, mis rakendab reegleid andmetele">Reeglimootorid</span> ja rakendused“, „Ekspertsüsteemid, masinõpe ja tulevik“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Mis on ekspertsüsteem?“, „Teadmiste esitamine ja <span class="pae-term" tabindex="0" data-def="reeglistik: „KUI …, SIIS …“-tüüpi reeglite kogum, mis määrab süsteemi käitumise">reeglistikud</span>“, „Kuidas ekspertsüsteem järeldusi teeb?“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kuidas küsimusi esitav süsteem järeldab“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded III, VI ja VII
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -11178,7 +11208,7 @@ Tuntumad ajaloolised ekspertsüsteemid:
 >
 > MYCIN-i nimi tuleb sellest, et paljude antibiootikumide nimed lõpevad ingliskeelse liitega *-mycin* (nt *streptomycin*). Süsteem küsis arstilt patsiendi kohta küsimusi ja soovitas sobivat ravi – ning oskas ka selgitada, miks ta just selle soovituse andis.
 
-### ➕ Ekspertsüsteemi ülesehitus
+### 🏠 Ekspertsüsteemi ülesehitus
 
 Ekspertsüsteem koosneb mitmest osast, millest igaühel on kindel ülesanne.
 
@@ -11247,9 +11277,9 @@ Päriselus pole info alati kindel. Arst ei saa alati öelda „patsiendil on kin
 - **<span class="pae-term" tabindex="0" data-def="hägusloogika: Loogika, mis töötab ebatäpsete väärtustega (nt „kõrge temperatuur“)">Hägusloogika</span>** (*fuzzy logic*), mis töötab ebatäpsete või osaliste väärtustega: „KUI temperatuur on KÕRGE, SIIS suurenda jahutust.“ Mis on „kõrge“, ei ole järsk piir, vaid sujuv üleminek.
 - **Usalduskoefitsiendid**, mis omistavad reeglitele ja faktidele usaldusastme – näiteks reegel kehtib usaldusastmega 0,8 ehk süsteem on oma järelduses umbes 80% kindel.
 
-### ➕ Reeglimootorid ja rakendused
+### 🏠 Reeglimootorid ja rakendused
 
-Ekspertsüsteemide ideed elavad tänapäeval edasi **<span class="pae-term" tabindex="0" data-def="reeglimootor: Tarkvara, mis rakendab reegleid andmetele">reeglimootorites</span>**.
+Ekspertsüsteemide ideed elavad tänapäeval edasi **reeglimootorites**.
 
 <!-- class="pae-moiste" -->
 > **Mõiste: reeglimootor**
@@ -11274,7 +11304,7 @@ Ekspertsüsteeme ja reeglistikke kasutatakse paljudes valdkondades:
 | Tootmine | protsesside juhtimine, kvaliteedikontroll, rikete diagnoosimine |
 | Muud valdkonnad | õigusabi, klienditeenindus, haridus |
 
-### ➕ Ekspertsüsteemid, masinõpe ja tulevik
+### 🏠 Ekspertsüsteemid, masinõpe ja tulevik
 
 Ekspertsüsteemidel on mitu olulist **eelist**. Need **säilitavad ekspertteadmisi**: kui kogenud spetsialist läheb pensionile, jäävad tema teadmised süsteemi alles. Need on **järjepidevad** – rakendavad samu reegleid alati ühtemoodi ja teevad vähem inimlikke vigu (ekspertsüsteem ei väsi ega ole halvas tujus). Need on **kättesaadavad** ööpäev läbi ja geograafilised piirangud puuduvad. Ja need on **selgitatavad**: otsustusprotsess on läbipaistev ja iga järeldust saab põhjendada.
 
@@ -11803,12 +11833,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Mis on soovitussüsteem?“, „Nutikamad soovitused: süvaõpe, kontekst ja hindamine“, „Soovitussüsteemid igapäevaelus ja Eestis“, „Video: kuidas kujundab tehisaru meie meediaruumi ja suhteid?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „<span class="pae-term" tabindex="0" data-def="sisupõhine filtreerimine: Soovitamine objektide põhjal, mis on omaduste poolest sarnased kasutaja varem eelistatutega">Sisupõhine filtreerimine</span>“, „<span class="pae-term" tabindex="0" data-def="koostööfiltreerimine: Soovitamine selle põhjal, mis meeldis sarnaste eelistustega kasutajatele">Koostööfiltreerimine</span>“, „Filtrimull ja teised väljakutsed“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Muusikakaart ja koostööfiltreerimine“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded IV, VI ja VII
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -11821,7 +11853,7 @@ Soovitussüsteem pakub sulle filme, muusikat või tooteid, mis võiksid meeldida
 
 </section>
 
-### ➕ Mis on soovitussüsteem?
+### 🏠 Mis on soovitussüsteem?
 
 Avad õhtul voogedastusplatvormi ja avalehel ootab sind rida „Sulle soovitatud“. Spotify on koostanud sulle esmaspäevaks uue esitusloendi. TikToki „Sulle“ voog (*For You*) näitab video video järel just sellist sisu, mida sa ilmselt lõpuni vaatad. Kõigi nende taga on **soovitussüsteem**.
 
@@ -11905,7 +11937,7 @@ Suurte maatriksite jaoks kasutatakse **maatriksi faktoriseerimist**. See jagab s
 >
 > Maatriksi faktoriseerimine sai laiemalt tuntuks seoses Netflixi auhinnavõistlusega (*Netflix Prize*, 2006–2009), kus meeskonnad üle maailma püüdsid parandada Netflixi filmisoovituste täpsust. 2009. aastal võitis miljonidollarilise peaauhinna meeskond „BellKor's Pragmatic Chaos“. Parimad lahendused kombineerisid mitut meetodit, nende hulgas singulaarväärtuste lahutust (SVD).
 
-### ➕ Nutikamad soovitused: süvaõpe, kontekst ja hindamine
+### 🏠 Nutikamad soovitused: süvaõpe, kontekst ja hindamine
 
 Tänapäeva suurtes platvormides kasutatakse sageli **süvaõppel põhinevaid soovitussüsteeme**. Need kasutavad närvivõrke, näiteks **autoenkodereid**, **rekurrentseid närvivõrke (RNN)** ja **konvolutsioonilisi närvivõrke (CNN)**. Süvaõpe suudab õppida keerukaid mustreid suurtest andmehulkadest, modelleerida kasutaja käitumist järjestikuselt (mida vaatasid enne, mida pärast) ja arvestada konteksti. Selle eelised on parem täpsus, konteksti arvestamine ja ajaline dünaamika (süsteem märkab, et su maitse muutub). Puudused on suur andmevajadus, suur arvutusvõimsuse vajadus ja **„musta kasti“ probleem** – sageli ei oska keegi täpselt öelda, miks just see soovitus tehti.
 
@@ -11969,7 +12001,7 @@ Filtrimull ei ole ainus väljakutse. Soovitussüsteemide peamised probleemid on:
 >
 > Euroopa Liit reguleerib suuri digiplatvorme. **Digitaalturgude määrus** (*Digital Markets Act*) seab reeglid suurimatele platvormidele ehk niinimetatud väravavalvuritele. **Digiteenuste määrus** (*Digital Services Act*) nõuab, et platvormid selgitaksid oma soovitussüsteemide põhiparameetreid, ja väga suured platvormid (üle 45 miljoni kasutaja ELis) peavad pakkuma vähemalt üht voo varianti, mis ei põhine kasutaja profileerimisel – näiteks ajalises järjekorras voogu. Vaata oma rakenduse seadetest, kas sul on selline valik!
 
-### ➕ Soovitussüsteemid igapäevaelus ja Eestis
+### 🏠 Soovitussüsteemid igapäevaelus ja Eestis
 
 Soovitussüsteeme kasutatakse väga paljudes valdkondades:
 
@@ -11993,7 +12025,7 @@ Kuhu soovitussüsteemid edasi arenevad? Üks suund on **multimodaalsed soovituse
 > - Millised soovitussüsteemid on sinu igapäevaelu kõige rohkem mõjutanud?
 > - Kas soovitussüsteemid laiendavad või kitsendavad meie maailmapilti?
 
-### ➕ 🎬 Video: kuidas kujundab tehisaru meie meediaruumi ja suhteid?
+### 🏠 🎬 Video: kuidas kujundab tehisaru meie meediaruumi ja suhteid?
 
 Meediateadlane Maia Klaassen selgitab, kuidas platvormid kasutavad meie andmeid ja tähelepanu sisu soovitamiseks. Nii tekivad inimestel väga erinevad infomaailmad ja ühiskonna polariseerumine võib süveneda. Video on pikem, nii et võid vaadata ka ainult osa sellest.
 
@@ -12057,7 +12089,7 @@ Uurid tööriista, mis paigutab artistid kaardile selle järgi, kui tõenäolise
 
 - Euroopa Komisjon (s.a.). [Digiteenuste määrus](https://digital-strategy.ec.europa.eu/et/policies/digital-services-act). Eestikeelne ülevaade: muu hulgas õigus valida väga suurtel platvormidel isikustamata uudisvoog.
 - Google for Developers (s.a.). [Recommendation systems](https://developers.google.com/machine-learning/recommendation). Tasuta ingliskeelne kursus: sisupõhine filtreerimine, koostööfiltreerimine ja maatriksi faktoriseerimine.
-- Wikipedia (s.a.). [Netflix Prize](https://en.wikipedia.org/wiki/Netflix_Prize). Netflixi soovitusvõistluse (2006–2009) lugu ja võitjad.
+- Bennett, J. ja Lanning, S. (2007). [The Netflix Prize](https://www.cs.uic.edu/~liub/KDD-cup-2007/proceedings/The-Netflix-Prize-Bennett.pdf). Netflixi töötajate artikkel võistluse eesmärgist, andmestikust ja hindamisest (KDD Cup 2007, PDF, inglise keeles).
 - Gnod (s.a.). [Music-Map](https://www.music-map.com/). Koostööfiltreerimisel põhinev muusikakaart, mida kasutasid TI-katses.
 - meedia.ut.ee (2026). [Tööleht „Koletised sinu telefonis“](https://meedia.ut.ee/wp-content/uploads/2026/02/2512_MEDI_TOOLEHT_Koletised_sinu_telefonis.pdf). Eestikeelne meediapädevuse tööleht algoritmidest, filtrimullist ja kajakambrist; sobib lisaülesandeks.
 
@@ -12475,12 +12507,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Tootmine, energeetika ja põllumajandus“, „Haridus, avalik sektor, teadus ja loovus“, „Tehisintellekt Eestis ja tulevikusuunad“, „Videod: tehisaru hariduses ja õigusvaldkonnas“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Ühised põhimõtted ja valdkondade eripära“, „Meditsiin, finants ja transport“, „Kuidas TI-lahendus valmib ja millised on ühised väljakutsed?“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kvaliteedikontroll Teachable Machine'iga“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded III, V ja VI
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -12536,7 +12570,7 @@ Ka **lahendusstrateegiaid** on mitu. **Otsingupõhine lähenemine** lahendab pro
 >
 > **Bolt** kasutab masinõpet näiteks sõitjate ja juhtide sobitamiseks ning saabumisaja ennustamiseks – kui tellid takso, otsustab algoritm, milline juht sulle saadetakse. 2014. aastal Tallinnas asutatud **Starship Technologies** on loonud kullerrobotid, mis liiguvad arvutinägemise abil kõnniteedel suures osas iseseisvalt ja toimetavad kohale pakke ja toitu; keerulises olukorras saab appi tulla kaugoperaator.
 
-### ➕ Tootmine, energeetika ja põllumajandus
+### 🏠 Tootmine, energeetika ja põllumajandus
 
 **Tootmises** räägitakse **Tööstus 4.0-st** – nutikatest tehastest, kus masinad on ühendatud **asjade interneti** (IoT, *Internet of Things*) kaudu ja otsuseid tehakse andmete põhjal. TI aitab **kvaliteedikontrollis**: kaamerad ja algoritmid kontrollivad tooteid visuaalselt, tuvastavad defekte ja ennustavad kvaliteeti. Väga oluline on **<span class="pae-term" tabindex="0" data-def="ennustav hooldus: Seadmete rikete ennustamine andurite andmete põhjal enne rikke tekkimist">ennustav hooldus</span>**: TI ennustab seadmete rikkeid enne, kui need tekivad, optimeerib hooldusgraafikut ja aitab ressursse planeerida. Väljakutsed on andmete kogumise keerukus, süsteemide integratsioon ja töötajate koolitamine.
 
@@ -12557,7 +12591,7 @@ Ka **lahendusstrateegiaid** on mitu. **Otsingupõhine lähenemine** lahendab pro
 
 **Põllumajanduses** kasutatakse **<span class="pae-term" tabindex="0" data-def="täppispõllumajandus: Andmete ja TI abil ressursside täpne kasutamine põllul">täppispõllumajandust</span>**: analüüsitakse satelliidi- ja droonipilte, jälgitakse mulda ja ilma ning kasutatakse ressursse (vett, väetist) täpselt seal, kus vaja. **Taimekasvatuses** tuvastab TI haigusi ja kahjureid, ennustab saaki ning optimeerib kastmist ja väetamist. **Loomakasvatuses** jälgitakse loomade tervist, optimeeritakse söötmist ja analüüsitakse käitumist. Väljakutsed on keskkonnatingimuste muutlikkus, tehnoloogia kättesaadavus ja andmete kogumine maapiirkondades.
 
-### ➕ Haridus, avalik sektor, teadus ja loovus
+### 🏠 Haridus, avalik sektor, teadus ja loovus
 
 **Hariduses** võimaldab TI **personaliseeritud õpet**: tuvastab õppija taseme, kohandab õppematerjale ja annab individuaalset tagasisidet. **Hindamises** kasutatakse automaatset hindamist, plagiaadi tuvastamist ja õppimisanalüütikat. **Õpetajat** aitab TI administratiivsete ülesannete automatiseerimisel, õppematerjalide loomisel ja õpilaste edenemise jälgimisel. Väljakutsed on pedagoogiliste põhimõtete järgimine, õpetaja rolli muutumine ja ligipääsetavus.
 
@@ -12612,7 +12646,7 @@ Neljas väljakutse on **regulatsioonid**: igal valdkonnal on oma nõuded, riigit
 >
 > **Euroopa Liidu tehisintellekti määrus (EL) 2024/1689** (*AI Act*) on maailma esimene terviklik õigusraamistik tehisintellekti reguleerimiseks. See kasutab **riskipõhist lähenemist**: vastuvõetamatu riskiga TI-praktikad on keelatud, suure riskiga süsteemidele kehtivad ranged nõuded, osale süsteemidele läbipaistvusnõuded (nt peab teada andma, et suhtled vestlusrobotiga) ja minimaalse riskiga süsteemidele erinõudeid pole. Määrus jõustus 1. augustil 2024, keelud hakkasid kehtima 2. veebruaril 2025 ja üldotstarbeliste TI-mudelite reeglid 2. augustil 2025. 2026. aasta muudatusega lükati suure riskiga süsteemide nõuded edasi: enamikule neist hakkavad need kehtima 2. detsembril 2027. Lisaks kehtib isikuandmete kaitse üldmäärus (GDPR) ja Eestis annab Andmekaitse Inspektsioon juhiseid, kuidas TI-d isikuandmete kaitse põhimõtetega kooskõlas kasutada.
 
-### ➕ Tehisintellekt Eestis ja tulevikusuunad
+### 🏠 Tehisintellekt Eestis ja tulevikusuunad
 
 Eestit tuntakse digiühiskonnana ja tehisintellekti kasutatakse meil nii avalikus kui ka erasektoris.
 
@@ -12636,7 +12670,7 @@ Kuhu liigub tehisintellekti probleemilahendus edasi? Esiteks **valdkonnad lõimu
 > - Kuidas tasakaalustada valdkonnapõhist spetsialiseerumist ja üldisi tehisintellekti põhimõtteid?
 > - Kas sinu arvates peaks TI-l olema lubatud teha olulisi otsuseid (nt diagnoos, laenuotsus) iseseisvalt või peaks lõplik otsus jääma alati inimesele?
 
-### ➕ 🎬 Videod: tehisaru hariduses ja õigusvaldkonnas
+### 🏠 🎬 Videod: tehisaru hariduses ja õigusvaldkonnas
 
 Sellel lehel on 2 videot. Iga video ees on lühike kokkuvõte, mis aitab sul valida.
 
@@ -13846,12 +13880,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Pildist tähenduseni: <span class="pae-term" tabindex="0" data-def="eeltöötlus: Pildi ettevalmistamine analüüsiks (suurus, normaliseerimine, müra, kontrast)">eeltöötlus</span>, tunnused ja tõlgendamine“, „Arvutinägemise ülesanded ja rakendused“, „Väljakutsed ja tulevik“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Mis on arvutinägemine?“, „Pilt arvuti silmis: pikslid ja RGB“, „Konvolutsioonilised närvivõrgud (CNN)“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas närvivõrk tunneb su joonistuse ära?“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded II, VII ja VIII
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -13922,13 +13958,13 @@ Arvuti hoiab sellist pilti tegelikult kolme kihina: üks tabel punase, üks rohe
 >
 > Täis-HD pildil on 1920 × 1080 = 2 073 600 pikslit. Kuna igal pikslil on kolm värviväärtust, koosneb üks selline pilt arvuti jaoks 6 220 800 arvust. Video puhul on selliseid pilte ehk kaadreid igas sekundis kümneid. Pole ime, et arvutinägemine vajab palju arvutusvõimsust!
 
-### ➕ Pildist tähenduseni: eeltöötlus, tunnused ja tõlgendamine
+### 🏠 Pildist tähenduseni: eeltöötlus, tunnused ja tõlgendamine
 
 Kuidas jõuab arvuti miljonitest arvudest vastuseni „pildil on koer“? Protsessi võib jagada neljaks sammuks.
 
 ![Neli järjestikust sammu nooltega: digitaalne pilt, eeltöötlus, tunnuste eraldamine ja tõlgendamine koos iga sammu näidetega](pildid/plokk_5/5_1_toru.svg "Joonis 5.1.3. Pildist tähenduseni neljas sammus")
 
-**<span class="pae-term" tabindex="0" data-def="eeltöötlus: Pildi ettevalmistamine analüüsiks (suurus, normaliseerimine, müra, kontrast)">Eeltöötlus</span>** (preprocessing) valmistab pildi analüüsiks ette. Pildi **suurust muudetakse**, sest mudel ootab kindla suurusega sisendit. **Normaliseerimine** viib arvud ühtlasesse vahemikku (nt 0–255 asemel 0–1). **Müra eemaldamine** puhastab pildi juhuslikest täppidest ja **kontrasti parandamine** muudab heledad ja tumedad alad paremini eristatavaks. Eeltöötlus on oluline, sest see muudab pildid mudelile sobivaks ja parandab tuvastamise täpsust. Võrdle: ka sina loed paremini, kui tekst on selge ja piisavalt suur.
+**Eeltöötlus** (preprocessing) valmistab pildi analüüsiks ette. Pildi **suurust muudetakse**, sest mudel ootab kindla suurusega sisendit. **Normaliseerimine** viib arvud ühtlasesse vahemikku (nt 0–255 asemel 0–1). **Müra eemaldamine** puhastab pildi juhuslikest täppidest ja **kontrasti parandamine** muudab heledad ja tumedad alad paremini eristatavaks. Eeltöötlus on oluline, sest see muudab pildid mudelile sobivaks ja parandab tuvastamise täpsust. Võrdle: ka sina loed paremini, kui tekst on selge ja piisavalt suur.
 
 **<span class="pae-term" tabindex="0" data-def="tunnuste eraldamine: Pildi oluliste omaduste (servad, tekstuur, kuju) leidmine">Tunnuste eraldamine</span>** tähendab pildi oluliste omaduste ja mustrite leidmist. Sellised tunnused on näiteks **servad ja nurgad**, **tekstuur ja värvid** ning **kuju ja struktuur**.
 
@@ -13992,7 +14028,7 @@ Mängus Quick, Draw! püüab närvivõrk ära arvata, mida sa joonistad. See on 
 <!-- class="pae-lisaks" -->
 > **Kui arvutit pole:** joonista ruutpaberile 8 × 8 ruudust koosnev lihtne kujund ja kirjuta igasse ruutu 0 (must) või 255 (valge). Pinginaaber peab ainult arvude järgi ära arvama, mis kujund see on – nii „näeb“ pilti arvuti.
 
-### ➕ Arvutinägemise ülesanded ja rakendused
+### 🏠 Arvutinägemise ülesanded ja rakendused
 
 Arvutinägemisega lahendatakse mitut eri tüüpi ülesandeid.
 
@@ -14023,7 +14059,7 @@ Arvutinägemist kasutatakse paljudes valdkondades:
 >
 > Eesti juurtega Starship Technologies on loonud isesõitvad kullerrobotid, mis kasutavad tehisintellekti ja arvutinägemist, et linnatänavatel navigeerida ning pakke ja toitu kohale toimetada. Robot peab ära tundma kõnniteed, ülekäiguraja, jalakäijad ja takistused. Teine Eesti ettevõte Veriff kasutab arvutinägemist inimese isikusamasuse tuvastamiseks: süsteem võrdleb isikut tõendavat dokumenti ja inimese näopilti. Arvutinägemist uuritakse Eestis ka Tartu Ülikoolis ja Tallinna Tehnikaülikoolis; kasutusalade hulgas on liikluse jälgimine, põllumajanduse seire ja meditsiiniline pildianalüüs.
 
-### ➕ Väljakutsed ja tulevik
+### 🏠 Väljakutsed ja tulevik
 
 Kuigi arvutinägemine on viimase kümnendiga palju arenenud, on sellel endiselt mitmeid väljakutseid.
 
@@ -14487,19 +14523,21 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Kuidas objektituvastus töötab: <span class="pae-term" tabindex="0" data-def="YOLO: Kiire ühesammuline objektituvastuse meetod">YOLO</span> ja Faster R-CNN“, „Näotuvastus ja <span class="pae-term" tabindex="0" data-def="näotundmine: Isiku tuvastamine näo põhjal („kelle?“)">näotundmine</span>“, „Rakendused: telefonist isesõitva autoni“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Objektituvastus: mis ja kus pildil on?“, „Kuidas tuvastuse täpsust hinnata?“, „Eetika ja seadused“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas Google Lens leiab kõik esemed üles?“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded V, VII ja VIII
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
 
 **🟢 Lihtsalt öeldes**
 
-**Objektituvastus** vastab küsimusele „Mis ja kus pildil on?“. Mudel leiab pildilt asjad, näiteks jalgrattad, ja paneb nende ümber kasti. Pärast seda tuleb mudeli tööd hoolikalt hinnata. Kas mudel leidis pildilt kõik jalgrattad üles? Kas kõik leitud asjad olid tõesti jalgrattad, mitte tõukerattad? **<span class="pae-term" tabindex="0" data-def="näotundmine: Isiku tuvastamine näo põhjal („kelle?“)">Näotundmine</span>** tunneb inimese tema näo järgi ära. See võib ohustada sinu privaatsust, sest nägu ei saa vahetada nagu parooli. Euroopas kaitsevad sind seadused, näiteks GDPR ja ELi tehisintellekti määrus.
+**Objektituvastus** vastab küsimusele „Mis ja kus pildil on?“. Mudel leiab pildilt asjad, näiteks jalgrattad, ja paneb nende ümber kasti. Pärast seda tuleb mudeli tööd hoolikalt hinnata. Kas mudel leidis pildilt kõik jalgrattad üles? Kas kõik leitud asjad olid tõesti jalgrattad, mitte tõukerattad? **Näotundmine** tunneb inimese tema näo järgi ära. See võib ohustada sinu privaatsust, sest nägu ei saa vahetada nagu parooli. Euroopas kaitsevad sind seadused, näiteks GDPR ja ELi tehisintellekti määrus.
 
 **Tähtsad sõnad:** **objektituvastus** – asjade leidmine pildil koos nende asukohaga; **piiramiskast** – ristkülik, mis näitab, kus asi pildil on; **näotundmine** – inimese äratundmine tema näo järgi; **biomeetrilised andmed** – keha tunnused, näiteks nägu või sõrmejälg, mille järgi saab inimest tuvastada.
 
@@ -14522,13 +14560,13 @@ Objektituvastus koosneb tavaliselt neljast osast: **piirkondade ettepanekud** (k
 
 Kui objekti tuleb jälgida videos kaadrist kaadrisse, nimetatakse seda **jälgimiseks** (tracking). Kui on vaja teada objekti täpset piirjoont, mitte ainult kasti, kasutatakse **segmenteerimist**.
 
-### ➕ Kuidas objektituvastus töötab: YOLO ja Faster R-CNN
+### 🏠 Kuidas objektituvastus töötab: YOLO ja Faster R-CNN
 
 Objektituvastuse mudelid jagunevad kahte suurde rühma.
 
 **Kahesammulised meetodid** leiavad kõigepealt pildilt kohad, kus võiks olla objekt (piirkondade ettepanekud), ja alles siis uurivad iga kohta lähemalt. Siia kuuluvad **R-CNN, Fast R-CNN, Faster R-CNN** ja **Mask R-CNN** (mis lisab ka segmenteerimise). **Faster R-CNN** koosneb baas-CNN-ist, mis eraldab tunnused, piirkondade ettepanekute võrgust (Region Proposal Network, RPN) ning osadest, mis määravad klassi ja piiramiskasti. Selle eelised on kõrge täpsus ja paindlikkus, puudused aga aeglus ja keerukam ülesehitus.
 
-**Ühesammulised meetodid** ennustavad kõik korraga, ühe läbimisega. Siia kuuluvad **<span class="pae-term" tabindex="0" data-def="YOLO: Kiire ühesammuline objektituvastuse meetod">YOLO</span>, SSD (Single Shot Detector)** ja **RetinaNet**. Uuemad on **transformeripõhised meetodid**, näiteks DETR ja Swin Transformer.
+**Ühesammulised meetodid** ennustavad kõik korraga, ühe läbimisega. Siia kuuluvad **YOLO, SSD (Single Shot Detector)** ja **RetinaNet**. Uuemad on **transformeripõhised meetodid**, näiteks DETR ja Swin Transformer.
 
 <!-- class="pae-moiste" -->
 > **Mõiste: YOLO**
@@ -14565,7 +14603,7 @@ Lisaks loetakse kokku, mitu korda mudel õigesti või valesti vastas. **Täpsus 
 
 Kokkuvõtlik mõõdik **mAP (mean Average Precision)** arvutab keskmise täpsuse eri saagise väärtuste ja klasside lõikes. **FPS (kaadrit sekundis)** näitab, kui kiiresti mudel töötab – reaalajas videos on see väga oluline.
 
-### ➕ Näotuvastus ja näotundmine
+### 🏠 Näotuvastus ja näotundmine
 
 Näod on arvutinägemise jaoks eriline objekt. Igapäevakeeles öeldakse kõige kohta „näotuvastus“, aga tegelikult on tegu kahe eri ülesandega.
 
@@ -14598,7 +14636,7 @@ Näoga on seotud veel üks rakendus: **emotsioonide tuvastamine**. See püüab n
 >
 > Eesti ettevõte **Veriff** pakub isikusamasuse tuvastamist veebis: süsteem võrdleb isikut tõendava dokumendi fotot ja kaamera ees oleva inimese nägu, et kinnitada, et tegu on sama inimesega. Eesti juurtega **Realeyes** on tegelenud emotsioonide tuvastamisega ehk sellega, kuidas inimesed näoilmete järgi videosisule reageerivad. Starship Technologiesi robotid kasutavad objektituvastust, et liikluses takistusi ja inimesi märgata. Objekti- ja näotuvastust kasutatakse ka piirikontrollis, turvakaamerates ja klienditeeninduses.
 
-### ➕ Rakendused: telefonist isesõitva autoni
+### 🏠 Rakendused: telefonist isesõitva autoni
 
 Objekti- ja näotuvastust kasutatakse paljudes valdkondades:
 
@@ -15084,12 +15122,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Meditsiinilise pildinduse liigid“, „Tehisintellekti ülesanded ja töövoog“, „Näited: kopsud, aju, vähk ja koed“, „Video: kuidas aitab tehisaru päästa elusid?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Miks meditsiin vajab tehisintellekti abi?“, „Kuidas meditsiinilise TI täpsust hinnata?“, „Eelised, väljakutsed ja vastutus“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Treeni oma sõeluuringu mudel“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded V, VI ja VIII
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -15115,7 +15155,7 @@ Tehisintellekt saab siin aidata mitmel viisil. See võib **optimeerida töövoog
 
 Oluline on meeles pidada: TI on siin **arsti abiline**, mitte arsti asendaja. Lõpliku otsuse teeb ja vastutuse kannab inimene.
 
-### ➕ Meditsiinilise pildinduse liigid
+### 🏠 Meditsiinilise pildinduse liigid
 
 Meditsiinis on palju eri viise, kuidas inimese sisse „vaadata“. Iga meetod näitab erinevaid asju.
 
@@ -15136,7 +15176,7 @@ Lisaks on eriülesannete jaoks **mammograafia** (rinnanäärme röntgenpildid ri
 >
 > Miks ei piisa ühest pildindusmeetodist? Mõtle, millist meetodit kasutaksid luumurru, ajukahjustuse ja raseduse jälgimise puhul ning miks.
 
-### ➕ Tehisintellekti ülesanded ja töövoog
+### 🏠 Tehisintellekti ülesanded ja töövoog
 
 Tunnis 5.1 tutvusid arvutinägemise põhiülesannetega. Meditsiinis kasutatakse just neid samu ülesandeid.
 
@@ -15162,7 +15202,7 @@ Segmenteerimiseks on eriti populaarne **<span class="pae-term" tabindex="0" data
 
 Kuna KT- ja MRT-pildid on kolmemõõtmelised, kasutatakse ka **3D-arhitektuure** (3D CNN, V-Net, 3D U-Net). Uuemad lahendused põhinevad **transformeritel** (nt ViT, UNETR, SwinUNETR).
 
-### ➕ Näited: kopsud, aju, vähk ja koed
+### 🏠 Näited: kopsud, aju, vähk ja koed
 
 **Kopsuhaiguste tuvastamine röntgenpiltidelt.** TI-d on õpetatud tuvastama kopsupõletikku, tuberkuloosi, COVID-19 ja kopsuvähki. Selleks on loodud suured avalikud andmestikud (nt ChestX-ray14, CheXpert, MIMIC-CXR) ja uurimistöödes mudelid nagu CheXNet ja COVID-Net. Raskust valmistab see, et röntgenpildil kattuvad struktuurid üksteisega, kontrast on väike ja eri haigused näevad sageli sarnased välja.
 
@@ -15238,7 +15278,7 @@ Treenid Teachable Machine'is mudeli, mis eristab „terveid“ ja „kahjustatud
 <!-- class="pae-lisaks" -->
 > **Kui arvutit pole:** üks paariline joonistab 10 kaardile pisikese „kahjustuse“ või jätab kaardi puhtaks, teine vaatab iga kaarti üks sekund ja otsustab. Arvutage koos tundlikkus ja spetsiifilisus.
 
-### ➕ 🎬 Video: kuidas aitab tehisaru päästa elusid?
+### 🏠 🎬 Video: kuidas aitab tehisaru päästa elusid?
 
 Radioloog Martin Reim näitab päris juhtumite põhjal, kuidas tehisaru aitab arstidel tuvastada insulti, luumurde ja kasvajaid varem ja täpsemalt. Tehisaru võib aga ka eksida, seepärast peab arst tundma selle tugevusi ja piire. Lõplik otsus ja vastutus jäävad inimesele.
 
@@ -15698,12 +15738,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „GAN ja VAE: kuidas masin õpib pilte looma“, „Kas tehisintellekt saab olla loov?“, „Generatiivse TI eetilised küsimused“, „Videod: tehisaru, kunst ja muusika“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Mis on generatiivne tehisintellekt?“, „Difusioonimudelid ja <span class="pae-term" tabindex="0" data-def="tekst-pilt-mudel: Mudel, mis loob pildi tekstilise kirjelduse põhjal">tekst-pilt-mudelid</span>“, „Kuidas pildigeneraatorit juhtida?“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Vaata difusioonimudeli sisse“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded III, IV ja VII
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -15734,7 +15776,7 @@ Generatiivsel TI-l on pikk ajalugu. Varased süsteemid kasutasid **Markovi ahela
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Generatiivsed vastandvõrgud (GAN) leiutati **2014. aastal**. Vaid kaheksa aastat hiljem, **2022. aastal**, said difusioonimudelitel põhinevad DALL-E 2 ja Stable Diffusion laialt tuntuks.
 
-### ➕ GAN ja VAE: kuidas masin õpib pilte looma
+### 🏠 GAN ja VAE: kuidas masin õpib pilte looma
 
 **Generatiivsed vastandvõrgud** (Generative Adversarial Network, GAN) põhinevad võistlusel. Neis on kaks närvivõrku, mis treenivad teineteist.
 
@@ -15830,7 +15872,7 @@ Diffusion Explainer näitab samm-sammult, kuidas Stable Diffusion muudab viiba j
 <!-- class="pae-lisaks" -->
 > **Kui arvutit pole:** üks paariline kirjeldab sõnadega pilti, teine joonistab. Seejärel lisab kirjeldaja korraga ühe täpsustuse (koht, valgus, stiil). Arutage, kuidas iga lisatud sõna tulemust muutis – samamoodi töötab ka viip.
 
-### ➕ Kas tehisintellekt saab olla loov?
+### 🏠 Kas tehisintellekt saab olla loov?
 
 Loovust kirjeldatakse sageli kolme omaduse kaudu: **uudsus ja originaalsus** (midagi uut), **väärtus ja asjakohasus** (sellel on mõte) ning **üllatuslikkus**. Loovust võib jagada ka kolmeks liigiks:
 
@@ -15849,7 +15891,7 @@ Seepärast räägitakse sageli **inimese ja TI koostööst**. TI võib olla **t�
 > - Kas TI loodud pilt võib olla „päris“ kunst? Mida kunst sinu jaoks tähendab?
 > - Milles võiks generatiivne TI sind koolitöödes aidata ja millal oleks selle kasutamine ebaaus?
 
-### ➕ Generatiivse TI eetilised küsimused
+### 🏠 Generatiivse TI eetilised küsimused
 
 **Autoriõigus.** Generatiivseid mudeleid treenitakse miljonite internetist kogutud piltidega, millest paljud on kunstnike looming. Kas see on aus ilma nende loata? Kellele kuulub genereeritud pilt? Euroopas on autoriõigus seotud inimese loomingulise panusega, mistõttu on vaieldav, kas puhtalt TI loodud pilt on üldse autoriõigusega kaitstud. Kunstnikud muretsevad ka selle pärast, et TI jäljendab nende isikupärast stiili.
 
@@ -15863,7 +15905,7 @@ Vastutustundlik kasutamine tähendab, et **märgid TI loodud sisu selgelt**, **e
 
 Tulevikus muutuvad mudelid veelgi **multimodaalsemaks** (tekst, pilt, heli ja video ühes), **interaktiivsemaks** (reaalajas koostöö kasutajaga), **personaliseeritumaks** (õpivad kasutaja stiili) ning **väiksemaks ja energiatõhusamaks**, nii et neid saab käitada ka telefonis.
 
-### ➕ 🎬 Videod: tehisaru, kunst ja muusika
+### 🏠 🎬 Videod: tehisaru, kunst ja muusika
 
 Sellel lehel on 3 videot. Iga video ees on lühike kokkuvõte, mis aitab sul valida.
 
@@ -16335,7 +16377,7 @@ Lukk avaneb, kui lahendad ülesande. Kirjuta mõiste, mida olukord kirjeldab.
 [[diskriminaator]]
 [[?]] Vihje 1: kas see võrk loob maastikke või hindab neid?
 [[?]] Vihje 2: sõna algab D-ga ja tuleb tegusõnast „diskrimineerima“ ehk eristama.
-[[?]] 🛟 Päästerõngas: mine tagasi lehele „➕ GAN ja VAE: kuidas masin õpib pilte looma“ ja loe lõik „Mõiste: generatiivne vastandvõrk (GAN)“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „🏠 GAN ja VAE: kuidas masin õpib pilte looma“ ja loe lõik „Mõiste: generatiivne vastandvõrk (GAN)“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
 /* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI843") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
@@ -16369,12 +16411,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Kuidas võltsinguid tehakse“, „Kasutusalad ja ohud“, „Seadused ja eetilised piirid“, „<span class="pae-term" tabindex="0" data-def="meediakirjaoskus: Oskus meediasisu kriitiliselt hinnata ning allikaid ja konteksti kontrollida">Meediakirjaoskus</span> ja tulevik“, „Video: meedia ja kriitiline mõtlemine tehisaru ajastul“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Mis on süvavõltsing?“, „Kuidas võltsingut ära tunda: kontrollnimekiri“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kust see pilt tegelikult pärit on?“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded IV, VI ja VII
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -16411,7 +16455,7 @@ Süvavõltsingute ajalugu on lühike, aga kiire. 2017. aastal ilmusid internetti
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Esimesed süvavõltsingud ilmusid internetti alles **2017. aastal**. Mõne aastaga on tehnoloogia jõudnud sinnamaani, et võltsingu tegemiseks piisab sageli nutitelefoni rakendusest.
 
-### ➕ Kuidas võltsinguid tehakse
+### 🏠 Kuidas võltsinguid tehakse
 
 Piltidega on manipuleeritud sama kaua, kui on olemas olnud fotograafia. **Traditsiooniline fotoretušš** toimus pimikus: negatiive kärbiti, kombineeriti ja värviti, kasutati pihustiga värvimist (airbrush) ja kollaaže. 1990. aastatel tõi **digitaalne pilditöötlus** (nt Photoshop) kloonimise, retušeerimise ja digitaalse kokkumonteerimise. Tänapäeval teeb **TI-põhine manipulatsioon** sama töö automaatselt: sisupõhine täitmine (content-aware fill), näo muutmine ja generatiivsed mudelid. Areng on liikunud **käsitööst automatiseeritud ja kõigile kättesaadava tehnoloogiani**.
 
@@ -16440,7 +16484,7 @@ TI-põhised pildimanipulatsiooni võtted on ka **objektide lisamine ja eemaldami
 
 Alati pole vaja keerulist tehnoloogiat. Väga tõhus manipulatsioon on **konteksti muutmine**: päris foto avaldatakse vale pealkirja, kuupäeva või kohaga, näiteks vana üleujutuse pilt esitatakse „tänase“ sündmusena. Ka **perspektiivi ja proportsioonide** muutmine (kaadri kärpimine, venitamine) võib vaataja eksitada.
 
-### ➕ Kasutusalad ja ohud
+### 🏠 Kasutusalad ja ohud
 
 Süvavõltsingu tehnoloogia ei ole iseenesest halb. Sellel on ka **positiivseid kasutusviise**:
 
@@ -16530,7 +16574,7 @@ Paljud „uudisepildid“ on päris fotod, mis on avaldatud vale pealkirja, kuup
 <!-- class="pae-lisaks" -->
 > **Kui arvutit pole:** õpetaja näitab väljaprinditud fotot koos väidetava pealkirjaga. Otsige pildilt vihjeid (ilm, aastaaeg, riietus, sildid, autode numbrimärgid), mis pealkirja kinnitavad või sellele vastu räägivad.
 
-### ➕ Seadused ja eetilised piirid
+### 🏠 Seadused ja eetilised piirid
 
 Süvavõltsinguid reguleerivad seadused on alles kujunemas ja riigiti erinevad. Näiteks USA-s on osariikidel (nt Californias) oma süvavõltsinguid käsitlevad seadused ning Aasia riigid on võtnud omi meetmeid. Euroopas kehtib mitu olulist reeglistikku.
 
@@ -16565,9 +16609,9 @@ Mis see tähendab sinu jaoks praktikas? Siin on **eetilised ja seaduslikud piiri
 > - pöördu **politsei veebikonstaablite** poole või helista hädaabinumbril 112, kui olukord on tõsine;
 > - nõu ja tuge saab ka **Lasteabist** (telefon 116 111, ööpäevaringselt).
 >
-> Eestis on süvavõltsingute teema oluline ka valimiste kaitse ja küberjulgeoleku seisukohast. Eestikeelset võltssisu on väikese keele tõttu olnud vähem, kuid TI muudab ka eestikeelse heli ja video võltsimise järjest lihtsamaks. Seepärast on <span class="pae-term" tabindex="0" data-def="meediakirjaoskus: Oskus meediasisu kriitiliselt hinnata ning allikaid ja konteksti kontrollida">meediakirjaoskusel</span> koolides suur roll.
+> Eestis on süvavõltsingute teema oluline ka valimiste kaitse ja küberjulgeoleku seisukohast. Eestikeelset võltssisu on väikese keele tõttu olnud vähem, kuid TI muudab ka eestikeelse heli ja video võltsimise järjest lihtsamaks. Seepärast on meediakirjaoskusel koolides suur roll.
 
-### ➕ Meediakirjaoskus ja tulevik
+### 🏠 Meediakirjaoskus ja tulevik
 
 Tehnoloogia muutub üha realistlikumaks: võltsinguid saab luua **reaalajas** (nt videokõne ajal) ja need on **multimodaalsed** (pilt, heli ja tekst koos). Tuvastajad paranevad samuti ning TI ja inimeksperdid teevad koostööd. Ometi ei saa ainult tehnoloogia meid kaitsta. Ühiskond peab **usaldust ümber mõtestama**: tulevikus ei piisa sellest, et „nägin oma silmaga videos“. Tekivad uued autentsuse standardid ja kasvab **meediakirjaoskuse** tähtsus.
 
@@ -16580,7 +16624,7 @@ Meediakirjaoskus tähendab oskust allikaid kontrollida, konteksti arvestada ja e
 > - Kas süvavõltsingute tehnoloogia arendamist peaks piirama või tuleks keskenduda hoopis kuritarvituste karistamisele ja meediakirjaoskusele?
 > - Mida teeksid, kui klassi vestlusgruppi ilmuks klassikaaslasest võltsitud naljavideo? Kuidas käituksid, et teda kaitsta?
 
-### ➕ 🎬 Video: meedia ja kriitiline mõtlemine tehisaru ajastul
+### 🏠 🎬 Video: meedia ja kriitiline mõtlemine tehisaru ajastul
 
 TI-Hüppe video käsitleb infoküllust, süvavõltsinguid ja nende mõju usaldusele, kinnituskalduvust ning seda, kuidas algoritmid mõjutavad, mida me näeme ja usume. Videos tutvustatakse ka argumendimudelit, millega nähtud ja kuuldud infot kriitiliselt hinnata.
 
@@ -17710,12 +17754,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Kuidas eetikat ellu viia?“, „Euroopa Liidu ja Eesti lähenemine“, „Video: tehisintellekt ja eetika“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Mis on <span class="pae-term" tabindex="0" data-def="tehisintellekti eetika: Filosoofia valdkond, mis tegeleb moraalsete küsimustega TI arendamisel ja kasutamisel">tehisintellekti eetika</span>?“, „Viis põhilist eetilist põhimõtet“, „Eetilised dilemmad“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Moraalimasina dilemmad“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded III, VI ja VIII
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada. Rollimängu „➕ Rollimäng: tehisaru koolis“ saab õpetaja kasutada eraldi rühmatöötunnina.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -17810,7 +17856,7 @@ Eri organisatsioonid on koostanud TI eetikajuhiseid ning kuigi sõnastused erine
 >
 > Trolliprobleemi puhul pole ühte „õiget“ vastust. Mõtle läbi mõlemad seisukohad: miks võiks auto kaitsta eelkõige reisijaid ja miks eelkõige jalakäijaid? Kas oleksid valmis ostma auto, mis sinu elu ohtu seab, et päästa rohkem teisi inimesi? Kes peaks sinu arvates sellised reeglid otsustama – autotootja, riik või ostja?
 
-### ➕ Kuidas eetikat ellu viia?
+### 🏠 Kuidas eetikat ellu viia?
 
 Põhimõtteid on lihtne kirja panna, kuid neid on raske järgida. Seepärast kasutatakse mitut moodust korraga:
 
@@ -17839,7 +17885,7 @@ Nende raamistike võrdlemisel näed, et põhimõtted on väga sarnased. Erinevus
 >
 > Eetiline disain tähendab, et eetilisi põhimõtteid (inimkesksus, läbipaistvus, õiglus, privaatsus, vastutus, kaasatus) arvestatakse kogu arendusprotsessi vältel, alates süsteemi kavandamisest – mitte ei lisata neid tagantjärele, kui probleemid on juba tekkinud.
 
-### ➕ Euroopa Liidu ja Eesti lähenemine
+### 🏠 Euroopa Liidu ja Eesti lähenemine
 
 Euroopa Liit on TI reguleerimisel olnud maailmas üks eestvedajaid. ELi TI eetilised põhimõtted on **inimkesksus**, **läbipaistvus**, **mittediskrimineerimine**, **privaatsus ja andmekaitse**, **vastutus** ning **tehniline töökindlus ja ohutus**. Viimane tähendab, et TI-süsteemid peavad olema turvalised ning vastupidavad rünnakutele ja vigadele.
 
@@ -17966,7 +18012,7 @@ Hea mõtisklus: 1) nimetab, mis on olukorras tehisaru roll ja milline probleem t
 
 ![Roll 8: Mõistuse hääl](pildid/rollimang/roll_8.jpg "Roll 8. Mõistuse hääl")
 
-### ➕ 🎬 Video: tehisintellekt ja eetika
+### 🏠 🎬 Video: tehisintellekt ja eetika
 
 Videoõpsi lühivideo tutvustab, milliseid eetilisi küsimusi tehisaru tõstatab: kuidas peaks isejuhtiv auto õnnetuse korral otsustama, kuidas kaitsta isikuandmeid ja autoriõigusi ning milliseid põhimõtteid tuleks tehisaru arendamisel järgida.
 
@@ -18433,12 +18479,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Privaatsust säilitavad tehnoloogiad“, „Privaatsuse ja kasulikkuse tasakaal“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Mis on privaatsus TI ajastul?“, „Kuidas TI privaatsust ohustab?“, „Õiguslik raamistik: GDPR ja sinu õigused“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Mida TI postitustest järeldab?“
 > 3. ⭐ **Tööleht** (~15 min): töölehe osad 2, 4 ja 5
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -18538,7 +18586,7 @@ Sinul kui andmesubjektil on GDPR-i järgi mitu õigust:
 >
 > Ava oma telefonis ühe sagedamini kasutatava rakenduse seaded. Milliseid andmeid see rakendus sinu kohta koguda tohib (asukoht, kontaktid, mikrofon, kaamera)? Kas kõik need load on rakenduse toimimiseks tõesti vajalikud? Kuidas on see seotud <span class="pae-term" tabindex="0" data-def="andmete minimaalsus: Põhimõte koguda ainult nii palju andmeid, kui eesmärgi jaoks on vaja">andmete minimaalsuse</span> põhimõttega?
 
-### ➕ Privaatsust säilitavad tehnoloogiad
+### 🏠 Privaatsust säilitavad tehnoloogiad
 
 Kas TI ja privaatsus saavad üldse koos eksisteerida? Teadlased on välja töötanud tehnoloogiaid, mis võimaldavad andmetest kasu saada, ilma et üksikute inimeste andmed paljastuksid.
 
@@ -18565,7 +18613,7 @@ Lisaks kasutatakse **anonümiseerimist** (andmetest eemaldatakse kõik, mille p�
 
 Ettevõtted ja asutused saavad privaatsust kaitsta ka praktiliste sammudega: anonümiseerimine ja <span class="pae-term" tabindex="0" data-def="pseudonümiseerimine: Otseste tunnuste asendamine koodiga, mida saab eraldi võtme abil tagasi seostada">pseudonümiseerimine</span>, privaatsuse mõjuhinnangud, andmekaitse põhimõtete dokumenteerimine, töötajate koolitamine, **andmekaitsespetsialisti** määramine, turvaintsidentide haldamise kord ja regulaarsed auditid.
 
-### ➕ Privaatsuse ja kasulikkuse tasakaal
+### 🏠 Privaatsuse ja kasulikkuse tasakaal
 
 Siin on keskne dilemma: **rohkem andmeid tähendab sageli paremat TI-d**, kuid rohkem andmeid tähendab ka suuremat privaatsusriski. Kuidas tagada privaatsus ilma kasulikkust ohverdamata? Ühest vastust ei ole. Ühed rõhutavad, et terviseandmete laialdasem kasutamine võib päästa elusid. Teised leiavad, et inimese kontroll oma andmete üle on nii oluline, et sellest ei tohi loobuda isegi suure kasu nimel. Lahendusi otsitakse privaatsust säilitavatest tehnoloogiatest, anonümiseerimisest ja pseudonümiseerimisest ning nõusolekust ja läbipaistvusest.
 
@@ -18914,12 +18962,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Kuidas õiglust mõõta?“, „Kallutatuse tuvastamine ja vähendamine“, „Dilemmad ja reeglid“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Mis on kallutatus ja õiglus?“, „Kallutatuse tüübid ja näited“, „Miks kallutatus tekib?“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kes on arst ja kes õde?“
 > 3. ⭐ **Tööleht** (~15 min): töölehe osad 2, 5 ja 6
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -19000,7 +19050,7 @@ Kallutatuse põhjused on enamasti seotud inimeste ja ühiskonnaga, mitte tehnika
 >
 > Mõtle sotsiaalmeedia voole. Kui vaatad mõne teema videoid, näidatakse sulle järgmisel korral rohkem sama teema videoid. Kuidas on see seotud tagasisidesilmusega? Kas see võib mõjutada seda, kuidas sa maailma näed?
 
-### ➕ Kuidas õiglust mõõta?
+### 🏠 Kuidas õiglust mõõta?
 
 Kõik nõustuvad, et TI peaks olema õiglane. Kuid mida see täpselt tähendab? Selgub, et õiglust saab defineerida mitmel viisil.
 
@@ -19028,7 +19078,7 @@ Keeruline on see, et **kõiki õigluse definitsioone ei saa korraga rahuldada**.
 >
 > Kujuta ette stipendiumi, mille jaoks TI eelvalib kandidaate. Ühe käsituse järgi on õiglane, kui igast koolist valitakse võrdne osa õpilasi (demograafiline pariteet). Teise käsituse järgi on õiglane, kui süsteem jätab igas koolis välja ühepalju tegelikult sobivaid õpilasi (võrdsed võimalused). Kui koolide õpilaste tulemused erinevad, võivad need kaks käsitust viia erinevate valikuteni. Kumb on õiglasem? Sellele küsimusele vastavad inimesed erinevalt.
 
-### ➕ Kallutatuse tuvastamine ja vähendamine
+### 🏠 Kallutatuse tuvastamine ja vähendamine
 
 Kallutatust saab **tuvastada** mitmel viisil:
 
@@ -19055,7 +19105,7 @@ Praktikas on näiteks näotuvastussüsteeme parandatud mitmekesisemate treeninga
 >
 > Algoritmi audit on TI-süsteemi süstemaatiline ja sageli sõltumatu kontroll, mille käigus hinnatakse, kas süsteem toimib õiglaselt, täpselt ja reeglite kohaselt.
 
-### ➕ Dilemmad ja reeglid
+### 🏠 Dilemmad ja reeglid
 
 Õigluse tagamine tekitab mitu keerulist küsimust, millele inimesed vastavad erinevalt:
 
@@ -19421,12 +19471,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Mis on teisiti kui varem?“, „Erinevad sektorid“, „Ebavõrdsus ja vastutus“, „Tulevikustsenaariumid“, „Videod: kas tehisaru võtab töö ära?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Kuidas TI tööturgu muudab?“, „Millised töökohad muutuvad?“, „Tuleviku oskused“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Mida TI minu tulevases ametis teeks?“
 > 3. ⭐ **Tööleht** (~15 min): töölehe osad 2, 6 ja 7
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -19458,7 +19510,7 @@ TI mõjutab tööturgu kolmel moel:
 
 See teema on oluline mitmel põhjusel: sellel on suur **majanduslik ja sotsiaalne mõju**, **haridussüsteem peab kohanema** ning sina ise pead **tulevikuks valmistuma** – sinu karjäär möödub just TI ajastul.
 
-### ➕ Mis on teisiti kui varem?
+### 🏠 Mis on teisiti kui varem?
 
 Ajaloos on olnud mitu suurt tehnoloogilist pööret: **tööstusrevolutsioon**, **arvutite ja interneti levik** ning **automatiseerimine ja robotiseerimine** tehastes. Iga kord kadusid mõned töökohad, kuid tekkis ka uusi.
 
@@ -19507,7 +19559,7 @@ Enamikus ametites aga muutub igapäevatöö: inimesed hakkavad kasutama **TI-tö
 >
 > Inimese ja masina koostöö tähendab, et inimene ja TI teevad tööd koos, kumbki oma tugevusi kasutades: TI töötleb kiiresti suuri andmehulki, inimene annab hinnangu, vastutab otsuse eest ja suhtleb teiste inimestega.
 
-### ➕ Erinevad sektorid
+### 🏠 Erinevad sektorid
 
 TI mõju erineb sektoriti.
 
@@ -19551,7 +19603,7 @@ Kõige olulisemaks peetakse **elukestva õppe** mõtteviisi: valmisolekut terve 
 >
 > Elukestev õpe tähendab, et inimene õpib ja täiendab end kogu elu jooksul, mitte ainult koolis. Muutuval tööturul aitab see uute oskustega kohaneda.
 
-### ➕ Ebavõrdsus ja vastutus
+### 🏠 Ebavõrdsus ja vastutus
 
 TI mõju ei jaotu kõigile võrdselt. Eristada saab mitut lõhet:
 
@@ -19578,7 +19630,7 @@ Mõned meetmed tekitavad elavat arutelu. Näiteks **universaalne põhisissetulek
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** **AI & Robotics Estonia (AIRE)** tegutseb alates **2021. aastast** ja **Tehnopoli AI arenguprogramm** on ettevõtteid toetanud alates **2022. aastast**.
 
-### ➕ Tulevikustsenaariumid
+### 🏠 Tulevikustsenaariumid
 
 Kuidas TI tööturgu pikemas plaanis mõjutab, ei tea keegi kindlalt. Eksperdid ja uurimisasutused on esitanud erinevaid hinnanguid ja need lähevad sageli lahku. Näiteks Maailma Majandusfoorumi 2025. aasta raport hindab tööandjate küsitluse põhjal, et aastaks 2030 tekib maailmas umbes 170 miljonit uut töökohta ja kaob umbes 92 miljonit – kuid see on hinnang, mitte fakt. Seepärast räägitakse **stsenaariumidest** – võimalikest arenguteedest, mitte ennustustest.
 
@@ -19597,7 +19649,7 @@ Sellised stsenaariumid aitavad mõelda, millised valikud võivad tulevikku mõju
 >
 > Vali amet, mis sind huvitab. Millised selle ameti ülesanded võiksid sinu arvates TI abil muutuda ja millised jääksid ilmselt inimesele? Millised oskused aitaksid sul selles ametis toime tulla, ükskõik millise stsenaariumi järgi tulevik kujuneb?
 
-### ➕ 🎬 Videod: kas tehisaru võtab töö ära?
+### 🏠 🎬 Videod: kas tehisaru võtab töö ära?
 
 Sellel lehel on 3 videot. Iga video ees on lühike kokkuvõte, mis aitab sul valida.
 
@@ -20005,12 +20057,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Lühikese, keskmise ja pika aja trendid“, „Mõju ühiskonnale ja eetilised väljakutsed“, „TI ohutus“, „Kuidas tulevikuks valmistuda?“, „Videod: inimene ja tehisaru tulevikus“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Miks mõelda tulevikule – ja miks ettevaatlikult?“, „TI täna“, „TI reguleerimine“ ja „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas nägu on päris?“
 > 3. ⭐ **Tööleht** (~15 min): töölehe osad 4, 6 ja 7
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -20058,7 +20112,7 @@ Praegust TI arengut iseloomustab mitu suunda:
 >
 > Multimodaalne TI-süsteem suudab töödelda ja luua mitut liiki andmeid korraga – näiteks vaadata pilti, kuulata küsimust ja vastata kõnes või tekstis.
 
-### ➕ Lühikese, keskmise ja pika aja trendid
+### 🏠 Lühikese, keskmise ja pika aja trendid
 
 Allikates jagatakse võimalikud arengusuunad kolme rühma. Pea meeles: need on hinnangud, mis põhinevad praegustel arengutel.
 
@@ -20087,7 +20141,7 @@ Allikates jagatakse võimalikud arengusuunad kolme rühma. Pea meeles: need on h
 >
 > Mõned trendid on Eestis juba igapäevaelus näha. **Starship Technologies** kullerrobotid on näide TI ja robootika lõimumisest: robot kasutab arvutinägemist, et linnatänavatel liigelda ja pakke kohale viia. **Bürokratt** on näide TI integreerimisest avalikesse teenustesse: kodanik saab riigiga suhelda tavalises kõnekeeles. Need näited aitavad mõista, et tulevik ei saabu ühel päeval – see kujuneb järk-järgult.
 
-### ➕ Mõju ühiskonnale ja eetilised väljakutsed
+### 🏠 Mõju ühiskonnale ja eetilised väljakutsed
 
 TI võib tulevikus muuta paljusid elualasid:
 
@@ -20103,7 +20157,7 @@ Koos sellega kerkivad esile ka eetilised väljakutsed, millest rääkisime ploki
 - **kallutatus ja õiglus** – oht, et algoritmiline kallutatus süveneb ja ühiskondlik ebavõrdsus võimendub;
 - **inimväärtuste säilitamine** – milline jääb inimese roll ja kuidas anda TI-le edasi inimlikke väärtusi?
 
-### ➕ TI ohutus
+### 🏠 TI ohutus
 
 Üks kiiresti kasvav uurimisvaldkond on **TI ohutus**. Selle keskne mõiste on **joondamine** (alignment): kuidas tagada, et TI-süsteemi eesmärgid ja käitumine oleksid kooskõlas inimeste kavatsuste ja väärtustega? Teine oluline teema on **robustsus ja turvalisus** – süsteem peab töötama usaldusväärselt ka ootamatutes olukordades ja pidama vastu rünnakutele.
 
@@ -20166,7 +20220,7 @@ Määrus on üldiselt kohaldatav alates **02.08.2026**, sh läbipaistvusnõuded.
 >
 > Eesti tugevused TI tulevikus on **e-riigi kogemus** ning hästi korraldatud ja kättesaadavad andmed (X-tee, digitaalsed riigiteenused). Eesti TI tegevuskava 2024–2026 jätkab varasemate kratikavade tööd ja keskendub TI rakendamisele eri valdkondades. Väikeriigi **eelis** on paindlikkus ja kiire otsustamine, **piiranguks** on aga väike turg ja vähene arvutusvõimsus suurte mudelite treenimiseks. Seepärast võiks Eesti otsida **nišše** – kitsamaid valdkondi, kus olla eriti tugev, näiteks avaliku sektori TI-lahendused või eesti keele tehnoloogia. Eesti on ELi liikmesriik, seega kehtib siin ka ELi tehisintellekti määrus.
 
-### ➕ Kuidas tulevikuks valmistuda?
+### 🏠 Kuidas tulevikuks valmistuda?
 
 Tulevikku saab mõjutada kolmel tasandil.
 
@@ -20178,7 +20232,7 @@ Tulevikku saab mõjutada kolmel tasandil.
 
 Tuleviku suhtes on kaks vastandlikku vaadet. **Optimistlik vaade** loodab, et TI aitab lahendada suuri ülemaailmseid probleeme, laiendab inimese võimeid ja toob kaasa uue õitsengu ajastu. **Pessimistlik vaade** kardab kontrolli ja jälgimist, töökohtade kadumist ja inimväärtuste hääbumist. Paljud pooldavad **tasakaalustatud lähenemist**: tunnistada riske, kasutada võimalusi ja suunata arengut teadlikult. Tulevik ei ole ette määratud – inimese roll ja väärtused peaksid jääma keskseks.
 
-### ➕ 🎬 Videod: inimene ja tehisaru tulevikus
+### 🏠 🎬 Videod: inimene ja tehisaru tulevikus
 
 Sellel lehel on 2 videot. Iga video ees on lühike kokkuvõte, mis aitab sul valida.
 
@@ -21334,12 +21388,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Mida sa nüüd oskad?“, „<span class="pae-term" tabindex="0" data-def="projektitöö: Piiratud ajaga ja selge eesmärgiga praktiline töö reaalse probleemi lahendamiseks">Projektitöö</span>: teadmised tegudeks“, „Edasi õppima: tulevik ja karjäär“, „Video: miks ja kuidas õppida tehisaru ajastul?“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Kursuse teekond: mis on TI ja kuidas see töötab“, „Keel, otsused ja pildid“, „Eetika ja tulevik“ ning „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Vestlusrobot kui kordamise treener“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded I, IV ja V
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -21421,7 +21477,7 @@ Jaan Aru sõnul võiks tehisaru olla õppimisel pigem treener kui teener. Selles
 <!-- class="pae-lisaks" -->
 > **Kui arvutit pole:** koostage paarilisega teineteisele viis kordamisküsimust kursuse eri plokkidest, vahetage need ja kontrollige vastuseid õpiku järgi. Arutage, mille poolest erineks vestlusroboti koostatud küsimustik teie omast.
 
-### ➕ Mida sa nüüd oskad?
+### 🏠 Mida sa nüüd oskad?
 
 Kursuse lõpuks peaksid olema omandanud mitu olulist teadmist ja oskust:
 
@@ -21432,7 +21488,7 @@ Kursuse lõpuks peaksid olema omandanud mitu olulist teadmist ja oskust:
 - TI tulevikutrendide mõistmine;
 - praktilised oskused TI kasutamiseks.
 
-Praktilistes ülesannetes rakendasid algoritme, kasutasid masinõppe mudeleid ning lahendasid keeletöötluse ja pilditöötluse ülesandeid. Selle käigus õppisid kasutama tööriistu, lahendama probleeme ja analüüsima tulemusi. Need on oskused, mida vajad kohe järgmises etapis – <span class="pae-term" tabindex="0" data-def="projektitöö: Piiratud ajaga ja selge eesmärgiga praktiline töö reaalse probleemi lahendamiseks">projektitöös</span>.
+Praktilistes ülesannetes rakendasid algoritme, kasutasid masinõppe mudeleid ning lahendasid keeletöötluse ja pilditöötluse ülesandeid. Selle käigus õppisid kasutama tööriistu, lahendama probleeme ja analüüsima tulemusi. Need on oskused, mida vajad kohe järgmises etapis – projektitöös.
 
 <!-- class="pae-naide" -->
 > **Näide: üks rakendus, mitu plokki**
@@ -21441,7 +21497,7 @@ Praktilistes ülesannetes rakendasid algoritme, kasutasid masinõppe mudeleid ni
 
 ![Keskel muusikasoovituste rakendus, millest lähevad jooned viie plokini: soovitussüsteem (plokk 4), andmed ja masinõpe (plokk 2), keeletöötlus (plokk 3), pilditöötlus (plokk 5) ning privaatsus ja õiglus (plokk 6).](pildid/plokk_7/7_1_rakendus.svg "Joonis 7.1.3. Üks rakendus ühendab mitme ploki teadmised")
 
-### ➕ Projektitöö: teadmised tegudeks
+### 🏠 Projektitöö: teadmised tegudeks
 
 Miks lõpeb kursus projektitööga? Sest kõige sügavamalt õpid siis, kui pead teadmisi ise rakendama. Projektitöö annab võimaluse kasutada õpitut reaalse probleemi lahendamiseks, õppida põhjalikumalt mõnda sind huvitavat teemat ja luua töö, mille saad lisada oma **portfooliosse** – oma tööde ja saavutuste kogusse.
 
@@ -21462,7 +21518,7 @@ Projektitöö kulgeb kolmes suures etapis, millest igaühele on selles plokis p�
 
 **Planeerimise** käigus määratled projekti teema ja eesmärgi (kasutades SMART-kriteeriume), hindad, kas projekt on teostatav ja oluline, koostad tegevuskava ja ajakava, kaardistad ressursid ja tööriistad, teed riskianalüüsi ning jagate meeskonnas rollid ja vastutuse. **Arendamise** käigus kogute ja analüüsite andmeid, kavandate lahenduse, teostate selle ning testite ja hindate tulemust. Kogu aeg dokumenteerite nii protsessi kui ka tulemusi ning lahendate tekkivaid probleeme. **Esitlemise** jaoks loote selge ülesehitusega esitluse ja visuaalid, kaasate kuulajaid, vastate küsimustele ning kogute tagasisidet, et oma tööd parandada.
 
-### ➕ Edasi õppima: tulevik ja karjäär
+### 🏠 Edasi õppima: tulevik ja karjäär
 
 Kursus lõpeb, aga TI areng jätkub kiiresti. Lähituleviku trendid (näiteks suurte keelemudelite ja generatiivse TI levik) ja pikaajalised visioonid mõjutavad seda, kuidas me õpime, töötame ja suhtleme. Seepärast on oluline **<span class="pae-term" tabindex="0" data-def="elukestev õpe: Õppimine ja enesetäiendamine kogu elu jooksul">elukestev õpe</span>** – valmisolek kogu elu jooksul uusi teadmisi omandada.
 
@@ -21480,12 +21536,12 @@ Kursuse peamised õppetunnid võib kokku võtta nii: tehisintellekt on väga **m
 <!-- class="pae-lisaks" -->
 > **Tea lisaks**
 >
-> Kursuse jooksul nägid mitut Eesti ja Euroopa algatust. Eestis on TI kasutuselevõttu suunatud riiklike tegevuskavadega (kratikavadega), millest praegu kehtib tehisintellekti tegevuskava ehk kratikava 2024–2026. Euroopa tasandil ühendavad TI-teadlasi näiteks võrgustikud CLAIRE ja ELLIS.
+> Kursuse jooksul nägid mitut Eesti ja Euroopa algatust. Eestis on TI kasutuselevõttu suunatud riiklike tegevuskavadega (kratikavadega), millest praegu kehtib tehisintellekti tegevuskava ehk kratikava 2024–2026. Euroopa tasandil ühendavad TI-teadlasi näiteks võrgustikud CAIRNE (varem CLAIRE) ja ELLIS.
 
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Helsingi Ülikooli ja MinnaLearni veebikursuse **Elements of AI** eestikeelse versiooni tõi Eestisse Tallinna Tehnikaülikool. Kursus on tasuta.
 
-### ➕ 🎬 Video: miks ja kuidas õppida tehisaru ajastul?
+### 🏠 🎬 Video: miks ja kuidas õppida tehisaru ajastul?
 
 Ajuteadlane Jaan Aru selgitab, miks on õppimine ja iseseisev mõtlemine olulised ka siis, kui tehisaru suudab meie eest üha rohkem ära teha. Õppimine toimub siis, kui ise mõtled, proovid ja pingutad. Tehisaru võiks õppimisel olla pigem **treener kui teener**.
 
@@ -21891,12 +21947,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Mis on projektitöö ja miks seda planeerida?“, „Ulatus, tegevused ja ajakava“, „Edukuse kriteeriumid ja projekti käivitamine“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Kuidas valida projekti teemat?“, „Eesmärk SMART-kriteeriumide järgi“, „Ressursid, rollid ja riskid“ ning „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas idee on teostatav? Kiirproov Teachable Machine'is“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded I, III ja VIII
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -21909,7 +21967,7 @@ Selles tunnis hakkad koos meeskonnaga oma TI-projekti planeerima. Kõigepealt va
 
 </section>
 
-### ➕ Mis on projektitöö ja miks seda planeerida?
+### 🏠 Mis on projektitöö ja miks seda planeerida?
 
 **Projektitöö** on töö, mille käigus rakendad oma teadmisi ja oskusi praktiliselt, lahendad reaalse probleemi ning lood ja esitled tulemuse. See erineb tavalisest koduülesandest: pead ise otsustama, mida teha, kuidas teha ja millal valmis saada. Just seepärast õpid projektitöös sügavamalt, arendad praktilisi oskusi ja saad tulemuse, mille võid lisada oma **portfooliosse**.
 
@@ -21987,7 +22045,7 @@ Eesmärgi kõrval tuleb sõnastada **põhjendus ja olulisus**. Kirjelda, millist
 >
 > Kas eesmärk „Teha hea pildituvastusrakendus“ on SMART? Milliseid kriteeriume see ei täida? Proovi see ümber sõnastada nii, et kõik viis kriteeriumi oleksid täidetud.
 
-### ➕ Ulatus, tegevused ja ajakava
+### 🏠 Ulatus, tegevused ja ajakava
 
 **Projekti ulatus** näitab, mida projekt hõlmab ja mida mitte. Kirjelda peamisi funktsioone ja olulisi komponente. Sama tähtis on kirja panna, mida projekt **ei hõlma**: teadlikud väljajätmised ja võimalused, mis jäävad tulevikuks. Nii väldid olukorda, kus projekt kasvab lõputult. Määratle ka piirangud (ajalised, ressurssidega seotud ja tehnilised) ning eeldused ja sõltuvused: mis peab olema täidetud ja millest projekt sõltub (nt kas saate kätte vajalikud andmed).
 
@@ -22059,7 +22117,7 @@ Enne kui kirjutad projektiplaani, tasub kontrollida, kas idee põhiosa üldse t�
 <!-- class="pae-lisaks" -->
 > **Kui arvutit pole:** kirjutage paberile, milliseid andmeid ja kui palju teie idee jaoks vaja oleks, kust need saate ja kui kaua nende kogumine võtab. Hinnake skaalal 1–5, kui realistlik on idee 8 nädalaga ellu viia, ja põhjendage.
 
-### ➕ Edukuse kriteeriumid ja projekti käivitamine
+### 🏠 Edukuse kriteeriumid ja projekti käivitamine
 
 Enne töö algust leppige kokku, kuidas hindate, kas projekt õnnestus. **Hindamiskriteeriume** on mitut liiki:
 
@@ -22477,7 +22535,7 @@ Lukk avaneb, kui lahendad ülekandeülesande.
 [[ajakava]]
 [[?]] Vihje 1: mis seob kõik tegevused kindlate nädalate ja kuupäevadega?
 [[?]] Vihje 2: pane tähed õigesse järjekorda: **AVAKAJA**.
-[[?]] 🛟 Päästerõngas: mine tagasi lehele „➕ Ulatus, tegevused ja ajakava“ ja loe lõik, mis algab sõnadega „Ajakava on projekti tegevuste järjestus“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
+[[?]] 🛟 Päästerõngas: mine tagasi lehele „🏠 Ulatus, tegevused ja ajakava“ ja loe lõik, mis algab sõnadega „Ajakava on projekti tegevuste järjestus“. Kui ikka ei tule välja, küsi õpetajalt selle luku päästekood ja kirjuta see vastuseväljale.
 <script>
 /* paeAbi */ if (`@input`.trim().toUpperCase().replace(/\s+/g, "") === "ABI473") { true } else {
 let v = `@input`.trim().toLowerCase().replace(/\s+/g, " ");
@@ -22511,12 +22569,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Planeerimisest teostuseni“, „Lahenduse disain ja teostus“, „<span class="pae-term" tabindex="0" data-def="dokumenteerimine: Projekti tegevuste ja tulemuste kirjalik või visuaalne salvestamine">Dokumenteerimine</span> ja väljakutsete lahendamine“, „Edenemise jälgimine ja <span class="pae-term" tabindex="0" data-def="jätkusuutlikkus: Projekti võime jätkuda või areneda ka pärast projekti lõppu">jätkusuutlikkus</span>“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Andmete kogumine ja ettevalmistamine“, „Treenimine, testimine ja hindamine“ ning „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Testi närvivõrku piirjuhtumitega“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja X
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -22529,9 +22589,9 @@ Selles tunnis arendad oma projekti TI-lahendust samm-sammult. TI on nii hea, kui
 
 </section>
 
-### ➕ Planeerimisest teostuseni
+### 🏠 Planeerimisest teostuseni
 
-Kui projektiplaan on valmis, algab arendamine – kõige pikem ja tihti ka kõige põnevam osa projektist. Nüüd selgub, kui hea oli plaan, ja tuleb ette nii väljakutseid kui ka võimalusi. Eduka arendusprotsessi aluseks on neli põhimõtet: selge plaan ja eesmärgid, iteratiivne lähenemine, pidev testimine ja tagasiside ning hea <span class="pae-term" tabindex="0" data-def="dokumenteerimine: Projekti tegevuste ja tulemuste kirjalik või visuaalne salvestamine">dokumenteerimine</span>.
+Kui projektiplaan on valmis, algab arendamine – kõige pikem ja tihti ka kõige põnevam osa projektist. Nüüd selgub, kui hea oli plaan, ja tuleb ette nii väljakutseid kui ka võimalusi. Eduka arendusprotsessi aluseks on neli põhimõtet: selge plaan ja eesmärgid, iteratiivne lähenemine, pidev testimine ja tagasiside ning hea dokumenteerimine.
 
 TI-projekti teostamine kulgeb tavaliselt järgmiste etappide kaudu:
 
@@ -22563,7 +22623,7 @@ Nagu plokis 2 nägid, on TI täpselt nii hea kui tema andmed. Seepärast algab e
 >
 > Rühm tahab ennustada, mitu portsjonit sööklas üle jääb. Andmetabelis on mõnel päeval jäätmete kogus puudu, ühel päeval on kogemata sisestatud 900 kg 9 kg asemel ja mitu päeva on kaks korda kirjas. Enne treenimist tuleb puuduvad väärtused käsitleda, ilmne viga parandada ja duplikaadid eemaldada – muidu õpib mudel valesid mustreid.
 
-### ➕ Lahenduse disain ja teostus
+### 🏠 Lahenduse disain ja teostus
 
 **Arhitektuuri planeerimine** tähendab otsustamist, millistest komponentidest süsteem koosneb, kuidas andmed nende vahel liiguvad (andmevood) ja milliste teiste süsteemidega lahendus ühendatakse.
 
@@ -22644,7 +22704,7 @@ Hea testija ei kontrolli ainult tavalisi juhtumeid, vaid otsib ka **piirjuhtumei
 <!-- class="pae-lisaks" -->
 > **Kui arvutit pole:** üks paariline joonistab paberile kuus eset (kolm tavalist ja kolm piirjuhtumit) ja teine proovib 20 sekundi jooksul ära arvata. Arvutage mõlema rühma täpsus ja arutage, mille poolest erineb inimene närvivõrgust.
 
-### ➕ Dokumenteerimine ja väljakutsete lahendamine
+### 🏠 Dokumenteerimine ja väljakutsete lahendamine
 
 **Dokumenteerimine** on projekti tegevuste ja tulemuste kirjalik või visuaalne salvestamine. Seda tehakse kogu arenduse jooksul, mitte alles lõpus. Dokumenteerida tuleb mitut asja:
 
@@ -22664,13 +22724,13 @@ Väljakutseid tuleb ette igas projektis. Neid on nelja liiki:
 | Ressursiprobleemid | ajakava kohandamine, ressursside ümberjaotamine, prioriteetide seadmine |
 | Meeskonnatöö probleemid | suhtluse parandamine, konfliktide lahendamine, motivatsiooni hoidmine |
 
-### ➕ Edenemise jälgimine ja jätkusuutlikkus
+### 🏠 Edenemise jälgimine ja jätkusuutlikkus
 
 **Edenemise jälgimiseks** võrdle tehtud tööd planeerituga, kontrolli verstaposte ja vahe-eesmärke ning jälgi kvaliteedinäitajaid. Kasuta staatusaruandeid, koosolekuid ja visualiseerimist, näiteks **Kanbani tahvlit**, kus ülesanded liiguvad veerust veergu: „Teha“ → „Töös“ → „Tehtud“. Kogu tagasisidet meeskonnast, juhendajalt ja kasutajatelt ning kohanda selle põhjal plaani ja tööprotsessi.
 
 Projekti lõpus analüüsi **tulemusi**: vaata üle algsed eesmärgid, võrdle neid saavutatuga ja selgita kõrvalekallete põhjusi. Analüüsi tehnilisi tulemusi (mudeli täpsus ja jõudlus, süsteemi töökindlus) ja protsessi (ajakava järgimine, ressursside kasutamine, meeskonnatöö). Kogu õppetunnid kolme küsimusega: *Mis läks hästi? Mis oleks võinud paremini minna? Mida teeksime järgmine kord teisiti?*
 
-Lõpuks mõtle **<span class="pae-term" tabindex="0" data-def="jätkusuutlikkus: Projekti võime jätkuda või areneda ka pärast projekti lõppu">jätkusuutlikkusele</span>** – projekti võimele jätkuda või areneda pärast esialgse projekti lõppu. Arhiveeri kood ja andmed, säilita dokumentatsioon ja mõtle intellektuaalomandile. Kirjelda edasiarendusvõimalusi: järgmised sammud, laiendused, uued rakendused. Tulemusi saab jagada publikatsioonide, avatud lähtekoodi ning esitluste ja ettekannete kaudu. Ja õpitu tuleb kasuks isiklikus arengus, tulevastes projektides ja karjääris.
+Lõpuks mõtle **jätkusuutlikkusele** – projekti võimele jätkuda või areneda pärast esialgse projekti lõppu. Arhiveeri kood ja andmed, säilita dokumentatsioon ja mõtle intellektuaalomandile. Kirjelda edasiarendusvõimalusi: järgmised sammud, laiendused, uued rakendused. Tulemusi saab jagada publikatsioonide, avatud lähtekoodi ning esitluste ja ettekannete kaudu. Ja õpitu tuleb kasuks isiklikus arengus, tulevastes projektides ja karjääris.
 
 <!-- class="pae-lisaks" -->
 > **Tea lisaks**
@@ -23067,12 +23127,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Visuaalid ja tulemuste visualiseerimine“, „Esineja oskused ja küsimused“, „Harjutamine, esitluspäev ja tagasiside“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Miks ja kellele esitled?“, „Esitluse ülesehitus“, „<span class="pae-term" tabindex="0" data-def="demo: Lahenduse töö näitamine otse või salvestatult">Demo</span> ja tehnilised detailid“ ning „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Kas su põhisõnum jääb tõlkes ellu?“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded II, V ja VIII
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -23123,7 +23185,7 @@ TI-projekti esitlusel on hea kasutada järgmist ülesehitust:
 >
 > **Elevaatorikõne** on lühike, tavaliselt 30–60-sekundiline tutvustus, mille jooksul pead suutma oma projekti huvilisele või toetajale ära rääkida – nii lühikese aja jooksul, kui kestab sõit liftis. Näiteks: „Meie koolis visatakse iga päev ära palju toitu. Lõime mudeli, mis ennustab eelmiste nädalate andmete põhjal, mitu portsjonit järgmisel päeval vaja on. Testandmetel oli meie ennustus tunduvalt täpsem kui lihtne keskmine. Järgmiseks tahame mudelit katsetada ka teistes koolides.“
 
-### ➕ Visuaalid ja tulemuste visualiseerimine
+### 🏠 Visuaalid ja tulemuste visualiseerimine
 
 Slaidid peavad sinu kõnet toetama, mitte asendama. **Slaidide kujunduses** lähtu selgusest ja lihtsusest, järjepidevusest (sama kujundus kõigil slaididel) ja visuaalsest hierarhiast (kõige olulisem on kõige silmatorkavam). **Teksti** olgu vähe: kirjuta lühikeste ja selgete punktidena ning kasuta loetavat fonti ja piisavalt suurt kirja. Kasuta **visuaalseid elemente**: diagramme, graafikuid, pilte ja ikoone; animatsioone ainult mõõdukalt.
 
@@ -23196,7 +23258,7 @@ Kui lause on selge ja üheselt mõistetav, jääb selle mõte alles ka siis, kui
 <!-- class="pae-lisaks" -->
 > **Kui arvutit pole:** lugege paarilisele oma elevaatorikõne üks kord ette. Paariline jutustab selle oma sõnadega ümber. Võrrelge: millised mõtted jäid alles ja millised läksid kaduma?
 
-### ➕ Esineja oskused ja küsimused
+### 🏠 Esineja oskused ja küsimused
 
 Esitlus ei ole ainult slaidid – oluline on ka see, **kuidas** sa räägid:
 
@@ -23214,7 +23276,7 @@ Esitlus ei ole ainult slaidid – oluline on ka see, **kuidas** sa räägid:
 >
 > **Konstruktiivne tagasiside** on konkreetne, tasakaalustatud ja arengule suunatud hinnang, mis toob välja nii tugevused kui ka parenduskohad ning pakub soovitusi.
 
-### ➕ Harjutamine, esitluspäev ja tagasiside
+### 🏠 Harjutamine, esitluspäev ja tagasiside
 
 **Harjutamine** suurendab enesekindlust, aitab ajastust kontrollida ja muudab esitluse sujuvaks. Harjuta iseendale, esitle sõpradele või perele või salvesta end videole ja analüüsi seda. Küsi konstruktiivset tagasisidet, leia parenduskohad ja tugevused ning täienda esitlust: lahenda probleemkohad ja lisa viimane lihv.
 
@@ -23653,12 +23715,14 @@ Selle tunni järel sa:
 <!-- class="pae-fakt" -->
 > **🎯 Tunni tuumik (45 min)**
 >
+> 🏠 **Kodus enne tundi** (~15–20 min): „Esitluspäev: korraldus ja hindamine“, „Õpitu reflekteerimine“, „Edasiõppimine ja karjäär“, „Kursuse lõpetamine“. Too tundi kaasa üks uus teadmine või küsimus – tunni alguses arutate neid paarides (3 min).
+>
 > 1. 📚 **Loe** (~12 min): „Tagasiside andmine ja vastuvõtmine“, „Projekti lõpetamine ja tulemuste jagamine“, „Tehisintellekti tulevik – ka Eestis“ ning „Kokkuvõte ja põhimõisted“
 > 2. 🧪 **TI-katse** (~10 min): „Tagasiside analüüs: inimene vs TI“
 > 3. ⭐ **Tööleht** (~15 min): ülesanded III, VI ja VIII
 > 4. 📤 **Väljapääsupilet** ja 🔐 **lukk** (~8 min)
 >
-> Pealkirjad, mille ees on **➕**, on lisaülesanded: tee neid, kui jõuad, kodus või kui tahad rohkem teada.
+> **🏠** tähistab osi, mida loed või vaatad **kodus enne tundi** (ümberpööratud klassiruum). **➕** tähistab lisaülesannet – tee seda, kui jõuad, või kui tahad rohkem teada.
 
 {{|>}}
 <section class="pae-lihtne">
@@ -23671,7 +23735,7 @@ Selles tunnis esitled oma projekti ja annad teistele **tagasisidet**. Hea tagasi
 
 </section>
 
-### ➕ Esitluspäev: korraldus ja hindamine
+### 🏠 Esitluspäev: korraldus ja hindamine
 
 Kursuse lõpetamine on oluline hetk: see on võimalus näidata, mida oled õppinud, saada tagasisidet ja kinnistada õpitut. Projektitööde esitlemisel on mitu eesmärki – tutvustada oma tööd, õppida teiste projektidest, anda ja saada tagasisidet ning mõelda edasistele sammudele.
 
@@ -23742,7 +23806,7 @@ Jagamisel arvesta **intellektuaalomandiga**. **Autoriõigus** kaitseb loomingut,
 >
 > **Portfoolio** on sinu tööde kogum, mis näitab sinu õppimist, arengut ja saavutusi. Projektitöö lisamine portfooliosse aitab esile tuua saavutusi ja näidata õpitut – näiteks edasiõppimisel või töö otsimisel.
 
-### ➕ Õpitu reflekteerimine
+### 🏠 Õpitu reflekteerimine
 
 **<span class="pae-term" tabindex="0" data-def="refleksioon: Teadlik järelemõtlemine oma kogemuse ja õppimise üle">Refleksioon</span>** tähendab oma kogemuse üle teadlikku järelemõtlemist: mida tegid, mida õppisid ja mida teeksid edaspidi teisiti. Kursuse lõpus tasub reflekteerida kolmel tasandil:
 
@@ -23787,7 +23851,7 @@ Esitluspäeval saad palju tagasisidet. TI-tööriist oskab kommentaare kiiresti 
 <!-- class="pae-lisaks" -->
 > **Kui arvutit pole:** kaks rühmaliiget rühmitavad samad kommentaarid teineteisest sõltumatult kolme teemasse. Võrrelge tulemusi: kus olite ühel meelel ja kus mitte? Mida see ütleb tagasiside analüüsi usaldusväärsuse kohta?
 
-### ➕ Edasiõppimine ja karjäär
+### 🏠 Edasiõppimine ja karjäär
 
 TI-d saab edasi õppida mitmel viisil:
 
@@ -23798,7 +23862,7 @@ TI-d saab edasi õppida mitmel viisil:
 <!-- class="pae-lisaks" -->
 > **Tea lisaks**
 >
-> Euroopas ühendavad TI-teadlasi näiteks laborite konföderatsioon **CLAIRE**, mille uurimisvõrgustikku kuulub üle 500 TI-uurimisrühma ja -asutuse, ning masinõppele keskenduv võrgustik **ELLIS**. Ka Euroopa Liidu teadusprogramm „Euroopa horisont“ rahastab TI-uuringuid.
+> Euroopas ühendavad TI-teadlasi näiteks laborite konföderatsioon **CAIRNE** (kuni 2024. aastani CLAIRE), mille uurimisvõrgustikku kuulub ligi 500 uurimisrühma ja -asutust 41 riigist, ning masinõppele keskenduv võrgustik **ELLIS**. Ka Euroopa Liidu teadusprogramm „Euroopa horisont“ rahastab TI-uuringuid.
 
 TI valdkonnas on palju **erinevaid rolle**:
 
@@ -23813,7 +23877,7 @@ Nendes rollides on vaja **tehnilisi oskusi** (nt programmeerimine, andmeanalüü
 
 ![Kolm edasiõppimise viisi – formaalne haridus, iseseisev õppimine ja kogukonnad – ning neli rolli TI valdkonnas: andmeteadlane, masinõppe insener, TI-eetika spetsialist ja TI-rakenduste arendaja; all kiri, et vaja on tehnilisi ja pehmeid oskusi ning valdkonnateadmisi.](pildid/plokk_7/7_5_edasi.svg "Joonis 7.5.4. Edasiõppimine ja karjäär TI valdkonnas")
 
-### ➕ Kursuse lõpetamine
+### 🏠 Kursuse lõpetamine
 
 Kursuse lõpus toimuvad hindamine ja tagasiside: sinu tööd hinnatakse kokkulepitud kriteeriumide alusel, sina annad tagasisidet kursusele ja hindad ka ise oma õppimist. Tunnustatakse saavutusi ja tõstetakse esile silmapaistvaid projekte. Ja kindlasti tänatakse kõiki, kes kursusesse panustasid – õpilasi, koostööpartnereid ja toetajaid.
 
@@ -23848,7 +23912,7 @@ Kokkuvõtteks: tehisintellekt on meie elus üha olulisem, õppimine on väärtus
 - Kratid.ee (s.a.). [Visioon ja kavad](https://www.kratid.ee/kratt-visioon). Eesti tehisintellekti tegevuskavad 2019–2021, 2022–2023 ja kratikava 2024–2026.
 - ERR (2024). [Riik plaanib 85 miljoni euro abil tehisintellekti Eesti ellu juurutada](https://www.err.ee/1609248531/riik-plaanib-85-miljoni-euro-abil-tehisintellekti-eesti-ellu-juurutada). Tegevuskava 2024–2026 eesmärgid ja eelarve.
 - TI-Hüpe (s.a.). [Õppevideod](https://tihupe.ee/oppevideod/). Sarjas „Tipptegijad näitavad“ räägivad eri ametite esindajad, kuidas nad TI-d oma töös kasutavad – abiks karjäärivalikul.
-- Wikipedia (s.a.). [Confederation of Laboratories for Artificial Intelligence Research in Europe](https://en.wikipedia.org/wiki/Confederation_of_Laboratories_for_Artificial_Intelligence_Research_in_Europe). Euroopa TI-teadlaste võrgustiku CLAIRE ülevaade (inglise keeles).
+- CAIRNE (s.a.). [About CAIRNE](https://cairne.eu/about/). Euroopa TI-laborite konföderatsiooni ametlik tutvustus: ajalugu, nimevahetus CLAIRE → CAIRNE ja uurimisvõrgustik (inglise keeles).
 
 ### Tööleht 7.5
 
