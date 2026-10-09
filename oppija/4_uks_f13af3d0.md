@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.2.0
+version:  2.2.1
 language: et
 narrator: Estonian Female
 date:     08.10.2026

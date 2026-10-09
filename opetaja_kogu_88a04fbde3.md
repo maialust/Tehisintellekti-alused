@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.2.0
+version:  2.2.1
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -22257,9 +22257,9 @@ Kui teema on valitud, tuleb sõnastada projekti eesmärk. Hea eesmärk on selge,
 > - **R**ealistlik – eesmärk on saavutatav olemasolevate võimaluste piires;
 > - **T**ähtajaline (ajaliselt piiritletud) – on kindel tähtaeg.
 
-Vaata seda näidet: *„Luua vestlusagent, mis suudab vastata küsimustele Eesti ajaloo kohta, kasutades masinõppe mudelit ja eestikeelset andmekogu, ning saavutada 8 nädala jooksul 80% täpsus põhilistele faktiküsimustele vastamisel.“* Siin on konkreetne tulemus (vestlusagent Eesti ajaloo kohta), mõõdik (80% täpsus faktiliste küsimuste puhul), selge seos kursusega (masinõpe, eestikeelsed andmed) ja tähtaeg (8 nädalat). Kas see on realistlik, sõltub meeskonna oskustest ja ajast – seda tuleb ausalt hinnata.
+Vaata seda näidet: *„Luua projektiploki 9 tunni jooksul Teachable Machine'i abil prototüüp, mis sorteerib fotol kolme liiki jäätmeid (paber, plast, biojäätmed) ja tunneb 30 testpildist õigesti ära vähemalt 80%.“* Siin on konkreetne tulemus (jäätmesorteerija prototüüp), mõõdik (80% täpsus 30 testpildil), selge seos kursusega (masinõpe ja pildituvastus) ning tähtaeg (9 tundi). Eesmärk on ka realistlik: ülesanne on väike ja tööriist on tasuta. Suurem eesmärk, näiteks vestlusrobot Eesti ajaloo kohta, ei mahuks 9 tunni sisse – seepärast tasub alati ausalt hinnata, mida jõuate.
 
-![Viis veergu tähtedega S, M, A, R ja T: spetsiifiline, mõõdetav, asjakohane, realistlik ja tähtajaline; iga veeru all on vastav osa näidiseesmärgist, näiteks 80% täpsus ja 8 nädalat.](pildid/plokk_7/7_2_smart.svg "Joonis 7.2.1. SMART-eesmärk näite põhjal")
+![Viis veergu tähtedega S, M, A, R ja T: spetsiifiline, mõõdetav, asjakohane, realistlik ja tähtajaline; iga veeru all on vastav osa näidiseesmärgist, näiteks 80% täpsus 30 testpildil ja 9 tundi.](pildid/plokk_7/7_2_smart.svg "Joonis 7.2.1. SMART-eesmärk näite põhjal")
 
 Eesmärgi kõrval tuleb sõnastada **põhjendus ja olulisus**. Kirjelda, millist probleemi või vajadust lahendad ja miks see on oluline. Määratle **sihtrühm** – kellele projekt on suunatud ja millised on nende vajadused. Mõtle, mille poolest sinu lahendus erineb olemasolevatest ja millist uut väärtust see loob. Lõpuks mõtle, millist muutust soovid saavutada ja kuidas edu mõõdad.
 
@@ -22274,7 +22274,7 @@ Eesmärgi kõrval tuleb sõnastada **põhjendus ja olulisus**. Kirjelda, millist
 
 Seejärel jaga projekt **faasideks**:
 
-![Näidis-Gantti graafik kaheksa nädala kohta: planeerimine 1. nädalal, andmete kogumine ja analüüs 2.–3. nädalal, disain ja arendus 4.–5. nädalal, testimine ja hindamine 5.–6. nädalal, dokumenteerimine ja esitlemine 7. nädalal ning puhveraeg 8. nädalal; verstapostid on „andmed kogutud“ ja „prototüüp töötab“.](pildid/plokk_7/7_2_ajakava.svg "Joonis 7.2.2. Projekti faasid ajateljel (Gantti graafiku näide)")
+![Näidis-Gantti graafik projektiploki 9 tunni kohta: planeerimine 1.–2. tunnis, info või andmete kogumine 3.–4. tunnis, disain ja teostus 3.–6. tunnis, testimine ja parandamine 6. tunnis, dokumenteerimine 6.–7. tunnis, esitluse ettevalmistus 7. tunnis ning esitlus ja tagasiside 8.–9. tunnis; kodutöö kulgeb 2.–7. tunnini. Verstapostid on „info kogutud“, „vahekontroll“ ja „prototüüp töötab“; 7. tunnis on puhveraeg.](pildid/plokk_7/7_2_ajakava.svg "Joonis 7.2.2. Projekti faasid ajateljel (Gantti graafiku näide)")
 
 Igas faasis määratle konkreetsed **ülesanded**, nende selged tulemused ja vastutajad. Tuvasta **sõltuvused**: millised ülesanded saavad alata alles siis, kui teised on valmis? Näiteks ei saa mudelit treenida enne, kui andmed on kogutud. Sõltuvate ülesannete ahelat, mis määrab, kui kiiresti saab kogu projekti lõpetada, nimetatakse **kriitiliseks teeks** – kui selles ahelas miski hilineb, hilineb kogu projekt.
 
@@ -22694,7 +22694,7 @@ Riski olulisus sõltub sellest, kui tõenäoline see on ja kui suurt kahju see t
 <details>
 <summary>Vaata näidisvastust</summary>
 
-„Luua 6 nädala jooksul veebirakendus, mis tunneb fotolt ära kooli ümbruses kasvavad 5 puuliiki ja saavutab testandmetel vähemalt 80% täpsuse.“ Eesmärk on spetsiifiline (5 puuliiki, veebirakendus), mõõdetav (80% täpsus), asjakohane (seotud pilditöötlusega), realistlik (väike ja piiratud ülesanne) ning tähtajaline (6 nädalat). Algne eesmärk ei öelnud, mida täpselt tuvastatakse, mis on „hea“ ega millal see valmis peab olema.
+„Luua projektiploki 9 tunni jooksul Teachable Machine'i prototüüp, mis tunneb fotolt ära kooli ümbruses kasvavad 3 puuliiki ja saavutab 30 testpildil vähemalt 80% täpsuse.“ Eesmärk on spetsiifiline (3 puuliiki, prototüüp), mõõdetav (80% täpsus 30 testpildil), asjakohane (seotud pilditöötlusega), realistlik (väike ja piiratud ülesanne, tasuta tööriist) ning tähtajaline (9 tundi). Algne eesmärk ei öelnud, mida täpselt tuvastatakse, mis on „hea“ ega millal see valmis peab olema.
 
 </details>
 
@@ -22871,9 +22871,9 @@ Mudeli juures tuleb valida ka **hüperparameetrid** – seadistused, mille arend
 <!-- class="pae-fakt" -->
 > **Kas teadsid?** Versioonihaldus salvestab koodi kõik muudatused. Kui midagi läheb katki, saad minna tagasi eelmise versiooni juurde – nii ei lähe ükski töötav lahendus kaduma.
 
-Kõige olulisem on **<span class="pae-term" tabindex="0" data-def="iteratiivne arendus: Arendamine lühikeste tsüklitena koos pideva testimise ja kohandamisega">iteratiivne arendus</span>**: töötate lühikeste arendustsüklite kaupa, testite pidevalt ja kohandate lahendust tagasiside põhjal. Parem on iga nädal saada valmis väike töötav samm kui jätta kõik viimasele nädalale.
+Kõige olulisem on **<span class="pae-term" tabindex="0" data-def="iteratiivne arendus: Arendamine lühikeste tsüklitena koos pideva testimise ja kohandamisega">iteratiivne arendus</span>**: töötate lühikeste arendustsüklite kaupa, testite pidevalt ja kohandate lahendust tagasiside põhjal. Parem on igas tunnis saada valmis väike töötav samm kui jätta kõik viimasesse tundi.
 
-![Tsükkel neljast sammust, mis on ühendatud ringikujuliste nooltega: planeeri, arenda, testi ja kohanda; keskel kiri „iga nädal väike töötav samm“.](pildid/plokk_7/7_3_iteratsioon.svg "Joonis 7.3.3. Iteratiivse arenduse tsükkel")
+![Tsükkel neljast sammust, mis on ühendatud ringikujuliste nooltega: planeeri, arenda, testi ja kohanda; keskel kiri „iga tund väike töötav samm“.](pildid/plokk_7/7_3_iteratsioon.svg "Joonis 7.3.3. Iteratiivse arenduse tsükkel")
 
 <!-- class="pae-eesti" -->
 > **Eesti näide: eestikeelsed tööriistad**
@@ -23093,7 +23093,7 @@ Lõpuks mõtle **jätkusuutlikkusele** – projekti võimele jätkuda või arene
 <!-- class="pae-jaotis" -->
 **➕ VII. Praktiline ülesanne: arendusplaani koostamine**
 
-**Ülesanne 19.** Koosta detailne arendusplaan järgmiseks nädalaks, määrates konkreetsed ülesanded, tähtajad ja oodatavad tulemused.
+**Ülesanne 19.** Koosta detailne arendusplaan järgmisteks projektitundideks, määrates konkreetsed ülesanded, tähtajad ja oodatavad tulemused.
 
 | Päev | Ülesanded | Oodatavad tulemused | Võimalikud probleemid | Lahendused |
 |---|---|---|---|---|
@@ -23103,7 +23103,7 @@ Kirjuta iga päeva kohta eraldi reale: päev – ülesanded – oodatavad tulemu
 
 [[___ ___ ___ ___ ___]]
 
-**Ülesanne 20.** Millised on sinu prioriteedid järgmiseks nädalaks? Miks just need?
+**Ülesanne 20.** Millised on sinu prioriteedid järgmiseks projektitunniks? Miks just need?
 
 [[___ ___ ___]]
 
@@ -24573,7 +24573,7 @@ Projektitöö kestab **9 kontakttundi** ja koosneb viiest etapist. Kodus teete v
 | 7. | viimistlus ja kalibreerimine | viimistlete kirjaliku osa ja esitluse; teete kalibreerimisharjutuse (~15 min) | töö on esitatud ja esitlus on läbi harjutatud |
 | 8.–9. | esitlus ja tagasiside | esitlete tööd, hindate teiste rühmade töid ja kirjutate individuaalse refleksiooni | vastastikhinnangud ja refleksioonid on esitatud |
 
-![Ülevaade projektitööst: rühmas 3–4 õpilast, töö kestab umbes 7 nädalat ja valida saab 5 töövormi vahel. Ajajoonel viis etappi: 1. nädal rühm ja teema, 1.–2. nädal tööplaan, 3.–5. nädal uurimine ja teostus, 6. nädal aruanne ja esitlus, 7. nädal esitlus ja tagasiside. Hindamine: õpetaja hinnang 70 %, vastastikhindamine 20 % ja enesehindamine 10 %; hinde 5 saab 90–100 punkti eest. Kriteeriumid on sisu, metoodika ja teostus, esitlus, aruanne ning allikate kasutamine, igaühel neli taset.](pildid/plokk_7/7_juhend_ylevaade.svg "Joonis 7.J.1. Projektitöö ühe pilguga: rühm, ajakava ja hindamine")
+![Ülevaade projektitööst: rühmas 3–4 õpilast, 9 kontakttundi ja 4–6 tundi kodutööd, valida saab 3 raja ja 6 töövormi vahel. Ajajoon tundide kaupa: 1. tund rühm, rada ja teema; 2. tund tööplaan; 3.–4. tund uurimine ja teostus; 5. tund vahekontroll; 6. tund teostus ja testimine; 7. tund viimistlus ja harjutus; 8.–9. tund esitlus ja tagasiside. Rajad: A analüüs ja uurimine, B prototüüp, C arendus. Hindamine: õpetaja hinnang 70 %, kaaslased 20 %, enesehindamine 10 %; hinde 5 saab 90–100 punkti eest.](pildid/plokk_7/7_juhend_ylevaade.svg "Joonis 7.J.1. Projektitöö ühe pilguga: rühm, ajakava ja hindamine")
 
 **1. Rühmade moodustamine.** Rühmas on 3–4 õpilast. Rühmad moodustatakse teie eelistuste järgi või määrab need õpetaja. Jagage kohe alguses rollid (vt „Isikliku panuse jälgimine“).
 
@@ -25819,7 +25819,7 @@ Tulemusi saab jagada esitluste, publikatsioonide, sotsiaalmeedia ja avatud läht
 <details>
 <summary>Vaata näidisvastust</summary>
 
-a) Luua kuue nädala jooksul vestlusrobot, mis vastab 10. klassi õpilaste küsimustele kooli kodukorra kohta ja annab testküsimustele vähemalt 8 juhul 10-st õige vastuse. b) Õpilased ei leia kodukorrast vajalikku infot kiiresti üles ja küsivad samu küsimusi korduvalt; vestlusrobot säästab nii õpilaste kui ka õpetajate aega. c) 1. nädal: küsimuste kogumine õpilastelt; 2. nädal: vastuste koostamine kodukorra põhjal; 3.–4. nädal: vestlusroboti loomine; 5. nädal: testimine kaasõpilastega ja parandused; 6. nädal: dokumentatsioon ja esitlus. d) Arvutid, vestlusroboti loomise tööriist, kooli kodukord, ühine dokument ja tahvel ülesannete jälgimiseks. e) Robot annab valesid vastuseid – lahendus: testida paljude küsimustega ja lisada viide kodukorrale; ajakava venib – lahendus: jätta puhveraega ja seada vahe-eesmärgid; mõni rühmaliige jääb haigeks – lahendus: dokumenteerida tööd nii, et teised saaksid jätkata.
+a) Luua projektiploki 9 tunni jooksul vestlusroboti prototüüp, mis vastab 10. klassi õpilaste küsimustele kooli kodukorra kohta ja annab 10 testküsimusele vähemalt 8 korral õige vastuse. b) Õpilased ei leia kodukorrast vajalikku infot kiiresti üles ja küsivad samu küsimusi korduvalt; vestlusrobot säästab nii õpilaste kui ka õpetajate aega. c) 1. nädal: küsimuste kogumine õpilastelt; 2. nädal: vastuste koostamine kodukorra põhjal; 3.–4. nädal: vestlusroboti loomine; 5. nädal: testimine kaasõpilastega ja parandused; 6. nädal: dokumentatsioon ja esitlus. d) Arvutid, vestlusroboti loomise tööriist, kooli kodukord, ühine dokument ja tahvel ülesannete jälgimiseks. e) Robot annab valesid vastuseid – lahendus: testida paljude küsimustega ja lisada viide kodukorrale; ajakava venib – lahendus: jätta puhveraega ja seada vahe-eesmärgid; mõni rühmaliige jääb haigeks – lahendus: dokumenteerida tööd nii, et teised saaksid jätkata.
 
 </details>
 

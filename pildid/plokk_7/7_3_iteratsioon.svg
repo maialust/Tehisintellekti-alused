@@ -21,5 +21,5 @@
 <text x="300.0" y="335.0" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle"><tspan x="300.0" dy="0">Kohanda</tspan></text>
 <text x="300.0" y="364.0" font-size="18" font-weight="400" fill="#CCD4DE" text-anchor="middle"><tspan x="300.0" dy="0">tagasiside</tspan></text>
 <circle cx="500" cy="340" r="95" fill="#FFF4EC" stroke="#FF8B48" stroke-width="3"/>
-<text x="500" y="320" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500" dy="0">iga nädal</tspan><tspan x="500" dy="26">väike töötav</tspan><tspan x="500" dy="26">samm</tspan></text>
+<text x="500" y="320" font-size="21" font-weight="700" fill="#002959" text-anchor="middle"><tspan x="500" dy="0">iga tund</tspan><tspan x="500" dy="26">väike töötav</tspan><tspan x="500" dy="26">samm</tspan></text>
 </svg>

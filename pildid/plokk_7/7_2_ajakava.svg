@@ -1,43 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
-<defs><filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter><marker id="ao" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#FF8B48"/></marker><marker id="ab" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#33547A"/></marker><marker id="ag" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#2E8B57"/></marker><marker id="an" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 z" fill="#002959"/></marker><linearGradient id="gnavy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#002959"/><stop offset="1" stop-color="#33547A"/></linearGradient><linearGradient id="gor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8B48"/><stop offset="1" stop-color="#E67E42"/></linearGradient></defs>
+<defs><filter id="sh" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#002959" flood-opacity="0.18"/></filter></defs>
 <rect x="0" y="0" width="1000" height="560" rx="18" fill="#FFFFFF"/>
-<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Näide: ajakava Gantti graafikuna</text>
+<text x="40" y="58" font-size="32" font-weight="700" fill="#002959">Näide: projekti ajakava 9 tunni kohta</text>
 <rect x="40" y="72" width="90" height="6" rx="3" fill="#FF8B48"/>
-<rect x="300" y="120" width="80" height="340" fill="#EEF2F7"/>
-<text x="340.0" y="108" font-size="17" font-weight="600" fill="#33547A" text-anchor="middle"><tspan x="340.0" dy="0">1. näd</tspan></text>
-<rect x="380" y="120" width="80" height="340" fill="#FFFFFF"/>
-<text x="420.0" y="108" font-size="17" font-weight="600" fill="#33547A" text-anchor="middle"><tspan x="420.0" dy="0">2. näd</tspan></text>
-<rect x="460" y="120" width="80" height="340" fill="#EEF2F7"/>
-<text x="500.0" y="108" font-size="17" font-weight="600" fill="#33547A" text-anchor="middle"><tspan x="500.0" dy="0">3. näd</tspan></text>
-<rect x="540" y="120" width="80" height="340" fill="#FFFFFF"/>
-<text x="580.0" y="108" font-size="17" font-weight="600" fill="#33547A" text-anchor="middle"><tspan x="580.0" dy="0">4. näd</tspan></text>
-<rect x="620" y="120" width="80" height="340" fill="#EEF2F7"/>
-<text x="660.0" y="108" font-size="17" font-weight="600" fill="#33547A" text-anchor="middle"><tspan x="660.0" dy="0">5. näd</tspan></text>
-<rect x="700" y="120" width="80" height="340" fill="#FFFFFF"/>
-<text x="740.0" y="108" font-size="17" font-weight="600" fill="#33547A" text-anchor="middle"><tspan x="740.0" dy="0">6. näd</tspan></text>
-<rect x="780" y="120" width="80" height="340" fill="#EEF2F7"/>
-<text x="820.0" y="108" font-size="17" font-weight="600" fill="#33547A" text-anchor="middle"><tspan x="820.0" dy="0">7. näd</tspan></text>
-<rect x="860" y="120" width="80" height="340" fill="#FFFFFF"/>
-<text x="900.0" y="108" font-size="17" font-weight="600" fill="#33547A" text-anchor="middle"><tspan x="900.0" dy="0">8. näd</tspan></text>
-<text x="284" y="168" font-size="19" font-weight="600" fill="#002959" text-anchor="end"><tspan x="284" dy="0">Planeerimine</tspan></text>
-<rect x="304" y="142" width="72" height="40" rx="10" fill="#002959"/>
-<text x="284" y="221" font-size="19" font-weight="600" fill="#002959" text-anchor="end"><tspan x="284" dy="0">Andmete kogumine</tspan><tspan x="284" dy="22">ja analüüs</tspan></text>
-<rect x="384" y="206" width="152" height="40" rx="10" fill="#33547A"/>
-<text x="284" y="296" font-size="19" font-weight="600" fill="#002959" text-anchor="end"><tspan x="284" dy="0">Disain ja arendus</tspan></text>
-<rect x="544" y="270" width="152" height="40" rx="10" fill="#33547A"/>
-<text x="284" y="349" font-size="19" font-weight="600" fill="#002959" text-anchor="end"><tspan x="284" dy="0">Testimine ja</tspan><tspan x="284" dy="22">hindamine</tspan></text>
-<rect x="624" y="334" width="152" height="40" rx="10" fill="#33547A"/>
-<text x="284" y="413" font-size="19" font-weight="600" fill="#002959" text-anchor="end"><tspan x="284" dy="0">Dokumenteerimine</tspan><tspan x="284" dy="22">ja esitlemine</tspan></text>
-<rect x="784" y="398" width="72" height="40" rx="10" fill="#FF8B48"/>
-<rect x="864" y="398" width="72" height="40" rx="10" fill="#FFFFFF" stroke="#FF8B48" stroke-width="3" stroke-dasharray="7 5"/>
-<path d="M540,212 L554,226 L540,240 L526,226 z" fill="#FF8B48" stroke="#FFFFFF" stroke-width="2"/>
-<path d="M700,276 L714,290 L700,304 L686,290 z" fill="#FF8B48" stroke="#FFFFFF" stroke-width="2"/>
-<path d="M540,240 L540,276" stroke="#C0392B" stroke-width="3" fill="none" stroke-linecap="round"/>
-<path d="M70,466 L84,480 L70,494 L56,480 z" fill="#FF8B48" stroke="#FFFFFF" stroke-width="2"/>
-<text x="95" y="487" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="95" dy="0">verstapost</tspan></text>
-<rect x="260" y="466" width="44" height="28" rx="8" fill="#FFFFFF" stroke="#FF8B48" stroke-width="3" stroke-dasharray="7 5"/>
-<text x="318" y="487" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="318" dy="0">puhveraeg</tspan></text>
-<line x1="480" y1="466" x2="480" y2="494" stroke="#C0392B" stroke-width="3"/>
-<text x="498" y="487" font-size="19" font-weight="400" fill="#002959" text-anchor="start"><tspan x="498" dy="0">sõltuvus: arendus algab, kui andmed on olemas</tspan></text>
-<text x="70" y="530" font-size="18" font-weight="400" fill="#33547A" text-anchor="start"><tspan x="70" dy="0">Verstapostid: „andmed kogutud“ ja „prototüüp töötab“</tspan></text>
+<rect x="290" y="100" width="74" height="400" fill="#FFFFFF"/>
+<text x="327" y="122" font-size="15" text-anchor="middle" fill="#33547A" font-weight="600">1. t</text>
+<rect x="364" y="100" width="74" height="400" fill="#F7F9FC"/>
+<text x="402" y="122" font-size="15" text-anchor="middle" fill="#33547A" font-weight="600">2. t</text>
+<rect x="439" y="100" width="74" height="400" fill="#FFFFFF"/>
+<text x="476" y="122" font-size="15" text-anchor="middle" fill="#33547A" font-weight="600">3. t</text>
+<rect x="513" y="100" width="74" height="400" fill="#F7F9FC"/>
+<text x="551" y="122" font-size="15" text-anchor="middle" fill="#33547A" font-weight="600">4. t</text>
+<rect x="588" y="100" width="74" height="400" fill="#FFFFFF"/>
+<text x="625" y="122" font-size="15" text-anchor="middle" fill="#33547A" font-weight="600">5. t</text>
+<rect x="662" y="100" width="74" height="400" fill="#F7F9FC"/>
+<text x="699" y="122" font-size="15" text-anchor="middle" fill="#33547A" font-weight="600">6. t</text>
+<rect x="737" y="100" width="74" height="400" fill="#FFFFFF"/>
+<text x="774" y="122" font-size="15" text-anchor="middle" fill="#33547A" font-weight="600">7. t</text>
+<rect x="811" y="100" width="74" height="400" fill="#F7F9FC"/>
+<text x="848" y="122" font-size="15" text-anchor="middle" fill="#33547A" font-weight="600">8. t</text>
+<rect x="886" y="100" width="74" height="400" fill="#FFFFFF"/>
+<text x="923" y="122" font-size="15" text-anchor="middle" fill="#33547A" font-weight="600">9. t</text>
+<text x="40" y="162" font-size="16" fill="#002959">Planeerimine</text>
+<rect x="294" y="146" width="141" height="24" rx="8" fill="#002959"/>
+<text x="40" y="206" font-size="16" fill="#002959">Info või andmete kogumine</text>
+<rect x="443" y="190" width="141" height="24" rx="8" fill="#33547A"/>
+<text x="40" y="250" font-size="16" fill="#002959">Disain ja teostus</text>
+<rect x="443" y="234" width="290" height="24" rx="8" fill="#FF8B48"/>
+<text x="40" y="294" font-size="16" fill="#002959">Testimine ja parandamine</text>
+<rect x="666" y="278" width="66" height="24" rx="8" fill="#2E8B57"/>
+<text x="40" y="338" font-size="16" fill="#002959">Dokumenteerimine</text>
+<rect x="666" y="322" width="141" height="24" rx="8" fill="#6B4FA0"/>
+<text x="40" y="382" font-size="16" fill="#002959">Esitluse ettevalmistus</text>
+<rect x="741" y="366" width="66" height="24" rx="8" fill="#6B4FA0"/>
+<text x="40" y="426" font-size="16" fill="#002959">Esitlus ja tagasiside</text>
+<rect x="815" y="410" width="141" height="24" rx="8" fill="#002959"/>
+<text x="40" y="470" font-size="16" fill="#002959">Kodutöö (4–6 h)</text>
+<rect x="368" y="454" width="439" height="24" rx="8" fill="#F2B98F"/>
+<line x1="588" y1="132" x2="588" y2="496" stroke="#FF8B48" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="662" y1="132" x2="662" y2="496" stroke="#FF8B48" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="737" y1="132" x2="737" y2="496" stroke="#FF8B48" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M588 508 l10 10 l-10 10 l-10 -10 z" fill="#FF8B48"/>
+<text x="574" y="525" font-size="14" text-anchor="end" fill="#002959" font-weight="600">info kogutud</text>
+<path d="M662 508 l10 10 l-10 10 l-10 -10 z" fill="#FF8B48"/>
+<text x="676" y="544" font-size="14" fill="#002959" font-weight="600">vahekontroll</text>
+<path d="M737 508 l10 10 l-10 10 l-10 -10 z" fill="#FF8B48"/>
+<text x="751" y="525" font-size="14" fill="#002959" font-weight="600">prototüüp töötab</text>
+<text x="40" y="525" font-size="14" fill="#33547A">7. tunnis on ka puhveraeg</text>
 </svg>
