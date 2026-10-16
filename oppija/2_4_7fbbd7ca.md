@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.3.0
+version:  2.4.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -495,7 +495,7 @@ Süvaõpet kasutatakse **arvutinägemises** (pildituvastus, näotuvastus), **loo
 
 Süvaõppel on aga ka tõsiseid väljakutseid:
 
-- **Arvutusvõimsus ja energia** – suurte mudelite treenimiseks on vaja võimsaid graafikaprotsessoreid (GPU) või eriprotsessoreid (nt Google'i TPU) ning see kulutab palju energiat.
+- **Arvutusvõimsus ja energia** – suurte mudelite treenimiseks on vaja võimsaid graafikaprotsessoreid (GPU) või eriprotsessoreid (nt Google'i TPU) ning see kulutab palju energiat ja jahutusvett. Tehisaru keskkonnajalajäljest loed lähemalt tunnis 6.5.
 - **Andmevajadus** – süvaõpe vajab tohutuid, sageli märgendatud andmehulki, mille kogumine on kallis.
 - **„Musta kasti“ probleem** – isegi arendajad ei oska sageli selgitada, miks võrk just sellise otsuse tegi, sest otsus sünnib miljonite kaalude koosmõjus. See on eriti murettekitav meditsiinis ja õiguses.
 - **Kallutatus** – treeningandmete eelarvamused kanduvad mudelisse.

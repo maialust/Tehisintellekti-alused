@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.3.0
+version:  2.4.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -355,7 +355,7 @@ Enne iga tööriista või andmete kogumist kontrolli:
 | 6.2 | loe või vaata „Privaatsust säilitavad tehnoloogiad“. Soovi korral ka „Privaatsuse ja kasulikkuse tasakaal“ | „Mis on privaatsus TI ajastul?“, „Kuidas TI privaatsust ohustab?“, „Õiguslik raamistik: GDPR ja sinu õigused“ ja „Kokkuvõte ja põhimõisted“; 🧪 „Mida TI postitustest järeldab?“; ⭐ töölehe osad 2, 4 ja 5; 📤 pilet; 🔐 lukk | töölehe ülesanded – |
 | 6.3 | loe või vaata „Kuidas õiglust mõõta?“. Soovi korral ka „Kallutatuse tuvastamine ja vähendamine“, „Dilemmad ja reeglid“ | „Mis on kallutatus ja õiglus?“, „Kallutatuse tüübid ja näited“, „Miks kallutatus tekib?“ ja „Kokkuvõte ja põhimõisted“; 🧪 „Kes on arst ja kes õde?“; ⭐ töölehe osad 2, 5 ja 6; 📤 pilet; 🔐 lukk | töölehe ülesanded – |
 | 6.4 | loe või vaata „Mis on teisiti kui varem?“. Soovi korral ka „Erinevad sektorid“, „Ebavõrdsus ja vastutus“, „Tulevikustsenaariumid“, „Videod: kas tehisaru võtab töö ära?“ | „Kuidas TI tööturgu muudab?“, „Millised töökohad muutuvad?“, „Tuleviku oskused“ ja „Kokkuvõte ja põhimõisted“; 🧪 „Mida TI minu tulevases ametis teeks?“; ⭐ töölehe osad 2, 6 ja 7; 📤 pilet; 🔐 lukk | töölehe ülesanded – |
-| 6.5 | loe või vaata „Lühikese, keskmise ja pika aja trendid“. Soovi korral ka „Mõju ühiskonnale ja eetilised väljakutsed“, „TI ohutus“, „Kuidas tulevikuks valmistuda?“, „Videod: inimene ja tehisaru tulevikus“ | „Miks mõelda tulevikule – ja miks ettevaatlikult?“, „TI täna“, „TI reguleerimine“ ja „Kokkuvõte ja põhimõisted“; 🧪 „Kas nägu on päris?“; ⭐ töölehe osad 4, 6 ja 7; 📤 pilet; 🔐 lukk | töölehe ülesanded – |
+| 6.5 | loe või vaata „Lühikese, keskmise ja pika aja trendid“. Soovi korral ka „Mõju ühiskonnale ja eetilised väljakutsed“, „TI ohutus“, „Kuidas tulevikuks valmistuda?“, „Tehisaru keskkonnajalajälg“, „Videod: inimene ja tehisaru tulevikus“ | „Miks mõelda tulevikule – ja miks ettevaatlikult?“, „TI täna“, „TI reguleerimine“ ja „Kokkuvõte ja põhimõisted“; 🧪 „Kas nägu on päris?“; ⭐ töölehe osad 4, 6 ja 7; 📤 pilet; 🔐 lukk | töölehe ülesanded – |
 | 7.1 | loe või vaata „Mida sa nüüd oskad?“. Soovi korral ka „Projektitöö: teadmised tegudeks“, „Edasi õppima: tulevik ja karjäär“, „Video: miks ja kuidas õppida tehisaru ajastul?“ | „Kursuse teekond: mis on TI ja kuidas see töötab“, „Keel, otsused ja pildid“, „Eetika ja tulevik“ ning „Kokkuvõte ja põhimõisted“; 🧪 „Vestlusrobot kui kordamise treener“; ⭐ ülesanded I, IV ja V; 📤 pilet; 🔐 lukk | töölehe ülesanded II, III, VI, VII, VIII |
 | 7.2 | loe või vaata „Mis on projektitöö ja miks seda planeerida?“. Soovi korral ka „Ulatus, tegevused ja ajakava“, „Edukuse kriteeriumid ja projekti käivitamine“ | „Kuidas valida projekti teemat?“, „Eesmärk SMART-kriteeriumide järgi“, „Ressursid, rollid ja riskid“ ning „Kokkuvõte ja põhimõisted“; 🧪 „Kas idee on teostatav? Kiirproov Teachable Machine'is“; ⭐ ülesanded I, III ja VIII; 📤 pilet; 🔐 lukk | töölehe ülesanded II, IV, V, VI, VII, IX, X |
 | 7.3 | loe või vaata „Planeerimisest teostuseni“. Soovi korral ka „Lahenduse disain ja teostus“, „Dokumenteerimine ja väljakutsete lahendamine“, „Edenemise jälgimine ja jätkusuutlikkus“ | „Andmete kogumine ja ettevalmistamine“, „Treenimine, testimine ja hindamine“ ning „Kokkuvõte ja põhimõisted“; 🧪 „Testi närvivõrku piirjuhtumitega“; ⭐ ülesanded II, V ja X; 📤 pilet; 🔐 lukk | töölehe ülesanded I, III, IV, VI, VII, VIII, IX |

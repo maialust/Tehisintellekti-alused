@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.3.0
+version:  2.4.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -385,6 +385,7 @@ setTimeout(J.render, 50);
 | **alasobitamine** | Mudel on liiga lihtne ega taba andmete seaduspärasusi | 2.3 |
 | **algoritm** | Täpne juhiste jada probleemi lahendamiseks | 2.1 |
 | **algoritmi audit** | TI-süsteemi süstemaatiline kontroll kallutatuse ja vigade leidmiseks | 6.3 |
+| **andmekeskus** | Hoone, kus serverid ja graafikaprotsessorid treenivad TI-mudeleid ja vastavad päringutele | 6.5 |
 | **andmekirjaoskus** | Oskus andmeid lugeda, tõlgendada ja kriitiliselt hinnata | 6.4 |
 | **andmestik** | Andmete kogum, mida kasutatakse mudeli treenimiseks ja testimiseks | 2.2 |
 | **andmesubjekt** | Inimene, kelle isikuandmeid töödeldakse | 6.2 |
@@ -476,6 +477,7 @@ setTimeout(J.render, 50);
 | **kavatsuse tuvastamine** | Kasutaja soovi ehk kavatsuse äratundmine | 3.3 |
 | **keelemudel** | Mudel, mis ennustab sõnade tõenäosuslikku järjestust | 3.1 |
 | **keeletehnoloogia** | Inimkeelt töötlevate tehnoloogiate üldnimetus | 3.4 |
+| **keskkonnajalajälg** | Kui palju loodusvarasid (energiat, vett, tooraineid) tegevus kasutab ja kui palju heitmeid või jäätmeid see tekitab | 6.5 |
 | **klassifikatsioonipuu / regressioonipuu** | Puu, mis ennustab kategooriat / arvulist väärtust | 4.1 |
 | **klassifitseerimine** | Kategooria ennustamine (nt rämpspost / mitte rämpspost) | 2.3 |
 | **klasterdamine** | Sarnaste objektide rühmitamine ilma eelnevate märgenditeta | 2.3 |
@@ -597,6 +599,7 @@ setTimeout(J.render, 50);
 | **süvaõpe** | Masinõppe alamharu, mis kasutab mitmekihilisi närvivõrke | 1.1, 1.2, 2.4 |
 | **süvavõltsing (*deepfake*)** | Süvaõppe abil loodud võltsitud video, pilt või heli | 2.5, 5.5 |
 | **T** | | |
+| **tagasilöögiefekt** | Olukord, kus tõhususe kasv suurendab kasutust nii palju, et kogukulu ei vähene | 6.5 |
 | **tagasilevi** | Algoritm, mis arvutab, kuidas muuta kaalusid vea vähendamiseks | 2.4 |
 | **tagasiside** | Info tugevuste ja nõrkuste kohta edasise arengu toetamiseks | 7.5 |
 | **tagasisidesilmus** | Olukord, kus süsteemi otsused mõjutavad uusi andmeid ja see võimendab kallutatust | 6.3 |

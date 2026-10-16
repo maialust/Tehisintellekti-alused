@@ -1,7 +1,7 @@
 <!--
 author:   Maia Lust
 email:    
-version:  2.3.0
+version:  2.4.0
 language: et
 narrator: Estonian Female
 date:     08.10.2026
@@ -3997,13 +3997,13 @@ Vaadake kriteeriumitabel läbi **enne** katsetamist. Ennustage iga kriteeriumi h
 | Kallutatus | kas tulemused on eri rühmade, keelte või näidete puhul sama head | | |
 | Privaatsus ja andmekaitse | kas on vaja kontot või isikuandmeid; kuhu sisestatud andmed lähevad ja kas neid kasutatakse mudeli treenimiseks | | |
 | Ligipääsetavus | kas tööriist on tasuta, eesti keeles, töötab kooliarvutis või telefonis ja sobib ka erivajadusega kasutajale | | |
-| Keskkonnamõju | kas tööriist töötab sinu seadmes (nt veebilehitsejas) või suures andmekeskuses; kui palju päringuid tulemuse saamiseks kulus | | |
+| Keskkonnamõju | kas ülesanne vajab üldse suurt TI-mudelit või sobiks lihtsam tööriist; kas tööriist loob teksti või energiamahukaid pilte ja videoid; kas tööriist töötab sinu seadmes (nt veebilehitsejas) või suures andmekeskuses; kui palju päringuid tulemuse saamiseks kulus | | |
 | Vastavus kooli reeglitele | kas kool lubab tööriista kasutada; kas on vanusepiirang; kas kasutamine järgib isikuandmete kaitse üldmäärust ja kooli kodukorda | | |
 
 <!-- class="pae-jaotis" -->
 **2. Katse**
 
-1. Lugege tööriista kasutustingimused ja privaatsusteave (~5 min). Täitke nende põhjal kriteeriumid „Privaatsus ja andmekaitse“, „Ligipääsetavus“ ja „Vastavus kooli reeglitele“. Keskkonnamõju hindamiseks võite vaadata TI-Hüppe videot „Kui suur on tehisaru jalajälg?“ ([TI-Hüppe õppevideod](https://tihupe.ee/oppevideod/)).
+1. Lugege tööriista kasutustingimused ja privaatsusteave (~5 min). Täitke nende põhjal kriteeriumid „Privaatsus ja andmekaitse“, „Ligipääsetavus“ ja „Vastavus kooli reeglitele“. Keskkonnamõju hindamiseks kasutage tunni 6.5 lehekülge „Tehisaru keskkonnajalajälg“ ja selle küsimustikku „Kas see ülesanne vajab üldse tehisaru?“; soovi korral vaadake ka TI-Hüppe videot „Kui suur on tehisaru jalajälg?“ ([TI-Hüppe õppevideod](https://tihupe.ee/oppevideod/)).
 2. Tehke kolm **standardülesannet**, igaüht kaks korda, ja kirjutage tulemused tabelisse:
    - **A – tavaline töö:** tööriista põhiülesanne teie projekti näitel (nt vestlusrobot selgitab masinõpet 10. klassi õpilasele kolme lausega; Neurotõlge tõlgib teie projekti kolmelauselise kirjelduse; Teachable Machine'i kahe klassiga mudelit testite viie uue näitega; Quick, Draw! arvab ära kuus joonistust).
    - **B – kontrollitav fakt või piirjuhtum:** ülesanne, mille õiget vastust te teate (nt küsige vestlusrobotilt, mis aastal toimus Dartmouthi konverents ja kes seal osalesid; tõlkige eesti vanasõna; testige mudelit hämara või ebatavalise pildiga).
